@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghestrokecyrillic" format="2">
+  <advance width="783"/>
+  <unicode hex="0493"/>
+  <anchor x="315" y="537" name="cross"/>
+  <anchor x="216" y="0" name="cyrtic"/>
+  <anchor x="469" y="1076" name="top"/>
+  <outline>
+    <component base="ge-cy"/>
+    <component base="crossbar" xOffset="-110" yOffset="-187"/>
+  </outline>
+</glyph>

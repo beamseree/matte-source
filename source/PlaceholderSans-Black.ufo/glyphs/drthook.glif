@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="drthook" format="2">
+  <advance width="1300"/>
+  <unicode hex="0256"/>
+  <anchor x="661" y="0" name="bottom"/>
+  <anchor x="960" y="1288" name="cross"/>
+  <anchor x="497" y="1288" name="top"/>
+  <anchor x="1245" y="1490" name="topbar"/>
+  <anchor x="1252" y="0" name="bottomr"/>
+  <anchor x="1374" y="1490" name="raccent"/>
+  <outline>
+    <component base="d"/>
+    <component base="_part.bottom_rthook_d" xOffset="705"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>d</string>
+    </dict>
+  </lib>
+</glyph>

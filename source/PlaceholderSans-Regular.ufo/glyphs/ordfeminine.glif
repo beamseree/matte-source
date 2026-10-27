@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ordfeminine" format="2">
+  <advance width="915"/>
+  <unicode hex="00AA"/>
+  <anchor x="448" y="641" name="bottom"/>
+  <anchor x="812" y="641" name="ogonek"/>
+  <anchor x="450" y="1506" name="top"/>
+  <outline>
+    <contour>
+      <point x="363" y="625" type="curve" smooth="yes"/>
+      <point x="508" y="625"/>
+      <point x="594" y="684"/>
+      <point x="629" y="753" type="curve"/>
+      <point x="638" y="753" type="line"/>
+      <point x="638" y="641" type="line"/>
+      <point x="812" y="641" type="line"/>
+      <point x="812" y="1204" type="line" smooth="yes"/>
+      <point x="812" y="1448"/>
+      <point x="605" y="1516"/>
+      <point x="457" y="1516" type="curve" smooth="yes"/>
+      <point x="299" y="1516"/>
+      <point x="146" y="1443"/>
+      <point x="84" y="1280" type="curve"/>
+      <point x="252" y="1240" type="line"/>
+      <point x="278" y="1302"/>
+      <point x="345" y="1356"/>
+      <point x="460" y="1356" type="curve" smooth="yes"/>
+      <point x="573" y="1356"/>
+      <point x="633" y="1303"/>
+      <point x="633" y="1214" type="curve" smooth="yes"/>
+      <point x="633" y="1209" type="line" smooth="yes"/>
+      <point x="633" y="1147"/>
+      <point x="566" y="1145"/>
+      <point x="405" y="1127" type="curve" smooth="yes"/>
+      <point x="235" y="1109"/>
+      <point x="58" y="1050"/>
+      <point x="58" y="869" type="curve" smooth="yes"/>
+      <point x="58" y="709"/>
+      <point x="191" y="625"/>
+    </contour>
+    <contour>
+      <point x="402" y="763" type="curve" smooth="yes"/>
+      <point x="304" y="763"/>
+      <point x="233" y="800"/>
+      <point x="233" y="870" type="curve" smooth="yes"/>
+      <point x="233" y="943"/>
+      <point x="312" y="975"/>
+      <point x="416" y="987" type="curve" smooth="yes"/>
+      <point x="474" y="994"/>
+      <point x="608" y="1007"/>
+      <point x="634" y="1027" type="curve"/>
+      <point x="634" y="931" type="line" smooth="yes"/>
+      <point x="634" y="841"/>
+      <point x="548" y="763"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>75</integer>
+        <key>verticalShift</key>
+        <integer>665</integer>
+        <key>weight</key>
+        <integer>-20</integer>
+        <key>width</key>
+        <integer>80</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

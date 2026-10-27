@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="clear" format="2">
+  <advance width="2069"/>
+  <unicode hex="2327"/>
+  <note>
+Based on deleteleft
+</note>
+  <outline>
+    <contour>
+      <point x="199" y="0" type="line"/>
+      <point x="1869" y="0" type="line"/>
+      <point x="1869" y="1490" type="line"/>
+      <point x="199" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="247" y="46" type="line"/>
+      <point x="247" y="1442" type="line"/>
+      <point x="1823" y="1442" type="line"/>
+      <point x="1823" y="46" type="line"/>
+    </contour>
+    <contour>
+      <point x="1401" y="346" type="line"/>
+      <point x="1435" y="380" type="line"/>
+      <point x="669" y="1144" type="line"/>
+      <point x="635" y="1112" type="line"/>
+    </contour>
+    <contour>
+      <point x="669" y="346" type="line"/>
+      <point x="1435" y="1112" type="line"/>
+      <point x="1401" y="1144" type="line"/>
+      <point x="635" y="380" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

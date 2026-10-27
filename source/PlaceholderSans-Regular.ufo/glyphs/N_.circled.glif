@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N.circled" format="2">
+  <advance width="2810"/>
+  <unicode hex="24C3"/>
+  <anchor x="1399" y="0" name="bottom"/>
+  <anchor x="776" y="0" name="lfthook"/>
+  <anchor x="2022" y="0" name="lfthook2"/>
+  <anchor x="1399" y="1490" name="top"/>
+  <outline>
+    <component base="largeCircle"/>
+    <component base="N" xOffset="644"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>largeCircle</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>N</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

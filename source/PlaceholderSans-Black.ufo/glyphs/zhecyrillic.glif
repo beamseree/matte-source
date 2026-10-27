@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zhecyrillic" format="2">
+  <advance width="1870"/>
+  <unicode hex="0436"/>
+  <anchor x="1786" y="0" name="cyrtic"/>
+  <anchor x="935" y="1076" name="top"/>
+  <outline>
+    <contour>
+      <point x="20" y="0" type="line"/>
+      <point x="486" y="0" type="line"/>
+      <point x="717" y="387" type="line"/>
+      <point x="734" y="387" type="line"/>
+      <point x="734" y="0" type="line"/>
+      <point x="1136" y="0" type="line"/>
+      <point x="1136" y="387" type="line"/>
+      <point x="1154" y="387" type="line"/>
+      <point x="1385" y="0" type="line"/>
+      <point x="1850" y="0" type="line"/>
+      <point x="1495" y="569" type="line"/>
+      <point x="1850" y="1076" type="line"/>
+      <point x="1396" y="1076" type="line"/>
+      <point x="1156" y="684" type="line"/>
+      <point x="1136" y="684" type="line"/>
+      <point x="1136" y="1076" type="line"/>
+      <point x="734" y="1076" type="line"/>
+      <point x="734" y="684" type="line"/>
+      <point x="715" y="684" type="line"/>
+      <point x="474" y="1076" type="line"/>
+      <point x="20" y="1076" type="line"/>
+      <point x="375" y="569" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>x</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>x</string>
+    </dict>
+  </lib>
+</glyph>

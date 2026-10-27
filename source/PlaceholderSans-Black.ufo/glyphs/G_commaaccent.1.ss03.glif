@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gcommaaccent.1.ss03" format="2">
+  <advance width="1559"/>
+  <unicode hex="EE7C"/>
+  <anchor x="801" y="0" name="bottom"/>
+  <anchor x="1240" y="434" name="cross"/>
+  <anchor x="805" y="1490" name="top"/>
+  <anchor x="1505" y="998" name="topr"/>
+  <outline>
+    <component base="G.1"/>
+    <component base="commaaccent.ss03" xOffset="533"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>G.1</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>commaaccent.ss03</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

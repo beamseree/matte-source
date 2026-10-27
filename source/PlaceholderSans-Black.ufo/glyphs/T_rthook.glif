@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Trthook" format="2">
+  <advance width="1410"/>
+  <unicode hex="01AE"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="925" y="0" name="bottomr"/>
+  <anchor x="724" y="0" name="cedilla"/>
+  <anchor x="723" y="666" name="cross"/>
+  <anchor x="925" y="0" name="cyrtic"/>
+  <anchor x="872" y="0" name="right"/>
+  <anchor x="723" y="1490" name="top"/>
+  <outline>
+    <component base="T"/>
+    <component base="_part.bottom_rthook_uc" xOffset="415"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+    </dict>
+  </lib>
+</glyph>

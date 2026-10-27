@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="archdblsubcomb" format="2">
+  <unicode hex="EEAA"/>
+  <outline>
+    <contour>
+      <point x="-986" y="-114" type="line"/>
+      <point x="-986" y="-253"/>
+      <point x="-893" y="-353"/>
+      <point x="-767" y="-353" type="curve" smooth="yes"/>
+      <point x="-621" y="-353"/>
+      <point x="-539" y="-255"/>
+      <point x="-540" y="-114" type="curve"/>
+      <point x="-638" y="-114" type="line"/>
+      <point x="-638" y="-188"/>
+      <point x="-678" y="-237"/>
+      <point x="-767" y="-237" type="curve" smooth="yes"/>
+      <point x="-835" y="-237"/>
+      <point x="-889" y="-188"/>
+      <point x="-889" y="-114" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-638" y="-114" type="line"/>
+      <point x="-637" y="-253"/>
+      <point x="-558" y="-353"/>
+      <point x="-409" y="-353" type="curve" smooth="yes"/>
+      <point x="-281" y="-353"/>
+      <point x="-190" y="-253"/>
+      <point x="-190" y="-114" type="curve"/>
+      <point x="-287" y="-114" type="line"/>
+      <point x="-287" y="-188"/>
+      <point x="-342" y="-237"/>
+      <point x="-409" y="-237" type="curve" smooth="yes"/>
+      <point x="-500" y="-237"/>
+      <point x="-539" y="-186"/>
+      <point x="-540" y="-114" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

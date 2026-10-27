@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ncommaaccent.ss07" format="2">
+  <advance width="1455"/>
+  <anchor x="756" y="0" name="bottom"/>
+  <anchor x="171" y="0" name="lfthook"/>
+  <anchor x="1341" y="0" name="lfthook2"/>
+  <anchor x="756" y="1490" name="top"/>
+  <outline>
+    <component base="N"/>
+    <component base="commaaccent.ss07" xOffset="476"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.crossbar_compact" format="2">
+  <advance width="527"/>
+  <note>
+based on /crossbar with thinner stem for wght=900
+</note>
+  <anchor x="263" y="745" name="_cross"/>
+  <outline>
+    <contour>
+      <point x="34" y="723" type="line"/>
+      <point x="492" y="723" type="line"/>
+      <point x="492" y="767" type="line"/>
+      <point x="34" y="767" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+    </dict>
+  </lib>
+</glyph>

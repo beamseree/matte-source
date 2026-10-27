@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0243" format="2">
+  <advance width="1508"/>
+  <unicode hex="0243"/>
+  <note>
+effective LSB should be a little less than LSB of /t
+</note>
+  <anchor x="760" y="0" name="bottom"/>
+  <anchor x="390" y="480" name="cross"/>
+  <anchor x="760" y="1490" name="top"/>
+  <anchor x="153" y="1490" name="topl"/>
+  <outline>
+    <component base="B" xOffset="80"/>
+    <component base="_part.crossbar_compact" xOffset="43" yOffset="-265"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_part.crossbar_compact</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>B</string>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=+80</string>
+    </dict>
+  </lib>
+</glyph>

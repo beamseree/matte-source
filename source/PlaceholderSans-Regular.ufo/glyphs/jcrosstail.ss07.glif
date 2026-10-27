@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jcrosstail.ss07" format="2">
+  <advance width="651"/>
+  <unicode hex="E2D9"/>
+  <anchor x="357" y="-460" name="bottom"/>
+  <anchor x="458" y="575" name="cross"/>
+  <anchor x="554" y="0" name="ogonek"/>
+  <anchor x="428" y="1504" name="top"/>
+  <outline>
+    <component base="jcrosstail.ccmp"/>
+    <component base="dotaccentcomb.ss07" xOffset="195"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>jcrosstail.ccmp</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

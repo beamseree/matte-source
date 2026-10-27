@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iishortcyrillic" format="2">
+  <advance width="1283"/>
+  <unicode hex="0439"/>
+  <anchor x="1221" y="0" name="cyrtic"/>
+  <anchor x="631" y="1582" name="top"/>
+  <outline>
+    <component base="iicyrillic"/>
+    <component base="brevecomb" xOffset="163"/>
+  </outline>
+</glyph>

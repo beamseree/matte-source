@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravelowmod" format="2">
+  <advance width="619"/>
+  <unicode hex="02CE"/>
+  <anchor x="506" y="-482" name="_top"/>
+  <anchor x="502" y="-43" name="top"/>
+  <outline>
+    <component base="gravecomb" xOffset="166" yOffset="-1600"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>gravecomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

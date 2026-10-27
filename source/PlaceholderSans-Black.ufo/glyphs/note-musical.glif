@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="note-musical" format="2">
+  <advance width="1489"/>
+  <unicode hex="266A"/>
+  <outline>
+    <contour>
+      <point x="400" y="-167" type="curve" smooth="yes"/>
+      <point x="661" y="-167"/>
+      <point x="853" y="17"/>
+      <point x="853" y="221" type="curve"/>
+      <point x="541" y="221" type="line"/>
+      <point x="509" y="292"/>
+      <point x="422" y="355"/>
+      <point x="316" y="355" type="curve" smooth="yes"/>
+      <point x="157" y="355"/>
+      <point x="60" y="215"/>
+      <point x="60" y="86" type="curve" smooth="yes"/>
+      <point x="60" y="-80"/>
+      <point x="220" y="-167"/>
+    </contour>
+    <contour>
+      <point x="573" y="221" type="line"/>
+      <point x="853" y="221" type="line"/>
+      <point x="853" y="1230" type="line"/>
+      <point x="884" y="1230" type="line" smooth="yes"/>
+      <point x="1041" y="1230"/>
+      <point x="1169" y="1102"/>
+      <point x="1169" y="945" type="curve" smooth="yes"/>
+      <point x="1169" y="872"/>
+      <point x="1136" y="800"/>
+      <point x="1089" y="746" type="curve"/>
+      <point x="1283" y="574" type="line"/>
+      <point x="1366" y="666"/>
+      <point x="1429" y="800"/>
+      <point x="1429" y="945" type="curve" smooth="yes"/>
+      <point x="1429" y="1246"/>
+      <point x="1185" y="1490"/>
+      <point x="884" y="1490" type="curve" smooth="yes"/>
+      <point x="573" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|O</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron.ss02" format="2">
+  <advance width="369"/>
+  <unicode hex="E058"/>
+  <anchor x="267" y="0" name="bottom"/>
+  <anchor x="216" y="717" name="centerr"/>
+  <anchor x="194" y="739" name="cross"/>
+  <anchor x="355" y="1490" name="raccent"/>
+  <anchor x="193" y="1490" name="top"/>
+  <outline>
+    <component base="l.ss02"/>
+    <component base="commaaccentright.cn" xOffset="92"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>l.ss02</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

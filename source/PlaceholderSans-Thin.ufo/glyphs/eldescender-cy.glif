@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eldescender-cy" format="2">
+  <advance width="1108"/>
+  <unicode hex="052F"/>
+  <anchor x="572" y="0" name="bottom"/>
+  <anchor x="942" y="0" name="cyrtic"/>
+  <anchor x="604" y="1076" name="top"/>
+  <outline>
+    <component base="elcyrillic"/>
+    <component base="_part.cyrtic" xOffset="850"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>elcyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+10</string>
+    </dict>
+  </lib>
+</glyph>

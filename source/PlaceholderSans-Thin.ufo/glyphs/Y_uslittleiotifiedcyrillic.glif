@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yuslittleiotifiedcyrillic" format="2">
+  <advance width="1771"/>
+  <unicode hex="0468"/>
+  <outline>
+    <contour>
+      <point x="221" y="1490" type="line"/>
+      <point x="175" y="1490" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1139" y="559" type="line"/>
+      <point x="1093" y="559" type="line"/>
+      <point x="1093" y="0" type="line"/>
+      <point x="1139" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="509" y="0" type="line"/>
+      <point x="558" y="0" type="line"/>
+      <point x="1003" y="1154" type="line" smooth="yes"/>
+      <point x="1044" y="1261"/>
+      <point x="1084" y="1367"/>
+      <point x="1124" y="1474" type="curve"/>
+      <point x="1105" y="1474" type="line"/>
+      <point x="1145" y="1367"/>
+      <point x="1185" y="1261"/>
+      <point x="1226" y="1154" type="curve" smooth="yes"/>
+      <point x="1673" y="0" type="line"/>
+      <point x="1722" y="0" type="line"/>
+      <point x="1147" y="1490" type="line"/>
+      <point x="1083" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="198" y="536" type="line"/>
+      <point x="1497" y="536" type="line"/>
+      <point x="1497" y="582" type="line"/>
+      <point x="198" y="582" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>A</string>
+    </dict>
+  </lib>
+</glyph>

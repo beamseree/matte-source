@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscore" format="2">
+  <advance width="939"/>
+  <unicode hex="005F"/>
+  <note>
+Should align to the baseline at top
+</note>
+  <anchor x="469" y="158" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="939" y="0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="-183" type="line"/>
+      <point x="939" y="-183" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=0</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=0</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="utildeacute.1" format="2">
+  <advance width="1226"/>
+  <unicode hex="EE44"/>
+  <anchor x="653" y="0" name="bottom"/>
+  <anchor x="1219" y="446" name="ogonek"/>
+  <anchor x="653" y="1076" name="top"/>
+  <outline>
+    <component base="u.1"/>
+    <component base="tildeacute.lc" xOffset="130"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

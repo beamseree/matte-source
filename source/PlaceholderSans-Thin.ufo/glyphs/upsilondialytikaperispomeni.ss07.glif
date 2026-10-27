@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilondialytikaperispomeni.ss07" format="2">
+  <advance width="996"/>
+  <unicode hex="E2A8"/>
+  <anchor x="574" y="0" name="bottom"/>
+  <anchor x="978" y="355" name="ogonek"/>
+  <anchor x="574" y="1076" name="top"/>
+  <outline>
+    <component base="upsilon"/>
+    <component base="dialytikaperispomeni.ss07" xOffset="134"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Abrevedotbelow.ss07" format="2">
+  <advance width="1594"/>
+  <unicode hex="E1E2"/>
+  <anchor x="832" y="0" name="bottom"/>
+  <anchor x="1636" y="0" name="ogonek"/>
+  <anchor x="492" y="1490" name="tonos"/>
+  <anchor x="826" y="1954" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="brevecomb" xOffset="358" yOffset="372"/>
+    <component base="dotbelow.ss07" xOffset="479"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

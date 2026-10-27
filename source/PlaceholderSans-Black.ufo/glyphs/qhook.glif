@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qhook" format="2">
+  <advance width="1281"/>
+  <unicode hex="02A0"/>
+  <note>
+decomposed q + custom tail
+!post:removeoverlap
+</note>
+  <anchor x="1023" y="-401" name="bottom"/>
+  <anchor x="1029" y="-162" name="cross"/>
+  <anchor x="652" y="1076" name="top"/>
+  <anchor x="1227" y="1076" name="topr"/>
+  <outline>
+    <component base="q"/>
+    <component base="_part.top_r_hook" xOffset="708"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>q</string>
+    </dict>
+  </lib>
+</glyph>

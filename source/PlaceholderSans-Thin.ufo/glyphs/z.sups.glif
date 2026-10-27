@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z.sups" format="2">
+  <advance width="722"/>
+  <unicode hex="1DBB"/>
+  <anchor x="338" y="916" name="bottom"/>
+  <anchor x="619" y="916" name="bottomr"/>
+  <anchor x="349" y="1206" name="cross"/>
+  <anchor x="349" y="1499" name="top"/>
+  <outline>
+    <contour>
+      <point x="103" y="916" type="line"/>
+      <point x="619" y="916" type="line"/>
+      <point x="619" y="961" type="line"/>
+      <point x="166" y="961" type="line"/>
+      <point x="166" y="966" type="line"/>
+      <point x="598" y="1457" type="line"/>
+      <point x="598" y="1499" type="line"/>
+      <point x="132" y="1499" type="line"/>
+      <point x="132" y="1454" type="line"/>
+      <point x="538" y="1454" type="line"/>
+      <point x="538" y="1449" type="line"/>
+      <point x="103" y="955" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>10</integer>
+        <key>custom</key>
+        <integer>-3</integer>
+        <key>height</key>
+        <real>51.5</real>
+        <key>verticalShift</key>
+        <integer>916</integer>
+        <key>weight</key>
+        <integer>3</integer>
+        <key>width</key>
+        <integer>66</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

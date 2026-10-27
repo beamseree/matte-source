@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minus.sups" format="2">
+  <advance width="848"/>
+  <unicode hex="207B"/>
+  <outline>
+    <contour>
+      <point x="728" y="1346" type="line"/>
+      <point x="119" y="1346" type="line"/>
+      <point x="119" y="1192" type="line"/>
+      <point x="728" y="1192" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>20</integer>
+        <key>custom</key>
+        <integer>-4</integer>
+        <key>height</key>
+        <real>54.5</real>
+        <key>verticalShift</key>
+        <integer>940</integer>
+        <key>weight</key>
+        <integer>-20</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

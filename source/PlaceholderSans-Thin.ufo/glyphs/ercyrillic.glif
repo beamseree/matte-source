@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ercyrillic" format="2">
+  <advance width="1154"/>
+  <unicode hex="0440"/>
+  <anchor x="190" y="-418" name="bottom"/>
+  <anchor x="190" y="-162" name="cross"/>
+  <anchor x="611" y="1076" name="top"/>
+  <anchor x="212" y="1076" name="topr"/>
+  <outline>
+    <component base="p"/>
+  </outline>
+</glyph>

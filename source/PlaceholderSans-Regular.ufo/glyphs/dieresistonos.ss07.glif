@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresistonos.ss07" format="2">
+  <advance width="1329"/>
+  <unicode hex="E2BB"/>
+  <anchor x="664" y="1118" name="_top"/>
+  <anchor x="372" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="273" y="1289" type="line"/>
+      <point x="478" y="1289" type="line"/>
+      <point x="478" y="1504" type="line"/>
+      <point x="273" y="1504" type="line"/>
+    </contour>
+    <contour>
+      <point x="857" y="1289" type="line"/>
+      <point x="1062" y="1289" type="line"/>
+      <point x="1062" y="1504" type="line"/>
+      <point x="857" y="1504" type="line"/>
+    </contour>
+    <component base="tonos.top" xOffset="452" yOffset="225"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dieresiscomb.ss07</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dieresiscomb.ss07</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

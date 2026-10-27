@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yatcyrillic" format="2">
+  <advance width="1351"/>
+  <unicode hex="0463"/>
+  <outline>
+    <contour>
+      <point x="5" y="856" type="line"/>
+      <point x="995" y="856" type="line"/>
+      <point x="995" y="1076" type="line"/>
+      <point x="5" y="1076" type="line"/>
+    </contour>
+    <contour>
+      <point x="195" y="1076" type="line"/>
+      <point x="597" y="1076" type="line"/>
+      <point x="597" y="1490" type="line"/>
+      <point x="195" y="1490" type="line"/>
+    </contour>
+    <component base="softsigncyrillic" xOffset="105"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>softsigncyrillic</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PCP</string>
+    </dict>
+  </lib>
+</glyph>

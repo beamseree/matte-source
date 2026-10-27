@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chook" format="2">
+  <advance width="1493"/>
+  <unicode hex="0187"/>
+  <anchor x="785" y="0" name="cedilla"/>
+  <anchor x="779" y="745" name="center"/>
+  <anchor x="785" y="1490" name="top"/>
+  <anchor x="1397" y="1024" name="topr"/>
+  <outline>
+    <component base="C"/>
+    <component base="_part.top_r_hook_C" xOffset="1257"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>C</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N.squared" format="2">
+  <advance width="2809"/>
+  <unicode hex="1F13D"/>
+  <anchor x="1393" y="0" name="bottom"/>
+  <anchor x="677" y="0" name="lfthook"/>
+  <anchor x="2110" y="0" name="lfthook2"/>
+  <anchor x="1393" y="1490" name="top"/>
+  <outline>
+    <component base="whiteLargeSquare"/>
+    <component base="N" xOffset="608"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteLargeSquare</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>N</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

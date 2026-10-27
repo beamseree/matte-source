@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macrongravecomb.lc" format="2">
+  <unicode hex="EE9B"/>
+  <guideline y="1632"/>
+  <guideline y="1392"/>
+  <guideline y="1765"/>
+  <anchor x="400" y="1118" name="_top"/>
+  <outline>
+    <component base="macroncomb" yOffset="-24"/>
+    <component base="grave_compact" xScale="0.8" yScale="0.8" xOffset="-16" yOffset="627"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>macroncomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>grave_compact</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>751</integer>
+    </dict>
+  </lib>
+</glyph>

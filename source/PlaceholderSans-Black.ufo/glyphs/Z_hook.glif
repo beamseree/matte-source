@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zhook" format="2">
+  <advance width="1515"/>
+  <unicode hex="0224"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <anchor x="780" y="0" name="bottom"/>
+  <anchor x="1501" y="0" name="bottomr"/>
+  <anchor x="781" y="745" name="cross"/>
+  <anchor x="786" y="1490" name="top"/>
+  <outline>
+    <component base="Z"/>
+    <component base="_part.bottom_rthook_left_uc" xOffset="697"/>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q_rthook" format="2">
+  <advance width="1513"/>
+  <unicode hex="024A"/>
+  <note>
+Composed by O and a vertical stem with tail
+</note>
+  <anchor x="1380" y="0" name="bottomr"/>
+  <outline>
+    <component base="_part.q_big"/>
+    <component base="_part.bottom_rthook" xOffset="1046"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+    </dict>
+  </lib>
+</glyph>

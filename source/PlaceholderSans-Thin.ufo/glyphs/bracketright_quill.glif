@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright_quill" format="2">
+  <advance width="523"/>
+  <unicode hex="2046"/>
+  <guideline x="76" y="2144" angle="0"/>
+  <guideline x="76" y="-416" angle="0"/>
+  <anchor x="345" y="651" name="cross"/>
+  <outline>
+    <component base="bracketright"/>
+    <component base="_part.brackquill_right" xOffset="-28"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>bracketright</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>bracketright</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>bracketright</string>
+    </dict>
+  </lib>
+</glyph>

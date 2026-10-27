@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qofdagesh" format="2">
+  <advance width="802"/>
+  <unicode hex="02DF"/>
+  <outline>
+    <contour>
+      <point x="241" y="1144" type="line"/>
+      <point x="713" y="1606" type="line"/>
+      <point x="567" y="1752" type="line"/>
+      <point x="93" y="1292" type="line"/>
+    </contour>
+    <contour>
+      <point x="561" y="1140" type="line"/>
+      <point x="709" y="1288" type="line"/>
+      <point x="241" y="1754" type="line"/>
+      <point x="93" y="1606" type="line"/>
+    </contour>
+  </outline>
+</glyph>

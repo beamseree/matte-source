@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pamphyliandigamma" format="2">
+  <advance width="1575"/>
+  <unicode hex="0376"/>
+  <anchor x="790" y="0" name="bottom"/>
+  <anchor x="1506" y="0" name="lfthook"/>
+  <anchor x="73" y="0" name="lfthook2"/>
+  <anchor x="741" y="1490" name="top"/>
+  <anchor x="1420" y="0" name="cyrtic"/>
+  <outline>
+    <component base="Ii-cy"/>
+  </outline>
+</glyph>

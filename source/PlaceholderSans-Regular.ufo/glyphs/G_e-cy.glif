@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ge-cy" format="2">
+  <advance width="1150"/>
+  <unicode hex="0413"/>
+  <note>
+cross anchor should be in sync with /D
+See also: /Gamma
+</note>
+  <anchor x="363" y="745" name="cross"/>
+  <anchor x="340" y="0" name="cyrtic"/>
+  <anchor x="609" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="1076" y="1490" type="line"/>
+      <point x="136" y="1490" type="line"/>
+      <point x="136" y="0" type="line"/>
+      <point x="340" y="0" type="line"/>
+      <point x="340" y="1300" type="line"/>
+      <point x="1076" y="1300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+    </dict>
+  </lib>
+</glyph>

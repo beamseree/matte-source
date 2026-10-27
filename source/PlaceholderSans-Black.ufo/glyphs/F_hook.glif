@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Fhook" format="2">
+  <advance width="1171"/>
+  <unicode hex="0191"/>
+  <anchor x="275" y="0" name="bottom"/>
+  <anchor x="275" y="250" name="cross"/>
+  <anchor x="73" y="0" name="lfthook"/>
+  <anchor x="649" y="1490" name="top"/>
+  <outline>
+    <component base="F"/>
+    <component base="_part.bottom_lfthook_uc" xOffset="-239"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>F</string>
+    </dict>
+  </lib>
+</glyph>

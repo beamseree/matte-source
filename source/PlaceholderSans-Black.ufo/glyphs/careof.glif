@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="careof" format="2">
+  <advance width="2115"/>
+  <unicode hex="2105"/>
+  <anchor x="1655" y="0" name="bottom"/>
+  <anchor x="465" y="862" name="cedilla"/>
+  <anchor x="1655" y="327" name="center"/>
+  <anchor x="1655" y="654" name="top"/>
+  <anchor x="823" y="1265" name="topr"/>
+  <anchor x="2042" y="325" name="ogonek"/>
+  <anchor x="1655" y="658" name="tophorn"/>
+  <outline>
+    <component base="c.sups" yOffset="-24"/>
+    <component base="fraction" xOffset="804"/>
+    <component base="o.subs" xOffset="1195" yOffset="314"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>c.sups</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>o.subs</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>c.sups</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o.subs</string>
+    </dict>
+  </lib>
+</glyph>

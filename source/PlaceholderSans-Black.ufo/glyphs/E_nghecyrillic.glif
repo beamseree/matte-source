@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Enghecyrillic" format="2">
+  <advance width="2096"/>
+  <unicode hex="04A4"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <anchor x="758" y="0" name="bottom"/>
+  <anchor x="273" y="0" name="cedilla"/>
+  <anchor x="1443" y="0" name="cyrtic"/>
+  <anchor x="1039" y="0" name="lfthook"/>
+  <anchor x="1443" y="0" name="right"/>
+  <anchor x="73" y="1490" name="tonos"/>
+  <anchor x="758" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="2057" y="1490" type="line"/>
+      <point x="1044" y="1490" type="line"/>
+      <point x="1384" y="1164" type="line"/>
+      <point x="2057" y="1164" type="line"/>
+    </contour>
+    <component base="H"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t.sc" format="2">
+  <advance width="959"/>
+  <unicode hex="1D1B"/>
+  <note>
+used by cyrillic glyphs
+</note>
+  <anchor x="578" y="0" name="cyrtic"/>
+  <anchor x="480" y="1118" name="top"/>
+  <outline>
+    <contour>
+      <point x="383" y="0" type="line"/>
+      <point x="578" y="0" type="line"/>
+      <point x="578" y="937" type="line"/>
+      <point x="942" y="937" type="line"/>
+      <point x="942" y="1118" type="line"/>
+      <point x="17" y="1118" type="line"/>
+      <point x="17" y="937" type="line"/>
+      <point x="383" y="937" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|t</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Small</string>
+    </dict>
+  </lib>
+</glyph>

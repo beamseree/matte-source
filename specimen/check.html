@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup Overlay Check</title>
+<style>
+  @font-face { font-family: "Placeholder Sans"; src: url("../build/PlaceholderSans-VF.ttf"); font-weight: 100 900; }
+  body { margin: 0; background: #1f1f1f; overflow: hidden; }
+  /* ?x=<svg units> scrolls the view; ?s=<scale> zooms (default 2.4) */
+  .inner { position: absolute; top: 8px; width: 1069px; height: 97px; transform-origin: 0 0; }
+  .inner img { position: absolute; inset: 0; width: 1069px; height: 97px; }
+  .inner span {
+    position: absolute; font: 400 44.43px/44.43px "Placeholder Sans"; white-space: nowrap;
+    color: transparent; -webkit-text-stroke: 0.35px #ff4d55;
+  }
+</style>
+</head>
+<body>
+<div class="inner" id="inner">
+  <img src="mockup.svg" alt="">
+  <span style="left:-1.584px;top:-5.514px">quick brown fox jumps over the lazy dog</span>
+  <span style="left:-1.841px;top:56.486px">QUICK BROWN FOX JUMPS OVER THE LAZY DOG</span>
+</div>
+<script>
+  const q = new URLSearchParams(location.search);
+  const s = +(q.get("s") || 2.4), x = +(q.get("x") || 0);
+  inner.style.transform = `scale(${s})`;
+  inner.style.left = `${-x * s}px`;
+</script>
+</body>
+</html>

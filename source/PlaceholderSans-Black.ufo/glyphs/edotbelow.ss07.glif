@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="edotbelow.ss07" format="2">
+  <advance width="1207"/>
+  <unicode hex="E239"/>
+  <anchor x="617" y="0" name="bottom"/>
+  <anchor x="623" y="0" name="cedilla"/>
+  <anchor x="1170" y="299" name="ogonek"/>
+  <anchor x="617" y="1076" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="dotbelow.ss07" xOffset="290"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

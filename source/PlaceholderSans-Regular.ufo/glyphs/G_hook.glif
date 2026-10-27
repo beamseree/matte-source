@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ghook" format="2">
+  <advance width="1586"/>
+  <unicode hex="0193"/>
+  <anchor x="819" y="0" name="bottom"/>
+  <anchor x="1225" y="398" name="cross"/>
+  <anchor x="823" y="1490" name="top"/>
+  <anchor x="1481" y="1019" name="topr"/>
+  <outline>
+    <component base="G"/>
+    <component base="_part.top_r_hook_G" xOffset="1213"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>G</string>
+    </dict>
+  </lib>
+</glyph>

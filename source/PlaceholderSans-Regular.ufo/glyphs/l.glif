@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l" format="2">
+  <advance width="480"/>
+  <unicode hex="006C"/>
+  <anchor x="232" y="0" name="bottom"/>
+  <anchor x="330" y="0" name="bottomr"/>
+  <anchor x="330" y="717" name="centerr"/>
+  <anchor x="232" y="739" name="cross"/>
+  <anchor x="473" y="1490" name="raccent"/>
+  <anchor x="233" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="330" y="1490" type="line"/>
+      <point x="136" y="1490" type="line"/>
+      <point x="136" y="0" type="line"/>
+      <point x="330" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|l</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="koronis" format="2">
+  <advance width="475"/>
+  <unicode hex="1FBD"/>
+  <note>
+greek koronis
+</note>
+  <anchor x="190" y="1118" name="_top"/>
+  <outline>
+    <component base="dasia" xScale="-1" xOffset="475"/>
+  </outline>
+</glyph>

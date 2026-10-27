@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteleft" format="2">
+  <advance width="687"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="146" y="824" type="line"/>
+      <point x="526" y="824" type="line"/>
+      <point x="614" y="1490" type="line"/>
+      <point x="354" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|quoteleft*0.5</string>
+    </dict>
+  </lib>
+</glyph>

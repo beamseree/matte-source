@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thook" format="2">
+  <advance width="632"/>
+  <unicode hex="01AD"/>
+  <note>
+Recipe:
+1. add &amp; decompose /t
+2. remove all anchors but top and bottom (move top anchor up to cap-height "Top anchors" guide)
+3. lower top
+</note>
+  <anchor x="361" y="1118" name="_topr"/>
+  <anchor x="351" y="0" name="bottom"/>
+  <anchor x="304" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="165" y="1076" type="line"/>
+      <point x="165" y="272" type="line" smooth="yes"/>
+      <point x="165" y="98"/>
+      <point x="289" y="-15"/>
+      <point x="474" y="-15" type="curve" smooth="yes"/>
+      <point x="522" y="-15"/>
+      <point x="573" y="-6"/>
+      <point x="609" y="8" type="curve"/>
+      <point x="571" y="180" type="line"/>
+      <point x="542" y="174"/>
+      <point x="518" y="172"/>
+      <point x="495" y="172" type="curve" smooth="yes"/>
+      <point x="394" y="172"/>
+      <point x="350" y="216"/>
+      <point x="350" y="315" type="curve" smooth="yes"/>
+      <point x="350" y="1076" type="line"/>
+    </contour>
+    <contour>
+      <point x="587" y="1076" type="line"/>
+      <point x="-1" y="1076" type="line"/>
+      <point x="-1" y="909" type="line"/>
+      <point x="587" y="909" type="line"/>
+    </contour>
+    <component base="_part.top_r_hook" xOffset="36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_part.top_r_hook</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+    </dict>
+  </lib>
+</glyph>

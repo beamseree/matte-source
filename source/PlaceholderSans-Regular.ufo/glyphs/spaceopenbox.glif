@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="spaceopenbox" format="2">
+  <advance width="1454"/>
+  <unicode hex="2423"/>
+  <outline>
+    <contour>
+      <point x="131" y="-325" type="line"/>
+      <point x="1324" y="-325" type="line"/>
+      <point x="1324" y="140" type="line"/>
+      <point x="1142" y="140" type="line"/>
+      <point x="1142" y="-143" type="line"/>
+      <point x="314" y="-143" type="line"/>
+      <point x="314" y="140" type="line"/>
+      <point x="131" y="140" type="line"/>
+    </contour>
+  </outline>
+</glyph>

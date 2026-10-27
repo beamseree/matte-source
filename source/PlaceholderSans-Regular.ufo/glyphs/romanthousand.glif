@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="romanthousand" format="2">
+  <advance width="1850"/>
+  <unicode hex="216F"/>
+  <anchor x="916" y="0" name="bottom"/>
+  <anchor x="1692" y="0" name="cyrtic"/>
+  <anchor x="916" y="1490" name="top"/>
+  <outline>
+    <component base="M"/>
+  </outline>
+</glyph>

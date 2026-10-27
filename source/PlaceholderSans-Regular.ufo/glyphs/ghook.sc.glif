@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghook.sc" format="2">
+  <advance width="1177"/>
+  <unicode hex="029B"/>
+  <anchor x="574" y="0" name="bottom"/>
+  <anchor x="867" y="307" name="cross"/>
+  <anchor x="577" y="1118" name="top"/>
+  <anchor x="1048" y="760" name="topr"/>
+  <outline>
+    <component base="g.sc"/>
+    <component base="_part.top_r_hook_g_sc" xOffset="804"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+70</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Small</string>
+    </dict>
+  </lib>
+</glyph>

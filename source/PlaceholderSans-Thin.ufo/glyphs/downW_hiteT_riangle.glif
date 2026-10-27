@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downWhiteTriangle" format="2">
+  <advance width="1961"/>
+  <unicode hex="25BD"/>
+  <outline>
+    <contour>
+      <point x="77" y="1490" type="line"/>
+      <point x="979" y="-94" type="line"/>
+      <point x="1883" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="157" y="1442" type="line"/>
+      <point x="1803" y="1442" type="line"/>
+      <point x="979" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>triagup</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>triagup</string>
+    </dict>
+  </lib>
+</glyph>

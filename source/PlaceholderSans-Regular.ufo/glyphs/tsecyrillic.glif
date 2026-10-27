@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tsecyrillic" format="2">
+  <advance width="1194"/>
+  <unicode hex="0446"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <anchor x="1037" y="0" name="cyrtic"/>
+  <anchor x="586" y="0" name="cyrtic_center"/>
+  <outline>
+    <component base="pecyrillicturn"/>
+    <component base="_part.cyrtic" xOffset="856"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>idotless</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+30</string>
+    </dict>
+  </lib>
+</glyph>

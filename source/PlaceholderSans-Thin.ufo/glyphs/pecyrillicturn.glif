@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pecyrillicturn" format="2">
+  <advance width="1120"/>
+  <unicode hex="EED3"/>
+  <anchor x="950" y="0" name="cyrtic"/>
+  <anchor x="560" y="0" name="cyrtic_center"/>
+  <outline>
+    <contour>
+      <point x="170" y="0" type="line"/>
+      <point x="950" y="0" type="line"/>
+      <point x="950" y="1118" type="line"/>
+      <point x="904" y="1118" type="line"/>
+      <point x="904" y="46" type="line"/>
+      <point x="216" y="46" type="line"/>
+      <point x="216" y="1118" type="line"/>
+      <point x="170" y="1118" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+    </dict>
+  </lib>
+</glyph>

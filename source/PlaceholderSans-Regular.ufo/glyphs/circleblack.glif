@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circleblack" format="2">
+  <advance width="1825"/>
+  <unicode hex="25CF"/>
+  <outline>
+    <contour>
+      <point x="912" y="-23" type="curve" smooth="yes"/>
+      <point x="1336" y="-23"/>
+      <point x="1680" y="321"/>
+      <point x="1680" y="745" type="curve" smooth="yes"/>
+      <point x="1680" y="1169"/>
+      <point x="1336" y="1513"/>
+      <point x="912" y="1513" type="curve" smooth="yes"/>
+      <point x="488" y="1513"/>
+      <point x="144" y="1169"/>
+      <point x="144" y="745" type="curve" smooth="yes"/>
+      <point x="144" y="321"/>
+      <point x="488" y="-23"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|circleblack</string>
+    </dict>
+  </lib>
+</glyph>

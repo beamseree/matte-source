@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kjecyrillic" format="2">
+  <advance width="1211"/>
+  <unicode hex="045C"/>
+  <anchor x="1178" y="0" name="cyrtic"/>
+  <anchor x="601" y="1582" name="top"/>
+  <outline>
+    <component base="kacyrillic"/>
+    <component base="acutecomb" xOffset="321"/>
+  </outline>
+</glyph>

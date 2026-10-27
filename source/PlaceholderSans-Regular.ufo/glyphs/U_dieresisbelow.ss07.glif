@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresisbelow.ss07" format="2">
+  <advance width="1436"/>
+  <unicode hex="E214"/>
+  <anchor x="750" y="0" name="bottom"/>
+  <anchor x="1343" y="511" name="ogonek"/>
+  <anchor x="839" y="0" name="right"/>
+  <anchor x="1139" y="1490" name="rtophorn"/>
+  <anchor x="750" y="1490" name="top"/>
+  <outline>
+    <component base="U"/>
+    <component base="dotdblsubcomb.ss07" xOffset="128"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

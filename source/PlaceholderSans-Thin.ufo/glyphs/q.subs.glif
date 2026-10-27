@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="q.subs" format="2">
+  <advance width="789"/>
+  <unicode hex="E0AE"/>
+  <anchor x="642" y="-499" name="bottom"/>
+  <anchor x="642" y="-367" name="cross"/>
+  <anchor x="398" y="299" name="top"/>
+  <anchor x="665" y="299" name="topr"/>
+  <outline>
+    <component base="q.sups" yOffset="-1200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>q.sups</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.divfrac" format="2">
+  <advance width="1402"/>
+  <anchor x="703" y="745" name="_center"/>
+  <outline>
+    <contour>
+      <point x="368" y="87" type="line"/>
+      <point x="1292" y="1188" type="line"/>
+      <point x="1034" y="1403" type="line"/>
+      <point x="110" y="302" type="line"/>
+    </contour>
+  </outline>
+</glyph>

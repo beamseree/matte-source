@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J.circled" format="2">
+  <advance width="2645"/>
+  <unicode hex="24BF"/>
+  <anchor x="1549" y="884" name="cross"/>
+  <anchor x="1550" y="1490" name="top"/>
+  <outline>
+    <component base="largeCircle"/>
+    <component base="J" xOffset="805"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>largeCircle</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>J</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

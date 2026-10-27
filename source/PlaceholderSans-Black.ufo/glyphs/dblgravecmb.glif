@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblgravecmb" format="2">
+  <unicode hex="030F"/>
+  <note>
+Should be designed as a balance between isolated ideal spacing (to appear as one unit, not two separate strokes) yet is must work with /dieresis as it's used for /hungarumlaut
+</note>
+  <anchor x="722" y="1118" name="_top"/>
+  <anchor x="722" y="1582" name="top"/>
+  <outline>
+    <contour>
+      <point x="774" y="1256" type="line"/>
+      <point x="1038" y="1256" type="line"/>
+      <point x="940" y="1582" type="line"/>
+      <point x="614" y="1582" type="line"/>
+    </contour>
+    <contour>
+      <point x="404" y="1256" type="line"/>
+      <point x="676" y="1256" type="line"/>
+      <point x="506" y="1582" type="line"/>
+      <point x="146" y="1582" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>grave</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>grave</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1184</integer>
+    </dict>
+  </lib>
+</glyph>

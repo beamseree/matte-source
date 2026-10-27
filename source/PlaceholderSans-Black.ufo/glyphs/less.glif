@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less" format="2">
+  <advance width="1372"/>
+  <unicode hex="003C"/>
+  <note>
+Recipe: Make rect and rotate 63deg (regular) or 69deg (black)
+</note>
+  <guideline x="408" y="832" angle="0"/>
+  <outline>
+    <contour>
+      <point x="137" y="430" type="line"/>
+      <point x="1219" y="-2" type="line"/>
+      <point x="1219" y="364" type="line"/>
+      <point x="531" y="602" type="line"/>
+      <point x="543" y="584" type="line"/>
+      <point x="543" y="626" type="line"/>
+      <point x="531" y="608" type="line"/>
+      <point x="1219" y="846" type="line"/>
+      <point x="1219" y="1214" type="line"/>
+      <point x="137" y="780" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>plus</string>
+    </dict>
+  </lib>
+</glyph>

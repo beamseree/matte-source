@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lacute.ss02" format="2">
+  <advance width="630"/>
+  <unicode hex="E056"/>
+  <anchor x="344" y="0" name="bottom"/>
+  <anchor x="489" y="717" name="centerr"/>
+  <anchor x="288" y="760" name="cross"/>
+  <anchor x="607" y="1490" name="raccent"/>
+  <anchor x="266" y="1954" name="top"/>
+  <outline>
+    <component base="l.ss02"/>
+    <component base="acutecomb" xOffset="-14" yOffset="372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>l.ss02</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

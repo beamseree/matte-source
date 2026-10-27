@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rdotbelowmacron" format="2">
+  <advance width="827"/>
+  <unicode hex="1E5D"/>
+  <anchor x="302" y="0" name="bottom"/>
+  <anchor x="499" y="0" name="bottomr"/>
+  <anchor x="298" y="516" name="cross"/>
+  <anchor x="437" y="1532" name="top"/>
+  <outline>
+    <component base="r"/>
+    <component base="dotbelow" xOffset="-18"/>
+    <component base="macroncomb" xOffset="37"/>
+  </outline>
+</glyph>

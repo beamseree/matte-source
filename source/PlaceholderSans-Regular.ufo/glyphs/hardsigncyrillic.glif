@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hardsigncyrillic" format="2">
+  <advance width="1302"/>
+  <unicode hex="044A"/>
+  <outline>
+    <contour>
+      <point x="-4" y="909" type="line"/>
+      <point x="393" y="909" type="line"/>
+      <point x="393" y="1076" type="line"/>
+      <point x="-4" y="1076" type="line"/>
+    </contour>
+    <component base="softsigncyrillic" xOffset="174"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

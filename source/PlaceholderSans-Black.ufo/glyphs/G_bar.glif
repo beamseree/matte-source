@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gbar" format="2">
+  <advance width="1589"/>
+  <unicode hex="01E4"/>
+  <anchor x="837" y="0" name="bottom"/>
+  <anchor x="1282" y="434" name="cross"/>
+  <anchor x="841" y="1490" name="top"/>
+  <anchor x="1550" y="998" name="topr"/>
+  <outline>
+    <component base="G"/>
+    <component base="_part.crossbar_compact_rext" xOffset="762" yOffset="-286"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_part.crossbar_compact_rext</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>G</string>
+    </dict>
+  </lib>
+</glyph>

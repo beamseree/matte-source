@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="m.subs" format="2">
+  <advance width="1169"/>
+  <unicode hex="2098"/>
+  <anchor x="585" y="-284" name="bottom"/>
+  <anchor x="999" y="-284" name="lfthook"/>
+  <anchor x="585" y="299" name="top"/>
+  <outline>
+    <component base="m.sups" yOffset="-1200"/>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thook.base" format="2">
+  <advance width="1297"/>
+  <unicode hex="EE0C"/>
+  <guideline x="972" y="956" angle="90"/>
+  <guideline x="703" y="703" angle="90"/>
+  <anchor x="593" y="1490" name="top"/>
+  <anchor x="354" y="1490" name="topl"/>
+  <outline>
+    <contour>
+      <point x="354" y="1164" type="line"/>
+      <point x="392" y="1164" type="line"/>
+      <point x="392" y="0" type="line"/>
+      <point x="796" y="0" type="line"/>
+      <point x="796" y="1164" type="line"/>
+      <point x="1255" y="1164" type="line"/>
+      <point x="1255" y="1490" type="line"/>
+      <point x="354" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+    </dict>
+  </lib>
+</glyph>

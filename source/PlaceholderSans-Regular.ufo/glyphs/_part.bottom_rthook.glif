@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.bottom_rthook" format="2">
+  <advance width="629"/>
+  <note>
+All /_part.bottom_rthook* glyphs are slight variations on this glyph
+</note>
+  <anchor x="304" y="0" name="_bottomr"/>
+  <outline>
+    <contour>
+      <point x="408" y="-429" type="curve" smooth="yes"/>
+      <point x="454" y="-429"/>
+      <point x="497" y="-424"/>
+      <point x="519" y="-418" type="curve"/>
+      <point x="519" y="-250" type="line"/>
+      <point x="497" y="-254"/>
+      <point x="475" y="-255"/>
+      <point x="457" y="-255" type="curve" smooth="yes"/>
+      <point x="348" y="-255"/>
+      <point x="304" y="-226"/>
+      <point x="304" y="-157" type="curve" smooth="yes"/>
+      <point x="304" y="0" type="line"/>
+      <point x="110" y="0" type="line"/>
+      <point x="110" y="-157" type="line" smooth="yes"/>
+      <point x="110" y="-334"/>
+      <point x="214" y="-429"/>
+    </contour>
+  </outline>
+</glyph>

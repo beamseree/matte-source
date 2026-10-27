@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FEA" format="2">
+  <advance width="1427"/>
+  <unicode hex="1FEA"/>
+  <anchor x="794" y="0" name="bottom"/>
+  <anchor x="794" y="379" name="cross"/>
+  <anchor x="896" y="0" name="ogonek"/>
+  <anchor x="162" y="1490" name="tonos"/>
+  <anchor x="793" y="1490" name="top"/>
+  <outline>
+    <component base="Y" xOffset="150"/>
+    <component base="uni1FEF.tonos" xOffset="-399"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni1FEF.tonos</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=+150</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mhook" format="2">
+  <advance width="1720"/>
+  <unicode hex="0271"/>
+  <anchor x="854" y="0" name="bottom"/>
+  <anchor x="1517" y="0" name="lfthook"/>
+  <anchor x="854" y="1076" name="top"/>
+  <outline>
+    <component base="m"/>
+    <component base="_part.bottom_lfthook" xOffset="1220"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>m</string>
+    </dict>
+  </lib>
+</glyph>

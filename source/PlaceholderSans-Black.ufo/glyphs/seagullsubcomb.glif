@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seagullsubcomb" format="2">
+  <advance width="30"/>
+  <unicode hex="EEC5"/>
+  <note>
+position under "x".
+offset curve settings:
+L: 32,32,0%
+R: 70,80,0%
+B: 110,90,0%
+</note>
+  <guideline x="-840" y="-260" angle="90"/>
+  <outline>
+    <contour>
+      <point x="-530" y="-350" type="line"/>
+      <point x="-531" y="-268"/>
+      <point x="-484" y="-226"/>
+      <point x="-402" y="-226" type="curve" smooth="yes"/>
+      <point x="-322" y="-226"/>
+      <point x="-275" y="-268"/>
+      <point x="-274" y="-350" type="curve"/>
+      <point x="-114" y="-350" type="line"/>
+      <point x="-114" y="-191"/>
+      <point x="-239" y="-94"/>
+      <point x="-402" y="-94" type="curve" smooth="yes"/>
+      <point x="-567" y="-94"/>
+      <point x="-691" y="-191"/>
+      <point x="-690" y="-350" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-946" y="-350" type="line"/>
+      <point x="-947" y="-268"/>
+      <point x="-900" y="-226"/>
+      <point x="-818" y="-226" type="curve" smooth="yes"/>
+      <point x="-738" y="-226"/>
+      <point x="-691" y="-268"/>
+      <point x="-690" y="-350" type="curve"/>
+      <point x="-530" y="-350" type="line"/>
+      <point x="-530" y="-191"/>
+      <point x="-655" y="-94"/>
+      <point x="-818" y="-94" type="curve" smooth="yes"/>
+      <point x="-983" y="-94"/>
+      <point x="-1107" y="-191"/>
+      <point x="-1106" y="-350" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="diamondwhite_x" format="2">
+  <advance width="2105"/>
+  <unicode hex="E000"/>
+  <outline>
+    <contour>
+      <point x="506" y="314" type="line"/>
+      <point x="936" y="744" type="line"/>
+      <point x="506" y="1170" type="line"/>
+      <point x="76" y="744" type="line"/>
+    </contour>
+    <contour>
+      <point x="506" y="382" type="line"/>
+      <point x="142" y="744" type="line"/>
+      <point x="506" y="1106" type="line"/>
+      <point x="870" y="744" type="line"/>
+    </contour>
+    <contour>
+      <point x="1058" y="-232" type="line"/>
+      <point x="1484" y="192" type="line"/>
+      <point x="1058" y="622" type="line"/>
+      <point x="628" y="192" type="line"/>
+    </contour>
+    <contour>
+      <point x="1058" y="-168" type="line"/>
+      <point x="694" y="192" type="line"/>
+      <point x="1058" y="556" type="line"/>
+      <point x="1420" y="192" type="line"/>
+    </contour>
+    <contour>
+      <point x="1606" y="314" type="line"/>
+      <point x="2030" y="744" type="line"/>
+      <point x="1606" y="1170" type="line"/>
+      <point x="1180" y="744" type="line"/>
+    </contour>
+    <contour>
+      <point x="1606" y="382" type="line"/>
+      <point x="1248" y="744" type="line"/>
+      <point x="1606" y="1102" type="line"/>
+      <point x="1966" y="744" type="line"/>
+    </contour>
+    <contour>
+      <point x="1058" y="866" type="line"/>
+      <point x="1484" y="1292" type="line"/>
+      <point x="1058" y="1722" type="line"/>
+      <point x="628" y="1292" type="line"/>
+    </contour>
+    <contour>
+      <point x="1058" y="934" type="line"/>
+      <point x="694" y="1292" type="line"/>
+      <point x="1058" y="1656" type="line"/>
+      <point x="1420" y="1292" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>diamondblack</string>
+    </dict>
+  </lib>
+</glyph>

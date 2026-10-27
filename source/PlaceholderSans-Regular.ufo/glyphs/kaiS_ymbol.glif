@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaiSymbol" format="2">
+  <advance width="1077"/>
+  <unicode hex="03D7"/>
+  <note>
+built from /kappa with a copy of the lower right leg, mirrored
+</note>
+  <outline>
+    <contour>
+      <point x="674" y="-434" type="line"/>
+      <point x="1046" y="0" type="line"/>
+      <point x="516" y="595" type="line"/>
+      <point x="405" y="454" type="line"/>
+      <point x="823" y="3" type="line"/>
+      <point x="565" y="-332" type="line"/>
+    </contour>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="330" y="0" type="line"/>
+      <point x="330" y="1076" type="line"/>
+      <point x="136" y="1076" type="line"/>
+    </contour>
+    <contour>
+      <point x="260" y="447" type="line"/>
+      <point x="511" y="447" type="line"/>
+      <point x="1053" y="1076" type="line"/>
+      <point x="817" y="1076" type="line"/>
+      <point x="431" y="625" type="line"/>
+      <point x="260" y="625" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>k</string>
+    </dict>
+  </lib>
+</glyph>

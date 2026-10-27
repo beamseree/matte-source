@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaverticalstrokecyrillic" format="2">
+  <advance width="1198"/>
+  <unicode hex="049D"/>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="330" y="0" type="line"/>
+      <point x="330" y="435" type="line"/>
+      <point x="666" y="435" type="line"/>
+      <point x="948" y="0" type="line"/>
+      <point x="1174" y="0" type="line"/>
+      <point x="810" y="551" type="line"/>
+      <point x="1168" y="1076" type="line"/>
+      <point x="942" y="1076" type="line"/>
+      <point x="633" y="620" type="line"/>
+      <point x="330" y="620" type="line"/>
+      <point x="330" y="1076" type="line"/>
+      <point x="136" y="1076" type="line"/>
+    </contour>
+    <contour>
+      <point x="434" y="813" type="line"/>
+      <point x="434" y="239" type="line"/>
+      <point x="594" y="239" type="line"/>
+      <point x="594" y="813" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>k</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downArrowToBar" format="2">
+  <advance width="1663"/>
+  <unicode hex="2913"/>
+  <outline>
+    <contour>
+      <point x="174" y="0" type="line"/>
+      <point x="1489" y="0" type="line"/>
+      <point x="1489" y="185" type="line"/>
+      <point x="174" y="185" type="line"/>
+    </contour>
+    <contour>
+      <point x="744" y="763" type="line" smooth="yes"/>
+      <point x="744" y="675"/>
+      <point x="761" y="576"/>
+      <point x="777" y="495" type="curve"/>
+      <point x="812" y="471" type="line"/>
+      <point x="735" y="570"/>
+      <point x="607" y="737"/>
+      <point x="505" y="840" type="curve" smooth="yes"/>
+      <point x="298" y="1043" type="line"/>
+      <point x="176" y="914" type="line"/>
+      <point x="831" y="256" type="line"/>
+      <point x="1486" y="915" type="line"/>
+      <point x="1365" y="1043" type="line"/>
+      <point x="1158" y="840" type="line" smooth="yes"/>
+      <point x="1055" y="735"/>
+      <point x="927" y="570"/>
+      <point x="851" y="471" type="curve"/>
+      <point x="885" y="495" type="line"/>
+      <point x="902" y="576"/>
+      <point x="919" y="675"/>
+      <point x="919" y="763" type="curve" smooth="yes"/>
+      <point x="919" y="1490" type="line"/>
+      <point x="744" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>upArrow</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>upArrow</string>
+    </dict>
+  </lib>
+</glyph>

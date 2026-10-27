@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jhookdblbar" format="2">
+  <advance width="723"/>
+  <unicode hex="0284"/>
+  <anchor x="328" y="75" name="cross"/>
+  <outline>
+    <component base="esh"/>
+    <component base="crossbar" xOffset="-135" yOffset="-676"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FCE.tonos" format="2">
+  <advance width="489"/>
+  <unicode hex="EE95"/>
+  <anchor x="647" y="1557" name="_tonos"/>
+  <outline>
+    <component base="psilioxia"/>
+  </outline>
+</glyph>

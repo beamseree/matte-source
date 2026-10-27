@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dz" format="2">
+  <advance width="2215"/>
+  <unicode hex="01F3"/>
+  <anchor x="1668" y="0" name="bottom"/>
+  <anchor x="1686" y="537" name="cross"/>
+  <anchor x="1686" y="1076" name="top"/>
+  <anchor x="1007" y="1490" name="topbar"/>
+  <anchor x="2117" y="0" name="bottomr"/>
+  <anchor x="1133" y="1490" name="raccent"/>
+  <outline>
+    <component base="d"/>
+    <component base="z" xOffset="1181"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>d</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>z</string>
+    </dict>
+  </lib>
+</glyph>

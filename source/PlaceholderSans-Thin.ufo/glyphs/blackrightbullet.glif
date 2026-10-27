@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackrightbullet" format="2">
+  <advance width="1194"/>
+  <unicode hex="204D"/>
+  <outline>
+    <contour>
+      <point x="549" y="212" type="line" smooth="yes"/>
+      <point x="810" y="212"/>
+      <point x="953" y="365"/>
+      <point x="953" y="594" type="curve" smooth="yes"/>
+      <point x="953" y="822"/>
+      <point x="810" y="974"/>
+      <point x="549" y="974" type="curve" smooth="yes"/>
+      <point x="249" y="974" type="line"/>
+      <point x="249" y="928" type="line"/>
+      <point x="435" y="928" type="line"/>
+      <point x="435" y="258" type="line"/>
+      <point x="249" y="258" type="line"/>
+      <point x="249" y="212" type="line"/>
+    </contour>
+    <contour>
+      <point x="297" y="212" type="line"/>
+      <point x="297" y="974" type="line"/>
+      <point x="249" y="974" type="line"/>
+      <point x="249" y="212" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|blackleftbullet</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|blackleftbullet</string>
+    </dict>
+  </lib>
+</glyph>

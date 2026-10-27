@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright" format="2">
+  <advance width="588"/>
+  <unicode hex="005D"/>
+  <guideline x="-46" y="2144" angle="0"/>
+  <guideline x="-46" y="-416" angle="0"/>
+  <guideline y="651" name="Mid center"/>
+  <anchor x="345" y="651" name="cross"/>
+  <outline>
+    <contour>
+      <point x="136" y="-280" type="line"/>
+      <point x="368" y="-280" type="line"/>
+      <point x="368" y="1582" type="line"/>
+      <point x="136" y="1582" type="line"/>
+      <point x="136" y="1534" type="line"/>
+      <point x="322" y="1534" type="line"/>
+      <point x="322" y="-234" type="line"/>
+      <point x="136" y="-234" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|bracketleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|bracketleft</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="carondot.uc" format="2">
+  <advance width="794"/>
+  <unicode hex="EECD"/>
+  <anchor x="409" y="1490" name="_top"/>
+  <outline>
+    <component base="carondot.lc" yOffset="372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

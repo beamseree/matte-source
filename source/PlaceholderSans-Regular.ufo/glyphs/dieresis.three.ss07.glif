@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresis.three.ss07" format="2">
+  <advance width="1543"/>
+  <unicode hex="E2C7"/>
+  <guideline x="558" y="1984" angle="0"/>
+  <guideline x="131" y="1420" angle="0"/>
+  <anchor x="800" y="1118" name="_top"/>
+  <anchor x="800" y="1504" name="top"/>
+  <outline>
+    <component base="dotaccentcomb.ss07" xOffset="147"/>
+    <component base="dotaccentcomb.ss07" xOffset="538"/>
+    <component base="dotaccentcomb.ss07" xOffset="929"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotaccentcomb.ss07</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dotaccentcomb.ss07</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dieresiscomb.ss07</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dieresiscomb.ss07</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

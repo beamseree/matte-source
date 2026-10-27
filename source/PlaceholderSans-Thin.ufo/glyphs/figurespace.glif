@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="figurespace" format="2">
+  <advance width="1167"/>
+  <unicode hex="2007"/>
+  <note>
+space equal to tabular width of a font this is equivalent to the digit width of fonts with fixed-width digits
+</note>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

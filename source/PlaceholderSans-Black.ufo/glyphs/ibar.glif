@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibar" format="2">
+  <advance width="502"/>
+  <unicode hex="0268"/>
+  <guideline x="523.875"/>
+  <anchor x="292" y="0" name="bottom"/>
+  <anchor x="286" y="588" name="cross"/>
+  <anchor x="489" y="0" name="ogonek"/>
+  <anchor x="254" y="1600" name="top"/>
+  <outline>
+    <component base="i"/>
+    <component base="crossbar" xOffset="-288" yOffset="-135"/>
+  </outline>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="percent" format="2">
+  <advance width="2111"/>
+  <unicode hex="0025"/>
+  <outline>
+    <component base="_zero_percent" xOffset="100"/>
+    <component base="fraction" xOffset="818"/>
+    <component base="_zero_percent1" xOffset="1222"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=+100</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+100</string>
+    </dict>
+  </lib>
+</glyph>

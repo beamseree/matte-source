@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="romantwo" format="2">
+  <advance width="988"/>
+  <unicode hex="2161"/>
+  <anchor x="739" y="0" name="bottom"/>
+  <anchor x="739" y="772" name="cross"/>
+  <anchor x="841" y="0" name="ogonek"/>
+  <anchor x="858" y="0" name="right"/>
+  <anchor x="637" y="1490" name="tonos"/>
+  <anchor x="739" y="1490" name="top"/>
+  <outline>
+    <component base="I"/>
+    <component base="I" xOffset="494"/>
+  </outline>
+</glyph>

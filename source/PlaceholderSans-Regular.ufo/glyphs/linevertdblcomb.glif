@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="linevertdblcomb" format="2">
+  <unicode hex="EEBD"/>
+  <outline>
+    <component base="linevert" xOffset="-840"/>
+    <component base="linevert" xOffset="-592"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

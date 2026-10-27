@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="endescendercyrillic" format="2">
+  <advance width="1128"/>
+  <unicode hex="04A3"/>
+  <anchor x="569" y="0" name="bottom"/>
+  <anchor x="962" y="0" name="cyrtic"/>
+  <anchor x="916" y="0" name="lfthook"/>
+  <anchor x="569" y="1118" name="top"/>
+  <outline>
+    <component base="encyrillic"/>
+    <component base="_part.cyrtic" xOffset="870"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+10</string>
+    </dict>
+  </lib>
+</glyph>

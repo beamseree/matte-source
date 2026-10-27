@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="X.circled" format="2">
+  <advance width="2922"/>
+  <unicode hex="24CD"/>
+  <anchor x="1435" y="-1" name="bottom"/>
+  <anchor x="1435" y="761" name="cross"/>
+  <anchor x="2076" y="0" name="cyrtic"/>
+  <anchor x="1435" y="1490" name="top"/>
+  <outline>
+    <component base="largeCircle"/>
+    <component base="X" xOffset="717"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>largeCircle</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>X</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

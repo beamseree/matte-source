@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hbar" format="2">
+  <advance width="1712"/>
+  <unicode hex="0126"/>
+  <anchor x="842" y="0" name="bottom"/>
+  <anchor x="357" y="0" name="cedilla"/>
+  <anchor x="1527" y="0" name="cyrtic"/>
+  <anchor x="1123" y="0" name="lfthook"/>
+  <anchor x="1527" y="0" name="right"/>
+  <anchor x="157" y="1490" name="tonos"/>
+  <anchor x="842" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="1660" y="1268" type="line"/>
+      <point x="34" y="1268" type="line"/>
+      <point x="34" y="1076" type="line"/>
+      <point x="1660" y="1076" type="line"/>
+    </contour>
+    <component base="H" xOffset="84"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

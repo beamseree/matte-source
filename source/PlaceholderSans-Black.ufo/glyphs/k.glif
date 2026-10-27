@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k" format="2">
+  <advance width="1219"/>
+  <unicode hex="006B"/>
+  <anchor x="608" y="0" name="bottom"/>
+  <anchor x="285" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="444" y="243" type="line"/>
+      <point x="653" y="508" type="line"/>
+      <point x="767" y="508" type="line"/>
+      <point x="1218" y="1076" type="line"/>
+      <point x="766" y="1076" type="line"/>
+      <point x="500" y="723" type="line"/>
+      <point x="444" y="723" type="line"/>
+    </contour>
+    <contour>
+      <point x="84" y="0" type="line"/>
+      <point x="486" y="0" type="line"/>
+      <point x="486" y="1490" type="line"/>
+      <point x="84" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="770" y="0" type="line"/>
+      <point x="1227" y="0" type="line"/>
+      <point x="779" y="705" type="line"/>
+      <point x="517" y="417" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ncurl" format="2">
+  <advance width="1478"/>
+  <unicode hex="0235"/>
+  <anchor x="567" y="0" name="bottom"/>
+  <anchor x="1019" y="0" name="bottomr"/>
+  <anchor x="117" y="0" name="lfthook"/>
+  <anchor x="567" y="1076" name="top"/>
+  <anchor x="311" y="1076" name="topr"/>
+  <outline>
+    <component base="n"/>
+    <component base="_part.curl_sw" xOffset="522"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+320</string>
+    </dict>
+  </lib>
+</glyph>

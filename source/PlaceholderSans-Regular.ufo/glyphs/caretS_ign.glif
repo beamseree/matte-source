@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caretSign" format="2">
+  <advance width="922"/>
+  <unicode hex="2038"/>
+  <outline>
+    <contour>
+      <point x="443" y="-267" type="line"/>
+      <point x="513" y="-99" type="line"/>
+      <point x="386" y="-99" type="line"/>
+      <point x="81" y="-549" type="line"/>
+      <point x="266" y="-549" type="line"/>
+    </contour>
+    <contour>
+      <point x="657" y="-549" type="line"/>
+      <point x="842" y="-549" type="line"/>
+      <point x="536" y="-99" type="line"/>
+      <point x="407" y="-99" type="line"/>
+      <point x="477" y="-267" type="line"/>
+    </contour>
+  </outline>
+</glyph>

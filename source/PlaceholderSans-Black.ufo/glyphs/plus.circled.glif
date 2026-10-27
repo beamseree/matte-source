@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plus.circled" format="2">
+  <advance width="2839"/>
+  <unicode hex="2295"/>
+  <outline>
+    <contour>
+      <point x="1255" y="62" type="line"/>
+      <point x="1581" y="62" type="line"/>
+      <point x="1581" y="1428" type="line"/>
+      <point x="1255" y="1428" type="line"/>
+    </contour>
+    <contour>
+      <point x="736" y="590" type="line"/>
+      <point x="2100" y="590" type="line"/>
+      <point x="2100" y="900" type="line"/>
+      <point x="736" y="900" type="line"/>
+    </contour>
+    <component base="largeCircle"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>largeCircle</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>largeCircle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>largeCircle</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+    </dict>
+  </lib>
+</glyph>

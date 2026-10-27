@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="P.squared" format="2">
+  <advance width="2875"/>
+  <unicode hex="1F13F"/>
+  <anchor x="862" y="1490" name="tonos"/>
+  <anchor x="1426" y="1490" name="top"/>
+  <anchor x="900" y="1490" name="topl"/>
+  <outline>
+    <component base="whiteLargeSquare"/>
+    <component base="P" xOffset="746"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteLargeSquare</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>P</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

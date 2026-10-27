@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutedblcomb" format="2">
+  <advance width="984"/>
+  <unicode hex="EEA7"/>
+  <note>
+Match /dblgravecmb.
+See /hungarumlaut for non-combining variant
+</note>
+  <anchor x="390" y="1118" name="_top"/>
+  <anchor x="390" y="1561" name="top"/>
+  <outline>
+    <component base="dblgravecmb" xScale="-1" xOffset="984"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dblgravecmb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FDD.tonos" format="2">
+  <advance width="646"/>
+  <unicode hex="EE94"/>
+  <anchor x="845" y="1558" name="_tonos"/>
+  <outline>
+    <component base="dasiavaria"/>
+  </outline>
+</glyph>

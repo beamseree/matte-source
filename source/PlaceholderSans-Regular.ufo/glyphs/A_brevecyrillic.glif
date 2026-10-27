@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Abrevecyrillic" format="2">
+  <advance width="1438"/>
+  <unicode hex="04D0"/>
+  <anchor x="733" y="0" name="bottom"/>
+  <anchor x="1428" y="0" name="ogonek"/>
+  <anchor x="507" y="1490" name="tonos"/>
+  <anchor x="739" y="1933" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="brevecomb" xOffset="357" yOffset="372"/>
+  </outline>
+</glyph>

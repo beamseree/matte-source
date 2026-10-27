@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="digamma" format="2">
+  <advance width="1067"/>
+  <unicode hex="03DD"/>
+  <outline>
+    <contour>
+      <point x="136" y="-418" type="line"/>
+      <point x="330" y="-418" type="line"/>
+      <point x="330" y="340" type="line"/>
+      <point x="959" y="340" type="line"/>
+      <point x="959" y="521" type="line"/>
+      <point x="330" y="521" type="line"/>
+      <point x="330" y="896" type="line"/>
+      <point x="959" y="896" type="line"/>
+      <point x="959" y="1076" type="line"/>
+      <point x="136" y="1076" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
+</glyph>

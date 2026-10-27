@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Softsign-cy" format="2">
+  <advance width="1220"/>
+  <unicode hex="042C"/>
+  <note>
+Rougly speaking, half a /B
+</note>
+  <anchor x="289" y="1176" name="cross"/>
+  <outline>
+    <contour>
+      <point x="201" y="840" type="line"/>
+      <point x="201" y="794" type="line"/>
+      <point x="694" y="794" type="line" smooth="yes"/>
+      <point x="932" y="794"/>
+      <point x="1076" y="626"/>
+      <point x="1076" y="421" type="curve" smooth="yes"/>
+      <point x="1076" y="202"/>
+      <point x="932" y="46"/>
+      <point x="694" y="46" type="curve" smooth="yes"/>
+      <point x="221" y="46" type="line"/>
+      <point x="221" y="1490" type="line"/>
+      <point x="175" y="1490" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="694" y="0" type="line" smooth="yes"/>
+      <point x="957" y="0"/>
+      <point x="1122" y="175"/>
+      <point x="1122" y="421" type="curve" smooth="yes"/>
+      <point x="1122" y="652"/>
+      <point x="957" y="840"/>
+      <point x="694" y="840" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>B</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+    </dict>
+  </lib>
+</glyph>

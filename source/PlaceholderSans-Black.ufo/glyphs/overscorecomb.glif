@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overscorecomb" format="2">
+  <advance width="18"/>
+  <unicode hex="EEC0"/>
+  <anchor x="-671" y="2019" name="_bottom"/>
+  <outline>
+    <component base="underscore" xOffset="-1176" yOffset="1864"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

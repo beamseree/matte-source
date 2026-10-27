@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="igrave" format="2">
+  <advance width="430"/>
+  <unicode hex="00EC"/>
+  <anchor x="234" y="0" name="bottom"/>
+  <anchor x="234" y="575" name="cross"/>
+  <anchor x="330" y="0" name="ogonek"/>
+  <anchor x="203" y="1561" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="gravecomb" xOffset="-195"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

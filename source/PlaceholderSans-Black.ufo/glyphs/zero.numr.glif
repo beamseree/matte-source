@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.numr" format="2">
+  <advance width="843"/>
+  <unicode hex="E0DC"/>
+  <anchor x="422" y="1069" name="center"/>
+  <anchor x="422" y="1490" name="top"/>
+  <outline>
+    <component base="zero.dnom" yOffset="648"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>zero.dnom</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

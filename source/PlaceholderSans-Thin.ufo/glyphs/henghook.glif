@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="henghook" format="2">
+  <advance width="1039"/>
+  <unicode hex="0267"/>
+  <anchor x="547" y="0" name="bottom"/>
+  <anchor x="943" y="0" name="bottomr"/>
+  <anchor x="905" y="0" name="lfthook"/>
+  <anchor x="549" y="1076" name="top"/>
+  <anchor x="197" y="1076" name="topr"/>
+  <outline>
+    <component base="hhook"/>
+    <component base="_part.bottom_lfthook" xOffset="539"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>h</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nu" format="2">
+  <advance width="1206"/>
+  <unicode hex="03BD"/>
+  <note>
+tail copied from /micro
+</note>
+  <anchor x="659" y="0" name="bottom"/>
+  <anchor x="659" y="1076" name="top"/>
+  <outline>
+    <contour>
+      <point x="628" y="0" type="line"/>
+      <point x="689" y="0" type="line"/>
+      <point x="1120" y="1076" type="line"/>
+      <point x="1072" y="1076" type="line"/>
+      <point x="770" y="325" type="line" smooth="yes"/>
+      <point x="730" y="227"/>
+      <point x="694" y="127"/>
+      <point x="653" y="29" type="curve"/>
+      <point x="665" y="29" type="line"/>
+      <point x="623" y="127"/>
+      <point x="587" y="227"/>
+      <point x="547" y="325" type="curve" smooth="yes"/>
+      <point x="280" y="987" type="line" smooth="yes"/>
+      <point x="254" y="1054"/>
+      <point x="199" y="1090"/>
+      <point x="110" y="1090" type="curve" smooth="yes"/>
+      <point x="86" y="1090" type="line"/>
+      <point x="86" y="1038" type="line"/>
+      <point x="110" y="1038" type="line" smooth="yes"/>
+      <point x="175" y="1038"/>
+      <point x="216" y="1020"/>
+      <point x="236" y="975" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>v</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>v</string>
+    </dict>
+  </lib>
+</glyph>

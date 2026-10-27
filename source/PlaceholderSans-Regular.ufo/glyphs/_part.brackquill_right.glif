@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.brackquill_right" format="2">
+  <advance width="732"/>
+  <anchor x="419" y="651" name="_cross"/>
+  <outline>
+    <component base="_part.brackquill_left"/>
+  </outline>
+</glyph>

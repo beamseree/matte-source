@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feng.1" format="2">
+  <advance width="1818"/>
+  <unicode hex="EE11"/>
+  <anchor x="1206" y="0" name="bottom"/>
+  <anchor x="276" y="768" name="cross"/>
+  <anchor x="1206" y="1076" name="top"/>
+  <anchor x="1766" y="0" name="bottomr"/>
+  <anchor x="648" y="0" name="lfthook"/>
+  <anchor x="1050" y="1076" name="topr"/>
+  <outline>
+    <component base="f.1"/>
+    <component base="eng" xOffset="579"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>f.1</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>eng</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

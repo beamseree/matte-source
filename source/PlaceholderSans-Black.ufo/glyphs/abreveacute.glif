@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abreveacute" format="2">
+  <advance width="1108"/>
+  <unicode hex="1EAF"/>
+  <anchor x="605" y="0" name="bottom"/>
+  <anchor x="1120" y="0" name="ogonek"/>
+  <anchor x="563" y="1893" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="breveacutecomb.cn" xOffset="95"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>breveacutecomb.cn</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

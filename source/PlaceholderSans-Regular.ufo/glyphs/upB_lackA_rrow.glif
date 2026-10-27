@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upBlackArrow" format="2">
+  <advance width="2081"/>
+  <unicode hex="2B06"/>
+  <outline>
+    <contour>
+      <point x="160" y="710" type="line"/>
+      <point x="609" y="710" type="line"/>
+      <point x="609" y="0" type="line"/>
+      <point x="1471" y="0" type="line"/>
+      <point x="1471" y="710" type="line"/>
+      <point x="1922" y="710" type="line"/>
+      <point x="1041" y="1606" type="line"/>
+    </contour>
+  </outline>
+</glyph>

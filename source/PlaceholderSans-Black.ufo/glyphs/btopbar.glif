@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="btopbar" format="2">
+  <advance width="1301"/>
+  <unicode hex="0183"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <anchor x="676" y="0" name="bottom"/>
+  <anchor x="377" y="1288" name="cross"/>
+  <anchor x="840" y="1288" name="top"/>
+  <anchor x="92" y="1490" name="topbar"/>
+  <outline>
+    <component base="b"/>
+    <component base="_part.topbar" xOffset="-11"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>b</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+    </dict>
+  </lib>
+</glyph>

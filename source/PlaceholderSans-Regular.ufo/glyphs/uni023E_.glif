@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni023E" format="2">
+  <advance width="1352"/>
+  <unicode hex="023E"/>
+  <anchor x="677" y="0" name="bottom"/>
+  <anchor x="779" y="0" name="bottomr"/>
+  <anchor x="678" y="0" name="cedilla"/>
+  <anchor x="677" y="749" name="cross"/>
+  <anchor x="779" y="0" name="cyrtic"/>
+  <anchor x="726" y="0" name="right"/>
+  <anchor x="677" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="192" y="-209" type="line"/>
+      <point x="341" y="-209" type="line"/>
+      <point x="1156" y="1699" type="line"/>
+      <point x="1006" y="1699" type="line"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

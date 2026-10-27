@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whitestar" format="2">
+  <advance width="2088"/>
+  <unicode hex="2606"/>
+  <outline>
+    <contour>
+      <point x="1044" y="382" type="line"/>
+      <point x="1594" y="-14" type="line"/>
+      <point x="1378" y="632" type="line"/>
+      <point x="1928" y="1030" type="line"/>
+      <point x="1254" y="1030" type="line"/>
+      <point x="1044" y="1676" type="line"/>
+      <point x="836" y="1030" type="line"/>
+      <point x="160" y="1030" type="line"/>
+      <point x="712" y="632" type="line"/>
+      <point x="494" y="-14" type="line"/>
+    </contour>
+    <contour>
+      <point x="1044" y="571" type="line"/>
+      <point x="785" y="391" type="line"/>
+      <point x="889" y="689" type="line"/>
+      <point x="624" y="876" type="line"/>
+      <point x="945" y="876" type="line"/>
+      <point x="1044" y="1179" type="line"/>
+      <point x="1147" y="876" type="line"/>
+      <point x="1466" y="876" type="line"/>
+      <point x="1201" y="689" type="line"/>
+      <point x="1303" y="391" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>blackstar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>blackstar</string>
+    </dict>
+  </lib>
+</glyph>

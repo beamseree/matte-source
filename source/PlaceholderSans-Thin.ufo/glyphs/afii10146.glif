@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10146" format="2">
+  <advance width="1231"/>
+  <unicode hex="0462"/>
+  <note>
+effectiv LSB should be the LSB of /t
+</note>
+  <anchor x="314" y="1176" name="cross"/>
+  <outline>
+    <component base="Softsign-cy" xOffset="25"/>
+    <component base="crossbar.uc" xOffset="-77" yOffset="431"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=+25</string>
+    </dict>
+  </lib>
+</glyph>

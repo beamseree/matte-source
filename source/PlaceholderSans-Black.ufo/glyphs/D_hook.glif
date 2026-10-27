@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dhook" format="2">
+  <advance width="1976"/>
+  <unicode hex="018A"/>
+  <anchor x="1155" y="0" name="bottom"/>
+  <anchor x="830" y="745" name="cross"/>
+  <anchor x="1079" y="1490" name="top"/>
+  <anchor x="553" y="1490" name="topl"/>
+  <outline>
+    <component base="D" xOffset="480"/>
+    <component base="_part.top_left_hook" xOffset="-34"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=+480</string>
+    </dict>
+  </lib>
+</glyph>

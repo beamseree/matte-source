@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downArrowHead" format="2">
+  <advance width="1549"/>
+  <unicode hex="2304"/>
+  <outline>
+    <component base="control" xScale="-1.0" yScale="-1.0" xOffset="1549.0" yOffset="1480.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>control</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

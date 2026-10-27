@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="itildebelow" format="2">
+  <advance width="441"/>
+  <unicode hex="1E2D"/>
+  <guideline x="436" y="1508" angle="90"/>
+  <anchor x="234" y="0" name="bottom"/>
+  <anchor x="234" y="575" name="cross"/>
+  <anchor x="330" y="0" name="ogonek"/>
+  <anchor x="207" y="1548" name="top"/>
+  <outline>
+    <component base="i"/>
+    <component base="tildesubcomb" xOffset="834"/>
+  </outline>
+</glyph>

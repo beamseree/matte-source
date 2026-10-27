@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oopen" format="2">
+  <advance width="1511"/>
+  <unicode hex="0186"/>
+  <anchor x="726.0" y="1490.0" name="cedilla"/>
+  <anchor x="732.0" y="745.0" name="center"/>
+  <anchor x="758" y="0" name="bottom"/>
+  <anchor x="114.0" y="466.0" name="bottomr"/>
+  <anchor x="752" y="1490" name="top"/>
+  <outline>
+    <component base="C" xScale="-1.0" yScale="-1.0" xOffset="1511.0" yOffset="1490.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
+    </dict>
+  </lib>
+</glyph>

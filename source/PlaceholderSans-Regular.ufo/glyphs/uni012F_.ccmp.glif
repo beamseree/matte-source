@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni012F.ccmp" format="2">
+  <advance width="454"/>
+  <unicode hex="E04C"/>
+  <anchor x="229" y="-466" name="bottom"/>
+  <anchor x="234" y="575" name="cross"/>
+  <anchor x="330" y="0" name="ogonek"/>
+  <anchor x="234" y="1076" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="ogonekcomb" xOffset="-135"/>
+  </outline>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z" format="2">
+  <advance width="1114"/>
+  <unicode hex="007A"/>
+  <anchor x="544" y="0" name="bottom"/>
+  <anchor x="1043" y="0" name="bottomr"/>
+  <anchor x="551" y="537" name="cross"/>
+  <anchor x="551" y="1076" name="top"/>
+  <outline>
+    <contour>
+      <point x="81" y="0" type="line"/>
+      <point x="1043" y="0" type="line"/>
+      <point x="1043" y="186" type="line"/>
+      <point x="349" y="186" type="line"/>
+      <point x="349" y="196" type="line"/>
+      <point x="1021" y="919" type="line"/>
+      <point x="1021" y="1076" type="line"/>
+      <point x="104" y="1076" type="line"/>
+      <point x="104" y="890" type="line"/>
+      <point x="772" y="890" type="line"/>
+      <point x="772" y="880" type="line"/>
+      <point x="81" y="145" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|z</string>
+    </dict>
+  </lib>
+</glyph>

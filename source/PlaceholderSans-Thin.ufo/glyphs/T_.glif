@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="T" format="2">
+  <advance width="1266"/>
+  <unicode hex="0054"/>
+  <anchor x="633" y="0" name="bottom"/>
+  <anchor x="656" y="0" name="bottomr"/>
+  <anchor x="633" y="0" name="cedilla"/>
+  <anchor x="632" y="768" name="cross"/>
+  <anchor x="656" y="0" name="cyrtic"/>
+  <anchor x="644" y="0" name="right"/>
+  <anchor x="632" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="97" y="1444" type="line"/>
+      <point x="610" y="1444" type="line"/>
+      <point x="610" y="0" type="line"/>
+      <point x="656" y="0" type="line"/>
+      <point x="656" y="1444" type="line"/>
+      <point x="1169" y="1444" type="line"/>
+      <point x="1169" y="1490" type="line"/>
+      <point x="97" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|T</string>
+    </dict>
+  </lib>
+</glyph>

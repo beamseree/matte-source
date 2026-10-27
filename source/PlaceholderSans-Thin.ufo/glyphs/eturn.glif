@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eturn" format="2">
+  <advance width="1157"/>
+  <unicode hex="01DD"/>
+  <anchor x="589" y="1160" name="top"/>
+  <anchor x="583" y="0" name="cedilla"/>
+  <anchor x="645" y="-23" name="ogonek"/>
+  <anchor x="581" y="0" name="bottom"/>
+  <outline>
+    <component base="e" xScale="-1.0" yScale="-1.0" xOffset="1157.0" yOffset="1076.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yusbigiotifiedcyrillic" format="2">
+  <advance width="2497"/>
+  <unicode hex="046C"/>
+  <outline>
+    <contour>
+      <point x="725" y="0" type="line"/>
+      <point x="1125" y="0" type="line"/>
+      <point x="1125" y="316" type="line" smooth="yes"/>
+      <point x="1125" y="456"/>
+      <point x="1196" y="532"/>
+      <point x="1326" y="532" type="curve" smooth="yes"/>
+      <point x="1819" y="532" type="line" smooth="yes"/>
+      <point x="1949" y="532"/>
+      <point x="2020" y="456"/>
+      <point x="2020" y="316" type="curve" smooth="yes"/>
+      <point x="2020" y="0" type="line"/>
+      <point x="2420" y="0" type="line"/>
+      <point x="2420" y="284" type="line" smooth="yes"/>
+      <point x="2420" y="599"/>
+      <point x="2272" y="818"/>
+      <point x="1835" y="818" type="curve" smooth="yes"/>
+      <point x="1311" y="818" type="line" smooth="yes"/>
+      <point x="873" y="818"/>
+      <point x="725" y="599"/>
+      <point x="725" y="284" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="73" y="0" type="line"/>
+      <point x="477" y="0" type="line"/>
+      <point x="477" y="1490" type="line"/>
+      <point x="73" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="404" y="532" type="line"/>
+      <point x="1362" y="532" type="line"/>
+      <point x="1362" y="818" type="line"/>
+      <point x="404" y="818" type="line"/>
+    </contour>
+    <contour>
+      <point x="1392" y="0" type="line"/>
+      <point x="1747" y="0" type="line"/>
+      <point x="1747" y="627" type="line"/>
+      <point x="1392" y="627" type="line"/>
+    </contour>
+    <contour>
+      <point x="1421" y="512" type="line"/>
+      <point x="1604" y="512" type="line"/>
+      <point x="1621" y="726" type="line"/>
+      <point x="1204" y="1490" type="line"/>
+      <point x="830" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="1530" y="512" type="line"/>
+      <point x="1713" y="512" type="line"/>
+      <point x="2310" y="1490" type="line"/>
+      <point x="1945" y="1490" type="line"/>
+      <point x="1529" y="732" type="line"/>
+    </contour>
+    <contour>
+      <point x="1119" y="1186" type="line"/>
+      <point x="2028" y="1186" type="line"/>
+      <point x="2028" y="1490" type="line"/>
+      <point x="1119" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
+</glyph>

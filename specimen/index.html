@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Placeholder Sans vs Inter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+<style>
+  @font-face {
+    font-family: "Placeholder Sans";
+    src: url("../build/PlaceholderSans-VF.ttf") format("truetype");
+    font-weight: 100 900;
+  }
+  :root {
+    --bg: #f6f5f2; --fg: #1c1c1e; --muted: #77777c; --line: #dddbd5;
+    --inter: #e5484d; --new: #1c1c1e; --panel: #ffffff;
+    --wght: 400; --size: 120px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141416; --fg: #ededef; --muted: #8e8e93; --line: #2c2c30;
+      --inter: #ff6369; --new: #ededef; --panel: #1c1c1f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 14px/1.5 "Inter", system-ui, sans-serif;
+    font-variation-settings: "opsz" 14;
+  }
+  header {
+    position: sticky; top: 0; z-index: 2; background: var(--bg);
+    border-bottom: 1px solid var(--line); padding: 14px 24px;
+    display: flex; flex-wrap: wrap; gap: 12px 28px; align-items: center;
+  }
+  header h1 { font-size: 15px; font-weight: 600; margin: 0 auto 0 0; }
+  label { display: flex; gap: 8px; align-items: center; color: var(--muted); }
+  label output { color: var(--fg); font-variant-numeric: tabular-nums; min-width: 3ch; }
+  input[type=text] {
+    font: inherit; padding: 6px 10px; border: 1px solid var(--line);
+    border-radius: 6px; background: var(--panel); color: var(--fg); width: 220px;
+  }
+  main { padding: 24px; display: grid; gap: 24px; }
+  section { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 20px 24px; overflow: hidden; }
+  section h2 { font-size: 12px; font-weight: 500; color: var(--muted); margin: 0 0 12px; text-transform: uppercase; letter-spacing: .06em; }
+  .legend { display: flex; gap: 16px; font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+  .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+  .legend .i::before { background: var(--inter); }
+  .legend .n::before { background: var(--new); }
+  .sample { font-size: var(--size); font-weight: var(--wght); line-height: 1.15; white-space: nowrap; }
+  .inter { font-family: "Inter"; font-variation-settings: "opsz" 14; }
+  .new { font-family: "Placeholder Sans"; }
+  .row { display: grid; grid-template-columns: 70px 1fr; align-items: baseline; gap: 12px; }
+  .row small { color: var(--muted); font-size: 12px; }
+  .overlay { position: relative; }
+  .overlay .inter { position: absolute; inset: 0; color: transparent; -webkit-text-stroke: 1.5px var(--inter); }
+  .overlay .new { color: var(--new); opacity: .85; }
+  .para { font-size: 18px; line-height: 1.55; font-weight: var(--wght); max-width: 62ch; white-space: normal; }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+  /* The mockup SVG is 1069x97 with 44.43px type (1490 units = 32.32px) and
+     baselines at y=32.86 and y=94.86; the build is drawn on top at the same
+     size, with each line's first letter aligned to the SVG's. */
+  .mock { position: relative; width: 100%; aspect-ratio: 1069 / 105; overflow: hidden; background: #1f1f1f; border-radius: 6px; }
+  .mock-inner { position: absolute; left: 0; top: 4px; width: 1069px; height: 97px; transform-origin: 0 0; }
+  .mock-inner img { position: absolute; inset: 0; width: 1069px; height: 97px; }
+  .mock-inner span {
+    position: absolute; font-size: 44.43px; line-height: 44.43px;
+    font-weight: 400; white-space: nowrap; color: transparent; -webkit-text-stroke: 0.6px #ff4d55;
+  }
+  .weights div { font-size: 40px; line-height: 1.3; white-space: nowrap; }
+  @media (max-width: 600px) {
+    header { padding: 12px 16px; } main { padding: 16px; }
+    input[type=text] { width: 100%; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Placeholder Sans <span style="color:var(--muted);font-weight:400">vs Inter</span></h1>
+  <label>Text <input type="text" id="text" value="Rogue gypsy Boxing"></label>
+  <label>Weight <input type="range" id="wght" min="100" max="900" value="400"><output id="wghtOut">400</output></label>
+  <label>Size <input type="range" id="size" min="40" max="260" value="120"><output id="sizeOut">120</output></label>
+</header>
+<main>
+  <section>
+    <h2>Your mockup vs this build</h2>
+    <div class="legend"><span class="n">Your SVG</span><span class="i">This build (outline, drawn on top)</span></div>
+    <div class="mock"><div class="mock-inner">
+      <img src="mockup.svg" alt="Mockup SVG: lowercase and capitals pangrams">
+      <span class="new" style="left:-1.584px;top:-5.514px">quick brown fox jumps over the lazy dog</span>
+      <span class="new" style="left:-1.841px;top:56.486px">QUICK BROWN FOX JUMPS OVER THE LAZY DOG</span>
+    </div></div>
+  </section>
+
+  <section>
+    <h2>Overlay</h2>
+    <div class="legend"><span class="i">Inter (outline)</span><span class="n">Placeholder Sans</span></div>
+    <div class="sample overlay"><div class="new" data-text></div><div class="inter" data-text></div></div>
+  </section>
+
+  <section>
+    <h2>Side by side</h2>
+    <div class="row"><small>Inter</small><div class="sample inter" data-text></div></div>
+    <div class="row"><small>New</small><div class="sample new" data-text></div></div>
+  </section>
+
+  <section>
+    <h2>Key letters</h2>
+    <div class="row"><small>Inter</small><div class="sample inter">o O g y R a G</div></div>
+    <div class="row"><small>New</small><div class="sample new">o O g y R a G</div></div>
+  </section>
+
+  <section>
+    <h2>Paragraph</h2>
+    <div class="cols">
+      <div><div class="legend"><span class="i">Inter</span></div><p class="para inter" data-para></p></div>
+      <div><div class="legend"><span class="n">Placeholder Sans</span></div><p class="para new" data-para></p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Weight range</h2>
+    <div class="cols weights">
+      <div class="inter" id="wInter"></div>
+      <div class="new" id="wNew"></div>
+    </div>
+  </section>
+</main>
+<script>
+  const para = "Good typography is invisible until it isn't. Quick brown foxes jog over lazy dogs while sixty zippy bags of grey yarn wait by the gate — 0123456789.";
+  document.querySelectorAll("[data-para]").forEach(p => p.textContent = para);
+  for (const id of ["wInter", "wNew"]) {
+    const el = document.getElementById(id);
+    for (const w of [100, 300, 400, 500, 700, 900]) {
+      const d = document.createElement("div");
+      d.style.fontWeight = w;
+      d.textContent = `Hamburgefonstiv ${w}`;
+      el.appendChild(d);
+    }
+  }
+  const root = document.documentElement.style;
+  const text = document.getElementById("text");
+  const sync = () => {
+    document.querySelectorAll("[data-text]").forEach(el => el.textContent = text.value || " ");
+    root.setProperty("--wght", wght.value); wghtOut.value = wght.value;
+    root.setProperty("--size", size.value + "px"); sizeOut.value = size.value;
+  };
+  const fitMock = () => document.querySelectorAll(".mock").forEach(m =>
+    m.firstElementChild.style.transform = `scale(${m.clientWidth / 1069})`);
+  addEventListener("resize", fitMock); fitMock();
+  [text, wght, size].forEach(el => el.addEventListener("input", sync));
+  sync();
+</script>
+</body>
+</html>

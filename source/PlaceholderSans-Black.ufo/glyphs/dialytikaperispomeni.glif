@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dialytikaperispomeni" format="2">
+  <advance width="855"/>
+  <unicode hex="1FC1"/>
+  <guideline y="1392"/>
+  <guideline y="1765"/>
+  <guideline y="1632"/>
+  <anchor x="444" y="1118" name="_top"/>
+  <outline>
+    <component base="dieresiscomb" xOffset="-185" yOffset="-24"/>
+    <component base="tildecomb" yScale="0.83" xOffset="-97" yOffset="582"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dieresiscomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>tildecomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

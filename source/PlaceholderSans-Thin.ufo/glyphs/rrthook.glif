@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rrthook" format="2">
+  <advance width="638"/>
+  <unicode hex="E05D"/>
+  <anchor x="205" y="0" name="bottom"/>
+  <anchor x="227" y="0" name="bottomr"/>
+  <anchor x="205" y="516" name="cross"/>
+  <anchor x="427" y="1076" name="top"/>
+  <outline>
+    <component base="r"/>
+    <component base="_part.bottom_rthook" xOffset="124"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>r</string>
+    </dict>
+  </lib>
+</glyph>

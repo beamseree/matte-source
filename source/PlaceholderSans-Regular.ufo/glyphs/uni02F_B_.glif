@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02FB" format="2">
+  <advance width="530"/>
+  <unicode hex="02FB"/>
+  <outline>
+    <contour>
+      <point x="65" y="-473" type="line"/>
+      <point x="221" y="-473" type="line"/>
+      <point x="221" y="-79" type="line"/>
+      <point x="65" y="-79" type="line"/>
+    </contour>
+    <contour>
+      <point x="65" y="-473" type="line"/>
+      <point x="468" y="-473" type="line"/>
+      <point x="468" y="-320" type="line"/>
+      <point x="65" y="-320" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>uni02FA</string>
+    </dict>
+  </lib>
+</glyph>

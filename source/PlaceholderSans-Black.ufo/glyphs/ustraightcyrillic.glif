@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ustraightcyrillic" format="2">
+  <advance width="1299"/>
+  <unicode hex="04AF"/>
+  <anchor x="650" y="-111" name="cross"/>
+  <outline>
+    <component base="gamma"/>
+  </outline>
+</glyph>

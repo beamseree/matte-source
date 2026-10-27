@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright.sups" format="2">
+  <advance width="606"/>
+  <unicode hex="207E"/>
+  <outline>
+    <contour>
+      <point x="58" y="748" type="curve"/>
+      <point x="308" y="748" type="line"/>
+      <point x="432" y="911"/>
+      <point x="492" y="1084"/>
+      <point x="492" y="1245" type="curve" smooth="yes"/>
+      <point x="492" y="1429"/>
+      <point x="415" y="1666"/>
+      <point x="308" y="1799" type="curve"/>
+      <point x="58" y="1799" type="line"/>
+      <point x="157" y="1611"/>
+      <point x="202" y="1406"/>
+      <point x="202" y="1245" type="curve" smooth="yes"/>
+      <point x="202" y="1115"/>
+      <point x="173" y="998"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>40</integer>
+        <key>custom</key>
+        <integer>-9</integer>
+        <key>height</key>
+        <real>56.5</real>
+        <key>verticalShift</key>
+        <integer>900</integer>
+        <key>weight</key>
+        <integer>-268</integer>
+        <key>width</key>
+        <integer>66</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|parenleft.sups</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|parenleft.sups</string>
+    </dict>
+  </lib>
+</glyph>

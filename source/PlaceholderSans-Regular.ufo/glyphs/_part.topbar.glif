@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.topbar" format="2">
+  <advance width="1060"/>
+  <anchor x="110" y="1490" name="_topbar"/>
+  <outline>
+    <contour>
+      <point x="210" y="1317" type="line"/>
+      <point x="951" y="1317" type="line"/>
+      <point x="951" y="1490" type="line"/>
+      <point x="110" y="1490" type="line"/>
+    </contour>
+  </outline>
+</glyph>

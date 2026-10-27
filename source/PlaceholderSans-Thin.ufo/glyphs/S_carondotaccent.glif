@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Scarondotaccent" format="2">
+  <advance width="1190"/>
+  <unicode hex="1E66"/>
+  <anchor x="639" y="0" name="bottom"/>
+  <anchor x="639" y="0" name="cedilla"/>
+  <anchor x="639" y="1490" name="top"/>
+  <outline>
+    <component base="S"/>
+    <component base="carondot.uc" xOffset="285"/>
+  </outline>
+</glyph>

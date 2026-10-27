@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="degreefarenheit" format="2">
+  <advance width="2091"/>
+  <unicode hex="2109"/>
+  <anchor x="1139" y="0" name="bottom"/>
+  <anchor x="1139" y="332" name="cross"/>
+  <anchor x="1037" y="0" name="lfthook"/>
+  <anchor x="1544" y="1490" name="top"/>
+  <outline>
+    <component base="degree"/>
+    <component base="F" xOffset="901"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>degree</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>F</string>
+    </dict>
+  </lib>
+</glyph>

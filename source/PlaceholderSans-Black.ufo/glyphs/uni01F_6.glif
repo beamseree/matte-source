@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni01F6" format="2">
+  <advance width="2318"/>
+  <unicode hex="01F6"/>
+  <note>
+/H + /u.1
+Upper-case of U+0195
+</note>
+  <outline>
+    <contour>
+      <point x="1643" y="-20" type="curve" smooth="yes"/>
+      <point x="2015" y="-20"/>
+      <point x="2242" y="186"/>
+      <point x="2241" y="520" type="curve" smooth="yes"/>
+      <point x="2241" y="1068" type="line"/>
+      <point x="1837" y="1068" type="line"/>
+      <point x="1837" y="520" type="line" smooth="yes"/>
+      <point x="1837" y="390"/>
+      <point x="1764" y="312"/>
+      <point x="1643" y="312" type="curve" smooth="yes"/>
+      <point x="1521" y="312"/>
+      <point x="1447" y="390"/>
+      <point x="1447" y="520" type="curve" smooth="yes"/>
+      <point x="1447" y="1490" type="line"/>
+      <point x="1043" y="1490" type="line"/>
+      <point x="1043" y="908" type="line"/>
+      <point x="477" y="908" type="line"/>
+      <point x="477" y="1490" type="line"/>
+      <point x="73" y="1490" type="line"/>
+      <point x="73" y="0" type="line"/>
+      <point x="477" y="0" type="line"/>
+      <point x="477" y="582" type="line"/>
+      <point x="1043" y="582" type="line"/>
+      <point x="1043" y="520" type="line" smooth="yes"/>
+      <point x="1043" y="186"/>
+      <point x="1272" y="-20"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|u</string>
+    </dict>
+  </lib>
+</glyph>

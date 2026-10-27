@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentright.cn" format="2">
+  <advance width="495"/>
+  <anchor x="223" y="1490" name="_raccent"/>
+  <outline>
+    <contour>
+      <point x="223" y="1182" type="line"/>
+      <point x="261" y="1182" type="line"/>
+      <point x="275" y="1560" type="line"/>
+      <point x="223" y="1560" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

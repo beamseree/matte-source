@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="crossbar_short.uc" format="2">
+  <advance width="934"/>
+  <anchor x="503" y="745" name="_cross"/>
+  <outline>
+    <contour>
+      <point x="43" y="621" type="line"/>
+      <point x="891" y="621" type="line"/>
+      <point x="891" y="869" type="line"/>
+      <point x="43" y="869" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=50</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=50</string>
+    </dict>
+  </lib>
+</glyph>

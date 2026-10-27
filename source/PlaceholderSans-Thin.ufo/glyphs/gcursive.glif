@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gcursive" format="2">
+  <advance width="1190"/>
+  <unicode hex="0261"/>
+  <anchor x="576" y="-436" name="bottom"/>
+  <anchor x="996" y="537" name="cross"/>
+  <anchor x="611" y="1076" name="top"/>
+  <anchor x="1020" y="1076" name="topr"/>
+  <outline>
+    <component base="g"/>
+  </outline>
+</glyph>

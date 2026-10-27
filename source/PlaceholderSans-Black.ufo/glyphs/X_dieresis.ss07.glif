@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xdieresis.ss07" format="2">
+  <advance width="1606"/>
+  <unicode hex="E21F"/>
+  <anchor x="818" y="-6" name="bottom"/>
+  <anchor x="818" y="744" name="cross"/>
+  <anchor x="1560" y="0" name="cyrtic"/>
+  <anchor x="860" y="1957" name="top"/>
+  <outline>
+    <component base="X"/>
+    <component base="dieresiscomb.ss07" xOffset="210" yOffset="372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

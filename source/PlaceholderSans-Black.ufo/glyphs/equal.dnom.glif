@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal.dnom" format="2">
+  <advance width="788"/>
+  <unicode hex="E0CA"/>
+  <guideline x="1080" y="212" angle="0"/>
+  <outline>
+    <contour>
+      <point x="91" y="463" type="line"/>
+      <point x="697" y="463" type="line"/>
+      <point x="697" y="653" type="line"/>
+      <point x="91" y="653" type="line"/>
+    </contour>
+    <contour>
+      <point x="91" y="173" type="line"/>
+      <point x="697" y="173" type="line"/>
+      <point x="697" y="364" type="line"/>
+      <point x="91" y="364" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>10</integer>
+        <key>custom</key>
+        <integer>-12</integer>
+        <key>height</key>
+        <integer>55</integer>
+        <key>verticalShift</key>
+        <integer>70</integer>
+        <key>weight</key>
+        <integer>-370</integer>
+        <key>width</key>
+        <integer>55</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FCF.tonos" format="2">
+  <advance width="513"/>
+  <unicode hex="EE97"/>
+  <anchor x="580" y="1544" name="_tonos"/>
+  <outline>
+    <component base="psiliperispomeni"/>
+  </outline>
+</glyph>

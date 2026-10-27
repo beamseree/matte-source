@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="djecyrillic" format="2">
+  <advance width="1242"/>
+  <unicode hex="0452"/>
+  <anchor x="665" y="0" name="bottom"/>
+  <anchor x="308" y="0" name="cedilla"/>
+  <anchor x="373" y="1288" name="cross"/>
+  <anchor x="823" y="0" name="lfthook"/>
+  <anchor x="301" y="1490" name="top"/>
+  <outline>
+    <component base="tshecyrillic"/>
+    <component base="_part.bottom_lfthook" xOffset="428"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>tshecyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tshecyrillic</string>
+    </dict>
+  </lib>
+</glyph>

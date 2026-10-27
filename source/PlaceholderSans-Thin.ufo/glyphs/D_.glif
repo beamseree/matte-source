@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="D" format="2">
+  <advance width="1461"/>
+  <unicode hex="0044"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <anchor x="557" y="0" name="bottom"/>
+  <anchor x="337" y="745" name="cross"/>
+  <anchor x="604" y="1490" name="top"/>
+  <anchor x="175" y="1490" name="topl"/>
+  <outline>
+    <contour>
+      <point x="592" y="0" type="line" smooth="yes"/>
+      <point x="1062" y="0"/>
+      <point x="1334" y="275"/>
+      <point x="1334" y="750" type="curve" smooth="yes"/>
+      <point x="1334" y="1214"/>
+      <point x="1074" y="1490"/>
+      <point x="633" y="1490" type="curve" smooth="yes"/>
+      <point x="199" y="1490" type="line"/>
+      <point x="199" y="1444" type="line"/>
+      <point x="634" y="1444" type="line" smooth="yes"/>
+      <point x="1050" y="1444"/>
+      <point x="1288" y="1185"/>
+      <point x="1288" y="750" type="curve" smooth="yes"/>
+      <point x="1288" y="309"/>
+      <point x="1038" y="46"/>
+      <point x="592" y="46" type="curve" smooth="yes"/>
+      <point x="199" y="46" type="line"/>
+      <point x="199" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="221" y="1490" type="line"/>
+      <point x="175" y="1490" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yogonek" format="2">
+  <advance width="1122"/>
+  <unicode hex="EE05"/>
+  <note>
+Elfdalian. Black weight has custom-drawn ogonek. Other masters use a verbatim decomposed "ogonek" component.
+See https://github.com/rsms/inter/issues/285
+</note>
+  <anchor x="838" y="0" name="bottom"/>
+  <anchor x="645" y="0" name="ogonek"/>
+  <anchor x="547" y="1076" name="top"/>
+  <outline>
+    <component base="y"/>
+    <component base="ogonek.y" xOffset="353"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>y</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>y</string>
+    </dict>
+  </lib>
+</glyph>

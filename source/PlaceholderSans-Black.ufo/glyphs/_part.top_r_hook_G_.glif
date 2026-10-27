@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.top_r_hook_G" format="2">
+  <advance width="840"/>
+  <note>
+Copy of /_part.top_r_hook_C with adjustments for wght=900
+</note>
+  <anchor x="508" y="998" name="_topr"/>
+  <outline>
+    <contour>
+      <point x="110" y="998" type="line"/>
+      <point x="508" y="998" type="line"/>
+      <point x="508" y="1316" type="line" smooth="yes"/>
+      <point x="508" y="1375"/>
+      <point x="537" y="1396"/>
+      <point x="615" y="1396" type="curve" smooth="yes"/>
+      <point x="654" y="1396"/>
+      <point x="690" y="1392"/>
+      <point x="730" y="1387" type="curve"/>
+      <point x="730" y="1660" type="line"/>
+      <point x="671" y="1676"/>
+      <point x="605" y="1684"/>
+      <point x="532" y="1684" type="curve" smooth="yes"/>
+      <point x="251" y="1684"/>
+      <point x="110" y="1561"/>
+      <point x="110" y="1316" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>_part.top_r_hook_C</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.top_r_hook_C</string>
+    </dict>
+  </lib>
+</glyph>

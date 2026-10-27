@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M.squared" format="2">
+  <advance width="2834"/>
+  <unicode hex="1F13C"/>
+  <anchor x="1402" y="0" name="bottom"/>
+  <anchor x="2308" y="0" name="cyrtic"/>
+  <anchor x="1402" y="1490" name="top"/>
+  <outline>
+    <component base="whiteLargeSquare"/>
+    <component base="M" xOffset="417"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteLargeSquare</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>M</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

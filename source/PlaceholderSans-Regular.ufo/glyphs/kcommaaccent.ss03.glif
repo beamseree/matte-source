@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kcommaaccent.ss03" format="2">
+  <advance width="1067"/>
+  <unicode hex="EE7D"/>
+  <anchor x="559" y="0" name="bottom"/>
+  <anchor x="229" y="1490" name="top"/>
+  <outline>
+    <component base="k"/>
+    <component base="commaaccent.ss03" xOffset="280"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

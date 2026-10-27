@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevedotbelow.ss07" format="2">
+  <advance width="1062"/>
+  <unicode hex="E22B"/>
+  <anchor x="560" y="0" name="bottom"/>
+  <anchor x="997" y="0" name="ogonek"/>
+  <anchor x="507" y="1561" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="brevecomb" xOffset="125"/>
+    <component base="dotbelow.ss07" xOffset="250"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

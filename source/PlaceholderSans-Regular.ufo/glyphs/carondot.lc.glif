@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="carondot.lc" format="2">
+  <advance width="794"/>
+  <unicode hex="EECC"/>
+  <guideline y="1392"/>
+  <guideline y="1717"/>
+  <guideline y="1529"/>
+  <anchor x="409" y="1118" name="_top"/>
+  <outline>
+    <component base="caroncomb" xOffset="-2" yOffset="-22"/>
+    <component base="dotaccentcomb" xOffset="161" yOffset="297"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>caroncomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotaccentcomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

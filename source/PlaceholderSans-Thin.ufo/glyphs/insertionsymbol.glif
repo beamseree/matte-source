@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="insertionsymbol" format="2">
+  <advance width="1598"/>
+  <unicode hex="2380"/>
+  <anchor x="805" y="730" name="bottom"/>
+  <anchor x="1042" y="730" name="ogonek"/>
+  <anchor x="803" y="1313" name="top"/>
+  <outline>
+    <contour>
+      <point x="802" y="-24" type="line"/>
+      <point x="1516" y="690" type="line"/>
+      <point x="1482" y="722" type="line"/>
+      <point x="802" y="42" type="line"/>
+      <point x="124" y="722" type="line"/>
+      <point x="90" y="690" type="line"/>
+    </contour>
+    <component base="a.sups" xOffset="448" yOffset="-186"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a.sups</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

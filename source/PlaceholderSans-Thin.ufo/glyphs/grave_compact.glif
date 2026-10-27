@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="grave_compact" format="2">
+  <advance width="522"/>
+  <unicode hex="EE9D"/>
+  <note>
+mirrored version of acute
+</note>
+  <anchor x="340" y="1118" name="_top"/>
+  <anchor x="336" y="1557" name="top"/>
+  <outline>
+    <contour>
+      <point x="322" y="1283" type="line"/>
+      <point x="368" y="1283" type="line"/>
+      <point x="215" y="1557" type="line"/>
+      <point x="155" y="1557" type="line"/>
+    </contour>
+  </outline>
+</glyph>

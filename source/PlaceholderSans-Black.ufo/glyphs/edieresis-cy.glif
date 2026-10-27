@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="edieresis-cy" format="2">
+  <advance width="1153"/>
+  <unicode hex="04ED"/>
+  <anchor x="547" y="1585" name="top"/>
+  <outline>
+    <component base="ereversedcyrillic"/>
+    <component base="dieresiscomb" xOffset="-82"/>
+  </outline>
+</glyph>

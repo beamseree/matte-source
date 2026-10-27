@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.sups" format="2">
+  <advance width="746"/>
+  <unicode hex="2077"/>
+  <outline>
+    <contour>
+      <point x="150" y="916" type="line"/>
+      <point x="201" y="916" type="line"/>
+      <point x="660" y="1636" type="line"/>
+      <point x="660" y="1683" type="line"/>
+      <point x="86" y="1683" type="line"/>
+      <point x="86" y="1639" type="line"/>
+      <point x="607" y="1639" type="line"/>
+      <point x="607" y="1634" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>10</integer>
+        <key>custom</key>
+        <integer>-3</integer>
+        <key>height</key>
+        <real>51.5</real>
+        <key>verticalShift</key>
+        <integer>916</integer>
+        <key>weight</key>
+        <integer>3</integer>
+        <key>width</key>
+        <integer>66</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

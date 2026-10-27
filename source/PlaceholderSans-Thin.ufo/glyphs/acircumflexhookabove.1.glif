@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acircumflexhookabove.1" format="2">
+  <advance width="1090"/>
+  <unicode hex="E039"/>
+  <anchor x="595" y="0" name="bottom"/>
+  <anchor x="998" y="0" name="bottomr"/>
+  <anchor x="998" y="0" name="ogonek"/>
+  <anchor x="577" y="1076" name="top"/>
+  <anchor x="998" y="1076" name="topr"/>
+  <outline>
+    <component base="a.1"/>
+    <component base="circumflexhookcomb.cn" xOffset="128"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a.1</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>circumflexhookcomb.cn</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

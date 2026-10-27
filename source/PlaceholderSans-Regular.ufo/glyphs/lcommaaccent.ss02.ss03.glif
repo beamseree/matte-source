@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcommaaccent.ss02.ss03" format="2">
+  <advance width="518"/>
+  <unicode hex="EE83"/>
+  <anchor x="296" y="0" name="bottom"/>
+  <anchor x="330" y="717" name="centerr"/>
+  <anchor x="234" y="744" name="cross"/>
+  <anchor x="473" y="1490" name="raccent"/>
+  <anchor x="233" y="1490" name="top"/>
+  <outline>
+    <component base="l.ss02"/>
+    <component base="commaaccent.ss03" xOffset="20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>l.ss02</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>commaaccent.ss03</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="integral" format="2">
+  <advance width="845"/>
+  <unicode hex="222B"/>
+  <anchor x="373" y="108" name="cross"/>
+  <outline>
+    <contour>
+      <point x="128" y="-484" type="curve" smooth="yes"/>
+      <point x="416" y="-484"/>
+      <point x="574" y="-316"/>
+      <point x="574" y="-10" type="curve" smooth="yes"/>
+      <point x="574" y="1195" type="line" smooth="yes"/>
+      <point x="574" y="1267"/>
+      <point x="607" y="1301"/>
+      <point x="680" y="1301" type="curve" smooth="yes"/>
+      <point x="732" y="1301"/>
+      <point x="777" y="1298"/>
+      <point x="810" y="1293" type="curve"/>
+      <point x="836" y="1581" type="line"/>
+      <point x="768" y="1598"/>
+      <point x="710" y="1603"/>
+      <point x="634" y="1603" type="curve" smooth="yes"/>
+      <point x="335" y="1603"/>
+      <point x="172" y="1438"/>
+      <point x="172" y="1135" type="curve" smooth="yes"/>
+      <point x="172" y="-40" type="line" smooth="yes"/>
+      <point x="172" y="-139"/>
+      <point x="131" y="-184"/>
+      <point x="44" y="-184" type="curve" smooth="yes"/>
+      <point x="9" y="-184"/>
+      <point x="-27" y="-179"/>
+      <point x="-56" y="-174" type="curve"/>
+      <point x="-70" y="-470" type="line"/>
+      <point x="-15" y="-481"/>
+      <point x="61" y="-484"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>jdotless</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>f</string>
+    </dict>
+  </lib>
+</glyph>

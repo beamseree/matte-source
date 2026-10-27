@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Mdotbelow.ss07" format="2">
+  <advance width="1749"/>
+  <unicode hex="E1FE"/>
+  <anchor x="891" y="0" name="bottom"/>
+  <anchor x="1566" y="0" name="cyrtic"/>
+  <anchor x="891" y="1490" name="top"/>
+  <outline>
+    <component base="M"/>
+    <component base="dotbelow.ss07" xOffset="690"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="567"/>
+  <unicode hex="0049"/>
+  <anchor x="280" y="0" name="bottom"/>
+  <anchor x="280" y="788" name="cross"/>
+  <anchor x="484" y="0" name="ogonek"/>
+  <anchor x="510" y="0" name="right"/>
+  <anchor x="80" y="1490" name="tonos"/>
+  <anchor x="283" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="484" y="1490" type="line"/>
+      <point x="80" y="1490" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="484" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

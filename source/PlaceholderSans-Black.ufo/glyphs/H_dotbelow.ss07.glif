@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hdotbelow.ss07" format="2">
+  <advance width="1504"/>
+  <unicode hex="E1F5"/>
+  <anchor x="758" y="0" name="bottom"/>
+  <anchor x="273" y="0" name="cedilla"/>
+  <anchor x="1443" y="0" name="cyrtic"/>
+  <anchor x="1039" y="0" name="lfthook"/>
+  <anchor x="1443" y="0" name="right"/>
+  <anchor x="73" y="1490" name="tonos"/>
+  <anchor x="758" y="1490" name="top"/>
+  <outline>
+    <component base="H"/>
+    <component base="dotbelow.ss07" xOffset="439"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

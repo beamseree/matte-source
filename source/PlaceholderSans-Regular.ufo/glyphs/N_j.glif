@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nj" format="2">
+  <advance width="1978"/>
+  <unicode hex="01CB"/>
+  <anchor x="1713" y="-446" name="bottom"/>
+  <anchor x="132" y="0" name="lfthook"/>
+  <anchor x="1378" y="0" name="lfthook2"/>
+  <anchor x="1743" y="1548" name="top"/>
+  <anchor x="1769" y="632" name="cross"/>
+  <outline>
+    <component base="N"/>
+    <component base="j" xOffset="1514"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>N</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>j</string>
+    </dict>
+  </lib>
+</glyph>

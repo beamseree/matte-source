@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yuslittlecyrillic" format="2">
+  <advance width="1252"/>
+  <unicode hex="0467"/>
+  <guideline x="623" y="-37" angle="90"/>
+  <outline>
+    <contour>
+      <point x="857" y="0" type="line"/>
+      <point x="1241" y="0" type="line"/>
+      <point x="829" y="1076" type="line"/>
+      <point x="568" y="1076" type="line"/>
+      <point x="649" y="651" type="line"/>
+    </contour>
+    <contour>
+      <point x="525" y="0" type="line"/>
+      <point x="727" y="0" type="line"/>
+      <point x="727" y="188" type="line" smooth="yes"/>
+      <point x="727" y="289"/>
+      <point x="741" y="301"/>
+      <point x="844" y="301" type="curve"/>
+      <point x="844" y="516" type="line"/>
+      <point x="753" y="516"/>
+      <point x="663" y="493"/>
+      <point x="626" y="414" type="curve"/>
+      <point x="588" y="493"/>
+      <point x="499" y="516"/>
+      <point x="408" y="516" type="curve"/>
+      <point x="408" y="301" type="line"/>
+      <point x="511" y="301"/>
+      <point x="525" y="289"/>
+      <point x="525" y="188" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="10" y="0" type="line"/>
+      <point x="395" y="0" type="line"/>
+      <point x="597" y="648" type="line"/>
+      <point x="684" y="1076" type="line"/>
+      <point x="417" y="1076" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>v</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>v</string>
+    </dict>
+  </lib>
+</glyph>

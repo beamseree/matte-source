@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tonetwo" format="2">
+  <advance width="1437"/>
+  <unicode hex="01A7"/>
+  <anchor x="710" y="0" name="bottom"/>
+  <anchor x="714" y="0" name="cedilla"/>
+  <anchor x="716" y="1490" name="top"/>
+  <outline>
+    <component base="S" xScale="-1" xOffset="1437"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>S</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>S</string>
+    </dict>
+  </lib>
+</glyph>

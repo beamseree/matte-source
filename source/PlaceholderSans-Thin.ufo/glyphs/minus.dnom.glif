@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minus.dnom" format="2">
+  <advance width="708"/>
+  <unicode hex="E0C9"/>
+  <guideline x="912" y="192" angle="0"/>
+  <outline>
+    <contour>
+      <point x="594" y="406" type="line"/>
+      <point x="114" y="406" type="line"/>
+      <point x="114" y="360" type="line"/>
+      <point x="594" y="360" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>10</integer>
+        <key>height</key>
+        <integer>52</integer>
+        <key>verticalShift</key>
+        <integer>80</integer>
+        <key>weight</key>
+        <integer>5</integer>
+        <key>width</key>
+        <integer>55</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

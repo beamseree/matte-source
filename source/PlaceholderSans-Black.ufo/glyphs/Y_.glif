@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y" format="2">
+  <advance width="1501"/>
+  <unicode hex="0059"/>
+  <anchor x="742" y="0" name="bottom"/>
+  <anchor x="743" y="323" name="cross"/>
+  <anchor x="946" y="0" name="ogonek"/>
+  <anchor x="8" y="1490" name="tonos"/>
+  <anchor x="737" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="544" y="0" type="line"/>
+      <point x="946" y="0" type="line"/>
+      <point x="946" y="518" type="line"/>
+      <point x="1466" y="1490" type="line"/>
+      <point x="993" y="1490" type="line"/>
+      <point x="805" y="1040" type="line" smooth="yes"/>
+      <point x="771" y="958"/>
+      <point x="747" y="877"/>
+      <point x="721" y="768" type="curve"/>
+      <point x="777" y="768" type="line"/>
+      <point x="747" y="877"/>
+      <point x="721" y="958"/>
+      <point x="685" y="1040" type="curve" smooth="yes"/>
+      <point x="483" y="1490" type="line"/>
+      <point x="8" y="1490" type="line"/>
+      <point x="544" y="518" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>A</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresisgravecomb.lc.ss07" format="2">
+  <advance width="1206"/>
+  <unicode hex="E2D1"/>
+  <guideline y="1632"/>
+  <guideline y="1392"/>
+  <guideline y="1765"/>
+  <anchor x="646" y="1118" name="_top"/>
+  <outline>
+    <component base="grave_compact" xScale="0.8" yScale="0.8" xOffset="241" yOffset="627"/>
+    <component base="dieresiscomb.ss07" yScale="0.8" xOffset="-48" yOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>grave_compact</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dieresiscomb.ss07</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

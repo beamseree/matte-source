@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I.squared" format="2">
+  <advance width="2714"/>
+  <unicode hex="1F138"/>
+  <anchor x="1346" y="0" name="bottom"/>
+  <anchor x="1346" y="768" name="cross"/>
+  <anchor x="1369" y="0" name="ogonek"/>
+  <anchor x="1377" y="0" name="right"/>
+  <anchor x="1323" y="1490" name="tonos"/>
+  <anchor x="1346" y="1490" name="top"/>
+  <outline>
+    <component base="whiteLargeSquare"/>
+    <component base="I" xOffset="1141"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteLargeSquare</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>I</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

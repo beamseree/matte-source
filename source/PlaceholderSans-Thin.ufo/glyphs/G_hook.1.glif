@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ghook.1" format="2">
+  <advance width="1506"/>
+  <unicode hex="E004"/>
+  <anchor x="755" y="0" name="bottom"/>
+  <anchor x="1076" y="354" name="cross"/>
+  <anchor x="755" y="1490" name="top"/>
+  <anchor x="1370" y="1024" name="topr"/>
+  <outline>
+    <component base="G.1"/>
+    <component base="_part.top_r_hook_G" xOffset="1214"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>G.1</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Ghook</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Ghook</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

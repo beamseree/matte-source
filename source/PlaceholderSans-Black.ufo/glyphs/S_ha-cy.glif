@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sha-cy" format="2">
+  <advance width="2073"/>
+  <unicode hex="0428"/>
+  <anchor x="2001" y="0" name="cyrtic"/>
+  <anchor x="1037" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="73" y="1490" type="line"/>
+      <point x="73" y="0" type="line"/>
+      <point x="2001" y="0" type="line"/>
+      <point x="2001" y="1490" type="line"/>
+      <point x="1597" y="1490" type="line"/>
+      <point x="1597" y="326" type="line"/>
+      <point x="1233" y="326" type="line"/>
+      <point x="1233" y="1490" type="line"/>
+      <point x="843" y="1490" type="line"/>
+      <point x="843" y="326" type="line"/>
+      <point x="477" y="326" type="line"/>
+      <point x="477" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

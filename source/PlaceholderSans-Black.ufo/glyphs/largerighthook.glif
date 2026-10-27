@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="largerighthook" format="2">
+  <advance width="1134"/>
+  <unicode hex="E10F"/>
+  <outline>
+    <contour>
+      <point x="352" y="-135" type="line"/>
+      <point x="459" y="-135" type="line" smooth="yes"/>
+      <point x="823" y="-135"/>
+      <point x="1079" y="77"/>
+      <point x="1079" y="389" type="curve" smooth="yes"/>
+      <point x="1079" y="701"/>
+      <point x="824" y="920"/>
+      <point x="523" y="920" type="curve" smooth="yes"/>
+      <point x="219" y="920"/>
+      <point x="55" y="701"/>
+      <point x="55" y="389" type="curve"/>
+      <point x="259" y="389" type="line"/>
+      <point x="259" y="494"/>
+      <point x="336" y="560"/>
+      <point x="459" y="560" type="curve" smooth="yes"/>
+      <point x="582" y="560"/>
+      <point x="659" y="494"/>
+      <point x="659" y="389" type="curve" smooth="yes"/>
+      <point x="659" y="283"/>
+      <point x="582" y="217"/>
+      <point x="459" y="217" type="curve" smooth="yes"/>
+      <point x="352" y="217" type="line"/>
+    </contour>
+  </outline>
+</glyph>

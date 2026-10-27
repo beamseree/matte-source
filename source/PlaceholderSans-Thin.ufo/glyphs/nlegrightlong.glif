@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nlegrightlong" format="2">
+  <advance width="1148"/>
+  <unicode hex="019E"/>
+  <anchor x="193" y="0" name="bottom"/>
+  <anchor x="584" y="1076" name="top"/>
+  <outline>
+    <component base="eta"/>
+  </outline>
+</glyph>

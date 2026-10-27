@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tackdownsubcomb" format="2">
+  <unicode hex="EED9"/>
+  <note>
+align under x
+</note>
+  <guideline x="-824" y="274" angle="90"/>
+  <anchor x="-600" y="0" name="_bottom"/>
+  <outline>
+    <component base="downtackmod" xOffset="-966" yOffset="-632"/>
+  </outline>
+</glyph>

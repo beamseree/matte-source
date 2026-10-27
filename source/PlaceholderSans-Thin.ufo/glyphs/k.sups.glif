@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k.sups" format="2">
+  <advance width="685"/>
+  <unicode hex="1D4F"/>
+  <anchor x="359" y="916" name="bottom"/>
+  <anchor x="148" y="1683" name="top"/>
+  <outline>
+    <contour>
+      <point x="163" y="1140" type="line"/>
+      <point x="276" y="1227" type="line"/>
+      <point x="282" y="1229" type="line"/>
+      <point x="625" y="1499" type="line"/>
+      <point x="562" y="1499" type="line"/>
+      <point x="178" y="1207" type="line"/>
+      <point x="163" y="1207" type="line"/>
+    </contour>
+    <contour>
+      <point x="124" y="916" type="line"/>
+      <point x="171" y="916" type="line"/>
+      <point x="171" y="1683" type="line"/>
+      <point x="124" y="1683" type="line"/>
+    </contour>
+    <contour>
+      <point x="574" y="916" type="line"/>
+      <point x="635" y="916" type="line"/>
+      <point x="293" y="1255" type="line"/>
+      <point x="258" y="1222" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>10</integer>
+        <key>custom</key>
+        <integer>-3</integer>
+        <key>height</key>
+        <real>51.5</real>
+        <key>verticalShift</key>
+        <integer>916</integer>
+        <key>weight</key>
+        <integer>3</integer>
+        <key>width</key>
+        <integer>66</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nhook" format="2">
+  <advance width="1539"/>
+  <unicode hex="019D"/>
+  <anchor x="785" y="0" name="bottom"/>
+  <anchor x="69" y="0" name="lfthook"/>
+  <anchor x="1502" y="0" name="lfthook2"/>
+  <anchor x="785" y="1490" name="top"/>
+  <outline>
+    <component base="N"/>
+    <component base="_part.bottom_lfthook_uc" xOffset="-251"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>j</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

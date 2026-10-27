@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightHookArrow" format="2">
+  <advance width="2284"/>
+  <unicode hex="21AA"/>
+  <note>
+Mirror copy of leftHookArrow
+</note>
+  <outline>
+    <component base="leftHookArrow" xScale="-1" xOffset="2284"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>leftHookArrow</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>leftHookArrow</string>
+    </dict>
+  </lib>
+</glyph>

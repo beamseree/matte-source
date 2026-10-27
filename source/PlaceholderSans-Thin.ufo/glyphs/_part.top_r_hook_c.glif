@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.top_r_hook_c" format="2">
+  <advance width="348"/>
+  <anchor x="110" y="899" name="_topr"/>
+  <outline>
+    <contour>
+      <point x="72" y="886" type="line"/>
+      <point x="110" y="899" type="line"/>
+      <point x="-18" y="1106" type="line" smooth="yes"/>
+      <point x="-75" y="1199"/>
+      <point x="-40" y="1258"/>
+      <point x="56" y="1258" type="curve" smooth="yes"/>
+      <point x="73" y="1258"/>
+      <point x="103" y="1258"/>
+      <point x="128" y="1258" type="curve"/>
+      <point x="128" y="1304" type="line"/>
+      <point x="103" y="1304"/>
+      <point x="73" y="1304"/>
+      <point x="56" y="1304" type="curve" smooth="yes"/>
+      <point x="-74" y="1304"/>
+      <point x="-135" y="1208"/>
+      <point x="-55" y="1084" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

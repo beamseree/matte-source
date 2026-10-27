@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ldotbelow.ss07" format="2">
+  <advance width="1117"/>
+  <unicode hex="E1FB"/>
+  <anchor x="603" y="0" name="bottom"/>
+  <anchor x="369" y="745" name="cross"/>
+  <anchor x="593" y="808" name="dot"/>
+  <anchor x="607" y="1490" name="raccent"/>
+  <anchor x="238" y="1490" name="top"/>
+  <outline>
+    <component base="L"/>
+    <component base="dotbelow.ss07" xOffset="359"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

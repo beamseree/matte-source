@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psili" format="2">
+  <advance width="416"/>
+  <unicode hex="1FBF"/>
+  <anchor x="211" y="1118" name="_top"/>
+  <outline>
+    <component base="dasia" xScale="-1" xOffset="416"/>
+  </outline>
+</glyph>

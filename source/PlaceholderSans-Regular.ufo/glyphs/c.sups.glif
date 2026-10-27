@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="c.sups" format="2">
+  <advance width="817"/>
+  <unicode hex="1D9C"/>
+  <anchor x="430" y="896" name="bottom"/>
+  <anchor x="430" y="896" name="cedilla"/>
+  <anchor x="428" y="1208" name="center"/>
+  <anchor x="430" y="1520" name="top"/>
+  <anchor x="746" y="1319" name="topr"/>
+  <outline>
+    <contour>
+      <point x="430" y="885" type="curve" smooth="yes"/>
+      <point x="609" y="885"/>
+      <point x="721" y="973"/>
+      <point x="747" y="1098" type="curve"/>
+      <point x="586" y="1134" type="line"/>
+      <point x="572" y="1071"/>
+      <point x="518" y="1026"/>
+      <point x="431" y="1026" type="curve" smooth="yes"/>
+      <point x="321" y="1026"/>
+      <point x="255" y="1094"/>
+      <point x="255" y="1207" type="curve" smooth="yes"/>
+      <point x="255" y="1321"/>
+      <point x="321" y="1387"/>
+      <point x="431" y="1387" type="curve" smooth="yes"/>
+      <point x="516" y="1387"/>
+      <point x="567" y="1344"/>
+      <point x="583" y="1281" type="curve"/>
+      <point x="746" y="1319" type="line"/>
+      <point x="720" y="1442"/>
+      <point x="603" y="1526"/>
+      <point x="430" y="1526" type="curve" smooth="yes"/>
+      <point x="209" y="1526"/>
+      <point x="72" y="1396"/>
+      <point x="72" y="1206" type="curve" smooth="yes"/>
+      <point x="72" y="1015"/>
+      <point x="209" y="885"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>20</integer>
+        <key>custom</key>
+        <integer>-4</integer>
+        <key>height</key>
+        <real>54.5</real>
+        <key>verticalShift</key>
+        <integer>898</integer>
+        <key>weight</key>
+        <integer>-20</integer>
+        <key>width</key>
+        <integer>66</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

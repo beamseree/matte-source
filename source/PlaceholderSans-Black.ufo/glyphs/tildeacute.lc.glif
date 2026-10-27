@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildeacute.lc" format="2">
+  <advance width="943"/>
+  <unicode hex="E112"/>
+  <guideline y="1632"/>
+  <guideline y="1392"/>
+  <guideline y="1765"/>
+  <anchor x="496" y="1118" name="_top"/>
+  <outline>
+    <component base="tildecomb" yOffset="-24"/>
+    <component base="acute_compact" xScale="0.8" yScale="0.8" xOffset="227" yOffset="627"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>tildecomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acute_compact</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

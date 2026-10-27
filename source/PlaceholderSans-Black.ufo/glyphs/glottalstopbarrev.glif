@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstopbarrev" format="2">
+  <advance width="1168"/>
+  <unicode hex="02A2"/>
+  <anchor x="616" y="157" name="cross"/>
+  <outline>
+    <component base="glottalstoprevinv"/>
+    <component base="crossbar" xOffset="86" yOffset="-579"/>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="U.squared" format="2">
+  <advance width="2813"/>
+  <unicode hex="1F144"/>
+  <anchor x="1399" y="0" name="bottom"/>
+  <anchor x="2050" y="536" name="ogonek"/>
+  <anchor x="1527" y="0" name="right"/>
+  <anchor x="1646" y="1490" name="rtophorn"/>
+  <anchor x="1399" y="1490" name="top"/>
+  <outline>
+    <component base="whiteLargeSquare"/>
+    <component base="U" xOffset="657"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteLargeSquare</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>U</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

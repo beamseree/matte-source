@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esdescendercyrillic" format="2">
+  <advance width="1188"/>
+  <unicode hex="04AB"/>
+  <anchor x="648" y="0" name="bottom"/>
+  <anchor x="648" y="0" name="cedilla"/>
+  <anchor x="648" y="538" name="center"/>
+  <anchor x="648" y="1076" name="top"/>
+  <anchor x="1126" y="771" name="topr"/>
+  <outline>
+    <component base="c"/>
+    <component base="cedillacomb" xOffset="389"/>
+  </outline>
+</glyph>

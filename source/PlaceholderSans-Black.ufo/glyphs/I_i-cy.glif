@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ii-cy" format="2">
+  <advance width="1575"/>
+  <unicode hex="0418"/>
+  <anchor x="790" y="0" name="bottom"/>
+  <anchor x="1506" y="0" name="lfthook"/>
+  <anchor x="73" y="0" name="lfthook2"/>
+  <anchor x="741" y="1490" name="top"/>
+  <anchor x="1420" y="0" name="cyrtic"/>
+  <outline>
+    <component base="N" xScale="-1" xOffset="1575"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>N</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>N</string>
+    </dict>
+  </lib>
+</glyph>

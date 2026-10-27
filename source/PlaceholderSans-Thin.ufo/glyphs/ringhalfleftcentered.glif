@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringhalfleftcentered" format="2">
+  <advance width="294"/>
+  <unicode hex="02D3"/>
+  <outline>
+    <component base="ringhalfleft"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ringhalfleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ringhalfleft</string>
+    </dict>
+  </lib>
+</glyph>

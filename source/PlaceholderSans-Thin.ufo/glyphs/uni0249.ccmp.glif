@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0249.ccmp" format="2">
+  <advance width="381"/>
+  <unicode hex="E04E"/>
+  <anchor x="515" y="0" name="_right"/>
+  <anchor x="200" y="-442" name="bottom"/>
+  <anchor x="228" y="605" name="cross"/>
+  <anchor x="229" y="1076" name="top"/>
+  <outline>
+    <component base="jdotless"/>
+    <component base="crossbar" xOffset="-223" yOffset="-117"/>
+  </outline>
+</glyph>

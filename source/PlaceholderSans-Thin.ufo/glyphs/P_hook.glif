@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Phook" format="2">
+  <advance width="1413"/>
+  <unicode hex="01A4"/>
+  <anchor x="306" y="1490" name="tonos"/>
+  <anchor x="807" y="1490" name="top"/>
+  <anchor x="353" y="1490" name="topl"/>
+  <outline>
+    <component base="P" xOffset="160"/>
+    <component base="_part.top_left_hook" xOffset="51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=+160</string>
+    </dict>
+  </lib>
+</glyph>

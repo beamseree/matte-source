@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhungarumlautcyrillic" format="2">
+  <advance width="1114"/>
+  <unicode hex="04F2"/>
+  <anchor x="581" y="1490" name="top"/>
+  <outline>
+    <component base="U-cy"/>
+    <component base="hungarumlaut" xOffset="171" yOffset="372"/>
+  </outline>
+</glyph>

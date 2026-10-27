@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni035D" format="2">
+  <unicode hex="035D"/>
+  <anchor x="46" y="1186" name="_marktop_dd"/>
+  <outline>
+    <contour>
+      <point x="50" y="1250" type="curve" smooth="yes"/>
+      <point x="297" y="1251"/>
+      <point x="563" y="1344"/>
+      <point x="696" y="1486" type="curve"/>
+      <point x="648" y="1486" type="line"/>
+      <point x="505" y="1375"/>
+      <point x="262" y="1298"/>
+      <point x="46" y="1298" type="curve" smooth="yes"/>
+      <point x="-163" y="1298"/>
+      <point x="-415" y="1375"/>
+      <point x="-552" y="1486" type="curve"/>
+      <point x="-600" y="1486" type="line"/>
+      <point x="-467" y="1348"/>
+      <point x="-205" y="1251"/>
+    </contour>
+  </outline>
+</glyph>

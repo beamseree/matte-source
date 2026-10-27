@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ubar" format="2">
+  <advance width="1312"/>
+  <unicode hex="0289"/>
+  <anchor x="644" y="0" name="bottom"/>
+  <anchor x="1093" y="0" name="ogonek"/>
+  <anchor x="898" y="1076" name="rtophorn"/>
+  <anchor x="642" y="1076" name="top"/>
+  <outline>
+    <contour>
+      <point x="1264" y="656" type="line"/>
+      <point x="5" y="656" type="line"/>
+      <point x="5" y="522" type="line"/>
+      <point x="1264" y="522" type="line"/>
+    </contour>
+    <component base="u" xOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|t</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.brackquill_left" format="2">
+  <advance width="605"/>
+  <guideline y="651" name="Mid center"/>
+  <anchor x="110" y="651" name="_cross"/>
+  <outline>
+    <contour>
+      <point x="319" y="674" type="line"/>
+      <point x="110" y="674" type="line"/>
+      <point x="110" y="628" type="line"/>
+      <point x="319" y="628" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n" format="2">
+  <advance width="1275"/>
+  <unicode hex="006E"/>
+  <note>
+aka circumflexbelow
+</note>
+  <anchor x="627" y="0" name="bottom"/>
+  <anchor x="1187" y="0" name="bottomr"/>
+  <anchor x="69" y="0" name="lfthook"/>
+  <anchor x="627" y="1076" name="top"/>
+  <anchor x="471" y="1076" name="topr"/>
+  <outline>
+    <contour>
+      <point x="471" y="601" type="line" smooth="yes"/>
+      <point x="471" y="702"/>
+      <point x="532" y="763"/>
+      <point x="629" y="763" type="curve" smooth="yes"/>
+      <point x="727" y="763"/>
+      <point x="785" y="701"/>
+      <point x="785" y="599" type="curve" smooth="yes"/>
+      <point x="785" y="0" type="line"/>
+      <point x="1187" y="0" type="line"/>
+      <point x="1187" y="685" type="line" smooth="yes"/>
+      <point x="1187" y="917"/>
+      <point x="1036" y="1101"/>
+      <point x="801" y="1101" type="curve" smooth="yes"/>
+      <point x="598" y="1101"/>
+      <point x="492" y="959"/>
+      <point x="442" y="800" type="curve"/>
+      <point x="454" y="800" type="line"/>
+      <point x="446" y="1076" type="line"/>
+      <point x="69" y="1076" type="line"/>
+      <point x="69" y="0" type="line"/>
+      <point x="471" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|n</string>
+    </dict>
+  </lib>
+</glyph>

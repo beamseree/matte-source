@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shhacyrillic" format="2">
+  <advance width="1194"/>
+  <unicode hex="04BB"/>
+  <anchor x="606" y="0" name="bottom"/>
+  <anchor x="252" y="0" name="cedilla"/>
+  <anchor x="335" y="1288" name="cross"/>
+  <anchor x="862" y="0" name="lfthook"/>
+  <anchor x="252" y="1490" name="top"/>
+  <outline>
+    <component base="h"/>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ereversedcyrillic" format="2">
+  <advance width="1068"/>
+  <unicode hex="044D"/>
+  <note>
+mirrored /ecyrillic
+</note>
+  <anchor x="511" y="1076" name="top"/>
+  <outline>
+    <component base="ecyrillic" xScale="-1" xOffset="1068"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|c</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+    </dict>
+  </lib>
+</glyph>

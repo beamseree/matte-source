@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kadescendercyrillic" format="2">
+  <advance width="1633"/>
+  <unicode hex="049A"/>
+  <anchor x="1427" y="0" name="cyrtic"/>
+  <anchor x="701" y="1490" name="top"/>
+  <outline>
+    <component base="Kacyr"/>
+    <component base="_part.cyrtic" xOffset="1031"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>K</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+100</string>
+    </dict>
+  </lib>
+</glyph>

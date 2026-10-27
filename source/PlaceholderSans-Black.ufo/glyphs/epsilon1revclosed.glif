@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilon1revclosed" format="2">
+  <advance width="1219"/>
+  <unicode hex="025E"/>
+  <note>
+mirror of epsilonclosed
+</note>
+  <outline>
+    <component base="epsilonclosed" xScale="-1" xOffset="1219"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|epsilonclosed</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|epsilonclosed</string>
+    </dict>
+  </lib>
+</glyph>

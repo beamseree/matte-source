@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mturndescend" format="2">
+  <advance width="1751"/>
+  <unicode hex="0270"/>
+  <anchor x="899" y="1160" name="top"/>
+  <anchor x="335.0" y="1076.0" name="lfthook"/>
+  <anchor x="899" y="0" name="bottom"/>
+  <anchor x="1620" y="0" name="bottomr"/>
+  <outline>
+    <component base="mturn"/>
+    <component base="_part.bottomr_descend" xOffset="1281"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>mturn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>mturn</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcommaaccent.ss03" format="2">
+  <advance width="367"/>
+  <unicode hex="EE82"/>
+  <anchor x="272" y="0" name="bottom"/>
+  <anchor x="272" y="0" name="cedilla"/>
+  <anchor x="414" y="4" name="lfthook"/>
+  <anchor x="159" y="1384" name="top"/>
+  <anchor x="78" y="1526" name="raccent"/>
+  <outline>
+    <component base="t"/>
+    <component base="commaaccent.ss03" xOffset="-31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

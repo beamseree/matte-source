@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kabashkircyrillic" format="2">
+  <advance width="1705"/>
+  <unicode hex="04A0"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <anchor x="1600" y="0" name="cyrtic"/>
+  <anchor x="1002" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="582" y="1490" type="line"/>
+      <point x="50" y="1490" type="line"/>
+      <point x="50" y="1306" type="line"/>
+      <point x="582" y="1306" type="line"/>
+    </contour>
+    <component base="Kacyr" xOffset="342"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>K</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

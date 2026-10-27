@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="triagdn" format="2">
+  <advance width="2169"/>
+  <unicode hex="25BC"/>
+  <outline>
+    <contour>
+      <point x="107" y="1490" type="line"/>
+      <point x="1085" y="-94" type="line"/>
+      <point x="2063" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>triagup</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>triagup</string>
+    </dict>
+  </lib>
+</glyph>

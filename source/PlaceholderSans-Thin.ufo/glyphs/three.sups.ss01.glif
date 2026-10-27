@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.sups.ss01" format="2">
+  <advance width="802"/>
+  <anchor x="402" y="1683" name="top"/>
+  <outline>
+    <contour>
+      <point x="405" y="906" type="curve" smooth="yes"/>
+      <point x="589" y="906"/>
+      <point x="703" y="1006"/>
+      <point x="703" y="1128" type="curve" smooth="yes"/>
+      <point x="703" y="1260"/>
+      <point x="562" y="1359"/>
+      <point x="349" y="1344" type="curve"/>
+      <point x="349" y="1331" type="line"/>
+      <point x="676" y="1647" type="line"/>
+      <point x="676" y="1683" type="line"/>
+      <point x="149" y="1683" type="line"/>
+      <point x="149" y="1639" type="line"/>
+      <point x="610" y="1639" type="line"/>
+      <point x="610" y="1636" type="line"/>
+      <point x="315" y="1354" type="line"/>
+      <point x="315" y="1313" type="line"/>
+      <point x="358" y="1313" type="line" smooth="yes"/>
+      <point x="533" y="1313"/>
+      <point x="654" y="1238"/>
+      <point x="654" y="1128" type="curve" smooth="yes"/>
+      <point x="654" y="1028"/>
+      <point x="562" y="950"/>
+      <point x="406" y="950" type="curve" smooth="yes"/>
+      <point x="267" y="950"/>
+      <point x="159" y="1013"/>
+      <point x="157" y="1105" type="curve"/>
+      <point x="108" y="1105" type="line"/>
+      <point x="111" y="986"/>
+      <point x="240" y="906"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>10</integer>
+        <key>custom</key>
+        <integer>-3</integer>
+        <key>height</key>
+        <real>51.5</real>
+        <key>verticalShift</key>
+        <integer>916</integer>
+        <key>weight</key>
+        <integer>3</integer>
+        <key>width</key>
+        <integer>66</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

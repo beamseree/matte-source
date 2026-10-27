@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilon" format="2">
+  <advance width="1188"/>
+  <unicode hex="03C5"/>
+  <note>
+https://en.wikipedia.org/wiki/Upsilon
+</note>
+  <anchor x="594" y="0" name="bottom"/>
+  <anchor x="1052" y="410" name="ogonek"/>
+  <anchor x="594" y="1076" name="top"/>
+  <outline>
+    <component base="u.1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|u</string>
+    </dict>
+  </lib>
+</glyph>

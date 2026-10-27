@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hadescendercyrillic" format="2">
+  <advance width="1213"/>
+  <unicode hex="04B3"/>
+  <anchor x="568" y="0" name="bottom"/>
+  <anchor x="1062" y="0" name="cyrtic"/>
+  <anchor x="916" y="0" name="right"/>
+  <anchor x="568" y="1076" name="top"/>
+  <outline>
+    <component base="x"/>
+    <component base="_part.cyrtic" xOffset="899"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+40</string>
+    </dict>
+  </lib>
+</glyph>

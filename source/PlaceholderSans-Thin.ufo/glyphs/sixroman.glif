@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sixroman" format="2">
+  <advance width="1119"/>
+  <unicode hex="2175"/>
+  <anchor x="980" y="0" name="bottom"/>
+  <anchor x="932" y="1467" name="top"/>
+  <anchor x="980" y="560" name="cross"/>
+  <anchor x="1004" y="0" name="ogonek"/>
+  <outline>
+    <component base="v" xOffset="-20"/>
+    <component base="i" xOffset="788"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>v</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>i</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

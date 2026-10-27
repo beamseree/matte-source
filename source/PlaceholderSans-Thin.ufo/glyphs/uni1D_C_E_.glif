@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DCE" format="2">
+  <unicode hex="1DCE"/>
+  <anchor x="-426.0" y="1088.0" name="_ogonek"/>
+  <outline>
+    <component base="ogonekcomb" xScale="-1.0" yScale="-1.0" xOffset="-160.0" yOffset="1088.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ogonekcomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

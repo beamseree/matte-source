@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dbar1" format="2">
+  <advance width="1523"/>
+  <unicode hex="0189"/>
+  <note>
+effective LSB should be ~t
+</note>
+  <anchor x="644" y="0" name="bottom"/>
+  <anchor x="398" y="745" name="cross"/>
+  <anchor x="634" y="1490" name="top"/>
+  <anchor x="163" y="1490" name="topl"/>
+  <outline>
+    <component base="D" xOffset="27"/>
+    <component base="crossbar_short.uc" xOffset="-3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=+27</string>
+    </dict>
+  </lib>
+</glyph>

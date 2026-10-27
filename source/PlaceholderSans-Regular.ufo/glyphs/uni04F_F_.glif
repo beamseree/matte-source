@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04FF" format="2">
+  <advance width="1171"/>
+  <unicode hex="04FF"/>
+  <anchor x="568" y="0" name="bottom"/>
+  <anchor x="1062" y="0" name="cyrtic"/>
+  <anchor x="916" y="0" name="right"/>
+  <anchor x="568" y="1076" name="top"/>
+  <outline>
+    <contour>
+      <point x="76" y="485" type="line"/>
+      <point x="1048" y="485" type="line"/>
+      <point x="1048" y="612" type="line"/>
+      <point x="76" y="612" type="line"/>
+    </contour>
+    <component base="x"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>x</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>x</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>x</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zhedescendercyrillic" format="2">
+  <advance width="1828"/>
+  <unicode hex="0496"/>
+  <anchor x="1729" y="0" name="cyrtic"/>
+  <anchor x="904" y="1490" name="top"/>
+  <outline>
+    <component base="Zhe-cy"/>
+    <component base="_part.cyrtic" xOffset="1650"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+30</string>
+    </dict>
+  </lib>
+</glyph>

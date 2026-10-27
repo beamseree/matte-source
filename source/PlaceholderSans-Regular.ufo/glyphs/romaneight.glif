@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="romaneight" format="2">
+  <advance width="2987"/>
+  <unicode hex="2167"/>
+  <anchor x="2738" y="0" name="bottom"/>
+  <anchor x="2738" y="1490" name="top"/>
+  <anchor x="2738" y="772" name="cross"/>
+  <anchor x="2840" y="0" name="ogonek"/>
+  <anchor x="2857" y="0" name="right"/>
+  <anchor x="2636" y="1490" name="tonos"/>
+  <outline>
+    <component base="V"/>
+    <component base="I" xOffset="1506"/>
+    <component base="I" xOffset="1999"/>
+    <component base="I" xOffset="2493"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>V</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

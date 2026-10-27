@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overline" format="2">
+  <advance width="1111"/>
+  <unicode hex="203E"/>
+  <anchor x="551" y="1900" name="_bottom"/>
+  <outline>
+    <component base="underscore" xOffset="82" yOffset="1742"/>
+  </outline>
+</glyph>

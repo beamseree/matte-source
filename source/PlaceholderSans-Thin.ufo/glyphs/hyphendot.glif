@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphendot" format="2">
+  <advance width="491"/>
+  <unicode hex="2027"/>
+  <anchor x="64" y="697" name="_centerr"/>
+  <outline>
+    <component base="periodcentered"/>
+  </outline>
+</glyph>

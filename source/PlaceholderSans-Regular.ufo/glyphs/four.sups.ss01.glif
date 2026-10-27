@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.sups.ss01" format="2">
+  <advance width="922"/>
+  <outline>
+    <contour>
+      <point x="87" y="1029" type="line"/>
+      <point x="841" y="1029" type="line"/>
+      <point x="841" y="1173" type="line"/>
+      <point x="267" y="1173" type="line"/>
+      <point x="267" y="1182" type="line"/>
+      <point x="621" y="1713" type="line"/>
+      <point x="449" y="1713" type="line"/>
+      <point x="87" y="1171" type="line"/>
+    </contour>
+    <contour>
+      <point x="550" y="896" type="line"/>
+      <point x="718" y="896" type="line"/>
+      <point x="718" y="1406" type="line"/>
+      <point x="557" y="1406" type="line"/>
+      <point x="557" y="1133" type="line"/>
+      <point x="550" y="1068" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>20</integer>
+        <key>custom</key>
+        <integer>-4</integer>
+        <key>height</key>
+        <real>54.5</real>
+        <key>verticalShift</key>
+        <integer>898</integer>
+        <key>weight</key>
+        <integer>-20</integer>
+        <key>width</key>
+        <integer>66</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>four.sups</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>four.sups</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macronacutecomb" format="2">
+  <unicode hex="1DC4"/>
+  <guideline y="1616"/>
+  <guideline y="1392"/>
+  <guideline y="1681"/>
+  <anchor x="376" y="1118" name="_top"/>
+  <outline>
+    <component base="macroncomb" yOffset="-28"/>
+    <component base="acute_compact" xOffset="155" yOffset="333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>macroncomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acute_compact</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>702</integer>
+    </dict>
+  </lib>
+</glyph>

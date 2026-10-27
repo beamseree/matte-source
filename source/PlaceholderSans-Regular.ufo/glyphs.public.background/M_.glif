@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M" format="2">
+  <advance width="1850"/>
+  <outline>
+    <contour>
+      <point x="142.4221450182813" y="0.0" type="line"/>
+      <point x="336.94513398629715" y="0.0" type="line"/>
+      <point x="336.94513398629715" y="1256.152944233732" type="line"/>
+      <point x="361.7906057999826" y="1256.152944233732" type="line"/>
+      <point x="788.0817437090409" y="0.0" type="line"/>
+      <point x="1044.6953644637724" y="0.0" type="line"/>
+      <point x="1468.9583005921231" y="1256.152944233732" type="line"/>
+      <point x="1493.7576769107945" y="1256.152944233732" type="line"/>
+      <point x="1493.7576769107945" y="0.0" type="line"/>
+      <point x="1696.577854981715" y="0.0" type="line"/>
+      <point x="1696.577854981715" y="1490.0" type="line"/>
+      <point x="1348.9256315701496" y="1490.0" type="line"/>
+      <point x="932.9598845447035" y="244.19549439738603" type="line"/>
+      <point x="910.1887100067397" y="244.19549439738603" type="line"/>
+      <point x="492.1486657055684" y="1490.0" type="line"/>
+      <point x="142.4221450182813" y="1490.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

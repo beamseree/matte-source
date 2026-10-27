@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscaroncomb.lc" format="2">
+  <advance width="1021"/>
+  <unicode hex="E113"/>
+  <guideline y="1890"/>
+  <guideline y="1616"/>
+  <guideline y="1392"/>
+  <guideline y="1681"/>
+  <guideline y="1681"/>
+  <anchor x="533" y="1118" name="_top"/>
+  <outline>
+    <component base="dieresiscomb" yOffset="-28"/>
+    <component base="caroncomb" xOffset="52" yOffset="333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dieresiscomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caroncomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

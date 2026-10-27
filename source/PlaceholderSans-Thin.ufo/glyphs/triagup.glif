@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="triagup" format="2">
+  <advance width="1961"/>
+  <unicode hex="25B2"/>
+  <outline>
+    <contour>
+      <point x="77" y="0" type="line"/>
+      <point x="1883" y="0" type="line"/>
+      <point x="979" y="1582" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|triagup</string>
+    </dict>
+  </lib>
+</glyph>

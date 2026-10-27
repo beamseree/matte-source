@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E2D.ccmp" format="2">
+  <advance width="466"/>
+  <unicode hex="E04B"/>
+  <anchor x="234" y="0" name="bottom"/>
+  <anchor x="234" y="575" name="cross"/>
+  <anchor x="330" y="0" name="ogonek"/>
+  <anchor x="234" y="1076" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="tildesubcomb" xOffset="834"/>
+  </outline>
+</glyph>

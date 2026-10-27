@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lj" format="2">
+  <advance width="1146"/>
+  <unicode hex="01C9"/>
+  <anchor x="836" y="-393" name="bottom"/>
+  <anchor x="489" y="0" name="bottomr"/>
+  <anchor x="489" y="717" name="centerr"/>
+  <anchor x="895" y="663" name="cross"/>
+  <anchor x="607" y="1490" name="raccent"/>
+  <anchor x="862" y="1600" name="top"/>
+  <outline>
+    <component base="l"/>
+    <component base="j" xOffset="591"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>j</string>
+    </dict>
+  </lib>
+</glyph>

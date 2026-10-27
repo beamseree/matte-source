@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pageup" format="2">
+  <advance width="1309"/>
+  <unicode hex="21DE"/>
+  <outline>
+    <contour>
+      <point x="120" y="1000" type="line"/>
+      <point x="1188" y="1000" type="line"/>
+      <point x="654" y="1550" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="224" type="line"/>
+      <point x="1010" y="224" type="line"/>
+      <point x="1010" y="500" type="line"/>
+      <point x="298" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="502" y="0" type="line"/>
+      <point x="804" y="0" type="line"/>
+      <point x="804" y="1230" type="line"/>
+      <point x="502" y="1230" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="612" type="line"/>
+      <point x="1010" y="612" type="line"/>
+      <point x="1010" y="888" type="line"/>
+      <point x="298" y="888" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>upBlackArrow</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>upBlackArrow</string>
+    </dict>
+  </lib>
+</glyph>

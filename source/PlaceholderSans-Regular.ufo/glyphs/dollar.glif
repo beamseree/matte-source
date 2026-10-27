@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dollar" format="2">
+  <advance width="1368"/>
+  <unicode hex="0024"/>
+  <anchor x="686" y="0" name="bottom"/>
+  <anchor x="686" y="0" name="cedilla"/>
+  <anchor x="684" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="623" y="-213" type="line"/>
+      <point x="752" y="-213" type="line"/>
+      <point x="752" y="1703" type="line"/>
+      <point x="623" y="1703" type="line"/>
+    </contour>
+    <component base="S"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>S</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>S</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

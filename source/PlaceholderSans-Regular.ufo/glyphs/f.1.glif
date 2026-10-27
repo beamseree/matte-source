@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f.1" format="2">
+  <advance width="650"/>
+  <unicode hex="EE0D"/>
+  <note>
+!flatten
+</note>
+  <anchor x="222" y="0" name="bottom"/>
+  <anchor x="222" y="768" name="cross"/>
+  <anchor x="299" y="1552" name="top"/>
+  <outline>
+    <contour>
+      <point x="571" y="1076" type="line"/>
+      <point x="209" y="1076" type="line"/>
+      <point x="209" y="902" type="line"/>
+      <point x="571" y="902" type="line"/>
+    </contour>
+    <component base="_part.f_base" xOffset="-74"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.tcurl_base" format="2">
+  <advance width="485"/>
+  <anchor x="219" y="394" name="bottomr"/>
+  <outline>
+    <contour>
+      <point x="173" y="394" type="line"/>
+      <point x="219" y="394" type="line"/>
+      <point x="219" y="1384" type="line"/>
+      <point x="173" y="1384" type="line"/>
+    </contour>
+    <contour>
+      <point x="9" y="1072" type="line"/>
+      <point x="451" y="1072" type="line"/>
+      <point x="451" y="1118" type="line"/>
+      <point x="9" y="1118" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+    </dict>
+  </lib>
+</glyph>

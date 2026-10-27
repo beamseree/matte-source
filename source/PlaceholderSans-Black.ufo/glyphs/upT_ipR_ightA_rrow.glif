@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upTipRightArrow" format="2">
+  <advance width="2057"/>
+  <unicode hex="21B1"/>
+  <note>
+Mirror copy of carriagereturn
+</note>
+  <outline>
+    <contour>
+      <point x="1335" y="468" type="line"/>
+      <point x="1883" y="1002" type="line"/>
+      <point x="1335" y="1536" type="line"/>
+    </contour>
+    <contour>
+      <point x="175" y="0" type="line"/>
+      <point x="471" y="0" type="line"/>
+      <point x="471" y="1154" type="line"/>
+      <point x="175" y="1154" type="line"/>
+    </contour>
+    <contour>
+      <point x="179" y="850" type="line"/>
+      <point x="1515" y="850" type="line"/>
+      <point x="1515" y="1154" type="line"/>
+      <point x="179" y="1154" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>downTipRightArrow</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightArrow</string>
+    </dict>
+  </lib>
+</glyph>

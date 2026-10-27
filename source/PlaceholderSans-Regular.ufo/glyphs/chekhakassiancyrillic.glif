@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chekhakassiancyrillic" format="2">
+  <advance width="1190"/>
+  <unicode hex="04CC"/>
+  <anchor x="581" y="422" name="cross"/>
+  <anchor x="1023" y="0" name="cyrtic"/>
+  <anchor x="581" y="1076" name="top"/>
+  <outline>
+    <component base="checyrillic"/>
+    <component base="_part.cyrtic_left" xOffset="550"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>checyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>checyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+30</string>
+    </dict>
+  </lib>
+</glyph>

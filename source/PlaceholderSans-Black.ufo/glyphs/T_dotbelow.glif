@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tdotbelow" format="2">
+  <advance width="1407"/>
+  <unicode hex="1E6C"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="925" y="0" name="bottomr"/>
+  <anchor x="724" y="0" name="cedilla"/>
+  <anchor x="723" y="666" name="cross"/>
+  <anchor x="925" y="0" name="cyrtic"/>
+  <anchor x="872" y="0" name="right"/>
+  <anchor x="723" y="1490" name="top"/>
+  <outline>
+    <component base="T"/>
+    <component base="dotbelow" xOffset="409"/>
+  </outline>
+</glyph>

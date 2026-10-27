@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni023A" format="2">
+  <advance width="1453"/>
+  <unicode hex="023A"/>
+  <anchor x="733" y="0" name="bottom"/>
+  <anchor x="1428" y="0" name="ogonek"/>
+  <anchor x="507" y="1490" name="tonos"/>
+  <anchor x="733" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="1196" y="1678" type="line"/>
+      <point x="1021" y="1678" type="line"/>
+      <point x="320" y="-190" type="line"/>
+      <point x="495" y="-190" type="line"/>
+    </contour>
+    <component base="A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>A</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

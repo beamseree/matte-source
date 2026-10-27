@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaabovecmb" format="2">
+  <unicode hex="0313"/>
+  <anchor x="720.0" y="914.0" name="_markbottom"/>
+  <anchor x="720.0" y="300.0" name="mkmkbottom"/>
+  <anchor x="688.0" y="670.0" name="parent_bottom"/>
+  <outline>
+    <component base="commaturnsupcomb" xScale="-1.0" yScale="-1.0" xOffset="46.0" yOffset="1984.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>46</integer>
+    </dict>
+  </lib>
+</glyph>

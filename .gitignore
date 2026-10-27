@@ -1,0 +1,9 @@
+# Python environments (not portable; see README "Setup")
+.venv/
+vendor/
+
+# Build output (tools/build.sh regenerates it)
+build/
+
+__pycache__/
+.DS_Store

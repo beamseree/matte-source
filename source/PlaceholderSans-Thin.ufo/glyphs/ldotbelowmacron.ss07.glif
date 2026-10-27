@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ldotbelowmacron.ss07" format="2">
+  <advance width="310"/>
+  <unicode hex="E249"/>
+  <anchor x="194" y="0" name="bottom"/>
+  <anchor x="216" y="0" name="bottomr"/>
+  <anchor x="216" y="717" name="centerr"/>
+  <anchor x="194" y="739" name="cross"/>
+  <anchor x="355" y="1490" name="raccent"/>
+  <anchor x="112" y="1815" name="top"/>
+  <outline>
+    <component base="l"/>
+    <component base="dotbelow.ss07" xOffset="-6"/>
+    <component base="macroncomb" xOffset="-264" yOffset="372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FCD.tonos" format="2">
+  <advance width="727"/>
+  <unicode hex="EE93"/>
+  <anchor x="968" y="1595" name="_tonos"/>
+  <outline>
+    <component base="psilivaria"/>
+  </outline>
+</glyph>

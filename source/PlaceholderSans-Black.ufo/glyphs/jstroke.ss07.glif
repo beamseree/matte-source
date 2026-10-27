@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jstroke.ss07" format="2">
+  <advance width="520"/>
+  <unicode hex="E245"/>
+  <anchor x="453" y="0" name="_right"/>
+  <anchor x="245" y="-393" name="bottom"/>
+  <anchor x="304" y="663" name="cross"/>
+  <anchor x="235" y="1586" name="top"/>
+  <outline>
+    <component base="uni0249.ccmp"/>
+    <component base="dotaccentcomb.ss07" xOffset="-81"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni0249.ccmp</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

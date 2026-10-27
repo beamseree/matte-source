@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lambdabar" format="2">
+  <advance width="1379"/>
+  <unicode hex="019B"/>
+  <anchor x="624" y="1168" name="bar"/>
+  <outline>
+    <component base="lambda"/>
+    <component base="_part.lambdabar" xOffset="37" yOffset="40"/>
+  </outline>
+</glyph>

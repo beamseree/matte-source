@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a.sc" format="2">
+  <advance width="1101"/>
+  <unicode hex="1D00"/>
+  <anchor x="550" y="0" name="bottom"/>
+  <anchor x="1069" y="0" name="ogonek"/>
+  <anchor x="360" y="1118" name="tonos"/>
+  <anchor x="550" y="1118" name="top"/>
+  <outline>
+    <contour>
+      <point x="33" y="0" type="line"/>
+      <point x="244" y="0" type="line"/>
+      <point x="440" y="562" type="line" smooth="yes"/>
+      <point x="475" y="684"/>
+      <point x="515" y="840"/>
+      <point x="565" y="1040" type="curve"/>
+      <point x="525" y="1040" type="line"/>
+      <point x="577" y="836"/>
+      <point x="618" y="689"/>
+      <point x="654" y="562" type="curve" smooth="yes"/>
+      <point x="857" y="0" type="line"/>
+      <point x="1069" y="0" type="line"/>
+      <point x="669" y="1118" type="line"/>
+      <point x="424" y="1118" type="line"/>
+    </contour>
+    <contour>
+      <point x="257" y="270" type="line"/>
+      <point x="844" y="270" type="line"/>
+      <point x="844" y="440" type="line"/>
+      <point x="257" y="440" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>75</integer>
+        <key>weight</key>
+        <integer>-12</integer>
+        <key>width</key>
+        <real>74.95</real>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|a.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Small</string>
+    </dict>
+  </lib>
+</glyph>

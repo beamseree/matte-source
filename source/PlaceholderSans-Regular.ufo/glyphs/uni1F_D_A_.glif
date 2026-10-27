@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FDA" format="2">
+  <advance width="637"/>
+  <unicode hex="1FDA"/>
+  <anchor x="425" y="0" name="bottom"/>
+  <anchor x="425" y="772" name="cross"/>
+  <anchor x="527" y="0" name="ogonek"/>
+  <anchor x="544" y="0" name="right"/>
+  <anchor x="323" y="1490" name="tonos"/>
+  <anchor x="425" y="1490" name="top"/>
+  <outline>
+    <component base="I" xOffset="180"/>
+    <component base="uni1FEF.tonos" xOffset="-220"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=+180</string>
+    </dict>
+  </lib>
+</glyph>

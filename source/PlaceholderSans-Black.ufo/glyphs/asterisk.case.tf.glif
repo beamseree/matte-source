@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk.case.tf" format="2">
+  <advance width="1271"/>
+  <unicode hex="EE71"/>
+  <note>
+Recipe:
+1. make horizontal rect
+2. copy rect and paste
+3. rotate by 60 deg
+4. enter transform mode and center it
+5. copy the rotated piece and paste
+6. flip on vertical axis
+7. enter transform mode and center it
+</note>
+  <outline>
+    <component base="asterisk.case" xOffset="-54"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>asterisk.case</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

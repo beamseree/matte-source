@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign" format="2">
+  <advance width="1353"/>
+  <unicode hex="0023"/>
+  <note>
+1. outline
+2. slant 9.4 deg
+3. remove extra shapes created by outlining
+</note>
+  <outline>
+    <contour>
+      <point x="670" y="0" type="line"/>
+      <point x="960" y="0" type="line"/>
+      <point x="1206" y="1490" type="line"/>
+      <point x="914" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="10" y="340" type="line"/>
+      <point x="1208" y="340" type="line"/>
+      <point x="1258" y="632" type="line"/>
+      <point x="60" y="632" type="line"/>
+    </contour>
+    <contour>
+      <point x="146" y="0" type="line"/>
+      <point x="438" y="0" type="line"/>
+      <point x="682" y="1490" type="line"/>
+      <point x="390" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="94" y="858" type="line"/>
+      <point x="1292" y="858" type="line"/>
+      <point x="1342" y="1150" type="line"/>
+      <point x="144" y="1150" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam.ss07" format="2">
+  <advance width="515"/>
+  <unicode hex="E2AF"/>
+  <guideline x="277" y="1584" angle="90"/>
+  <outline>
+    <contour>
+      <point x="163" y="477" type="line"/>
+      <point x="354" y="477" type="line"/>
+      <point x="368" y="1490" type="line"/>
+      <point x="150" y="1490" type="line"/>
+    </contour>
+    <component base="period.ss07" xOffset="-18"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>period.ss07</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>period</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>period</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

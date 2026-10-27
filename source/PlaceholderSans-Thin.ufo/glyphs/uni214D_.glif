@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni214D" format="2">
+  <advance width="1513"/>
+  <unicode hex="214D"/>
+  <anchor x="1183" y="-3" name="bottom"/>
+  <anchor x="592" y="907" name="ogonek"/>
+  <anchor x="254" y="1490" name="tonos"/>
+  <anchor x="1183" y="580" name="top"/>
+  <anchor x="1182" y="-3" name="cedilla"/>
+  <anchor x="922" y="125" name="rthook"/>
+  <outline>
+    <component base="_part.A_frac"/>
+    <component base="fraction" xOffset="630"/>
+    <component base="s.subs" xOffset="833" yOffset="281"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>s.subs</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>_part.A_frac</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>s.subs</string>
+    </dict>
+  </lib>
+</glyph>

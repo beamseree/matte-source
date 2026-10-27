@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0248" format="2">
+  <advance width="1137"/>
+  <unicode hex="0248"/>
+  <note>
+RSB should match RSB of /Istroke
+</note>
+  <anchor x="779" y="884" name="cross"/>
+  <anchor x="784" y="1490" name="top"/>
+  <outline>
+    <component base="J"/>
+    <component base="_part.crossbar_compact" xOffset="317" yOffset="139"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+100</string>
+    </dict>
+  </lib>
+</glyph>

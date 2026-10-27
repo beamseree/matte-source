@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nlfthook" format="2">
+  <advance width="1239"/>
+  <unicode hex="0272"/>
+  <anchor x="627" y="0" name="bottom"/>
+  <anchor x="1187" y="0" name="bottomr"/>
+  <anchor x="69" y="0" name="lfthook"/>
+  <anchor x="627" y="1076" name="top"/>
+  <anchor x="471" y="1076" name="topr"/>
+  <outline>
+    <component base="n"/>
+    <component base="_part.bottom_lfthook" xOffset="-299"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>jdotless</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
+</glyph>

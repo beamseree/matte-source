@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresis-cy.ss07" format="2">
+  <advance width="1467"/>
+  <unicode hex="E294"/>
+  <anchor x="762" y="1957" name="top"/>
+  <outline>
+    <component base="U-cy"/>
+    <component base="dieresiscomb.ss07" xOffset="112" yOffset="372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

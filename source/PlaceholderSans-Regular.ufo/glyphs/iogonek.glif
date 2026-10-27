@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek" format="2">
+  <advance width="429"/>
+  <unicode hex="012F"/>
+  <anchor x="229" y="-466" name="bottom"/>
+  <anchor x="234" y="575" name="cross"/>
+  <anchor x="330" y="0" name="ogonek"/>
+  <anchor x="195" y="1548" name="top"/>
+  <outline>
+    <component base="uni012F.ccmp"/>
+    <component base="dotaccentcomb" xOffset="-40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni012F.ccmp</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

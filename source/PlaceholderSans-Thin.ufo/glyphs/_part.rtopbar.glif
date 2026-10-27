@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.rtopbar" format="2">
+  <advance width="907"/>
+  <note>
+Mirror copy of _part.topbar
+</note>
+  <anchor x="797" y="1490" name="_topbar"/>
+  <outline>
+    <contour>
+      <point x="773" y="1444" type="line"/>
+      <point x="797" y="1490" type="line"/>
+      <point x="110" y="1490" type="line" name="hr00"/>
+      <point x="110" y="1444" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|_part.topbar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|_part.topbar</string>
+    </dict>
+  </lib>
+</glyph>

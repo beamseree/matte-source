@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="austral" format="2">
+  <advance width="1312"/>
+  <unicode hex="20B3"/>
+  <anchor x="656" y="0" name="bottom"/>
+  <anchor x="656" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="79" y="792" type="line"/>
+      <point x="1233" y="792" type="line"/>
+      <point x="1233" y="838" type="line"/>
+      <point x="79" y="838" type="line"/>
+    </contour>
+    <contour>
+      <point x="79" y="442" type="line"/>
+      <point x="1233" y="442" type="line"/>
+      <point x="1233" y="488" type="line"/>
+      <point x="79" y="488" type="line"/>
+    </contour>
+    <component base="Lambda"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Lambda</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PPC</string>
+    </dict>
+  </lib>
+</glyph>

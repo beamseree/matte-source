@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Digamma" format="2">
+  <advance width="1108"/>
+  <unicode hex="03DC"/>
+  <outline>
+    <contour>
+      <point x="175" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="221" y="722" type="line"/>
+      <point x="996" y="722" type="line"/>
+      <point x="996" y="768" type="line"/>
+      <point x="221" y="768" type="line"/>
+      <point x="221" y="1442" type="line"/>
+      <point x="996" y="1442" type="line"/>
+      <point x="996" y="1490" type="line"/>
+      <point x="175" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>E</string>
+    </dict>
+  </lib>
+</glyph>

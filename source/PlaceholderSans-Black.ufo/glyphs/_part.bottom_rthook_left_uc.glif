@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.bottom_rthook_left_uc" format="2">
+  <advance width="840"/>
+  <anchor x="732" y="0" name="_bottomr"/>
+  <outline>
+    <contour>
+      <point x="110" y="-417" type="line"/>
+      <point x="169" y="-433"/>
+      <point x="235" y="-441"/>
+      <point x="308" y="-441" type="curve" smooth="yes"/>
+      <point x="589" y="-441"/>
+      <point x="732" y="-318"/>
+      <point x="732" y="-73" type="curve" smooth="yes"/>
+      <point x="732" y="0" type="line"/>
+      <point x="328" y="0" type="line"/>
+      <point x="328" y="-49" type="line" smooth="yes"/>
+      <point x="328" y="-109"/>
+      <point x="303" y="-129"/>
+      <point x="225" y="-129" type="curve" smooth="yes"/>
+      <point x="186" y="-129"/>
+      <point x="150" y="-125"/>
+      <point x="110" y="-120" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

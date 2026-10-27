@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theta" format="2">
+  <advance width="1189"/>
+  <unicode hex="03B8"/>
+  <outline>
+    <contour>
+      <point x="595" y="-16" type="curve" smooth="yes"/>
+      <point x="895" y="-16"/>
+      <point x="1062" y="231"/>
+      <point x="1062" y="686" type="curve" smooth="yes"/>
+      <point x="1062" y="748" type="line" smooth="yes"/>
+      <point x="1062" y="1229"/>
+      <point x="895" y="1506"/>
+      <point x="595" y="1506" type="curve" smooth="yes"/>
+      <point x="295" y="1506"/>
+      <point x="127" y="1229"/>
+      <point x="127" y="748" type="curve" smooth="yes"/>
+      <point x="127" y="686" type="line" smooth="yes"/>
+      <point x="127" y="231"/>
+      <point x="295" y="-16"/>
+    </contour>
+    <contour>
+      <point x="595" y="30" type="curve" smooth="yes"/>
+      <point x="323" y="30"/>
+      <point x="173" y="257"/>
+      <point x="173" y="686" type="curve" smooth="yes"/>
+      <point x="173" y="748" type="line" smooth="yes"/>
+      <point x="173" y="1200"/>
+      <point x="323" y="1456"/>
+      <point x="595" y="1456" type="curve" smooth="yes"/>
+      <point x="866" y="1456"/>
+      <point x="1016" y="1200"/>
+      <point x="1016" y="748" type="curve" smooth="yes"/>
+      <point x="1016" y="686" type="line" smooth="yes"/>
+      <point x="1016" y="257"/>
+      <point x="866" y="30"/>
+    </contour>
+    <contour>
+      <point x="149" y="694" type="line"/>
+      <point x="1040" y="694" type="line"/>
+      <point x="1040" y="740" type="line"/>
+      <point x="149" y="740" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
+    </dict>
+  </lib>
+</glyph>

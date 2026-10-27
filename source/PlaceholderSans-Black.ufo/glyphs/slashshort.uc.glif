@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slashshort.uc" format="2">
+  <advance width="936"/>
+  <unicode hex="EEE1"/>
+  <note>
+_cross x pos should match that of _cross anchor in /slashshortcomb
+</note>
+  <anchor x="460" y="788" name="_cross"/>
+  <outline>
+    <contour>
+      <point x="0" y="380" type="line"/>
+      <point x="936" y="920" type="line"/>
+      <point x="936" y="1247" type="line"/>
+      <point x="0" y="707" type="line"/>
+    </contour>
+  </outline>
+</glyph>

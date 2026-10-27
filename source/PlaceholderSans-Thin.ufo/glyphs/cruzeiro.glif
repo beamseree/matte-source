@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cruzeiro" format="2">
+  <advance width="1439"/>
+  <unicode hex="20A2"/>
+  <outline>
+    <contour>
+      <point x="1213" y="786" type="line"/>
+      <point x="1178" y="797"/>
+      <point x="1134" y="806"/>
+      <point x="1085" y="806" type="curve" smooth="yes"/>
+      <point x="930" y="806"/>
+      <point x="802" y="730"/>
+      <point x="749" y="614" type="curve"/>
+      <point x="745" y="614" type="line"/>
+      <point x="745" y="792" type="line"/>
+      <point x="697" y="792" type="line"/>
+      <point x="697" y="0" type="line"/>
+      <point x="745" y="0" type="line"/>
+      <point x="745" y="424" type="line" smooth="yes"/>
+      <point x="745" y="620"/>
+      <point x="887" y="760"/>
+      <point x="1085" y="760" type="curve" smooth="yes"/>
+      <point x="1128" y="760"/>
+      <point x="1166" y="753"/>
+      <point x="1195" y="742" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1315" y="1024" type="line"/>
+      <point x="1279" y="1236"/>
+      <point x="1096" y="1510"/>
+      <point x="745" y="1510" type="curve" smooth="yes"/>
+      <point x="378" y="1510"/>
+      <point x="127" y="1201"/>
+      <point x="127" y="744" type="curve" smooth="yes"/>
+      <point x="127" y="288"/>
+      <point x="378" y="-20"/>
+      <point x="745" y="-20" type="curve" smooth="yes"/>
+      <point x="1096" y="-20"/>
+      <point x="1279" y="256"/>
+      <point x="1315" y="466" type="curve"/>
+      <point x="1265" y="466" type="line"/>
+      <point x="1230" y="265"/>
+      <point x="1050" y="26"/>
+      <point x="745" y="26" type="curve" smooth="yes"/>
+      <point x="439" y="26"/>
+      <point x="173" y="276"/>
+      <point x="173" y="744" type="curve" smooth="yes"/>
+      <point x="173" y="1207"/>
+      <point x="439" y="1464"/>
+      <point x="745" y="1464" type="curve" smooth="yes"/>
+      <point x="1050" y="1464"/>
+      <point x="1230" y="1222"/>
+      <point x="1265" y="1024" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>C</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>C</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tlinebelow" format="2">
+  <advance width="1295"/>
+  <unicode hex="1E6E"/>
+  <anchor x="677" y="0" name="bottom"/>
+  <anchor x="779" y="0" name="bottomr"/>
+  <anchor x="678" y="0" name="cedilla"/>
+  <anchor x="677" y="749" name="cross"/>
+  <anchor x="779" y="0" name="cyrtic"/>
+  <anchor x="726" y="0" name="right"/>
+  <anchor x="677" y="1490" name="top"/>
+  <outline>
+    <component base="T"/>
+    <component base="macronsub" xOffset="204"/>
+  </outline>
+</glyph>

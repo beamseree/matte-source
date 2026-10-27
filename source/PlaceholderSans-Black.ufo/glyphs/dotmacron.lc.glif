@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotmacron.lc" format="2">
+  <advance width="599"/>
+  <unicode hex="E10C"/>
+  <guideline y="1392"/>
+  <guideline y="1765"/>
+  <anchor x="315" y="1118" name="_top"/>
+  <outline>
+    <component base="dotaccentcomb" yOffset="-24"/>
+    <component base="macroncomb" yScale="0.8" xOffset="-120" yOffset="632"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dotaccentcomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>macroncomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>dotaccent</string>
+    </dict>
+  </lib>
+</glyph>

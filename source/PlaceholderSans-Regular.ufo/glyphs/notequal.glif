@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notequal" format="2">
+  <advance width="1303"/>
+  <unicode hex="2260"/>
+  <guideline x="268" y="800" angle="0"/>
+  <outline>
+    <contour>
+      <point x="343" y="39" type="line"/>
+      <point x="516" y="39" type="line"/>
+      <point x="947" y="1131" type="line"/>
+      <point x="775" y="1131" type="line"/>
+    </contour>
+    <component base="equal"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>plus</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

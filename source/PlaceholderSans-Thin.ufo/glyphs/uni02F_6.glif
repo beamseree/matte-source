@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02F6" format="2">
+  <advance width="964"/>
+  <unicode hex="02F6"/>
+  <anchor x="394" y="1118" name="_top"/>
+  <anchor x="394" y="1557" name="top"/>
+  <outline>
+    <component base="acutedblcomb" xOffset="76"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>quotedbl</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>quotedbl</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1F63" format="2">
+  <advance width="1617"/>
+  <unicode hex="1F63"/>
+  <anchor x="837" y="0" name="bottom"/>
+  <anchor x="837" y="1076" name="top"/>
+  <outline>
+    <component base="omega"/>
+    <component base="dasiavaria" xOffset="475"/>
+  </outline>
+</glyph>

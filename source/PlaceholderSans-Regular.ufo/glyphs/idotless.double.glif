@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless.double" format="2">
+  <advance width="931"/>
+  <unicode hex="EE14"/>
+  <anchor x="700" y="0" name="bottom"/>
+  <anchor x="700" y="575" name="cross"/>
+  <anchor x="796" y="0" name="ogonek"/>
+  <anchor x="471" y="1076" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="idotless" xOffset="466"/>
+  </outline>
+</glyph>

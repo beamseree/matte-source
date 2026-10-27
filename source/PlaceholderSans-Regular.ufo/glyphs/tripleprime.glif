@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tripleprime" format="2">
+  <advance width="1297"/>
+  <unicode hex="2034"/>
+  <outline>
+    <component base="prime"/>
+    <component base="prime" xOffset="430"/>
+    <component base="prime" xOffset="861"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>prime</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>prime</string>
+    </dict>
+  </lib>
+</glyph>

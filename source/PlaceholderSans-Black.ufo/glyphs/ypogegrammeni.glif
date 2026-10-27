@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ypogegrammeni" format="2">
+  <advance width="611"/>
+  <unicode hex="037A"/>
+  <anchor x="281" y="0" name="_bottom"/>
+  <outline>
+    <component base="uni1FBE"/>
+  </outline>
+</glyph>

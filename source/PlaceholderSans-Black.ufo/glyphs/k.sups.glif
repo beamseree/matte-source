@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k.sups" format="2">
+  <advance width="907"/>
+  <unicode hex="1D4F"/>
+  <anchor x="449" y="886" name="bottom"/>
+  <anchor x="236" y="1728" name="top"/>
+  <outline>
+    <contour>
+      <point x="347" y="1012" type="line"/>
+      <point x="489" y="1186" type="line"/>
+      <point x="572" y="1186" type="line"/>
+      <point x="870" y="1540" type="line"/>
+      <point x="554" y="1540" type="line"/>
+      <point x="390" y="1347" type="line"/>
+      <point x="347" y="1347" type="line"/>
+    </contour>
+    <contour>
+      <point x="94" y="886" type="line"/>
+      <point x="377" y="886" type="line"/>
+      <point x="377" y="1728" type="line"/>
+      <point x="94" y="1728" type="line"/>
+    </contour>
+    <contour>
+      <point x="553" y="886" type="line"/>
+      <point x="875" y="886" type="line"/>
+      <point x="579" y="1324" type="line"/>
+      <point x="394" y="1121" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>40</integer>
+        <key>custom</key>
+        <integer>-9</integer>
+        <key>height</key>
+        <real>56.5</real>
+        <key>verticalShift</key>
+        <integer>886</integer>
+        <key>weight</key>
+        <integer>-268</integer>
+        <key>width</key>
+        <integer>66</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

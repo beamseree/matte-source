@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="romanten" format="2">
+  <advance width="1682"/>
+  <unicode hex="2169"/>
+  <anchor x="818" y="-6" name="bottom"/>
+  <anchor x="818" y="744" name="cross"/>
+  <anchor x="1560" y="0" name="cyrtic"/>
+  <anchor x="818" y="1490" name="top"/>
+  <outline>
+    <component base="X"/>
+  </outline>
+</glyph>

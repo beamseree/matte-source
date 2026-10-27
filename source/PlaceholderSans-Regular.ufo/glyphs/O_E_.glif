@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="OE" format="2">
+  <advance width="2096"/>
+  <unicode hex="0152"/>
+  <note>
+Mirrored D + E
+</note>
+  <anchor x="1488" y="0" name="bottom"/>
+  <anchor x="1488" y="0" name="cedilla"/>
+  <anchor x="2005" y="0" name="ogonek"/>
+  <anchor x="970" y="1490" name="tonos"/>
+  <anchor x="1488" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="836" y="0" type="curve" smooth="yes"/>
+      <point x="1155" y="0" type="line"/>
+      <point x="1155" y="193" type="line"/>
+      <point x="836" y="193" type="line" smooth="yes"/>
+      <point x="504" y="193"/>
+      <point x="278" y="401"/>
+      <point x="278" y="744" type="curve" smooth="yes"/>
+      <point x="278" y="1091"/>
+      <point x="504" y="1297"/>
+      <point x="836" y="1297" type="curve" smooth="yes"/>
+      <point x="1155" y="1297" type="line"/>
+      <point x="1155" y="1490" type="line"/>
+      <point x="836" y="1490" type="line" smooth="yes"/>
+      <point x="391" y="1490"/>
+      <point x="79" y="1195"/>
+      <point x="79" y="744" type="curve" smooth="yes"/>
+      <point x="79" y="297"/>
+      <point x="391" y="0"/>
+    </contour>
+    <component base="E" xOffset="827"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>E</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

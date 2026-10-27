@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowerHalfWhiteSquare" format="2">
+  <advance width="1818"/>
+  <unicode hex="2B12"/>
+  <outline>
+    <contour>
+      <point x="242" y="1039" type="line"/>
+      <point x="242" y="877" type="line"/>
+      <point x="1571" y="877" type="line"/>
+      <point x="1571" y="1039" type="line"/>
+    </contour>
+    <component base="whiteRoundedCornersSquare"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>circleblack</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

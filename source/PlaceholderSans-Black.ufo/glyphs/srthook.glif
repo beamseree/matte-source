@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="srthook" format="2">
+  <advance width="1175"/>
+  <unicode hex="0282"/>
+  <anchor x="587" y="0" name="bottom"/>
+  <anchor x="594" y="0" name="cedilla"/>
+  <anchor x="28" y="327" name="rthook"/>
+  <anchor x="583" y="1076" name="top"/>
+  <outline>
+    <component base="s"/>
+    <component base="_part.bottom_rthook_s" xOffset="-11" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>s</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>s</string>
+    </dict>
+  </lib>
+</glyph>

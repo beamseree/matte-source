@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater" format="2">
+  <advance width="1306"/>
+  <unicode hex="003E"/>
+  <guideline x="299" y="800" angle="0"/>
+  <outline>
+    <contour>
+      <point x="1156" y="507" type="line"/>
+      <point x="1156" y="665" type="line"/>
+      <point x="204" y="1135" type="line"/>
+      <point x="204" y="915" type="line"/>
+      <point x="921" y="588" type="line"/>
+      <point x="913" y="601" type="line"/>
+      <point x="913" y="571" type="line"/>
+      <point x="921" y="582" type="line"/>
+      <point x="204" y="256" type="line"/>
+      <point x="204" y="37" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|less</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|less</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sdotbelowdotaccent.ss07" format="2">
+  <advance width="889"/>
+  <unicode hex="E25D"/>
+  <anchor x="493" y="0" name="bottom"/>
+  <anchor x="491" y="0" name="cedilla"/>
+  <anchor x="100" y="247" name="rthook"/>
+  <anchor x="419" y="1434" name="top"/>
+  <outline>
+    <component base="s"/>
+    <component base="dotbelow.ss07" xOffset="298"/>
+    <component base="dotaccentcomb.ss07" xOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

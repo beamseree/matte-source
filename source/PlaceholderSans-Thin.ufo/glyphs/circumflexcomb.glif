@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb" format="2">
+  <unicode hex="0302"/>
+  <note>
+Harmonize with /breveinvnosp
+</note>
+  <anchor x="410" y="1118" name="_top"/>
+  <anchor x="410" y="1563" name="top"/>
+  <outline>
+    <contour>
+      <point x="191" y="1283" type="line"/>
+      <point x="409" y="1507" type="line"/>
+      <point x="627" y="1283" type="line"/>
+      <point x="683" y="1283" type="line"/>
+      <point x="683" y="1289" type="line"/>
+      <point x="415" y="1563" type="line"/>
+      <point x="403" y="1563" type="line"/>
+      <point x="137" y="1289" type="line"/>
+      <point x="137" y="1283" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>819</integer>
+    </dict>
+  </lib>
+</glyph>

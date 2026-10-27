@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DE0" format="2">
+  <unicode hex="1DE0"/>
+  <anchor x="-588.0" y="1786.0" name="_markbottom"/>
+  <outline>
+    <component base="uni0367" xScale="-1.0" yScale="-1.0" xOffset="-1080.0" yOffset="2956.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni0367</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcurl" format="2">
+  <advance width="717"/>
+  <unicode hex="0236"/>
+  <note>
+recipe: offset curve 32, no auto
+</note>
+  <anchor x="219" y="394" name="bottomr"/>
+  <outline>
+    <component base="_part.tcurl_base"/>
+    <component base="_part.curl_sw" xOffset="-85" yOffset="394"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+250</string>
+    </dict>
+  </lib>
+</glyph>

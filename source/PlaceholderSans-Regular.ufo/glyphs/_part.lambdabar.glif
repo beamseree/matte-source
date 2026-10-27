@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.lambdabar" format="2">
+  <advance width="1203"/>
+  <anchor x="483" y="1222" name="_bar"/>
+  <outline>
+    <contour>
+      <point x="222" y="1046" type="line"/>
+      <point x="739" y="1238" type="line"/>
+      <point x="739" y="1388" type="line"/>
+      <point x="222" y="1194" type="line"/>
+    </contour>
+  </outline>
+</glyph>

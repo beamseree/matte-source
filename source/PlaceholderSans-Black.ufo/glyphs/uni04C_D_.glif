@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04CD" format="2">
+  <advance width="1971"/>
+  <unicode hex="04CD"/>
+  <anchor x="985" y="0" name="bottom"/>
+  <anchor x="1891" y="0" name="cyrtic"/>
+  <anchor x="985" y="1490" name="top"/>
+  <outline>
+    <component base="M"/>
+    <component base="_part.cyrtail" xOffset="1454"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>M</string>
+    </dict>
+  </lib>
+</glyph>

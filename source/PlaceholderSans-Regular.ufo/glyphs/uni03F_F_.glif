@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni03FF" format="2">
+  <advance width="1513"/>
+  <unicode hex="03FF"/>
+  <anchor x="737" y="-9" name="cedilla"/>
+  <anchor x="738" y="745" name="center"/>
+  <anchor x="736" y="1490" name="top"/>
+  <anchor x="91" y="1010" name="topr"/>
+  <outline>
+    <component base="uni03FD"/>
+    <component base="period" xOffset="473" yOffset="623"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni03FD</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>period</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|C</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|C</string>
+    </dict>
+  </lib>
+</glyph>

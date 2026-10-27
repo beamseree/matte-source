@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="G.squared" format="2">
+  <advance width="2872"/>
+  <unicode hex="1F136"/>
+  <anchor x="1454" y="0" name="bottom"/>
+  <anchor x="1860" y="398" name="cross"/>
+  <anchor x="1458" y="1490" name="top"/>
+  <anchor x="2116" y="1019" name="topr"/>
+  <outline>
+    <component base="whiteLargeSquare"/>
+    <component base="G" xOffset="635"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteLargeSquare</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>G</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

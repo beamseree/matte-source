@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E.squared" format="2">
+  <advance width="2868"/>
+  <unicode hex="1F134"/>
+  <anchor x="1433" y="0" name="bottom"/>
+  <anchor x="1435" y="0" name="cedilla"/>
+  <anchor x="2021" y="0" name="ogonek"/>
+  <anchor x="843" y="1490" name="tonos"/>
+  <anchor x="1433" y="1490" name="top"/>
+  <outline>
+    <component base="whiteLargeSquare"/>
+    <component base="E" xOffset="763"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteLargeSquare</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>E</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

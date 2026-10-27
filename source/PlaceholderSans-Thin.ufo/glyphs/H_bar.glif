@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hbar" format="2">
+  <advance width="1469"/>
+  <unicode hex="0126"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="212" y="0" name="cedilla"/>
+  <anchor x="1256" y="0" name="cyrtic"/>
+  <anchor x="1210" y="0" name="lfthook"/>
+  <anchor x="1256" y="0" name="right"/>
+  <anchor x="189" y="1490" name="tonos"/>
+  <anchor x="723" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="1376" y="1080" type="line"/>
+      <point x="69" y="1080" type="line"/>
+      <point x="69" y="1032" type="line"/>
+      <point x="1376" y="1032" type="line"/>
+    </contour>
+    <component base="H" xOffset="14"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>H</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

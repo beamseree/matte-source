@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10027" format="2">
+  <advance width="1499"/>
+  <unicode hex="0419"/>
+  <anchor x="759" y="0" name="bottom"/>
+  <anchor x="1382" y="0" name="lfthook"/>
+  <anchor x="136" y="0" name="lfthook2"/>
+  <anchor x="736" y="1933" name="top"/>
+  <anchor x="1375" y="0" name="cyrtic"/>
+  <outline>
+    <component base="Ii-cy"/>
+    <component base="brevecomb" xOffset="354" yOffset="372"/>
+  </outline>
+</glyph>

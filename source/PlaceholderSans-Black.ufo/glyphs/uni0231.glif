@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0231" format="2">
+  <advance width="1216"/>
+  <unicode hex="0231"/>
+  <anchor x="654" y="0" name="bottom"/>
+  <anchor x="654" y="538" name="center"/>
+  <anchor x="1246" y="535" name="ogonek"/>
+  <anchor x="654" y="1076" name="top"/>
+  <anchor x="654" y="1101" name="tophorn"/>
+  <outline>
+    <component base="o"/>
+    <component base="dotmacron.lc" xOffset="313"/>
+  </outline>
+</glyph>

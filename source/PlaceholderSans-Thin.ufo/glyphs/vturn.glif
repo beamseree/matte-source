@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vturn" format="2">
+  <advance width="1078"/>
+  <unicode hex="028C"/>
+  <anchor x="535" y="1160" name="top"/>
+  <anchor x="535" y="0" name="bottom"/>
+  <outline>
+    <component base="v" xScale="-1.0" yScale="-1.0" xOffset="1078.0" yOffset="1076.0"/>
+  </outline>
+</glyph>

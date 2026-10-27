@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t.1" format="2">
+  <advance width="728"/>
+  <unicode hex="EE06"/>
+  <anchor x="367" y="0" name="bottom"/>
+  <anchor x="410" y="0" name="cedilla"/>
+  <anchor x="701" y="15" name="lfthook"/>
+  <anchor x="278" y="1384" name="top"/>
+  <anchor x="609" y="1562" name="raccent"/>
+  <outline>
+    <contour>
+      <point x="671" y="1076" type="line"/>
+      <point x="283" y="1076" type="line"/>
+      <point x="283" y="784" type="line"/>
+      <point x="671" y="784" type="line"/>
+    </contour>
+    <component base="_part.t_base" xOffset="-72"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

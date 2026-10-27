@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kahookcyrillic" format="2">
+  <advance width="1434"/>
+  <unicode hex="04C3"/>
+  <outline>
+    <contour>
+      <point x="543" y="536" type="line"/>
+      <point x="742" y="536" type="line" smooth="yes"/>
+      <point x="909" y="536"/>
+      <point x="1010" y="413"/>
+      <point x="1007" y="212" type="curve" smooth="yes"/>
+      <point x="1003" y="17"/>
+      <point x="907" y="-102"/>
+      <point x="752" y="-102" type="curve"/>
+      <point x="752" y="-396" type="line"/>
+      <point x="1154" y="-396"/>
+      <point x="1397" y="-156"/>
+      <point x="1397" y="238" type="curve" smooth="yes"/>
+      <point x="1395" y="589"/>
+      <point x="1148" y="803"/>
+      <point x="742" y="802" type="curve" smooth="yes"/>
+      <point x="543" y="802" type="line"/>
+    </contour>
+    <contour>
+      <point x="73" y="0" type="line"/>
+      <point x="463" y="0" type="line"/>
+      <point x="463" y="536" type="line"/>
+      <point x="732" y="536" type="line"/>
+      <point x="1373" y="1490" type="line"/>
+      <point x="902" y="1490" type="line"/>
+      <point x="529" y="902" type="line"/>
+      <point x="463" y="902" type="line"/>
+      <point x="463" y="1490" type="line"/>
+      <point x="73" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>B</string>
+    </dict>
+  </lib>
+</glyph>

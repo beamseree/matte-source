@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tecyrillic" format="2">
+  <advance width="1116"/>
+  <unicode hex="0442"/>
+  <anchor x="759" y="0" name="cyrtic"/>
+  <anchor x="558" y="1118" name="top"/>
+  <outline>
+    <component base="t.sc"/>
+  </outline>
+</glyph>

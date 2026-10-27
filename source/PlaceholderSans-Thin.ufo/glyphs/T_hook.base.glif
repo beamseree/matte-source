@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thook.base" format="2">
+  <advance width="1146"/>
+  <unicode hex="EE0C"/>
+  <anchor x="532" y="1490" name="top"/>
+  <anchor x="325" y="1490" name="topl"/>
+  <outline>
+    <contour>
+      <point x="325" y="1444" type="line"/>
+      <point x="509" y="1444" type="line"/>
+      <point x="509" y="0" type="line"/>
+      <point x="555" y="0" type="line"/>
+      <point x="555" y="1444" type="line"/>
+      <point x="1049" y="1444" type="line"/>
+      <point x="1049" y="1490" type="line"/>
+      <point x="325" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+    </dict>
+  </lib>
+</glyph>

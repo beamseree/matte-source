@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecyrillic" format="2">
+  <advance width="1226"/>
+  <unicode hex="0454"/>
+  <note>
+/c + custom center bar
+</note>
+  <anchor x="639" y="1076" name="top"/>
+  <outline>
+    <contour>
+      <point x="636" y="-20" type="curve" smooth="yes"/>
+      <point x="947" y="-20"/>
+      <point x="1147" y="144"/>
+      <point x="1175" y="406" type="curve"/>
+      <point x="829" y="452" type="line"/>
+      <point x="812" y="338"/>
+      <point x="745" y="272"/>
+      <point x="632" y="272" type="curve" smooth="yes"/>
+      <point x="500" y="272"/>
+      <point x="431" y="364"/>
+      <point x="431" y="537" type="curve" smooth="yes"/>
+      <point x="431" y="707"/>
+      <point x="500" y="798"/>
+      <point x="632" y="798" type="curve" smooth="yes"/>
+      <point x="743" y="798"/>
+      <point x="811" y="735"/>
+      <point x="829" y="626" type="curve"/>
+      <point x="1175" y="671" type="line"/>
+      <point x="1148" y="926"/>
+      <point x="945" y="1101"/>
+      <point x="636" y="1101" type="curve" smooth="yes"/>
+      <point x="269" y="1101"/>
+      <point x="53" y="865"/>
+      <point x="53" y="535" type="curve" smooth="yes"/>
+      <point x="53" y="204"/>
+      <point x="269" y="-20"/>
+    </contour>
+    <contour>
+      <point x="431" y="443" type="line"/>
+      <point x="694" y="443" type="line"/>
+      <point x="694" y="635" type="line"/>
+      <point x="431" y="635" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>c</string>
+    </dict>
+  </lib>
+</glyph>

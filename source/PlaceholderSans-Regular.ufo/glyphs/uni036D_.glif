@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni036D" format="2">
+  <unicode hex="036D"/>
+  <outline>
+    <contour>
+      <point x="368" y="1760" type="line"/>
+      <point x="34" y="1760" type="line"/>
+      <point x="34" y="1649" type="line"/>
+      <point x="368" y="1649" type="line"/>
+    </contour>
+    <contour>
+      <point x="129" y="1894" type="line"/>
+      <point x="129" y="1382" type="line" smooth="yes"/>
+      <point x="129" y="1264"/>
+      <point x="172" y="1197"/>
+      <point x="281" y="1197" type="curve" smooth="yes"/>
+      <point x="319" y="1197"/>
+      <point x="348" y="1202"/>
+      <point x="361" y="1208" type="curve"/>
+      <point x="361" y="1317" type="line"/>
+      <point x="355" y="1314"/>
+      <point x="333" y="1311"/>
+      <point x="316" y="1311" type="curve" smooth="yes"/>
+      <point x="284" y="1311"/>
+      <point x="268" y="1338"/>
+      <point x="268" y="1387" type="curve" smooth="yes"/>
+      <point x="268" y="1894" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>402</integer>
+    </dict>
+  </lib>
+</glyph>

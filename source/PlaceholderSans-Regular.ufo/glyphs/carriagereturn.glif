@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="carriagereturn" format="2">
+  <advance width="1971"/>
+  <unicode hex="21B5"/>
+  <guideline x="2062" y="896" angle="0"/>
+  <outline>
+    <contour>
+      <point x="618" y="201" type="line"/>
+      <point x="618" y="1103" type="line"/>
+      <point x="174" y="652" type="line"/>
+    </contour>
+    <contour>
+      <point x="481" y="561" type="line"/>
+      <point x="1791" y="561" type="line"/>
+      <point x="1791" y="743" type="line"/>
+      <point x="481" y="743" type="line"/>
+    </contour>
+    <contour>
+      <point x="1623" y="561" type="line"/>
+      <point x="1796" y="561" type="line"/>
+      <point x="1796" y="1490" type="line"/>
+      <point x="1623" y="1490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftArrow</string>
+    </dict>
+  </lib>
+</glyph>

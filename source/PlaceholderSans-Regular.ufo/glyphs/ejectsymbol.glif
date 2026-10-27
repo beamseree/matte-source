@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ejectsymbol" format="2">
+  <advance width="1730"/>
+  <unicode hex="23CF"/>
+  <outline>
+    <contour>
+      <point x="117" y="220" type="line"/>
+      <point x="1611" y="220" type="line"/>
+      <point x="1611" y="517" type="line"/>
+      <point x="117" y="517" type="line"/>
+    </contour>
+    <contour>
+      <point x="115" y="744" type="line"/>
+      <point x="1615" y="744" type="line"/>
+      <point x="865" y="1512" type="line"/>
+    </contour>
+  </outline>
+</glyph>

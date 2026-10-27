@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringlefthalfsubcomb" format="2">
+  <unicode hex="EEC2"/>
+  <outline>
+    <component base="ringhalfleft" xOffset="-730" yOffset="-1592"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

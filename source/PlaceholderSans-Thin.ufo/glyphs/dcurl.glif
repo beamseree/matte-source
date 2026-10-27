@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcurl" format="2">
+  <advance width="1483"/>
+  <unicode hex="0221"/>
+  <anchor x="560" y="0" name="bottom"/>
+  <anchor x="961" y="1288" name="cross"/>
+  <anchor x="560" y="1288" name="top"/>
+  <anchor x="1007" y="1490" name="topbar"/>
+  <anchor x="998" y="0" name="bottomr"/>
+  <anchor x="1133" y="1490" name="raccent"/>
+  <outline>
+    <component base="d"/>
+    <component base="_part.curl_sw" xOffset="685"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+320</string>
+    </dict>
+  </lib>
+</glyph>

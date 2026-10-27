@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="palatalizationcyrilliccmb" format="2">
+  <unicode hex="0484"/>
+  <outline>
+    <contour>
+      <point x="-1032" y="1438" type="line"/>
+      <point x="-1032" y="1304" type="line"/>
+      <point x="-1024" y="1304" type="line" smooth="yes"/>
+      <point x="-780" y="1304"/>
+      <point x="-606" y="1422"/>
+      <point x="-486" y="1422" type="curve" smooth="yes"/>
+      <point x="-423" y="1422"/>
+      <point x="-376" y="1393"/>
+      <point x="-376" y="1320" type="curve" smooth="yes"/>
+      <point x="-376" y="1304" type="line"/>
+      <point x="-232" y="1304" type="line"/>
+      <point x="-232" y="1342" type="line" smooth="yes"/>
+      <point x="-232" y="1489"/>
+      <point x="-329" y="1556"/>
+      <point x="-482" y="1556" type="curve" smooth="yes"/>
+      <point x="-649" y="1556"/>
+      <point x="-804" y="1437"/>
+      <point x="-1026" y="1438" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>24</integer>
+    </dict>
+  </lib>
+</glyph>

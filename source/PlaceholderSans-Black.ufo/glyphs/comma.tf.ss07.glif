@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma.tf.ss07" format="2">
+  <advance width="500"/>
+  <unicode hex="E2B6"/>
+  <guideline x="4" y="1240" angle="0"/>
+  <guideline x="4" y="764" angle="0"/>
+  <outline>
+    <component base="comma.ss07" xOffset="-107"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>period.tf</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

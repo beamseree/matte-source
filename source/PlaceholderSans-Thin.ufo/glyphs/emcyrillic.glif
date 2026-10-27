@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emcyrillic" format="2">
+  <advance width="1478"/>
+  <unicode hex="043C"/>
+  <anchor x="739" y="0" name="bottom"/>
+  <anchor x="1308" y="0" name="cyrtic"/>
+  <anchor x="739" y="1118" name="top"/>
+  <outline>
+    <component base="m.sc"/>
+  </outline>
+</glyph>

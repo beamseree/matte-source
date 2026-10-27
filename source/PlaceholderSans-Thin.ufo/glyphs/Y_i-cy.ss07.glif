@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yi-cy.ss07" format="2">
+  <advance width="328"/>
+  <unicode hex="E28D"/>
+  <anchor x="205" y="0" name="bottom"/>
+  <anchor x="205" y="768" name="cross"/>
+  <anchor x="228" y="0" name="ogonek"/>
+  <anchor x="236" y="0" name="right"/>
+  <anchor x="182" y="1490" name="tonos"/>
+  <anchor x="138" y="1806" name="top"/>
+  <outline>
+    <component base="Idieresis.ss07"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

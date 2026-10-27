@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j.ss07" format="2">
+  <advance width="556"/>
+  <unicode hex="E244"/>
+  <anchor x="453" y="0" name="_right"/>
+  <anchor x="245" y="-393" name="bottom"/>
+  <anchor x="304" y="663" name="cross"/>
+  <anchor x="271" y="1586" name="top"/>
+  <outline>
+    <component base="jdotless"/>
+    <component base="dotaccentcomb.ss07" xOffset="-45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

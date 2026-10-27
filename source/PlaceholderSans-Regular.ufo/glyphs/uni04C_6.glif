@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04C6" format="2">
+  <advance width="1152"/>
+  <unicode hex="04C6"/>
+  <anchor x="583" y="0" name="bottom"/>
+  <anchor x="1036" y="0" name="cyrtic"/>
+  <anchor x="629" y="1076" name="top"/>
+  <outline>
+    <component base="elcyrillic"/>
+    <component base="_part.cyrtail" xOffset="723"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>elcyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+    </dict>
+  </lib>
+</glyph>

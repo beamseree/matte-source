@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etTironian" format="2">
+  <advance width="926"/>
+  <unicode hex="204A"/>
+  <outline>
+    <contour>
+      <point x="622" y="-418" type="line"/>
+      <point x="667" y="-418" type="line"/>
+      <point x="816" y="1118" type="line"/>
+      <point x="110" y="1118" type="line"/>
+      <point x="110" y="1072" type="line"/>
+      <point x="766" y="1072" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seven</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>seven</string>
+    </dict>
+  </lib>
+</glyph>

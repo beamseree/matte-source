@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zhe-cy" format="2">
+  <advance width="1812"/>
+  <unicode hex="0416"/>
+  <anchor x="1729" y="0" name="cyrtic"/>
+  <anchor x="904" y="1490" name="top"/>
+  <outline>
+    <contour>
+      <point x="928" y="1490" type="line"/>
+      <point x="882" y="1490" type="line"/>
+      <point x="882" y="0" type="line"/>
+      <point x="928" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="50" y="0" type="line"/>
+      <point x="106" y="0" type="line"/>
+      <point x="667" y="740" type="line"/>
+      <point x="1145" y="740" type="line"/>
+      <point x="1706" y="0" type="line"/>
+      <point x="1762" y="0" type="line"/>
+      <point x="1183" y="764" type="line"/>
+      <point x="1665" y="1490" type="line"/>
+      <point x="1611" y="1490" type="line"/>
+      <point x="1144" y="786" type="line"/>
+      <point x="667" y="786" type="line"/>
+      <point x="199" y="1490" type="line"/>
+      <point x="145" y="1490" type="line"/>
+      <point x="628" y="764" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>X</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>X</string>
+    </dict>
+  </lib>
+</glyph>

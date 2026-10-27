@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk.case" format="2">
+  <advance width="1276"/>
+  <unicode hex="E0A4"/>
+  <note>
+60 deg
+</note>
+  <guideline x="657" y="745" angle="90"/>
+  <guideline x="657" y="745" angle="30"/>
+  <guideline x="657" y="745" angle="330"/>
+  <outline>
+    <contour>
+      <point x="555" y="248" type="line"/>
+      <point x="722" y="248" type="line"/>
+      <point x="710" y="692" type="line"/>
+      <point x="650" y="667" type="line"/>
+      <point x="1026" y="421" type="line"/>
+      <point x="1108" y="575" type="line"/>
+      <point x="707" y="779" type="line"/>
+      <point x="707" y="711" type="line"/>
+      <point x="1107" y="918" type="line"/>
+      <point x="1023" y="1072" type="line"/>
+      <point x="650" y="823" type="line"/>
+      <point x="710" y="798" type="line"/>
+      <point x="722" y="1242" type="line"/>
+      <point x="555" y="1242" type="line"/>
+      <point x="567" y="798" type="line"/>
+      <point x="626" y="823" type="line"/>
+      <point x="253" y="1072" type="line"/>
+      <point x="168" y="918" type="line"/>
+      <point x="569" y="711" type="line"/>
+      <point x="569" y="779" type="line"/>
+      <point x="168" y="575" type="line"/>
+      <point x="250" y="421" type="line"/>
+      <point x="626" y="667" type="line"/>
+      <point x="567" y="692" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>plus</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>plus</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

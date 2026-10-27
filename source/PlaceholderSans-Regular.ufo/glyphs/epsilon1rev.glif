@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilon1rev" format="2">
+  <advance width="1089"/>
+  <unicode hex="025C"/>
+  <note>
+epsilon mirrored
+</note>
+  <anchor x="533" y="1076" name="top"/>
+  <outline>
+    <component base="epsilon" xScale="-1" xOffset="1089"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>a</string>
+    </dict>
+  </lib>
+</glyph>

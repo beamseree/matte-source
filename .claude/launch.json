@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "specimen",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8791", "--bind", "127.0.0.1"],
+      "port": 8791
+    },
+    {
+      "name": "fontra",
+      "runtimeExecutable": "vendor/fontra-venv/bin/python",
+      "runtimeArgs": ["-m", "fontra", "--host", "127.0.0.1", "--http-port", "8793", "filesystem", "source"],
+      "port": 8793
+    }
+  ]
+}

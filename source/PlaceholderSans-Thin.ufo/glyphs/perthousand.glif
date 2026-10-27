@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perthousand" format="2">
+  <advance width="2292"/>
+  <unicode hex="2030"/>
+  <outline>
+    <component base="_zero_percent" xOffset="140"/>
+    <component base="fraction" xOffset="712"/>
+    <component base="_zero_percent1" xOffset="968"/>
+    <component base="_zero_percent1" xOffset="1560"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=+140</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+140</string>
+    </dict>
+  </lib>
+</glyph>

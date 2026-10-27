@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringhalfrightcentered" format="2">
+  <advance width="329"/>
+  <unicode hex="02D2"/>
+  <anchor x="149" y="555" name="_top"/>
+  <outline>
+    <component base="righthalfringabovecomb" yOffset="-563"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>righthalfringabovecomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ringhalfright</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>ringhalfright</string>
+    </dict>
+  </lib>
+</glyph>

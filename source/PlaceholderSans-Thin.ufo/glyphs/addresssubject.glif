@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="addresssubject" format="2">
+  <advance width="1666"/>
+  <unicode hex="2101"/>
+  <anchor x="1336" y="-1" name="bottom"/>
+  <anchor x="594" y="916" name="ogonek"/>
+  <anchor x="1336" y="582" name="top"/>
+  <anchor x="1335" y="-1" name="cedilla"/>
+  <anchor x="1075" y="127" name="rthook"/>
+  <outline>
+    <component base="a.sups"/>
+    <component base="fraction" xOffset="718"/>
+    <component base="s.subs" xOffset="986" yOffset="283"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a.sups</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>fraction</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>s.subs</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a.sups</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>s.subs</string>
+    </dict>
+  </lib>
+</glyph>

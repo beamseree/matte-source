@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fdotaccent.1" format="2">
+  <advance width="486"/>
+  <unicode hex="EE10"/>
+  <anchor x="180" y="0" name="bottom"/>
+  <anchor x="180" y="768" name="cross"/>
+  <anchor x="251" y="1901" name="top"/>
+  <outline>
+    <component base="f.1"/>
+    <component base="dotaccentcomb" xOffset="85" yOffset="434"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

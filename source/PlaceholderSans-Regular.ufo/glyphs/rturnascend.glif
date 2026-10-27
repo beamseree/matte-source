@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rturnascend" format="2">
+  <advance width="728"/>
+  <unicode hex="027A"/>
+  <outline>
+    <contour>
+      <point x="419" y="192" type="line"/>
+      <point x="427" y="0" type="line"/>
+      <point x="640" y="0" type="line"/>
+      <point x="640" y="1536" type="line"/>
+      <point x="419" y="1536" type="line"/>
+    </contour>
+    <contour>
+      <point x="88" y="-6" type="line"/>
+      <point x="103" y="-14"/>
+      <point x="146" y="-20"/>
+      <point x="174" y="-20" type="curve"/>
+      <point x="402" y="-20"/>
+      <point x="505" y="186"/>
+      <point x="504" y="442" type="curve"/>
+      <point x="451" y="432" type="line"/>
+      <point x="433" y="292"/>
+      <point x="352" y="201"/>
+      <point x="183" y="201" type="curve"/>
+      <point x="149" y="201"/>
+      <point x="123" y="205"/>
+      <point x="88" y="211" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

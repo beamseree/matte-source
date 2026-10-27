@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="projective" format="2">
+  <advance width="1633"/>
+  <unicode hex="2305"/>
+  <note>
+Based on control
+</note>
+  <outline>
+    <contour>
+      <point x="177" y="1186" type="line"/>
+      <point x="1457" y="1186" type="line"/>
+      <point x="1457" y="1490" type="line"/>
+      <point x="177" y="1490" type="line"/>
+    </contour>
+    <component base="control" yOffset="-372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftArrow</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|leftArrow</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

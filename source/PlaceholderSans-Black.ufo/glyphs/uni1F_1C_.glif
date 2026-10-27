@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1F1C" format="2">
+  <advance width="2101"/>
+  <unicode hex="1F1C"/>
+  <anchor x="1545" y="0" name="bottom"/>
+  <anchor x="1547" y="0" name="cedilla"/>
+  <anchor x="2133" y="0" name="ogonek"/>
+  <anchor x="955" y="1490" name="tonos"/>
+  <anchor x="1545" y="1490" name="top"/>
+  <outline>
+    <component base="E" xOffset="875"/>
+    <component base="uni1FCE.tonos" xOffset="34" yOffset="-105"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>E</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni1FCE.tonos</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>E</string>
+    </dict>
+  </lib>
+</glyph>

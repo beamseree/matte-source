@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jcaron" format="2">
+  <advance width="583"/>
+  <unicode hex="01F0"/>
+  <anchor x="453" y="0" name="_right"/>
+  <anchor x="245" y="-393" name="bottom"/>
+  <anchor x="304" y="663" name="cross"/>
+  <anchor x="285" y="1582" name="top"/>
+  <outline>
+    <component base="jdotless"/>
+    <component base="caroncomb" xOffset="-222"/>
+  </outline>
+</glyph>

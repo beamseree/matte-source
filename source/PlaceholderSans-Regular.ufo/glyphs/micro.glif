@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="micro" format="2">
+  <advance width="1199"/>
+  <unicode hex="00B5"/>
+  <note>
+flipped /h + right side of /u
+</note>
+  <outline>
+    <contour>
+      <point x="136" y="-418" type="line"/>
+      <point x="330" y="-418" type="line"/>
+      <point x="330" y="351" type="line"/>
+      <point x="288" y="351" type="line"/>
+      <point x="288" y="66"/>
+      <point x="477" y="-7"/>
+      <point x="597" y="-7" type="curve" smooth="yes"/>
+      <point x="718" y="-7"/>
+      <point x="907" y="66"/>
+      <point x="907" y="351" type="curve"/>
+      <point x="863" y="351" type="line"/>
+      <point x="863" y="253" type="line" smooth="yes"/>
+      <point x="863" y="88"/>
+      <point x="957" y="0"/>
+      <point x="1144" y="0" type="curve" smooth="yes"/>
+      <point x="1190" y="0" type="line"/>
+      <point x="1190" y="176" type="line"/>
+      <point x="1159" y="176" type="line" smooth="yes"/>
+      <point x="1080" y="176"/>
+      <point x="1053" y="200"/>
+      <point x="1053" y="265" type="curve" smooth="yes"/>
+      <point x="1053" y="1076" type="line"/>
+      <point x="858" y="1076" type="line"/>
+      <point x="858" y="429" type="line" smooth="yes"/>
+      <point x="858" y="247"/>
+      <point x="748" y="166"/>
+      <point x="597" y="166" type="curve" smooth="yes"/>
+      <point x="448" y="166"/>
+      <point x="330" y="247"/>
+      <point x="330" y="429" type="curve" smooth="yes"/>
+      <point x="330" y="1076" type="line"/>
+      <point x="136" y="1076" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

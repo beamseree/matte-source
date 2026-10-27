@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hturn" format="2">
+  <advance width="1152"/>
+  <unicode hex="0265"/>
+  <anchor x="562" y="1118" name="top"/>
+  <anchor x="939.0" y="1076.0" name="cedilla"/>
+  <anchor x="916.0" y="-212.0" name="cross"/>
+  <anchor x="217.0" y="1076.0" name="lfthook"/>
+  <anchor x="939.0" y="-414.0" name="bottom"/>
+  <outline>
+    <component base="h" xScale="-1.0" yScale="-1.0" xOffset="1152.0" yOffset="1076.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>g</string>
+    </dict>
+  </lib>
+</glyph>

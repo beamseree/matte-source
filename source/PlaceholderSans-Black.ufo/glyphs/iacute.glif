@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iacute" format="2">
+  <advance width="529"/>
+  <unicode hex="00ED"/>
+  <anchor x="292" y="0" name="bottom"/>
+  <anchor x="286" y="588" name="cross"/>
+  <anchor x="489" y="0" name="ogonek"/>
+  <anchor x="249" y="1582" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="acutecomb" xOffset="-31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

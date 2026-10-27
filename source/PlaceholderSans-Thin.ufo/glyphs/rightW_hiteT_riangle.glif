@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightWhiteTriangle" format="2">
+  <advance width="1754"/>
+  <unicode hex="25B7"/>
+  <unicode hex="25BB"/>
+  <outline>
+    <contour>
+      <point x="144" y="-186" type="line"/>
+      <point x="1680" y="744" type="line"/>
+      <point x="144" y="1676" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="-104" type="line"/>
+      <point x="192" y="1592" type="line"/>
+      <point x="1592" y="744" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>triagrt</string>
+    </dict>
+  </lib>
+</glyph>

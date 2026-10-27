@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="adieresismacron.2.ss07" format="2">
+  <advance width="955"/>
+  <anchor x="527" y="0" name="bottom"/>
+  <anchor x="1064" y="3" name="ogonek"/>
+  <anchor x="522" y="1076" name="top"/>
+  <outline>
+    <component base="a.2"/>
+    <component base="dieresismacroncomb.lc.ss07" xOffset="-65"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dieresismacroncomb.lc.ss07</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

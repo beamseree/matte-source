@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="option" format="2">
+  <advance width="2042"/>
+  <unicode hex="2325"/>
+  <note>
+stroke:
+L: 32,32,50%
+R: 108,110,50%
+B: 208,200,50%
+</note>
+  <guideline x="1162" y="1840" angle="0"/>
+  <guideline x="1088" y="208" angle="0"/>
+  <outline>
+    <contour>
+      <point x="1186" y="1490" type="line"/>
+      <point x="1186" y="1186" type="line"/>
+      <point x="1882" y="1186" type="line"/>
+      <point x="1882" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="1186" type="line"/>
+      <point x="636" y="1186" type="line"/>
+      <point x="1234" y="0" type="line"/>
+      <point x="1882" y="0" type="line"/>
+      <point x="1882" y="302" type="line"/>
+      <point x="1408" y="302" type="line"/>
+      <point x="808" y="1490" type="line"/>
+      <point x="160" y="1490" type="line"/>
+    </contour>
+  </outline>
+</glyph>

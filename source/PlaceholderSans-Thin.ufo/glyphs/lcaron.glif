@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron" format="2">
+  <advance width="427"/>
+  <unicode hex="013E"/>
+  <anchor x="194" y="0" name="bottom"/>
+  <anchor x="216" y="0" name="bottomr"/>
+  <anchor x="216" y="717" name="centerr"/>
+  <anchor x="194" y="739" name="cross"/>
+  <anchor x="355" y="1490" name="raccent"/>
+  <anchor x="193" y="1490" name="top"/>
+  <outline>
+    <component base="l"/>
+    <component base="commaaccentright.cn" xOffset="80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=+100</string>
+    </dict>
+  </lib>
+</glyph>

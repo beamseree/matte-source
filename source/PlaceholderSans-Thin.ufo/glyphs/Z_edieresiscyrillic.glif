@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zedieresiscyrillic" format="2">
+  <advance width="1075"/>
+  <unicode hex="04DE"/>
+  <anchor x="535" y="1839" name="top"/>
+  <anchor x="595" y="0" name="cedilla"/>
+  <outline>
+    <component base="afii10025"/>
+    <component base="dieresiscomb" xOffset="-14" yOffset="372"/>
+  </outline>
+</glyph>

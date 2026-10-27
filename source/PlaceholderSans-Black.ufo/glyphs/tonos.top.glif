@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonos.top" format="2">
+  <advance width="758"/>
+  <unicode hex="EE9A"/>
+  <guideline y="1256"/>
+  <guideline y="1582"/>
+  <anchor x="336" y="1118" name="_top"/>
+  <outline>
+    <contour>
+      <point x="220" y="1256" type="line"/>
+      <point x="444" y="1256" type="line"/>
+      <point x="588" y="1582" type="line"/>
+      <point x="252" y="1582" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,2651 @@
+@Numeral = [zero one two twostroke three four five Tonefive six seven eight nine zero.slash one.ss01 three.1 four.ss01 six.ss01 nine.ss01 zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf zero.tf.slash one.tf.ss01 three.1.tf four.tf.ss01 six.tf.ss01 nine.tf.ss01];
+@Whitespace = [space nbspace narrownbspace mediumspace-math enquad emquad enspace emspace thirdemspace quarteremspace sixthemspace figurespace punctuationspace thinspace hairspace zerowidthspace];
+# automatic
+@Uppercase = [A Adieresis Atilde Agrave Aacute Acircumflex Aring Aringacute Amacron Abreve Aogonek Acaron Adieresismacron Adotmacron Adblgrave Ainvertedbreve uni0226 Aringbelow Adotbelow Ahookabove Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde Acircumflexdotbelow Abreveacute Abrevegrave Abrevehookabove Abrevetilde Abrevedotbelow Alpha Alphatonos uni1F08 uni1F09 uni1F0A uni1F0B uni1F0C uni1F0D uni1F0E uni1F0F uni1FB8 uni1FB9 uni1FBA uni023A uni1FBB afii10017 Abrevecyrillic Adieresiscyrillic uni1F88 uni1F89 uni1F8A uni1F8B uni1F8C uni1F8D uni1F8E uni1F8F uni1FBC Lambda AE AEmacron AEacute Aiecyrillic B Bdotaccent Bdotbelow Blinebelow uni0243 Bhook afii10019 Beta C Chook Ccedilla Cacute Ccircumflex Cdotaccent Ccaron Ccedillaacute Cstroke Oopen uni03F9 D Dhook Dcaron Ddotaccent Ddotbelow Dlinebelow Dcedilla Dcircumflexbelow Dbar1 Dz Dzcaron_ E Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron Edblgrave Einvertedbreve uni0228 Emacrongrave Emacronacute Ecircumflexbelow Etildebelow Ecedillabreve Edotbelow Ehookabove Etilde Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ecircumflexdotbelow uni0246 Eturn Epsilon Epsilontonos uni1F18 uni1F19 uni1F1A uni1F1B uni1F1C uni1F1D uni1FC8 uni1FC9 afii10022 uni0400 afii10023 Iebrevecyrillic F Fhook Fdotaccent Fturn G Gbar Ghook Gcircumflex Gbreve Gdotaccent Gcommaaccent Gcaron Gacute Gmacron H Hcedilla Hcircumflex uni021E Hdotaccent Hdotbelow Hdieresis Hbrevebelow Hbar Enhookcyrillic Endescendercyrillic Entail-cy Enghecyrillic uni01F6 Eta Etatonos uni1F28 uni1F29 uni1F2A uni1F2B uni1F2C uni1F2D uni1F2E uni1F2F uni1FCA uni1FCB afii10031 uni1F98 uni1F99 uni1F9A uni1F9B uni1F9C uni1F9D uni1F9E uni1F9F uni1FCC I Idieresis Idieresisacute Istroke Itildebelow Igrave Iacute Icircumflex Itilde Imacron Ibreve Iogonek Idotaccent Icaron Idblgrave Iinvertedbreve Ihookabove Idotbelow Iota IotaGreek Iotatonos Iotadieresis uni1F38 uni1F39 uni1F3A uni1F3B uni1F3C uni1F3D uni1F3E uni1F3F uni1FD8 uni1FD9 uni1FDA uni1FDB afii10055 Yi-cy J Jcircumflex uni0248 uni037F afii10057 K Kcommaaccent Kcaron Kacute Kdotbelow Klinebelow Kabashkircyrillic Kadescendercyrillic Khook Kappa L Lacute Lcommaaccent Lcaron Ldotbelow Ldotbelowmacron Llinebelow Lcircumflexbelow Lslash Lbar Lj M Macute Mdotaccent Mdotbelow uni04CD Mu San afii10030 N Ntilde Nacute Ncommaaccent Ncaron uni01F8 Ndotaccent Ndotbelow Nlinebelow Ncircumflexbelow Nhook Eng Ii-cy uni040D afii10027 Imacroncyrillic Idieresiscyrillic uni048A Pamphyliandigamma Nu Nj O Odieresis Otilde Oslash Ohorn Ograve Oacute Ocircumflex Omacron Obreve Ohungarumlaut Ocaron Oogonek Oogonekmacron Odblgrave Oinvertedbreve uni022A uni022C uni022E uni0230 Otildeacute Otildedieresis Omacrongrave Omacronacute Odotbelow Ohookabove Ocircumflexacute Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ocircumflexdotbelow Ohornacute Ohorngrave Ohornhookabove Ohorntilde Ohorndotbelow Oslashacute Omicron Omicrontonos uni1F48 uni1F49 uni1F4A uni1F4B uni1F4C uni1F4D uni1FF8 uni03F4 uni1FF9 afii10032 Odieresiscyrillic Obar Obarredcyrillic Obarreddieresiscyrillic OE P Pacute Pdotaccent uni048E Phook Rho uni1FEC Q Q_rthook R Racute Rcommaaccent Rcaron Rdblgrave Rinvertedbreve Rdotaccent Rdotbelow Rdotbelowmacron Rlinebelow uni024C S Sacute Scircumflex Scedilla Scaron Scommaaccent Sdotaccent Sdotbelow Sacutedotaccent Scarondotaccent Sdotbelowdotaccent afii10054 Tonetwo Germandbls T Tcommaaccent Tcaron uni021A Tdotaccent Tdotbelow Tlinebelow Tcircumflexbelow Thook Trthook uni023E Tau U Uhorn Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Ucaron Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave Udblgrave Uinvertedbreve Udieresisbelow Utildebelow Ucircumflexbelow Utildeacute Umacrondieresis Udotbelow Uhookabove Uhornacute Uhorngrave Uhornhookabove Uhorntilde Uhorndotbelow uni0244 V Vtilde Vdotbelow W Wcircumflex Wgrave Wacute Wdieresis Wdotaccent Wdotbelow X Xdotaccent Xdieresis Hadescendercyrillic uni04FC Chi Y Yhook Yacute Ycircumflex Ydieresis uni0232 Ydotaccent Ygrave Ydotbelow Yhookabove Ytilde uni024E Upsilon Upsilontonos Upsilondieresis uni1F59 uni1F5B uni1F5D uni1F5F uni1FE8 uni1FE9 uni1FEA uni1FEB Z Zacute Zdotaccent Zcaron Zcircumflex Zdotbelow Zlinebelow Zhook Zbar Zeta uni2C7F Umacroncyrillic Udieresiscyrillic Uhungarumlautcyrillic Thorn Gamma Delta Theta Xi Pi Sigma Phi Psi Omega uni1FFB Omegatonos uni1F68 uni1F69 uni1F6A uni1F6B uni1F6C uni1F6D uni1F6E uni1F6F uni1FFA uni1FA8 uni1FA9 uni1FAA uni1FAB uni1FAC uni1FAD uni1FAE uni1FAF uni1FFC Upsilon2 Upsilonhooksymbol Upsilonacutehooksymbolgreek Upsilondieresishooksymbolgreek Gamma1 afii10018 uni04FA afii10021 Zhe-cy Zhedescendercyrillic afii10025 Kacyr Kaverticalstrokecyrillic Kahookcyrillic afii10029 afii10147 afii10145 U-cy afii10038 afii10040 Tetsecyrillic Che-cy Chedescendercyrillic Cheverticalstrokecyrillic Shhacyrillic Tshe-cy Sha-cy Shcha-cy afii10044 afii10045 Softsign-cy afii10058 afii10059 afii10047 afii10048 afii10049 Ghemiddlehookcyrillic Pemiddlehookcyrillic afii10053 Haabkhasiancyrillic Cheabkhasiancyrillic Schwacyrillic Dzeabkhasiancyrillic afii10148 afii10051 Tonefive Gcommaaccent.ss07 Gcommaaccent.1.ss07 Kcommaaccent.ss07 Lcommaaccent.ss07 Ncommaaccent.ss07 Rcommaaccent.ss07 Scommaaccent.ss07 Btopbar DZ Dcroat Dtopbar Eth Epsilon1 Esh Schwa Ezh Ezhcaron Ezhreversed uni021C IJ LJ Ldot NJ OI Tbar Tonesix Vcursive YR mcapturn uni01F7 uni0220 uni0222 uni0241 uni0245 uni1EFA uni1EFC uni1EFE Germandbls.1 Ge-cy afii10052 Geupturn-cy uni04F6 Ghestrokecyrillic afii10061 Pe-cy afii10034 afii10035 Te-cy afii10062 afii10039 Omegacyrillic afii10146 Eiotifiedcyrillic Yuslittlecyrillic Yuslittleiotifiedcyrillic Yusbigcyrillic Yusbigiotifiedcyrillic Ksicyrillic Psicyrillic Izhitsadblgravecyrillic Ukcyrillic Zedescendercyrillic Esdescendercyrillic Tedescendercyrillic Ustraightcyrillic Ustraightstrokecyrillic Chedescenderabkhasiancyrillic palochkacyrillic Zhebrevecyrillic Eltail-cy Chekhakassiancyrillic Schwadieresiscyrillic Zhedieresiscyrillic Zedieresiscyrillic uni04EC Chedieresiscyrillic Yerudieresiscyrillic uni04FE Koppacyrillic uni048C Digamma KaiSymbol uni03FD uni03FE uni03FF];
+# automatic
+@Lowercase = [a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adieresis adieresismacron adotaccent adotbelow adotmacron agrave ahookabove ainvertedbreve amacron aogonek arighthalfring aring aringacute aringbelow atilde aturn acyrillic abrevecyrillic adieresiscyrillic ae aemacron aeacute aiecyrillic aturn.1 acyrillic.1 abrevecyrillic.1 a.2 aacute.2 abreve.2 abreveacute.2 abrevedotbelow.2 abrevegrave.2 abrevehookabove.2 abrevetilde.2 acaron.2 acircumflex.2 acircumflexacute.2 acircumflexdotbelow.2 acircumflexgrave.2 acircumflexhookabove.2 acircumflextilde.2 adblgrave.2 adieresis.2 adieresismacron.2 adotaccent.2 adotbelow.2 adotmacron.2 agrave.2 ahookabove.2 ainvertedbreve.2 amacron.2 aogonek.2 arighthalfring.2 aring.2 aringacute.2 aringbelow.2 atilde.2 aturn.2 acyrillic.2 abrevecyrillic.2 b bbar btopbar bhook bdotaccent bdotbelow blinebelow thorn c cstroke chook ccedilla cacute ccircumflex cdotaccent ccaron ccedillaacute sigmalunatesymbolgreek escyrillic d dcroat drthook dhook dtopbar dcurl dcaron ddotaccent ddotbelow dlinebelow dcedilla dcircumflexbelow dz dzaltone dzcaron dyogh e edieresis uni0247 egrave eacute ecircumflex emacron ebreve edotaccent eogonek ecaron edblgrave einvertedbreve uni0229 emacrongrave emacronacute ecircumflexbelow etildebelow ecedillabreve edotbelow ehookabove etilde ecircumflexacute ecircumflexgrave ecircumflexhookabove ecircumflextilde ecircumflexdotbelow iecyrillic uni0450 iocyrillic iebrevecyrillic eturn f longs slongdotaccent fdotaccent feng g ghook gbar gcircumflex gbreve gdotaccent gcommaaccent gcaron gacute gmacron g.sc ghook.sc h hcedilla tshecyrillic djecyrillic hhook henghook hv hturn hturnlthook hturnhook2 hbar hcircumflex uni021F hdotaccent hdotbelow hdieresis hbrevebelow hlinebelow shhacyrillic i idotless idieresis idieresisacute itilde itildebelow ibar igrave iacute icircumflex imacron ibreve iogonek icaron idblgrave iinvertedbreve ihookabove idotbelow jdotless jdotlessbar uni0249 icyrillic yi-cy ij i.sc j jcrosstail jcircumflex jcaron yotgreek jecyrillic lj k khook kcommaaccent kcaron kacute kdotbelow klinebelow kturn l lslash lbar lmidtilde lrthook lbelt lcurl ldot lacute lcommaaccent lcaron ldotbelow ldotbelowmacron llinebelow lcircumflexbelow uni04CF m mhook mturn mturndescend macute mdotaccent mdotbelow n ntilde nrthook eng ncurl nlfthook nlegrightlong nacute ncommaaccent ncaron uni01F9 ndotaccent ndotbelow nlinebelow ncircumflexbelow nj n.sc o odieresis otilde oslash ohorn ograve oacute ocircumflex omacron obreve ohungarumlaut ocaron oogonek oogonekmacron odblgrave oinvertedbreve uni022B uni022D uni022F uni0231 otildeacute otildedieresis omacrongrave omacronacute odotbelow ohookabove ocircumflexacute ocircumflexgrave ocircumflexhookabove ocircumflextilde ocircumflexdotbelow ohornacute ohorngrave ohornhookabove ohorntilde ohorndotbelow oslashacute omicron omicrontonos uni1F40 uni1F41 uni1F42 uni1F43 uni1F44 uni1F45 uni1F78 fitacyrillic obar ocyrillic odieresiscyrillic oe oe.sc ukcyrillic p uni048F phook pacute pdotaccent ercyrillic q qhook qrthook r uni024D rturn rturnrthook rfishhookrev rfishhook racute rcommaaccent rcaron rdblgrave rinvertedbreve rdotaccent rdotbelow rdotbelowmacron rlinebelow r.sc rinv.sc s srthook uni023F sacute scircumflex scedilla scaron scommaaccent sdotaccent sdotbelow sacutedotaccent scarondotaccent sdotbelowdotaccent dzecyrillic tonetwo germandbls t tpalatalhook trthook tcurl tccurl tturn tbar tcedilla tcaron tcommaaccent tdotaccent tdotbelow tlinebelow tcircumflexbelow tdieresis u udieresis utilde uhorn ubar ugrave uacute ucircumflex umacron ubreve uring uhungarumlaut uogonek ucaron udieresismacron udieresisacute udieresiscaron udieresisgrave udblgrave uinvertedbreve udieresisbelow utildebelow ucircumflexbelow utildeacute umacrondieresis udotbelow uhookabove uhornacute uhorngrave uhornhookabove uhorntilde uhorndotbelow v vturn vtilde vdotbelow w wdieresis wturn wcircumflex wgrave wacute wdotaccent wdotbelow wring x xdotaccent xdieresis khacyrillic chi y ydieresis yhook uni024F yacute ycircumflex uni0233 ydotaccent yring ygrave ydotbelow yhookabove ytilde ucyrillic ushortcyrillic umacroncyrillic udieresiscyrillic uhungarumlautcyrillic yturn y.sc z zbar zhook uni0240 zrthook zacute zdotaccent zcaron zcircumflex zdotbelow zlinebelow eth alpha alphatonos uni1F00 uni1F01 uni1F02 uni1F03 uni1F04 uni1F05 uni1F06 uni1F07 uni1F70 uni1F80 uni1F81 uni1F82 uni1F83 uni1F84 uni1F85 uni1F86 uni1F87 uni1FB0 uni1FB1 uni1FB2 uni1FB3 uni1FB4 uni1FB6 uni1FB7 beta gamma delta epsilon epsilontonos epsilonclosed epsilon1 epsilon1rev epsilon1revclosed epsilon1revhook uni1F10 uni1F11 uni1F12 uni1F13 uni1F14 uni1F15 uni1F72 zeta eta etatonos uni1F20 uni1F21 uni1F22 uni1F23 uni1F24 uni1F25 uni1F26 uni1F27 uni1F74 uni1F90 uni1F91 uni1F92 uni1F93 uni1F94 uni1F95 uni1F96 uni1F97 uni1FC2 uni1FC3 uni1FC4 uni1FC6 uni1FC7 theta iota iotadieresistonos iotatonos iotadieresis uni1F30 uni1F31 uni1F32 uni1F33 uni1F34 uni1F35 uni1F36 uni1F37 uni1F76 uni1FD0 uni1FD1 uni1FD2 uni1FD6 uni1FD7 lambda xi pi rho uni1FE4 uni1FE5 uni03FC sigma1 sigma tau upsilon upsilondieresistonos upsilondieresis upsilontonos uni1F50 uni1F51 uni1F52 uni1F53 uni1F54 uni1F55 uni1F56 uni1F57 uni1F7A uni1FE0 uni1FE1 uni1FE2 uni1FE6 uni1FE7 phi phigreek psi omega omegatonos uni1F60 uni1F61 uni1F62 uni1F63 uni1F64 uni1F65 uni1F66 uni1F67 uni1F7C uni1FA0 uni1FA1 uni1FA2 uni1FA3 uni1FA4 uni1FA5 uni1FA6 uni1FA7 uni1FF2 uni1FF3 uni1FF4 uni1FF6 uni1FF7 gamma1 becyrillic vecyrillic ge-cy gheupturncyrillic uni04FB decyrillic zhecyrillic zhedescendercyrillic zecyrillic iicyrillic uni048B kacyrillic kahookcyrillic kadescendercyrillic kaverticalstrokecyrillic kabashkircyrillic elcyrillic uni04C6 eldescender-cy emcyrillic uni04CE encyrillic endescendercyrillic enghecyrillic enhookcyrillic uni04CA pecyrillic tecyrillic efcyrillic hahook-cy hadescendercyrillic tsecyrillic dzhecyrillic checyrillic chedescendercyrillic cheverticalstrokecyrillic shacyrillic shchacyrillic softsigncyrillic hardsigncyrillic yericyrillic semisoftsign-cy yatcyrillic ljecyrillic njecyrillic ereversedcyrillic iucyrillic iacyrillic ghemiddlehookcyrillic pemiddlehookcyrillic ecyrillic haabkhasiancyrillic tetsecyrillic cheabkhasiancyrillic izhitsacyrillic bullseye abrevedotbelow.2.ss07 acircumflexdotbelow.2.ss07 adieresis.2.ss07 adieresismacron.2.ss07 adotaccent.2.ss07 adotbelow.2.ss07 kcommaaccent.ss07 lcommaaccent.ss07 lcommaaccent.ss02.ss07 ncommaaccent.ss07 rcommaaccent.ss07 scommaaccent.ss07 tcommaaccent.ss07 tcommaaccent.1.ss07 ascript ascriptturn babygamma cstretch deltaturn erev esh eshcurl eshlooprev schwa schwahook ezh ezhcaron ezhcurl ezhreversed ezhtail finalkaf finalmem gcursive glottalstop glottalstopbar glottalstopbarinv glottalstopbarrev glottalstopinv glottalstoprevinv uni021D jhookdblbar kgreenlandic lambdabar lyogh oi omegaclosed oopen philatin rturnascend tesh thook tonefive tonesix ts uni0223 uni0238 uni0239 uni0242 uni0299 uni02AB uni02AC uni1E9D uni1E9F uni1EFB uni1EFD uni1EFF uni2184 upsilonlatin vscript wynn gjecyrillic gedescender-cy ghestrokecyrillic iishortcyrillic uni045D kjecyrillic omegacyrillic eiotifiedcyrillic yuslittlecyrillic yuslittleiotifiedcyrillic yusbigcyrillic yusbigiotifiedcyrillic ksicyrillic psicyrillic izhitsadblgravecyrillic zedescendercyrillic esdescendercyrillic tedescendercyrillic ustraightcyrillic ustraightstrokecyrillic chedescenderabkhasiancyrillic zhebrevecyrillic chekhakassiancyrillic schwacyrillic schwadieresiscyrillic zhedieresiscyrillic zedieresiscyrillic imacroncyrillic idieresiscyrillic obarredcyrillic obarreddieresiscyrillic edieresis-cy chedieresiscyrillic yerudieresiscyrillic uni04FF koppacyrillic kappa mugreek nu uni037B uni037C uni037D digamma kaiSymbol beta1 thetasymbolgreek pisymbolgreek kappa1 rho1 uni03F5 uni1F71 uni1F73 uni1F75 uni1F77 uni1FD3 uni1F79 uni1F7B uni1FE3 uni1F7D uni1FBE];
+# automatic
+@All = [A Adieresis Atilde Agrave Aacute Acircumflex Aring Aringacute Aringogonek Amacron Abreve Aogonek Acaron Adieresismacron Adotmacron Adblgrave Ainvertedbreve uni0226 Aringbelow Adotbelow Ahookabove Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde Acircumflexdotbelow Abreveacute Abrevegrave Abrevehookabove Abrevetilde Abrevedotbelow Alpha Alphatonos uni1F08 uni1F09 uni1F0A uni1F0B uni1F0C uni1F0D uni1F0E uni1F0F uni1FB8 uni1FB9 uni1FBA uni023A uni1FBB afii10017 Abrevecyrillic Adieresiscyrillic uni1F88 uni1F89 uni1F8A uni1F8B uni1F8C uni1F8D uni1F8E uni1F8F uni1FBC Lambda AE AEmacron AEacute Aiecyrillic B Bdotaccent Bdotbelow Blinebelow uni0243 Bhook afii10019 Beta C Chook Ccedilla Cacute Ccircumflex Cdotaccent Ccaron Ccedillaacute Cstroke Oopen uni03F9 D Dhook Dcaron Ddotaccent Ddotbelow Dlinebelow Dcedilla Dcircumflexbelow Dbar1 Dz Dzcaron_ E Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron Edblgrave Einvertedbreve uni0228 Emacrongrave Emacronacute Ecircumflexbelow Etildebelow Ecedillabreve Edotbelow Ehookabove Etilde Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ecircumflexdotbelow uni0246 Eturn Epsilon Epsilontonos uni1F18 uni1F19 uni1F1A uni1F1B uni1F1C uni1F1D uni1FC8 uni1FC9 afii10022 uni0400 afii10023 Iebrevecyrillic F Fhook Fdotaccent Fturn G Gbar Ghook Gcircumflex Gbreve Gdotaccent Gcommaaccent Gcaron Gacute Gmacron G.1 Gbar.1 Ghook.1 Gcircumflex.1 Gbreve.1 Gdotaccent.1 Gcommaaccent.1 Gcaron.1 Gacute.1 Gmacron.1 H Hcedilla Hcircumflex uni021E Hdotaccent Hdotbelow Hdieresis Hbrevebelow Hbar Enhookcyrillic Endescendercyrillic Entail-cy Enghecyrillic uni01F6 Eta Etatonos uni1F28 uni1F29 uni1F2A uni1F2B uni1F2C uni1F2D uni1F2E uni1F2F uni1FCA uni1FCB afii10031 uni1F98 uni1F99 uni1F9A uni1F9B uni1F9C uni1F9D uni1F9E uni1F9F uni1FCC I I.double Idieresis Idieresisacute Istroke Itildebelow Igrave Iacute Icircumflex Itilde Imacron Ibreve Iogonek Idotaccent Icaron Idblgrave Iinvertedbreve Ihookabove Idotbelow Iota IotaGreek Iotatonos Iotadieresis uni1F38 uni1F39 uni1F3A uni1F3B uni1F3C uni1F3D uni1F3E uni1F3F uni1FD8 uni1FD9 uni1FDA uni1FDB afii10055 Yi-cy I.1 Idieresis.1 Idieresisacute.1 Istroke.1 Itildebelow.1 Igrave.1 Iacute.1 Icircumflex.1 Itilde.1 Imacron.1 Ibreve.1 Iogonek.1 Idotaccent.1 Icaron.1 Idblgrave.1 Iinvertedbreve.1 Ihookabove.1 Idotbelow.1 uni1F38.1 uni1F39.1 uni1F3A.1 uni1F3B.1 uni1F3C.1 uni1F3D.1 uni1F3E.1 uni1F3F.1 uni1FD8.1 uni1FD9.1 uni1FDA.1 uni1FDB.1 afii10055.1 Yi-cy.1 J Jcircumflex uni0248 uni037F afii10057 K Kcommaaccent Kcaron Kacute Kdotbelow Klinebelow Kabashkircyrillic Kadescendercyrillic Khook Kappa L Lacute Lcommaaccent Lcaron Ldotbelow Ldotbelowmacron Llinebelow Lcircumflexbelow Lslash Lbar Lj M Macute Mdotaccent Mdotbelow uni04CD Mu San afii10030 N Ntilde Nacute Ncommaaccent Ncaron uni01F8 Ndotaccent Ndotbelow Nlinebelow Ncircumflexbelow Nhook Eng Ii-cy uni040D afii10027 Imacroncyrillic Idieresiscyrillic uni048A Pamphyliandigamma Nu Nj O Odieresis Otilde Oslash Ohorn Ograve Oacute Ocircumflex Omacron Obreve Ohungarumlaut Ocaron Oogonek Oogonekmacron Odblgrave Oinvertedbreve uni022A uni022C uni022E uni0230 Otildeacute Otildedieresis Omacrongrave Omacronacute Odotbelow Ohookabove Ocircumflexacute Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ocircumflexdotbelow Ohornacute Ohorngrave Ohornhookabove Ohorntilde Ohorndotbelow Oslashacute Omicron Omicrontonos uni1F48 uni1F49 uni1F4A uni1F4B uni1F4C uni1F4D uni1FF8 uni03F4 uni1FF9 afii10032 Odieresiscyrillic Obar Obarredcyrillic Obarreddieresiscyrillic OE P Pacute Pdotaccent uni048E Phook Rho uni1FEC Q Q_rthook R Racute Rcommaaccent Rcaron Rdblgrave Rinvertedbreve Rdotaccent Rdotbelow Rdotbelowmacron Rlinebelow response Rx uni024C S Sacute Scircumflex Scedilla Scaron Scommaaccent Sdotaccent Sdotbelow Sacutedotaccent Scarondotaccent Sdotbelowdotaccent afii10054 Tonetwo Germandbls T Tcommaaccent Tcaron uni021A Tdotaccent Tdotbelow Tlinebelow Tcircumflexbelow Thook Thook.base Trthook uni023E Tau U Uhorn Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Ucaron Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave Udblgrave Uinvertedbreve Udieresisbelow Utildebelow Ucircumflexbelow Utildeacute Umacrondieresis Udotbelow Uhookabove Uhornacute Uhorngrave Uhornhookabove Uhorntilde Uhorndotbelow uni0244 V Vtilde Vdotbelow W Wcircumflex Wgrave Wacute Wdieresis Wdotaccent Wdotbelow X Xdotaccent Xdieresis Hadescendercyrillic uni04FC Chi Y Yhook Yacute Ycircumflex Ydieresis uni0232 Ydotaccent Ygrave Ydotbelow Yhookabove Ytilde uni024E Upsilon Upsilontonos Upsilondieresis uni1F59 uni1F5B uni1F5D uni1F5F uni1FE8 uni1FE9 uni1FEA uni1FEB Yogonek Z Zacute Zdotaccent Zcaron Zcircumflex Zdotbelow Zlinebelow Zhook Zbar Zeta uni2C7F a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adieresis adieresismacron adotaccent adotbelow adotmacron agrave ahookabove ainvertedbreve amacron aogonek arighthalfring aring aringacute aringogonek aringbelow atilde aturn acyrillic abrevecyrillic adieresiscyrillic ae aemacron aeacute aiecyrillic a.1 aacute.1 abreve.1 abreveacute.1 abrevedotbelow.1 abrevegrave.1 abrevehookabove.1 abrevetilde.1 acaron.1 acircumflex.1 acircumflexacute.1 acircumflexdotbelow.1 acircumflexgrave.1 acircumflexhookabove.1 acircumflextilde.1 adblgrave.1 adieresis.1 adieresismacron.1 adotaccent.1 adotbelow.1 adotmacron.1 agrave.1 ahookabove.1 ainvertedbreve.1 amacron.1 aogonek.1 arighthalfring.1 aring.1 aringacute.1 aringbelow.1 atilde.1 aturn.1 acyrillic.1 abrevecyrillic.1 a.2 aacute.2 abreve.2 abreveacute.2 abrevedotbelow.2 abrevegrave.2 abrevehookabove.2 abrevetilde.2 acaron.2 acircumflex.2 acircumflexacute.2 acircumflexdotbelow.2 acircumflexgrave.2 acircumflexhookabove.2 acircumflextilde.2 adblgrave.2 adieresis.2 adieresismacron.2 adotaccent.2 adotbelow.2 adotmacron.2 agrave.2 ahookabove.2 ainvertedbreve.2 amacron.2 aogonek.2 arighthalfring.2 aring.2 aringacute.2 aringbelow.2 atilde.2 aturn.2 acyrillic.2 abrevecyrillic.2 b bbar btopbar bhook bdotaccent bdotbelow blinebelow thorn c cstroke chook ccedilla cacute ccircumflex cdotaccent ccaron ccedillaacute sigmalunatesymbolgreek escyrillic d dcroat drthook dhook dtopbar dcurl dcaron ddotaccent ddotbelow dlinebelow dcedilla dcircumflexbelow dz dzaltone dzcaron dyogh dong e edieresis uni0247 egrave eacute ecircumflex emacron ebreve edotaccent eogonek ecaron edblgrave einvertedbreve uni0229 emacrongrave emacronacute ecircumflexbelow etildebelow ecedillabreve edotbelow ehookabove etilde ecircumflexacute ecircumflexgrave ecircumflexhookabove ecircumflextilde ecircumflexdotbelow iecyrillic uni0450 iocyrillic iebrevecyrillic eturn _part.f_base f f.1 f.i f.i.1 fdotaccent.1 feng.1 longs slongstroke slongdotaccent fdotaccent feng g ghook gbar gcircumflex gbreve gdotaccent gcommaaccent gcaron gacute gmacron g.sc ghook.sc h hcedilla tshecyrillic djecyrillic hhook henghook hv hturn hturnlthook hturnhook2 hbar hcircumflex uni021F hdotaccent hdotbelow hdieresis hbrevebelow hlinebelow shhacyrillic i idotless idotless.double idieresis idieresisacute itilde itildebelow uni1E2D.ccmp ibar igrave iacute icircumflex imacron ibreve uni012F.ccmp iogonek icaron idblgrave iinvertedbreve ihookabove idotbelow uni1ECB.ccmp jdotless jdotlessbar uni0249 uni0249.ccmp icyrillic yi-cy ij i.sc j jcrosstail.ccmp jcrosstail jcircumflex jcaron yotgreek jecyrillic lj k khook kcommaaccent kcaron kacute kdotbelow klinebelow kturn k.base l lslash lbar lmidtilde lrthook lbelt lcurl ldot lacute lcommaaccent lcaron ldotbelow ldotbelowmacron llinebelow lcircumflexbelow l.ss02 lslash.ss02 lbar.ss02 lmidtilde.ss02 lbelt.ss02 ldot.ss02 lacute.ss02 lcommaaccent.ss02 lcaron.ss02 ldotbelow.ss02 ldotbelowmacron.ss02 llinebelow.ss02 lcircumflexbelow.ss02 uni04CF l.sc m mhook mturn mturndescend macute mdotaccent mdotbelow n ntilde nrthook eng ncurl nlfthook nlegrightlong nacute ncommaaccent ncaron uni01F9 ndotaccent ndotbelow nlinebelow ncircumflexbelow nj n.sc o odieresis otilde oslash ohorn ograve oacute ocircumflex omacron obreve ohungarumlaut ocaron oogonek oogonekmacron odblgrave oinvertedbreve uni022B uni022D uni022F uni0231 otildeacute otildedieresis omacrongrave omacronacute odotbelow ohookabove ocircumflexacute ocircumflexgrave ocircumflexhookabove ocircumflextilde ocircumflexdotbelow ohornacute ohorngrave ohornhookabove ohorntilde ohorndotbelow oslashacute omicron omicrontonos uni1F40 uni1F41 uni1F42 uni1F43 uni1F44 uni1F45 uni1F78 fitacyrillic obar ocyrillic odieresiscyrillic oe oe.sc ukcyrillic p uni048F phook pacute pdotaccent ercyrillic q qhook qrthook r rrthook uni024D rturn rturnrthook rfishhookrev rfishhook rdescend racute rcommaaccent rcaron rdblgrave rinvertedbreve rdotaccent rdotbelow rdotbelowmacron rlinebelow r.sc rinv.sc s srthook uni023F sacute scircumflex scedilla scaron scommaaccent sdotaccent sdotbelow sacutedotaccent scarondotaccent sdotbelowdotaccent dzecyrillic tonetwo germandbls germandbls.1 _part.t_base t tpalatalhook trthook _part.tcurl_base tcurl tccurl tturn tbar tcedilla tcaron tcommaaccent tdotaccent tdotbelow tlinebelow tcircumflexbelow tdieresis t.1 tpalatalhook.1 tcedilla.1 tcaron.1 tcommaaccent.1 tdotaccent.1 tdotbelow.1 tlinebelow.1 tcircumflexbelow.1 tdieresis.1 u udieresis utilde uhorn micro ubar ugrave uacute ucircumflex umacron ubreve uring uhungarumlaut uogonek ucaron udieresismacron udieresisacute udieresiscaron udieresisgrave udblgrave uinvertedbreve udieresisbelow utildebelow ucircumflexbelow utildeacute umacrondieresis udotbelow uhookabove uhornacute uhorngrave uhornhookabove uhorntilde uhorndotbelow u.1 uacute.1 ubar.1 ubreve.1 ucaron.1 ucircumflex.1 ucircumflexbelow.1 udblgrave.1 udieresis.1 udieresisacute.1 udieresisbelow.1 udieresiscaron.1 udieresisgrave.1 udieresismacron.1 udotbelow.1 ugrave.1 uhookabove.1 uhorn.1 uhornacute.1 uhorndotbelow.1 uhorngrave.1 uhornhookabove.1 uhorntilde.1 uhungarumlaut.1 uinvertedbreve.1 umacron.1 umacrondieresis.1 uogonek.1 uring.1 utilde.1 utildeacute.1 utildebelow.1 v vturn vtilde vdotbelow w wdieresis wturn wcircumflex wgrave wacute wdotaccent wdotbelow wring x xdotaccent xdieresis khacyrillic chi y ydieresis yhook uni024F yacute ycircumflex uni0233 ydotaccent yring ygrave ydotbelow yhookabove ytilde ucyrillic ushortcyrillic umacroncyrillic udieresiscyrillic uhungarumlautcyrillic yturn Umacroncyrillic Udieresiscyrillic Uhungarumlautcyrillic yogonek y.sc z zbar zhook uni0240 zrthook zacute zdotaccent zcaron zcircumflex zdotbelow zlinebelow Thorn Gamma Delta Theta Xi Pi Sigma Phi Psi Omega uni1FFB Omegatonos uni1F68 uni1F69 uni1F6A uni1F6B uni1F6C uni1F6D uni1F6E uni1F6F uni1FFA uni1FA8 uni1FA9 uni1FAA uni1FAB uni1FAC uni1FAD uni1FAE uni1FAF uni1FFC Upsilon2 Upsilonhooksymbol Upsilonacutehooksymbolgreek Upsilondieresishooksymbolgreek Gamma1 afii10018 uni04FA afii10021 Zhe-cy Zhedescendercyrillic afii10025 Kacyr Kaverticalstrokecyrillic Kahookcyrillic afii10029 afii10147 afii10145 U-cy afii10038 afii10040 Tetsecyrillic Che-cy Chedescendercyrillic Cheverticalstrokecyrillic Shhacyrillic Tshe-cy Sha-cy Shcha-cy afii10044 afii10045 Softsign-cy afii10058 afii10059 afii10047 afii10048 afii10049 Ghemiddlehookcyrillic Pemiddlehookcyrillic afii10053 Haabkhasiancyrillic Cheabkhasiancyrillic Schwacyrillic Dzeabkhasiancyrillic afii10148 afii10051 eth alpha alphatonos uni1F00 uni1F01 uni1F02 uni1F03 uni1F04 uni1F05 uni1F06 uni1F07 uni1F70 uni1F80 uni1F81 uni1F82 uni1F83 uni1F84 uni1F85 uni1F86 uni1F87 uni1FB0 uni1FB1 uni1FB2 uni1FB3 uni1FB4 uni1FB6 uni1FB7 beta gamma delta epsilon epsilontonos epsilonclosed epsilon1 epsilon1rev epsilon1revclosed epsilon1revhook uni1F10 uni1F11 uni1F12 uni1F13 uni1F14 uni1F15 uni1F72 zeta eta etatonos uni1F20 uni1F21 uni1F22 uni1F23 uni1F24 uni1F25 uni1F26 uni1F27 uni1F74 uni1F90 uni1F91 uni1F92 uni1F93 uni1F94 uni1F95 uni1F96 uni1F97 uni1FC2 uni1FC3 uni1FC4 uni1FC6 uni1FC7 theta iota iotadieresistonos iotatonos iotadieresis uni1F30 uni1F31 uni1F32 uni1F33 uni1F34 uni1F35 uni1F36 uni1F37 uni1F76 uni1FD0 uni1FD1 uni1FD2 uni1FD6 uni1FD7 lambda xi pi rho uni1FE4 uni1FE5 uni03FC sigma1 sigma tau upsilon upsilondieresistonos upsilondieresis upsilontonos uni1F50 uni1F51 uni1F52 uni1F53 uni1F54 uni1F55 uni1F56 uni1F57 uni1F7A uni1FE0 uni1FE1 uni1FE2 uni1FE6 uni1FE7 phi phigreek psi omega omegatonos uni1F60 uni1F61 uni1F62 uni1F63 uni1F64 uni1F65 uni1F66 uni1F67 uni1F7C uni1FA0 uni1FA1 uni1FA2 uni1FA3 uni1FA4 uni1FA5 uni1FA6 uni1FA7 uni1FF2 uni1FF3 uni1FF4 uni1FF6 uni1FF7 gamma1 becyrillic vecyrillic ge-cy gheupturncyrillic uni04FB decyrillic zhecyrillic zhedescendercyrillic zecyrillic iicyrillic uni048B kacyrillic kahookcyrillic kadescendercyrillic kaverticalstrokecyrillic kabashkircyrillic elcyrillic uni04C6 eldescender-cy emcyrillic uni04CE encyrillic endescendercyrillic enghecyrillic enhookcyrillic uni04CA pecyrillic tecyrillic efcyrillic hahook-cy hadescendercyrillic tsecyrillic dzhecyrillic checyrillic chedescendercyrillic cheverticalstrokecyrillic shacyrillic shchacyrillic softsigncyrillic hardsigncyrillic yericyrillic semisoftsign-cy yatcyrillic ljecyrillic njecyrillic ereversedcyrillic iucyrillic iacyrillic ghemiddlehookcyrillic pemiddlehookcyrillic ecyrillic haabkhasiancyrillic tetsecyrillic cheabkhasiancyrillic dzeabkhasiancyrillic izhitsacyrillic dollar cent yen sterling florin uni20BA uni20BD euro uni20B9 tenge peseta peso kip won lira austral hryvnia naira guarani coloncurrency cedi cruzeiro tugrik drachma mill afii57636 manat rupee lari franc baht bitcoin zero one two twostroke three four five Tonefive six seven eight nine zero.slash one.ss01 three.1 four.ss01 six.ss01 nine.ss01 zero.tf one.tf one.tf.2 two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf zero.tf.slash one.tf.ss01 one.tf.2.ss01 three.1.tf four.tf.ss01 six.tf.ss01 nine.tf.ss01 comma.tf period.tf colon.tf colon.case.tf semicolon.tf parenleft.tf parenright.tf braceleft.tf braceright.tf bracketleft.tf bracketright.tf parenleft.case.tf parenright.case.tf braceleft.case.tf braceright.case.tf bracketleft.case.tf bracketright.case.tf hyphen.tf hyphen.case.tf less.tf greater.tf lessequal.tf greaterequal.tf equal.tf notequal.tf plus.tf minus.tf multiply.tf divide.tf plusminus.tf approxequal.tf asciitilde.tf asterisk.tf less.case.tf greater.case.tf lessequal.case.tf greaterequal.case.tf equal.case.tf notequal.case.tf plus.case.tf minus.case.tf multiply.case.tf divide.case.tf plusminus.case.tf approxequal.case.tf asciitilde.case.tf asterisk.case.tf space.tf nbspace.tf punctuationspace.tf ampersand etTironian exclam exclamdbl exclamdown uni2049 question uni2047 uni2048 questiondown interrobang invertedinterrobang parenleft parenright bracketleft bracketleft_quill bracketright bracketright_quill braceleft braceright at parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case at.case numbersign currency slash bar brokenbar backslash hyphen endash figuredash emdash horizontalbar bullet openbullet hyphenbullet trianglebullet blackleftbullet blackrightbullet blackSmallSquare hyphen.case endash.case figuredash.case emdash.case bullet.case openbullet.case hyphenbullet.case trianglebullet.case blackleftbullet.case blackrightbullet.case blackSmallSquare.case quoteleft quoteright quotesingle quotedbl quotedblleft quotedblright quotedblbase quotesinglbase quotereversed quotedblreversed prime doubleprime tripleprime quadrupleprime primerev doubleprimerev tripleprimerev primemod doubleprimemod comma period ellipsis twodotleader colon colon.case ratio semicolon periodcentered anoteleia questiongreek guilsinglleft guilsinglright guillemetleft guillemetright less greater lessequal greaterequal equal notequal plus minus multiply divide plusminus approxequal asciitilde less.case greater.case lessequal.case greaterequal.case equal.case notequal.case plus.case minus.case multiply.case divide.case plusminus.case approxequal.case asciitilde.case logicalnot underscore dagger daggerdbl asciicircum asterisk asterisk.case registered copyright copyleft published trademark servicemark tel uni213B uni1F16B uni1F16A degree ordfeminine ordmasculine i.numr n.numr paragraph paragraphreversed section infinity partialdiff summation product integral radical emptyset lozenge a.sups b.sups c.sups d.sups e.sups f.sups g.sups h.sups i.sups j.sups k.sups l.sups m.sups n.sups o.sups p.sups q.sups r.sups s.sups t.sups u.sups v.sups w.sups x.sups y.sups z.sups zero.sups zero.sups.slash one.sups one.sups.ss01 two.sups three.sups three.sups.ss01 four.sups four.sups.ss01 five.sups six.sups six.sups.ss01 seven.sups eight.sups nine.sups nine.sups.ss01 parenleft.sups parenright.sups bracketleft.sups bracketright.sups plus.sups minus.sups equal.sups a.subs b.subs c.subs d.subs e.subs f.subs g.subs h.subs i.subs j.subs k.subs l.subs m.subs n.subs o.subs p.subs q.subs r.subs s.subs t.subs u.subs v.subs w.subs x.subs y.subs z.subs zero.subs zero.subs.slash one.subs one.subs.ss01 two.subs three.subs three.subs.ss01 four.subs four.subs.ss01 five.subs six.subs six.subs.ss01 seven.subs eight.subs nine.subs nine.subs.ss01 parenleft.subs parenright.subs bracketleft.subs bracketright.subs plus.subs minus.subs equal.subs fraction zero.dnom zero.dnom.slash one.dnom one.dnom.ss01 two.dnom three.dnom three.dnom.ss01 four.dnom four.dnom.ss01 five.dnom six.dnom six.dnom.ss01 seven.dnom eight.dnom nine.dnom nine.dnom.ss01 plus.dnom minus.dnom equal.dnom parenleft.dnom parenright.dnom period.dnom comma.dnom comma.dnom.ss03 comma.dnom.ss07 zero.numr zero.numr.slash one.numr one.numr.ss01 two.numr three.numr three.numr.ss01 four.numr four.numr.ss01 five.numr six.numr six.numr.ss01 seven.numr eight.numr nine.numr nine.numr.ss01 plus.numr minus.numr equal.numr parenleft.numr parenright.numr period.numr comma.numr comma.numr.ss03 comma.numr.ss07 onefraction onehalf zerothird onethird twothirds onequarter threequarters onefifth twofifths threefifths fourfifths onesixth fivesixths oneseventh oneeighth threeeighths fiveeighths seveneighths oneninth onetenth percent perthousand pertenthousand uni214D cadauna careof accountof addresssubject acute hungarumlaut grave tonos dieresis dieresis.three circumflex tilde macron breve cyrillicbreve dotaccent ring caron dieresistonos cedilla ogonek commaaccent acutecomb gravecomb dblgravecmb macroncomb tildecomb dotbelow commabelowcmb space nbspace narrownbspace mediumspace-math enquad emquad enspace emspace thirdemspace quarteremspace sixthemspace figurespace punctuationspace thinspace hairspace zerowidthspace numero degreecentigrade degreefarenheit degreekelvin angstrom bullseye estimated leftArrow leftLongArrow leftLongArrow2 leftDoubleArrow leftLongDoubleArrow rightArrow rightLongArrow rightLongArrow2 rightDoubleArrow rightLongDoubleArrow northWestArrow northEastArrow southEastArrow southWestArrow leftRightArrow leftRightLongArrow leftRightDoubleArrow leftRightLongDoubleArrow upArrow downArrow downArrowToBar upDownArrow leftHookArrow rightHookArrow leftArrow.case leftLongArrow.case leftLongArrow2.case leftDoubleArrow.case leftLongDoubleArrow.case rightArrow.case rightLongArrow.case rightLongArrow2.case rightDoubleArrow.case rightLongDoubleArrow.case leftRightArrow.case leftRightLongArrow.case leftRightDoubleArrow.case leftRightLongDoubleArrow.case northEastArrow.case southEastArrow.case southWestArrow.case northWestArrow.case dngb_check dngb_ballotx triagdn triagup blackleftpointingtriangle triagrt downWhiteTriangle upWhiteTriangle leftWhiteTriangle rightWhiteTriangle warningSign circleblack circlewhite blackSquare whiteSquare whiteRoundedCornersSquare lowerHalfWhiteSquare topHalfWhiteSquare diamondblack diamondblack_x diamondwhite diamondwhite_x sunWithRays blackSunWithRays heartWhiteSuit heartBlackSuit heavyBlackHeart blackstar whitestar upBlackArrow upWhiteArrow capslock placeofinterestsign control projective downArrowHead insertionsymbol option alternativekeysymbol brokenCircleNorthWestArrow anticlockwiseOpenCircleArrow clockwiseOpenCircleArrow deleteleft deleteright clear ejectsymbol returnsymbol carriagereturn downTipRightArrow upTipLeftArrow upTipRightArrow rightCornerDownArrow arrowtableft arrowtabright pageup pagedown blackLargeCircle largeCircle whiteLargeSquare enclosingcirclecomb enclosingsquarecomb A.circled B.circled C.circled D.circled E.circled F.circled G.circled H.circled I.circled J.circled K.circled L.circled M.circled N.circled O.circled P.circled Q.circled R.circled S.circled T.circled U.circled V.circled W.circled X.circled Y.circled Z.circled zero.circled one.circled two.circled three.circled four.circled five.circled six.circled seven.circled eight.circled nine.circled zero.slash.circled one.ss01.circled three.1.circled four.ss01.circled six.ss01.circled nine.ss01.circled exclam.circled question.circled numbersign.circled hyphen.circled less.circled greater.circled equal.circled plus.circled minus.circled fraction.circled multiply.circled divide.circled upArrow.circled downArrow.circled downArrowToBar.circled leftArrow.circled rightArrow.circled dngb_check.circled dngb_ballotx.circled A.squared B.squared C.squared D.squared E.squared F.squared G.squared G.1.squared H.squared I.squared J.squared K.squared L.squared M.squared N.squared O.squared P.squared Q.squared R.squared S.squared T.squared U.squared V.squared W.squared X.squared Y.squared Z.squared zero.squared one.squared two.squared three.squared four.squared five.squared six.squared seven.squared eight.squared nine.squared zero.slash.squared one.ss01.squared three.1.squared four.ss01.squared six.ss01.squared nine.ss01.squared exclam.squared question.squared numbersign.squared hyphen.squared less.squared greater.squared equal.squared plus.squared minus.squared fraction.squared multiply.squared divide.squared upArrow.squared downArrow.squared downArrowToBar.squared leftArrow.squared rightArrow.squared dngb_check.squared dngb_ballotx.squared Gcommaaccent.ss03 Gcommaaccent.1.ss03 Kcommaaccent.ss03 Lcommaaccent.ss03 Ncommaaccent.ss03 Rcommaaccent.ss03 Scommaaccent.ss03 kcommaaccent.ss03 lcommaaccent.ss03 lcommaaccent.ss02.ss03 ncommaaccent.ss03 rcommaaccent.ss03 scommaaccent.ss03 tcommaaccent.ss03 tcommaaccent.1.ss03 commaaccent.ss03 comma.ss03 semicolon.ss03 reversedsemicolon.ss03 quotedblleft.ss03 quotedblright.ss03 quoteleft.ss03 quoteright.ss03 quotereversed.ss03 quotedblreversed.ss03 quotesinglbase.ss03 quotedblbase.ss03 Abrevedotbelow.ss07 Acircumflexdotbelow.ss07 Adieresis.ss07 Adieresismacron.ss07 Adotaccent.ss07 Adotbelow.ss07 Bdotaccent.ss07 Bdotbelow.ss07 Cdotaccent.ss07 Ddotaccent.ss07 Ddotbelow.ss07 Ecircumflexdotbelow.ss07 Edieresis.ss07 Edotaccent.ss07 Edotbelow.ss07 Fdotaccent.ss07 Gdotaccent.ss07 Hdieresis.ss07 Hdotaccent.ss07 Hdotbelow.ss07 Idieresis.ss07 Idieresisacute.ss07 Idotaccent.ss07 Idotbelow.ss07 Kdotbelow.ss07 Ldotbelow.ss07 Ldotbelowmacron.ss07 Mdotaccent.ss07 Mdotbelow.ss07 Ndotaccent.ss07 Ndotbelow.ss07 Ocircumflexdotbelow.ss07 Odieresis.ss07 Odieresismacron.ss07 Odotaccent.ss07 Odotbelow.ss07 Ohorndotbelow.ss07 Otildedieresis.ss07 Pdotaccent.ss07 Rdotaccent.ss07 Rdotbelow.ss07 Rdotbelowmacron.ss07 Scarondotaccent.ss07 Sdotaccent.ss07 Sdotbelow.ss07 Sdotbelowdotaccent.ss07 Tdotaccent.ss07 Tdotbelow.ss07 Udieresis.ss07 Udieresisacute.ss07 Udieresisbelow.ss07 Udieresiscaron.ss07 Udieresisgrave.ss07 Udieresismacron.ss07 Udotbelow.ss07 Uhorndotbelow.ss07 Umacrondieresis.ss07 Vdotbelow.ss07 Wdieresis.ss07 Wdotaccent.ss07 Wdotbelow.ss07 Xdieresis.ss07 Xdotaccent.ss07 Ydieresis.ss07 Ydotaccent.ss07 Ydotbelow.ss07 Zdotaccent.ss07 Zdotbelow.ss07 Gdotaccent.1.ss07 Idieresis.1.ss07 Idieresisacute.1.ss07 Idotaccent.1.ss07 Idotbelow.1.ss07 abrevedotbelow.ss07 acircumflexdotbelow.ss07 adieresis.ss07 adieresismacron.ss07 adotaccent.ss07 adotbelow.ss07 abrevedotbelow.2.ss07 acircumflexdotbelow.2.ss07 adieresis.2.ss07 adieresismacron.2.ss07 adotaccent.2.ss07 adotbelow.2.ss07 bdotaccent.ss07 bdotbelow.ss07 cdotaccent.ss07 ddotaccent.ss07 ddotbelow.ss07 ecircumflexdotbelow.ss07 edieresis.ss07 edotaccent.ss07 edotbelow.ss07 fdotaccent.ss07 gdotaccent.ss07 hdieresis.ss07 hdotaccent.ss07 hdotbelow.ss07 i.ss07 idieresis.ss07 idieresisacute.ss07 idotbelow.ss07 iogonek.ss07 j.ss07 jstroke.ss07 kdotbelow.ss07 ldot.ss07 ldotbelow.ss07 ldotbelowmacron.ss07 mdotaccent.ss07 mdotbelow.ss07 ndotaccent.ss07 ndotbelow.ss07 ocircumflexdotbelow.ss07 odieresis.ss07 odieresismacron.ss07 odotaccent.ss07 odotbelow.ss07 ohorndotbelow.ss07 otildedieresis.ss07 pdotaccent.ss07 rdotaccent.ss07 rdotbelow.ss07 rdotbelowmacron.ss07 sacutedotaccent.ss07 scarondotaccent.ss07 sdotaccent.ss07 sdotbelow.ss07 sdotbelowdotaccent.ss07 tdieresis.ss07 tdotaccent.ss07 tdotbelow.ss07 udieresis.ss07 udieresisacute.ss07 udieresisbelow.ss07 udieresiscaron.ss07 udieresisgrave.ss07 udieresismacron.ss07 udotbelow.ss07 uhorndotbelow.ss07 umacrondieresis.ss07 vdotbelow.ss07 wdieresis.ss07 wdotaccent.ss07 wdotbelow.ss07 xdieresis.ss07 xdotaccent.ss07 ydieresis.ss07 ydotaccent.ss07 ydotbelow.ss07 zdotaccent.ss07 zdotbelow.ss07 abrevedotbelow.1.ss07 acircumflexdotbelow.1.ss07 adieresis.1.ss07 adieresismacron.1.ss07 adotaccent.1.ss07 adotbelow.1.ss07 idotbelow.ccmp.ss07 fdotaccent.1.ss07 ldot.ss02.ss07 ldotbelow.ss02.ss07 ldotbelowmacron.ss02.ss07 tdieresis.1.ss07 tdotaccent.1.ss07 tdotbelow.1.ss07 udieresis.1.ss07 udieresisacute.1.ss07 udieresisbelow.1.ss07 udieresiscaron.1.ss07 udieresisgrave.1.ss07 udieresismacron.1.ss07 udotbelow.1.ss07 uhorndotbelow.1.ss07 umacrondieresis.1.ss07 Io-cy.ss07 Yi-cy.ss07 Schwadieresis-cy.ss07 Zhedieresis-cy.ss07 Zedieresis-cy.ss07 Idieresis-cy.ss07 Obarreddieresis-cy.ss07 Edieresis-cy.ss07 Udieresis-cy.ss07 Chedieresis-cy.ss07 Yerudieresis-cy.ss07 Yi-cy.1.ss07 schwadieresis-cy.ss07 zhedieresis-cy.ss07 zedieresis-cy.ss07 idieresis-cy.ss07 obarreddieresis-cy.ss07 edieresis-cy.ss07 chedieresis-cy.ss07 yerudieresis-cy.ss07 UpsilondieresishookSymbol.ss07 iotadieresis.ss07 upsilondieresis.ss07 upsilondieresistonos.ss07 iotadialytikavaria.ss07 iotadialytikaperispomeni.ss07 upsilondialytikavaria.ss07 upsilondialytikaoxia.ss07 upsilondialytikaperispomeni.ss07 anoteleia.ss07 period.ss07 comma.ss07 colon.ss07 semicolon.ss07 ellipsis.ss07 exclam.ss07 question.ss07 periodcentered.ss07 reversedsemicolon.ss07 twodotenleader.ss07 colon.case.ss07 period.tf.ss07 comma.tf.ss07 colon.tf.ss07 semicolon.tf.ss07 colon.case.tf.ss07 raisedcolonmod.ss07 dieresistonos.ss07 dialytikavaria.ss07 dialytikaoxia.ss07 dialytikaperispomeni.ss07 dieresiscomb.ss07 dotaccentcomb.ss07 dotaboverightcomb.ss07 fourdotsabovecomb.ss07 threedotsabovecomb.ss07 tripleunderdotcomb.ss07 dieresis.ss07 dotaccent.ss07 dieresis.three.ss07 jcrosstail.ss07 slongdotaccent.ss07 dotbelow.ss07 onedotleader.ss07 diaeresistonoscomb.ss07 dotdblsubcomb.ss07 acutedotcomb.lc.ss07 carondot.lc.ss07 carondot.uc.ss07 dieresisacutecomb.lc.ss07 dieresisacutecomb.uc.ss07 dieresiscaroncomb.lc.ss07 dieresiscaroncomb.uc.ss07 dieresisgravecomb.lc.ss07 dieresisgravecomb.uc.ss07 dieresismacroncomb.lc.ss07 dieresismacroncomb.uc.ss07 macrondieresiscomb.cn.ss07 macrondieresiscomb.lc.ss07 tildedieresiscomb.lc.ss07 tildedieresiscomb.uc.ss07 Gcommaaccent.ss07 Gcommaaccent.1.ss07 Kcommaaccent.ss07 Lcommaaccent.ss07 Ncommaaccent.ss07 Rcommaaccent.ss07 Scommaaccent.ss07 kcommaaccent.ss07 lcommaaccent.ss07 lcommaaccent.ss02.ss07 ncommaaccent.ss07 rcommaaccent.ss07 scommaaccent.ss07 tcommaaccent.ss07 tcommaaccent.1.ss07 commaaccent.ss07 quotesinglbase.ss08 quotedblbase.ss08 quotedblleft.ss08 quotedblright.ss08 quoteleft.ss08 quoteright.ss08 quotereversed.ss08 quotedblreversed.ss08 Btopbar DZ Dcroat Dtopbar Eth Epsilon1 Esh Schwa Ezh Ezhcaron Ezhreversed uni021C IJ LJ Ldot NJ OI Tbar Tonesix Vcursive YR mcapturn uni01F7 uni0220 uni0222 uni0241 uni0245 uni1EFA uni1EFC uni1EFE Germandbls.1 ascript ascriptturn babygamma cstretch deltaturn erev esh eshcurl eshlooprev schwa schwahook ezh ezhcaron ezhcurl ezhreversed ezhtail finalkaf finalmem gcursive glottalstop glottalstopbar glottalstopbarinv glottalstopbarrev glottalstopinv glottalstoprevinv uni021D jhookdblbar kgreenlandic lambdabar lyogh oi omegaclosed oopen philatin rturnascend tesh thook tonefive tonesix ts uni0223 uni0238 uni0239 uni0242 uni0299 uni02AB uni02AC uni1E9D uni1E9F uni1EFB uni1EFD uni1EFF uni2184 upsilonlatin vscript wynn a.sc h.sc m.sc t.sc uni2094 exclam1 pipe pipedbl pipedblbar uniA7FF Rturnsuper finaltsadi hhooksuper rturnsuper Ge-cy afii10052 Geupturn-cy uni04F6 Ghestrokecyrillic afii10061 Pe-cy afii10034 afii10035 Te-cy afii10062 afii10039 Omegacyrillic afii10146 Eiotifiedcyrillic Yuslittlecyrillic Yuslittleiotifiedcyrillic Yusbigcyrillic Yusbigiotifiedcyrillic Ksicyrillic Psicyrillic Izhitsadblgravecyrillic Ukcyrillic Zedescendercyrillic Esdescendercyrillic Tedescendercyrillic Ustraightcyrillic Ustraightstrokecyrillic Chedescenderabkhasiancyrillic palochkacyrillic Zhebrevecyrillic Eltail-cy Chekhakassiancyrillic Schwadieresiscyrillic Zhedieresiscyrillic Zedieresiscyrillic uni04EC Chedieresiscyrillic Yerudieresiscyrillic uni04FE Koppacyrillic uni048C gjecyrillic gedescender-cy ghestrokecyrillic iishortcyrillic uni045D kjecyrillic omegacyrillic eiotifiedcyrillic yuslittlecyrillic yuslittleiotifiedcyrillic yusbigcyrillic yusbigiotifiedcyrillic ksicyrillic psicyrillic izhitsadblgravecyrillic zedescendercyrillic esdescendercyrillic tedescendercyrillic ustraightcyrillic ustraightstrokecyrillic chedescenderabkhasiancyrillic zhebrevecyrillic chekhakassiancyrillic schwacyrillic schwadieresiscyrillic zhedieresiscyrillic zedieresiscyrillic imacroncyrillic idieresiscyrillic obarredcyrillic obarreddieresiscyrillic edieresis-cy chedieresiscyrillic yerudieresiscyrillic uni04FF koppacyrillic Digamma KaiSymbol uni03FD uni03FE uni03FF kappa mugreek nu uni037B uni037C uni037D digamma kaiSymbol beta1 thetasymbolgreek pisymbolgreek kappa1 rho1 uni03F5 uni1F71 uni1F73 uni1F75 uni1F77 uni1FD3 uni1F79 uni1F7B uni1FE3 uni1F7D uni1FBE ypogegrammeni uni1DBF romanone romantwo romanthree romanfour romanfive romansix romanseven romaneight romannine romanten romaneleven romantwelve romanfifty romanhundred romanfivehundred romanthousand oneroman tworoman threeroman fourroman fiveroman sixroman sevenroman eightroman nineroman tenroman elevenroman twelveroman uni217C uni217D uni217E uni217F uni2183 uni2185 uni2186 zerowidthjoiner uniA92E uni27EF asterism caretSign caretinsertionpoint charactertie hyphendot onedotleader overline referencemark reversedsemicolon undertie uni204E uni2050 uni2051 uni2053 uni2054 uni2055 verticalbardbl hyphen__ hyphennobreak underscoredbl gammasuper thousandcyrillic numeralgreek numeralgreeksub uni03F6 note-musical notedbl-musical arrowheaddownmod arrowheadleftmod arrowheadrightmod arrowheadupmod downtackmod lowdownarrowheadmod minusmod plusmod raisedcolonmod ringhalfleftcentered ringhalfrightcentered uni02EC uni02ED uni02F0 uni02F1 uni02F2 uni02F3 uni02F4 uni02F5 uni02F6 uni02F7 uni02F9 uni02FA uni02FB uni02FC uni02FD uni02FE uni02FF uptackmod tonebarextrahighmod.cn tonebarextralowmod.cn tonebarhighmod.cn tonebarlowmod.cn tonebarmidmod.cn qofdagesh rhotichookmod glottalstopreversed.numr lsquare spaceopenbox eurocurrency somsign commercialMinusSign uni0363 uni0364 uni0365 uni0366 uni0367 uni0368 uni0369 uni036A uni036B uni036C uni036D uni036E uni036F uni1DCA uni1DD3 uni1DD4 uni1DD5 uni1DD6 uni1DD8 uni1DD9 uni1DDA uni1DDB uni1DDC uni1DDD uni1DDE uni1DDF uni1DE0 uni1DE1 uni1DE2 uni1DE3 uni1DE4 uni1DE5 uni1DE6 uni1DE7 uni1DE9 uni0488 uni0489 titlocyrilliccmb palatalizationcyrilliccmb dasiapneumatacyrilliccmb psilipneumatacyrilliccmb uni0487 uniA69F perispomenigreekcmb koroniscmb psili koronis dasia psilivaria dasiavaria psilioxia dasiaoxia psiliperispomeni dasiaperispomeni dialytikavaria dialytikaoxia dialytikaperispomeni varia oxia uni1FC0 dieresiscomb dotaccentcomb circumflexcomb caroncomb brevecomb ringcomb hookabovecomb commaabovecmb commaaboverightcmb horncomb cedillacomb ogonekcomb caronbelowcmb slashshortcomb slashlongcomb uni0346 equalbelowcomb uni0348 uni0349 uni034A uni034B uni034C uni034D uni034E uni034F arrowheadrightabovecomb uni0351 uni0352 uni0353 uni0354 uni0355 uni0356 righthalfringabovecomb dotaboverightcomb uni0359 uni035A uni035B uni035C uni035D uni035E uni035F tildedoublecmb breveinverteddoublecmb uni0362 fourdotsabovecomb macronacutecomb threedotsabovecomb tripleunderdotcomb uni1DC0 uni1DC1 uni1DC2 uni1DC3 uni1DC5 uni1DC6 uni1DC7 uni1DC8 uni1DC9 uni1DCB uni1DCC uni1DCD uni1DCE uni1DCF uni1DD0 uni1DD1 uni1DD2 uni1DD7 uni1DE8 uni1DEA uni1DEB uni1DEC uni1DED uni1DEE uni1DEF uni1DF0 uni1DF1 uni1DF2 uni1DF3 uni1DF4 uni1DF5 uni1DFC uni1DFD uni1DFE uni1DFF uni20F0 macronacutecomb.cn macrongravecomb.cn firsttonechinese secondtonechinese fourthtonechinese uni02EA uni02EB ogonek.a.2 dieresisacutecomb.lc caronsubcomb dotmacron.lc dieresismacroncomb.lc dieresisgravecomb.lc macrondieresiscomb.lc tildeacute.lc dieresiscaroncomb.lc dieresiscaroncomb.uc dieresismacroncomb.uc dieresisacutecomb.uc dotmacroncomb.uc dieresisgravecomb.uc tildeacutecomb.uc ringcomb.uc tonos.top acutedblcomb acuterightcomb acutesubcomb archdblsubcomb breveinvcomb breveinvsubcomb brevesubcomb bridgeinvsubcomb bridgesubcomb candrabinducomb circumflexsubcomb commasuprevcomb commaturnsupcomb diaeresistonoscomb dotdblsubcomb graveleftcomb gravesubcomb hookabove_compact hooksubpalatcomb hooksubretrocomb iotasubcomb linevertcomb linevertdblcomb linevertsubcomb macronsubcomb overscorecomb overscoredblcomb ringlefthalfsubcomb ringrighthalfsubcomb ringsubcomb seagullsubcomb tildemidcomb tildesubcomb underscorecomb underscoredblcomb xsupcomb acutedotcomb.lc carondot.lc carondot.uc ringacute.lc ringacute.uc tildedieresiscomb.lc tildedieresiscomb.uc tildemacroncomb.lc acutedotcomb.cn breveacutecomb.cn brevegravecomb.cn brevetildecomb.cn circumflexacutecomb.cn circumflexgravecomb.cn circumflexhookcomb.cn circumflextildecomb.cn commaaccentright.cn macrondieresiscomb.cn tildemacroncomb.cn acutelowmod colontriangularhalfmod colontriangularmod commareversedmod commaturnedmod glottalstopmod glottalstopreversedmod gravelowmod linevert macronsub ringhalfleft ringhalfright verticallinelowmod uni2DFF _part.A_frac _part.Oslash _part.crossbar_compact _part.crossbar_compact_rext _part.crossbar_vert _part.cyrtail _part.cyrtic _part.cyrtic_center _part.cyrtic_hook _part.cyrtic_left _part.fita-cy_bar _part.oslash pecyrillicturn uni0268.ccmp uni2071.ccmp uni02B2.ccmp ascript_uni02DE largerighthook exclamdown.case Pe-cy.turn brevecomb_hookabovecomb dieresistonos_narrow uni1FFE.tonos uni1FCD.tonos uni1FDD.tonos uni1FCE.tonos uni1FDE.tonos uni1FCF.tonos uni1FDF.tonos uni1FEF.tonos macrongravecomb.lc grave_compact acute_compact ogonek.A ogonek.O ogonek.U ogonek.a ogonek.e ogonek.o ogonek.y ogonek.u.1 anglesupcomb barmidlongcomb crossbar squaresubcomb tackdownsubcomb tackleftsubcomb tackrightsubcomb tackupsubcomb tildevertsupcomb crossbar.uc slashshort.lc slashshort.uc _tildecross.cn commaaccentrotate.cn crossbar_short.uc koronisaccentleft.cn];
+# Prefix: Languagesystems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+# Prefix: Subs
+# used by ss05
+lookup sub_tt2 {
+    sub t by t.1;
+} sub_tt2;
+
+feature aalt {
+    # automatic
+    feature locl;
+    feature sinf;
+    feature numr;
+    feature dnom;
+    feature case;
+    feature subs;
+    feature sups;
+    feature pnum;
+    feature tnum;
+    feature ordn;
+    feature ss03;
+    feature ss07;
+    feature ss08;
+} aalt;
+
+feature ccmp {
+    @CCMP_ACC = [gravecomb acutecomb tildecomb brevetildecomb.cn brevecomb_hookabovecomb breveacutecomb.cn circumflextildecomb.cn circumflexhookcomb.cn circumflexgravecomb.cn circumflexacutecomb.cn brevegravecomb.cn macroncomb dieresismacroncomb.uc dieresisacutecomb.uc dieresiscaroncomb.uc dieresisgravecomb.uc dotmacroncomb.uc tildeacutecomb.uc macrongravecomb.cn macronacutecomb macrondieresiscomb.cn acutedotcomb.cn carondot.lc carondot.uc tildemacroncomb.cn tildedieresiscomb.uc circumflexcomb overscorecomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb acutedblcomb caroncomb linevertcomb linevertdblcomb dblgravecmb candrabinducomb breveinvcomb commaturnsupcomb commaabovecmb commasuprevcomb commaaboverightcmb anglesupcomb horncomb xsupcomb tildevertsupcomb overscoredblcomb graveleftcomb acuterightcomb perispomenigreekcmb koroniscmb diaeresistonoscomb uni0346 uni034A uni034B uni034C arrowheadrightabovecomb uni0351 uni0352 righthalfringabovecomb dotaboverightcomb uni035B uni1DC0 uni1DC1 uni1DC3 uni1DC5 uni1DC6 uni1DC7 uni1DC8 uni1DC9 uni1DCB uni1DCC uni1DCD uni1DCE uni1DD1 uni1DD2 uni1DD3 uni1DD4 uni1DD5 uni1DD6 uni1DD7 uni1DD8 uni1DD9 uni1DDA uni1DDB uni1DDC uni1DDD uni1DDE uni1DDF uni1DE0 uni1DE1 uni1DE2 uni1DE3 uni1DE4 uni1DE5 uni1DE6 uni1DE7 uni1DE8 uni1DE9 uni1DEA uni1DEB uni1DEC uni1DED uni1DEE uni1DEF uni1DF0 uni1DF1 uni1DF2 uni1DF3 uni1DF4 uni1DF5 uni1DFE uni0363 uni0364 uni0365 uni0366 uni0367 uni0368 uni0369 uni036A uni036B uni036C uni036D uni036E uni036F titlocyrilliccmb palatalizationcyrilliccmb dasiapneumatacyrilliccmb psilipneumatacyrilliccmb uni0487 uni20F0 uniA69F uni2DFF fourdotsabovecomb];
+    # Transpose sequences like /i /gravecomb -> /idotless /gravecomb
+    lookup ccmp02 {
+        sub i' @CCMP_ACC by idotless;
+        sub j' @CCMP_ACC by jdotless;
+        sub ibar' @CCMP_ACC by uni0268.ccmp;
+        sub iogonek' @CCMP_ACC by uni012F.ccmp;
+        # iogonek is generated
+        sub uni0249' @CCMP_ACC by uni0249.ccmp;
+        sub jcrosstail' @CCMP_ACC by jcrosstail.ccmp;
+        sub yotgreek' @CCMP_ACC by jdotless;
+        sub icyrillic' @CCMP_ACC by idotless;
+        sub jecyrillic' @CCMP_ACC by jdotless;
+        sub itildebelow' @CCMP_ACC by uni1E2D.ccmp;
+        # uni1E2D.ccmp is generated
+        sub idotbelow' @CCMP_ACC by uni1ECB.ccmp;
+        # both are generated
+        sub i.numr' @CCMP_ACC by uni2071.ccmp;
+    } ccmp02;
+
+    lookup ccmp03 {
+        sub d caroncomb by dcaron;
+        sub l caroncomb by lcaron;
+        sub t caroncomb by tcaron;
+        sub A gravecomb by Agrave;
+        sub A acutecomb by Aacute;
+        sub A circumflexcomb by Acircumflex;
+        sub A tildecomb by Atilde;
+        sub A dieresiscomb by Adieresis;
+        sub A ringcomb by Aring;
+        sub A ringacute.uc by Aringacute;
+        sub Aogonek ringcomb by Aringogonek;
+        sub C cedillacomb by Ccedilla;
+        sub E gravecomb by Egrave;
+        sub E acutecomb by Eacute;
+        sub E circumflexcomb by Ecircumflex;
+        sub E dieresiscomb by Edieresis;
+        sub I gravecomb by Igrave;
+        sub I acutecomb by Iacute;
+        sub I circumflexcomb by Icircumflex;
+        sub I dieresiscomb by Idieresis;
+        sub N tildecomb by Ntilde;
+        sub O gravecomb by Ograve;
+        sub O acutecomb by Oacute;
+        sub O circumflexcomb by Ocircumflex;
+        sub O tildecomb by Otilde;
+        sub O dieresiscomb by Odieresis;
+        sub U gravecomb by Ugrave;
+        sub U acutecomb by Uacute;
+        sub U circumflexcomb by Ucircumflex;
+        sub U dieresiscomb by Udieresis;
+        sub Y acutecomb by Yacute;
+        sub Y ogonekcomb by Yogonek;
+        sub a gravecomb by agrave;
+        sub a acutecomb by aacute;
+        sub a circumflexcomb by acircumflex;
+        sub a tildecomb by atilde;
+        sub a dieresiscomb by adieresis;
+        sub a ringcomb by aring;
+        sub a ringacute.lc by aringacute;
+        sub c cedillacomb by ccedilla;
+        sub C slashlongcomb by Cstroke;
+        sub c slashlongcomb by cstroke;
+        sub e gravecomb by egrave;
+        sub e acutecomb by eacute;
+        sub e circumflexcomb by ecircumflex;
+        sub e dieresiscomb by edieresis;
+        sub idotless gravecomb by igrave;
+        sub idotless acutecomb by iacute;
+        sub idotless circumflexcomb by icircumflex;
+        sub idotless dieresiscomb by idieresis;
+        sub n tildecomb by ntilde;
+        sub o gravecomb by ograve;
+        sub o acutecomb by oacute;
+        sub o circumflexcomb by ocircumflex;
+        sub o tildecomb by otilde;
+        sub o dieresiscomb by odieresis;
+        sub u gravecomb by ugrave;
+        sub u acutecomb by uacute;
+        sub u circumflexcomb by ucircumflex;
+        sub u dieresiscomb by udieresis;
+        sub y acutecomb by yacute;
+        sub y ogonekcomb by yogonek;
+        sub y dieresiscomb by ydieresis;
+        sub A macroncomb by Amacron;
+        sub a macroncomb by amacron;
+        sub A brevecomb by Abreve;
+        sub a brevecomb by abreve;
+        sub A ogonekcomb by Aogonek;
+        sub a ogonekcomb by aogonek;
+        sub aogonek ringcomb by aringogonek;
+        sub C acutecomb by Cacute;
+        sub c acutecomb by cacute;
+        sub C circumflexcomb by Ccircumflex;
+        sub c circumflexcomb by ccircumflex;
+        sub C dotaccentcomb by Cdotaccent;
+        sub c dotaccentcomb by cdotaccent;
+        sub C caroncomb by Ccaron;
+        sub c caroncomb by ccaron;
+        sub D caroncomb by Dcaron;
+        sub E macroncomb by Emacron;
+        sub e macroncomb by emacron;
+        sub E brevecomb by Ebreve;
+        sub e brevecomb by ebreve;
+        sub E dotaccentcomb by Edotaccent;
+        sub e dotaccentcomb by edotaccent;
+        sub E ogonekcomb by Eogonek;
+        sub e ogonekcomb by eogonek;
+        sub E caroncomb by Ecaron;
+        sub e caroncomb by ecaron;
+        sub G circumflexcomb by Gcircumflex;
+        sub g circumflexcomb by gcircumflex;
+        sub G brevecomb by Gbreve;
+        sub g brevecomb by gbreve;
+        sub G dotaccentcomb by Gdotaccent;
+        sub g dotaccentcomb by gdotaccent;
+        sub G commaaccent by Gcommaaccent;
+        sub g commaaccentrotate.cn by gcommaaccent;
+        sub H circumflexcomb by Hcircumflex;
+        sub h circumflexcomb by hcircumflex;
+        sub I tildecomb by Itilde;
+        sub idotless tildecomb by itilde;
+        sub I macroncomb by Imacron;
+        sub idotless macroncomb by imacron;
+        sub I brevecomb by Ibreve;
+        sub idotless brevecomb by ibreve;
+        sub I ogonekcomb by Iogonek;
+        sub i ogonekcomb by iogonek;
+        sub I dotaccentcomb by Idotaccent;
+        sub J circumflexcomb by Jcircumflex;
+        sub jdotless circumflexcomb by jcircumflex;
+        sub K commaaccent by Kcommaaccent;
+        sub k commaaccent by kcommaaccent;
+        sub L acutecomb by Lacute;
+        sub l acutecomb by lacute;
+        sub L commaaccent by Lcommaaccent;
+        sub l commaaccent by lcommaaccent;
+        sub L dotaccentcomb by Ldot;
+        sub l dotaccentcomb by ldot;
+        sub L slashlongcomb by Lslash;
+        sub l slashlongcomb by lslash;
+        sub l.ss02 slashlongcomb by lslash.ss02;
+        sub N acutecomb by Nacute;
+        sub n acutecomb by nacute;
+        sub N commaaccent by Ncommaaccent;
+        sub n commaaccent by ncommaaccent;
+        sub N caroncomb by Ncaron;
+        sub n caroncomb by ncaron;
+        sub O macroncomb by Omacron;
+        sub o macroncomb by omacron;
+        sub O brevecomb by Obreve;
+        sub o brevecomb by obreve;
+        sub O acutedblcomb by Ohungarumlaut;
+        sub o acutedblcomb by ohungarumlaut;
+        sub O slashlongcomb by Oslash;
+        sub o slashlongcomb by oslash;
+        sub R acutecomb by Racute;
+        sub r acutecomb by racute;
+        sub R commaaccent by Rcommaaccent;
+        sub r commaaccent by rcommaaccent;
+        sub R caroncomb by Rcaron;
+        sub r caroncomb by rcaron;
+        sub S acutecomb by Sacute;
+        sub s acutecomb by sacute;
+        sub S circumflexcomb by Scircumflex;
+        sub s circumflexcomb by scircumflex;
+        sub S cedillacomb by Scedilla;
+        sub s cedillacomb by scedilla;
+        sub S commaaccent by Scommaaccent;
+        sub s commaaccent by scommaaccent;
+        sub S caroncomb by Scaron;
+        sub s caroncomb by scaron;
+        sub T commaaccent by uni021A;
+        sub t commaaccent by tcommaaccent;
+        sub T cedillacomb by Tcommaaccent;
+        sub t cedillacomb by tcedilla;
+        sub T caroncomb by Tcaron;
+        sub U tildecomb by Utilde;
+        sub u tildecomb by utilde;
+        sub U macroncomb by Umacron;
+        sub u macroncomb by umacron;
+        sub U brevecomb by Ubreve;
+        sub u brevecomb by ubreve;
+        sub U ringcomb by Uring;
+        sub u ringcomb by uring;
+        sub U acutedblcomb by Uhungarumlaut;
+        sub u acutedblcomb by uhungarumlaut;
+        sub U ogonekcomb by Uogonek;
+        sub u ogonekcomb by uogonek;
+        sub W circumflexcomb by Wcircumflex;
+        sub w circumflexcomb by wcircumflex;
+        sub Y circumflexcomb by Ycircumflex;
+        sub y circumflexcomb by ycircumflex;
+        sub Y dieresiscomb by Ydieresis;
+        sub Z acutecomb by Zacute;
+        sub z acutecomb by zacute;
+        sub Z dotaccentcomb by Zdotaccent;
+        sub z dotaccentcomb by zdotaccent;
+        sub Z caroncomb by Zcaron;
+        sub z caroncomb by zcaron;
+        sub AE acutecomb by AEacute;
+        sub ae acutecomb by aeacute;
+        sub Oslash acutecomb by Oslashacute;
+        sub oslash acutecomb by oslashacute;
+        sub W gravecomb by Wgrave;
+        sub w gravecomb by wgrave;
+        sub W acutecomb by Wacute;
+        sub w acutecomb by wacute;
+        sub W dieresiscomb by Wdieresis;
+        sub w dieresiscomb by wdieresis;
+        sub Y gravecomb by Ygrave;
+        sub y gravecomb by ygrave;
+        sub jdotless caroncomb by jcaron;
+        sub A dotbelow by Adotbelow;
+        sub a dotbelow by adotbelow;
+        sub A hookabovecomb by Ahookabove;
+        sub a hookabovecomb by ahookabove;
+        sub A circumflexcomb acutecomb by Acircumflexacute;
+        sub a circumflexacutecomb.cn by acircumflexacute;
+        sub A circumflexcomb gravecomb by Acircumflexgrave;
+        sub a circumflexgravecomb.cn by acircumflexgrave;
+        sub A circumflexcomb hookabovecomb by Acircumflexhookabove;
+        sub a circumflexhookcomb.cn by acircumflexhookabove;
+        sub A circumflexcomb tildecomb by Acircumflextilde;
+        sub a circumflextildecomb.cn by acircumflextilde;
+        sub A brevecomb acutecomb by Abreveacute;
+        sub a breveacutecomb.cn by abreveacute;
+        sub A brevecomb gravecomb by Abrevegrave;
+        sub a brevegravecomb.cn by abrevegrave;
+        sub A brevecomb hookabovecomb by Abrevehookabove;
+        sub a brevecomb_hookabovecomb by abrevehookabove;
+        sub A brevetildecomb.cn by Abrevetilde;
+        sub a brevetildecomb.cn by abrevetilde;
+        sub E dotbelow by Edotbelow;
+        sub e dotbelow by edotbelow;
+        sub E hookabovecomb by Ehookabove;
+        sub e hookabovecomb by ehookabove;
+        sub E tildecomb by Etilde;
+        sub e tildecomb by etilde;
+        sub E circumflexcomb acutecomb by Ecircumflexacute;
+        sub e circumflexacutecomb.cn by ecircumflexacute;
+        sub E circumflexcomb gravecomb by Ecircumflexgrave;
+        sub e circumflexgravecomb.cn by ecircumflexgrave;
+        sub E circumflexcomb hookabovecomb by Ecircumflexhookabove;
+        sub e circumflexhookcomb.cn by ecircumflexhookabove;
+        sub E circumflexcomb tildecomb by Ecircumflextilde;
+        sub e circumflextildecomb.cn by ecircumflextilde;
+        sub I hookabovecomb by Ihookabove;
+        sub idotless hookabovecomb by ihookabove;
+        sub I dotbelow by Idotbelow;
+        sub i dotbelow by idotbelow;
+        sub O dotbelow by Odotbelow;
+        sub o dotbelow by odotbelow;
+        sub O hookabovecomb by Ohookabove;
+        sub o hookabovecomb by ohookabove;
+        sub O circumflexcomb acutecomb by Ocircumflexacute;
+        sub o circumflexacutecomb.cn by ocircumflexacute;
+        sub O circumflexcomb gravecomb by Ocircumflexgrave;
+        sub o circumflexgravecomb.cn by ocircumflexgrave;
+        sub O circumflexcomb hookabovecomb by Ocircumflexhookabove;
+        sub o circumflexhookcomb.cn by ocircumflexhookabove;
+        sub O circumflexcomb tildecomb by Ocircumflextilde;
+        sub o circumflextildecomb.cn by ocircumflextilde;
+        sub Ohorn acutecomb by Ohornacute;
+        sub ohorn acutecomb by ohornacute;
+        sub Ohorn gravecomb by Ohorngrave;
+        sub ohorn gravecomb by ohorngrave;
+        sub Ohorn hookabovecomb by Ohornhookabove;
+        sub ohorn hookabovecomb by ohornhookabove;
+        sub Ohorn tildecomb by Ohorntilde;
+        sub ohorn tildecomb by ohorntilde;
+        sub Ohorn dotbelow by Ohorndotbelow;
+        sub ohorn dotbelow by ohorndotbelow;
+        sub U dotbelow by Udotbelow;
+        sub u dotbelow by udotbelow;
+        sub U hookabovecomb by Uhookabove;
+        sub u hookabovecomb by uhookabove;
+        sub Uhorn acutecomb by Uhornacute;
+        sub uhorn acutecomb by uhornacute;
+        sub Uhorn gravecomb by Uhorngrave;
+        sub uhorn gravecomb by uhorngrave;
+        sub Uhorn hookabovecomb by Uhornhookabove;
+        sub uhorn hookabovecomb by uhornhookabove;
+        sub Uhorn tildecomb by Uhorntilde;
+        sub uhorn tildecomb by uhorntilde;
+        sub Uhorn dotbelow by Uhorndotbelow;
+        sub uhorn dotbelow by uhorndotbelow;
+        sub Y dotbelow by Ydotbelow;
+        sub y dotbelow by ydotbelow;
+        sub Y hookabovecomb by Yhookabove;
+        sub y hookabovecomb by yhookabove;
+        sub Y tildecomb by Ytilde;
+        sub y tildecomb by ytilde;
+        sub A caroncomb by Acaron;
+        sub a caroncomb by acaron;
+        sub I caroncomb by Icaron;
+        sub idotless caroncomb by icaron;
+        sub O caroncomb by Ocaron;
+        sub o caroncomb by ocaron;
+        sub U caroncomb by Ucaron;
+        sub u caroncomb by ucaron;
+        sub U dieresiscomb macroncomb by Udieresismacron;
+        sub u dieresismacroncomb.uc by udieresismacron;
+        sub U dieresiscomb acutecomb by Udieresisacute;
+        sub u dieresisacutecomb.uc by udieresisacute;
+        sub U dieresiscomb caroncomb by Udieresiscaron;
+        sub u dieresiscaroncomb.uc by udieresiscaron;
+        sub U dieresiscomb gravecomb by Udieresisgrave;
+        sub u dieresisgravecomb.uc by udieresisgrave;
+        sub A dieresiscomb macroncomb by Adieresismacron;
+        sub a dieresismacroncomb.uc by adieresismacron;
+        sub A dotaccentcomb macroncomb by Adotmacron;
+        sub a dotmacroncomb.uc by adotmacron;
+        sub AE macroncomb by AEmacron;
+        sub ae macroncomb by aemacron;
+        sub G caroncomb by Gcaron;
+        sub g caroncomb by gcaron;
+        sub K caroncomb by Kcaron;
+        sub k caroncomb by kcaron;
+        sub O ogonekcomb by Oogonek;
+        sub o ogonekcomb by oogonek;
+        sub G acutecomb by Gacute;
+        sub g acutecomb by gacute;
+        sub N gravecomb by uni01F8;
+        sub n gravecomb by uni01F9;
+        sub A dblgravecmb by Adblgrave;
+        sub a dblgravecmb by adblgrave;
+        sub A breveinvcomb by Ainvertedbreve;
+        sub a breveinvcomb by ainvertedbreve;
+        sub E dblgravecmb by Edblgrave;
+        sub e dblgravecmb by edblgrave;
+        sub E breveinvcomb by Einvertedbreve;
+        sub e breveinvcomb by einvertedbreve;
+        sub I dblgravecmb by Idblgrave;
+        sub idotless dblgravecmb by idblgrave;
+        sub I breveinvcomb by Iinvertedbreve;
+        sub idotless breveinvcomb by iinvertedbreve;
+        sub O dblgravecmb by Odblgrave;
+        sub o dblgravecmb by odblgrave;
+        sub O breveinvcomb by Oinvertedbreve;
+        sub o breveinvcomb by oinvertedbreve;
+        sub R dblgravecmb by Rdblgrave;
+        sub r dblgravecmb by rdblgrave;
+        sub R breveinvcomb by Rinvertedbreve;
+        sub r breveinvcomb by rinvertedbreve;
+        sub U dblgravecmb by Udblgrave;
+        sub u dblgravecmb by udblgrave;
+        sub U breveinvcomb by Uinvertedbreve;
+        sub u breveinvcomb by uinvertedbreve;
+        sub H caroncomb by uni021E;
+        sub h caroncomb by uni021F;
+        sub A dotaccentcomb by uni0226;
+        sub a dotaccentcomb by adotaccent;
+        sub E cedillacomb by uni0228;
+        sub e cedillacomb by uni0229;
+        sub O dieresiscomb macroncomb by uni022A;
+        sub o dieresismacroncomb.uc by uni022B;
+        sub O tildecomb macroncomb by uni022C;
+        sub o tildemacroncomb.cn by uni022D;
+        sub O dotaccentcomb by uni022E;
+        sub o dotaccentcomb by uni022F;
+        sub O dotaccentcomb macroncomb by uni0230;
+        sub o dotmacroncomb.uc by uni0231;
+        sub Y macroncomb by uni0232;
+        sub y macroncomb by uni0233;
+        sub Upsilonhooksymbol acutecomb by Upsilonacutehooksymbolgreek;
+        sub Upsilonhooksymbol dieresiscomb by Upsilondieresishooksymbolgreek;
+        sub B dotaccentcomb by Bdotaccent;
+        sub b dotaccentcomb by bdotaccent;
+        sub B dotbelow by Bdotbelow;
+        sub b dotbelow by bdotbelow;
+        sub B macronsubcomb by Blinebelow;
+        sub b macronsubcomb by blinebelow;
+        sub D dotaccentcomb by Ddotaccent;
+        sub d dotaccentcomb by ddotaccent;
+        sub D dotbelow by Ddotbelow;
+        sub d dotbelow by ddotbelow;
+        sub D macronsubcomb by Dlinebelow;
+        sub d macronsubcomb by dlinebelow;
+        sub D commaaccent by Dcedilla;
+        sub d commaaccent by dcedilla;
+        sub D circumflexsubcomb by Dcircumflexbelow;
+        sub d circumflexsubcomb by dcircumflexbelow;
+        sub E macroncomb gravecomb by Emacrongrave;
+        sub e macrongravecomb.cn by emacrongrave;
+        sub E macroncomb acutecomb by Emacronacute;
+        sub e macronacutecomb.cn by emacronacute;
+        sub E circumflexsubcomb by Ecircumflexbelow;
+        sub e circumflexsubcomb by ecircumflexbelow;
+        sub E tildesubcomb by Etildebelow;
+        sub e tildesubcomb by etildebelow;
+        sub F dotaccentcomb by Fdotaccent;
+        sub f dotaccentcomb by fdotaccent;
+        sub G macroncomb by Gmacron;
+        sub g macroncomb by gmacron;
+        sub H dotaccentcomb by Hdotaccent;
+        sub h dotaccentcomb by hdotaccent;
+        sub H dotbelow by Hdotbelow;
+        sub h dotbelow by hdotbelow;
+        sub H dieresiscomb by Hdieresis;
+        sub h dieresiscomb by hdieresis;
+        sub H brevesubcomb by Hbrevebelow;
+        sub h brevesubcomb by hbrevebelow;
+        sub I tildesubcomb by Itildebelow;
+        sub i tildesubcomb by itildebelow;
+        sub I dieresiscomb acutecomb by Idieresisacute;
+        sub idotless dieresisacutecomb.uc by idieresisacute;
+        sub K acutecomb by Kacute;
+        sub k acutecomb by kacute;
+        sub K dotbelow by Kdotbelow;
+        sub k dotbelow by kdotbelow;
+        sub K macronsubcomb by Klinebelow;
+        sub k macronsubcomb by klinebelow;
+        sub L dotbelow by Ldotbelow;
+        sub l dotbelow by ldotbelow;
+        sub L macronsubcomb by Llinebelow;
+        sub l macronsubcomb by llinebelow;
+        sub L circumflexsubcomb by Lcircumflexbelow;
+        sub l circumflexsubcomb by lcircumflexbelow;
+        sub M acutecomb by Macute;
+        sub m acutecomb by macute;
+        sub M dotaccentcomb by Mdotaccent;
+        sub m dotaccentcomb by mdotaccent;
+        sub M dotbelow by Mdotbelow;
+        sub m dotbelow by mdotbelow;
+        sub N dotaccentcomb by Ndotaccent;
+        sub n dotaccentcomb by ndotaccent;
+        sub N dotbelow by Ndotbelow;
+        sub n dotbelow by ndotbelow;
+        sub N macronsubcomb by Nlinebelow;
+        sub n macronsubcomb by nlinebelow;
+        sub N circumflexsubcomb by Ncircumflexbelow;
+        sub n circumflexsubcomb by ncircumflexbelow;
+        sub O tildecomb acutecomb by Otildeacute;
+        sub o tildeacutecomb.uc by otildeacute;
+        sub O tildecomb dieresiscomb by Otildedieresis;
+        sub o tildedieresiscomb.uc by otildedieresis;
+        sub O macroncomb gravecomb by Omacrongrave;
+        sub o macrongravecomb.cn by omacrongrave;
+        sub O macroncomb acutecomb by Omacronacute;
+        sub o macronacutecomb.cn by omacronacute;
+        sub P acutecomb by Pacute;
+        sub p acutecomb by pacute;
+        sub P dotaccentcomb by Pdotaccent;
+        sub p dotaccentcomb by pdotaccent;
+        sub R dotaccentcomb by Rdotaccent;
+        sub r dotaccentcomb by rdotaccent;
+        sub R dotbelow by Rdotbelow;
+        sub r dotbelow by rdotbelow;
+        sub R macronsubcomb by Rlinebelow;
+        sub r macronsubcomb by rlinebelow;
+        sub S dotaccentcomb by Sdotaccent;
+        sub s dotaccentcomb by sdotaccent;
+        sub S dotbelow by Sdotbelow;
+        sub s dotbelow by sdotbelow;
+        sub S acutecomb dotaccentcomb by Sacutedotaccent;
+        sub s acutedotcomb.cn by sacutedotaccent;
+        sub S carondot.uc by Scarondotaccent;
+        sub S caroncomb dotaccentcomb by Scarondotaccent;
+        sub s carondot.lc by scarondotaccent;
+        sub T dotaccentcomb by Tdotaccent;
+        sub t dotaccentcomb by tdotaccent;
+        sub T dotbelow by Tdotbelow;
+        sub t dotbelow by tdotbelow;
+        sub T macronsubcomb by Tlinebelow;
+        sub t macronsubcomb by tlinebelow;
+        sub T circumflexsubcomb by Tcircumflexbelow;
+        sub t circumflexsubcomb by tcircumflexbelow;
+        sub U dotdblsubcomb by Udieresisbelow;
+        sub u dotdblsubcomb by udieresisbelow;
+        sub U tildesubcomb by Utildebelow;
+        sub u tildesubcomb by utildebelow;
+        sub U circumflexsubcomb by Ucircumflexbelow;
+        sub u circumflexsubcomb by ucircumflexbelow;
+        sub U tildecomb acutecomb by Utildeacute;
+        sub u tildeacutecomb.uc by utildeacute;
+        sub U macroncomb dieresiscomb by Umacrondieresis;
+        sub u macrondieresiscomb.cn by umacrondieresis;
+        sub V tildecomb by Vtilde;
+        sub v tildecomb by vtilde;
+        sub V dotbelow by Vdotbelow;
+        sub v dotbelow by vdotbelow;
+        sub W dotaccentcomb by Wdotaccent;
+        sub w dotaccentcomb by wdotaccent;
+        sub W dotbelow by Wdotbelow;
+        sub w dotbelow by wdotbelow;
+        sub X dotaccentcomb by Xdotaccent;
+        sub x dotaccentcomb by xdotaccent;
+        sub X dieresiscomb by Xdieresis;
+        sub x dieresiscomb by xdieresis;
+        sub Y dotaccentcomb by Ydotaccent;
+        sub y dotaccentcomb by ydotaccent;
+        sub Z circumflexcomb by Zcircumflex;
+        sub z circumflexcomb by zcircumflex;
+        sub Z dotbelow by Zdotbelow;
+        sub z dotbelow by zdotbelow;
+        sub Z macronsubcomb by Zlinebelow;
+        sub z macronsubcomb by zlinebelow;
+        sub h macronsubcomb by hlinebelow;
+        sub t dieresiscomb by tdieresis;
+        sub w ringcomb by wring;
+        sub y ringcomb by yring;
+        sub longs dotaccentcomb by slongdotaccent;
+        sub A ringsubcomb by Aringbelow;
+        sub a ringsubcomb by aringbelow;
+        sub zero slashlongcomb by zero.slash;
+        sub zero.tf slashlongcomb by zero.tf.slash;
+    } ccmp03;
+
+    # * enclosingsquarecomb -> composite
+    sub A' enclosingsquarecomb' by A.squared;
+    sub B enclosingsquarecomb by B.squared;
+    sub C enclosingsquarecomb by C.squared;
+    sub D enclosingsquarecomb by D.squared;
+    sub E enclosingsquarecomb by E.squared;
+    sub F enclosingsquarecomb by F.squared;
+    sub G enclosingsquarecomb by G.squared;
+    sub H enclosingsquarecomb by H.squared;
+    sub I enclosingsquarecomb by I.squared;
+    sub J enclosingsquarecomb by J.squared;
+    sub K enclosingsquarecomb by K.squared;
+    sub L enclosingsquarecomb by L.squared;
+    sub M enclosingsquarecomb by M.squared;
+    sub N enclosingsquarecomb by N.squared;
+    sub O enclosingsquarecomb by O.squared;
+    sub P enclosingsquarecomb by P.squared;
+    sub Q enclosingsquarecomb by Q.squared;
+    sub R enclosingsquarecomb by R.squared;
+    sub S enclosingsquarecomb by S.squared;
+    sub T enclosingsquarecomb by T.squared;
+    sub U enclosingsquarecomb by U.squared;
+    sub V enclosingsquarecomb by V.squared;
+    sub W enclosingsquarecomb by W.squared;
+    sub X enclosingsquarecomb by X.squared;
+    sub Y enclosingsquarecomb by Y.squared;
+    sub Z enclosingsquarecomb by Z.squared;
+    sub zero enclosingsquarecomb by zero.squared;
+    sub one enclosingsquarecomb by one.squared;
+    sub two enclosingsquarecomb by two.squared;
+    sub three enclosingsquarecomb by three.squared;
+    sub four enclosingsquarecomb by four.squared;
+    sub five enclosingsquarecomb by five.squared;
+    sub six enclosingsquarecomb by six.squared;
+    sub seven enclosingsquarecomb by seven.squared;
+    sub eight enclosingsquarecomb by eight.squared;
+    sub nine enclosingsquarecomb by nine.squared;
+    sub zero.slash enclosingsquarecomb by zero.slash.squared;
+    sub one.ss01 enclosingsquarecomb by one.ss01.squared;
+    sub three.1 enclosingsquarecomb by three.1.squared;
+    sub four.ss01 enclosingsquarecomb by four.ss01.squared;
+    sub six.ss01 enclosingsquarecomb by six.ss01.squared;
+    sub nine.ss01 enclosingsquarecomb by nine.ss01.squared;
+    sub exclam enclosingsquarecomb by exclam.squared;
+    sub question enclosingsquarecomb by question.squared;
+    sub numbersign enclosingsquarecomb by numbersign.squared;
+    sub hyphen enclosingsquarecomb by hyphen.squared;
+    sub less enclosingsquarecomb by less.squared;
+    sub greater enclosingsquarecomb by greater.squared;
+    sub equal enclosingsquarecomb by equal.squared;
+    sub plus enclosingsquarecomb by plus.squared;
+    sub minus enclosingsquarecomb by minus.squared;
+    sub multiply enclosingsquarecomb by multiply.squared;
+    sub [fraction slash] enclosingsquarecomb by fraction.squared;
+    sub divide enclosingsquarecomb by divide.squared;
+    sub upArrow enclosingsquarecomb by upArrow.squared;
+    sub downArrow enclosingsquarecomb by downArrow.squared;
+    sub downArrowToBar enclosingsquarecomb by downArrowToBar.squared;
+    sub leftArrow enclosingsquarecomb by leftArrow.squared;
+    sub rightArrow enclosingsquarecomb by rightArrow.squared;
+    sub dngb_check enclosingsquarecomb by dngb_check.squared;
+    sub dngb_ballotx enclosingsquarecomb by dngb_ballotx.squared;
+    # * enclosingcirclecomb -> composite
+    sub A' enclosingcirclecomb' by A.circled;
+    sub B enclosingcirclecomb by B.circled;
+    sub C enclosingcirclecomb by C.circled;
+    sub D enclosingcirclecomb by D.circled;
+    sub E enclosingcirclecomb by E.circled;
+    sub F enclosingcirclecomb by F.circled;
+    sub G enclosingcirclecomb by G.circled;
+    sub H enclosingcirclecomb by H.circled;
+    sub I enclosingcirclecomb by I.circled;
+    sub J enclosingcirclecomb by J.circled;
+    sub K enclosingcirclecomb by K.circled;
+    sub L enclosingcirclecomb by L.circled;
+    sub M enclosingcirclecomb by M.circled;
+    sub N enclosingcirclecomb by N.circled;
+    sub O enclosingcirclecomb by O.circled;
+    sub P enclosingcirclecomb by P.circled;
+    sub Q enclosingcirclecomb by Q.circled;
+    sub R enclosingcirclecomb by R.circled;
+    sub S enclosingcirclecomb by S.circled;
+    sub T enclosingcirclecomb by T.circled;
+    sub U enclosingcirclecomb by U.circled;
+    sub V enclosingcirclecomb by V.circled;
+    sub W enclosingcirclecomb by W.circled;
+    sub X enclosingcirclecomb by X.circled;
+    sub Y enclosingcirclecomb by Y.circled;
+    sub Z enclosingcirclecomb by Z.circled;
+    sub zero enclosingcirclecomb by zero.circled;
+    sub one enclosingcirclecomb by one.circled;
+    sub two enclosingcirclecomb by two.circled;
+    sub three enclosingcirclecomb by three.circled;
+    sub four enclosingcirclecomb by four.circled;
+    sub five enclosingcirclecomb by five.circled;
+    sub six enclosingcirclecomb by six.circled;
+    sub seven enclosingcirclecomb by seven.circled;
+    sub eight enclosingcirclecomb by eight.circled;
+    sub nine enclosingcirclecomb by nine.circled;
+    sub zero.slash enclosingcirclecomb by zero.slash.circled;
+    sub one.ss01 enclosingcirclecomb by one.ss01.circled;
+    sub three.1 enclosingcirclecomb by three.1.circled;
+    sub four.ss01 enclosingcirclecomb by four.ss01.circled;
+    sub six.ss01 enclosingcirclecomb by six.ss01.circled;
+    sub nine.ss01 enclosingcirclecomb by nine.ss01.circled;
+    sub exclam enclosingcirclecomb by exclam.circled;
+    sub question enclosingcirclecomb by question.circled;
+    sub numbersign enclosingcirclecomb by numbersign.circled;
+    sub hyphen enclosingcirclecomb by hyphen.circled;
+    sub less enclosingcirclecomb by less.circled;
+    sub greater enclosingcirclecomb by greater.circled;
+    sub equal enclosingcirclecomb by equal.circled;
+    sub plus enclosingcirclecomb by plus.circled;
+    sub minus enclosingcirclecomb by minus.circled;
+    sub multiply enclosingcirclecomb by multiply.circled;
+    sub [fraction slash] enclosingcirclecomb by fraction.circled;
+    sub divide enclosingcirclecomb by divide.circled;
+    sub upArrow enclosingcirclecomb by upArrow.circled;
+    sub downArrow enclosingcirclecomb by downArrow.circled;
+    sub downArrowToBar enclosingcirclecomb by downArrowToBar.circled;
+    sub leftArrow enclosingcirclecomb by leftArrow.circled;
+    sub rightArrow enclosingcirclecomb by rightArrow.circled;
+    sub dngb_check enclosingcirclecomb by dngb_check.circled;
+    sub dngb_ballotx enclosingcirclecomb by dngb_ballotx.circled;
+} ccmp;
+
+feature locl {
+    # automatic
+    lookup locl_latn_0 {
+        script latn;
+        language ROM;
+        sub Scedilla by Scommaaccent;
+        sub scedilla by scommaaccent;
+        sub tcedilla by tcommaaccent;
+        language MOL;
+        sub Scedilla by Scommaaccent;
+        sub scedilla by scommaaccent;
+        sub tcedilla by tcommaaccent;
+    } locl_latn_0;
+
+    lookup locl_latn_1 {
+        script latn;
+        language CAT;
+        sub l' periodcentered' l by ldot;
+        sub L' periodcentered' L by Ldot;
+    } locl_latn_1;
+
+} locl;
+
+feature sinf {
+    # automatic
+    sub a by a.subs;
+    sub b by b.subs;
+    sub c by c.subs;
+    sub d by d.subs;
+    sub e by e.subs;
+    sub f by f.subs;
+    sub g by g.subs;
+    sub h by h.subs;
+    sub i by i.subs;
+    sub j by j.subs;
+    sub k by k.subs;
+    sub l by l.subs;
+    sub m by m.subs;
+    sub n by n.subs;
+    sub o by o.subs;
+    sub p by p.subs;
+    sub q by q.subs;
+    sub r by r.subs;
+    sub s by s.subs;
+    sub t by t.subs;
+    sub u by u.subs;
+    sub v by v.subs;
+    sub w by w.subs;
+    sub x by x.subs;
+    sub y by y.subs;
+    sub z by z.subs;
+    sub zero by zero.subs;
+    sub one by one.subs;
+    sub two by two.subs;
+    sub three by three.subs;
+    sub four by four.subs;
+    sub five by five.subs;
+    sub six by six.subs;
+    sub seven by seven.subs;
+    sub eight by eight.subs;
+    sub nine by nine.subs;
+    sub parenleft by parenleft.subs;
+    sub parenright by parenright.subs;
+    sub bracketleft by bracketleft.subs;
+    sub bracketright by bracketright.subs;
+    sub plus by plus.subs;
+    sub minus by minus.subs;
+    sub equal by equal.subs;
+} sinf;
+
+feature numr {
+    # automatic
+    sub i by i.numr;
+    sub n by n.numr;
+    sub zero by zero.numr;
+    sub one by one.numr;
+    sub two by two.numr;
+    sub three by three.numr;
+    sub four by four.numr;
+    sub five by five.numr;
+    sub six by six.numr;
+    sub seven by seven.numr;
+    sub eight by eight.numr;
+    sub nine by nine.numr;
+    sub plus by plus.numr;
+    sub minus by minus.numr;
+    sub equal by equal.numr;
+    sub parenleft by parenleft.numr;
+    sub parenright by parenright.numr;
+    sub period by period.numr;
+    sub comma by comma.numr;
+} numr;
+
+feature dnom {
+    # automatic
+    sub zero by zero.dnom;
+    sub one by one.dnom;
+    sub two by two.dnom;
+    sub three by three.dnom;
+    sub four by four.dnom;
+    sub five by five.dnom;
+    sub six by six.dnom;
+    sub seven by seven.dnom;
+    sub eight by eight.dnom;
+    sub nine by nine.dnom;
+    sub plus by plus.dnom;
+    sub minus by minus.dnom;
+    sub equal by equal.dnom;
+    sub parenleft by parenleft.dnom;
+    sub parenright by parenright.dnom;
+    sub period by period.dnom;
+    sub comma by comma.dnom;
+} dnom;
+
+feature frac {
+    @figures = [zero one two three four five six seven eight nine period comma plus minus equal parenleft parenright];
+    @numerators = [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr period.numr comma.numr plus.numr minus.numr equal.numr parenleft.numr parenright.numr];
+    @denominators = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom period.dnom comma.dnom plus.dnom minus.dnom equal.dnom parenleft.dnom parenright.dnom];
+    lookup FractionBar {
+        ignore sub slash @figures @figures @figures @figures @figures @figures @figures @figures @figures @figures slash';
+        ignore sub slash' @figures @figures @figures @figures @figures @figures @figures @figures @figures @figures slash;
+        ignore sub slash @figures @figures @figures @figures @figures @figures @figures @figures @figures slash';
+        ignore sub slash' @figures @figures @figures @figures @figures @figures @figures @figures @figures slash;
+        ignore sub slash @figures @figures @figures @figures @figures @figures @figures @figures slash';
+        ignore sub slash' @figures @figures @figures @figures @figures @figures @figures @figures slash;
+        ignore sub slash @figures @figures @figures @figures @figures @figures @figures slash';
+        ignore sub slash' @figures @figures @figures @figures @figures @figures @figures slash;
+        ignore sub slash @figures @figures @figures @figures @figures @figures slash';
+        ignore sub slash' @figures @figures @figures @figures @figures @figures slash;
+        ignore sub slash @figures @figures @figures @figures @figures slash';
+        ignore sub slash' @figures @figures @figures @figures @figures slash;
+        ignore sub slash @figures @figures @figures @figures slash';
+        ignore sub slash' @figures @figures @figures @figures slash;
+        ignore sub slash @figures @figures @figures slash';
+        ignore sub slash' @figures @figures @figures slash;
+        ignore sub slash @figures @figures slash';
+        ignore sub slash' @figures @figures slash;
+        ignore sub slash @figures slash';
+        ignore sub slash' @figures slash;
+        sub @figures slash' @figures by fraction;
+    } FractionBar;
+
+    lookup Numerator1 {
+        sub @figures' fraction by @numerators;
+    } Numerator1;
+
+    lookup Numerator2 {
+        sub @figures' @numerators fraction by @numerators;
+    } Numerator2;
+
+    lookup Numerator3 {
+        sub @figures' @numerators @numerators fraction by @numerators;
+    } Numerator3;
+
+    lookup Numerator4 {
+        sub @figures' @numerators @numerators @numerators fraction by @numerators;
+    } Numerator4;
+
+    lookup Numerator5 {
+        sub @figures' @numerators @numerators @numerators @numerators fraction by @numerators;
+    } Numerator5;
+
+    lookup Numerator6 {
+        sub @figures' @numerators @numerators @numerators @numerators @numerators fraction by @numerators;
+    } Numerator6;
+
+    lookup Numerator7 {
+        sub @figures' @numerators @numerators @numerators @numerators @numerators @numerators fraction by @numerators;
+    } Numerator7;
+
+    lookup Numerator8 {
+        sub @figures' @numerators @numerators @numerators @numerators @numerators @numerators @numerators fraction by @numerators;
+    } Numerator8;
+
+    lookup Numerator9 {
+        sub @figures' @numerators @numerators @numerators @numerators @numerators @numerators @numerators @numerators fraction by @numerators;
+    } Numerator9;
+
+    lookup Numerator10 {
+        sub @figures' @numerators @numerators @numerators @numerators @numerators @numerators @numerators @numerators @numerators fraction by @numerators;
+    } Numerator10;
+
+    lookup Denominator {
+        sub [fraction @denominators onefraction] @figures' by @denominators;
+    } Denominator;
+
+    sub @figures space' @numerators by thinspace;
+} frac;
+
+feature case {
+    # automatic
+    sub parenleft by parenleft.case;
+    sub parenright by parenright.case;
+    sub bracketleft by bracketleft.case;
+    sub bracketright by bracketright.case;
+    sub braceleft by braceleft.case;
+    sub braceright by braceright.case;
+    sub at by at.case;
+    sub hyphen by hyphen.case;
+    sub endash by endash.case;
+    sub figuredash by figuredash.case;
+    sub emdash by emdash.case;
+    sub bullet by bullet.case;
+    sub openbullet by openbullet.case;
+    sub hyphenbullet by hyphenbullet.case;
+    sub trianglebullet by trianglebullet.case;
+    sub blackleftbullet by blackleftbullet.case;
+    sub blackrightbullet by blackrightbullet.case;
+    sub blackSmallSquare by blackSmallSquare.case;
+    sub colon by colon.case;
+    sub less by less.case;
+    sub greater by greater.case;
+    sub lessequal by lessequal.case;
+    sub greaterequal by greaterequal.case;
+    sub equal by equal.case;
+    sub notequal by notequal.case;
+    sub plus by plus.case;
+    sub minus by minus.case;
+    sub multiply by multiply.case;
+    sub divide by divide.case;
+    sub plusminus by plusminus.case;
+    sub approxequal by approxequal.case;
+    sub asciitilde by asciitilde.case;
+    sub asterisk by asterisk.case;
+    sub leftArrow by leftArrow.case;
+    sub leftLongArrow by leftLongArrow.case;
+    sub leftLongArrow2 by leftLongArrow2.case;
+    sub leftDoubleArrow by leftDoubleArrow.case;
+    sub leftLongDoubleArrow by leftLongDoubleArrow.case;
+    sub rightArrow by rightArrow.case;
+    sub rightLongArrow by rightLongArrow.case;
+    sub rightLongArrow2 by rightLongArrow2.case;
+    sub rightDoubleArrow by rightDoubleArrow.case;
+    sub rightLongDoubleArrow by rightLongDoubleArrow.case;
+    sub leftRightArrow by leftRightArrow.case;
+    sub leftRightLongArrow by leftRightLongArrow.case;
+    sub leftRightDoubleArrow by leftRightDoubleArrow.case;
+    sub leftRightLongDoubleArrow by leftRightLongDoubleArrow.case;
+    sub northEastArrow by northEastArrow.case;
+    sub southEastArrow by southEastArrow.case;
+    sub southWestArrow by southWestArrow.case;
+    sub northWestArrow by northWestArrow.case;
+    sub exclamdown by exclamdown.case;
+} case;
+
+feature calt {
+    # -------------------------------------------------------------------------------------
+    # BEGIN glyph class definitions
+    @DASH = [hyphen endash emdash];
+    @DASH_CASE = [hyphen.case endash.case emdash.case];
+    @DASH_ANY = [@DASH @DASH_CASE];
+    # cap-height tall glyphs
+    @UC = [@Uppercase @Numeral ampersand exclam exclamdbl exclamdown uni2049 question uni2047 uni2048 questiondown interrobang invertedinterrobang bar paragraph dollar cent yen sterling florin uni20BA uni20BD euro uni20B9 tenge peseta peso kip won lira austral hryvnia naira guarani coloncurrency cedi cruzeiro tugrik drachma mill afii57636 manat rupee lari franc numero triagrt triagdn triagup warningSign blackleftpointingtriangle circleblack circlewhite diamondblack diamondblack_x diamondwhite diamondwhite_x sunWithRays blackSunWithRays heartWhiteSuit heartBlackSuit heavyBlackHeart upBlackArrow upWhiteArrow capslock placeofinterestsign control projective option alternativekeysymbol brokenCircleNorthWestArrow anticlockwiseOpenCircleArrow clockwiseOpenCircleArrow deleteleft deleteright clear ejectsymbol onehalf onethird onequarter threequarters fivesixths onefraction seveneighths oneeighth fiveeighths threeeighths percent perthousand pertenthousand uni214D cadauna careof accountof addresssubject];
+    # punctuation
+    # currency
+    # cap-tall symbols
+    # percent and fractions
+    # x-height tall glyphs
+    @LC = [@Lowercase];
+    @CASE_L = [braceleft braceright bracketleft bracketright parenleft parenright asterisk at multiply minus plus plusminus divide equal notequal endash figuredash emdash hyphen bullet openbullet hyphenbullet trianglebullet blackleftbullet blackrightbullet blackSmallSquare leftArrow leftLongArrow leftLongArrow2 leftDoubleArrow leftLongDoubleArrow rightArrow rightLongArrow rightLongArrow2 rightDoubleArrow rightLongDoubleArrow leftRightArrow leftRightLongArrow leftRightDoubleArrow leftRightLongDoubleArrow northEastArrow southEastArrow southWestArrow northWestArrow colon approxequal asciitilde less greater lessequal greaterequal];
+    @CASE_R = [braceleft.case braceright.case bracketleft.case bracketright.case parenleft.case parenright.case asterisk.case at.case multiply.case minus.case plus.case plusminus.case divide.case equal.case notequal.case endash.case figuredash.case emdash.case hyphen.case bullet.case openbullet.case hyphenbullet.case trianglebullet.case blackleftbullet.case blackrightbullet.case blackSmallSquare.case leftArrow.case leftLongArrow.case leftLongArrow2.case leftDoubleArrow.case leftLongDoubleArrow.case rightArrow.case rightLongArrow.case rightLongArrow2.case rightDoubleArrow.case rightLongDoubleArrow.case leftRightArrow.case leftRightLongArrow.case leftRightDoubleArrow.case leftRightLongDoubleArrow.case northEastArrow.case southEastArrow.case southWestArrow.case northWestArrow.case colon.case approxequal.case asciitilde.case less.case greater.case lessequal.case greaterequal.case];
+    @Punctuation = [slash bar quoteleft quoteright quotesingle quotedbl quotedblleft quotedblright quotedblbase quotesinglbase prime doubleprime tripleprime quadrupleprime primerev doubleprimerev tripleprimerev primemod doubleprimemod comma period ellipsis twodotleader semicolon underscore asciicircum circumflex asterisk];
+    # END glyph class definitions
+    # -------------------------------------------------------------------------------------
+    # BEGIN arrow replacements
+    # --->
+    sub @DASH @DASH @DASH greater by rightLongArrow2;
+    sub @DASH_ANY @DASH_ANY @DASH_ANY greater.case by rightLongArrow2.case;
+    # -->
+    sub @DASH @DASH greater by rightLongArrow;
+    sub @DASH_ANY @DASH_ANY greater.case by rightLongArrow.case;
+    # [endash emdash]-> (legacy)
+    sub [endash emdash] greater by rightLongArrow;
+    sub [endash emdash endash.case emdash.case] greater.case by rightLongArrow.case;
+    # ->
+    sub hyphen greater by rightArrow;
+    sub [hyphen hyphen.case] greater.case by rightArrow.case;
+    # <---
+    sub less @DASH @DASH @DASH by leftLongArrow2;
+    sub less.case @DASH_ANY @DASH_ANY @DASH_ANY by leftLongArrow2.case;
+    # <--
+    sub less @DASH @DASH by leftLongArrow;
+    sub less.case @DASH_ANY @DASH_ANY by leftLongArrow.case;
+    # <-[endash emdash] (legacy)
+    sub less [endash emdash] by leftLongArrow;
+    sub less.case [endash emdash endash.case emdash.case] by leftLongArrow.case;
+    # ignore e.g. "<-3" ("less than negative")
+    ignore sub less' hyphen' @Numeral;
+    ignore sub less.case' [hyphen hyphen.case]' @Numeral;
+    # <-
+    sub less' hyphen' by leftArrow;
+    sub less.case' [hyphen hyphen.case]' by leftArrow.case;
+    # <->
+    sub less rightArrow by leftRightArrow;
+    #  <,->
+    sub [less less.case] rightArrow.case by leftRightArrow.case;
+    sub leftArrow greater by leftRightArrow;
+    # <-,-
+    sub leftArrow.case [greater greater.case] by leftRightArrow.case;
+    # <-->
+    sub less rightLongArrow by leftRightLongArrow;
+    # <,-->
+    sub [less less.case] rightLongArrow.case by leftRightLongArrow.case;
+    sub leftLongArrow greater by leftRightLongArrow;
+    # <--,>
+    sub leftLongArrow.case [greater greater.case] by leftRightLongArrow.case;
+    # <=>
+    sub less equal greater by leftRightDoubleArrow;
+    sub less.case [equal equal.case] [greater greater.case] by leftRightDoubleArrow.case;
+    sub less equal equal greater by leftRightLongDoubleArrow;
+    sub less.case [equal equal.case] [equal equal.case] [greater greater.case] by leftRightLongDoubleArrow.case;
+    # =>
+    sub equal equal greater by rightLongDoubleArrow;
+    sub [equal equal.case] [equal equal.case] greater.case by rightLongDoubleArrow.case;
+    sub equal greater by rightDoubleArrow;
+    sub [equal equal.case] greater.case by rightDoubleArrow.case;
+    # <==
+    sub less equal equal by leftLongDoubleArrow;
+    sub less.case [equal equal.case] [equal equal.case] by leftLongDoubleArrow.case;
+    # Note: We do NOT (sub less equal by leftDoubleArrow) as that would
+    # interfere with "<=" (less than or equal to)
+    # END arrow replacements
+    # -------------------------------------------------------------------------------------
+    # BEGIN smiley
+    # :-)
+    sub colon' [@DASH_ANY minus minus.case bullet] [parenright parenright.case] by colon.case;
+    sub [colon colon.case] hyphen' [parenright parenright.case] by hyphen.case;
+    sub [colon colon.case] endash' [parenright parenright.case] by endash.case;
+    sub [colon colon.case] emdash' [parenright parenright.case] by emdash.case;
+    sub [colon colon.case] bullet' [parenright parenright.case] by bullet.case;
+    sub [colon colon.case] [@DASH_ANY minus minus.case bullet] parenright' by parenright.case;
+    # END smiley
+    # -------------------------------------------------------------------------------------
+    # BEGIN case
+    # Force lower-case parens if any one is lower case.
+    # I.e. right paren in "(abC)" is always lower case.
+    ignore sub parenleft @All @All parenright';
+    # "(aB)"
+    ignore sub parenleft @All @All @All parenright';
+    # "(abC)"
+    ignore sub parenleft @All @All @All @All parenright';
+    # "(abcD)"
+    ignore sub parenleft @All @All @All @All @All parenright';
+    # "(abcdE)"
+    ignore sub parenleft @All @All @All @All @All @All parenright';
+    # "(abcdeF)"
+    ignore sub braceleft @All @All braceright';
+    # "{aB}"
+    ignore sub braceleft @All @All @All braceright';
+    # "{abC}"
+    ignore sub braceleft @All @All @All @All braceright';
+    # "{abcD}"
+    ignore sub braceleft @All @All @All @All @All braceright';
+    # "{abcdE}"
+    ignore sub braceleft @All @All @All @All @All @All braceright';
+    # "{abcdeF}"
+    ignore sub bracketleft @All @All bracketright';
+    # "[aB]"
+    ignore sub bracketleft @All @All @All bracketright';
+    # "[abC]"
+    ignore sub bracketleft @All @All @All @All bracketright';
+    # "[abcD]"
+    ignore sub bracketleft @All @All @All @All @All bracketright';
+    # "[abcdE]"
+    ignore sub bracketleft @All @All @All @All @All @All bracketright';
+    # "[abcdeF]"
+    # "3+" EXCEPT "3+<non-uc>"
+    ignore sub @UC @CASE_L' @LC;
+    ignore sub @UC @CASE_L' @Whitespace @LC;
+    ignore sub @UC @CASE_L' @Whitespace @Whitespace @LC;
+    sub @UC @CASE_L' by @CASE_R;
+    # "+3" EXCEPT "<non-uc>+3" (including backtrack, e.g. "---X")
+    ignore sub @LC @CASE_L' @UC;
+    # "x-X"
+    ignore sub @LC @CASE_L @CASE_L' @UC;
+    # "x--X"
+    ignore sub @LC @CASE_L @CASE_L @CASE_L' @UC;
+    # "x---X"
+    ignore sub @LC @CASE_L @CASE_L @CASE_L @CASE_L' @UC;
+    # "x---X"
+    ignore sub @LC @CASE_L @CASE_L @CASE_L @CASE_L @CASE_L' @UC;
+    # "x----X"
+    ignore sub @LC @CASE_L' @CASE_L @UC;
+    # "x-"
+    sub @CASE_L' @UC by @CASE_R;
+    sub @CASE_L' @CASE_L @UC by @CASE_R;
+    sub @CASE_L' @CASE_L @CASE_L @UC by @CASE_R;
+    sub @CASE_L' @CASE_L @CASE_L @CASE_L @UC by @CASE_R;
+    sub @CASE_L' @CASE_L @CASE_L @CASE_L @CASE_L @UC by @CASE_R;
+    # "A-B", "A- B", "A-  B"
+    sub @UC @CASE_L' @UC by @CASE_R;
+    sub @UC @CASE_L' @Whitespace @UC by @CASE_R;
+    sub @UC @CASE_L' @Whitespace @Whitespace @UC by @CASE_R;
+    # "A -B", "A - B", "A -  B"
+    sub @UC @Whitespace @CASE_L' @UC by @CASE_R;
+    sub @UC @Whitespace @CASE_L' @Whitespace @UC by @CASE_R;
+    sub @UC @Whitespace @CASE_L' @Whitespace @Whitespace @UC by @CASE_R;
+    # "A  -B", "A  - B", "A  -  B"
+    sub @UC @Whitespace @Whitespace @CASE_L' @UC by @CASE_R;
+    sub @UC @Whitespace @Whitespace @CASE_L' @Whitespace @UC by @CASE_R;
+    sub @UC @Whitespace @Whitespace @CASE_L' @Whitespace @Whitespace @UC by @CASE_R;
+    # cascade
+    sub @CASE_R @CASE_L' by @CASE_R;
+    # unconditional parenright.case if opening paren is parenleft.case
+    # e.g. "(Abc)" = /parenleft.case/A/b/c/parenright.case
+    sub parenleft.case @All @All parenright' by parenright.case;
+    sub parenleft.case @All @All @All parenright' by parenright.case;
+    sub parenleft.case @All @All @All @All parenright' by parenright.case;
+    sub parenleft.case @All @All @All @All @All parenright' by parenright.case;
+    sub parenleft.case @All @All @All @All @All @All parenright' by parenright.case;
+    sub braceleft.case @All @All braceright' by braceright.case;
+    sub braceleft.case @All @All @All braceright' by braceright.case;
+    sub braceleft.case @All @All @All @All braceright' by braceright.case;
+    sub braceleft.case @All @All @All @All @All braceright' by braceright.case;
+    sub braceleft.case @All @All @All @All @All @All braceright' by braceright.case;
+    sub bracketleft.case @All @All bracketright' by bracketright.case;
+    sub bracketleft.case @All @All @All bracketright' by bracketright.case;
+    sub bracketleft.case @All @All @All @All bracketright' by bracketright.case;
+    sub bracketleft.case @All @All @All @All @All bracketright' by bracketright.case;
+    sub bracketleft.case @All @All @All @All @All @All bracketright' by bracketright.case;
+    # END case
+    # -------------------------------------------------------------------------------------
+} calt;
+
+feature dlig {
+    # Discretionary Ligatures
+    # https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#dlig
+    # Set IgnoreMarks to skip over marks in lookups.
+    # For example, if we have /f/acutecomb/i, treat lookup as /f/i
+    # https://learn.microsoft.com/en-us/typography/opentype/spec/chapter2#lookup-table
+    lookupflag IgnoreMarks;
+    # fi
+    @DLIG_i_R = [i idotless idotless.double itildebelow ibar igrave iacute iogonek ihookabove idotbelow icyrillic ij i.sc j jdotless jdotlessbar uni0249 uni0249.ccmp jcrosstail yotgreek jecyrillic];
+    sub f' @DLIG_i_R by f.i;
+    # ff -> ff'
+    @DLIG_f_L = [f fdotaccent feng];
+    @DLIG_f_R = [f.1 fdotaccent.1 feng.1];
+    # tt -> tt'
+    @DLIG_t_L = [t tpalatalhook tcedilla tcaron tcommaaccent tdotaccent tdotbelow tlinebelow tcircumflexbelow tdieresis];
+    @DLIG_t_R = [t.1 tpalatalhook.1 tcedilla.1 tcaron.1 tcommaaccent.1 tdotaccent.1 tdotbelow.1 tlinebelow.1 tcircumflexbelow.1 tdieresis.1];
+    # left side "trigger" glyph for t.1 and f.1 sub
+    @DLIG_t1_L = [@DLIG_f_L @DLIG_f_R k khook kcommaaccent kcaron kacute kdotbelow klinebelow k.base r rrthook uni024D rfishhook rdescend racute rcommaaccent rcaron rdblgrave rinvertedbreve rdotaccent rdotbelow rdotbelowmacron rlinebelow @DLIG_t_L @DLIG_t_R v vtilde vdotbelow w wdieresis wcircumflex wgrave wacute wdotaccent wdotbelow wring x xdotaccent xdieresis khacyrillic chi y ydieresis uni024F yacute ycircumflex uni0233 ydotaccent yring ygrave ydotbelow yhookabove ytilde ucyrillic ushortcyrillic umacroncyrillic udieresiscyrillic uhungarumlautcyrillic yogonek y.sc d dcroat drthook dhook dtopbar dcurl ddotaccent ddotbelow dlinebelow dcedilla dcircumflexbelow dong l lslash lbar lmidtilde lrthook lbelt lcurl ldot lacute lcommaaccent lcaron ldotbelow ldotbelowmacron llinebelow lcircumflexbelow l.ss02 lslash.ss02 lbar.ss02 lmidtilde.ss02 lbelt.ss02 ldot.ss02 lacute.ss02 lcommaaccent.ss02 lcaron.ss02 ldotbelow.ss02 ldotbelowmacron.ss02 llinebelow.ss02 lcircumflexbelow.ss02];
+    # lower case glyphs with long ("beyond x-height") left vertical stroke
+    # ffi (note. f.i is sub'd by liga)
+    sub f [f f.i]' i by f.i.1;
+    # exception for e.g. fffi
+    ignore sub @DLIG_t1_L @DLIG_t1_L' @DLIG_t1_L @DLIG_i_R;
+    # tt, ft, rt, tf, ff, ft ...
+    sub @DLIG_t1_L @DLIG_t_L' by @DLIG_t_R;
+    sub @DLIG_t1_L @DLIG_f_L' by @DLIG_f_R;
+    # interrobang
+    sub exclam question by interrobang;
+    sub question exclam by interrobang;
+    sub exclamdown questiondown by invertedinterrobang;
+    sub questiondown exclamdown by invertedinterrobang;
+} dlig;
+
+feature subs {
+    # automatic
+    sub a by a.subs;
+    sub b by b.subs;
+    sub c by c.subs;
+    sub d by d.subs;
+    sub e by e.subs;
+    sub f by f.subs;
+    sub g by g.subs;
+    sub h by h.subs;
+    sub i by i.subs;
+    sub j by j.subs;
+    sub k by k.subs;
+    sub l by l.subs;
+    sub m by m.subs;
+    sub n by n.subs;
+    sub o by o.subs;
+    sub p by p.subs;
+    sub q by q.subs;
+    sub r by r.subs;
+    sub s by s.subs;
+    sub t by t.subs;
+    sub u by u.subs;
+    sub v by v.subs;
+    sub w by w.subs;
+    sub x by x.subs;
+    sub y by y.subs;
+    sub z by z.subs;
+    sub zero by zero.subs;
+    sub one by one.subs;
+    sub two by two.subs;
+    sub three by three.subs;
+    sub four by four.subs;
+    sub five by five.subs;
+    sub six by six.subs;
+    sub seven by seven.subs;
+    sub eight by eight.subs;
+    sub nine by nine.subs;
+    sub parenleft by parenleft.subs;
+    sub parenright by parenright.subs;
+    sub bracketleft by bracketleft.subs;
+    sub bracketright by bracketright.subs;
+    sub plus by plus.subs;
+    sub minus by minus.subs;
+    sub equal by equal.subs;
+    sub a.1 by a.1.subs;
+    sub a.2 by a.2.subs;
+} subs;
+
+feature sups {
+    # automatic
+    sub a by a.sups;
+    sub b by b.sups;
+    sub c by c.sups;
+    sub d by d.sups;
+    sub e by e.sups;
+    sub f by f.sups;
+    sub g by g.sups;
+    sub h by h.sups;
+    sub i by i.sups;
+    sub j by j.sups;
+    sub k by k.sups;
+    sub l by l.sups;
+    sub m by m.sups;
+    sub n by n.sups;
+    sub o by o.sups;
+    sub p by p.sups;
+    sub q by q.sups;
+    sub r by r.sups;
+    sub s by s.sups;
+    sub t by t.sups;
+    sub u by u.sups;
+    sub v by v.sups;
+    sub w by w.sups;
+    sub x by x.sups;
+    sub y by y.sups;
+    sub z by z.sups;
+    sub zero by zero.sups;
+    sub one by one.sups;
+    sub two by two.sups;
+    sub three by three.sups;
+    sub four by four.sups;
+    sub five by five.sups;
+    sub six by six.sups;
+    sub seven by seven.sups;
+    sub eight by eight.sups;
+    sub nine by nine.sups;
+    sub parenleft by parenleft.sups;
+    sub parenright by parenright.sups;
+    sub bracketleft by bracketleft.sups;
+    sub bracketright by bracketright.sups;
+    sub plus by plus.sups;
+    sub minus by minus.sups;
+    sub equal by equal.sups;
+    sub a.1 by a.1.sups;
+    sub a.2 by a.2.sups;
+} sups;
+
+feature pnum {
+    # automatic
+    sub zero.tf by zero;
+    sub one.tf by one;
+    sub two.tf by two;
+    sub three.tf by three;
+    sub four.tf by four;
+    sub five.tf by five;
+    sub six.tf by six;
+    sub seven.tf by seven;
+    sub eight.tf by eight;
+    sub nine.tf by nine;
+    sub three.1.tf by three.1;
+    sub comma.tf by comma;
+    sub period.tf by period;
+    sub colon.tf by colon;
+    sub colon.case.tf by colon.case;
+    sub semicolon.tf by semicolon;
+    sub parenleft.tf by parenleft;
+    sub parenright.tf by parenright;
+    sub braceleft.tf by braceleft;
+    sub braceright.tf by braceright;
+    sub bracketleft.tf by bracketleft;
+    sub bracketright.tf by bracketright;
+    sub parenleft.case.tf by parenleft.case;
+    sub parenright.case.tf by parenright.case;
+    sub braceleft.case.tf by braceleft.case;
+    sub braceright.case.tf by braceright.case;
+    sub bracketleft.case.tf by bracketleft.case;
+    sub bracketright.case.tf by bracketright.case;
+    sub hyphen.tf by hyphen;
+    sub hyphen.case.tf by hyphen.case;
+    sub less.tf by less;
+    sub greater.tf by greater;
+    sub lessequal.tf by lessequal;
+    sub greaterequal.tf by greaterequal;
+    sub equal.tf by equal;
+    sub notequal.tf by notequal;
+    sub plus.tf by plus;
+    sub minus.tf by minus;
+    sub multiply.tf by multiply;
+    sub divide.tf by divide;
+    sub plusminus.tf by plusminus;
+    sub approxequal.tf by approxequal;
+    sub asciitilde.tf by asciitilde;
+    sub asterisk.tf by asterisk;
+    sub less.case.tf by less.case;
+    sub greater.case.tf by greater.case;
+    sub lessequal.case.tf by lessequal.case;
+    sub greaterequal.case.tf by greaterequal.case;
+    sub equal.case.tf by equal.case;
+    sub notequal.case.tf by notequal.case;
+    sub plus.case.tf by plus.case;
+    sub minus.case.tf by minus.case;
+    sub multiply.case.tf by multiply.case;
+    sub divide.case.tf by divide.case;
+    sub plusminus.case.tf by plusminus.case;
+    sub approxequal.case.tf by approxequal.case;
+    sub asciitilde.case.tf by asciitilde.case;
+    sub asterisk.case.tf by asterisk.case;
+    sub space.tf by space;
+    sub nbspace.tf by nbspace;
+    sub punctuationspace.tf by punctuationspace;
+} pnum;
+
+feature tnum {
+    # automatic
+    sub zero by zero.tf;
+    sub one by one.tf;
+    sub two by two.tf;
+    sub three by three.tf;
+    sub four by four.tf;
+    sub five by five.tf;
+    sub six by six.tf;
+    sub seven by seven.tf;
+    sub eight by eight.tf;
+    sub nine by nine.tf;
+    sub three.1 by three.1.tf;
+    sub comma by comma.tf;
+    sub period by period.tf;
+    sub colon by colon.tf;
+    sub colon.case by colon.case.tf;
+    sub semicolon by semicolon.tf;
+    sub parenleft by parenleft.tf;
+    sub parenright by parenright.tf;
+    sub braceleft by braceleft.tf;
+    sub braceright by braceright.tf;
+    sub bracketleft by bracketleft.tf;
+    sub bracketright by bracketright.tf;
+    sub parenleft.case by parenleft.case.tf;
+    sub parenright.case by parenright.case.tf;
+    sub braceleft.case by braceleft.case.tf;
+    sub braceright.case by braceright.case.tf;
+    sub bracketleft.case by bracketleft.case.tf;
+    sub bracketright.case by bracketright.case.tf;
+    sub hyphen by hyphen.tf;
+    sub hyphen.case by hyphen.case.tf;
+    sub less by less.tf;
+    sub greater by greater.tf;
+    sub lessequal by lessequal.tf;
+    sub greaterequal by greaterequal.tf;
+    sub equal by equal.tf;
+    sub notequal by notequal.tf;
+    sub plus by plus.tf;
+    sub minus by minus.tf;
+    sub multiply by multiply.tf;
+    sub divide by divide.tf;
+    sub plusminus by plusminus.tf;
+    sub approxequal by approxequal.tf;
+    sub asciitilde by asciitilde.tf;
+    sub asterisk by asterisk.tf;
+    sub less.case by less.case.tf;
+    sub greater.case by greater.case.tf;
+    sub lessequal.case by lessequal.case.tf;
+    sub greaterequal.case by greaterequal.case.tf;
+    sub equal.case by equal.case.tf;
+    sub notequal.case by notequal.case.tf;
+    sub plus.case by plus.case.tf;
+    sub minus.case by minus.case.tf;
+    sub multiply.case by multiply.case.tf;
+    sub divide.case by divide.case.tf;
+    sub plusminus.case by plusminus.case.tf;
+    sub approxequal.case by approxequal.case.tf;
+    sub asciitilde.case by asciitilde.case.tf;
+    sub asterisk.case by asterisk.case.tf;
+    sub space by space.tf;
+    sub nbspace by nbspace.tf;
+    sub punctuationspace by punctuationspace.tf;
+} tnum;
+
+feature zero {
+    sub zero by zero.slash;
+    sub zero.tf by zero.tf.slash;
+    sub zero.circled by zero.slash.circled;
+    sub zero.squared by zero.slash.squared;
+    sub zero.sups by zero.sups.slash;
+    sub zero.subs by zero.subs.slash;
+    sub zero.numr by zero.numr.slash;
+    sub zero.dnom by zero.dnom.slash;
+} zero;
+
+feature cpsp {
+    # notes:
+    # The first two numbers (16 and 0) are the x and y amounts by which a glyph is moved. The second pair of numbers (32 and 0) is the advance, meaning that the cursor will be placed 32 units further in this case. Effectively, this adds 16 units on each side (or 32 between all uppercase letters)
+    # The first two numbers (16 and 0) are the x and y amounts by which a glyph is moved.
+    # The second pair of numbers (32 and 0) is the advance, meaning that the cursor will
+    # be placed 32 units further in this case. Effectively, this adds 16 units on each side
+    # (or 32 between all uppercase letters)
+    pos @Uppercase <16 0 32 0>;
+} cpsp;
+
+feature ordn {
+    # automatic
+    sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+    sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+    sub N o period by numero;
+} ordn;
+
+feature salt {
+    # Note: don't use cvParameters here since this file is included in salt
+    sub one by one.ss01;
+    sub one.tf by one.tf.ss01;
+    sub one.squared by one.ss01.squared;
+    sub one.circled by one.ss01.circled;
+    sub one.numr by one.numr.ss01;
+    sub one.dnom by one.dnom.ss01;
+    sub one.sups by one.sups.ss01;
+    sub one.subs by one.subs.ss01;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub four by four.ss01;
+    sub four.tf by four.tf.ss01;
+    sub four.squared by four.ss01.squared;
+    sub four.circled by four.ss01.circled;
+    sub four.dnom by four.dnom.ss01;
+    sub four.numr by four.numr.ss01;
+    sub four.sups by four.sups.ss01;
+    sub four.subs by four.subs.ss01;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub six by six.ss01;
+    sub six.tf by six.tf.ss01;
+    sub six.squared by six.ss01.squared;
+    sub six.circled by six.ss01.circled;
+    sub six.dnom by six.dnom.ss01;
+    sub six.numr by six.numr.ss01;
+    sub six.sups by six.sups.ss01;
+    sub six.subs by six.subs.ss01;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub nine by nine.ss01;
+    sub nine.tf by nine.tf.ss01;
+    sub nine.squared by nine.ss01.squared;
+    sub nine.circled by nine.ss01.circled;
+    sub nine.dnom by nine.dnom.ss01;
+    sub nine.numr by nine.numr.ss01;
+    sub nine.sups by nine.sups.ss01;
+    sub nine.subs by nine.subs.ss01;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub l by l.ss02;
+    sub lslash by lslash.ss02;
+    sub lbar by lbar.ss02;
+    sub lmidtilde by lmidtilde.ss02;
+    sub lbelt by lbelt.ss02;
+    sub ldot by ldot.ss02;
+    sub lacute by lacute.ss02;
+    sub lcommaaccent by lcommaaccent.ss02;
+    sub lcaron by lcaron.ss02;
+    sub ldotbelow by ldotbelow.ss02;
+    sub ldotbelow.ss07 by ldotbelow.ss02.ss07;
+    sub ldotbelowmacron by ldotbelowmacron.ss02;
+    sub ldotbelowmacron.ss07 by ldotbelowmacron.ss02.ss07;
+    sub llinebelow by llinebelow.ss02;
+    sub lcircumflexbelow by lcircumflexbelow.ss02;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub u by u.1;
+    sub uacute by uacute.1;
+    sub ubar by ubar.1;
+    sub ubreve by ubreve.1;
+    sub ucaron by ucaron.1;
+    sub ucircumflex by ucircumflex.1;
+    sub ucircumflexbelow by ucircumflexbelow.1;
+    sub udblgrave by udblgrave.1;
+    sub udieresis by udieresis.1;
+    sub udieresis.ss07 by udieresis.1.ss07;
+    sub udieresisacute by udieresisacute.1;
+    sub udieresisacute.ss07 by udieresisacute.1.ss07;
+    sub udieresisbelow by udieresisbelow.1;
+    sub udieresisbelow.ss07 by udieresisbelow.1.ss07;
+    sub udieresiscaron by udieresiscaron.1;
+    sub udieresiscaron.ss07 by udieresiscaron.1.ss07;
+    sub udieresisgrave by udieresisgrave.1;
+    sub udieresisgrave.ss07 by udieresisgrave.1.ss07;
+    sub udieresismacron by udieresismacron.1;
+    sub udieresismacron.ss07 by udieresismacron.1.ss07;
+    sub udotbelow by udotbelow.1;
+    sub udotbelow.ss07 by udotbelow.1.ss07;
+    sub ugrave by ugrave.1;
+    sub uhookabove by uhookabove.1;
+    sub uhorn by uhorn.1;
+    sub uhornacute by uhornacute.1;
+    sub uhorndotbelow by uhorndotbelow.1;
+    sub uhorndotbelow.ss07 by uhorndotbelow.1.ss07;
+    sub uhorngrave by uhorngrave.1;
+    sub uhornhookabove by uhornhookabove.1;
+    sub uhorntilde by uhorntilde.1;
+    sub uhungarumlaut by uhungarumlaut.1;
+    sub uinvertedbreve by uinvertedbreve.1;
+    sub umacron by umacron.1;
+    sub umacrondieresis by umacrondieresis.1;
+    sub umacrondieresis.ss07 by umacrondieresis.1.ss07;
+    sub uogonek by uogonek.1;
+    sub uring by uring.1;
+    sub utilde by utilde.1;
+    sub utildeacute by utildeacute.1;
+    sub utildebelow by utildebelow.1;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub germandbls by germandbls.1;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub I by I.1;
+    sub Idieresis by Idieresis.1;
+    sub Idieresis.ss07 by Idieresis.1.ss07;
+    sub Idieresisacute by Idieresisacute.1;
+    sub Istroke by Istroke.1;
+    sub Itildebelow by Itildebelow.1;
+    sub Igrave by Igrave.1;
+    sub Iacute by Iacute.1;
+    sub Icircumflex by Icircumflex.1;
+    sub Itilde by Itilde.1;
+    sub Imacron by Imacron.1;
+    sub Ibreve by Ibreve.1;
+    sub Iogonek by Iogonek.1;
+    sub Idotaccent by Idotaccent.1;
+    sub Icaron by Icaron.1;
+    sub Idblgrave by Idblgrave.1;
+    sub Iinvertedbreve by Iinvertedbreve.1;
+    sub Ihookabove by Ihookabove.1;
+    sub Idotbelow by Idotbelow.1;
+    sub uni1F38 by uni1F38.1;
+    sub uni1F39 by uni1F39.1;
+    sub uni1F3A by uni1F3A.1;
+    sub uni1F3B by uni1F3B.1;
+    sub uni1F3C by uni1F3C.1;
+    sub uni1F3D by uni1F3D.1;
+    sub uni1F3E by uni1F3E.1;
+    sub uni1F3F by uni1F3F.1;
+    sub uni1FD8 by uni1FD8.1;
+    sub uni1FD9 by uni1FD9.1;
+    sub uni1FDA by uni1FDA.1;
+    sub uni1FDB by uni1FDB.1;
+    sub afii10055 by afii10055.1;
+    sub Yi-cy by Yi-cy.1;
+    sub Yi-cy.ss07 by Yi-cy.1.ss07;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub three by three.1;
+    sub three.tf by three.1.tf;
+    sub three.squared by three.1.squared;
+    sub three.circled by three.1.circled;
+    sub three.dnom by three.dnom.ss01;
+    sub three.numr by three.numr.ss01;
+    sub three.sups by three.sups.ss01;
+    sub three.subs by three.subs.ss01;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub G by G.1;
+    sub Gbar by Gbar.1;
+    sub Ghook by Ghook.1;
+    sub Gcircumflex by Gcircumflex.1;
+    sub Gbreve by Gbreve.1;
+    sub Gdotaccent by Gdotaccent.1;
+    sub Gdotaccent.ss07 by Gdotaccent.1.ss07;
+    sub Gcommaaccent by Gcommaaccent.1;
+    sub Gcaron by Gcaron.1;
+    sub Gacute by Gacute.1;
+    sub Gmacron by Gmacron.1;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub f by f.1;
+    sub fdotaccent by fdotaccent.1;
+    sub fdotaccent.ss07 by fdotaccent.1.ss07;
+    sub feng by feng.1;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub t by t.1;
+    sub tpalatalhook by tpalatalhook.1;
+    sub tcedilla by tcedilla.1;
+    sub tcaron by tcaron.1;
+    sub tcommaaccent by tcommaaccent.1;
+    sub tdotaccent by tdotaccent.1;
+    sub tdotaccent.ss07 by tdotaccent.1.ss07;
+    sub tdotbelow by tdotbelow.1;
+    sub tdotbelow.ss07 by tdotbelow.1.ss07;
+    sub tlinebelow by tlinebelow.1;
+    sub tcircumflexbelow by tcircumflexbelow.1;
+    sub tdieresis by tdieresis.1;
+    sub tdieresis.ss07 by tdieresis.1.ss07;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub Germandbls by Germandbls.1;
+    sub a by a.2;
+    sub aacute by aacute.2;
+    sub abreve by abreve.2;
+    sub abreveacute by abreveacute.2;
+    sub abrevedotbelow by abrevedotbelow.2;
+    sub abrevegrave by abrevegrave.2;
+    sub abrevehookabove by abrevehookabove.2;
+    sub abrevetilde by abrevetilde.2;
+    sub acaron by acaron.2;
+    sub acircumflex by acircumflex.2;
+    sub acircumflexacute by acircumflexacute.2;
+    sub acircumflexdotbelow by acircumflexdotbelow.2;
+    sub acircumflexgrave by acircumflexgrave.2;
+    sub acircumflexhookabove by acircumflexhookabove.2;
+    sub acircumflextilde by acircumflextilde.2;
+    sub adblgrave by adblgrave.2;
+    sub adieresis by adieresis.2;
+    sub adieresismacron by adieresismacron.2;
+    sub adotaccent by adotaccent.2;
+    sub adotbelow by adotbelow.2;
+    sub adotmacron by adotmacron.2;
+    sub agrave by agrave.2;
+    sub ahookabove by ahookabove.2;
+    sub ainvertedbreve by ainvertedbreve.2;
+    sub amacron by amacron.2;
+    sub aogonek by aogonek.2;
+    sub arighthalfring by arighthalfring.2;
+    sub aring by aring.2;
+    sub aringacute by aringacute.2;
+    sub aringbelow by aringbelow.2;
+    sub atilde by atilde.2;
+    sub aturn by aturn.2;
+    sub acyrillic by acyrillic.2;
+    sub abrevecyrillic by abrevecyrillic.2;
+    sub abrevedotbelow.ss07 by abrevedotbelow.2.ss07;
+    sub acircumflexdotbelow.ss07 by acircumflexdotbelow.2.ss07;
+    sub adieresis.ss07 by adieresis.2.ss07;
+    sub adieresismacron.ss07 by adieresismacron.2.ss07;
+    sub adotaccent.ss07 by adotaccent.2.ss07;
+    sub adotbelow.ss07 by adotbelow.2.ss07;
+    sub a.sups by a.2.sups;
+    sub a.subs by a.2.subs;
+} salt;
+
+feature ss01 {
+    # notes:
+    # Name: 
+        featureNames {
+        name "Open digits";
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub three by three.1;
+    sub three.tf by three.1.tf;
+    sub three.squared by three.1.squared;
+    sub three.circled by three.1.circled;
+    sub three.dnom by three.dnom.ss01;
+    sub three.numr by three.numr.ss01;
+    sub three.sups by three.sups.ss01;
+    sub three.subs by three.subs.ss01;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub four by four.ss01;
+    sub four.tf by four.tf.ss01;
+    sub four.squared by four.ss01.squared;
+    sub four.circled by four.ss01.circled;
+    sub four.dnom by four.dnom.ss01;
+    sub four.numr by four.numr.ss01;
+    sub four.sups by four.sups.ss01;
+    sub four.subs by four.subs.ss01;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub six by six.ss01;
+    sub six.tf by six.tf.ss01;
+    sub six.squared by six.ss01.squared;
+    sub six.circled by six.ss01.circled;
+    sub six.dnom by six.dnom.ss01;
+    sub six.numr by six.numr.ss01;
+    sub six.sups by six.sups.ss01;
+    sub six.subs by six.subs.ss01;
+    # Note: don't use cvParameters here since this file is included in salt
+    sub nine by nine.ss01;
+    sub nine.tf by nine.tf.ss01;
+    sub nine.squared by nine.ss01.squared;
+    sub nine.circled by nine.ss01.circled;
+    sub nine.dnom by nine.dnom.ss01;
+    sub nine.numr by nine.numr.ss01;
+    sub nine.sups by nine.sups.ss01;
+    sub nine.subs by nine.subs.ss01;
+} ss01;
+
+feature ss02 {
+    # notes:
+    # Name: 
+        featureNames {
+        name "Disambiguation";
+    };
+
+    # Note: All by zero should be synchronized with ss04
+    # Note: Glyphs will go crazy if we use include() inside these files,
+    # so we instead copy-paste.
+    # l
+    sub l by l.ss02;
+    sub lslash by lslash.ss02;
+    sub lbar by lbar.ss02;
+    sub lmidtilde by lmidtilde.ss02;
+    sub lbelt by lbelt.ss02;
+    sub ldot by ldot.ss02;
+    sub lacute by lacute.ss02;
+    sub lcommaaccent by lcommaaccent.ss02;
+    sub lcaron by lcaron.ss02;
+    sub ldotbelow by ldotbelow.ss02;
+    sub ldotbelowmacron by ldotbelowmacron.ss02;
+    sub llinebelow by llinebelow.ss02;
+    sub lcircumflexbelow by lcircumflexbelow.ss02;
+    # germandbls
+    sub germandbls by germandbls.1;
+    # I
+    sub I by I.1;
+    sub Idieresis by Idieresis.1;
+    sub Idieresisacute by Idieresisacute.1;
+    sub Istroke by Istroke.1;
+    sub Itildebelow by Itildebelow.1;
+    sub Igrave by Igrave.1;
+    sub Iacute by Iacute.1;
+    sub Icircumflex by Icircumflex.1;
+    sub Itilde by Itilde.1;
+    sub Imacron by Imacron.1;
+    sub Ibreve by Ibreve.1;
+    sub Iogonek by Iogonek.1;
+    sub Idotaccent by Idotaccent.1;
+    sub Icaron by Icaron.1;
+    sub Idblgrave by Idblgrave.1;
+    sub Iinvertedbreve by Iinvertedbreve.1;
+    sub Ihookabove by Ihookabove.1;
+    sub Idotbelow by Idotbelow.1;
+    sub uni1F38 by uni1F38.1;
+    sub uni1F39 by uni1F39.1;
+    sub uni1F3A by uni1F3A.1;
+    sub uni1F3B by uni1F3B.1;
+    sub uni1F3C by uni1F3C.1;
+    sub uni1F3D by uni1F3D.1;
+    sub uni1F3E by uni1F3E.1;
+    sub uni1F3F by uni1F3F.1;
+    sub uni1FD8 by uni1FD8.1;
+    sub uni1FD9 by uni1FD9.1;
+    sub uni1FDA by uni1FDA.1;
+    sub uni1FDB by uni1FDB.1;
+    sub afii10055 by afii10055.1;
+    sub Yi-cy by Yi-cy.1;
+    # zero
+    sub zero by zero.slash;
+    sub zero.tf by zero.tf.slash;
+    sub zero.squared by zero.slash.squared;
+    sub zero.circled by zero.slash.circled;
+} ss02;
+
+feature ss03 {
+        featureNames {
+        name "Round quotes & commas";
+    };
+
+    # automatic
+    sub comma.dnom by comma.dnom.ss03;
+    sub comma.numr by comma.numr.ss03;
+    sub Gcommaaccent by Gcommaaccent.ss03;
+    sub Gcommaaccent.1 by Gcommaaccent.1.ss03;
+    sub Kcommaaccent by Kcommaaccent.ss03;
+    sub Lcommaaccent by Lcommaaccent.ss03;
+    sub Ncommaaccent by Ncommaaccent.ss03;
+    sub Rcommaaccent by Rcommaaccent.ss03;
+    sub Scommaaccent by Scommaaccent.ss03;
+    sub kcommaaccent by kcommaaccent.ss03;
+    sub lcommaaccent by lcommaaccent.ss03;
+    sub lcommaaccent.ss02 by lcommaaccent.ss02.ss03;
+    sub ncommaaccent by ncommaaccent.ss03;
+    sub rcommaaccent by rcommaaccent.ss03;
+    sub scommaaccent by scommaaccent.ss03;
+    sub tcommaaccent by tcommaaccent.ss03;
+    sub tcommaaccent.1 by tcommaaccent.1.ss03;
+    sub commaaccent by commaaccent.ss03;
+    sub comma by comma.ss03;
+    sub semicolon by semicolon.ss03;
+    sub reversedsemicolon by reversedsemicolon.ss03;
+    sub quotedblleft by quotedblleft.ss03;
+    sub quotedblright by quotedblright.ss03;
+    sub quoteleft by quoteleft.ss03;
+    sub quoteright by quoteright.ss03;
+    sub quotereversed by quotereversed.ss03;
+    sub quotedblreversed by quotedblreversed.ss03;
+    sub quotesinglbase by quotesinglbase.ss03;
+    sub quotedblbase by quotedblbase.ss03;
+} ss03;
+
+feature ss04 {
+    # notes:
+    # Name: 
+        featureNames {
+        name "Disambiguation (no slashed zero)";
+    };
+
+    # Note: Should be synchronized with ss02
+    # l
+    sub l by l.ss02;
+    sub lslash by lslash.ss02;
+    sub lbar by lbar.ss02;
+    sub lmidtilde by lmidtilde.ss02;
+    sub lbelt by lbelt.ss02;
+    sub ldot by ldot.ss02;
+    sub lacute by lacute.ss02;
+    sub lcommaaccent by lcommaaccent.ss02;
+    sub lcaron by lcaron.ss02;
+    sub ldotbelow by ldotbelow.ss02;
+    sub ldotbelowmacron by ldotbelowmacron.ss02;
+    sub llinebelow by llinebelow.ss02;
+    sub lcircumflexbelow by lcircumflexbelow.ss02;
+    # germandbls
+    sub germandbls by germandbls.1;
+    # I
+    sub I by I.1;
+    sub Idieresis by Idieresis.1;
+    sub Idieresisacute by Idieresisacute.1;
+    sub Istroke by Istroke.1;
+    sub Itildebelow by Itildebelow.1;
+    sub Igrave by Igrave.1;
+    sub Iacute by Iacute.1;
+    sub Icircumflex by Icircumflex.1;
+    sub Itilde by Itilde.1;
+    sub Imacron by Imacron.1;
+    sub Ibreve by Ibreve.1;
+    sub Iogonek by Iogonek.1;
+    sub Idotaccent by Idotaccent.1;
+    sub Icaron by Icaron.1;
+    sub Idblgrave by Idblgrave.1;
+    sub Iinvertedbreve by Iinvertedbreve.1;
+    sub Ihookabove by Ihookabove.1;
+    sub Idotbelow by Idotbelow.1;
+    sub uni1F38 by uni1F38.1;
+    sub uni1F39 by uni1F39.1;
+    sub uni1F3A by uni1F3A.1;
+    sub uni1F3B by uni1F3B.1;
+    sub uni1F3C by uni1F3C.1;
+    sub uni1F3D by uni1F3D.1;
+    sub uni1F3E by uni1F3E.1;
+    sub uni1F3F by uni1F3F.1;
+    sub uni1FD8 by uni1FD8.1;
+    sub uni1FD9 by uni1FD9.1;
+    sub uni1FDA by uni1FDA.1;
+    sub uni1FDB by uni1FDB.1;
+    sub afii10055 by afii10055.1;
+    sub Yi-cy by Yi-cy.1;
+} ss04;
+
+feature ss05 {
+        featureNames {
+        name "Circled characters";
+    };
+
+    sub A by A.circled;
+    sub B by B.circled;
+    sub C by C.circled;
+    sub D by D.circled;
+    sub E by E.circled;
+    sub F by F.circled;
+    sub G by G.circled;
+    sub H by H.circled;
+    sub I by I.circled;
+    sub J by J.circled;
+    sub K by K.circled;
+    sub L by L.circled;
+    sub M by M.circled;
+    sub N by N.circled;
+    sub O by O.circled;
+    sub P by P.circled;
+    sub Q by Q.circled;
+    sub R by R.circled;
+    sub S by S.circled;
+    sub T by T.circled;
+    sub U by U.circled;
+    sub V by V.circled;
+    sub W by W.circled;
+    sub X by X.circled;
+    sub Y by Y.circled;
+    sub Z by Z.circled;
+    sub zero by zero.circled;
+    sub one by one.circled;
+    sub two by two.circled;
+    sub three by three.circled;
+    sub four by four.circled;
+    sub five by five.circled;
+    sub six by six.circled;
+    sub seven by seven.circled;
+    sub eight by eight.circled;
+    sub nine by nine.circled;
+    sub zero.slash by zero.slash.circled;
+    sub one.ss01 by one.ss01.circled;
+    sub three.1 by three.1.circled;
+    sub four.ss01 by four.ss01.circled;
+    sub six.ss01 by six.ss01.circled;
+    sub nine.ss01 by nine.ss01.circled;
+    sub exclam by exclam.circled;
+    sub question by question.circled;
+    sub numbersign by numbersign.circled;
+    sub hyphen by hyphen.circled;
+    sub less by less.circled;
+    sub greater by greater.circled;
+    sub equal by equal.circled;
+    sub plus by plus.circled;
+    sub minus by minus.circled;
+    sub fraction by fraction.circled;
+    sub multiply by multiply.circled;
+    sub divide by divide.circled;
+    sub upArrow by upArrow.circled;
+    sub downArrow by downArrow.circled;
+    sub downArrowToBar by downArrowToBar.circled;
+    sub leftArrow by leftArrow.circled;
+    sub rightArrow by rightArrow.circled;
+    sub dngb_check by dngb_check.circled;
+    sub dngb_ballotx by dngb_ballotx.circled;
+    sub hyphen.case by hyphen.circled;
+    sub less.case by less.circled;
+    sub greater.case by greater.circled;
+    sub equal.case by equal.circled;
+    sub plus.case by plus.circled;
+    sub minus.case by minus.circled;
+    sub multiply.case by multiply.circled;
+    sub divide.case by divide.circled;
+    sub leftArrow.case by leftArrow.circled;
+    sub rightArrow.case by rightArrow.circled;
+} ss05;
+
+feature ss06 {
+        featureNames {
+        name "Squared characters";
+    };
+
+    sub A by A.squared;
+    sub B by B.squared;
+    sub C by C.squared;
+    sub D by D.squared;
+    sub E by E.squared;
+    sub F by F.squared;
+    sub G by G.squared;
+    sub G.1 by G.1.squared;
+    sub H by H.squared;
+    sub I by I.squared;
+    sub J by J.squared;
+    sub K by K.squared;
+    sub L by L.squared;
+    sub M by M.squared;
+    sub N by N.squared;
+    sub O by O.squared;
+    sub P by P.squared;
+    sub Q by Q.squared;
+    sub R by R.squared;
+    sub S by S.squared;
+    sub T by T.squared;
+    sub U by U.squared;
+    sub V by V.squared;
+    sub W by W.squared;
+    sub X by X.squared;
+    sub Y by Y.squared;
+    sub Z by Z.squared;
+    sub zero by zero.squared;
+    sub one by one.squared;
+    sub two by two.squared;
+    sub three by three.squared;
+    sub four by four.squared;
+    sub five by five.squared;
+    sub six by six.squared;
+    sub seven by seven.squared;
+    sub eight by eight.squared;
+    sub nine by nine.squared;
+    sub zero.slash by zero.slash.squared;
+    sub one.ss01 by one.ss01.squared;
+    sub three.1 by three.1.squared;
+    sub four.ss01 by four.ss01.squared;
+    sub six.ss01 by six.ss01.squared;
+    sub nine.ss01 by nine.ss01.squared;
+    sub exclam by exclam.squared;
+    sub question by question.squared;
+    sub numbersign by numbersign.squared;
+    sub hyphen by hyphen.squared;
+    sub less by less.squared;
+    sub greater by greater.squared;
+    sub equal by equal.squared;
+    sub plus by plus.squared;
+    sub minus by minus.squared;
+    sub fraction by fraction.squared;
+    sub multiply by multiply.squared;
+    sub divide by divide.squared;
+    sub upArrow by upArrow.squared;
+    sub downArrow by downArrow.squared;
+    sub downArrowToBar by downArrowToBar.squared;
+    sub leftArrow by leftArrow.squared;
+    sub rightArrow by rightArrow.squared;
+    sub dngb_check by dngb_check.squared;
+    sub dngb_ballotx by dngb_ballotx.squared;
+    sub hyphen.case by hyphen.squared;
+    sub less.case by less.squared;
+    sub greater.case by greater.squared;
+    sub equal.case by equal.squared;
+    sub plus.case by plus.squared;
+    sub minus.case by minus.squared;
+    sub multiply.case by multiply.squared;
+    sub divide.case by divide.squared;
+    sub leftArrow.case by leftArrow.squared;
+    sub rightArrow.case by rightArrow.squared;
+} ss06;
+
+feature ss07 {
+        featureNames {
+        name "Square punctuation";
+    };
+
+    # automatic
+    sub comma.dnom by comma.dnom.ss07;
+    sub comma.numr by comma.numr.ss07;
+    sub Abrevedotbelow by Abrevedotbelow.ss07;
+    sub Acircumflexdotbelow by Acircumflexdotbelow.ss07;
+    sub Adieresis by Adieresis.ss07;
+    sub Adieresismacron by Adieresismacron.ss07;
+    sub Adotbelow by Adotbelow.ss07;
+    sub Bdotaccent by Bdotaccent.ss07;
+    sub Bdotbelow by Bdotbelow.ss07;
+    sub Cdotaccent by Cdotaccent.ss07;
+    sub Ddotaccent by Ddotaccent.ss07;
+    sub Ddotbelow by Ddotbelow.ss07;
+    sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss07;
+    sub Edieresis by Edieresis.ss07;
+    sub Edotaccent by Edotaccent.ss07;
+    sub Edotbelow by Edotbelow.ss07;
+    sub Fdotaccent by Fdotaccent.ss07;
+    sub Gdotaccent by Gdotaccent.ss07;
+    sub Hdieresis by Hdieresis.ss07;
+    sub Hdotaccent by Hdotaccent.ss07;
+    sub Hdotbelow by Hdotbelow.ss07;
+    sub Idieresis by Idieresis.ss07;
+    sub Idieresisacute by Idieresisacute.ss07;
+    sub Idotaccent by Idotaccent.ss07;
+    sub Idotbelow by Idotbelow.ss07;
+    sub Kdotbelow by Kdotbelow.ss07;
+    sub Ldotbelow by Ldotbelow.ss07;
+    sub Ldotbelowmacron by Ldotbelowmacron.ss07;
+    sub Mdotaccent by Mdotaccent.ss07;
+    sub Mdotbelow by Mdotbelow.ss07;
+    sub Ndotaccent by Ndotaccent.ss07;
+    sub Ndotbelow by Ndotbelow.ss07;
+    sub Ocircumflexdotbelow by Ocircumflexdotbelow.ss07;
+    sub Odieresis by Odieresis.ss07;
+    sub Odotbelow by Odotbelow.ss07;
+    sub Ohorndotbelow by Ohorndotbelow.ss07;
+    sub Otildedieresis by Otildedieresis.ss07;
+    sub Pdotaccent by Pdotaccent.ss07;
+    sub Rdotaccent by Rdotaccent.ss07;
+    sub Rdotbelow by Rdotbelow.ss07;
+    sub Rdotbelowmacron by Rdotbelowmacron.ss07;
+    sub Scarondotaccent by Scarondotaccent.ss07;
+    sub Sdotaccent by Sdotaccent.ss07;
+    sub Sdotbelow by Sdotbelow.ss07;
+    sub Sdotbelowdotaccent by Sdotbelowdotaccent.ss07;
+    sub Tdotaccent by Tdotaccent.ss07;
+    sub Tdotbelow by Tdotbelow.ss07;
+    sub Udieresis by Udieresis.ss07;
+    sub Udieresisacute by Udieresisacute.ss07;
+    sub Udieresisbelow by Udieresisbelow.ss07;
+    sub Udieresiscaron by Udieresiscaron.ss07;
+    sub Udieresisgrave by Udieresisgrave.ss07;
+    sub Udieresismacron by Udieresismacron.ss07;
+    sub Udotbelow by Udotbelow.ss07;
+    sub Uhorndotbelow by Uhorndotbelow.ss07;
+    sub Umacrondieresis by Umacrondieresis.ss07;
+    sub Vdotbelow by Vdotbelow.ss07;
+    sub Wdieresis by Wdieresis.ss07;
+    sub Wdotaccent by Wdotaccent.ss07;
+    sub Wdotbelow by Wdotbelow.ss07;
+    sub Xdieresis by Xdieresis.ss07;
+    sub Xdotaccent by Xdotaccent.ss07;
+    sub Ydieresis by Ydieresis.ss07;
+    sub Ydotaccent by Ydotaccent.ss07;
+    sub Ydotbelow by Ydotbelow.ss07;
+    sub Zdotaccent by Zdotaccent.ss07;
+    sub Zdotbelow by Zdotbelow.ss07;
+    sub Gdotaccent.1 by Gdotaccent.1.ss07;
+    sub Idieresis.1 by Idieresis.1.ss07;
+    sub Idieresisacute.1 by Idieresisacute.1.ss07;
+    sub Idotaccent.1 by Idotaccent.1.ss07;
+    sub Idotbelow.1 by Idotbelow.1.ss07;
+    sub abrevedotbelow by abrevedotbelow.ss07;
+    sub acircumflexdotbelow by acircumflexdotbelow.ss07;
+    sub adieresis by adieresis.ss07;
+    sub adieresismacron by adieresismacron.ss07;
+    sub adotaccent by adotaccent.ss07;
+    sub adotbelow by adotbelow.ss07;
+    sub abrevedotbelow.2 by abrevedotbelow.2.ss07;
+    sub acircumflexdotbelow.2 by acircumflexdotbelow.2.ss07;
+    sub adieresis.2 by adieresis.2.ss07;
+    sub adieresismacron.2 by adieresismacron.2.ss07;
+    sub adotaccent.2 by adotaccent.2.ss07;
+    sub adotbelow.2 by adotbelow.2.ss07;
+    sub bdotaccent by bdotaccent.ss07;
+    sub bdotbelow by bdotbelow.ss07;
+    sub cdotaccent by cdotaccent.ss07;
+    sub ddotaccent by ddotaccent.ss07;
+    sub ddotbelow by ddotbelow.ss07;
+    sub ecircumflexdotbelow by ecircumflexdotbelow.ss07;
+    sub edieresis by edieresis.ss07;
+    sub edotaccent by edotaccent.ss07;
+    sub edotbelow by edotbelow.ss07;
+    sub fdotaccent by fdotaccent.ss07;
+    sub gdotaccent by gdotaccent.ss07;
+    sub hdieresis by hdieresis.ss07;
+    sub hdotaccent by hdotaccent.ss07;
+    sub hdotbelow by hdotbelow.ss07;
+    sub i by i.ss07;
+    sub idieresis by idieresis.ss07;
+    sub idieresisacute by idieresisacute.ss07;
+    sub idotbelow by idotbelow.ss07;
+    sub iogonek by iogonek.ss07;
+    sub j by j.ss07;
+    sub kdotbelow by kdotbelow.ss07;
+    sub ldot by ldot.ss07;
+    sub ldotbelow by ldotbelow.ss07;
+    sub ldotbelowmacron by ldotbelowmacron.ss07;
+    sub mdotaccent by mdotaccent.ss07;
+    sub mdotbelow by mdotbelow.ss07;
+    sub ndotaccent by ndotaccent.ss07;
+    sub ndotbelow by ndotbelow.ss07;
+    sub ocircumflexdotbelow by ocircumflexdotbelow.ss07;
+    sub odieresis by odieresis.ss07;
+    sub odotbelow by odotbelow.ss07;
+    sub ohorndotbelow by ohorndotbelow.ss07;
+    sub otildedieresis by otildedieresis.ss07;
+    sub pdotaccent by pdotaccent.ss07;
+    sub rdotaccent by rdotaccent.ss07;
+    sub rdotbelow by rdotbelow.ss07;
+    sub rdotbelowmacron by rdotbelowmacron.ss07;
+    sub sacutedotaccent by sacutedotaccent.ss07;
+    sub scarondotaccent by scarondotaccent.ss07;
+    sub sdotaccent by sdotaccent.ss07;
+    sub sdotbelow by sdotbelow.ss07;
+    sub sdotbelowdotaccent by sdotbelowdotaccent.ss07;
+    sub tdieresis by tdieresis.ss07;
+    sub tdotaccent by tdotaccent.ss07;
+    sub tdotbelow by tdotbelow.ss07;
+    sub udieresis by udieresis.ss07;
+    sub udieresisacute by udieresisacute.ss07;
+    sub udieresisbelow by udieresisbelow.ss07;
+    sub udieresiscaron by udieresiscaron.ss07;
+    sub udieresisgrave by udieresisgrave.ss07;
+    sub udieresismacron by udieresismacron.ss07;
+    sub udotbelow by udotbelow.ss07;
+    sub uhorndotbelow by uhorndotbelow.ss07;
+    sub umacrondieresis by umacrondieresis.ss07;
+    sub vdotbelow by vdotbelow.ss07;
+    sub wdieresis by wdieresis.ss07;
+    sub wdotaccent by wdotaccent.ss07;
+    sub wdotbelow by wdotbelow.ss07;
+    sub xdieresis by xdieresis.ss07;
+    sub xdotaccent by xdotaccent.ss07;
+    sub ydieresis by ydieresis.ss07;
+    sub ydotaccent by ydotaccent.ss07;
+    sub ydotbelow by ydotbelow.ss07;
+    sub zdotaccent by zdotaccent.ss07;
+    sub zdotbelow by zdotbelow.ss07;
+    sub abrevedotbelow.1 by abrevedotbelow.1.ss07;
+    sub acircumflexdotbelow.1 by acircumflexdotbelow.1.ss07;
+    sub adieresis.1 by adieresis.1.ss07;
+    sub adieresismacron.1 by adieresismacron.1.ss07;
+    sub adotaccent.1 by adotaccent.1.ss07;
+    sub adotbelow.1 by adotbelow.1.ss07;
+    sub fdotaccent.1 by fdotaccent.1.ss07;
+    sub ldot.ss02 by ldot.ss02.ss07;
+    sub ldotbelow.ss02 by ldotbelow.ss02.ss07;
+    sub ldotbelowmacron.ss02 by ldotbelowmacron.ss02.ss07;
+    sub tdieresis.1 by tdieresis.1.ss07;
+    sub tdotaccent.1 by tdotaccent.1.ss07;
+    sub tdotbelow.1 by tdotbelow.1.ss07;
+    sub udieresis.1 by udieresis.1.ss07;
+    sub udieresisacute.1 by udieresisacute.1.ss07;
+    sub udieresisbelow.1 by udieresisbelow.1.ss07;
+    sub udieresiscaron.1 by udieresiscaron.1.ss07;
+    sub udieresisgrave.1 by udieresisgrave.1.ss07;
+    sub udieresismacron.1 by udieresismacron.1.ss07;
+    sub udotbelow.1 by udotbelow.1.ss07;
+    sub uhorndotbelow.1 by uhorndotbelow.1.ss07;
+    sub umacrondieresis.1 by umacrondieresis.1.ss07;
+    sub Yi-cy by Yi-cy.ss07;
+    sub Yi-cy.1 by Yi-cy.1.ss07;
+    sub edieresis-cy by edieresis-cy.ss07;
+    sub iotadieresis by iotadieresis.ss07;
+    sub upsilondieresis by upsilondieresis.ss07;
+    sub upsilondieresistonos by upsilondieresistonos.ss07;
+    sub anoteleia by anoteleia.ss07;
+    sub period by period.ss07;
+    sub comma by comma.ss07;
+    sub colon by colon.ss07;
+    sub semicolon by semicolon.ss07;
+    sub ellipsis by ellipsis.ss07;
+    sub exclam by exclam.ss07;
+    sub question by question.ss07;
+    sub periodcentered by periodcentered.ss07;
+    sub reversedsemicolon by reversedsemicolon.ss07;
+    sub colon.case by colon.case.ss07;
+    sub period.tf by period.tf.ss07;
+    sub comma.tf by comma.tf.ss07;
+    sub colon.tf by colon.tf.ss07;
+    sub semicolon.tf by semicolon.tf.ss07;
+    sub colon.case.tf by colon.case.tf.ss07;
+    sub raisedcolonmod by raisedcolonmod.ss07;
+    sub dieresistonos by dieresistonos.ss07;
+    sub dialytikavaria by dialytikavaria.ss07;
+    sub dialytikaoxia by dialytikaoxia.ss07;
+    sub dialytikaperispomeni by dialytikaperispomeni.ss07;
+    sub dieresiscomb by dieresiscomb.ss07;
+    sub dotaccentcomb by dotaccentcomb.ss07;
+    sub dotaboverightcomb by dotaboverightcomb.ss07;
+    sub fourdotsabovecomb by fourdotsabovecomb.ss07;
+    sub threedotsabovecomb by threedotsabovecomb.ss07;
+    sub tripleunderdotcomb by tripleunderdotcomb.ss07;
+    sub dieresis by dieresis.ss07;
+    sub dotaccent by dotaccent.ss07;
+    sub dieresis.three by dieresis.three.ss07;
+    sub jcrosstail by jcrosstail.ss07;
+    sub slongdotaccent by slongdotaccent.ss07;
+    sub dotbelow by dotbelow.ss07;
+    sub onedotleader by onedotleader.ss07;
+    sub diaeresistonoscomb by diaeresistonoscomb.ss07;
+    sub dotdblsubcomb by dotdblsubcomb.ss07;
+    sub acutedotcomb.lc by acutedotcomb.lc.ss07;
+    sub carondot.lc by carondot.lc.ss07;
+    sub carondot.uc by carondot.uc.ss07;
+    sub dieresisacutecomb.lc by dieresisacutecomb.lc.ss07;
+    sub dieresisacutecomb.uc by dieresisacutecomb.uc.ss07;
+    sub dieresiscaroncomb.lc by dieresiscaroncomb.lc.ss07;
+    sub dieresiscaroncomb.uc by dieresiscaroncomb.uc.ss07;
+    sub dieresisgravecomb.lc by dieresisgravecomb.lc.ss07;
+    sub dieresisgravecomb.uc by dieresisgravecomb.uc.ss07;
+    sub dieresismacroncomb.lc by dieresismacroncomb.lc.ss07;
+    sub dieresismacroncomb.uc by dieresismacroncomb.uc.ss07;
+    sub macrondieresiscomb.cn by macrondieresiscomb.cn.ss07;
+    sub macrondieresiscomb.lc by macrondieresiscomb.lc.ss07;
+    sub tildedieresiscomb.lc by tildedieresiscomb.lc.ss07;
+    sub tildedieresiscomb.uc by tildedieresiscomb.uc.ss07;
+    sub Gcommaaccent by Gcommaaccent.ss07;
+    sub Gcommaaccent.1 by Gcommaaccent.1.ss07;
+    sub Kcommaaccent by Kcommaaccent.ss07;
+    sub Lcommaaccent by Lcommaaccent.ss07;
+    sub Ncommaaccent by Ncommaaccent.ss07;
+    sub Rcommaaccent by Rcommaaccent.ss07;
+    sub Scommaaccent by Scommaaccent.ss07;
+    sub kcommaaccent by kcommaaccent.ss07;
+    sub lcommaaccent by lcommaaccent.ss07;
+    sub lcommaaccent.ss02 by lcommaaccent.ss02.ss07;
+    sub ncommaaccent by ncommaaccent.ss07;
+    sub rcommaaccent by rcommaaccent.ss07;
+    sub scommaaccent by scommaaccent.ss07;
+    sub tcommaaccent by tcommaaccent.ss07;
+    sub tcommaaccent.1 by tcommaaccent.1.ss07;
+    sub commaaccent by commaaccent.ss07;
+} ss07;
+
+feature ss08 {
+        featureNames {
+        name "Square quotes";
+    };
+
+    # automatic
+    sub quotesinglbase by quotesinglbase.ss08;
+    sub quotedblbase by quotedblbase.ss08;
+    sub quotedblleft by quotedblleft.ss08;
+    sub quotedblright by quotedblright.ss08;
+    sub quoteleft by quoteleft.ss08;
+    sub quoteright by quoteright.ss08;
+    sub quotereversed by quotereversed.ss08;
+    sub quotedblreversed by quotedblreversed.ss08;
+} ss08;
+
+feature cv01 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate one";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub one by one.ss01;
+    sub one.tf by one.tf.ss01;
+    sub one.squared by one.ss01.squared;
+    sub one.circled by one.ss01.circled;
+    sub one.numr by one.numr.ss01;
+    sub one.dnom by one.dnom.ss01;
+    sub one.sups by one.sups.ss01;
+    sub one.subs by one.subs.ss01;
+} cv01;
+
+feature cv02 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Open four";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub four by four.ss01;
+    sub four.tf by four.tf.ss01;
+    sub four.squared by four.ss01.squared;
+    sub four.circled by four.ss01.circled;
+    sub four.dnom by four.dnom.ss01;
+    sub four.numr by four.numr.ss01;
+    sub four.sups by four.sups.ss01;
+    sub four.subs by four.subs.ss01;
+} cv02;
+
+feature cv03 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Open six";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub six by six.ss01;
+    sub six.tf by six.tf.ss01;
+    sub six.squared by six.ss01.squared;
+    sub six.circled by six.ss01.circled;
+    sub six.dnom by six.dnom.ss01;
+    sub six.numr by six.numr.ss01;
+    sub six.sups by six.sups.ss01;
+    sub six.subs by six.subs.ss01;
+} cv03;
+
+feature cv04 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Open nine";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub nine by nine.ss01;
+    sub nine.tf by nine.tf.ss01;
+    sub nine.squared by nine.ss01.squared;
+    sub nine.circled by nine.ss01.circled;
+    sub nine.dnom by nine.dnom.ss01;
+    sub nine.numr by nine.numr.ss01;
+    sub nine.sups by nine.sups.ss01;
+    sub nine.subs by nine.subs.ss01;
+} cv04;
+
+feature cv05 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Lower-case L with tail";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub l by l.ss02;
+    sub lslash by lslash.ss02;
+    sub lbar by lbar.ss02;
+    sub lmidtilde by lmidtilde.ss02;
+    sub lbelt by lbelt.ss02;
+    sub ldot by ldot.ss02;
+    sub lacute by lacute.ss02;
+    sub lcommaaccent by lcommaaccent.ss02;
+    sub lcaron by lcaron.ss02;
+    sub ldotbelow by ldotbelow.ss02;
+    sub ldotbelow.ss07 by ldotbelow.ss02.ss07;
+    sub ldotbelowmacron by ldotbelowmacron.ss02;
+    sub ldotbelowmacron.ss07 by ldotbelowmacron.ss02.ss07;
+    sub llinebelow by llinebelow.ss02;
+    sub lcircumflexbelow by lcircumflexbelow.ss02;
+} cv05;
+
+feature cv06 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Simplified u";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub u by u.1;
+    sub uacute by uacute.1;
+    sub ubar by ubar.1;
+    sub ubreve by ubreve.1;
+    sub ucaron by ucaron.1;
+    sub ucircumflex by ucircumflex.1;
+    sub ucircumflexbelow by ucircumflexbelow.1;
+    sub udblgrave by udblgrave.1;
+    sub udieresis by udieresis.1;
+    sub udieresis.ss07 by udieresis.1.ss07;
+    sub udieresisacute by udieresisacute.1;
+    sub udieresisacute.ss07 by udieresisacute.1.ss07;
+    sub udieresisbelow by udieresisbelow.1;
+    sub udieresisbelow.ss07 by udieresisbelow.1.ss07;
+    sub udieresiscaron by udieresiscaron.1;
+    sub udieresiscaron.ss07 by udieresiscaron.1.ss07;
+    sub udieresisgrave by udieresisgrave.1;
+    sub udieresisgrave.ss07 by udieresisgrave.1.ss07;
+    sub udieresismacron by udieresismacron.1;
+    sub udieresismacron.ss07 by udieresismacron.1.ss07;
+    sub udotbelow by udotbelow.1;
+    sub udotbelow.ss07 by udotbelow.1.ss07;
+    sub ugrave by ugrave.1;
+    sub uhookabove by uhookabove.1;
+    sub uhorn by uhorn.1;
+    sub uhornacute by uhornacute.1;
+    sub uhorndotbelow by uhorndotbelow.1;
+    sub uhorndotbelow.ss07 by uhorndotbelow.1.ss07;
+    sub uhorngrave by uhorngrave.1;
+    sub uhornhookabove by uhornhookabove.1;
+    sub uhorntilde by uhorntilde.1;
+    sub uhungarumlaut by uhungarumlaut.1;
+    sub uinvertedbreve by uinvertedbreve.1;
+    sub umacron by umacron.1;
+    sub umacrondieresis by umacrondieresis.1;
+    sub umacrondieresis.ss07 by umacrondieresis.1.ss07;
+    sub uogonek by uogonek.1;
+    sub uring by uring.1;
+    sub utilde by utilde.1;
+    sub utildeacute by utildeacute.1;
+    sub utildebelow by utildebelow.1;
+} cv06;
+
+feature cv07 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate sharp s";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub germandbls by germandbls.1;
+} cv07;
+
+feature cv08 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Upper-case i with serif";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub I by I.1;
+    sub Idieresis by Idieresis.1;
+    sub Idieresis.ss07 by Idieresis.1.ss07;
+    sub Idieresisacute by Idieresisacute.1;
+    sub Istroke by Istroke.1;
+    sub Itildebelow by Itildebelow.1;
+    sub Igrave by Igrave.1;
+    sub Iacute by Iacute.1;
+    sub Icircumflex by Icircumflex.1;
+    sub Itilde by Itilde.1;
+    sub Imacron by Imacron.1;
+    sub Ibreve by Ibreve.1;
+    sub Iogonek by Iogonek.1;
+    sub Idotaccent by Idotaccent.1;
+    sub Icaron by Icaron.1;
+    sub Idblgrave by Idblgrave.1;
+    sub Iinvertedbreve by Iinvertedbreve.1;
+    sub Ihookabove by Ihookabove.1;
+    sub Idotbelow by Idotbelow.1;
+    sub uni1F38 by uni1F38.1;
+    sub uni1F39 by uni1F39.1;
+    sub uni1F3A by uni1F3A.1;
+    sub uni1F3B by uni1F3B.1;
+    sub uni1F3C by uni1F3C.1;
+    sub uni1F3D by uni1F3D.1;
+    sub uni1F3E by uni1F3E.1;
+    sub uni1F3F by uni1F3F.1;
+    sub uni1FD8 by uni1FD8.1;
+    sub uni1FD9 by uni1FD9.1;
+    sub uni1FDA by uni1FDA.1;
+    sub uni1FDB by uni1FDB.1;
+    sub afii10055 by afii10055.1;
+    sub Yi-cy by Yi-cy.1;
+    sub Yi-cy.ss07 by Yi-cy.1.ss07;
+} cv08;
+
+feature cv09 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Flat-top three";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub three by three.1;
+    sub three.tf by three.1.tf;
+    sub three.squared by three.1.squared;
+    sub three.circled by three.1.circled;
+    sub three.dnom by three.dnom.ss01;
+    sub three.numr by three.numr.ss01;
+    sub three.sups by three.sups.ss01;
+    sub three.subs by three.subs.ss01;
+} cv09;
+
+feature cv10 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Capital G with spur";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub G by G.1;
+    sub Gbar by Gbar.1;
+    sub Ghook by Ghook.1;
+    sub Gcircumflex by Gcircumflex.1;
+    sub Gbreve by Gbreve.1;
+    sub Gdotaccent by Gdotaccent.1;
+    sub Gdotaccent.ss07 by Gdotaccent.1.ss07;
+    sub Gcommaaccent by Gcommaaccent.1;
+    sub Gcaron by Gcaron.1;
+    sub Gacute by Gacute.1;
+    sub Gmacron by Gmacron.1;
+} cv10;
+
+feature cv11 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Single-story a";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub a by a.1;
+    sub aacute by aacute.1;
+    sub abreve by abreve.1;
+    sub abreveacute by abreveacute.1;
+    sub abrevedotbelow by abrevedotbelow.1;
+    sub abrevegrave by abrevegrave.1;
+    sub abrevehookabove by abrevehookabove.1;
+    sub abrevetilde by abrevetilde.1;
+    sub acaron by acaron.1;
+    sub acircumflex by acircumflex.1;
+    sub acircumflexacute by acircumflexacute.1;
+    sub acircumflexdotbelow by acircumflexdotbelow.1;
+    sub acircumflexgrave by acircumflexgrave.1;
+    sub acircumflexhookabove by acircumflexhookabove.1;
+    sub acircumflextilde by acircumflextilde.1;
+    sub adblgrave by adblgrave.1;
+    sub adieresis by adieresis.1;
+    sub adieresis.ss07 by adieresis.1.ss07;
+    sub adieresismacron by adieresismacron.1;
+    sub adieresismacron.ss07 by adieresismacron.1.ss07;
+    sub adotaccent by adotaccent.1;
+    sub adotaccent.ss07 by adotaccent.1.ss07;
+    sub adotbelow by adotbelow.1;
+    sub adotmacron by adotmacron.1;
+    sub agrave by agrave.1;
+    sub ahookabove by ahookabove.1;
+    sub ainvertedbreve by ainvertedbreve.1;
+    sub amacron by amacron.1;
+    sub aogonek by aogonek.1;
+    sub arighthalfring by arighthalfring.1;
+    sub aring by aring.1;
+    sub aringacute by aringacute.1;
+    sub aringbelow by aringbelow.1;
+    sub atilde by atilde.1;
+    sub acyrillic by a.1;
+    # acyrillic is just a reference to /a
+    sub a.sups by a.1.sups;
+    sub a.subs by a.1.subs;
+} cv11;
+
+feature cv12 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Compact f";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub f by f.1;
+    sub fdotaccent by fdotaccent.1;
+    sub fdotaccent.ss07 by fdotaccent.1.ss07;
+    sub feng by feng.1;
+} cv12;
+
+feature cv13 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Compact t";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub t by t.1;
+    sub tpalatalhook by tpalatalhook.1;
+    sub tcedilla by tcedilla.1;
+    sub tcaron by tcaron.1;
+    sub tcommaaccent by tcommaaccent.1;
+    sub tdotaccent by tdotaccent.1;
+    sub tdotaccent.ss07 by tdotaccent.1.ss07;
+    sub tdotbelow by tdotbelow.1;
+    sub tdotbelow.ss07 by tdotbelow.1.ss07;
+    sub tlinebelow by tlinebelow.1;
+    sub tcircumflexbelow by tcircumflexbelow.1;
+    sub tdieresis by tdieresis.1;
+    sub tdieresis.ss07 by tdieresis.1.ss07;
+} cv13;
+
+feature cv14 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Alternate capital sharp S";
+        };
+
+    };
+
+    # Note: don't use cvParameters here since this file is included in salt
+    sub Germandbls by Germandbls.1;
+} cv14;
+
+feature cv15 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Simplified tabular one";
+        };
+
+    };
+
+    sub one.tf by one.tf.2;
+    sub one.tf.ss01 by one.tf.2.ss01;
+} cv15;
+
+feature cv16 {
+        cvParameters {
+                FeatUILabelNameID {
+            name "Lower-case a with tail";
+        };
+
+    };
+
+    sub a by a.2;
+    sub aacute by aacute.2;
+    sub abreve by abreve.2;
+    sub abreveacute by abreveacute.2;
+    sub abrevedotbelow by abrevedotbelow.2;
+    sub abrevegrave by abrevegrave.2;
+    sub abrevehookabove by abrevehookabove.2;
+    sub abrevetilde by abrevetilde.2;
+    sub acaron by acaron.2;
+    sub acircumflex by acircumflex.2;
+    sub acircumflexacute by acircumflexacute.2;
+    sub acircumflexdotbelow by acircumflexdotbelow.2;
+    sub acircumflexgrave by acircumflexgrave.2;
+    sub acircumflexhookabove by acircumflexhookabove.2;
+    sub acircumflextilde by acircumflextilde.2;
+    sub adblgrave by adblgrave.2;
+    sub adieresis by adieresis.2;
+    sub adieresismacron by adieresismacron.2;
+    sub adotaccent by adotaccent.2;
+    sub adotbelow by adotbelow.2;
+    sub adotmacron by adotmacron.2;
+    sub agrave by agrave.2;
+    sub ahookabove by ahookabove.2;
+    sub ainvertedbreve by ainvertedbreve.2;
+    sub amacron by amacron.2;
+    sub aogonek by aogonek.2;
+    sub arighthalfring by arighthalfring.2;
+    sub aring by aring.2;
+    sub aringacute by aringacute.2;
+    sub aringbelow by aringbelow.2;
+    sub atilde by atilde.2;
+    sub aturn by aturn.2;
+    sub acyrillic by acyrillic.2;
+    sub abrevecyrillic by abrevecyrillic.2;
+    sub abrevedotbelow.ss07 by abrevedotbelow.2.ss07;
+    sub acircumflexdotbelow.ss07 by acircumflexdotbelow.2.ss07;
+    sub adieresis.ss07 by adieresis.2.ss07;
+    sub adieresismacron.ss07 by adieresismacron.2.ss07;
+    sub adotaccent.ss07 by adotaccent.2.ss07;
+    sub adotbelow.ss07 by adotbelow.2.ss07;
+    sub a.sups by a.2.sups;
+    sub a.subs by a.2.subs;
+} cv16;

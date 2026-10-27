@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="copyright" format="2">
+  <advance width="1825"/>
+  <unicode hex="00A9"/>
+  <note>
+Stroke R: 116
+Stroke B: 160
+</note>
+  <outline>
+    <contour>
+      <point x="491" y="744" type="curve" smooth="yes"/>
+      <point x="490" y="509"/>
+      <point x="682" y="317"/>
+      <point x="920" y="317" type="curve" smooth="yes"/>
+      <point x="1126" y="317"/>
+      <point x="1285" y="463"/>
+      <point x="1311" y="655" type="curve"/>
+      <point x="1131" y="655" type="line"/>
+      <point x="1111" y="562"/>
+      <point x="1029" y="496"/>
+      <point x="920" y="496" type="curve" smooth="yes"/>
+      <point x="779" y="496"/>
+      <point x="663" y="607"/>
+      <point x="663" y="744" type="curve" smooth="yes"/>
+      <point x="663" y="882"/>
+      <point x="779" y="994"/>
+      <point x="920" y="994" type="curve" smooth="yes"/>
+      <point x="1029" y="994"/>
+      <point x="1126" y="927"/>
+      <point x="1146" y="835" type="curve"/>
+      <point x="1326" y="835" type="line"/>
+      <point x="1299" y="1026"/>
+      <point x="1126" y="1171"/>
+      <point x="920" y="1171" type="curve" smooth="yes"/>
+      <point x="682" y="1171"/>
+      <point x="490" y="980"/>
+    </contour>
+    <component base="circlewhite"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>circleblack</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>circleblack</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

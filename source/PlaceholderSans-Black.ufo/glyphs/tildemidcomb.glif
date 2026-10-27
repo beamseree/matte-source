@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildemidcomb" format="2">
+  <advance width="30"/>
+  <unicode hex="EEC6"/>
+  <anchor x="-683" y="261" name="_top"/>
+  <anchor x="-681" y="713" name="top"/>
+  <outline>
+    <component base="tildecomb" xOffset="-1179" yOffset="-857"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>tildecomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+    </dict>
+  </lib>
+</glyph>

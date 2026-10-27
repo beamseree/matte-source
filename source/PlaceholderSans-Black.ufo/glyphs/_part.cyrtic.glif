@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.cyrtic" format="2">
+  <advance width="592"/>
+  <anchor x="379" y="0" name="_cyrtic"/>
+  <outline>
+    <contour>
+      <point x="139" y="-320" type="line"/>
+      <point x="525" y="-320" type="line"/>
+      <point x="549" y="300" type="line"/>
+      <point x="43" y="300" type="line"/>
+      <point x="43" y="0" type="line"/>
+      <point x="139" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=50</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=50</string>
+    </dict>
+  </lib>
+</glyph>

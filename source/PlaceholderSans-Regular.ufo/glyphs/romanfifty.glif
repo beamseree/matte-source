@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="romanfifty" format="2">
+  <advance width="1146"/>
+  <unicode hex="216C"/>
+  <anchor x="603" y="0" name="bottom"/>
+  <anchor x="369" y="745" name="cross"/>
+  <anchor x="593" y="808" name="dot"/>
+  <anchor x="607" y="1490" name="raccent"/>
+  <anchor x="238" y="1490" name="top"/>
+  <outline>
+    <component base="L"/>
+  </outline>
+</glyph>

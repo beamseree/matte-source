@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright.sups" format="2">
+  <advance width="433"/>
+  <unicode hex="E0A8"/>
+  <anchor x="252" y="1253" name="cross"/>
+  <outline>
+    <contour>
+      <point x="101" y="774" type="line"/>
+      <point x="275" y="774" type="line"/>
+      <point x="275" y="1732" type="line"/>
+      <point x="101" y="1732" type="line"/>
+      <point x="101" y="1689" type="line"/>
+      <point x="229" y="1689" type="line"/>
+      <point x="229" y="816" type="line"/>
+      <point x="101" y="816" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>10</integer>
+        <key>custom</key>
+        <integer>-3</integer>
+        <key>height</key>
+        <real>51.5</real>
+        <key>verticalShift</key>
+        <integer>916</integer>
+        <key>weight</key>
+        <integer>3</integer>
+        <key>width</key>
+        <integer>66</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|bracketleft.sups</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|bracketleft.sups</string>
+    </dict>
+  </lib>
+</glyph>

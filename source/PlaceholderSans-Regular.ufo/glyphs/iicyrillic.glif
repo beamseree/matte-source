@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iicyrillic" format="2">
+  <advance width="1188"/>
+  <unicode hex="0438"/>
+  <guideline x="972" y="1944" angle="90"/>
+  <anchor x="1053" y="0" name="cyrtic"/>
+  <anchor x="594" y="1076" name="top"/>
+  <outline>
+    <contour>
+      <point x="1053" y="0" type="line"/>
+      <point x="1053" y="1076" type="line"/>
+      <point x="872" y="1076" type="line"/>
+      <point x="343" y="350" type="line"/>
+      <point x="330" y="350" type="line"/>
+      <point x="330" y="1076" type="line"/>
+      <point x="136" y="1076" type="line"/>
+      <point x="136" y="0" type="line"/>
+      <point x="317" y="0" type="line"/>
+      <point x="845" y="725" type="line"/>
+      <point x="857" y="725" type="line"/>
+      <point x="857" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
+</glyph>
