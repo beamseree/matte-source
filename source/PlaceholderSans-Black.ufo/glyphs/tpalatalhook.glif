@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tpalatalhook" format="2">
-  <advance width="835"/>
+  <advance width="813"/>
   <unicode hex="01AB"/>
   <anchor x="457" y="0" name="bottom"/>
   <anchor x="501" y="0" name="cedilla"/>

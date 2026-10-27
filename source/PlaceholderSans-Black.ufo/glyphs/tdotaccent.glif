@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdotaccent" format="2">
-  <advance width="846"/>
+  <advance width="824"/>
   <unicode hex="1E6B"/>
   <anchor x="457" y="0" name="bottom"/>
   <anchor x="501" y="0" name="cedilla"/>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="t" format="2">
-  <advance width="837"/>
+  <advance width="815"/>
   <unicode hex="0074"/>
   <anchor x="457" y="0" name="bottom"/>
   <anchor x="501" y="0" name="cedilla"/>
@@ -9,10 +9,10 @@
   <anchor x="711" y="1562" name="raccent"/>
   <outline>
     <contour>
-      <point x="801" y="1076" type="line"/>
+      <point x="779" y="1076" type="line"/>
       <point x="7" y="1076" type="line"/>
       <point x="7" y="807" type="line"/>
-      <point x="801" y="807" type="line"/>
+      <point x="779" y="807" type="line"/>
     </contour>
     <component base="_part.t_base" xOffset="-12"/>
   </outline>

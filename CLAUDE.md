@@ -20,9 +20,8 @@ See README.md for the file layout, setup and commands.
   layout and scale as mockup.svg), **including its stroke weights**: l stem 353, I stem
   377, H bar 327, against the SVG's 352, 377 and 327 and Inter's 402, 404 and 326. Black
   is low-contrast like Regular, and its lowercase stems are lighter than its capital
-  stems (`weight_v_lower`). Ink error mean 2.0 (the largest are t, 22 units wider than
-  the mockup's because its stem is: 374 against 352, and S, see below), gap error mean
-  5.2; the largest gap
+  stems (`weight_v_lower`). Ink error mean 1.6 (the largest is S, see below), gap error
+  mean 5.2; the largest gap
   errors are word spaces ("BROWN FOX" −55, "quick brown" −49), uneven in the mockup
   itself. It was first fitted to the screenshot `mockup-black.webp` (against the SVG:
   ink 9.7, gap 14.6). Black's guides are the SVG's outlines, except f, g, y and
@@ -60,7 +59,10 @@ See README.md for the file layout, setup and commands.
   letters and in real text. Where our curves differ from the mockups', the cut lands
   away from the mockup's corners along its line: S's upper terminal by 20–50 units, and
   Black S's lower tip ends 23 right of the mockup's (our outer curve turns sooner), which
-  makes S's left side 23 looser in Black. Leave that for the spacing pass.
+  makes S's left side 23 looser in Black. Leave that for the spacing pass. The same
+  script makes Black's f and t stems 352, like its other lowercase stems (350–357) and
+  the mockup's: they came out of the fit at 373 and 374. Black t now matches the mockup
+  exactly (stem, crossbar and foot) and is 22 units narrower.
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -82,8 +84,7 @@ See README.md for the file layout, setup and commands.
   the leg, the mockup's 428; leg join; Regular 15%), B (Black's middle bar 250 thick,
   the mockup's 303), r (the arm's end hangs about 100 lower in the mockups), the n, m, h
   and u shoulders (slightly heavy where the arch meets the stem), j (Regular's hook,
-  14%), f and t in Black (stems 373 and 374, the mockup's and our other lowercase stems
-  about 352; f's crossbar 293 thick, the mockup's 269), Thin's t foot (its corners are
+  14%), f in Black (crossbar 293 thick, the mockup's 269), Thin's t foot (its corners are
   50–60 units tighter than Thin's f top; in the mockups t's foot is f's top upside down,
   within about 5 units in Regular and 15 in Black, and so are ours there), and
   Regular's O and Q bowl (6%). `fit.py` still holds t's ink factor at 1.12, but
@@ -142,7 +143,11 @@ See README.md for the file layout, setup and commands.
   extended along their own path to the SVG's cut line (`TERMINALS`, x from the letter's
   left edge for C and G, right edge for S, which the cuts don't move). Thin's
   screenshot is too blurred to show terminals, so Thin tilts its own cuts about their
-  middles to Regular's angles. Every glyph built on these keeps its right sidebearing.
+  middles to Regular's angles. `STEM` sets f's and t's stems where a master's came out
+  heavier than its other lowercase stems (Black: 352), by moving the stem's right edge:
+  f's inner corner moves with it (`_part.f_base` points 1–5), t's foot is rebuilt from
+  the new edge, and t's crossbar is re-placed with redraw.py's `set_t_bar`, so it's
+  right whichever script runs first. Every glyph built on these keeps its right sidebearing.
   `to_ufo.py` runs it after redraw.py. Small curve differences are left alone at the
   user's request: the user wants changes that alter a letter's construction (like f's
   top, y's tail, t's foot, the terminal angles).

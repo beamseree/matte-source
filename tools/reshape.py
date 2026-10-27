@@ -1,14 +1,19 @@
-"""Reshape t's foot, the C, G and S terminals and P's bowl to match the mockups.
+"""Reshape t's foot, the C, G and S terminals and P's bowl to match the mockups, and set
+f's and t's stems where they're heavier than the master's other lowercase stems.
 
 These are the places where Inter's construction differs from the mockups', rather than
 its curves:
 
 - t: the mockups end the stem in a flat foot with an upright cut, like f's top
   (`_part.f_base`), where Inter curves it up into a hook. `_part.t_base`, which t and t.1
-  share, becomes 12 points: the stem's edges and top stay, and FOOT gives the foot's bottom
-  and top, how far it reaches past the stem's right edge, and its two curves. The foot
-  now reaches past the crossbar, as in the mockups, so t, t.1 and every glyph built on
-  them keep their right sidebearings and get wider.
+  share, becomes 12 points: the stem's left edge and top stay, and FOOT gives the foot's
+  bottom and top, how far it reaches past the stem's right edge, and its two curves. The
+  foot now reaches past the crossbar, as in the mockups, so t, t.1 and every glyph built
+  on them keep their right sidebearings and get wider.
+- f and t stems: STEM sets them in masters where they came out heavier than the other
+  lowercase stems, by moving the stem's right edge and everything on it (f's inner
+  corner, t's foot, and t's crossbar, which tools/redraw.py places from the stem's edges).
+  The left edge, f's terminal and f's crossbar stay where they are.
 - C, G and S: the mockups cut the terminals at an angle (8-20 degrees), where Inter's are
   flat. Each terminal is cut along the mockup's line from TERMINALS: the curves on either
   side are trimmed, or extended along their own path, to meet it, so the letter keeps its
@@ -23,6 +28,7 @@ glyph keeps its right sidebearing. Running it again changes nothing.
 Usage: python tools/reshape.py source/PlaceholderSans-*.ufo
 """
 
+import os
 import re
 import sys
 
@@ -30,6 +36,14 @@ import numpy as np
 import ufoLib2
 from fontTools.ufoLib.glifLib import GlyphSet
 from ufoLib2.objects import Point
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import redraw  # noqa: E402
+
+# f's and t's stem width where it differs from the master's other lowercase stems. Black's
+# came out 373 (f) and 374 (t), against 350-357 for i, l, n, r and the rest, and the
+# mockup's 352 for both.
+STEM = {"Black": 352}
 
 # t's foot, from mockup.svg (Regular) and mockup-black.svg (Black): its bottom and top, how
 # far it reaches past the stem's right edge, and its outer curve (leaving the stem, down to
@@ -143,11 +157,13 @@ def set_terminals(font, glyph, master):
         cut(contour, i, a, b)
 
 
-def set_foot(glyph, foot):
+def set_foot(glyph, foot, stem=None):
     pts = glyph.contours[0].points
     (left, top), (right, top_right) = (pts[0].x, pts[0].y), (pts[-1].x, pts[-1].y)
     if len(glyph.contours) != 1 or top != top_right:
         raise ValueError("_part.t_base: expected one contour from the stem's top-left to its top-right")
+    if stem:
+        right = left + stem
     bottom, foot_top, end = foot["bottom"], foot["top"], right + foot["reach"]
     o = [(left + x, bottom + y) for x, y in foot["outer"]]
     i = [(right + x, foot_top + y) for x, y in foot["inner"]]
@@ -156,6 +172,16 @@ def set_foot(glyph, foot):
              (*i[0], "line"), (*i[1], None), (*i[2], None), (*i[3], "curve"), (right, top, "line")]
     smooth = {1, 4, 7, 10}  # where the curves meet the stem and the foot
     pts[:] = [Point(round(x), round(y), t, k in smooth) for k, (x, y, t) in enumerate(shape)]
+
+
+def set_f_stem(glyph, stem):
+    """Move the right edge of f's stem, with its inner corner, to make the stem `stem` wide."""
+    pts = glyph.contours[0].points
+    if len(glyph.contours) != 1 or len(pts) != 12 or pts[0].y != 0 or pts[1].y != 0:
+        raise ValueError("_part.f_base: expected the 12-point flat-topped f, from the stem's foot")
+    shift = pts[0].x + stem - pts[1].x
+    for p in pts[1:6]:  # the stem's right edge, up its inner corner to the top's underside
+        p.x += shift
 
 
 def set_bowl(glyph, bar):
@@ -192,15 +218,19 @@ def outline(font, name):
 
 def apply(ufo, master):
     """Reshape the letters in `ufo`; returns the names of the glyphs that changed."""
-    touched = users(ufo, ("_part.t_base", "P", *TERMINALS))
+    touched = users(ufo, ("_part.t_base", "_part.f_base", "P", *TERMINALS))
     before = {name: outline(ufo, name) for name in touched}
     right = {name: ufo[name].getBounds(ufo).xMax for name in touched if ufo[name].getBounds(ufo)}
-    set_foot(ufo["_part.t_base"], FOOT[master])
+    stem = STEM.get(master)
+    set_foot(ufo["_part.t_base"], FOOT[master], stem)
+    if stem:
+        set_f_stem(ufo["_part.f_base"], stem)
+        redraw.set_t_bar(ufo, ufo["t"], redraw.T_BAR[master])   # placed from the stem's edges
     for name in TERMINALS:
         set_terminals(ufo, ufo[name], master)
     set_bowl(ufo["P"], P_BAR[master])
     for name in right:
-        if name != "_part.t_base":
+        if not name.startswith("_part."):
             ufo[name].width += round(ufo[name].getBounds(ufo).xMax - right[name])
     return sorted(name for name in touched if outline(ufo, name) != before[name])
 
