@@ -14,6 +14,8 @@ its curves:
   lowercase stems, by moving the stem's right edge and everything on it (f's inner
   corner, t's foot, and t's crossbar, which tools/redraw.py places from the stem's edges).
   The left edge, f's terminal and f's crossbar stay where they are.
+- Crossbars: the mockups' f and t bars are the same height. f's, f.1's and t.1's take t's
+  (Black's came out 24 units deeper than t's, which tools/redraw.py sets to the mockup's).
 - C, G and S: the mockups cut the terminals at an angle (8-20 degrees), where Inter's are
   flat. Each terminal is cut along the mockup's line from TERMINALS: the curves on either
   side are trimmed, or extended along their own path, to meet it, so the letter keeps its
@@ -49,13 +51,14 @@ STEM = {"Black": 352}
 # far it reaches past the stem's right edge, and its outer curve (leaving the stem, down to
 # the bottom; from the stem's left edge and the bottom) and inner curve (leaving the foot's
 # top, up to the stem; from the stem's right edge and the top). Black's curves are single
-# cubics fitted to the SVG's two (within 1.3 units). Thin's screenshot only shows the foot
-# reaching 25 units past the crossbar, so its curves are a 46-unit stroke turning the
-# corner the screenshot's does.
+# cubics fitted to the SVG's two (within 1.3 units). In both mockups t's foot is f's top
+# upside down, within a few units; Thin's screenshot is too blurred to measure, so Thin's
+# foot is its own f top (`_part.f_base`) turned upside down: the same curves, reach and
+# 46-unit thickness.
 FOOT = {
-    "Thin": dict(bottom=-4, top=42, reach=296.7,
-                 outer=((0, 213), (0, 85.2), (69.2, 0), (173, 0)),
-                 inner=((127, 0), (50.8, 0), (0, 66.8), (0, 167))),
+    "Thin": dict(bottom=-4, top=42, reach=298,
+                 outer=((0, 213), (0, 80), (82, 0), (235, 0)),
+                 inner=((189, 0), (66, 0), (0, 63), (0, 167))),
     "Regular": dict(bottom=-4.1, top=173.9, reach=281.5,
                     outer=((0, 267), (0, 101.4), (97.3, 0), (281.4, 0)),
                     inner=((113.8, 0), (35.2, 0), (0, 33.1), (0, 107.6))),
@@ -174,6 +177,19 @@ def set_foot(glyph, foot, stem=None):
     pts[:] = [Point(round(x), round(y), t, k in smooth) for k, (x, y, t) in enumerate(shape)]
 
 
+def match_bars(font, names):
+    """Give the crossbars of `names` (each glyph's one four-point contour) t's height."""
+    bar = font["t"].contours[0].points
+    bottom, top = min(p.y for p in bar), max(p.y for p in bar)
+    for name in names:
+        if len(font[name].contours) != 1 or len(font[name].contours[0]) != 4:
+            raise ValueError(f"{name}: expected one four-point crossbar")
+        points = font[name].contours[0].points
+        low = min(p.y for p in points)
+        for p in points:
+            p.y = bottom if p.y == low else top
+
+
 def set_f_stem(glyph, stem):
     """Move the right edge of f's stem, with its inner corner, to make the stem `stem` wide."""
     pts = glyph.contours[0].points
@@ -226,6 +242,7 @@ def apply(ufo, master):
     if stem:
         set_f_stem(ufo["_part.f_base"], stem)
         redraw.set_t_bar(ufo, ufo["t"], redraw.T_BAR[master])   # placed from the stem's edges
+    match_bars(ufo, ("f", "f.1", "t.1"))
     for name in TERMINALS:
         set_terminals(ufo, ufo[name], master)
     set_bowl(ufo["P"], P_BAR[master])

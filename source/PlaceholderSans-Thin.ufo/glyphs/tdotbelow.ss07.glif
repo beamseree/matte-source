@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdotbelow.ss07" format="2">
-  <advance width="443"/>
+  <advance width="444"/>
   <unicode hex="E260"/>
   <anchor x="283" y="0" name="bottom"/>
   <anchor x="283" y="0" name="cedilla"/>

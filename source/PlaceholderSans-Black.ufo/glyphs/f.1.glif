@@ -12,8 +12,8 @@
     <contour>
       <point x="707" y="1076" type="line"/>
       <point x="305" y="1076" type="line"/>
-      <point x="305" y="783" type="line"/>
-      <point x="707" y="783" type="line"/>
+      <point x="305" y="807" type="line"/>
+      <point x="707" y="807" type="line"/>
     </contour>
     <component base="_part.f_base" xOffset="-82"/>
   </outline>
