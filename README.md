@@ -18,6 +18,7 @@ Working family name: "Placeholder Sans".
 | `tools/straighten.py` | Redraws x, X, z, Z with straight strokes from the mockups' measurements (x/X narrowing toward the crossing, Z/z's shorter top bar; also usable on `source/` directly) |
 | `tools/redraw.py` | Redraws N, K, k, w, A, V, v, W, M, Y as the mockups' straight polygons, sets E/F's bars and Q's tail, the t crossbar and i/j dots (also usable on `source/` directly) |
 | `tools/reshape.py` | Rebuilds t's foot (flat, with an upright cut), cuts C, G and S's terminals at the mockups' angles and moves P's bowl bar to the mockups' height, keeping right sidebearings (also usable on `source/` directly) |
+| `tools/kern.py` | Kerns tt, tf, ft and ff so t's and f's crossbars stay 60 units apart in every master (writes only kerning.plist) |
 | `tools/strokes.py` | Compares stroke widths on scanlines, ours (from `source/`) against the mockups; `--check` covers the redrawn letters |
 | `tools/fit.py` | Fits one master's `params.json` values to its mockup, building in `build/fit/`; `--apply` writes that master into `source/` |
 | `tools/svgtarget.py`, `imgtarget.py` | Mockup (SVG or screenshot) → per-letter targets and stems (l, I, H bar) in font units |

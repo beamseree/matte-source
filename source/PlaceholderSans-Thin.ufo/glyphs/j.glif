@@ -8,6 +8,6 @@
   <anchor x="196" y="1467" name="top"/>
   <outline>
     <component base="jdotless"/>
-    <component base="dotaccentcomb" xOffset="57"/>
+    <component base="dotaccentcomb" xOffset="57" yOffset="-33"/>
   </outline>
 </glyph>

@@ -7,8 +7,9 @@ See README.md for the file layout, setup and commands.
 
 ## Status (2026-10-27)
 
-- **Regular** is fitted to `reference/mockup.svg` (fit report: ink error mean 1.0 units,
-  gap error mean 7.2 units, since the redraws below, the new f, t, P and C/G/S terminals).
+- **Regular** is fitted to `reference/mockup.svg` (fit report: ink error mean 0.8 units,
+  gap error mean 7.0 units, since the redraws below, the new f, t, P, C/G/S terminals and
+  i/j dots).
 - **Thin** is fitted to `reference/mockup-thin.webp` (a screenshot, so about ±12 units of
   precision; ink error mean 2.8, gap error mean 9.8). At the user's request Thin keeps
   Inter's stems (46). The image is a shape and proportion reference only: its strokes
@@ -42,8 +43,13 @@ See README.md for the file layout, setup and commands.
   shows the fits had placed those stems about 20–30 units right of the mockups' to make
   up for off-centre dots; and t's longer bar reaches further into its left sidebearing
   (the mockups only show t after a word space, so the fits never set t's left side).
-  The longer bars also join in "tt" and "ft" at 400 and 900. Leave these for the
-  spacing and kerning pass.
+  Leave these for the spacing and kerning pass. The longer bars also met or overlapped
+  in tt, tf, ft and ff; `tools/kern.py` now kerns those pairs so the bars sit 60 units
+  apart at every weight (the user chose 60 over 30 and 100, side by side in real text).
+- **The i/j dots are lower than the mockups'** at the user's request: the mockups' size
+  (Thin's 94 units), moved down by 15% of the space above the x-height. Regular's is
+  240 × 236 with its top at 1485 (the mockup's 1515), Black's 410 × 389 at 1539 (1552),
+  Thin's top at 1434.
 - **t's foot, P's bowl and the C, G and S terminals are reshaped by script**
   (`tools/reshape.py`, see Decisions): t ends in a flat foot with an upright cut, like
   the mockups' and like f's top, reaching about 20 units past the crossbar (25 in Thin),
@@ -76,8 +82,10 @@ See README.md for the file layout, setup and commands.
   the leg, the mockup's 428; leg join; Regular 15%), B (Black's middle bar 250 thick,
   the mockup's 303), r (the arm's end hangs about 100 lower in the mockups), the n, m, h
   and u shoulders (slightly heavy where the arch meets the stem), j (Regular's hook,
-  14%), i and j in Regular (dots 240 wide with their top at 1515, ours 260 and 1548),
-  f in Black (crossbar 293 thick, the mockup's 269; stem 373, the mockup's 352), and
+  14%), f and t in Black (stems 373 and 374, the mockup's and our other lowercase stems
+  about 352; f's crossbar 293 thick, the mockup's 269), Thin's t foot (its corners are
+  50–60 units tighter than Thin's f top; in the mockups t's foot is f's top upside down,
+  within about 5 units in Regular and 15 in Black, and so are ours there), and
   Regular's O and Q bowl (6%). `fit.py` still holds t's ink factor at 1.12, but
   redraw.py and reshape.py now set t's crossbar and foot, so the factor has no effect.
 - Next, with Claude: choose a real name, review figures and punctuation in real text
@@ -119,8 +127,8 @@ See README.md for the file layout, setup and commands.
   is rebuilt with the same points, because a master left with Inter's open corners would
   be erased differently by eraseOpenCorners. The same script sets how far the t
   crossbar reaches past the stem (every master; Black also takes the mockup's bar
-  thickness, 269) and centres the i/j dots over their stems, with Black's at the
-  mockup's size and height (410 × 389, top 1552). The dots change through the
+  thickness, 269) and centres the i/j dots over their stems at `DOTS`'s size and height
+  (the mockups' size, a little lower; see Status). The dots change through the
   dotaccentcomb component's transform in i and j, so other dotted letters keep theirs,
   and ufo2ft decomposes i and j because that transform differs between masters.
   `to_ufo.py` runs it after straighten.py.
@@ -138,6 +146,12 @@ See README.md for the file layout, setup and commands.
   `to_ufo.py` runs it after redraw.py. Small curve differences are left alone at the
   user's request: the user wants changes that alter a letter's construction (like f's
   top, y's tail, t's foot, the terminal angles).
+- t's and f's crossbars stay apart through kerning, not shorter bars (the bars' reach
+  is the mockups'): `tools/kern.py` sets glyph-to-glyph pairs tt, tf, ft and ff to leave
+  `BAR_GAP` (60) between the bars in every master, on top of Inter's group kerning.
+  Glyph pairs, because Inter's t and f kerning groups also hold letters without these
+  bars (public.kern1.t has 56 members, 33 of them t's); accented t's and f's still kern
+  as before. It writes only kerning.plist, and `to_ufo.py` runs it after reshape.py.
 - ȸ and ȹ (uni0238/uni0239) are excluded from the eraseOpenCorners filter in every
   master's lib: once stem weights differ between masters, their overlapping contours
   erase differently and stop interpolating.

@@ -408,6 +408,13 @@
       <key>public.kern2.quotedblleft</key>
       <integer>-69</integer>
     </dict>
+    <key>f</key>
+    <dict>
+      <key>f</key>
+      <integer>12</integer>
+      <key>t</key>
+      <integer>43</integer>
+    </dict>
     <key>five</key>
     <dict>
       <key>public.kern2.asciicircum</key>
@@ -3347,6 +3354,13 @@
       <integer>-93</integer>
       <key>underscore</key>
       <integer>-93</integer>
+    </dict>
+    <key>t</key>
+    <dict>
+      <key>f</key>
+      <integer>-14</integer>
+      <key>t</key>
+      <integer>17</integer>
     </dict>
     <key>tecyrillic</key>
     <dict>

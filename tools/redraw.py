@@ -18,8 +18,8 @@ another. So:
   Thin keeps its own strokes: each curved joint becomes a flat notch where its edges meet.
 - The t crossbar reaches T_BAR's distances past the stem's edges, whatever the stem's
   weight or the fitted ink factor. Black's bar also takes the mockup's thickness.
-- The i and j dots are centred over the stem, and Black's take the mockup's size and
-  height, through the dotaccentcomb component's transform (other letters keep theirs).
+- The i and j dots are centred over the stem and take DOTS's size and height, through
+  the dotaccentcomb component's transform (other letters keep theirs).
 
 Every master gets the same point structure, and no open corners are left for ufo2ft's
 eraseOpenCorners filter to erase differently, so the masters stay compatible. Running it
@@ -99,8 +99,11 @@ W_SHAPES = {
 # ends and the stem's edges inward by the same amount.
 T_BAR = {"Thin": (215.9, 271.7, None), "Regular": (200.7, 260.8, None), "Black": (171.8, 248.3, 269)}
 
-# i and j: dot width, height and top where the mockup's differs from ours.
-DOTS = {"Black": (409.8, 389.1, 1552)}
+# i and j: dot width, height and top. The mockups' dots (Thin's 94 units, centred on its
+# screenshot's), lowered by 15% of the space between them and the x-height: the user found
+# the mockups' sat too high. Regular's mockup dot is 240 x 236 with its top at 1515, Black's
+# 409.8 x 389.1 at 1552, Thin's top at 1481.
+DOTS = {"Thin": (94, 94, 1434), "Regular": (240, 236, 1485), "Black": (409.8, 389.1, 1539)}
 
 # A, V, v, W, M and Y as the mockups' straight polygons, with the same small flat notch at
 # each inner vertex as N and w; E and F with the mockups' bar heights and arm lengths; and
