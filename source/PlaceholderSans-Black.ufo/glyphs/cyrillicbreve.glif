@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cyrillicbreve" format="2">
-  <advance width="1011"/>
+  <advance width="1024"/>
   <unicode hex="E0E6"/>
-  <anchor x="482" y="1118" name="_top"/>
-  <anchor x="482" y="1583" name="top"/>
+  <anchor x="488" y="1118" name="_top"/>
+  <anchor x="488" y="1582" name="top"/>
   <outline>
     <component base="brevecomb" xOffset="12"/>
   </outline>

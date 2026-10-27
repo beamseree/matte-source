@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="xdotaccent" format="2">
-  <advance width="1280"/>
+  <advance width="1294"/>
   <unicode hex="1E8B"/>
-  <anchor x="616" y="0" name="bottom"/>
-  <anchor x="1198" y="0" name="cyrtic"/>
-  <anchor x="1020" y="0" name="right"/>
-  <anchor x="659" y="1603" name="top"/>
+  <anchor x="621" y="0" name="bottom"/>
+  <anchor x="1193" y="0" name="cyrtic"/>
+  <anchor x="1017" y="0" name="right"/>
+  <anchor x="664" y="1600" name="top"/>
   <outline>
     <component base="x"/>
-    <component base="dotaccentcomb" xOffset="330"/>
+    <component base="dotaccentcomb" xOffset="326"/>
   </outline>
 </glyph>

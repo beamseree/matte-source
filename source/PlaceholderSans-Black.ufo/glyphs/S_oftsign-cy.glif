@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Softsign-cy" format="2">
-  <advance width="1378"/>
+  <advance width="1394"/>
   <unicode hex="042C"/>
   <note>
 Rougly speaking, half a /B
 </note>
-  <anchor x="352" y="1240" name="cross"/>
+  <anchor x="362" y="1237" name="cross"/>
   <outline>
     <contour>
-      <point x="328" y="1027" type="line"/>
-      <point x="328" y="711" type="line"/>
-      <point x="697" y="711" type="line" smooth="yes"/>
-      <point x="855" y="711"/>
-      <point x="946" y="644"/>
-      <point x="946" y="523" type="curve" smooth="yes"/>
-      <point x="946" y="395"/>
-      <point x="855" y="325"/>
-      <point x="697" y="325" type="curve" smooth="yes"/>
-      <point x="468" y="325" type="line"/>
-      <point x="468" y="1490" type="line"/>
-      <point x="94" y="1490" type="line"/>
-      <point x="94" y="0" type="line"/>
-      <point x="697" y="0" type="line"/>
-      <point x="1079" y="0"/>
-      <point x="1318" y="200"/>
-      <point x="1318" y="519" type="curve" smooth="yes"/>
-      <point x="1318" y="831"/>
-      <point x="1079" y="1027"/>
-      <point x="697" y="1027" type="curve" smooth="yes"/>
+      <point x="338" y="1023" type="line"/>
+      <point x="338" y="712" type="line"/>
+      <point x="706" y="712" type="line" smooth="yes"/>
+      <point x="864" y="712"/>
+      <point x="954" y="643"/>
+      <point x="954" y="520" type="curve" smooth="yes"/>
+      <point x="954" y="391"/>
+      <point x="864" y="319"/>
+      <point x="706" y="319" type="curve" smooth="yes"/>
+      <point x="479" y="319" type="line"/>
+      <point x="479" y="1490" type="line"/>
+      <point x="102" y="1490" type="line"/>
+      <point x="102" y="0" type="line"/>
+      <point x="706" y="0" type="line"/>
+      <point x="1089" y="0"/>
+      <point x="1329" y="199"/>
+      <point x="1329" y="516" type="curve" smooth="yes"/>
+      <point x="1329" y="828"/>
+      <point x="1089" y="1023"/>
+      <point x="706" y="1023" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

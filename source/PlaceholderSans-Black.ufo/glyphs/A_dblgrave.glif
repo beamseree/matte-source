@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Adblgrave" format="2">
-  <advance width="1547"/>
+  <advance width="1597"/>
   <unicode hex="0200"/>
-  <anchor x="788" y="0" name="bottom"/>
-  <anchor x="1542" y="0" name="ogonek"/>
-  <anchor x="470" y="1490" name="tonos"/>
-  <anchor x="733" y="1955" name="top"/>
+  <anchor x="804" y="0" name="bottom"/>
+  <anchor x="1576" y="0" name="ogonek"/>
+  <anchor x="482" y="1490" name="tonos"/>
+  <anchor x="771" y="1954" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="dblgravecmb" xOffset="-4" yOffset="372"/>
+    <component base="dblgravecmb" xOffset="23" yOffset="372"/>
   </outline>
 </glyph>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oogonekmacron" format="2">
-  <advance width="1271"/>
+  <advance width="1296"/>
   <unicode hex="01ED"/>
   <anchor x="658" y="0" name="bottom"/>
   <anchor x="658" y="538" name="center"/>
-  <anchor x="1220" y="536" name="ogonek"/>
-  <anchor x="630" y="1534" name="top"/>
+  <anchor x="1219" y="535" name="ogonek"/>
+  <anchor x="647" y="1532" name="top"/>
   <anchor x="658" y="1101" name="tophorn"/>
   <outline>
     <component base="oogonek"/>
-    <component base="macroncomb" xOffset="212"/>
+    <component base="macroncomb" xOffset="222"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="P.circled" format="2">
-  <advance width="2897"/>
+  <advance width="2920"/>
   <unicode hex="24C5"/>
-  <anchor x="841" y="1490" name="tonos"/>
-  <anchor x="1440" y="1490" name="top"/>
-  <anchor x="866" y="1490" name="topl"/>
+  <anchor x="851" y="1490" name="tonos"/>
+  <anchor x="1454" y="1490" name="top"/>
+  <anchor x="876" y="1490" name="topl"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="P" xOffset="751"/>
+    <component base="P" xOffset="754"/>
   </outline>
   <lib>
     <dict>

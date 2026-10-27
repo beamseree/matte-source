@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringacute.lc" format="2">
-  <advance width="870"/>
+  <advance width="888"/>
   <unicode hex="EECE"/>
-  <anchor x="435" y="1118" name="_top"/>
+  <anchor x="444" y="1118" name="_top"/>
   <outline>
     <contour>
-      <point x="313" y="1798" type="line"/>
-      <point x="536" y="1798" type="line"/>
-      <point x="750" y="2030" type="line"/>
-      <point x="459" y="2030" type="line"/>
+      <point x="323" y="1796" type="line"/>
+      <point x="547" y="1796" type="line"/>
+      <point x="761" y="2027" type="line"/>
+      <point x="469" y="2027" type="line"/>
     </contour>
     <component base="ringcomb"/>
   </outline>

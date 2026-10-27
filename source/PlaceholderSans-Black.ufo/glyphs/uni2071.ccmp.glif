@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni2071.ccmp" format="2">
-  <advance width="735"/>
+  <advance width="765"/>
   <unicode hex="E0F4"/>
   <outline>
     <contour>
-      <point x="490" y="1374" type="line"/>
-      <point x="252" y="1374" type="line"/>
-      <point x="252" y="562" type="line"/>
-      <point x="490" y="562" type="line"/>
+      <point x="505" y="1374" type="line"/>
+      <point x="266" y="1374" type="line"/>
+      <point x="266" y="562" type="line"/>
+      <point x="505" y="562" type="line"/>
     </contour>
   </outline>
 </glyph>

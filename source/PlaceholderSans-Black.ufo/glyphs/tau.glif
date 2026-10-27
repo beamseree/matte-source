@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tau" format="2">
-  <advance width="1088"/>
+  <advance width="1096"/>
   <unicode hex="03C4"/>
   <outline>
     <contour>
-      <point x="735" y="-17" type="curve" smooth="yes"/>
-      <point x="801" y="-17"/>
-      <point x="874" y="-11"/>
-      <point x="951" y="16" type="curve"/>
-      <point x="906" y="308" type="line"/>
-      <point x="886" y="304"/>
-      <point x="832" y="296"/>
-      <point x="808" y="296" type="curve" smooth="yes"/>
-      <point x="743" y="296"/>
-      <point x="716" y="315"/>
-      <point x="716" y="354" type="curve" smooth="yes"/>
-      <point x="716" y="770" type="line"/>
-      <point x="1067" y="770" type="line"/>
-      <point x="1067" y="1076" type="line"/>
-      <point x="21" y="1076" type="line"/>
-      <point x="21" y="770" type="line"/>
-      <point x="372" y="770" type="line"/>
-      <point x="372" y="316" type="line" smooth="yes"/>
+      <point x="738" y="-17" type="curve" smooth="yes"/>
+      <point x="805" y="-17"/>
+      <point x="879" y="-10"/>
+      <point x="958" y="15" type="curve"/>
+      <point x="913" y="303" type="line"/>
+      <point x="894" y="298"/>
+      <point x="839" y="290"/>
+      <point x="815" y="290" type="curve" smooth="yes"/>
+      <point x="751" y="290"/>
+      <point x="725" y="311"/>
+      <point x="725" y="351" type="curve" smooth="yes"/>
+      <point x="725" y="776" type="line"/>
+      <point x="1074" y="776" type="line"/>
+      <point x="1074" y="1076" type="line"/>
+      <point x="22" y="1076" type="line"/>
+      <point x="22" y="776" type="line"/>
+      <point x="372" y="776" type="line"/>
+      <point x="372" y="314" type="line" smooth="yes"/>
       <point x="372" y="96"/>
-      <point x="497" y="-17"/>
+      <point x="498" y="-17"/>
     </contour>
   </outline>
   <lib>

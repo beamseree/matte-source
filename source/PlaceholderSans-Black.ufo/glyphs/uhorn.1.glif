@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorn.1" format="2">
-  <advance width="1376"/>
+  <advance width="1397"/>
   <unicode hex="EE37"/>
-  <anchor x="642" y="0" name="bottom"/>
-  <anchor x="1177" y="448" name="ogonek"/>
-  <anchor x="642" y="1076" name="top"/>
+  <anchor x="652" y="0" name="bottom"/>
+  <anchor x="1192" y="446" name="ogonek"/>
+  <anchor x="652" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="993" y="830" type="line"/>
-      <point x="1124" y="830" type="line" smooth="yes"/>
-      <point x="1261" y="830"/>
-      <point x="1360" y="904"/>
-      <point x="1360" y="1070" type="curve" smooth="yes"/>
-      <point x="1360" y="1355" type="line"/>
-      <point x="1096" y="1355" type="line"/>
-      <point x="1096" y="1120" type="line" smooth="yes"/>
-      <point x="1096" y="1096"/>
-      <point x="1086" y="1076"/>
-      <point x="1064" y="1076" type="curve" smooth="yes"/>
-      <point x="993" y="1076" type="line"/>
+      <point x="1001" y="835" type="line"/>
+      <point x="1133" y="835" type="line" smooth="yes"/>
+      <point x="1271" y="835"/>
+      <point x="1373" y="908"/>
+      <point x="1373" y="1072" type="curve" smooth="yes"/>
+      <point x="1373" y="1355" type="line"/>
+      <point x="1103" y="1355" type="line"/>
+      <point x="1103" y="1120" type="line" smooth="yes"/>
+      <point x="1103" y="1096"/>
+      <point x="1092" y="1076"/>
+      <point x="1070" y="1076" type="curve" smooth="yes"/>
+      <point x="1001" y="1076" type="line"/>
     </contour>
     <component base="u.1"/>
   </outline>

@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Digamma" format="2">
-  <advance width="1227"/>
+  <advance width="1245"/>
   <unicode hex="03DC"/>
   <outline>
     <contour>
-      <point x="94" y="0" type="line"/>
-      <point x="468" y="0" type="line"/>
-      <point x="468" y="504" type="line"/>
-      <point x="1144" y="504" type="line"/>
-      <point x="1144" y="829" type="line"/>
-      <point x="468" y="829" type="line"/>
-      <point x="468" y="1157" type="line"/>
-      <point x="1144" y="1157" type="line"/>
-      <point x="1144" y="1490" type="line"/>
-      <point x="94" y="1490" type="line"/>
+      <point x="102" y="0" type="line"/>
+      <point x="479" y="0" type="line"/>
+      <point x="479" y="509" type="line"/>
+      <point x="1155" y="509" type="line"/>
+      <point x="1155" y="828" type="line"/>
+      <point x="479" y="828" type="line"/>
+      <point x="479" y="1163" type="line"/>
+      <point x="1155" y="1163" type="line"/>
+      <point x="1155" y="1490" type="line"/>
+      <point x="102" y="1490" type="line"/>
     </contour>
   </outline>
   <lib>

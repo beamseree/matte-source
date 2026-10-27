@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="arrowtabright" format="2">
-  <advance width="2207"/>
+  <advance width="2231"/>
   <unicode hex="21E5"/>
   <note>
 Mirror copy of arrowtableft
 </note>
   <outline>
     <contour>
-      <point x="1055" y="206" type="line"/>
-      <point x="1590" y="744" type="line"/>
-      <point x="1055" y="1282" type="line"/>
+      <point x="1065" y="209" type="line"/>
+      <point x="1601" y="744" type="line"/>
+      <point x="1065" y="1279" type="line"/>
     </contour>
     <contour>
-      <point x="194" y="591" type="line"/>
-      <point x="1290" y="591" type="line"/>
-      <point x="1290" y="899" type="line"/>
-      <point x="194" y="899" type="line"/>
+      <point x="205" y="594" type="line"/>
+      <point x="1301" y="594" type="line"/>
+      <point x="1301" y="896" type="line"/>
+      <point x="205" y="896" type="line"/>
     </contour>
     <contour>
-      <point x="1736" y="208" type="line"/>
-      <point x="2013" y="208" type="line"/>
-      <point x="2013" y="1282" type="line"/>
-      <point x="1736" y="1282" type="line"/>
+      <point x="1747" y="211" type="line"/>
+      <point x="2026" y="211" type="line"/>
+      <point x="2026" y="1279" type="line"/>
+      <point x="1747" y="1279" type="line"/>
     </contour>
   </outline>
 </glyph>

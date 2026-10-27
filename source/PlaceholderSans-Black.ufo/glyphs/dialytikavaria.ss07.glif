@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dialytikavaria.ss07" format="2">
-  <advance width="1591"/>
+  <advance width="1620"/>
   <unicode hex="E2BC"/>
-  <anchor x="792" y="1118" name="_top"/>
-  <anchor x="1138" y="1586" name="top"/>
+  <anchor x="805" y="1118" name="_top"/>
+  <anchor x="1151" y="1586" name="top"/>
   <outline>
-    <component base="dieresistonos.ss07" xScale="-1" xOffset="1591"/>
+    <component base="dieresistonos.ss07" xScale="-1" xOffset="1620"/>
   </outline>
   <lib>
     <dict>

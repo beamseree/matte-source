@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="epsilon1" format="2">
-  <advance width="1141"/>
+  <advance width="1154"/>
   <unicode hex="025B"/>
-  <anchor x="569" y="1076" name="top"/>
-  <anchor x="596" y="0" name="bottom"/>
+  <anchor x="576" y="1076" name="top"/>
+  <anchor x="600" y="0" name="bottom"/>
   <outline>
     <component base="epsilon"/>
   </outline>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Umacrondieresis" format="2">
-  <advance width="1505"/>
+  <advance width="1557"/>
   <unicode hex="1E7A"/>
-  <anchor x="745" y="0" name="bottom"/>
-  <anchor x="1392" y="537" name="ogonek"/>
+  <anchor x="744" y="0" name="bottom"/>
+  <anchor x="1389" y="536" name="ogonek"/>
   <anchor x="868" y="0" name="right"/>
-  <anchor x="1017" y="1490" name="rtophorn"/>
-  <anchor x="745" y="1490" name="top"/>
+  <anchor x="1013" y="1490" name="rtophorn"/>
+  <anchor x="744" y="1490" name="top"/>
   <outline>
     <component base="U"/>
-    <component base="macrondieresiscomb.cn" xOffset="346"/>
+    <component base="macrondieresiscomb.cn" xOffset="352"/>
   </outline>
 </glyph>

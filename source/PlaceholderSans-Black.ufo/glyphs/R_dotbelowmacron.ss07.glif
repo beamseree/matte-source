@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rdotbelowmacron.ss07" format="2">
-  <advance width="1399"/>
+  <advance width="1448"/>
   <unicode hex="E20B"/>
-  <anchor x="698" y="0" name="bottom"/>
-  <anchor x="703" y="1906" name="top"/>
+  <anchor x="721" y="0" name="bottom"/>
+  <anchor x="745" y="1904" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="dotbelow.ss07" xOffset="408"/>
-    <component base="macroncomb" xOffset="285" yOffset="372"/>
+    <component base="dotbelow.ss07" xOffset="425"/>
+    <component base="macroncomb" xOffset="320" yOffset="372"/>
   </outline>
   <lib>
     <dict>

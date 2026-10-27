@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f.1" format="2">
-  <advance width="752"/>
+  <advance width="765"/>
   <unicode hex="EE0D"/>
   <note>
 !flatten
 </note>
-  <anchor x="294" y="0" name="bottom"/>
-  <anchor x="294" y="768" name="cross"/>
-  <anchor x="354" y="1552" name="top"/>
+  <anchor x="307" y="0" name="bottom"/>
+  <anchor x="307" y="768" name="cross"/>
+  <anchor x="366" y="1552" name="top"/>
   <outline>
     <contour>
-      <point x="692" y="1076" type="line"/>
-      <point x="291" y="1076" type="line"/>
-      <point x="291" y="778" type="line"/>
-      <point x="692" y="778" type="line"/>
+      <point x="707" y="1076" type="line"/>
+      <point x="305" y="1076" type="line"/>
+      <point x="305" y="783" type="line"/>
+      <point x="707" y="783" type="line"/>
     </contour>
     <component base="_part.f_base" xOffset="-82"/>
   </outline>

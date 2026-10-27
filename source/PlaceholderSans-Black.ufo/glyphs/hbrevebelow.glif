@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hbrevebelow" format="2">
-  <advance width="1215"/>
+  <advance width="1237"/>
   <unicode hex="1E2B"/>
-  <anchor x="617" y="0" name="bottom"/>
-  <anchor x="295" y="0" name="cedilla"/>
-  <anchor x="355" y="1288" name="cross"/>
-  <anchor x="767" y="0" name="lfthook"/>
-  <anchor x="289" y="1490" name="top"/>
+  <anchor x="631" y="0" name="bottom"/>
+  <anchor x="312" y="0" name="cedilla"/>
+  <anchor x="370" y="1288" name="cross"/>
+  <anchor x="773" y="0" name="lfthook"/>
+  <anchor x="306" y="1490" name="top"/>
   <outline>
     <component base="h"/>
-    <component base="brevesubcomb" xOffset="1287"/>
+    <component base="brevesubcomb" xOffset="1301"/>
   </outline>
 </glyph>

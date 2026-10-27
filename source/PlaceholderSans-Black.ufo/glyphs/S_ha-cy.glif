@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sha-cy" format="2">
-  <advance width="2076"/>
+  <advance width="2096"/>
   <unicode hex="0428"/>
-  <anchor x="1982" y="0" name="cyrtic"/>
-  <anchor x="1038" y="1490" name="top"/>
+  <anchor x="1994" y="0" name="cyrtic"/>
+  <anchor x="1048" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="94" y="1490" type="line"/>
-      <point x="94" y="0" type="line"/>
-      <point x="1982" y="0" type="line"/>
-      <point x="1982" y="1490" type="line"/>
-      <point x="1608" y="1490" type="line"/>
-      <point x="1608" y="333" type="line"/>
-      <point x="1220" y="333" type="line"/>
-      <point x="1220" y="1490" type="line"/>
-      <point x="857" y="1490" type="line"/>
-      <point x="857" y="333" type="line"/>
-      <point x="468" y="333" type="line"/>
-      <point x="468" y="1490" type="line"/>
+      <point x="102" y="1490" type="line"/>
+      <point x="102" y="0" type="line"/>
+      <point x="1994" y="0" type="line"/>
+      <point x="1994" y="1490" type="line"/>
+      <point x="1617" y="1490" type="line"/>
+      <point x="1617" y="327" type="line"/>
+      <point x="1231" y="327" type="line"/>
+      <point x="1231" y="1490" type="line"/>
+      <point x="867" y="1490" type="line"/>
+      <point x="867" y="327" type="line"/>
+      <point x="479" y="327" type="line"/>
+      <point x="479" y="1490" type="line"/>
     </contour>
   </outline>
   <lib>

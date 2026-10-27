@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="periodcentered" format="2">
-  <advance width="759"/>
+  <advance width="781"/>
   <unicode hex="00B7"/>
   <note>
 Sits right in between center of x-height and center of cap height
 </note>
-  <anchor x="55" y="705" name="_centerr"/>
+  <anchor x="66" y="705" name="_centerr"/>
   <outline>
     <component base="period" yOffset="526"/>
   </outline>

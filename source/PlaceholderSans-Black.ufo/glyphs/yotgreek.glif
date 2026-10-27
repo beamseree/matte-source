@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yotgreek" format="2">
-  <advance width="548"/>
+  <advance width="581"/>
   <unicode hex="03F3"/>
-  <anchor x="448" y="0" name="_right"/>
-  <anchor x="220" y="-391" name="bottom"/>
-  <anchor x="278" y="665" name="cross"/>
-  <anchor x="249" y="1603" name="top"/>
+  <anchor x="449" y="0" name="_right"/>
+  <anchor x="224" y="-393" name="bottom"/>
+  <anchor x="282" y="663" name="cross"/>
+  <anchor x="272" y="1600" name="top"/>
   <outline>
     <component base="j"/>
   </outline>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Chook" format="2">
-  <advance width="1578"/>
+  <advance width="1597"/>
   <unicode hex="0187"/>
   <guideline x="-1572"/>
-  <anchor x="824" y="7" name="cedilla"/>
-  <anchor x="827" y="745" name="center"/>
-  <anchor x="831" y="1490" name="top"/>
-  <anchor x="1537" y="943" name="topr"/>
+  <anchor x="820" y="6" name="cedilla"/>
+  <anchor x="823" y="745" name="center"/>
+  <anchor x="827" y="1490" name="top"/>
+  <anchor x="1520" y="946" name="topr"/>
   <outline>
     <component base="C"/>
-    <component base="_part.top_r_hook_C" xOffset="1006" yOffset="16"/>
+    <component base="_part.top_r_hook_C" xOffset="1007" yOffset="16"/>
   </outline>
   <lib>
     <dict>

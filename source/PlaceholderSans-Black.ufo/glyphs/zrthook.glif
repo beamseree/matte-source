@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zrthook" format="2">
-  <advance width="1167"/>
+  <advance width="1199"/>
   <unicode hex="0290"/>
   <guideline x="748" y="656" angle="90"/>
-  <anchor x="585" y="0" name="bottom"/>
-  <anchor x="1110" y="0" name="bottomr"/>
-  <anchor x="583" y="537" name="cross"/>
-  <anchor x="586" y="1076" name="top"/>
+  <anchor x="597" y="0" name="bottom"/>
+  <anchor x="1119" y="0" name="bottomr"/>
+  <anchor x="594" y="537" name="cross"/>
+  <anchor x="597" y="1076" name="top"/>
   <outline>
     <component base="z"/>
-    <component base="_part.bottom_rthook" xOffset="543"/>
+    <component base="_part.bottom_rthook" xOffset="558"/>
   </outline>
   <lib>
     <dict>

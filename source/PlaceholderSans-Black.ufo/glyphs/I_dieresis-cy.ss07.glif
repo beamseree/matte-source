@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idieresis-cy.ss07" format="2">
-  <advance width="1580"/>
+  <advance width="1606"/>
   <unicode hex="E291"/>
-  <anchor x="813" y="0" name="bottom"/>
-  <anchor x="1533" y="0" name="lfthook"/>
-  <anchor x="94" y="0" name="lfthook2"/>
-  <anchor x="772" y="1961" name="top"/>
-  <anchor x="1477" y="0" name="cyrtic"/>
+  <anchor x="808" y="0" name="bottom"/>
+  <anchor x="1514" y="0" name="lfthook"/>
+  <anchor x="102" y="0" name="lfthook2"/>
+  <anchor x="768" y="1958" name="top"/>
+  <anchor x="1447" y="0" name="cyrtic"/>
   <outline>
     <component base="Ii-cy"/>
-    <component base="dieresiscomb.ss07" xOffset="114" yOffset="372"/>
+    <component base="dieresiscomb.ss07" xOffset="103" yOffset="372"/>
   </outline>
   <lib>
     <dict>

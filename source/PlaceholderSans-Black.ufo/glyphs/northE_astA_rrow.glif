@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="northEastArrow" format="2">
-  <advance width="1631"/>
+  <advance width="1660"/>
   <unicode hex="2197"/>
   <outline>
-    <component base="northWestArrow" xScale="-1" xOffset="1631"/>
+    <component base="northWestArrow" xScale="-1" xOffset="1660"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="mdotbelow.ss07" format="2">
-  <advance width="1806"/>
+  <advance width="1844"/>
   <unicode hex="E24B"/>
-  <anchor x="905" y="0" name="bottom"/>
-  <anchor x="1374" y="0" name="lfthook"/>
-  <anchor x="905" y="1076" name="top"/>
+  <anchor x="920" y="0" name="bottom"/>
+  <anchor x="1383" y="0" name="lfthook"/>
+  <anchor x="920" y="1076" name="top"/>
   <outline>
     <component base="m"/>
-    <component base="dotbelow.ss07" xOffset="523"/>
+    <component base="dotbelow.ss07" xOffset="542"/>
   </outline>
   <lib>
     <dict>

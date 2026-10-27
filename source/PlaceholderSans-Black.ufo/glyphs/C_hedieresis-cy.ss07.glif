@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Chedieresis-cy.ss07" format="2">
-  <advance width="1426"/>
+  <advance width="1483"/>
   <unicode hex="E295"/>
-  <anchor x="733" y="674" name="cross"/>
-  <anchor x="1368" y="0" name="cyrtic"/>
-  <anchor x="727" y="1961" name="top"/>
+  <anchor x="743" y="672" name="cross"/>
+  <anchor x="1379" y="0" name="cyrtic"/>
+  <anchor x="754" y="1958" name="top"/>
   <outline>
     <component base="Che-cy"/>
-    <component base="dieresiscomb.ss07" xOffset="69" yOffset="372"/>
+    <component base="dieresiscomb.ss07" xOffset="89" yOffset="372"/>
   </outline>
   <lib>
     <dict>

@@ -9,13 +9,13 @@
   <outline>
     <contour>
       <point x="136" y="0" type="line"/>
-      <point x="340" y="0" type="line"/>
-      <point x="340" y="625" type="line"/>
-      <point x="1071" y="625" type="line"/>
-      <point x="1071" y="814" type="line"/>
-      <point x="340" y="814" type="line"/>
-      <point x="340" y="1299" type="line"/>
-      <point x="1148" y="1299" type="line"/>
+      <point x="339" y="0" type="line"/>
+      <point x="339" y="662" type="line"/>
+      <point x="1067" y="662" type="line"/>
+      <point x="1067" y="853" type="line"/>
+      <point x="339" y="853" type="line"/>
+      <point x="339" y="1300" type="line"/>
+      <point x="1148" y="1300" type="line"/>
       <point x="1148" y="1490" type="line"/>
       <point x="136" y="1490" type="line"/>
     </contour>

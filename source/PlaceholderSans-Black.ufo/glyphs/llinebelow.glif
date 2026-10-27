@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="llinebelow" format="2">
-  <advance width="556"/>
+  <advance width="607"/>
   <unicode hex="1E3B"/>
-  <anchor x="277" y="0" name="bottom"/>
-  <anchor x="450" y="0" name="bottomr"/>
-  <anchor x="450" y="717" name="centerr"/>
-  <anchor x="277" y="739" name="cross"/>
-  <anchor x="575" y="1490" name="raccent"/>
-  <anchor x="278" y="1490" name="top"/>
+  <anchor x="288" y="0" name="bottom"/>
+  <anchor x="465" y="0" name="bottomr"/>
+  <anchor x="465" y="717" name="centerr"/>
+  <anchor x="288" y="739" name="cross"/>
+  <anchor x="588" y="1490" name="raccent"/>
+  <anchor x="289" y="1490" name="top"/>
   <outline>
     <component base="l"/>
-    <component base="macronsub" xOffset="-167"/>
+    <component base="macronsub" xOffset="-131"/>
   </outline>
 </glyph>

@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kacyr" format="2">
-  <advance width="1540"/>
+  <advance width="1556"/>
   <unicode hex="041A"/>
-  <anchor x="1414" y="0" name="cyrtic"/>
-  <anchor x="706" y="1490" name="top"/>
+  <anchor x="1425" y="0" name="cyrtic"/>
+  <anchor x="716" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="94" y="0" type="line"/>
-      <point x="468" y="0" type="line"/>
-      <point x="468" y="599" type="line"/>
-      <point x="620" y="599" type="line"/>
-      <point x="1055" y="0" type="line"/>
-      <point x="1496" y="0" type="line"/>
-      <point x="937" y="762" type="line"/>
-      <point x="1469" y="1490" type="line"/>
-      <point x="1028" y="1490" type="line"/>
-      <point x="626" y="926" type="line"/>
-      <point x="468" y="926" type="line"/>
-      <point x="468" y="1490" type="line"/>
-      <point x="94" y="1490" type="line"/>
+      <point x="102" y="0" type="line"/>
+      <point x="479" y="0" type="line"/>
+      <point x="479" y="602" type="line"/>
+      <point x="631" y="602" type="line"/>
+      <point x="1064" y="0" type="line"/>
+      <point x="1507" y="0" type="line"/>
+      <point x="949" y="762" type="line"/>
+      <point x="1481" y="1490" type="line"/>
+      <point x="1037" y="1490" type="line"/>
+      <point x="636" y="923" type="line"/>
+      <point x="479" y="923" type="line"/>
+      <point x="479" y="1490" type="line"/>
+      <point x="102" y="1490" type="line"/>
     </contour>
   </outline>
   <lib>

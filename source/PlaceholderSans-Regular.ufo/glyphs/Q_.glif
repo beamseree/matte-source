@@ -10,14 +10,14 @@
   <anchor x="823" y="1510" name="tophorn"/>
   <outline>
     <contour>
-      <point x="762" y="478" type="line"/>
-      <point x="1042" y="153" type="line"/>
-      <point x="1087" y="81" type="line"/>
-      <point x="1268" y="-136" type="line"/>
-      <point x="1481" y="-136" type="line"/>
-      <point x="1208" y="190" type="line"/>
-      <point x="1163" y="271" type="line"/>
-      <point x="974" y="478" type="line"/>
+      <point x="766" y="625" type="line"/>
+      <point x="956" y="389" type="line"/>
+      <point x="1146" y="152" type="line"/>
+      <point x="1337" y="-85" type="line"/>
+      <point x="1482" y="39" type="line"/>
+      <point x="1292" y="274" type="line"/>
+      <point x="1102" y="508" type="line"/>
+      <point x="912" y="743" type="line"/>
     </contour>
     <component base="O"/>
   </outline>

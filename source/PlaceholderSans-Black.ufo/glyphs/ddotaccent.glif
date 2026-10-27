@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ddotaccent" format="2">
-  <advance width="1259"/>
+  <advance width="1281"/>
   <unicode hex="1E0B"/>
-  <anchor x="633" y="0" name="bottom"/>
+  <anchor x="635" y="0" name="bottom"/>
   <anchor x="925" y="1288" name="cross"/>
-  <anchor x="425" y="1789" name="top"/>
-  <anchor x="1179" y="1490" name="topbar"/>
-  <anchor x="1196" y="0" name="bottomr"/>
-  <anchor x="1313" y="1490" name="raccent"/>
+  <anchor x="438" y="1786" name="top"/>
+  <anchor x="1182" y="1490" name="topbar"/>
+  <anchor x="1191" y="0" name="bottomr"/>
+  <anchor x="1307" y="1490" name="raccent"/>
   <outline>
     <component base="d"/>
-    <component base="dotaccentcomb" xOffset="96" yOffset="186"/>
+    <component base="dotaccentcomb" xOffset="100" yOffset="186"/>
   </outline>
 </glyph>

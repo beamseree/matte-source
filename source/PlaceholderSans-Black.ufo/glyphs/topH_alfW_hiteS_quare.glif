@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="topHalfWhiteSquare" format="2">
-  <advance width="1888"/>
+  <advance width="1910"/>
   <unicode hex="2B13"/>
   <outline>
     <contour>
-      <point x="334" y="768" type="line"/>
-      <point x="334" y="505" type="line"/>
-      <point x="1555" y="505" type="line"/>
-      <point x="1555" y="768" type="line"/>
+      <point x="347" y="761" type="line"/>
+      <point x="347" y="502" type="line"/>
+      <point x="1566" y="502" type="line"/>
+      <point x="1566" y="761" type="line"/>
     </contour>
     <component base="whiteRoundedCornersSquare"/>
   </outline>

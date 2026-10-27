@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gacute" format="2">
-  <advance width="1610"/>
+  <advance width="1642"/>
   <unicode hex="01F4"/>
-  <anchor x="809" y="0" name="bottom"/>
-  <anchor x="1255" y="436" name="cross"/>
-  <anchor x="856" y="1955" name="top"/>
-  <anchor x="1525" y="997" name="topr"/>
+  <anchor x="823" y="0" name="bottom"/>
+  <anchor x="1262" y="434" name="cross"/>
+  <anchor x="877" y="1954" name="top"/>
+  <anchor x="1529" y="998" name="topr"/>
   <outline>
     <component base="G"/>
-    <component base="acutecomb" xOffset="553" yOffset="372"/>
+    <component base="acutecomb" xOffset="563" yOffset="372"/>
   </outline>
 </glyph>

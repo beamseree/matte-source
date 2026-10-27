@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotereversed.ss08" format="2">
-  <advance width="675"/>
+  <advance width="698"/>
   <outline>
-    <component base="quoteright.ss08" xScale="-1" xOffset="675"/>
+    <component base="quoteright.ss08" xScale="-1" xOffset="698"/>
   </outline>
   <lib>
     <dict>

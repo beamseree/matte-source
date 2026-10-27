@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_part.bottom_lfthook2_uc" format="2">
-  <advance width="855"/>
-  <anchor x="755" y="0" name="_lfthook2"/>
+  <advance width="873"/>
+  <anchor x="763" y="0" name="_lfthook2"/>
   <outline>
     <component base="_part.bottom_lfthook_uc"/>
   </outline>

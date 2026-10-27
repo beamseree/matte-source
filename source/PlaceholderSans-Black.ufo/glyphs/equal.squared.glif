@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal.squared" format="2">
-  <advance width="2824"/>
+  <advance width="2854"/>
   <unicode hex="E154"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="equal" xOffset="709" yOffset="140"/>
+    <component base="equal" xOffset="717" yOffset="140"/>
   </outline>
   <lib>
     <dict>

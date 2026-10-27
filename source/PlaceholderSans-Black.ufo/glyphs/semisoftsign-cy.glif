@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semisoftsign-cy" format="2">
-  <advance width="1324"/>
+  <advance width="1342"/>
   <unicode hex="048D"/>
   <outline>
     <contour>
-      <point x="23" y="853" type="line"/>
-      <point x="959" y="853" type="line"/>
-      <point x="959" y="1076" type="line"/>
-      <point x="23" y="1076" type="line"/>
+      <point x="29" y="856" type="line"/>
+      <point x="973" y="856" type="line"/>
+      <point x="973" y="1076" type="line"/>
+      <point x="29" y="1076" type="line"/>
     </contour>
     <contour>
-      <point x="231" y="1076" type="line"/>
-      <point x="572" y="1076" type="line"/>
-      <point x="572" y="1375" type="line"/>
-      <point x="231" y="1375" type="line"/>
+      <point x="234" y="1076" type="line"/>
+      <point x="585" y="1076" type="line"/>
+      <point x="585" y="1375" type="line"/>
+      <point x="234" y="1375" type="line"/>
     </contour>
     <component base="softsigncyrillic" xOffset="105"/>
   </outline>

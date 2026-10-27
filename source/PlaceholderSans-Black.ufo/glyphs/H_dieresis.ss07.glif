@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hdieresis.ss07" format="2">
-  <advance width="1489"/>
+  <advance width="1543"/>
   <unicode hex="E1F3"/>
-  <anchor x="751" y="0" name="bottom"/>
-  <anchor x="287" y="0" name="cedilla"/>
-  <anchor x="1400" y="0" name="cyrtic"/>
-  <anchor x="1026" y="0" name="lfthook"/>
-  <anchor x="1400" y="0" name="right"/>
-  <anchor x="102" y="1490" name="tonos"/>
-  <anchor x="749" y="1961" name="top"/>
+  <anchor x="756" y="0" name="bottom"/>
+  <anchor x="295" y="0" name="cedilla"/>
+  <anchor x="1404" y="0" name="cyrtic"/>
+  <anchor x="1027" y="0" name="lfthook"/>
+  <anchor x="1404" y="0" name="right"/>
+  <anchor x="108" y="1490" name="tonos"/>
+  <anchor x="773" y="1958" name="top"/>
   <outline>
     <component base="H"/>
-    <component base="dieresiscomb.ss07" xOffset="91" yOffset="372"/>
+    <component base="dieresiscomb.ss07" xOffset="108" yOffset="372"/>
   </outline>
   <lib>
     <dict>

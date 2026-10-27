@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kabashkircyrillic" format="2">
-  <advance width="1401"/>
+  <advance width="1416"/>
   <unicode hex="04A1"/>
-  <anchor x="1323" y="0" name="cyrtic"/>
-  <anchor x="793" y="1076" name="top"/>
+  <anchor x="1338" y="0" name="cyrtic"/>
+  <anchor x="804" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="23" y="777" type="line"/>
-      <point x="426" y="777" type="line"/>
-      <point x="426" y="1076" type="line"/>
-      <point x="23" y="1076" type="line"/>
+      <point x="29" y="783" type="line"/>
+      <point x="432" y="783" type="line"/>
+      <point x="432" y="1076" type="line"/>
+      <point x="29" y="1076" type="line"/>
     </contour>
     <component base="kacyrillic" xOffset="188"/>
   </outline>

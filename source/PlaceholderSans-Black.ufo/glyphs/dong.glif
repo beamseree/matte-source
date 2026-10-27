@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dong" format="2">
-  <advance width="1249"/>
+  <advance width="1271"/>
   <unicode hex="20AB"/>
-  <anchor x="633" y="0" name="bottom"/>
+  <anchor x="635" y="0" name="bottom"/>
   <anchor x="925" y="1288" name="cross"/>
-  <anchor x="504" y="1288" name="top"/>
-  <anchor x="1179" y="1490" name="topbar"/>
-  <anchor x="1196" y="0" name="bottomr"/>
-  <anchor x="1313" y="1490" name="raccent"/>
+  <anchor x="500" y="1288" name="top"/>
+  <anchor x="1182" y="1490" name="topbar"/>
+  <anchor x="1191" y="0" name="bottomr"/>
+  <anchor x="1307" y="1490" name="raccent"/>
   <outline>
     <component base="d"/>
-    <component base="crossbar" xOffset="364" yOffset="559"/>
-    <component base="underscore" xOffset="85" yOffset="-155"/>
+    <component base="crossbar" xOffset="368" yOffset="559"/>
+    <component base="underscore" xOffset="105" yOffset="-155"/>
   </outline>
   <lib>
     <dict>

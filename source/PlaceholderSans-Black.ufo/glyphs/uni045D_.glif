@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni045D" format="2">
-  <advance width="1279"/>
+  <advance width="1322"/>
   <unicode hex="045D"/>
-  <anchor x="1179" y="0" name="cyrtic"/>
-  <anchor x="615" y="1583" name="top"/>
+  <anchor x="1194" y="0" name="cyrtic"/>
+  <anchor x="647" y="1582" name="top"/>
   <outline>
     <component base="iicyrillic"/>
-    <component base="gravecomb" xOffset="102"/>
+    <component base="gravecomb" xOffset="123"/>
   </outline>
 </glyph>

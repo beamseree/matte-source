@@ -5,13 +5,13 @@
   <note>
 effective LSB should be a little less than LSB of /t
 </note>
-  <anchor x="766" y="0" name="bottom"/>
-  <anchor x="401" y="483" name="cross"/>
-  <anchor x="765" y="1490" name="top"/>
-  <anchor x="174" y="1490" name="topl"/>
+  <anchor x="758" y="0" name="bottom"/>
+  <anchor x="406" y="480" name="cross"/>
+  <anchor x="757" y="1490" name="top"/>
+  <anchor x="182" y="1490" name="topl"/>
   <outline>
     <component base="B" xOffset="80"/>
-    <component base="_part.crossbar_compact" xOffset="32" yOffset="-265"/>
+    <component base="_part.crossbar_compact" xOffset="26" yOffset="-265"/>
   </outline>
   <lib>
     <dict>

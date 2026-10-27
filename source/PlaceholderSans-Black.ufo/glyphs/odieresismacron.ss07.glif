@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odieresismacron.ss07" format="2">
-  <advance width="1251"/>
+  <advance width="1307"/>
   <unicode hex="E250"/>
   <anchor x="658" y="0" name="bottom"/>
   <anchor x="658" y="538" name="center"/>
-  <anchor x="1220" y="536" name="ogonek"/>
+  <anchor x="1219" y="535" name="ogonek"/>
   <anchor x="658" y="1076" name="top"/>
   <anchor x="658" y="1101" name="tophorn"/>
   <outline>
     <component base="o"/>
-    <component base="dieresismacroncomb.lc.ss07" xOffset="-22"/>
+    <component base="dieresismacroncomb.lc.ss07" xOffset="-17"/>
   </outline>
   <lib>
     <dict>

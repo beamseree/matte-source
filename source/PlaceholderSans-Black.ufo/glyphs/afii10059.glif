@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10059" format="2">
-  <advance width="2308"/>
+  <advance width="2324"/>
   <unicode hex="040A"/>
-  <anchor x="1282" y="1240" name="cross"/>
+  <anchor x="1292" y="1237" name="cross"/>
   <outline>
     <contour>
-      <point x="110" y="0" type="line"/>
-      <point x="482" y="0" type="line"/>
-      <point x="482" y="711" type="line"/>
-      <point x="1224" y="711" type="line"/>
-      <point x="1224" y="1028" type="line"/>
-      <point x="482" y="1028" type="line"/>
-      <point x="482" y="1490" type="line"/>
-      <point x="110" y="1490" type="line"/>
+      <point x="118" y="0" type="line"/>
+      <point x="493" y="0" type="line"/>
+      <point x="493" y="712" type="line"/>
+      <point x="1232" y="712" type="line"/>
+      <point x="1232" y="1023" type="line"/>
+      <point x="493" y="1023" type="line"/>
+      <point x="493" y="1490" type="line"/>
+      <point x="118" y="1490" type="line"/>
     </contour>
     <component base="Softsign-cy" xOffset="930"/>
   </outline>

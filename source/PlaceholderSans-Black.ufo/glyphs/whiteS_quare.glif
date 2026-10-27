@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="whiteSquare" format="2">
-  <advance width="1888"/>
+  <advance width="1910"/>
   <unicode hex="25A1"/>
   <outline>
     <contour>
-      <point x="200" y="0" type="line"/>
-      <point x="1690" y="0" type="line"/>
-      <point x="1690" y="1490" type="line"/>
-      <point x="200" y="1490" type="line"/>
+      <point x="211" y="0" type="line"/>
+      <point x="1701" y="0" type="line"/>
+      <point x="1701" y="1490" type="line"/>
+      <point x="211" y="1490" type="line"/>
     </contour>
     <contour>
-      <point x="473" y="296" type="line"/>
-      <point x="473" y="1192" type="line"/>
-      <point x="1415" y="1192" type="line"/>
-      <point x="1415" y="296" type="line"/>
+      <point x="486" y="291" type="line"/>
+      <point x="486" y="1197" type="line"/>
+      <point x="1425" y="1197" type="line"/>
+      <point x="1425" y="291" type="line"/>
     </contour>
   </outline>
   <lib>

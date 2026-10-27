@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni03FC" format="2">
-  <advance width="1286"/>
+  <advance width="1319"/>
   <unicode hex="03FC"/>
-  <anchor x="309" y="-186" name="cross"/>
-  <anchor x="668" y="1076" name="top"/>
+  <anchor x="318" y="-186" name="cross"/>
+  <anchor x="677" y="1076" name="top"/>
   <outline>
     <component base="rho"/>
-    <component base="crossbar" xOffset="-221" yOffset="-931"/>
+    <component base="crossbar" xOffset="-205" yOffset="-931"/>
   </outline>
 </glyph>

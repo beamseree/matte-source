@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F9A" format="2">
-  <advance width="2361"/>
+  <advance width="2438"/>
   <unicode hex="1F9A"/>
-  <anchor x="1610" y="0" name="bottom"/>
-  <anchor x="1146" y="0" name="cedilla"/>
-  <anchor x="2259" y="0" name="cyrtic"/>
-  <anchor x="1885" y="0" name="lfthook"/>
-  <anchor x="2259" y="0" name="right"/>
-  <anchor x="961" y="1490" name="tonos"/>
-  <anchor x="1610" y="1490" name="top"/>
+  <anchor x="1615" y="0" name="bottom"/>
+  <anchor x="1154" y="0" name="cedilla"/>
+  <anchor x="2263" y="0" name="cyrtic"/>
+  <anchor x="1886" y="0" name="lfthook"/>
+  <anchor x="2263" y="0" name="right"/>
+  <anchor x="967" y="1490" name="tonos"/>
+  <anchor x="1615" y="1490" name="top"/>
   <outline>
     <component base="H" xOffset="859"/>
-    <component base="uni1FBE" xOffset="1311"/>
-    <component base="uni1FCD.tonos" xOffset="-55" yOffset="-105"/>
+    <component base="uni1FBE" xOffset="1328"/>
+    <component base="uni1FCD.tonos" xOffset="-17" yOffset="-105"/>
   </outline>
   <lib>
     <dict>

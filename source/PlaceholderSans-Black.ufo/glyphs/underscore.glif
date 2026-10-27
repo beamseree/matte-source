@@ -11,8 +11,8 @@ Should align to the baseline at top
     <contour>
       <point x="1000" y="0" type="line"/>
       <point x="0" y="0" type="line"/>
-      <point x="0" y="-291" type="line"/>
-      <point x="1000" y="-291" type="line"/>
+      <point x="0" y="-287" type="line"/>
+      <point x="1000" y="-287" type="line"/>
     </contour>
   </outline>
   <lib>

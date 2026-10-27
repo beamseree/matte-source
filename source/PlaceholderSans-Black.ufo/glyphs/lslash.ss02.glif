@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lslash.ss02" format="2">
-  <advance width="697"/>
+  <advance width="713"/>
   <unicode hex="E051"/>
-  <anchor x="380" y="0" name="bottom"/>
-  <anchor x="494" y="717" name="centerr"/>
-  <anchor x="322" y="761" name="cross"/>
-  <anchor x="619" y="1490" name="raccent"/>
-  <anchor x="322" y="1490" name="top"/>
+  <anchor x="390" y="0" name="bottom"/>
+  <anchor x="509" y="717" name="centerr"/>
+  <anchor x="332" y="760" name="cross"/>
+  <anchor x="632" y="1490" name="raccent"/>
+  <anchor x="333" y="1490" name="top"/>
   <outline>
     <component base="l.ss02" xOffset="44"/>
-    <component base="slashshort.lc" xOffset="-27" yOffset="20"/>
+    <component base="slashshort.lc" xOffset="-12" yOffset="20"/>
   </outline>
   <lib>
     <dict>

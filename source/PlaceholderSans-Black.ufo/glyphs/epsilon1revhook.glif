@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="epsilon1revhook" format="2">
-  <advance width="1662"/>
+  <advance width="1675"/>
   <unicode hex="025D"/>
-  <anchor x="556" y="1076" name="top"/>
+  <anchor x="562" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="1447" y="311" type="curve" smooth="yes"/>
-      <point x="1521" y="311"/>
-      <point x="1576" y="338"/>
-      <point x="1620" y="372" type="curve"/>
-      <point x="1561" y="598" type="line"/>
-      <point x="1536" y="590"/>
-      <point x="1511" y="585"/>
-      <point x="1487" y="585" type="curve" smooth="yes"/>
-      <point x="1409" y="585"/>
-      <point x="1371" y="664"/>
-      <point x="1330" y="962" type="curve"/>
-      <point x="965" y="815" type="line"/>
-      <point x="965" y="593" type="line"/>
-      <point x="1146" y="671" type="line"/>
-      <point x="1187" y="416"/>
-      <point x="1276" y="311"/>
+      <point x="1459" y="316" type="curve" smooth="yes"/>
+      <point x="1534" y="316"/>
+      <point x="1589" y="343"/>
+      <point x="1634" y="376" type="curve"/>
+      <point x="1572" y="598" type="line"/>
+      <point x="1547" y="590"/>
+      <point x="1523" y="585"/>
+      <point x="1500" y="585" type="curve" smooth="yes"/>
+      <point x="1422" y="585"/>
+      <point x="1384" y="666"/>
+      <point x="1342" y="960" type="curve"/>
+      <point x="972" y="812" type="line"/>
+      <point x="972" y="593" type="line"/>
+      <point x="1154" y="671" type="line"/>
+      <point x="1195" y="421"/>
+      <point x="1287" y="316"/>
     </contour>
     <component base="epsilon1rev"/>
   </outline>

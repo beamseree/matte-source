@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="t.sc" format="2">
-  <advance width="1100"/>
+  <advance width="1105"/>
   <unicode hex="1D1B"/>
   <note>
 used by cyrillic glyphs
 </note>
-  <anchor x="736" y="0" name="cyrtic"/>
-  <anchor x="550" y="1118" name="top"/>
+  <anchor x="739" y="0" name="cyrtic"/>
+  <anchor x="552" y="1118" name="top"/>
   <outline>
     <contour>
-      <point x="365" y="0" type="line"/>
-      <point x="736" y="0" type="line"/>
-      <point x="736" y="812" type="line"/>
-      <point x="1080" y="812" type="line"/>
-      <point x="1080" y="1118" type="line"/>
-      <point x="21" y="1118" type="line"/>
-      <point x="21" y="812" type="line"/>
-      <point x="365" y="812" type="line"/>
+      <point x="366" y="0" type="line"/>
+      <point x="739" y="0" type="line"/>
+      <point x="739" y="817" type="line"/>
+      <point x="1083" y="817" type="line"/>
+      <point x="1083" y="1118" type="line"/>
+      <point x="22" y="1118" type="line"/>
+      <point x="22" y="817" type="line"/>
+      <point x="366" y="817" type="line"/>
     </contour>
   </outline>
   <lib>

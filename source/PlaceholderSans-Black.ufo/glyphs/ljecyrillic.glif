@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ljecyrillic" format="2">
-  <advance width="1895"/>
+  <advance width="1927"/>
   <unicode hex="0459"/>
-  <anchor x="619" y="0" name="bottom"/>
-  <anchor x="1163" y="0" name="cyrtic"/>
-  <anchor x="696" y="1076" name="top"/>
+  <anchor x="622" y="0" name="bottom"/>
+  <anchor x="1171" y="0" name="cyrtic"/>
+  <anchor x="700" y="1076" name="top"/>
   <outline>
     <component base="elcyrillic" xOffset="12"/>
-    <component base="softsigncyrillic" xOffset="676"/>
+    <component base="softsigncyrillic" xOffset="689"/>
   </outline>
   <lib>
     <dict>

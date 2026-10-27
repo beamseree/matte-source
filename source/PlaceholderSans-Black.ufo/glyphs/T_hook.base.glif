@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Thook.base" format="2">
-  <advance width="1396"/>
+  <advance width="1445"/>
   <unicode hex="EE0C"/>
   <guideline x="972" y="956" angle="90"/>
   <guideline x="703" y="703" angle="90"/>
-  <anchor x="692" y="1490" name="top"/>
-  <anchor x="457" y="1490" name="topl"/>
+  <anchor x="734" y="1490" name="top"/>
+  <anchor x="499" y="1490" name="topl"/>
   <outline>
     <contour>
-      <point x="457" y="1157" type="line"/>
-      <point x="505" y="1157" type="line"/>
-      <point x="505" y="0" type="line"/>
-      <point x="879" y="0" type="line"/>
-      <point x="879" y="1157" type="line"/>
-      <point x="1342" y="1157" type="line"/>
-      <point x="1342" y="1490" type="line"/>
-      <point x="457" y="1490" type="line"/>
+      <point x="499" y="1163" type="line"/>
+      <point x="546" y="1163" type="line"/>
+      <point x="546" y="0" type="line"/>
+      <point x="923" y="0" type="line"/>
+      <point x="923" y="1163" type="line"/>
+      <point x="1385" y="1163" type="line"/>
+      <point x="1385" y="1490" type="line"/>
+      <point x="499" y="1490" type="line"/>
     </contour>
   </outline>
   <lib>

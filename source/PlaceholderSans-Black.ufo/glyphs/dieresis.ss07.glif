@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresis.ss07" format="2">
-  <advance width="1295"/>
+  <advance width="1332"/>
   <unicode hex="E2C5"/>
-  <anchor x="658" y="1118" name="_top"/>
-  <anchor x="658" y="1589" name="top"/>
+  <anchor x="665" y="1118" name="_top"/>
+  <anchor x="665" y="1586" name="top"/>
   <outline>
     <component base="dieresiscomb.ss07"/>
   </outline>

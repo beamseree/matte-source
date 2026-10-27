@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresistonos.ss07" format="2">
-  <advance width="1591"/>
+  <advance width="1620"/>
   <unicode hex="E2BB"/>
-  <anchor x="799" y="1118" name="_top"/>
-  <anchor x="453" y="1586" name="top"/>
+  <anchor x="815" y="1118" name="_top"/>
+  <anchor x="469" y="1586" name="top"/>
   <outline>
     <contour>
-      <point x="287" y="1254" type="line"/>
-      <point x="607" y="1254" type="line"/>
-      <point x="607" y="1590" type="line"/>
-      <point x="287" y="1590" type="line"/>
+      <point x="302" y="1256" type="line"/>
+      <point x="624" y="1256" type="line"/>
+      <point x="624" y="1587" type="line"/>
+      <point x="302" y="1587" type="line"/>
     </contour>
     <contour>
-      <point x="975" y="1254" type="line"/>
-      <point x="1295" y="1254" type="line"/>
-      <point x="1295" y="1590" type="line"/>
-      <point x="975" y="1590" type="line"/>
+      <point x="991" y="1256" type="line"/>
+      <point x="1313" y="1256" type="line"/>
+      <point x="1313" y="1587" type="line"/>
+      <point x="991" y="1587" type="line"/>
     </contour>
     <component base="tonos.top" xOffset="408" yOffset="235"/>
   </outline>

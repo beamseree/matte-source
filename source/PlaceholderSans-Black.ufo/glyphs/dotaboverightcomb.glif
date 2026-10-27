@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaboverightcomb" format="2">
   <unicode hex="0358"/>
-  <anchor x="340" y="1690" name="_bottom"/>
+  <anchor x="348" y="1690" name="_bottom"/>
   <outline>
     <component base="dotbelow" yOffset="1690"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>661</integer>
+      <integer>679</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="franc" format="2">
-  <advance width="1220"/>
+  <advance width="1263"/>
   <unicode hex="20A3"/>
-  <anchor x="361" y="0" name="bottom"/>
-  <anchor x="361" y="246" name="cross"/>
-  <anchor x="174" y="0" name="lfthook"/>
-  <anchor x="704" y="1490" name="top"/>
+  <anchor x="371" y="0" name="bottom"/>
+  <anchor x="371" y="249" name="cross"/>
+  <anchor x="182" y="0" name="lfthook"/>
+  <anchor x="714" y="1490" name="top"/>
   <outline>
     <component base="F" xOffset="80"/>
-    <component base="_part.crossbar_compact" xOffset="-94" yOffset="-495"/>
+    <component base="_part.crossbar_compact" xOffset="-57" yOffset="-495"/>
   </outline>
   <lib>
     <dict>

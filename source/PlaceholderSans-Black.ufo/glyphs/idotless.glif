@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotless" format="2">
-  <advance width="556"/>
+  <advance width="577"/>
   <unicode hex="0131"/>
   <guideline x="376" y="1504" angle="90"/>
-  <anchor x="281" y="0" name="bottom"/>
-  <anchor x="276" y="589" name="cross"/>
-  <anchor x="450" y="0" name="ogonek"/>
-  <anchor x="278" y="1076" name="top"/>
+  <anchor x="291" y="0" name="bottom"/>
+  <anchor x="286" y="588" name="cross"/>
+  <anchor x="465" y="0" name="ogonek"/>
+  <anchor x="288" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="106" y="0" type="line"/>
-      <point x="450" y="0" type="line"/>
-      <point x="450" y="1076" type="line"/>
-      <point x="106" y="1076" type="line"/>
+      <point x="112" y="0" type="line"/>
+      <point x="465" y="0" type="line"/>
+      <point x="465" y="1076" type="line"/>
+      <point x="112" y="1076" type="line"/>
     </contour>
   </outline>
   <lib>

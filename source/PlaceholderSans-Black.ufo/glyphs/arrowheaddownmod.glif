@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="arrowheaddownmod" format="2">
-  <advance width="1032"/>
+  <advance width="1047"/>
   <unicode hex="02C5"/>
   <outline>
     <contour>
-      <point x="457" y="567" type="line"/>
-      <point x="635" y="567" type="line"/>
-      <point x="912" y="1364" type="line"/>
-      <point x="677" y="1364" type="line"/>
-      <point x="522" y="931" type="line"/>
+      <point x="464" y="568" type="line"/>
+      <point x="643" y="568" type="line"/>
+      <point x="919" y="1362" type="line"/>
+      <point x="684" y="1362" type="line"/>
+      <point x="529" y="928" type="line"/>
     </contour>
     <contour>
-      <point x="400" y="567" type="line"/>
-      <point x="575" y="567" type="line"/>
-      <point x="510" y="931" type="line"/>
-      <point x="361" y="1364" type="line"/>
-      <point x="121" y="1364" type="line"/>
+      <point x="406" y="568" type="line"/>
+      <point x="583" y="568" type="line"/>
+      <point x="518" y="928" type="line"/>
+      <point x="368" y="1362" type="line"/>
+      <point x="128" y="1362" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10044" format="2">
-  <advance width="1722"/>
+  <advance width="1738"/>
   <unicode hex="042A"/>
-  <anchor x="696" y="1240" name="cross"/>
+  <anchor x="706" y="1237" name="cross"/>
   <outline>
     <contour>
-      <point x="60" y="1157" type="line"/>
-      <point x="649" y="1157" type="line"/>
-      <point x="649" y="1490" type="line"/>
-      <point x="60" y="1490" type="line"/>
+      <point x="69" y="1163" type="line"/>
+      <point x="659" y="1163" type="line"/>
+      <point x="659" y="1490" type="line"/>
+      <point x="69" y="1490" type="line"/>
     </contour>
     <component base="Softsign-cy" xOffset="344"/>
   </outline>

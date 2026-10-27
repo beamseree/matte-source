@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="doubleprime" format="2">
-  <advance width="1288"/>
+  <advance width="1322"/>
   <unicode hex="2033"/>
   <outline>
     <component base="prime"/>
-    <component base="prime" xOffset="644"/>
+    <component base="prime" xOffset="661"/>
   </outline>
   <lib>
     <dict>

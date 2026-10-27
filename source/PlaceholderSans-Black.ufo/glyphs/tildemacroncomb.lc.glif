@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildemacroncomb.lc" format="2">
-  <advance width="1008"/>
+  <advance width="1038"/>
   <unicode hex="EED2"/>
   <guideline y="1392"/>
   <guideline y="1765"/>
-  <anchor x="502" y="1118" name="_top"/>
+  <anchor x="510" y="1118" name="_top"/>
   <outline>
     <component base="tildecomb" yOffset="-24"/>
-    <component base="macroncomb" yScale="0.8" xOffset="78" yOffset="632"/>
+    <component base="macroncomb" yScale="0.8" xOffset="95" yOffset="632"/>
   </outline>
   <lib>
     <dict>

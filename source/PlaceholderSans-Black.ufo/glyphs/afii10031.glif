@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10031" format="2">
-  <advance width="1524"/>
+  <advance width="1541"/>
   <unicode hex="041D"/>
-  <anchor x="751" y="0" name="bottom"/>
-  <anchor x="287" y="0" name="cedilla"/>
-  <anchor x="1400" y="0" name="cyrtic"/>
-  <anchor x="1026" y="0" name="lfthook"/>
-  <anchor x="1400" y="0" name="right"/>
-  <anchor x="102" y="1490" name="tonos"/>
-  <anchor x="751" y="1490" name="top"/>
+  <anchor x="756" y="0" name="bottom"/>
+  <anchor x="295" y="0" name="cedilla"/>
+  <anchor x="1404" y="0" name="cyrtic"/>
+  <anchor x="1027" y="0" name="lfthook"/>
+  <anchor x="1404" y="0" name="right"/>
+  <anchor x="108" y="1490" name="tonos"/>
+  <anchor x="756" y="1490" name="top"/>
   <outline>
     <component base="H"/>
   </outline>

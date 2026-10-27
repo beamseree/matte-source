@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tecyrillic" format="2">
-  <advance width="1100"/>
+  <advance width="1105"/>
   <unicode hex="0442"/>
-  <anchor x="736" y="0" name="cyrtic"/>
-  <anchor x="550" y="1118" name="top"/>
+  <anchor x="739" y="0" name="cyrtic"/>
+  <anchor x="552" y="1118" name="top"/>
   <outline>
     <component base="t.sc"/>
   </outline>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ereversedcyrillic" format="2">
-  <advance width="1210"/>
+  <advance width="1223"/>
   <unicode hex="044D"/>
   <note>
 mirrored /ecyrillic
 </note>
-  <anchor x="579" y="1076" name="top"/>
+  <anchor x="586" y="1076" name="top"/>
   <outline>
-    <component base="ecyrillic" xScale="-1" xOffset="1210"/>
+    <component base="ecyrillic" xScale="-1" xOffset="1223"/>
   </outline>
   <lib>
     <dict>

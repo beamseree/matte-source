@@ -10,31 +10,31 @@ Design is identical copy of /zero for 100 &amp; 400 wght but squeezed for 900
   <outline>
     <contour>
       <point x="660" y="-20" type="curve" smooth="yes"/>
-      <point x="1071" y="-20"/>
-      <point x="1271" y="263"/>
-      <point x="1271" y="744" type="curve" smooth="yes"/>
-      <point x="1271" y="1225"/>
-      <point x="1070" y="1510"/>
+      <point x="1072" y="-20"/>
+      <point x="1272" y="263"/>
+      <point x="1272" y="744" type="curve" smooth="yes"/>
+      <point x="1272" y="1225"/>
+      <point x="1071" y="1510"/>
       <point x="660" y="1510" type="curve" smooth="yes"/>
-      <point x="250" y="1510"/>
-      <point x="49" y="1226"/>
-      <point x="49" y="744" type="curve" smooth="yes"/>
-      <point x="49" y="263"/>
-      <point x="249" y="-20"/>
+      <point x="249" y="1510"/>
+      <point x="48" y="1226"/>
+      <point x="48" y="744" type="curve" smooth="yes"/>
+      <point x="48" y="263"/>
+      <point x="248" y="-20"/>
     </contour>
     <contour>
-      <point x="660" y="315" type="curve" smooth="yes"/>
-      <point x="495" y="315"/>
-      <point x="422" y="436"/>
-      <point x="422" y="744" type="curve" smooth="yes"/>
-      <point x="422" y="1055"/>
-      <point x="495" y="1177"/>
-      <point x="660" y="1177" type="curve" smooth="yes"/>
-      <point x="825" y="1177"/>
-      <point x="898" y="1055"/>
-      <point x="898" y="744" type="curve" smooth="yes"/>
-      <point x="898" y="436"/>
-      <point x="825" y="315"/>
+      <point x="660" y="309" type="curve" smooth="yes"/>
+      <point x="496" y="309"/>
+      <point x="423" y="433"/>
+      <point x="423" y="744" type="curve" smooth="yes"/>
+      <point x="423" y="1058"/>
+      <point x="496" y="1183"/>
+      <point x="660" y="1183" type="curve" smooth="yes"/>
+      <point x="824" y="1183"/>
+      <point x="897" y="1058"/>
+      <point x="897" y="744" type="curve" smooth="yes"/>
+      <point x="897" y="433"/>
+      <point x="824" y="309"/>
     </contour>
   </outline>
   <lib>

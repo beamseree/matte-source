@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphendot" format="2">
-  <advance width="759"/>
+  <advance width="781"/>
   <unicode hex="2027"/>
-  <anchor x="55" y="705" name="_centerr"/>
+  <anchor x="66" y="705" name="_centerr"/>
   <outline>
     <component base="periodcentered"/>
   </outline>

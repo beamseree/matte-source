@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="twodotenleader.ss07" format="2">
-  <advance width="1509"/>
+  <advance width="1555"/>
   <unicode hex="E2B3"/>
   <guideline x="704" y="248" angle="0"/>
   <outline>
     <component base="period.ss07"/>
-    <component base="period.ss07" xOffset="755"/>
+    <component base="period.ss07" xOffset="778"/>
   </outline>
   <lib>
     <dict>

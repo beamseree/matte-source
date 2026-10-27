@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="schwadieresis-cy.ss07" format="2">
-  <advance width="1168"/>
+  <advance width="1212"/>
   <unicode hex="E298"/>
-  <anchor x="576" y="1589" name="top"/>
-  <anchor x="616" y="0" name="cedilla"/>
-  <anchor x="965" y="56" name="ogonek"/>
-  <anchor x="609" y="0" name="bottom"/>
+  <anchor x="590" y="1586" name="top"/>
+  <anchor x="617" y="0" name="cedilla"/>
+  <anchor x="967" y="58" name="ogonek"/>
+  <anchor x="610" y="0" name="bottom"/>
   <outline>
     <component base="schwa"/>
-    <component base="dieresiscomb.ss07" xOffset="-82"/>
+    <component base="dieresiscomb.ss07" xOffset="-75"/>
   </outline>
   <lib>
     <dict>

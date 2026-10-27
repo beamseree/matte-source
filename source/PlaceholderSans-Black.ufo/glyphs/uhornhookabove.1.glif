@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhornhookabove.1" format="2">
-  <advance width="1373"/>
+  <advance width="1410"/>
   <unicode hex="EE3B"/>
-  <anchor x="642" y="0" name="bottom"/>
-  <anchor x="1177" y="448" name="ogonek"/>
-  <anchor x="642" y="1076" name="top"/>
+  <anchor x="652" y="0" name="bottom"/>
+  <anchor x="1192" y="446" name="ogonek"/>
+  <anchor x="652" y="1076" name="top"/>
   <outline>
     <component base="uhorn.1"/>
-    <component base="hookabovecomb" xOffset="306"/>
+    <component base="hookabovecomb" xOffset="327"/>
   </outline>
   <lib>
     <dict>

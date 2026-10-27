@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="e.subs" format="2">
-  <advance width="921"/>
+  <advance width="931"/>
   <unicode hex="2091"/>
-  <anchor x="460" y="-315" name="bottom"/>
-  <anchor x="463" y="-315" name="cedilla"/>
-  <anchor x="820" y="-139" name="ogonek"/>
-  <anchor x="460" y="341" name="top"/>
+  <anchor x="466" y="-314" name="bottom"/>
+  <anchor x="468" y="-314" name="cedilla"/>
+  <anchor x="826" y="-140" name="ogonek"/>
+  <anchor x="466" y="340" name="top"/>
   <outline>
     <component base="e.sups" yOffset="-1200"/>
   </outline>

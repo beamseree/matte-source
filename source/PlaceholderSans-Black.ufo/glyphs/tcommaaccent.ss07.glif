@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcommaaccent.ss07" format="2">
-  <advance width="792"/>
-  <anchor x="445" y="0" name="bottom"/>
-  <anchor x="490" y="0" name="cedilla"/>
-  <anchor x="768" y="15" name="lfthook"/>
-  <anchor x="355" y="1384" name="top"/>
-  <anchor x="701" y="1562" name="raccent"/>
+  <advance width="830"/>
+  <anchor x="457" y="0" name="bottom"/>
+  <anchor x="501" y="0" name="cedilla"/>
+  <anchor x="780" y="15" name="lfthook"/>
+  <anchor x="366" y="1384" name="top"/>
+  <anchor x="711" y="1562" name="raccent"/>
   <outline>
     <component base="t"/>
-    <component base="commaaccent.ss07" xOffset="168"/>
+    <component base="commaaccent.ss07" xOffset="183"/>
   </outline>
   <lib>
     <dict>

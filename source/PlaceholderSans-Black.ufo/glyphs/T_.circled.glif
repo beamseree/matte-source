@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="T.circled" format="2">
-  <advance width="2877"/>
+  <advance width="2895"/>
   <unicode hex="24C9"/>
-  <anchor x="1436" y="0" name="bottom"/>
-  <anchor x="1623" y="0" name="bottomr"/>
-  <anchor x="1437" y="0" name="cedilla"/>
-  <anchor x="1436" y="662" name="cross"/>
-  <anchor x="1623" y="0" name="cyrtic"/>
-  <anchor x="1571" y="0" name="right"/>
-  <anchor x="1436" y="1490" name="top"/>
+  <anchor x="1447" y="0" name="bottom"/>
+  <anchor x="1636" y="0" name="bottomr"/>
+  <anchor x="1448" y="0" name="cedilla"/>
+  <anchor x="1447" y="665" name="cross"/>
+  <anchor x="1636" y="0" name="cyrtic"/>
+  <anchor x="1584" y="0" name="right"/>
+  <anchor x="1447" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="T" xOffset="722"/>
+    <component base="T" xOffset="725"/>
   </outline>
   <lib>
     <dict>

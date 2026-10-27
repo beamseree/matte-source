@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni037B" format="2">
-  <advance width="1216"/>
+  <advance width="1218"/>
   <unicode hex="037B"/>
-  <anchor x="583" y="0" name="bottom"/>
-  <anchor x="583" y="0" name="cedilla"/>
-  <anchor x="583" y="538" name="center"/>
-  <anchor x="583" y="1076" name="top"/>
-  <anchor x="61" y="666" name="topr"/>
+  <anchor x="582" y="0" name="bottom"/>
+  <anchor x="582" y="0" name="cedilla"/>
+  <anchor x="582" y="538" name="center"/>
+  <anchor x="582" y="1076" name="top"/>
+  <anchor x="60" y="671" name="topr"/>
   <outline>
-    <component base="c" xScale="-1" xOffset="1216"/>
+    <component base="c" xScale="-1" xOffset="1218"/>
   </outline>
 </glyph>

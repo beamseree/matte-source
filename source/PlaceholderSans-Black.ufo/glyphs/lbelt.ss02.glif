@@ -1,38 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lbelt.ss02" format="2">
-  <advance width="1071"/>
+  <advance width="1086"/>
   <unicode hex="E054"/>
-  <anchor x="736" y="0" name="bottom"/>
-  <anchor x="850" y="717" name="centerr"/>
-  <anchor x="678" y="761" name="cross"/>
-  <anchor x="975" y="1490" name="raccent"/>
-  <anchor x="678" y="1490" name="top"/>
+  <anchor x="746" y="0" name="bottom"/>
+  <anchor x="865" y="717" name="centerr"/>
+  <anchor x="688" y="760" name="cross"/>
+  <anchor x="988" y="1490" name="raccent"/>
+  <anchor x="689" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="391" y="508" type="curve" smooth="yes"/>
-      <point x="1013" y="508" type="line"/>
-      <point x="1013" y="785" type="line"/>
-      <point x="402" y="768" type="line" smooth="yes"/>
-      <point x="345" y="767"/>
-      <point x="307" y="788"/>
-      <point x="307" y="829" type="curve" smooth="yes"/>
-      <point x="307" y="867"/>
-      <point x="340" y="889"/>
-      <point x="387" y="889" type="curve" smooth="yes"/>
-      <point x="451" y="889"/>
-      <point x="489" y="843"/>
-      <point x="489" y="788" type="curve" smooth="yes"/>
-      <point x="489" y="594" type="line"/>
-      <point x="561" y="594" type="line"/>
-      <point x="561" y="669" type="line" smooth="yes"/>
-      <point x="561" y="929"/>
-      <point x="495" y="1179"/>
-      <point x="303" y="1179" type="curve" smooth="yes"/>
-      <point x="148" y="1179"/>
-      <point x="23" y="1024"/>
-      <point x="23" y="832" type="curve" smooth="yes"/>
-      <point x="23" y="635"/>
-      <point x="167" y="508"/>
+      <point x="397" y="510" type="curve" smooth="yes"/>
+      <point x="1031" y="510" type="line"/>
+      <point x="1031" y="783" type="line"/>
+      <point x="412" y="766" type="line" smooth="yes"/>
+      <point x="356" y="765"/>
+      <point x="319" y="788"/>
+      <point x="319" y="829" type="curve" smooth="yes"/>
+      <point x="319" y="868"/>
+      <point x="350" y="891"/>
+      <point x="397" y="891" type="curve" smooth="yes"/>
+      <point x="460" y="891"/>
+      <point x="498" y="844"/>
+      <point x="498" y="790" type="curve" smooth="yes"/>
+      <point x="498" y="600" type="line"/>
+      <point x="572" y="600" type="line"/>
+      <point x="572" y="674" type="line" smooth="yes"/>
+      <point x="572" y="930"/>
+      <point x="505" y="1177"/>
+      <point x="311" y="1177" type="curve" smooth="yes"/>
+      <point x="156" y="1177"/>
+      <point x="29" y="1022"/>
+      <point x="29" y="833" type="curve" smooth="yes"/>
+      <point x="29" y="636"/>
+      <point x="175" y="510"/>
     </contour>
     <component base="l.ss02" xOffset="400"/>
   </outline>

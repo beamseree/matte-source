@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="igrave" format="2">
-  <advance width="551"/>
+  <advance width="593"/>
   <unicode hex="00EC"/>
-  <anchor x="281" y="0" name="bottom"/>
-  <anchor x="276" y="589" name="cross"/>
-  <anchor x="450" y="0" name="ogonek"/>
-  <anchor x="247" y="1583" name="top"/>
+  <anchor x="291" y="0" name="bottom"/>
+  <anchor x="286" y="588" name="cross"/>
+  <anchor x="465" y="0" name="ogonek"/>
+  <anchor x="279" y="1582" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="gravecomb" xOffset="-266"/>
+    <component base="gravecomb" xOffset="-245"/>
   </outline>
   <lib>
     <dict>

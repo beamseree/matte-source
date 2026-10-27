@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gheupturncyrillic" format="2">
-  <advance width="934"/>
+  <advance width="947"/>
   <unicode hex="0491"/>
-  <anchor x="351" y="538" name="cross"/>
-  <anchor x="450" y="0" name="cyrtic"/>
-  <anchor x="507" y="1076" name="top"/>
+  <anchor x="360" y="538" name="cross"/>
+  <anchor x="465" y="0" name="cyrtic"/>
+  <anchor x="516" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="607" y="1076" type="line"/>
-      <point x="916" y="1076" type="line"/>
-      <point x="916" y="1413" type="line"/>
-      <point x="607" y="1413" type="line"/>
+      <point x="609" y="1076" type="line"/>
+      <point x="925" y="1076" type="line"/>
+      <point x="925" y="1412" type="line"/>
+      <point x="609" y="1412" type="line"/>
     </contour>
     <component base="ge-cy"/>
   </outline>

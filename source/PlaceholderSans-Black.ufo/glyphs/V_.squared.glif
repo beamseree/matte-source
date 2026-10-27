@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="V.squared" format="2">
-  <advance width="2747"/>
+  <advance width="2770"/>
   <unicode hex="1F145"/>
-  <anchor x="1385" y="0" name="bottom"/>
-  <anchor x="1385" y="1490" name="top"/>
+  <anchor x="1399" y="0" name="bottom"/>
+  <anchor x="1399" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="V" xOffset="605"/>
+    <component base="V" xOffset="613"/>
   </outline>
   <lib>
     <dict>

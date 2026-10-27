@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upWhiteArrow" format="2">
-  <advance width="2336"/>
+  <advance width="2357"/>
   <unicode hex="21E7"/>
   <note>
 based of off upBlackArrow
@@ -11,22 +11,22 @@ B: 208,150,100%,keepCom.
 </note>
   <outline>
     <contour>
-      <point x="146" y="550" type="line"/>
-      <point x="648" y="550" type="line"/>
-      <point x="648" y="0" type="line"/>
-      <point x="1688" y="0" type="line"/>
-      <point x="1688" y="550" type="line"/>
-      <point x="2191" y="550" type="line"/>
-      <point x="1167" y="1606" type="line"/>
+      <point x="154" y="557" type="line"/>
+      <point x="658" y="557" type="line"/>
+      <point x="658" y="0" type="line"/>
+      <point x="1699" y="0" type="line"/>
+      <point x="1699" y="557" type="line"/>
+      <point x="2203" y="557" type="line"/>
+      <point x="1178" y="1606" type="line"/>
     </contour>
     <contour>
-      <point x="697" y="772" type="line"/>
-      <point x="1167" y="1231" type="line"/>
-      <point x="1639" y="772" type="line"/>
-      <point x="1407" y="772" type="line"/>
-      <point x="1407" y="222" type="line"/>
-      <point x="930" y="222" type="line"/>
-      <point x="930" y="772" type="line"/>
+      <point x="709" y="775" type="line"/>
+      <point x="1178" y="1237" type="line"/>
+      <point x="1648" y="775" type="line"/>
+      <point x="1416" y="775" type="line"/>
+      <point x="1416" y="219" type="line"/>
+      <point x="941" y="219" type="line"/>
+      <point x="941" y="775" type="line"/>
     </contour>
   </outline>
   <lib>

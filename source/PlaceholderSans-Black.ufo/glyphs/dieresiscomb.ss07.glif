@@ -2,11 +2,11 @@
 <glyph name="dieresiscomb.ss07" format="2">
   <unicode hex="E2BF"/>
   <guideline y="1378"/>
-  <anchor x="658" y="1118" name="_top"/>
-  <anchor x="658" y="1589" name="top"/>
+  <anchor x="665" y="1118" name="_top"/>
+  <anchor x="665" y="1586" name="top"/>
   <outline>
     <component base="dotaccentcomb.ss07" xScale="0.8" xOffset="166"/>
-    <component base="dotaccentcomb.ss07" xScale="0.8" xOffset="611"/>
+    <component base="dotaccentcomb.ss07" xScale="0.8" xOffset="629"/>
   </outline>
   <lib>
     <dict>
@@ -24,7 +24,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>n</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>1295</integer>
+      <integer>1332</integer>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

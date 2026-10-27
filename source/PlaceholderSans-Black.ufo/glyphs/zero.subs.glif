@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.subs" format="2">
-  <advance width="1067"/>
+  <advance width="1080"/>
   <unicode hex="2080"/>
-  <anchor x="534" y="107" name="center"/>
-  <anchor x="534" y="529" name="top"/>
+  <anchor x="540" y="107" name="center"/>
+  <anchor x="540" y="528" name="top"/>
   <outline>
     <component base="zero.sups" yOffset="-1200"/>
   </outline>

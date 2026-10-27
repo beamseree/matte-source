@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macrondieresiscomb.cn" format="2">
-  <advance width="835"/>
-  <anchor x="418" y="1490" name="_top"/>
+  <advance width="882"/>
+  <anchor x="425" y="1490" name="_top"/>
   <outline>
     <component base="macrondieresiscomb.lc" yOffset="372"/>
   </outline>

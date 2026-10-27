@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dngb_ballotx.circled" format="2">
-  <advance width="2840"/>
+  <advance width="2879"/>
   <unicode hex="E13D"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="dngb_ballotx" xOffset="523" yOffset="97"/>
+    <component base="dngb_ballotx" xOffset="526" yOffset="97"/>
   </outline>
   <lib>
     <dict>

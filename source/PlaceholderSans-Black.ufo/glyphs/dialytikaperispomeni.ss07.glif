@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dialytikaperispomeni.ss07" format="2">
-  <advance width="905"/>
+  <advance width="958"/>
   <unicode hex="E2BE"/>
   <guideline y="1392"/>
   <guideline y="1765"/>
   <guideline y="1632"/>
-  <anchor x="473" y="1118" name="_top"/>
+  <anchor x="480" y="1118" name="_top"/>
   <outline>
     <component base="dieresiscomb.ss07" yScale="0.8" xOffset="-185" yOffset="255"/>
-    <component base="tildecomb" yScale="0.83" xOffset="-59" yOffset="582"/>
+    <component base="tildecomb" yScale="0.83" xOffset="-22" yOffset="582"/>
   </outline>
   <lib>
     <dict>

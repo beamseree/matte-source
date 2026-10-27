@@ -9,10 +9,10 @@
   <anchor x="89" y="1526" name="raccent"/>
   <outline>
     <contour>
-      <point x="425" y="1076" type="line"/>
-      <point x="-17" y="1076" type="line"/>
-      <point x="-17" y="1030" type="line"/>
-      <point x="425" y="1030" type="line"/>
+      <point x="465" y="1076" type="line"/>
+      <point x="-69" y="1076" type="line"/>
+      <point x="-69" y="1030" type="line"/>
+      <point x="465" y="1030" type="line"/>
     </contour>
     <component base="_part.t_base" xOffset="-94"/>
   </outline>

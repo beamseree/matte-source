@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresismacroncomb.lc" format="2">
-  <advance width="1333"/>
+  <advance width="1380"/>
   <unicode hex="E10D"/>
   <guideline y="1765"/>
   <guideline y="1392"/>
   <guideline y="1765"/>
-  <anchor x="665" y="1118" name="_top"/>
+  <anchor x="681" y="1118" name="_top"/>
   <outline>
     <component base="dieresiscomb" yOffset="-24"/>
-    <component base="macroncomb" yScale="0.8" xOffset="249" yOffset="632"/>
+    <component base="macroncomb" yScale="0.8" xOffset="281" yOffset="632"/>
   </outline>
   <lib>
     <dict>

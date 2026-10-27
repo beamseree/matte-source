@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="koroniscmb" format="2">
   <unicode hex="0343"/>
-  <anchor x="299" y="1312" name="_bottom"/>
+  <anchor x="300" y="1312" name="_bottom"/>
   <outline>
     <component base="commaaccent" xOffset="32" yOffset="1312"/>
   </outline>
@@ -12,7 +12,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=40</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>514</integer>
+      <integer>522</integer>
     </dict>
   </lib>
 </glyph>

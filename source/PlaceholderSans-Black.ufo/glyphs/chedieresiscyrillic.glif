@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chedieresiscyrillic" format="2">
-  <advance width="1234"/>
+  <advance width="1287"/>
   <unicode hex="04F5"/>
-  <anchor x="618" y="436" name="cross"/>
-  <anchor x="1129" y="0" name="cyrtic"/>
-  <anchor x="598" y="1587" name="top"/>
+  <anchor x="628" y="435" name="cross"/>
+  <anchor x="1143" y="0" name="cyrtic"/>
+  <anchor x="634" y="1585" name="top"/>
   <outline>
     <component base="checyrillic"/>
-    <component base="dieresiscomb" xOffset="-67"/>
+    <component base="dieresiscomb" xOffset="-47"/>
   </outline>
 </glyph>

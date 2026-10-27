@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexacutecomb.cn" format="2">
-  <advance width="979"/>
+  <advance width="1009"/>
   <guideline y="1632"/>
   <guideline y="1392"/>
   <guideline y="1765"/>
-  <anchor x="492" y="1118" name="_top"/>
-  <anchor x="492" y="1894" name="top"/>
+  <anchor x="496" y="1118" name="_top"/>
+  <anchor x="496" y="1893" name="top"/>
   <outline>
     <component base="circumflexcomb" yOffset="-27"/>
-    <component base="acute_compact" xScale="0.8" yScale="0.8" xOffset="503" yOffset="627"/>
+    <component base="acute_compact" xScale="0.8" yScale="0.8" xOffset="511" yOffset="627"/>
   </outline>
   <lib>
     <dict>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="crossbar" format="2">
-  <advance width="1030"/>
+  <advance width="1046"/>
   <unicode hex="EED6"/>
-  <anchor x="516" y="745" name="_cross"/>
+  <anchor x="524" y="745" name="_cross"/>
   <outline>
     <contour>
-      <point x="133" y="635" type="line"/>
-      <point x="896" y="635" type="line"/>
-      <point x="896" y="855" type="line"/>
-      <point x="133" y="855" type="line"/>
+      <point x="141" y="637" type="line"/>
+      <point x="906" y="637" type="line"/>
+      <point x="906" y="853" type="line"/>
+      <point x="141" y="853" type="line"/>
     </contour>
   </outline>
 </glyph>

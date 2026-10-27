@@ -11,12 +11,15 @@ Working family name: "Placeholder Sans".
 | `source/PlaceholderSans.designspace` + `*.ufo` | **The font source.** Edit this in Fontra. The Regular master's `public.background` layer holds the mockup letters as tracing guides. |
 | `build/PlaceholderSans-VF.ttf`, `.woff2` | Built font |
 | `reference/mockup.svg` | The target design (lowercase + capitals pangrams) |
+| `reference/mockup-black.svg` | The Black design, same layout (`mockup-thin.webp` and `mockup-black.webp` are screenshots) |
 | `reference/targets.json`, `params.json` | Measurements from the mockup and the fitted parameters |
 | `tools/derive.py` | Inter → widened, lower x-height, heavier Regular, tighter spacing |
-| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides, runs straighten |
-| `tools/straighten.py` | Redraws x, X, z, Z with straight strokes at the mockups' diagonal weights (also usable on `source/` directly) |
+| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides, runs straighten and redraw |
+| `tools/straighten.py` | Redraws x, X, z, Z with straight strokes from the mockups' measurements (x/X narrowing toward the crossing, Z/z's shorter top bar; also usable on `source/` directly) |
+| `tools/redraw.py` | Redraws N, K, k, w, A, V, v, W, M, Y as the mockups' straight polygons, sets E/F's bars and Q's tail, the t crossbar and i/j dots (also usable on `source/` directly) |
+| `tools/strokes.py` | Compares stroke widths on scanlines, ours (from `source/`) against the mockups; `--check` covers the redrawn letters |
 | `tools/fit.py` | Fits one master's `params.json` values to its mockup, building in `build/fit/`; `--apply` writes that master into `source/` |
-| `tools/svgtarget.py`, `imgtarget.py` | Mockup (SVG or screenshot) → per-letter targets in font units |
+| `tools/svgtarget.py`, `imgtarget.py` | Mockup (SVG or screenshot) → per-letter targets and stems (l, I, H bar) in font units |
 | `tools/build.sh` | Builds the font |
 | `specimen/index.html`, `check.html` | Comparison pages (serve the project root, open `/specimen/`) |
 | `vendor/inter` | Inter's sources (only `src/`) |
@@ -49,6 +52,8 @@ tools/build.sh                                  # build from source/ (keeps your
 tools/build.sh --derive reference/params.json   # regenerate source/ from Inter: OVERWRITES edits
 .venv/bin/python -I tools/fit.py --master Thin --targets reference/targets-thin.json \
     --guides reference/mockup-thin.webp --apply  # refit one master: OVERWRITES that master
+.venv/bin/python -I tools/fit.py --master Black --targets reference/targets-black.json \
+    --guides reference/mockup-black.svg --fit-stems --apply  # Black (targets from svgtarget.py)
 python3 -m http.server 8791                     # then open http://localhost:8791/specimen/
 ```
 

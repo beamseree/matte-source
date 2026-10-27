@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni023E" format="2">
-  <advance width="1435"/>
+  <advance width="1450"/>
   <unicode hex="023E"/>
-  <anchor x="714" y="0" name="bottom"/>
-  <anchor x="901" y="0" name="bottomr"/>
-  <anchor x="715" y="0" name="cedilla"/>
-  <anchor x="714" y="662" name="cross"/>
-  <anchor x="901" y="0" name="cyrtic"/>
-  <anchor x="849" y="0" name="right"/>
-  <anchor x="714" y="1490" name="top"/>
+  <anchor x="722" y="0" name="bottom"/>
+  <anchor x="911" y="0" name="bottomr"/>
+  <anchor x="723" y="0" name="cedilla"/>
+  <anchor x="722" y="665" name="cross"/>
+  <anchor x="911" y="0" name="cyrtic"/>
+  <anchor x="859" y="0" name="right"/>
+  <anchor x="722" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="215" y="-209" type="line"/>
-      <point x="355" y="-209" type="line"/>
-      <point x="1246" y="1699" type="line"/>
-      <point x="1104" y="1699" type="line"/>
+      <point x="221" y="-209" type="line"/>
+      <point x="361" y="-209" type="line"/>
+      <point x="1257" y="1699" type="line"/>
+      <point x="1115" y="1699" type="line"/>
     </contour>
     <component base="T"/>
   </outline>

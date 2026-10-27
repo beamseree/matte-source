@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sdotaccent" format="2">
-  <advance width="1379"/>
+  <advance width="1414"/>
   <unicode hex="1E60"/>
-  <anchor x="702" y="0" name="bottom"/>
-  <anchor x="698" y="0" name="cedilla"/>
-  <anchor x="703" y="1975" name="top"/>
+  <anchor x="710" y="0" name="bottom"/>
+  <anchor x="707" y="0" name="cedilla"/>
+  <anchor x="729" y="1972" name="top"/>
   <outline>
     <component base="S"/>
-    <component base="dotaccentcomb" xOffset="374" yOffset="372"/>
+    <component base="dotaccentcomb" xOffset="391" yOffset="372"/>
   </outline>
 </glyph>

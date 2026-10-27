@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F76" format="2">
-  <advance width="644"/>
+  <advance width="686"/>
   <unicode hex="1F76"/>
-  <anchor x="278" y="1076" name="top"/>
+  <anchor x="289" y="1076" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="varia" xOffset="-36"/>
+    <component base="varia" xOffset="-21"/>
   </outline>
 </glyph>

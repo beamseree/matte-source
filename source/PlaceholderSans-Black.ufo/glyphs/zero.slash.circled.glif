@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.slash.circled" format="2">
-  <advance width="2868"/>
+  <advance width="2930"/>
   <unicode hex="E12B"/>
-  <anchor x="1400" y="745" name="center"/>
-  <anchor x="1400" y="1490" name="top"/>
+  <anchor x="1408" y="745" name="center"/>
+  <anchor x="1408" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="zero.slash" xOffset="675"/>
+    <component base="zero.slash" xOffset="678"/>
   </outline>
   <lib>
     <dict>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketright.case.tf" format="2">
-  <advance width="786"/>
+  <advance width="802"/>
   <unicode hex="EE53"/>
-  <anchor x="450" y="745" name="cross"/>
+  <anchor x="456" y="745" name="cross"/>
   <outline>
     <component base="bracketright.tf" yOffset="94"/>
   </outline>

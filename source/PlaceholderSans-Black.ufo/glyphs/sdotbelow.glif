@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sdotbelow" format="2">
-  <advance width="1085"/>
+  <advance width="1107"/>
   <unicode hex="1E63"/>
-  <anchor x="545" y="0" name="bottom"/>
-  <anchor x="551" y="0" name="cedilla"/>
-  <anchor x="50" y="330" name="rthook"/>
-  <anchor x="542" y="1076" name="top"/>
+  <anchor x="544" y="0" name="bottom"/>
+  <anchor x="550" y="0" name="cedilla"/>
+  <anchor x="48" y="328" name="rthook"/>
+  <anchor x="540" y="1076" name="top"/>
   <outline>
     <component base="s"/>
-    <component base="dotbelow" xOffset="157"/>
+    <component base="dotbelow" xOffset="160"/>
   </outline>
 </glyph>

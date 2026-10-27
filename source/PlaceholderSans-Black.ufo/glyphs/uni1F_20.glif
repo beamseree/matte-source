@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F20" format="2">
-  <advance width="1283"/>
+  <advance width="1314"/>
   <unicode hex="1F20"/>
-  <anchor x="278" y="0" name="bottom"/>
-  <anchor x="647" y="1076" name="top"/>
+  <anchor x="289" y="0" name="bottom"/>
+  <anchor x="657" y="1076" name="top"/>
   <outline>
     <component base="eta"/>
-    <component base="koronis" xOffset="420"/>
+    <component base="koronis" xOffset="441"/>
   </outline>
 </glyph>

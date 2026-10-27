@@ -2,12 +2,12 @@
 <glyph name="acircumflexgrave" format="2">
   <advance width="1098"/>
   <unicode hex="1EA7"/>
-  <anchor x="585" y="0" name="bottom"/>
-  <anchor x="1086" y="0" name="ogonek"/>
-  <anchor x="516" y="1894" name="top"/>
+  <anchor x="572" y="0" name="bottom"/>
+  <anchor x="1045" y="0" name="ogonek"/>
+  <anchor x="491" y="1893" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="circumflexgravecomb.cn" xOffset="24"/>
+    <component base="circumflexgravecomb.cn" xOffset="-5"/>
   </outline>
   <lib>
     <dict>

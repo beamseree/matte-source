@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="minusmod" format="2">
-  <advance width="898"/>
+  <advance width="918"/>
   <unicode hex="02D7"/>
   <outline>
     <contour>
-      <point x="164" y="482" type="line"/>
-      <point x="164" y="261" type="line"/>
-      <point x="737" y="261" type="line"/>
-      <point x="737" y="482" type="line"/>
+      <point x="174" y="480" type="line"/>
+      <point x="174" y="262" type="line"/>
+      <point x="748" y="262" type="line"/>
+      <point x="748" y="480" type="line"/>
     </contour>
   </outline>
 </glyph>

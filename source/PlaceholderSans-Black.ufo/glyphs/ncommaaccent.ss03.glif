@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ncommaaccent.ss03" format="2">
-  <advance width="1190"/>
+  <advance width="1226"/>
   <unicode hex="EE7F"/>
-  <anchor x="597" y="0" name="bottom"/>
-  <anchor x="1094" y="0" name="bottomr"/>
-  <anchor x="102" y="0" name="lfthook"/>
-  <anchor x="597" y="1076" name="top"/>
-  <anchor x="448" y="1076" name="topr"/>
+  <anchor x="611" y="0" name="bottom"/>
+  <anchor x="1108" y="0" name="bottomr"/>
+  <anchor x="115" y="0" name="lfthook"/>
+  <anchor x="611" y="1076" name="top"/>
+  <anchor x="470" y="1076" name="topr"/>
   <outline>
     <component base="n"/>
-    <component base="commaaccent.ss03" xOffset="254"/>
+    <component base="commaaccent.ss03" xOffset="275"/>
   </outline>
   <lib>
     <dict>

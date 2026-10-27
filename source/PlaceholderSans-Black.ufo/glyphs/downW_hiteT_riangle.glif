@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="downWhiteTriangle" format="2">
-  <advance width="2202"/>
+  <advance width="2218"/>
   <unicode hex="25BD"/>
   <outline>
     <contour>
-      <point x="129" y="1490" type="line"/>
-      <point x="1101" y="-94" type="line"/>
-      <point x="2073" y="1490" type="line"/>
+      <point x="136" y="1490" type="line"/>
+      <point x="1109" y="-94" type="line"/>
+      <point x="2081" y="1490" type="line"/>
     </contour>
     <contour>
-      <point x="619" y="1192" type="line"/>
-      <point x="1583" y="1192" type="line"/>
-      <point x="1101" y="470" type="line"/>
+      <point x="629" y="1197" type="line"/>
+      <point x="1588" y="1197" type="line"/>
+      <point x="1109" y="461" type="line"/>
     </contour>
   </outline>
   <lib>

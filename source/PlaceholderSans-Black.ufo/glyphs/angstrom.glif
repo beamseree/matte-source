@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="angstrom" format="2">
-  <advance width="1566"/>
+  <advance width="1611"/>
   <unicode hex="212B"/>
-  <anchor x="788" y="0" name="bottom"/>
-  <anchor x="1542" y="0" name="ogonek"/>
-  <anchor x="470" y="1490" name="tonos"/>
-  <anchor x="788" y="1490" name="top"/>
+  <anchor x="804" y="0" name="bottom"/>
+  <anchor x="1576" y="0" name="ogonek"/>
+  <anchor x="482" y="1490" name="tonos"/>
+  <anchor x="804" y="1490" name="top"/>
   <outline>
     <component base="Aring"/>
   </outline>

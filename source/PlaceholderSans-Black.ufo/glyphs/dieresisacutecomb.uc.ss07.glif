@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisacutecomb.uc.ss07" format="2">
-  <advance width="1289"/>
+  <advance width="1348"/>
   <unicode hex="E2CE"/>
-  <anchor x="658" y="1490" name="_top"/>
+  <anchor x="665" y="1490" name="_top"/>
   <outline>
     <component base="dieresisacutecomb.lc.ss07" yOffset="372"/>
   </outline>

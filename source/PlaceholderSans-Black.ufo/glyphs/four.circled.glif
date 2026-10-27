@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.circled" format="2">
-  <advance width="2854"/>
+  <advance width="2868"/>
   <unicode hex="2463"/>
   <unicode hex="2783"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="four" xOffset="664"/>
+    <component base="four" xOffset="667"/>
   </outline>
   <lib>
     <dict>

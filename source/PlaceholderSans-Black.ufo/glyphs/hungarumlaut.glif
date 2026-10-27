@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlaut" format="2">
-  <advance width="1219"/>
+  <advance width="1241"/>
   <unicode hex="02DD"/>
   <note>
 "DOUBLE ACUTE ACCENT"
 See /acutedblnosp for combining variant
 </note>
-  <anchor x="556" y="1118" name="_top"/>
+  <anchor x="567" y="1118" name="_top"/>
   <outline>
-    <component base="dblgravecmb" xScale="-1" xOffset="1219"/>
+    <component base="dblgravecmb" xScale="-1" xOffset="1241"/>
   </outline>
   <lib>
     <dict>

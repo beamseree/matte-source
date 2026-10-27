@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dzaltone" format="2">
-  <advance width="2385"/>
+  <advance width="2389"/>
   <unicode hex="02A3"/>
-  <anchor x="633" y="0" name="bottom"/>
+  <anchor x="635" y="0" name="bottom"/>
   <anchor x="925" y="1288" name="cross"/>
-  <anchor x="504" y="1288" name="top"/>
-  <anchor x="1179" y="1490" name="topbar"/>
-  <anchor x="1196" y="0" name="bottomr"/>
-  <anchor x="1313" y="1490" name="raccent"/>
+  <anchor x="500" y="1288" name="top"/>
+  <anchor x="1182" y="1490" name="topbar"/>
+  <anchor x="1191" y="0" name="bottomr"/>
+  <anchor x="1307" y="1490" name="raccent"/>
   <outline>
     <contour>
       <point x="1292" y="0" type="line"/>
-      <point x="2237" y="0" type="line"/>
-      <point x="2237" y="312" type="line"/>
-      <point x="1737" y="312" type="line"/>
-      <point x="1737" y="317" type="line"/>
-      <point x="2218" y="826" type="line"/>
+      <point x="2236" y="0" type="line"/>
+      <point x="2236" y="307" type="line"/>
+      <point x="1748" y="307" type="line"/>
+      <point x="1748" y="312" type="line"/>
+      <point x="2218" y="830" type="line"/>
       <point x="2218" y="1076" type="line"/>
-      <point x="1085" y="1076" type="line"/>
-      <point x="1085" y="764" type="line"/>
-      <point x="1810" y="764" type="line"/>
-      <point x="1810" y="759" type="line"/>
-      <point x="1292" y="225" type="line"/>
+      <point x="1086" y="1076" type="line"/>
+      <point x="1086" y="769" type="line"/>
+      <point x="1801" y="769" type="line"/>
+      <point x="1801" y="764" type="line"/>
+      <point x="1292" y="221" type="line"/>
     </contour>
     <component base="d"/>
   </outline>

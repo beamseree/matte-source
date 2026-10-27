@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sacutedotaccent" format="2">
-  <advance width="1372"/>
+  <advance width="1396"/>
   <unicode hex="1E64"/>
-  <anchor x="702" y="0" name="bottom"/>
-  <anchor x="698" y="0" name="cedilla"/>
-  <anchor x="696" y="1490" name="top"/>
+  <anchor x="710" y="0" name="bottom"/>
+  <anchor x="707" y="0" name="cedilla"/>
+  <anchor x="705" y="1490" name="top"/>
   <outline>
     <component base="S"/>
-    <component base="acutedotcomb.cn" xOffset="280"/>
+    <component base="acutedotcomb.cn" xOffset="297"/>
   </outline>
 </glyph>

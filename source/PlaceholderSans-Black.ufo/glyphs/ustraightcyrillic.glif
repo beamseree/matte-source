@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ustraightcyrillic" format="2">
-  <advance width="1244"/>
+  <advance width="1254"/>
   <unicode hex="04AF"/>
-  <anchor x="622" y="-113" name="cross"/>
+  <anchor x="627" y="-111" name="cross"/>
   <outline>
     <component base="gamma"/>
   </outline>

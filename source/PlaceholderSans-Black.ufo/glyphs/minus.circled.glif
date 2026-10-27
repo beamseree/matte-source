@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="minus.circled" format="2">
-  <advance width="2843"/>
+  <advance width="2868"/>
   <unicode hex="2296"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="minus" xOffset="715" yOffset="140"/>
+    <component base="minus" xOffset="718" yOffset="140"/>
   </outline>
   <lib>
     <dict>

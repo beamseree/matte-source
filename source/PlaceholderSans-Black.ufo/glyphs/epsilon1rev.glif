@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="epsilon1rev" format="2">
-  <advance width="1141"/>
+  <advance width="1154"/>
   <unicode hex="025C"/>
   <note>
 epsilon mirrored
 </note>
-  <anchor x="556" y="1076" name="top"/>
+  <anchor x="562" y="1076" name="top"/>
   <outline>
-    <component base="epsilon" xScale="-1" xOffset="1141"/>
+    <component base="epsilon" xScale="-1" xOffset="1154"/>
   </outline>
   <lib>
     <dict>

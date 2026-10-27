@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="control" format="2">
-  <advance width="1694"/>
+  <advance width="1719"/>
   <unicode hex="2303"/>
   <note>
 stroke:
@@ -10,12 +10,12 @@ B: 200,200,100%
 </note>
   <outline>
     <contour>
-      <point x="404" y="650" type="line"/>
-      <point x="846" y="1084" type="line"/>
-      <point x="1291" y="650" type="line"/>
-      <point x="1484" y="860" type="line"/>
-      <point x="846" y="1504" type="line"/>
-      <point x="210" y="860" type="line"/>
+      <point x="417" y="655" type="line"/>
+      <point x="859" y="1091" type="line"/>
+      <point x="1303" y="655" type="line"/>
+      <point x="1497" y="862" type="line"/>
+      <point x="859" y="1504" type="line"/>
+      <point x="222" y="862" type="line"/>
     </contour>
   </outline>
   <lib>

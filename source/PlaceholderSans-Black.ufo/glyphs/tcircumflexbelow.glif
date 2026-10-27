@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcircumflexbelow" format="2">
-  <advance width="801"/>
+  <advance width="816"/>
   <unicode hex="1E71"/>
-  <anchor x="445" y="0" name="bottom"/>
-  <anchor x="490" y="0" name="cedilla"/>
-  <anchor x="768" y="15" name="lfthook"/>
-  <anchor x="355" y="1384" name="top"/>
-  <anchor x="701" y="1562" name="raccent"/>
+  <anchor x="457" y="0" name="bottom"/>
+  <anchor x="501" y="0" name="cedilla"/>
+  <anchor x="780" y="15" name="lfthook"/>
+  <anchor x="366" y="1384" name="top"/>
+  <anchor x="711" y="1562" name="raccent"/>
   <outline>
     <component base="t"/>
-    <component base="circumflexsubcomb" xOffset="1110"/>
+    <component base="circumflexsubcomb" xOffset="1122"/>
   </outline>
 </glyph>

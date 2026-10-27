@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eltail-cy" format="2">
-  <advance width="1520"/>
+  <advance width="1543"/>
   <unicode hex="04C5"/>
-  <anchor x="785" y="0" name="bottom"/>
-  <anchor x="1456" y="0" name="cyrtic"/>
-  <anchor x="904" y="1490" name="top"/>
+  <anchor x="790" y="0" name="bottom"/>
+  <anchor x="1463" y="0" name="cyrtic"/>
+  <anchor x="909" y="1490" name="top"/>
   <outline>
     <component base="afii10029"/>
-    <component base="_part.cyrtail" xOffset="1022"/>
+    <component base="_part.cyrtail" xOffset="1037"/>
   </outline>
 </glyph>

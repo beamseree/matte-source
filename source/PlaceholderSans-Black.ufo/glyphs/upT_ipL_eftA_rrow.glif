@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upTipLeftArrow" format="2">
-  <advance width="2118"/>
+  <advance width="2143"/>
   <unicode hex="21B0"/>
   <note>
 Mirror copy of carriagereturn
 </note>
   <outline>
     <contour>
-      <point x="743" y="459" type="line"/>
-      <point x="743" y="1536" type="line"/>
-      <point x="210" y="998" type="line"/>
+      <point x="756" y="467" type="line"/>
+      <point x="756" y="1536" type="line"/>
+      <point x="222" y="1001" type="line"/>
     </contour>
     <contour>
-      <point x="569" y="843" type="line"/>
-      <point x="1902" y="843" type="line"/>
-      <point x="1902" y="1153" type="line"/>
-      <point x="569" y="1153" type="line"/>
+      <point x="582" y="849" type="line"/>
+      <point x="1915" y="849" type="line"/>
+      <point x="1915" y="1154" type="line"/>
+      <point x="582" y="1154" type="line"/>
     </contour>
     <contour>
-      <point x="1628" y="0" type="line"/>
-      <point x="1907" y="0" type="line"/>
-      <point x="1907" y="1153" type="line"/>
-      <point x="1628" y="1153" type="line"/>
+      <point x="1639" y="0" type="line"/>
+      <point x="1920" y="0" type="line"/>
+      <point x="1920" y="1154" type="line"/>
+      <point x="1639" y="1154" type="line"/>
     </contour>
   </outline>
   <lib>

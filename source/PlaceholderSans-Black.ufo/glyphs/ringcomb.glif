@@ -4,41 +4,41 @@
   <note>
 recipe: offset curve 30, no auto; then redrawn two circles manually for perfect fit.
 </note>
-  <anchor x="435" y="1118" name="_top"/>
+  <anchor x="444" y="1118" name="_top"/>
   <outline>
     <contour>
-      <point x="435" y="1199" type="curve" smooth="yes"/>
-      <point x="590" y="1199"/>
-      <point x="717" y="1317"/>
-      <point x="717" y="1462" type="curve" smooth="yes"/>
-      <point x="717" y="1607"/>
-      <point x="590" y="1724"/>
-      <point x="435" y="1724" type="curve" smooth="yes"/>
-      <point x="280" y="1724"/>
-      <point x="153" y="1607"/>
-      <point x="153" y="1462" type="curve" smooth="yes"/>
-      <point x="153" y="1317"/>
-      <point x="280" y="1199"/>
+      <point x="444" y="1199" type="curve" smooth="yes"/>
+      <point x="599" y="1199"/>
+      <point x="726" y="1316"/>
+      <point x="726" y="1461" type="curve" smooth="yes"/>
+      <point x="726" y="1606"/>
+      <point x="599" y="1723"/>
+      <point x="444" y="1723" type="curve" smooth="yes"/>
+      <point x="289" y="1723"/>
+      <point x="162" y="1606"/>
+      <point x="162" y="1461" type="curve" smooth="yes"/>
+      <point x="162" y="1316"/>
+      <point x="289" y="1199"/>
     </contour>
     <contour>
-      <point x="435" y="1347" type="curve" smooth="yes"/>
-      <point x="370" y="1347"/>
-      <point x="319" y="1398"/>
-      <point x="319" y="1462" type="curve" smooth="yes"/>
-      <point x="319" y="1526"/>
-      <point x="370" y="1576"/>
-      <point x="435" y="1576" type="curve" smooth="yes"/>
-      <point x="500" y="1576"/>
-      <point x="551" y="1526"/>
-      <point x="551" y="1462" type="curve" smooth="yes"/>
-      <point x="551" y="1398"/>
-      <point x="500" y="1347"/>
+      <point x="444" y="1346" type="curve" smooth="yes"/>
+      <point x="379" y="1346"/>
+      <point x="328" y="1397"/>
+      <point x="328" y="1461" type="curve" smooth="yes"/>
+      <point x="328" y="1525"/>
+      <point x="379" y="1576"/>
+      <point x="444" y="1576" type="curve" smooth="yes"/>
+      <point x="509" y="1576"/>
+      <point x="560" y="1525"/>
+      <point x="560" y="1461" type="curve" smooth="yes"/>
+      <point x="560" y="1397"/>
+      <point x="509" y="1346"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>870</integer>
+      <integer>888</integer>
     </dict>
   </lib>
 </glyph>

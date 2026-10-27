@@ -12,18 +12,14 @@ base of /f
       <point x="199" y="0" type="line"/>
       <point x="393" y="0" type="line"/>
       <point x="393" y="1218" type="line" smooth="yes"/>
-      <point x="393" y="1318"/>
-      <point x="440" y="1373"/>
-      <point x="548" y="1373" type="curve" smooth="yes"/>
-      <point x="597" y="1373"/>
-      <point x="626" y="1363"/>
-      <point x="646" y="1357" type="curve"/>
-      <point x="696" y="1530" type="line"/>
-      <point x="668" y="1542"/>
-      <point x="609" y="1560"/>
-      <point x="523" y="1560" type="curve" smooth="yes"/>
-      <point x="354" y="1560"/>
-      <point x="199" y="1456"/>
+      <point x="393" y="1299"/>
+      <point x="434" y="1337"/>
+      <point x="515" y="1337" type="curve"/>
+      <point x="679" y="1337" type="line"/>
+      <point x="679" y="1514" type="line"/>
+      <point x="493" y="1514" type="line"/>
+      <point x="318" y="1514"/>
+      <point x="199" y="1437"/>
       <point x="199" y="1250" type="curve" smooth="yes"/>
     </contour>
   </outline>

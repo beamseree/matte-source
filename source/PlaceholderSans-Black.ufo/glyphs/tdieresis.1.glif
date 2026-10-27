@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdieresis.1" format="2">
-  <advance width="741"/>
+  <advance width="788"/>
   <unicode hex="EE25"/>
-  <anchor x="385" y="0" name="bottom"/>
-  <anchor x="430" y="0" name="cedilla"/>
-  <anchor x="708" y="15" name="lfthook"/>
-  <anchor x="286" y="1853" name="top"/>
-  <anchor x="641" y="1562" name="raccent"/>
+  <anchor x="397" y="0" name="bottom"/>
+  <anchor x="441" y="0" name="cedilla"/>
+  <anchor x="720" y="15" name="lfthook"/>
+  <anchor x="317" y="1851" name="top"/>
+  <anchor x="651" y="1562" name="raccent"/>
   <outline>
     <component base="t.1"/>
-    <component base="dieresiscomb" xOffset="-379" yOffset="266"/>
+    <component base="dieresiscomb" xOffset="-364" yOffset="266"/>
   </outline>
   <lib>
     <dict>

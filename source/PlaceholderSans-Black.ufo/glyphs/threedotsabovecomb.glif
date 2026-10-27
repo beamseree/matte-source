@@ -3,8 +3,8 @@
   <unicode hex="20DB"/>
   <outline>
     <component base="period" yOffset="1237"/>
-    <component base="period" xOffset="759" yOffset="1237"/>
-    <component base="period" xOffset="1518" yOffset="1237"/>
+    <component base="period" xOffset="781" yOffset="1237"/>
+    <component base="period" xOffset="1563" yOffset="1237"/>
   </outline>
   <lib>
     <dict>
@@ -36,7 +36,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>2276</integer>
+      <integer>2344</integer>
     </dict>
   </lib>
 </glyph>

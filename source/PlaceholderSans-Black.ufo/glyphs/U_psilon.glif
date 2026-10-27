@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Upsilon" format="2">
-  <advance width="1484"/>
+  <advance width="1516"/>
   <unicode hex="03A5"/>
-  <anchor x="723" y="0" name="bottom"/>
-  <anchor x="723" y="320" name="cross"/>
-  <anchor x="912" y="0" name="ogonek"/>
-  <anchor x="-3" y="1490" name="tonos"/>
-  <anchor x="718" y="1490" name="top"/>
+  <anchor x="739" y="0" name="bottom"/>
+  <anchor x="740" y="323" name="cross"/>
+  <anchor x="929" y="0" name="ogonek"/>
+  <anchor x="2" y="1490" name="tonos"/>
+  <anchor x="735" y="1490" name="top"/>
   <outline>
     <component base="Y"/>
   </outline>

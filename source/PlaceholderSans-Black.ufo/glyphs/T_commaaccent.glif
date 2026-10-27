@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tcommaaccent" format="2">
-  <advance width="1448"/>
+  <advance width="1495"/>
   <unicode hex="0162"/>
-  <anchor x="714" y="0" name="bottom"/>
-  <anchor x="901" y="0" name="bottomr"/>
-  <anchor x="715" y="0" name="cedilla"/>
-  <anchor x="714" y="662" name="cross"/>
-  <anchor x="901" y="0" name="cyrtic"/>
-  <anchor x="849" y="0" name="right"/>
-  <anchor x="714" y="1490" name="top"/>
+  <anchor x="722" y="0" name="bottom"/>
+  <anchor x="911" y="0" name="bottomr"/>
+  <anchor x="723" y="0" name="cedilla"/>
+  <anchor x="722" y="665" name="cross"/>
+  <anchor x="911" y="0" name="cyrtic"/>
+  <anchor x="859" y="0" name="right"/>
+  <anchor x="722" y="1490" name="top"/>
   <outline>
     <component base="T"/>
-    <component base="cedillacomb" xOffset="285"/>
+    <component base="cedillacomb" xOffset="300"/>
   </outline>
   <lib>
     <dict>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hturn" format="2">
-  <advance width="1215"/>
+  <advance width="1237"/>
   <unicode hex="0265"/>
   <guideline x="1820" y="1536" angle="0"/>
-  <anchor x="555" y="1118" name="top"/>
-  <anchor x="920.0" y="1076.0" name="cedilla"/>
-  <anchor x="860.0" y="-212.0" name="cross"/>
-  <anchor x="448.0" y="1076.0" name="lfthook"/>
-  <anchor x="926.0" y="-414.0" name="bottom"/>
+  <anchor x="562" y="1118" name="top"/>
+  <anchor x="925.0" y="1076.0" name="cedilla"/>
+  <anchor x="867.0" y="-212.0" name="cross"/>
+  <anchor x="464.0" y="1076.0" name="lfthook"/>
+  <anchor x="931.0" y="-414.0" name="bottom"/>
   <outline>
-    <component base="h" xScale="-1.0" yScale="-1.0" xOffset="1215.0" yOffset="1076.0"/>
+    <component base="h" xScale="-1.0" yScale="-1.0" xOffset="1237.0" yOffset="1076.0"/>
   </outline>
   <lib>
     <dict>

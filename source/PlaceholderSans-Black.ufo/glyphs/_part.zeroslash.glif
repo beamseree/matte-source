@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_part.zeroslash" format="2">
-  <advance width="1523"/>
-  <anchor x="762" y="745" name="_center"/>
+  <advance width="1571"/>
+  <anchor x="785" y="745" name="_center"/>
   <outline>
     <contour>
-      <point x="540" y="168" type="line"/>
-      <point x="1111" y="1274" type="line"/>
-      <point x="976" y="1326" type="line"/>
-      <point x="412" y="226" type="line"/>
+      <point x="564" y="168" type="line"/>
+      <point x="1135" y="1274" type="line"/>
+      <point x="1000" y="1326" type="line"/>
+      <point x="436" y="226" type="line"/>
     </contour>
   </outline>
 </glyph>

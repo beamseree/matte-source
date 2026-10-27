@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdieresis" format="2">
-  <advance width="801"/>
+  <advance width="848"/>
   <unicode hex="1E97"/>
-  <anchor x="445" y="0" name="bottom"/>
-  <anchor x="490" y="0" name="cedilla"/>
-  <anchor x="768" y="15" name="lfthook"/>
-  <anchor x="346" y="1853" name="top"/>
-  <anchor x="701" y="1562" name="raccent"/>
+  <anchor x="457" y="0" name="bottom"/>
+  <anchor x="501" y="0" name="cedilla"/>
+  <anchor x="780" y="15" name="lfthook"/>
+  <anchor x="377" y="1851" name="top"/>
+  <anchor x="711" y="1562" name="raccent"/>
   <outline>
     <component base="t"/>
-    <component base="dieresiscomb" xOffset="-319" yOffset="266"/>
+    <component base="dieresiscomb" xOffset="-304" yOffset="266"/>
   </outline>
 </glyph>
