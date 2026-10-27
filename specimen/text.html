@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Site Text Check</title>
+<style>
+  /* The site's light theme (port-coming-soon globals.css), and its body text:
+     14px/20px, -0.015px tracking, weight 415, antialiased like Tailwind's
+     `antialiased` class on <html>. Sizes inside .copy are in em, so the big
+     view is the same setting scaled up. */
+  :root {
+    --background: #ffffff; --ink: #303036; --muted: #9d9dad; --surface: #f7f7f9;
+    --line: #ebebf0; --chrome: #6e6e7d;
+    --wght: 415; --big: 64px;
+    color-scheme: light;
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--background); color: var(--ink); font: 13px/1.4 system-ui, sans-serif; }
+  .bar {
+    position: sticky; top: 0; z-index: 2; background: var(--background);
+    border-bottom: 1px solid var(--line); padding: 12px 24px;
+    display: flex; flex-wrap: wrap; gap: 10px 28px; align-items: center;
+  }
+  .bar h1 { font-size: 13px; font-weight: 600; margin: 0 auto 0 0; }
+  .bar label { display: flex; gap: 8px; align-items: center; color: var(--chrome); }
+  .bar output { color: var(--ink); font-variant-numeric: tabular-nums; min-width: 4ch; }
+  .bar input[type=range] { width: 180px; accent-color: var(--ink); }
+  .bar button {
+    font: inherit; color: var(--chrome); background: var(--surface); border: 1px solid var(--line);
+    border-radius: 6px; padding: 2px 8px; cursor: pointer;
+  }
+  .bar button:hover { color: var(--ink); }
+  #build { color: var(--chrome); font-variant-numeric: tabular-nums; }
+  #build.error { color: #d93036; }
+  .label { font: 12px/1.4 system-ui, sans-serif; color: var(--chrome); margin: 0 0 16px; letter-spacing: 0; }
+  .label + .label { margin-top: -12px; }
+  section { padding: 40px 24px 56px; }
+  section + section { border-top: 1px solid var(--line); }
+  .small { display: flex; flex-direction: column; align-items: center; }
+  .small > div { width: 100%; max-width: 550px; }
+  .big .copy { font-size: var(--big); overflow-wrap: anywhere; }
+  .big .copy :is(.head, .row, .stats > div) { white-space: normal; flex-wrap: wrap; }
+
+  .copy {
+    font-family: "Placeholder Sans", sans-serif; font-weight: var(--wght);
+    font-size: 14px; line-height: calc(20em / 14); letter-spacing: calc(-0.015em / 14);
+    display: flex; flex-direction: column; gap: 1lh;
+  }
+  .copy p, .copy h2, .copy dl, .copy dd { margin: 0; font: inherit; }
+  .copy .site { display: flex; flex-direction: column; gap: calc(16em / 14); }
+  .copy .head { display: flex; flex-direction: column; gap: calc(4em / 14); line-height: normal; white-space: nowrap; }
+  .copy .paras { display: flex; flex-direction: column; gap: 1lh; }
+  .copy .row, .copy .stats > div { display: flex; justify-content: space-between; gap: calc(16em / 14); white-space: nowrap; }
+  .copy .stats { display: flex; flex-direction: column; gap: calc(4em / 14); }
+  .copy .muted { color: var(--muted); }
+  .copy .tnum { font-variant-numeric: tabular-nums; }
+  .copy a {
+    color: var(--ink); text-decoration: underline;
+    text-decoration-color: color-mix(in oklab, var(--muted) 50%, transparent);
+    text-decoration-thickness: calc(1em / 14); text-underline-offset: calc(3em / 14);
+    transition: text-decoration-color 150ms;
+  }
+  .copy a:hover { text-decoration-color: var(--ink); }
+  .copy .figs { display: flex; flex-direction: column; }
+  .copy .label { font: 12px/1.4 system-ui, sans-serif; color: var(--chrome); letter-spacing: 0; }
+  .copy .figs .label { margin-bottom: 12px; }
+  @media (max-width: 600px) {
+    .bar { padding: 12px 16px; } section { padding: 32px 16px 40px; }
+    .bar input[type=range] { width: 140px; }
+  }
+</style>
+</head>
+<body>
+<div class="bar">
+  <h1>Site text <span style="color:var(--chrome);font-weight:400">Placeholder Sans</span></h1>
+  <label>Weight <input type="range" id="wght" min="100" max="900" value="415"><output id="wghtOut">415</output>
+    <button type="button" id="reset">415</button></label>
+  <label>Big view <input type="range" id="big" min="24" max="200" value="64"><output id="bigOut">64px</output></label>
+  <span id="build">Loading build…</span>
+</div>
+
+<section class="small">
+  <div>
+    <p class="label">14px / 20px, as on the site · weight <span data-wght>415</span> · antialiased</p>
+    <div class="copy" data-copy></div>
+  </div>
+</section>
+
+<section class="big">
+  <p class="label">Big view · <span id="bigLabel">64px</span> / same line height · weight <span data-wght>415</span></p>
+  <div class="copy" data-copy></div>
+</section>
+
+<!-- port-coming-soon's home page (src/app/page.tsx) and /contributions, then figures and
+     punctuation the site will meet but the mockups don't cover. -->
+<template id="copy">
+  <div class="site">
+    <p class="label">Home</p>
+    <div class="head">
+      <h2>Beam Sereeyothin</h2>
+      <p class="muted">Engineer &amp; Designer</p>
+    </div>
+    <div class="paras">
+      <p>I was born in Bangkok, studied in Boston, and now back living in Bangkok.</p>
+      <p>I currently work at <a href="https://automotionworks.com">Auto Motion Works</a>, an automated
+        warehouse manufacturer and integrator.</p>
+      <p>Previously, I founded <a href="#">BEMO</a>, a branding and web design agency that helped brands
+        build an online presence. Before that, I interned at <a href="https://bangkoklife.com/en">Bangkok
+        Life Assurance</a> as a UXUI designer and Thailand’s Ministry of Innovation as an engineer.</p>
+      <p>I enjoy building and maintaining open source tools for interface excellence, such as cmdk,
+        Agentation, Liveline, and Drawesome.</p>
+      <p>You can find me on <a href="https://x.com/beamseree">X</a> and
+        <a href="https://instagram.com/beamseree">Instagram</a>, or reach me via <a href="#">email</a>.</p>
+    </div>
+    <div class="row muted">
+      <p>Bangkok, Thailand</p>
+      <p class="tnum" data-time>3:48pm</p>
+    </div>
+    <p class="label">Contributions (example counts)</p>
+    <dl class="stats muted">
+      <div><dt>Last 30 days</dt><dd class="tnum">128 contributions</dd></div>
+      <div><dt>Year to date</dt><dd class="tnum">1,204 contributions</dd></div>
+    </dl>
+  </div>
+  <div class="figs">
+    <p class="label">Figures and punctuation</p>
+    <p>0123456789 1234567890 1111 7777 2026</p>
+    <p class="tnum">0123456789 1234567890 1111 7777 2026</p>
+    <p class="tnum">3:48pm 12:05am 10:10pm 9:41 AM 11:11</p>
+    <p>1,204 contributions · 1 contribution · 30 days · 365 days</p>
+    <p>฿12,500.00 · $1,299 · €49.90 · £8 · ¥1,000 · 15% off · 0.5‰</p>
+    <p>+66 2 123 4567 · 27/10/2026 · 2026-10-27 · v2.4.1 · Q3 2026</p>
+    <p>1st, 2nd, 3rd, 4th · ½ ¼ ¾ · x² + y² = r² · 24°C · 6′2″</p>
+    <p>3 × 4 = 12 · 10 ÷ 2 − 1 ≠ 3 · a ≤ b ≥ c · ±0.25 · ~5 · 2^8 · #1 · №7</p>
+    <p>. , : ; ! ? ¡ ¿ ' " ‘ ’ “ ” ‚ „ ‹ › « » … · •</p>
+    <p>( ) [ ] { } / \ | - ‐ – — _ * &amp; @ # % + = &lt; &gt; § ¶ © ® ™ † ‡ → ←</p>
+    <p>“Can you ship it by Friday?” she asked—‘probably,’ I said (if the tests pass).</p>
+    <p>It’s 3:48pm in Bangkok; it’s 4:48am in Boston… isn’t it? Yes! (Mostly.)</p>
+    <p>Write to name@example.com or see example.com/about#team, ~/Projects, snake_case.</p>
+    <p>Pages 12–19, 4–6pm, 1990s–2020s; was $1,299 → now $999 (−23%)*.</p>
+    <p>[Draft] {config: true} a/b c\d e|f · A&amp;B · R&amp;D · UX/UI · Q&amp;A · e.g., i.e., etc.</p>
+    <p>ALL CAPS: (HELLO) [WORLD] {OK} “QUOTE” — 3:48 — @HANDLE — A–Z · H-I-H · H:H</p>
+  </div>
+</template>
+
+<script>
+  const template = document.getElementById("copy");
+  for (const el of document.querySelectorAll("[data-copy]")) el.appendChild(template.content.cloneNode(true));
+
+  // The footer clock, as the site shows it: Bangkok time like "3:48pm".
+  const clock = new Intl.DateTimeFormat("en-US", { timeZone: "Asia/Bangkok", hour: "numeric", minute: "2-digit", hour12: true });
+  const tick = () => {
+    const parts = Object.fromEntries(clock.formatToParts().map(p => [p.type, p.value]));
+    document.querySelectorAll("[data-time]").forEach(el => el.textContent = `${parts.hour}:${parts.minute}${parts.dayPeriod.toLowerCase()}`);
+  };
+  tick(); setInterval(tick, 1000);
+
+  const root = document.documentElement.style;
+  const sync = () => {
+    root.setProperty("--wght", wght.value); wghtOut.value = wght.value;
+    document.querySelectorAll("[data-wght]").forEach(el => el.textContent = wght.value);
+    root.setProperty("--big", big.value + "px"); bigOut.value = bigLabel.textContent = big.value + "px";
+  };
+  [wght, big].forEach(el => el.addEventListener("input", sync));
+  reset.addEventListener("click", () => { wght.value = 415; sync(); });
+  sync();
+
+  // Served (the "specimen" server in .claude/launch.json), the build is fetched without the
+  // cache, so a reload always shows the latest tools/build.sh output and its time. Opened
+  // from disk, browsers block fetch() but still load a font by its file URL.
+  const SERVED = "http://127.0.0.1:8791/specimen/text.html";
+  (async () => {
+    const path = "../build/PlaceholderSans-VF.woff2";
+    try {
+      let source, built;
+      if (location.protocol === "file:") {
+        source = `url("${new URL(path, location.href).href}?t=${Date.now()}")`;
+      } else {
+        const res = await fetch(path, { cache: "no-store" });
+        if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+        source = await res.arrayBuffer();
+        built = new Date(res.headers.get("Last-Modified"));
+      }
+      document.fonts.add(await new FontFace("Placeholder Sans", source, { weight: "100 900" }).load());
+      build.textContent = !built ? "build loaded from disk" : isNaN(built) ? "build loaded" :
+        "built " + built.toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+    } catch (err) {
+      const link = Object.assign(document.createElement("a"), { href: SERVED, textContent: SERVED });
+      build.replaceChildren(`Couldn’t load ${path} (${err.message || err.type || err}). Open `, link, " with the specimen server running.");
+      build.classList.add("error");
+    }
+  })();
+</script>
+</body>
+</html>
