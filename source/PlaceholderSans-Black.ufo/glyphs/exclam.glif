@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclam" format="2">
-  <advance width="730"/>
+  <advance width="772"/>
   <unicode hex="0021"/>
   <outline>
     <contour>
-      <point x="183" y="466" type="line"/>
-      <point x="547" y="466" type="line"/>
-      <point x="577" y="1490" type="line"/>
-      <point x="153" y="1490" type="line"/>
+      <point x="217" y="465" type="line"/>
+      <point x="555" y="465" type="line"/>
+      <point x="583" y="1490" type="line"/>
+      <point x="189" y="1490" type="line"/>
     </contour>
     <contour>
-      <point x="365" y="-24" type="curve" smooth="yes"/>
-      <point x="495" y="-24"/>
-      <point x="579" y="52"/>
-      <point x="579" y="175" type="curve" smooth="yes"/>
-      <point x="579" y="298"/>
-      <point x="495" y="374"/>
-      <point x="365" y="374" type="curve" smooth="yes"/>
-      <point x="235" y="374"/>
-      <point x="151" y="298"/>
-      <point x="151" y="175" type="curve" smooth="yes"/>
-      <point x="151" y="52"/>
-      <point x="235" y="-24"/>
+      <point x="386" y="-24" type="curve" smooth="yes"/>
+      <point x="509" y="-24"/>
+      <point x="589" y="52"/>
+      <point x="589" y="177" type="curve" smooth="yes"/>
+      <point x="589" y="303"/>
+      <point x="509" y="379"/>
+      <point x="386" y="379" type="curve" smooth="yes"/>
+      <point x="264" y="379"/>
+      <point x="183" y="303"/>
+      <point x="183" y="177" type="curve" smooth="yes"/>
+      <point x="183" y="52"/>
+      <point x="264" y="-24"/>
     </contour>
   </outline>
   <lib>

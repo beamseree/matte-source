@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nacute" format="2">
-  <advance width="1062"/>
+  <advance width="1117"/>
   <unicode hex="0144"/>
-  <anchor x="547" y="0" name="bottom"/>
-  <anchor x="943" y="0" name="bottomr"/>
-  <anchor x="151" y="0" name="lfthook"/>
-  <anchor x="494" y="1557" name="top"/>
-  <anchor x="197" y="1076" name="topr"/>
+  <anchor x="571" y="0" name="bottom"/>
+  <anchor x="975" y="0" name="bottomr"/>
+  <anchor x="167" y="0" name="lfthook"/>
+  <anchor x="542" y="1557" name="top"/>
+  <anchor x="213" y="1076" name="topr"/>
   <outline>
     <component base="n"/>
-    <component base="acutecomb" xOffset="305"/>
+    <component base="acutecomb" xOffset="345"/>
   </outline>
 </glyph>

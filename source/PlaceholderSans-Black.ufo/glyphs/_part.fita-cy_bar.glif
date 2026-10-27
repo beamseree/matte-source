@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_part.fita-cy_bar" format="2">
-  <advance width="1199"/>
+  <advance width="1323"/>
   <note>
 crossbar height match /e
 Note: Glyph reused for /obar
 </note>
-  <anchor x="602" y="559" name="_center"/>
+  <anchor x="665" y="559" name="_center"/>
   <outline>
     <contour>
-      <point x="350" y="404" type="line"/>
-      <point x="408" y="480"/>
-      <point x="459" y="510"/>
-      <point x="504" y="510" type="curve" smooth="yes"/>
-      <point x="544" y="510"/>
-      <point x="600" y="458"/>
-      <point x="687" y="458" type="curve" smooth="yes"/>
-      <point x="775" y="458"/>
-      <point x="854" y="499"/>
-      <point x="953" y="646" type="curve"/>
-      <point x="855" y="713" type="line"/>
-      <point x="795" y="623"/>
-      <point x="747" y="610"/>
-      <point x="703" y="610" type="curve" smooth="yes"/>
-      <point x="666" y="610"/>
-      <point x="596" y="662"/>
-      <point x="512" y="662" type="curve" smooth="yes"/>
-      <point x="438" y="662"/>
-      <point x="359" y="623"/>
-      <point x="250" y="480" type="curve"/>
+      <point x="400" y="403" type="line"/>
+      <point x="458" y="479"/>
+      <point x="511" y="509"/>
+      <point x="558" y="509" type="curve" smooth="yes"/>
+      <point x="604" y="509"/>
+      <point x="666" y="458"/>
+      <point x="759" y="458" type="curve" smooth="yes"/>
+      <point x="851" y="458"/>
+      <point x="930" y="498"/>
+      <point x="1026" y="646" type="curve"/>
+      <point x="930" y="714" type="line"/>
+      <point x="870" y="624"/>
+      <point x="822" y="611"/>
+      <point x="773" y="611" type="curve" smooth="yes"/>
+      <point x="730" y="611"/>
+      <point x="657" y="662"/>
+      <point x="565" y="662" type="curve" smooth="yes"/>
+      <point x="487" y="662"/>
+      <point x="408" y="625"/>
+      <point x="303" y="480" type="curve"/>
     </contour>
   </outline>
 </glyph>

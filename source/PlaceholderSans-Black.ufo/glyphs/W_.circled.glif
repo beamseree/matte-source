@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="W.circled" format="2">
-  <advance width="2967"/>
+  <advance width="2908"/>
   <unicode hex="24CC"/>
-  <anchor x="1469" y="0" name="bottom"/>
-  <anchor x="1469" y="1490" name="top"/>
+  <anchor x="1474" y="0" name="bottom"/>
+  <anchor x="1474" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="W" xOffset="308"/>
+    <component base="W" xOffset="317"/>
   </outline>
   <lib>
     <dict>

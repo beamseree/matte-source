@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="koronisaccentleft.cn" format="2">
-  <advance width="362"/>
-  <anchor x="463" y="1549" name="_tonos"/>
+  <advance width="369"/>
+  <anchor x="466" y="1549" name="_tonos"/>
   <outline>
     <component base="koronis"/>
   </outline>

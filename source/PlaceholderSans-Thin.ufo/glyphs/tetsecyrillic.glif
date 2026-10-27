@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tetsecyrillic" format="2">
-  <advance width="1179"/>
+  <advance width="1200"/>
   <unicode hex="04B5"/>
-  <anchor x="1071" y="0" name="cyrtic"/>
-  <anchor x="681" y="0" name="cyrtic_center"/>
+  <anchor x="1079" y="0" name="cyrtic"/>
+  <anchor x="689" y="0" name="cyrtic_center"/>
   <outline>
     <contour>
-      <point x="674" y="1076" type="line"/>
-      <point x="-18" y="1076" type="line"/>
-      <point x="-18" y="1030" type="line"/>
-      <point x="674" y="1030" type="line"/>
+      <point x="682" y="1076" type="line"/>
+      <point x="-10" y="1076" type="line"/>
+      <point x="-10" y="1030" type="line"/>
+      <point x="682" y="1030" type="line"/>
     </contour>
     <component base="tsecyrillic" xOffset="121"/>
   </outline>

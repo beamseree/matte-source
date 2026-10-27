@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wturn" format="2">
-  <advance width="1702"/>
+  <advance width="1638"/>
   <unicode hex="028D"/>
-  <anchor x="839" y="1160" name="top"/>
-  <anchor x="839" y="0" name="bottom"/>
+  <anchor x="802" y="1160" name="top"/>
+  <anchor x="802" y="0" name="bottom"/>
   <outline>
-    <component base="w" xScale="-1.0" yScale="-1.0" xOffset="1702.0" yOffset="1076.0"/>
+    <component base="w" xScale="-1.0" yScale="-1.0" xOffset="1638.0" yOffset="1076.0"/>
   </outline>
 </glyph>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni04CF" format="2">
-  <advance width="400"/>
+  <advance width="420"/>
   <unicode hex="04CF"/>
-  <anchor x="194" y="0" name="bottom"/>
-  <anchor x="216" y="0" name="bottomr"/>
-  <anchor x="216" y="717" name="centerr"/>
-  <anchor x="194" y="739" name="cross"/>
-  <anchor x="355" y="1490" name="raccent"/>
-  <anchor x="193" y="1490" name="top"/>
+  <anchor x="202" y="0" name="bottom"/>
+  <anchor x="224" y="0" name="bottomr"/>
+  <anchor x="224" y="717" name="centerr"/>
+  <anchor x="202" y="739" name="cross"/>
+  <anchor x="364" y="1490" name="raccent"/>
+  <anchor x="201" y="1490" name="top"/>
   <outline>
     <component base="l"/>
   </outline>

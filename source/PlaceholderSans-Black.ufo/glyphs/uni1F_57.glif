@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F57" format="2">
-  <advance width="1251"/>
+  <advance width="1262"/>
   <unicode hex="1F57"/>
-  <anchor x="653" y="0" name="bottom"/>
-  <anchor x="1219" y="446" name="ogonek"/>
-  <anchor x="637.0" y="1969.0" name="top"/>
+  <anchor x="642" y="0" name="bottom"/>
+  <anchor x="1177" y="448" name="ogonek"/>
+  <anchor x="642.0" y="1970.8" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="dasiaperispomeni" xOffset="278"/>
+    <component base="dasiaperispomeni" xOffset="256"/>
   </outline>
 </glyph>

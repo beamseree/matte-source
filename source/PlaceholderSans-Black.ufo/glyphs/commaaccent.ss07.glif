@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaaccent.ss07" format="2">
-  <anchor x="242" y="0" name="_bottom"/>
+  <anchor x="274" y="0" name="_bottom"/>
   <outline>
     <component base="comma.ss07" xScale="0.7" yScale="0.7" yOffset="-376"/>
   </outline>
@@ -22,7 +22,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>comma.ss07</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>485</integer>
+      <integer>526</integer>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

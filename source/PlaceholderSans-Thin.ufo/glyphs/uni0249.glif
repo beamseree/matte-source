@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0249" format="2">
-  <advance width="342"/>
+  <advance width="374"/>
   <unicode hex="0249"/>
   <anchor x="515" y="0" name="_right"/>
   <anchor x="200" y="-442" name="bottom"/>
   <anchor x="228" y="605" name="cross"/>
-  <anchor x="140" y="1467" name="top"/>
+  <anchor x="166" y="1467" name="top"/>
   <outline>
     <component base="uni0249.ccmp"/>
-    <component base="dotaccentcomb" xOffset="-26"/>
+    <component base="dotaccentcomb" xOffset="-6"/>
   </outline>
   <lib>
     <dict>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="obarreddieresis-cy.ss07" format="2">
-  <advance width="1042"/>
+  <advance width="1098"/>
   <unicode hex="E29C"/>
-  <anchor x="599" y="0" name="bottom"/>
-  <anchor x="599" y="538" name="center"/>
-  <anchor x="1074" y="535" name="ogonek"/>
-  <anchor x="515" y="1434" name="top"/>
-  <anchor x="599" y="1103" name="tophorn"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="538" name="center"/>
+  <anchor x="1077" y="535" name="ogonek"/>
+  <anchor x="552" y="1434" name="top"/>
+  <anchor x="600" y="1103" name="tophorn"/>
   <outline>
     <component base="obarredcyrillic"/>
-    <component base="dieresiscomb.ss07" xOffset="-61"/>
+    <component base="dieresiscomb.ss07" xOffset="-31"/>
   </outline>
   <lib>
     <dict>

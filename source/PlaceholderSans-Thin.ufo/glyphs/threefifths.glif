@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threefifths" format="2">
-  <advance width="1628"/>
+  <advance width="1646"/>
   <unicode hex="2157"/>
-  <anchor x="346" y="1490" name="top"/>
+  <anchor x="351" y="1490" name="top"/>
   <outline>
     <component base="three.numr"/>
-    <component base="fraction" xOffset="653"/>
-    <component base="five.dnom" xOffset="969"/>
+    <component base="fraction" xOffset="662"/>
+    <component base="five.dnom" xOffset="978"/>
   </outline>
   <lib>
     <dict>

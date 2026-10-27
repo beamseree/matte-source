@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wdieresis" format="2">
-  <advance width="1603"/>
+  <advance width="1569"/>
   <unicode hex="1E85"/>
-  <anchor x="862" y="0" name="bottom"/>
-  <anchor x="825" y="1467" name="top"/>
+  <anchor x="836" y="0" name="bottom"/>
+  <anchor x="775" y="1467" name="top"/>
   <outline>
     <component base="w"/>
-    <component base="dieresiscomb" xOffset="276"/>
+    <component base="dieresiscomb" xOffset="212"/>
   </outline>
   <lib>
     <dict>

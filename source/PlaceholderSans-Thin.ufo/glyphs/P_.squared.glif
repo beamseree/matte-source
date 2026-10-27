@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="P.squared" format="2">
-  <advance width="2839"/>
+  <advance width="2890"/>
   <unicode hex="1F13F"/>
-  <anchor x="921" y="1490" name="tonos"/>
-  <anchor x="1422" y="1490" name="top"/>
-  <anchor x="968" y="1490" name="topl"/>
+  <anchor x="917" y="1490" name="tonos"/>
+  <anchor x="1446" y="1490" name="top"/>
+  <anchor x="967" y="1490" name="topl"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="P" xOffset="775"/>
+    <component base="P" xOffset="780"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zhebrevecyrillic" format="2">
-  <advance width="2375"/>
+  <advance width="2339"/>
   <unicode hex="04C1"/>
-  <anchor x="2307" y="0" name="cyrtic"/>
-  <anchor x="1197" y="1954" name="top"/>
+  <anchor x="2256" y="0" name="cyrtic"/>
+  <anchor x="1160" y="1955" name="top"/>
   <outline>
     <component base="Zhe-cy"/>
-    <component base="brevecomb" xOffset="729" yOffset="372"/>
+    <component base="brevecomb" xOffset="690" yOffset="372"/>
   </outline>
 </glyph>

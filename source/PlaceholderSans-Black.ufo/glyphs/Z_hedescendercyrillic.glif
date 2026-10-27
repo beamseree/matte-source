@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zhedescendercyrillic" format="2">
-  <advance width="2485"/>
+  <advance width="2429"/>
   <unicode hex="0496"/>
-  <anchor x="2307" y="0" name="cyrtic"/>
-  <anchor x="1199" y="1490" name="top"/>
+  <anchor x="2256" y="0" name="cyrtic"/>
+  <anchor x="1179" y="1490" name="top"/>
   <outline>
     <component base="Zhe-cy"/>
-    <component base="_part.cyrtic" xOffset="1911"/>
+    <component base="_part.cyrtic" xOffset="1872"/>
   </outline>
   <lib>
     <dict>

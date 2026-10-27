@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Imacroncyrillic" format="2">
-  <advance width="1542"/>
+  <advance width="1618"/>
   <unicode hex="04E2"/>
-  <anchor x="790" y="0" name="bottom"/>
-  <anchor x="1506" y="0" name="lfthook"/>
-  <anchor x="73" y="0" name="lfthook2"/>
-  <anchor x="723" y="1904" name="top"/>
-  <anchor x="1420" y="0" name="cyrtic"/>
+  <anchor x="813" y="0" name="bottom"/>
+  <anchor x="1533" y="0" name="lfthook"/>
+  <anchor x="94" y="0" name="lfthook2"/>
+  <anchor x="781" y="1906" name="top"/>
+  <anchor x="1477" y="0" name="cyrtic"/>
   <outline>
     <component base="Ii-cy"/>
-    <component base="macroncomb" xOffset="323" yOffset="372"/>
+    <component base="macroncomb" xOffset="363" yOffset="372"/>
   </outline>
 </glyph>

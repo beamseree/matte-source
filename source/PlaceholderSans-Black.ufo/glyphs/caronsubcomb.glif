@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caronsubcomb" format="2">
-  <advance width="1013"/>
+  <advance width="985"/>
   <unicode hex="E109"/>
-  <anchor x="507" y="-599" name="_top"/>
-  <anchor x="507" y="-135" name="top"/>
+  <anchor x="492" y="-599" name="_top"/>
+  <anchor x="492" y="-134" name="top"/>
   <outline>
     <component base="caroncomb" yOffset="-1717"/>
   </outline>

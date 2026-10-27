@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ogonek" format="2">
-  <advance width="458"/>
+  <advance width="468"/>
   <unicode hex="02DB"/>
   <note>
 aka ogonekcomb
 </note>
-  <anchor x="266" y="0" name="_ogonek"/>
+  <anchor x="268" y="0" name="_ogonek"/>
   <outline>
     <component base="ogonekcomb"/>
   </outline>

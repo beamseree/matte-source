@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="radical" format="2">
-  <advance width="1391"/>
+  <advance width="1463"/>
   <unicode hex="221A"/>
   <guideline x="24" y="1240" angle="0"/>
   <guideline x="24" y="764" angle="0"/>
   <outline>
     <contour>
-      <point x="699" y="198" type="line"/>
-      <point x="659" y="0" type="line"/>
-      <point x="897" y="0" type="line"/>
-      <point x="1245" y="1490" type="line"/>
-      <point x="981" y="1490" type="line"/>
+      <point x="724" y="196" type="line"/>
+      <point x="686" y="0" type="line"/>
+      <point x="909" y="0" type="line"/>
+      <point x="1286" y="1490" type="line"/>
+      <point x="1029" y="1490" type="line"/>
     </contour>
     <contour>
-      <point x="607" y="730" type="line"/>
-      <point x="313" y="730" type="line"/>
-      <point x="565" y="0" type="line"/>
-      <point x="769" y="0" type="line"/>
-      <point x="755" y="168" type="line"/>
+      <point x="623" y="728" type="line"/>
+      <point x="341" y="728" type="line"/>
+      <point x="601" y="0" type="line"/>
+      <point x="796" y="0" type="line"/>
+      <point x="778" y="165" type="line"/>
     </contour>
     <contour>
-      <point x="155" y="428" type="line"/>
-      <point x="581" y="428" type="line"/>
-      <point x="581" y="730" type="line"/>
-      <point x="155" y="730" type="line"/>
+      <point x="187" y="420" type="line"/>
+      <point x="600" y="420" type="line"/>
+      <point x="600" y="728" type="line"/>
+      <point x="187" y="728" type="line"/>
     </contour>
   </outline>
 </glyph>

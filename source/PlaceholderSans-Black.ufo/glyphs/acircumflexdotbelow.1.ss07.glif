@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acircumflexdotbelow.1.ss07" format="2">
-  <advance width="1276"/>
+  <advance width="1254"/>
   <unicode hex="E276"/>
-  <anchor x="660" y="0" name="bottom"/>
-  <anchor x="1237" y="0" name="bottomr"/>
-  <anchor x="1237" y="0" name="ogonek"/>
-  <anchor x="667" y="1582" name="top"/>
-  <anchor x="1237" y="1076" name="topr"/>
+  <anchor x="650" y="0" name="bottom"/>
+  <anchor x="1205" y="0" name="bottomr"/>
+  <anchor x="1205" y="0" name="ogonek"/>
+  <anchor x="639" y="1583" name="top"/>
+  <anchor x="1205" y="1076" name="topr"/>
   <outline>
     <component base="a.1"/>
-    <component base="circumflexcomb" xOffset="160"/>
-    <component base="dotbelow.ss07" xOffset="312"/>
+    <component base="circumflexcomb" xOffset="147"/>
+    <component base="dotbelow.ss07" xOffset="271"/>
   </outline>
   <lib>
     <dict>

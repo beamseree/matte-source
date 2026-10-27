@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="obarreddieresiscyrillic" format="2">
-  <advance width="1130"/>
+  <advance width="1320"/>
   <unicode hex="04EB"/>
-  <anchor x="654" y="0" name="bottom"/>
-  <anchor x="654" y="538" name="center"/>
-  <anchor x="1246" y="535" name="ogonek"/>
-  <anchor x="527" y="1585" name="top"/>
-  <anchor x="654" y="1101" name="tophorn"/>
+  <anchor x="658" y="0" name="bottom"/>
+  <anchor x="658" y="538" name="center"/>
+  <anchor x="1220" y="536" name="ogonek"/>
+  <anchor x="680" y="1587" name="top"/>
+  <anchor x="658" y="1101" name="tophorn"/>
   <outline>
     <component base="obarredcyrillic"/>
-    <component base="dieresiscomb" xOffset="-102"/>
+    <component base="dieresiscomb" xOffset="15"/>
   </outline>
 </glyph>

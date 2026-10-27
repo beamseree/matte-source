@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bdotaccent" format="2">
-  <advance width="1298"/>
+  <advance width="1259"/>
   <unicode hex="1E03"/>
-  <anchor x="676" y="0" name="bottom"/>
-  <anchor x="377" y="1288" name="cross"/>
-  <anchor x="834" y="1786" name="top"/>
-  <anchor x="92" y="1490" name="topbar"/>
+  <anchor x="635" y="0" name="bottom"/>
+  <anchor x="343" y="1288" name="cross"/>
+  <anchor x="779" y="1789" name="top"/>
+  <anchor x="89" y="1490" name="topbar"/>
   <outline>
     <component base="b"/>
-    <component base="dotaccentcomb" xOffset="519" yOffset="186"/>
+    <component base="dotaccentcomb" xOffset="450" yOffset="186"/>
   </outline>
 </glyph>

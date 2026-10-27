@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringcomb.uc" format="2">
   <unicode hex="EE07"/>
-  <anchor x="411" y="1490" name="_top"/>
+  <anchor x="435" y="1490" name="_top"/>
   <outline>
     <contour>
-      <point x="411" y="1548" type="curve" smooth="yes"/>
-      <point x="586" y="1548"/>
-      <point x="696" y="1651"/>
-      <point x="696" y="1788" type="curve" smooth="yes"/>
-      <point x="696" y="1925"/>
-      <point x="586" y="2028"/>
-      <point x="411" y="2028" type="curve" smooth="yes"/>
-      <point x="236" y="2028"/>
-      <point x="126" y="1925"/>
-      <point x="126" y="1788" type="curve" smooth="yes"/>
-      <point x="126" y="1651"/>
-      <point x="236" y="1548"/>
+      <point x="435" y="1548" type="curve" smooth="yes"/>
+      <point x="606" y="1548"/>
+      <point x="717" y="1651"/>
+      <point x="717" y="1788" type="curve" smooth="yes"/>
+      <point x="717" y="1925"/>
+      <point x="606" y="2027"/>
+      <point x="435" y="2027" type="curve" smooth="yes"/>
+      <point x="264" y="2027"/>
+      <point x="153" y="1925"/>
+      <point x="153" y="1788" type="curve" smooth="yes"/>
+      <point x="153" y="1651"/>
+      <point x="264" y="1548"/>
     </contour>
     <contour>
-      <point x="411" y="1685" type="curve" smooth="yes"/>
-      <point x="342" y="1685"/>
-      <point x="299" y="1725"/>
-      <point x="299" y="1788" type="curve" smooth="yes"/>
-      <point x="299" y="1851"/>
-      <point x="342" y="1891"/>
-      <point x="411" y="1891" type="curve" smooth="yes"/>
-      <point x="480" y="1891"/>
-      <point x="523" y="1851"/>
-      <point x="523" y="1788" type="curve" smooth="yes"/>
-      <point x="523" y="1725"/>
-      <point x="480" y="1685"/>
+      <point x="435" y="1686" type="curve" smooth="yes"/>
+      <point x="366" y="1686"/>
+      <point x="321" y="1725"/>
+      <point x="321" y="1788" type="curve" smooth="yes"/>
+      <point x="321" y="1851"/>
+      <point x="366" y="1890"/>
+      <point x="435" y="1890" type="curve" smooth="yes"/>
+      <point x="504" y="1890"/>
+      <point x="549" y="1851"/>
+      <point x="549" y="1788" type="curve" smooth="yes"/>
+      <point x="549" y="1725"/>
+      <point x="504" y="1686"/>
     </contour>
   </outline>
   <lib>
@@ -37,7 +37,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>823</integer>
+      <integer>870</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Obar" format="2">
-  <advance width="1571"/>
+  <advance width="1590"/>
   <unicode hex="019F"/>
-  <anchor x="794" y="0" name="bottom"/>
-  <anchor x="794" y="745" name="center"/>
-  <anchor x="1478" y="744" name="ogonek"/>
-  <anchor x="262" y="1490" name="tonos"/>
-  <anchor x="794" y="1490" name="top"/>
-  <anchor x="794" y="1510" name="tophorn"/>
+  <anchor x="806" y="0" name="bottom"/>
+  <anchor x="806" y="745" name="center"/>
+  <anchor x="1482" y="744" name="ogonek"/>
+  <anchor x="279" y="1490" name="tonos"/>
+  <anchor x="806" y="1490" name="top"/>
+  <anchor x="806" y="1510" name="tophorn"/>
   <outline>
     <component base="afii10147"/>
   </outline>

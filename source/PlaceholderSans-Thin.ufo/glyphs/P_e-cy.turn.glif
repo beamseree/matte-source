@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Pe-cy.turn" format="2">
-  <advance width="1377"/>
+  <advance width="1391"/>
   <unicode hex="EE87"/>
-  <anchor x="1202" y="0" name="cyrtic"/>
-  <anchor x="691" y="0" name="cyrtic_center"/>
-  <anchor x="689" y="1490" name="top"/>
+  <anchor x="1209" y="0" name="cyrtic"/>
+  <anchor x="698" y="0" name="cyrtic_center"/>
+  <anchor x="696" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="1202" y="0" type="line"/>
-      <point x="1202" y="1490" type="line"/>
-      <point x="1156" y="1490" type="line"/>
-      <point x="1156" y="46" type="line"/>
-      <point x="221" y="46" type="line"/>
-      <point x="221" y="1490" type="line"/>
-      <point x="175" y="1490" type="line"/>
-      <point x="175" y="0" type="line"/>
+      <point x="1209" y="0" type="line"/>
+      <point x="1209" y="1490" type="line"/>
+      <point x="1163" y="1490" type="line"/>
+      <point x="1163" y="46" type="line"/>
+      <point x="228" y="46" type="line"/>
+      <point x="228" y="1490" type="line"/>
+      <point x="182" y="1490" type="line"/>
+      <point x="182" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

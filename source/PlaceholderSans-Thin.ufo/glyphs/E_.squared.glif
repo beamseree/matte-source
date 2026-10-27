@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="E.squared" format="2">
-  <advance width="2822"/>
+  <advance width="2850"/>
   <unicode hex="1F134"/>
-  <anchor x="1400" y="0" name="bottom"/>
-  <anchor x="1400" y="0" name="cedilla"/>
-  <anchor x="1863" y="0" name="ogonek"/>
-  <anchor x="938" y="1490" name="tonos"/>
-  <anchor x="1400" y="1490" name="top"/>
+  <anchor x="1411" y="0" name="bottom"/>
+  <anchor x="1411" y="0" name="cedilla"/>
+  <anchor x="1878" y="0" name="ogonek"/>
+  <anchor x="945" y="1490" name="tonos"/>
+  <anchor x="1411" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="E" xOffset="756"/>
+    <component base="E" xOffset="761"/>
   </outline>
   <lib>
     <dict>

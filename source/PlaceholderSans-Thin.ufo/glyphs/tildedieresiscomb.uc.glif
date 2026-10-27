@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildedieresiscomb.uc" format="2">
-  <advance width="854"/>
+  <advance width="903"/>
   <unicode hex="EED1"/>
-  <anchor x="472" y="1118" name="_top"/>
+  <anchor x="482" y="1118" name="_top"/>
   <outline>
     <component base="tildedieresiscomb.lc"/>
   </outline>

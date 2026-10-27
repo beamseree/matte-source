@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="southEastArrow.case" format="2">
-  <advance width="1461"/>
+  <advance width="1479"/>
   <outline>
     <component base="southEastArrow" yOffset="224"/>
   </outline>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pertenthousand" format="2">
-  <advance width="3688"/>
+  <advance width="3681"/>
   <unicode hex="2031"/>
   <outline>
     <component base="_zero_percent" xOffset="100"/>
-    <component base="fraction" xOffset="818"/>
-    <component base="_zero_percent1" xOffset="1222"/>
-    <component base="_zero_percent1" xOffset="2011"/>
-    <component base="_zero_percent1" xOffset="2799"/>
+    <component base="fraction" xOffset="819"/>
+    <component base="_zero_percent1" xOffset="1213"/>
+    <component base="_zero_percent1" xOffset="2002"/>
+    <component base="_zero_percent1" xOffset="2791"/>
   </outline>
   <lib>
     <dict>

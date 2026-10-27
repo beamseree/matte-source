@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cheverticalstrokecyrillic" format="2">
-  <advance width="1212"/>
+  <advance width="1241"/>
   <unicode hex="04B9"/>
-  <anchor x="625" y="435" name="cross"/>
-  <anchor x="1163" y="0" name="cyrtic"/>
-  <anchor x="624" y="1076" name="top"/>
+  <anchor x="618" y="436" name="cross"/>
+  <anchor x="1129" y="0" name="cyrtic"/>
+  <anchor x="617" y="1076" name="top"/>
   <outline>
     <component base="checyrillic"/>
-    <component base="_part.crossbar_vert" xOffset="378" yOffset="-294"/>
+    <component base="_part.crossbar_vert" xOffset="363" yOffset="-294"/>
   </outline>
   <lib>
     <dict>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ainvertedbreve.1" format="2">
-  <advance width="1140"/>
+  <advance width="1162"/>
   <unicode hex="E043"/>
-  <anchor x="595" y="0" name="bottom"/>
-  <anchor x="998" y="0" name="bottomr"/>
-  <anchor x="998" y="0" name="ogonek"/>
-  <anchor x="546" y="1515" name="top"/>
-  <anchor x="998" y="1076" name="topr"/>
+  <anchor x="601" y="0" name="bottom"/>
+  <anchor x="1004" y="0" name="bottomr"/>
+  <anchor x="1004" y="0" name="ogonek"/>
+  <anchor x="564" y="1515" name="top"/>
+  <anchor x="1004" y="1076" name="topr"/>
   <outline>
     <component base="a.1"/>
-    <component base="breveinvcomb" xOffset="198"/>
+    <component base="breveinvcomb" xOffset="212"/>
   </outline>
   <lib>
     <dict>

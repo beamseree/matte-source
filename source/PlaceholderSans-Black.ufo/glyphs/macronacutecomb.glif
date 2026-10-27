@@ -4,10 +4,10 @@
   <guideline y="1632"/>
   <guideline y="1392"/>
   <guideline y="1765"/>
-  <anchor x="400" y="1118" name="_top"/>
+  <anchor x="418" y="1118" name="_top"/>
   <outline>
     <component base="macroncomb" yOffset="-24"/>
-    <component base="acute_compact" xScale="0.8" yScale="0.8" xOffset="142" yOffset="627"/>
+    <component base="acute_compact" xScale="0.8" yScale="0.8" xOffset="178" yOffset="627"/>
   </outline>
   <lib>
     <dict>
@@ -31,7 +31,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>751</integer>
+      <integer>830</integer>
     </dict>
   </lib>
 </glyph>

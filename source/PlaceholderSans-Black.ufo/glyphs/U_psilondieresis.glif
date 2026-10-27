@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Upsilondieresis" format="2">
-  <advance width="1428"/>
+  <advance width="1484"/>
   <unicode hex="03AB"/>
-  <anchor x="742" y="0" name="bottom"/>
-  <anchor x="743" y="323" name="cross"/>
-  <anchor x="946" y="0" name="ogonek"/>
-  <anchor x="8" y="1490" name="tonos"/>
-  <anchor x="671" y="1957" name="top"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="723" y="320" name="cross"/>
+  <anchor x="912" y="0" name="ogonek"/>
+  <anchor x="-3" y="1490" name="tonos"/>
+  <anchor x="690" y="1959" name="top"/>
   <outline>
     <component base="Ydieresis"/>
   </outline>

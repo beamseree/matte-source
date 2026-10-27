@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="numbersign" format="2">
-  <advance width="1353"/>
+  <advance width="1342"/>
   <unicode hex="0023"/>
   <note>
 1. outline
@@ -9,28 +9,28 @@
 </note>
   <outline>
     <contour>
-      <point x="670" y="0" type="line"/>
-      <point x="960" y="0" type="line"/>
-      <point x="1206" y="1490" type="line"/>
-      <point x="914" y="1490" type="line"/>
+      <point x="675" y="0" type="line"/>
+      <point x="946" y="0" type="line"/>
+      <point x="1192" y="1490" type="line"/>
+      <point x="919" y="1490" type="line"/>
     </contour>
     <contour>
-      <point x="10" y="340" type="line"/>
-      <point x="1208" y="340" type="line"/>
-      <point x="1258" y="632" type="line"/>
-      <point x="60" y="632" type="line"/>
+      <point x="12" y="337" type="line"/>
+      <point x="1199" y="337" type="line"/>
+      <point x="1246" y="635" type="line"/>
+      <point x="59" y="635" type="line"/>
     </contour>
     <contour>
-      <point x="146" y="0" type="line"/>
-      <point x="438" y="0" type="line"/>
-      <point x="682" y="1490" type="line"/>
-      <point x="390" y="1490" type="line"/>
+      <point x="151" y="0" type="line"/>
+      <point x="424" y="0" type="line"/>
+      <point x="668" y="1490" type="line"/>
+      <point x="395" y="1490" type="line"/>
     </contour>
     <contour>
-      <point x="94" y="858" type="line"/>
-      <point x="1292" y="858" type="line"/>
-      <point x="1342" y="1150" type="line"/>
-      <point x="144" y="1150" type="line"/>
+      <point x="97" y="855" type="line"/>
+      <point x="1284" y="855" type="line"/>
+      <point x="1330" y="1153" type="line"/>
+      <point x="144" y="1153" type="line"/>
     </contour>
   </outline>
 </glyph>

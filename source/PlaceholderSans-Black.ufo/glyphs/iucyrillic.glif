@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iucyrillic" format="2">
-  <advance width="1825"/>
+  <advance width="1821"/>
   <unicode hex="044E"/>
   <note>
 /h.sc + /o
 </note>
-  <anchor x="1192" y="0" name="bottom"/>
-  <anchor x="1192" y="538" name="center"/>
-  <anchor x="1784" y="535" name="ogonek"/>
-  <anchor x="1192" y="1076" name="top"/>
-  <anchor x="1192" y="1101" name="tophorn"/>
+  <anchor x="1196" y="0" name="bottom"/>
+  <anchor x="1196" y="538" name="center"/>
+  <anchor x="1758" y="536" name="ogonek"/>
+  <anchor x="1196" y="1076" name="top"/>
+  <anchor x="1196" y="1101" name="tophorn"/>
   <outline>
     <contour>
-      <point x="108" y="0" type="line"/>
-      <point x="508" y="0" type="line"/>
-      <point x="508" y="1076" type="line"/>
-      <point x="108" y="1076" type="line"/>
+      <point x="152" y="0" type="line"/>
+      <point x="493" y="0" type="line"/>
+      <point x="493" y="1076" type="line"/>
+      <point x="152" y="1076" type="line"/>
     </contour>
     <contour>
-      <point x="390" y="390" type="line"/>
-      <point x="709" y="390" type="line"/>
-      <point x="709" y="690" type="line"/>
-      <point x="390" y="690" type="line"/>
+      <point x="395" y="387" type="line"/>
+      <point x="728" y="387" type="line"/>
+      <point x="728" y="693" type="line"/>
+      <point x="395" y="693" type="line"/>
     </contour>
     <component base="o" xOffset="538"/>
   </outline>

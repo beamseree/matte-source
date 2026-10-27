@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nine.numr.ss01" format="2">
-  <advance width="650"/>
+  <advance width="658"/>
   <outline>
     <component base="nine.dnom.ss01" yOffset="723"/>
   </outline>

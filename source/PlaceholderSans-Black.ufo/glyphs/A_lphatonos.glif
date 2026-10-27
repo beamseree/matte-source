@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Alphatonos" format="2">
-  <advance width="1592"/>
+  <advance width="1559"/>
   <unicode hex="0386"/>
-  <anchor x="832" y="0" name="bottom"/>
-  <anchor x="1636" y="0" name="ogonek"/>
-  <anchor x="492" y="1490" name="tonos"/>
-  <anchor x="832" y="1490" name="top"/>
+  <anchor x="788" y="0" name="bottom"/>
+  <anchor x="1542" y="0" name="ogonek"/>
+  <anchor x="470" y="1490" name="tonos"/>
+  <anchor x="788" y="1490" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="tonos" xOffset="-264" yOffset="-92"/>
+    <component base="tonos" xOffset="-360" yOffset="-92"/>
   </outline>
 </glyph>

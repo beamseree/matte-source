@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ainvertedbreve" format="2">
-  <advance width="1623"/>
+  <advance width="1546"/>
   <unicode hex="0202"/>
-  <anchor x="832" y="0" name="bottom"/>
-  <anchor x="1636" y="0" name="ogonek"/>
-  <anchor x="492" y="1490" name="tonos"/>
-  <anchor x="821" y="1954" name="top"/>
+  <anchor x="788" y="0" name="bottom"/>
+  <anchor x="1542" y="0" name="ogonek"/>
+  <anchor x="470" y="1490" name="tonos"/>
+  <anchor x="735" y="1954" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="breveinvcomb" xOffset="326" yOffset="372"/>
+    <component base="breveinvcomb" xOffset="230" yOffset="372"/>
   </outline>
 </glyph>

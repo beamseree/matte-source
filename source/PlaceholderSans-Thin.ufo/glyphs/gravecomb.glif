@@ -4,20 +4,20 @@
   <note>
 mirrored version of acute
 </note>
-  <anchor x="340" y="1118" name="_top"/>
-  <anchor x="336" y="1557" name="top"/>
+  <anchor x="347" y="1118" name="_top"/>
+  <anchor x="343" y="1557" name="top"/>
   <outline>
     <contour>
-      <point x="322" y="1283" type="line"/>
-      <point x="368" y="1283" type="line"/>
-      <point x="215" y="1557" type="line"/>
-      <point x="155" y="1557" type="line"/>
+      <point x="329" y="1283" type="line"/>
+      <point x="375" y="1283" type="line"/>
+      <point x="222" y="1557" type="line"/>
+      <point x="162" y="1557" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>522</integer>
+      <integer>537</integer>
     </dict>
   </lib>
 </glyph>

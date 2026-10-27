@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="warningSign" format="2">
-  <advance width="2082"/>
+  <advance width="2105"/>
   <unicode hex="26A0"/>
   <note>
 Intentionally larger than triagup
 </note>
   <outline>
     <contour>
-      <point x="55" y="0" type="line"/>
-      <point x="2027" y="0" type="line"/>
-      <point x="1041" y="1676" type="line"/>
+      <point x="67" y="0" type="line"/>
+      <point x="2039" y="0" type="line"/>
+      <point x="1053" y="1676" type="line"/>
     </contour>
     <contour>
-      <point x="1041" y="200" type="curve" smooth="yes"/>
-      <point x="962" y="201"/>
-      <point x="897" y="266"/>
-      <point x="897" y="346" type="curve" smooth="yes"/>
-      <point x="897" y="426"/>
-      <point x="962" y="492"/>
-      <point x="1041" y="492" type="curve" smooth="yes"/>
-      <point x="1122" y="492"/>
-      <point x="1187" y="426"/>
-      <point x="1187" y="346" type="curve" smooth="yes"/>
-      <point x="1187" y="266"/>
-      <point x="1122" y="201"/>
+      <point x="1053" y="200" type="curve" smooth="yes"/>
+      <point x="974" y="202"/>
+      <point x="910" y="267"/>
+      <point x="910" y="347" type="curve" smooth="yes"/>
+      <point x="910" y="427"/>
+      <point x="974" y="493"/>
+      <point x="1053" y="493" type="curve" smooth="yes"/>
+      <point x="1133" y="493"/>
+      <point x="1197" y="427"/>
+      <point x="1197" y="347" type="curve" smooth="yes"/>
+      <point x="1197" y="267"/>
+      <point x="1133" y="202"/>
     </contour>
     <contour>
-      <point x="919" y="634" type="line"/>
-      <point x="911" y="1118" type="line"/>
-      <point x="1173" y="1118" type="line"/>
-      <point x="1163" y="634" type="line"/>
+      <point x="935" y="634" type="line"/>
+      <point x="926" y="1118" type="line"/>
+      <point x="1181" y="1118" type="line"/>
+      <point x="1170" y="634" type="line"/>
     </contour>
   </outline>
 </glyph>

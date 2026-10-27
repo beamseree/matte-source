@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.dnom.ss01" format="2">
-  <advance width="688"/>
+  <advance width="697"/>
   <outline>
     <contour>
-      <point x="89" y="159" type="line"/>
-      <point x="600" y="159" type="line"/>
-      <point x="600" y="207" type="line"/>
-      <point x="149" y="207" type="line"/>
-      <point x="149" y="212" type="line"/>
-      <point x="482" y="767" type="line"/>
-      <point x="429" y="767" type="line"/>
-      <point x="89" y="200" type="line"/>
+      <point x="94" y="159" type="line"/>
+      <point x="605" y="159" type="line"/>
+      <point x="605" y="207" type="line"/>
+      <point x="154" y="207" type="line"/>
+      <point x="154" y="212" type="line"/>
+      <point x="487" y="767" type="line"/>
+      <point x="434" y="767" type="line"/>
+      <point x="94" y="200" type="line"/>
     </contour>
     <contour>
-      <point x="452" y="0" type="line"/>
-      <point x="503" y="0" type="line"/>
-      <point x="503" y="483" type="line"/>
-      <point x="452" y="483" type="line"/>
-      <point x="452" y="191" type="line"/>
-      <point x="452" y="172" type="line"/>
+      <point x="457" y="0" type="line"/>
+      <point x="508" y="0" type="line"/>
+      <point x="508" y="483" type="line"/>
+      <point x="457" y="483" type="line"/>
+      <point x="457" y="191" type="line"/>
+      <point x="457" y="172" type="line"/>
     </contour>
   </outline>
   <lib>

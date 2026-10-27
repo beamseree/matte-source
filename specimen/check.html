@@ -7,26 +7,43 @@
 <style>
   @font-face { font-family: "Placeholder Sans"; src: url("../build/PlaceholderSans-VF.ttf"); font-weight: 100 900; }
   body { margin: 0; background: #1f1f1f; overflow: hidden; }
-  /* ?x=<svg units> scrolls the view; ?s=<scale> zooms (default 2.4) */
-  .inner { position: absolute; top: 8px; width: 1069px; height: 97px; transform-origin: 0 0; }
-  .inner img { position: absolute; inset: 0; width: 1069px; height: 97px; }
+  /* ?m=regular|thin|black picks the mockup; ?x=<mockup px> scrolls the view; ?s=<scale> zooms */
+  .inner { position: absolute; top: 8px; transform-origin: 0 0; }
+  .inner img { position: absolute; inset: 0; }
   .inner span {
-    position: absolute; font: 400 44.43px/44.43px "Placeholder Sans"; white-space: nowrap;
+    position: absolute; font-family: "Placeholder Sans"; white-space: nowrap;
     color: transparent; -webkit-text-stroke: 0.35px #ff4d55;
   }
 </style>
 </head>
 <body>
-<div class="inner" id="inner">
-  <img src="mockup.svg" alt="">
-  <span style="left:-1.584px;top:-5.514px">quick brown fox jumps over the lazy dog</span>
-  <span style="left:-1.841px;top:56.486px">QUICK BROWN FOX JUMPS OVER THE LAZY DOG</span>
-</div>
+<div class="inner" id="inner"><img id="mock" alt=""></div>
 <script>
+  // Each mockup's size, the build's weight, and per line: type size (2048 units), and the
+  // span position that puts the build's baseline and first letter on the mockup's.
+  const MOCKUPS = {
+    regular: { img: "mockup.svg", w: 1069, h: 97, wght: 400, s: 2.4, lines: [
+      { text: "quick brown fox jumps over the lazy dog", size: 44.43, left: -1.584, top: -5.514 },
+      { text: "QUICK BROWN FOX JUMPS OVER THE LAZY DOG", size: 44.43, left: -1.841, top: 56.486 } ] },
+    thin: { img: "../reference/mockup-thin.webp", w: 2000, h: 245, wght: 100, s: 1, lines: [
+      { text: "quick brown fox jumps over the lazy dog", size: 85.689, left: 9.999, top: 14.22 },
+      { text: "QUICK BROWN FOX JUMPS OVER THE LAZY DOG", size: 85.989, left: 10.21, top: 133.255 } ] },
+    black: { img: "../reference/mockup-black.webp", w: 2000, h: 210, wght: 900, s: 1, lines: [
+      { text: "quick brown fox jumps over the lazy dog", size: 79.061, left: 11.53, top: 0.136 },
+      { text: "QUICK BROWN FOX JUMPS OVER THE LAZY DOG", size: 79.788, left: 10.285, top: 110.108 } ] },
+  };
   const q = new URLSearchParams(location.search);
-  const s = +(q.get("s") || 2.4), x = +(q.get("x") || 0);
-  inner.style.transform = `scale(${s})`;
-  inner.style.left = `${-x * s}px`;
+  const m = MOCKUPS[q.get("m") || "regular"];
+  const s = +(q.get("s") || m.s), x = +(q.get("x") || 0);
+  Object.assign(inner.style, { width: `${m.w}px`, height: `${m.h}px`, transform: `scale(${s})`, left: `${-x * s}px` });
+  Object.assign(mock, { src: m.img, width: m.w, height: m.h });
+  for (const line of m.lines) {
+    const span = document.createElement("span");
+    span.textContent = line.text;
+    Object.assign(span.style, { left: `${line.left}px`, top: `${line.top}px`, fontSize: `${line.size}px`,
+                                lineHeight: `${line.size}px`, fontWeight: m.wght });
+    inner.appendChild(span);
+  }
 </script>
 </body>
 </html>

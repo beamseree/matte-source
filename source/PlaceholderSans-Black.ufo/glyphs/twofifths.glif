@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="twofifths" format="2">
-  <advance width="2110"/>
+  <advance width="2118"/>
   <unicode hex="2156"/>
-  <anchor x="458" y="1041" name="cross"/>
-  <anchor x="378" y="1490" name="top"/>
+  <anchor x="453" y="1042" name="cross"/>
+  <anchor x="379" y="1491" name="top"/>
   <outline>
     <component base="two.numr"/>
-    <component base="fraction" xOffset="833"/>
-    <component base="five.dnom" xOffset="1307"/>
+    <component base="fraction" xOffset="836"/>
+    <component base="five.dnom" xOffset="1300"/>
   </outline>
   <lib>
     <dict>

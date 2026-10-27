@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odotaccent.ss07" format="2">
-  <advance width="1249"/>
+  <advance width="1265"/>
   <unicode hex="E251"/>
-  <anchor x="654" y="0" name="bottom"/>
-  <anchor x="654" y="538" name="center"/>
-  <anchor x="1246" y="535" name="ogonek"/>
-  <anchor x="628" y="1586" name="top"/>
-  <anchor x="654" y="1101" name="tophorn"/>
+  <anchor x="658" y="0" name="bottom"/>
+  <anchor x="658" y="538" name="center"/>
+  <anchor x="1220" y="536" name="ogonek"/>
+  <anchor x="634" y="1590" name="top"/>
+  <anchor x="658" y="1101" name="tophorn"/>
   <outline>
     <component base="o"/>
-    <component base="dotaccentcomb.ss07" xOffset="312"/>
+    <component base="dotaccentcomb.ss07" xOffset="308"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abreveacute" format="2">
-  <advance width="1108"/>
+  <advance width="1116"/>
   <unicode hex="1EAF"/>
-  <anchor x="605" y="0" name="bottom"/>
-  <anchor x="1120" y="0" name="ogonek"/>
-  <anchor x="563" y="1893" name="top"/>
+  <anchor x="585" y="0" name="bottom"/>
+  <anchor x="1086" y="0" name="ogonek"/>
+  <anchor x="526" y="1894" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="breveacutecomb.cn" xOffset="95"/>
+    <component base="breveacutecomb.cn" xOffset="56"/>
   </outline>
   <lib>
     <dict>

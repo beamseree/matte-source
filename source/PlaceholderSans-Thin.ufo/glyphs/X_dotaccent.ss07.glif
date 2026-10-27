@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Xdotaccent.ss07" format="2">
-  <advance width="1291"/>
+  <advance width="1292"/>
   <unicode hex="E220"/>
-  <anchor x="646" y="0" name="bottom"/>
-  <anchor x="646" y="756" name="cross"/>
-  <anchor x="1257" y="0" name="cyrtic"/>
-  <anchor x="677" y="1806" name="top"/>
+  <anchor x="634" y="0" name="bottom"/>
+  <anchor x="634" y="756" name="cross"/>
+  <anchor x="1243" y="0" name="cyrtic"/>
+  <anchor x="673" y="1806" name="top"/>
   <outline>
     <component base="X"/>
-    <component base="dotaccentcomb.ss07" xOffset="513" yOffset="372"/>
+    <component base="dotaccentcomb.ss07" xOffset="502" yOffset="372"/>
   </outline>
   <lib>
     <dict>

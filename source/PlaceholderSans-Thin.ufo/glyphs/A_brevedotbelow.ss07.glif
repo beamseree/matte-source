@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abrevedotbelow.ss07" format="2">
-  <advance width="1261"/>
+  <advance width="1275"/>
   <unicode hex="E1E2"/>
-  <anchor x="673" y="0" name="bottom"/>
-  <anchor x="1294" y="0" name="ogonek"/>
-  <anchor x="581" y="1490" name="tonos"/>
-  <anchor x="662" y="1904" name="top"/>
+  <anchor x="678" y="0" name="bottom"/>
+  <anchor x="1280" y="0" name="ogonek"/>
+  <anchor x="588" y="1490" name="tonos"/>
+  <anchor x="660" y="1904" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="brevecomb" xOffset="323" yOffset="372"/>
-    <component base="dotbelow.ss07" xOffset="464"/>
+    <component base="brevecomb" xOffset="317" yOffset="372"/>
+    <component base="dotbelow.ss07" xOffset="465"/>
   </outline>
   <lib>
     <dict>

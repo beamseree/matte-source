@@ -4,20 +4,20 @@
   <note>
 Should be designed as a balance between isolated ideal spacing (to appear as one unit, not two separate strokes) yet is must work with /dieresis as it's used for /hungarumlaut
 </note>
-  <anchor x="494" y="1118" name="_top"/>
-  <anchor x="494" y="1557" name="top"/>
+  <anchor x="501" y="1118" name="_top"/>
+  <anchor x="501" y="1557" name="top"/>
   <outline>
     <contour>
-      <point x="612" y="1283" type="line"/>
-      <point x="658" y="1283" type="line"/>
-      <point x="513" y="1557" type="line"/>
-      <point x="461" y="1557" type="line"/>
+      <point x="619" y="1283" type="line"/>
+      <point x="665" y="1283" type="line"/>
+      <point x="520" y="1557" type="line"/>
+      <point x="468" y="1557" type="line"/>
     </contour>
     <contour>
-      <point x="338" y="1283" type="line"/>
-      <point x="384" y="1283" type="line"/>
-      <point x="211" y="1557" type="line"/>
-      <point x="155" y="1557" type="line"/>
+      <point x="345" y="1283" type="line"/>
+      <point x="391" y="1283" type="line"/>
+      <point x="218" y="1557" type="line"/>
+      <point x="162" y="1557" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -27,7 +27,7 @@ Should be designed as a balance between isolated ideal spacing (to appear as one
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>grave</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>812</integer>
+      <integer>827</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F8E" format="2">
-  <advance width="1833"/>
+  <advance width="1789"/>
   <unicode hex="1F8E"/>
-  <anchor x="1101" y="0" name="bottom"/>
-  <anchor x="1905" y="0" name="ogonek"/>
-  <anchor x="761" y="1490" name="tonos"/>
-  <anchor x="1101" y="1490" name="top"/>
+  <anchor x="1057" y="0" name="bottom"/>
+  <anchor x="1811" y="0" name="ogonek"/>
+  <anchor x="739" y="1490" name="tonos"/>
+  <anchor x="1057" y="1490" name="top"/>
   <outline>
     <component base="uni1F0E"/>
-    <component base="uni1FBE" xOffset="748"/>
+    <component base="uni1FBE" xOffset="685"/>
   </outline>
 </glyph>

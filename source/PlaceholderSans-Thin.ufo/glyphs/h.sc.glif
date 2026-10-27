@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="h.sc" format="2">
-  <advance width="1132"/>
+  <advance width="1149"/>
   <unicode hex="029C"/>
-  <anchor x="569" y="0" name="bottom"/>
-  <anchor x="962" y="0" name="cyrtic"/>
-  <anchor x="916" y="0" name="lfthook"/>
-  <anchor x="569" y="1118" name="top"/>
+  <anchor x="577" y="0" name="bottom"/>
+  <anchor x="970" y="0" name="cyrtic"/>
+  <anchor x="924" y="0" name="lfthook"/>
+  <anchor x="577" y="1118" name="top"/>
   <outline>
     <contour>
-      <point x="938" y="590" type="line"/>
-      <point x="200" y="590" type="line"/>
-      <point x="200" y="544" type="line"/>
-      <point x="938" y="544" type="line"/>
+      <point x="946" y="590" type="line"/>
+      <point x="208" y="590" type="line"/>
+      <point x="208" y="544" type="line"/>
+      <point x="946" y="544" type="line"/>
     </contour>
     <contour>
-      <point x="216" y="1118" type="line"/>
-      <point x="170" y="1118" type="line"/>
-      <point x="170" y="0" type="line"/>
-      <point x="216" y="0" type="line"/>
+      <point x="224" y="1118" type="line"/>
+      <point x="178" y="1118" type="line"/>
+      <point x="178" y="0" type="line"/>
+      <point x="224" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="962" y="1118" type="line"/>
-      <point x="916" y="1118" type="line"/>
-      <point x="916" y="0" type="line"/>
-      <point x="962" y="0" type="line"/>
+      <point x="970" y="1118" type="line"/>
+      <point x="924" y="1118" type="line"/>
+      <point x="924" y="0" type="line"/>
+      <point x="970" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

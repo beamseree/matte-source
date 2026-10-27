@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plusmod" format="2">
-  <advance width="615"/>
+  <advance width="630"/>
   <unicode hex="02D6"/>
   <outline>
     <contour>
-      <point x="331" y="494" type="line"/>
-      <point x="285" y="494" type="line"/>
-      <point x="285" y="186" type="line"/>
-      <point x="331" y="186" type="line"/>
+      <point x="339" y="494" type="line"/>
+      <point x="293" y="494" type="line"/>
+      <point x="293" y="186" type="line"/>
+      <point x="339" y="186" type="line"/>
     </contour>
     <contour>
-      <point x="149" y="364" type="line"/>
-      <point x="149" y="318" type="line"/>
-      <point x="467" y="318" type="line"/>
-      <point x="467" y="364" type="line"/>
+      <point x="157" y="364" type="line"/>
+      <point x="157" y="318" type="line"/>
+      <point x="475" y="318" type="line"/>
+      <point x="475" y="364" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -3,8 +3,8 @@
   <unicode hex="E2C3"/>
   <outline>
     <component base="period.ss07" yOffset="1375"/>
-    <component base="period.ss07" xOffset="489" yOffset="1375"/>
-    <component base="period.ss07" xOffset="977" yOffset="1375"/>
+    <component base="period.ss07" xOffset="508" yOffset="1375"/>
+    <component base="period.ss07" xOffset="1016" yOffset="1375"/>
   </outline>
   <lib>
     <dict>
@@ -36,7 +36,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>1466</integer>
+      <integer>1524</integer>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

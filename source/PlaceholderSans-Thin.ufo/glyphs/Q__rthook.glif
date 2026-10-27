@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Q_rthook" format="2">
-  <advance width="1452"/>
+  <advance width="1474"/>
   <unicode hex="024A"/>
   <note>
 Composed by O and a vertical stem with tail
 </note>
-  <anchor x="1271" y="0" name="bottomr"/>
+  <anchor x="1277" y="0" name="bottomr"/>
   <outline>
     <component base="_part.q_big"/>
-    <component base="_part.bottom_rthook" xOffset="1128"/>
+    <component base="_part.bottom_rthook" xOffset="1144"/>
   </outline>
   <lib>
     <dict>

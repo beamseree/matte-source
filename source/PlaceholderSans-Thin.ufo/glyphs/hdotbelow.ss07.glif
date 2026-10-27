@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hdotbelow.ss07" format="2">
-  <advance width="1108"/>
+  <advance width="1175"/>
   <unicode hex="E23E"/>
-  <anchor x="585" y="0" name="bottom"/>
-  <anchor x="213" y="0" name="cedilla"/>
-  <anchor x="236" y="1288" name="cross"/>
-  <anchor x="935" y="0" name="lfthook"/>
-  <anchor x="213" y="1490" name="top"/>
+  <anchor x="620" y="0" name="bottom"/>
+  <anchor x="241" y="0" name="cedilla"/>
+  <anchor x="264" y="1288" name="cross"/>
+  <anchor x="976" y="0" name="lfthook"/>
+  <anchor x="241" y="1490" name="top"/>
   <outline>
     <component base="h"/>
-    <component base="dotbelow.ss07" xOffset="368"/>
+    <component base="dotbelow.ss07" xOffset="421"/>
   </outline>
   <lib>
     <dict>

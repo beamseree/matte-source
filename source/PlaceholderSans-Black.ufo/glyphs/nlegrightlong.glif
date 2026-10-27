@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nlegrightlong" format="2">
-  <advance width="1308"/>
+  <advance width="1285"/>
   <unicode hex="019E"/>
-  <anchor x="289" y="0" name="bottom"/>
-  <anchor x="655" y="1076" name="top"/>
+  <anchor x="278" y="0" name="bottom"/>
+  <anchor x="647" y="1076" name="top"/>
   <outline>
     <component base="eta"/>
   </outline>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="verticalbardbl" format="2">
-  <advance width="1184"/>
+  <advance width="1279"/>
   <unicode hex="2016"/>
   <outline>
     <component base="bar"/>
-    <component base="bar" xOffset="416"/>
+    <component base="bar" xOffset="463"/>
   </outline>
   <lib>
     <dict>

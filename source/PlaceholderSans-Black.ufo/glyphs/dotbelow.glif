@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotbelow" format="2">
   <unicode hex="0323"/>
-  <anchor x="315" y="0" name="_bottom"/>
+  <anchor x="340" y="0" name="_bottom"/>
   <outline>
     <component base="dotaccentcomb" yOffset="-1714"/>
   </outline>
@@ -19,7 +19,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>631</integer>
+      <integer>661</integer>
     </dict>
   </lib>
 </glyph>

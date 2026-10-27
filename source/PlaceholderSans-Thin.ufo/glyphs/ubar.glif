@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ubar" format="2">
-  <advance width="1151"/>
+  <advance width="1174"/>
   <unicode hex="0289"/>
-  <anchor x="556" y="0" name="bottom"/>
-  <anchor x="952" y="0" name="ogonek"/>
-  <anchor x="906" y="1076" name="rtophorn"/>
-  <anchor x="556" y="1076" name="top"/>
+  <anchor x="568" y="0" name="bottom"/>
+  <anchor x="978" y="0" name="ogonek"/>
+  <anchor x="932" y="1076" name="rtophorn"/>
+  <anchor x="568" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="1123" y="582" type="line"/>
-      <point x="-10" y="582" type="line"/>
-      <point x="-10" y="538" type="line"/>
-      <point x="1123" y="538" type="line"/>
+      <point x="1155" y="582" type="line"/>
+      <point x="-19" y="582" type="line"/>
+      <point x="-19" y="538" type="line"/>
+      <point x="1155" y="538" type="line"/>
     </contour>
     <component base="u" xOffset="-15"/>
   </outline>

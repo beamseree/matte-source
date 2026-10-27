@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="blackSmallSquare.case" format="2">
-  <advance width="1036"/>
+  <advance width="1070"/>
   <unicode hex="E1C3"/>
   <outline>
     <component base="blackSmallSquare" yOffset="152"/>

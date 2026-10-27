@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="periodcentered.ss07" format="2">
-  <advance width="489"/>
+  <advance width="508"/>
   <unicode hex="E2B1"/>
   <note>
 Sits right in between center of x-height and center of cap height
 </note>
-  <anchor x="63" y="697" name="_centerr"/>
+  <anchor x="73" y="697" name="_centerr"/>
   <outline>
     <component base="period.ss07" yOffset="652"/>
   </outline>

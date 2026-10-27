@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="colon.ss07" format="2">
-  <advance width="423"/>
+  <advance width="462"/>
   <unicode hex="E2AC"/>
   <outline>
     <component base="period.ss07"/>
-    <component base="period.ss07" xOffset="-65" yOffset="963"/>
+    <component base="period.ss07" xOffset="-46" yOffset="963"/>
   </outline>
   <lib>
     <dict>

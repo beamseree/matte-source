@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Upsilontonos" format="2">
-  <advance width="1481"/>
+  <advance width="1453"/>
   <unicode hex="038E"/>
-  <anchor x="894" y="0" name="bottom"/>
-  <anchor x="894" y="438" name="cross"/>
-  <anchor x="918" y="0" name="ogonek"/>
-  <anchor x="324" y="1490" name="tonos"/>
-  <anchor x="894" y="1490" name="top"/>
+  <anchor x="885" y="0" name="bottom"/>
+  <anchor x="885" y="438" name="cross"/>
+  <anchor x="909" y="0" name="ogonek"/>
+  <anchor x="345" y="1490" name="tonos"/>
+  <anchor x="885" y="1490" name="top"/>
   <outline>
     <component base="Y" xOffset="301"/>
-    <component base="tonos" xOffset="-91" yOffset="-67"/>
+    <component base="tonos" xOffset="-128" yOffset="-67"/>
   </outline>
   <lib>
     <dict>

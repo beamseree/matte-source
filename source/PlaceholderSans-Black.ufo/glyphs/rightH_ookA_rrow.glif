@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightHookArrow" format="2">
-  <advance width="2344"/>
+  <advance width="2405"/>
   <unicode hex="21AA"/>
   <note>
 Mirror copy of leftHookArrow
 </note>
   <outline>
-    <component base="leftHookArrow" xScale="-1" xOffset="2344"/>
+    <component base="leftHookArrow" xScale="-1" xOffset="2405"/>
   </outline>
   <lib>
     <dict>

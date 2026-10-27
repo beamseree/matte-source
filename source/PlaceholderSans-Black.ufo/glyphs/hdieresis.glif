@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hdieresis" format="2">
-  <advance width="1241"/>
+  <advance width="1214"/>
   <unicode hex="1E27"/>
-  <anchor x="665" y="0" name="bottom"/>
-  <anchor x="308" y="0" name="cedilla"/>
-  <anchor x="373" y="1288" name="cross"/>
-  <anchor x="823" y="0" name="lfthook"/>
-  <anchor x="243" y="1957" name="top"/>
+  <anchor x="617" y="0" name="bottom"/>
+  <anchor x="295" y="0" name="cedilla"/>
+  <anchor x="355" y="1288" name="cross"/>
+  <anchor x="767" y="0" name="lfthook"/>
+  <anchor x="180" y="1959" name="top"/>
   <outline>
     <component base="h"/>
-    <component base="dieresiscomb" xOffset="-386" yOffset="372"/>
+    <component base="dieresiscomb" xOffset="-485" yOffset="372"/>
   </outline>
 </glyph>

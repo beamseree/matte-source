@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hdotaccent" format="2">
-  <advance width="1275"/>
+  <advance width="1206"/>
   <unicode hex="1E23"/>
-  <anchor x="665" y="0" name="bottom"/>
-  <anchor x="308" y="0" name="cedilla"/>
-  <anchor x="373" y="1288" name="cross"/>
-  <anchor x="823" y="0" name="lfthook"/>
-  <anchor x="260" y="1972" name="top"/>
+  <anchor x="617" y="0" name="bottom"/>
+  <anchor x="295" y="0" name="cedilla"/>
+  <anchor x="355" y="1288" name="cross"/>
+  <anchor x="767" y="0" name="lfthook"/>
+  <anchor x="175" y="1975" name="top"/>
   <outline>
     <component base="h"/>
-    <component base="dotaccentcomb" xOffset="-55" yOffset="372"/>
+    <component base="dotaccentcomb" xOffset="-154" yOffset="372"/>
   </outline>
 </glyph>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="southEastArrow" format="2">
-  <advance width="1461"/>
+  <advance width="1479"/>
   <unicode hex="2198"/>
   <note>
 mirror of northWestArrow
 </note>
   <guideline y="652"/>
   <outline>
-    <component base="northWestArrow" xScale="-1.0" yScale="-1.0" xOffset="1461.0" yOffset="1118.0"/>
+    <component base="northWestArrow" xScale="-1.0" yScale="-1.0" xOffset="1479.0" yOffset="1118.0"/>
   </outline>
   <lib>
     <dict>

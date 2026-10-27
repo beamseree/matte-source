@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcurl" format="2">
-  <advance width="717"/>
+  <advance width="724"/>
   <unicode hex="0236"/>
   <note>
 recipe: offset curve 32, no auto
@@ -8,7 +8,7 @@ recipe: offset curve 32, no auto
   <anchor x="219" y="394" name="bottomr"/>
   <outline>
     <component base="_part.tcurl_base"/>
-    <component base="_part.curl_sw" xOffset="-85" yOffset="394"/>
+    <component base="_part.curl_sw" xOffset="-83" yOffset="394"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dasiaoxia" format="2">
-  <advance width="505"/>
+  <advance width="521"/>
   <unicode hex="1FDE"/>
-  <anchor x="300" y="1118" name="_top"/>
+  <anchor x="303" y="1118" name="_top"/>
   <outline>
     <component base="dasia"/>
-    <component base="oxia" xOffset="291"/>
+    <component base="oxia" xOffset="298"/>
   </outline>
   <lib>
     <dict>

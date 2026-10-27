@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ascript" format="2">
-  <advance width="1168"/>
+  <advance width="1182"/>
   <unicode hex="0251"/>
-  <anchor x="595" y="0" name="bottom"/>
-  <anchor x="998" y="0" name="bottomr"/>
-  <anchor x="998" y="0" name="ogonek"/>
-  <anchor x="577" y="1076" name="top"/>
-  <anchor x="998" y="1076" name="topr"/>
-  <anchor x="991" y="543" name="rhotichook"/>
+  <anchor x="601" y="0" name="bottom"/>
+  <anchor x="1004" y="0" name="bottomr"/>
+  <anchor x="1004" y="0" name="ogonek"/>
+  <anchor x="582" y="1076" name="top"/>
+  <anchor x="1004" y="1076" name="topr"/>
+  <anchor x="997" y="543" name="rhotichook"/>
   <outline>
     <component base="a.1"/>
   </outline>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fourthtonechinese" format="2">
-  <advance width="619"/>
+  <advance width="634"/>
   <unicode hex="02CB"/>
-  <anchor x="506" y="1118" name="_top"/>
-  <anchor x="502" y="1557" name="top"/>
+  <anchor x="513" y="1118" name="_top"/>
+  <anchor x="509" y="1557" name="top"/>
   <outline>
     <component base="gravecomb" xOffset="166"/>
   </outline>

@@ -15,7 +15,9 @@ if [ "$1" = "--derive" ]; then
   rm -rf build/derived/features
   cp -R vendor/inter/src/features build/derived/features
   $PY -I tools/derive.py vendor/inter/src/Inter-Roman.glyphspackage build/derived/PlaceholderSans.glyphspackage $2
-  $PY -I tools/to_ufo.py build/derived/PlaceholderSans.glyphspackage $DS reference/mockup.svg
+  $PY -I tools/to_ufo.py build/derived/PlaceholderSans.glyphspackage $DS \
+    --guides Regular=reference/mockup.svg --guides Thin=reference/mockup-thin.webp \
+    --guides Black=reference/mockup-black.webp
 fi
 
 $PY -m fontmake -m $DS -o variable --output-dir build \

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="utildebelow" format="2">
-  <advance width="1181"/>
+  <advance width="1204"/>
   <unicode hex="1E75"/>
-  <anchor x="571" y="0" name="bottom"/>
-  <anchor x="967" y="0" name="ogonek"/>
-  <anchor x="921" y="1076" name="rtophorn"/>
-  <anchor x="571" y="1076" name="top"/>
+  <anchor x="583" y="0" name="bottom"/>
+  <anchor x="993" y="0" name="ogonek"/>
+  <anchor x="947" y="1076" name="rtophorn"/>
+  <anchor x="583" y="1076" name="top"/>
   <outline>
     <component base="u"/>
-    <component base="tildesubcomb" xOffset="1154"/>
+    <component base="tildesubcomb" xOffset="1166"/>
   </outline>
 </glyph>

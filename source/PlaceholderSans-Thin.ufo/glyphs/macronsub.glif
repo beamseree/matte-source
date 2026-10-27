@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macronsub" format="2">
-  <advance width="753"/>
+  <advance width="767"/>
   <unicode hex="02CD"/>
-  <anchor x="376" y="0" name="_bottom"/>
+  <anchor x="383" y="0" name="_bottom"/>
   <outline>
     <component base="macroncomb" yOffset="-1686"/>
   </outline>

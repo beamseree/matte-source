@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevegravecomb.cn" format="2">
-  <advance width="628"/>
-  <anchor x="289" y="1118" name="_top"/>
-  <anchor x="289" y="1890" name="top"/>
+  <advance width="650"/>
+  <anchor x="307" y="1118" name="_top"/>
+  <anchor x="307" y="1890" name="top"/>
   <outline>
-    <component base="breveacutecomb.cn" xScale="-1" xOffset="628"/>
+    <component base="breveacutecomb.cn" xScale="-1" xOffset="650"/>
   </outline>
   <lib>
     <dict>

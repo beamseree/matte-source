@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iacyrillic" format="2">
-  <advance width="1032"/>
+  <advance width="1043"/>
   <unicode hex="044F"/>
   <note>
 Mirrored /r.sc
 </note>
   <outline>
-    <component base="r.sc" xScale="-1" xOffset="1032"/>
+    <component base="r.sc" xScale="-1" xOffset="1043"/>
   </outline>
   <lib>
     <dict>

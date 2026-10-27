@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="carondot.lc.ss07" format="2">
-  <advance width="1099"/>
+  <advance width="1091"/>
   <unicode hex="E2CB"/>
   <guideline x="1239" y="1765" angle="0"/>
   <guideline y="1392"/>
   <guideline y="1555"/>
-  <anchor x="569" y="1118" name="_top"/>
+  <anchor x="554" y="1118" name="_top"/>
   <outline>
     <component base="caroncomb" yScale="0.92" xOffset="62" yOffset="94"/>
-    <component base="dotaccentcomb.ss07" xScale="0.858" yScale="0.763" xOffset="276" yOffset="681"/>
+    <component base="dotaccentcomb.ss07" xScale="0.858" yScale="0.763" xOffset="248" yOffset="681"/>
   </outline>
   <lib>
     <dict>

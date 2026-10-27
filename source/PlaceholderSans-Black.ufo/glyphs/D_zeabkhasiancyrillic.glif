@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dzeabkhasiancyrillic" format="2">
-  <advance width="1375"/>
+  <advance width="1374"/>
   <unicode hex="04E0"/>
   <guideline x="-108" y="2280" angle="0"/>
   <guideline x="-108" y="764" angle="0"/>
-  <anchor x="693" y="1490" name="top"/>
+  <anchor x="692" y="1490" name="top"/>
   <outline>
     <component base="three.1"/>
   </outline>

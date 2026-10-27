@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10147" format="2">
-  <advance width="1668"/>
+  <advance width="1689"/>
   <unicode hex="0472"/>
   <note>
 Note: Glyph reused for /obar
 </note>
   <guideline x="1024" y="1436" angle="90"/>
-  <anchor x="842" y="0" name="bottom"/>
-  <anchor x="842" y="745" name="center"/>
-  <anchor x="1633" y="744" name="ogonek"/>
-  <anchor x="204" y="1490" name="tonos"/>
-  <anchor x="842" y="1490" name="top"/>
-  <anchor x="842" y="1510" name="tophorn"/>
+  <anchor x="845" y="0" name="bottom"/>
+  <anchor x="845" y="745" name="center"/>
+  <anchor x="1620" y="744" name="ogonek"/>
+  <anchor x="222" y="1490" name="tonos"/>
+  <anchor x="845" y="1490" name="top"/>
+  <anchor x="845" y="1510" name="tophorn"/>
   <outline>
     <component base="uni03F4"/>
   </outline>

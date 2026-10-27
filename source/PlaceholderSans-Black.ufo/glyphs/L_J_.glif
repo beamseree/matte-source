@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="LJ" format="2">
-  <advance width="2217"/>
+  <advance width="2275"/>
   <unicode hex="01C7"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="1948" y="884" name="cross"/>
-  <anchor x="604" y="872" name="dot"/>
-  <anchor x="699" y="1490" name="raccent"/>
-  <anchor x="1953" y="1490" name="top"/>
+  <anchor x="612" y="0" name="bottom"/>
+  <anchor x="1976" y="884" name="cross"/>
+  <anchor x="614" y="875" name="dot"/>
+  <anchor x="697" y="1490" name="raccent"/>
+  <anchor x="1980" y="1490" name="top"/>
   <outline>
     <component base="L"/>
-    <component base="J" xOffset="1169"/>
+    <component base="J" xOffset="1179"/>
   </outline>
 </glyph>

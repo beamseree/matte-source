@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevedotbelow.1" format="2">
-  <advance width="1104"/>
+  <advance width="1137"/>
   <unicode hex="E030"/>
-  <anchor x="595" y="0" name="bottom"/>
-  <anchor x="998" y="0" name="bottomr"/>
-  <anchor x="998" y="0" name="ogonek"/>
-  <anchor x="547" y="1532" name="top"/>
-  <anchor x="998" y="1076" name="topr"/>
+  <anchor x="601" y="0" name="bottom"/>
+  <anchor x="1004" y="0" name="bottomr"/>
+  <anchor x="1004" y="0" name="ogonek"/>
+  <anchor x="565" y="1532" name="top"/>
+  <anchor x="1004" y="1076" name="topr"/>
   <outline>
     <component base="a.1"/>
-    <component base="brevecomb" xOffset="208"/>
-    <component base="dotbelow" xOffset="367"/>
+    <component base="brevecomb" xOffset="222"/>
+    <component base="dotbelow" xOffset="388"/>
   </outline>
   <lib>
     <dict>

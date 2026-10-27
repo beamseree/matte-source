@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_part.bottom_rthook" format="2">
-  <advance width="840"/>
+  <advance width="855"/>
   <note>
 All /_part.bottom_rthook* glyphs are slight variations on this glyph
 </note>
-  <anchor x="512" y="0" name="_bottomr"/>
+  <anchor x="505" y="0" name="_bottomr"/>
   <outline>
     <contour>
-      <point x="532" y="-441" type="curve" smooth="yes"/>
-      <point x="605" y="-441"/>
-      <point x="671" y="-433"/>
-      <point x="730" y="-417" type="curve"/>
-      <point x="730" y="-144" type="line"/>
-      <point x="690" y="-149"/>
-      <point x="654" y="-153"/>
-      <point x="615" y="-153" type="curve" smooth="yes"/>
-      <point x="537" y="-153"/>
-      <point x="512" y="-133"/>
-      <point x="512" y="-73" type="curve" smooth="yes"/>
-      <point x="512" y="0" type="line"/>
-      <point x="110" y="0" type="line"/>
-      <point x="110" y="-73" type="line" smooth="yes"/>
-      <point x="110" y="-318"/>
-      <point x="251" y="-441"/>
+      <point x="537" y="-442" type="curve" smooth="yes"/>
+      <point x="606" y="-442"/>
+      <point x="669" y="-433"/>
+      <point x="722" y="-417" type="curve"/>
+      <point x="722" y="-138" type="line"/>
+      <point x="685" y="-144"/>
+      <point x="651" y="-148"/>
+      <point x="615" y="-148" type="curve" smooth="yes"/>
+      <point x="532" y="-148"/>
+      <point x="505" y="-128"/>
+      <point x="505" y="-69" type="curve" smooth="yes"/>
+      <point x="505" y="0" type="line"/>
+      <point x="133" y="0" type="line"/>
+      <point x="133" y="-69" type="line" smooth="yes"/>
+      <point x="133" y="-317"/>
+      <point x="269" y="-442"/>
     </contour>
   </outline>
 </glyph>

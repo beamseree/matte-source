@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zhedieresiscyrillic" format="2">
-  <advance width="2327"/>
+  <advance width="2359"/>
   <unicode hex="04DC"/>
-  <anchor x="2307" y="0" name="cyrtic"/>
-  <anchor x="1173" y="1957" name="top"/>
+  <anchor x="2256" y="0" name="cyrtic"/>
+  <anchor x="1170" y="1959" name="top"/>
   <outline>
     <component base="Zhe-cy"/>
-    <component base="dieresiscomb" xOffset="544" yOffset="372"/>
+    <component base="dieresiscomb" xOffset="505" yOffset="372"/>
   </outline>
 </glyph>

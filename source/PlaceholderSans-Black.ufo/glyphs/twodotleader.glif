@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="twodotleader" format="2">
-  <advance width="1429"/>
+  <advance width="1518"/>
   <unicode hex="2025"/>
   <guideline x="704" y="248" angle="0"/>
   <outline>
     <component base="period"/>
-    <component base="period" xOffset="714"/>
+    <component base="period" xOffset="759"/>
   </outline>
   <lib>
     <dict>

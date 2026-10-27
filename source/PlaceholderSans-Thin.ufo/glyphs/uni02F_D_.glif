@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni02FD" format="2">
-  <advance width="800"/>
+  <advance width="814"/>
   <unicode hex="02FD"/>
   <outline>
     <contour>
-      <point x="622" y="-422" type="line"/>
-      <point x="174" y="-422" type="line"/>
-      <point x="174" y="-468" type="line"/>
-      <point x="622" y="-468" type="line"/>
+      <point x="629" y="-422" type="line"/>
+      <point x="181" y="-422" type="line"/>
+      <point x="181" y="-468" type="line"/>
+      <point x="629" y="-468" type="line"/>
     </contour>
     <contour>
-      <point x="194" y="-136" type="line"/>
-      <point x="148" y="-136" type="line"/>
-      <point x="148" y="-468" type="line"/>
-      <point x="194" y="-468" type="line"/>
+      <point x="201" y="-136" type="line"/>
+      <point x="155" y="-136" type="line"/>
+      <point x="155" y="-468" type="line"/>
+      <point x="201" y="-468" type="line"/>
     </contour>
     <contour>
-      <point x="654" y="-136" type="line"/>
-      <point x="608" y="-136" type="line"/>
-      <point x="608" y="-468" type="line"/>
-      <point x="654" y="-468" type="line"/>
+      <point x="661" y="-136" type="line"/>
+      <point x="615" y="-136" type="line"/>
+      <point x="615" y="-468" type="line"/>
+      <point x="661" y="-468" type="line"/>
     </contour>
   </outline>
 </glyph>

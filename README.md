@@ -13,8 +13,10 @@ Working family name: "Placeholder Sans".
 | `reference/mockup.svg` | The target design (lowercase + capitals pangrams) |
 | `reference/targets.json`, `params.json` | Measurements from the mockup and the fitted parameters |
 | `tools/derive.py` | Inter → widened, lower x-height, heavier Regular, tighter spacing |
-| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides |
-| `tools/fit.py` | Fits `params.json` to the mockup (rebuilds many times) |
+| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides, runs straighten |
+| `tools/straighten.py` | Redraws x, X, z, Z with straight strokes at the mockups' diagonal weights (also usable on `source/` directly) |
+| `tools/fit.py` | Fits one master's `params.json` values to its mockup, building in `build/fit/`; `--apply` writes that master into `source/` |
+| `tools/svgtarget.py`, `imgtarget.py` | Mockup (SVG or screenshot) → per-letter targets in font units |
 | `tools/build.sh` | Builds the font |
 | `specimen/index.html`, `check.html` | Comparison pages (serve the project root, open `/specimen/`) |
 | `vendor/inter` | Inter's sources (only `src/`) |
@@ -45,7 +47,8 @@ tools/build.sh
 ```sh
 tools/build.sh                                  # build from source/ (keeps your edits)
 tools/build.sh --derive reference/params.json   # regenerate source/ from Inter: OVERWRITES edits
-.venv/bin/python -I tools/fit.py                # refit to the mockup: OVERWRITES edits
+.venv/bin/python -I tools/fit.py --master Thin --targets reference/targets-thin.json \
+    --guides reference/mockup-thin.webp --apply  # refit one master: OVERWRITES that master
 python3 -m http.server 8791                     # then open http://localhost:8791/specimen/
 ```
 

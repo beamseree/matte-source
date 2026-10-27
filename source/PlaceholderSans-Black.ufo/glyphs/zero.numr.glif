@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.numr" format="2">
-  <advance width="843"/>
+  <advance width="849"/>
   <unicode hex="E0DC"/>
-  <anchor x="422" y="1069" name="center"/>
-  <anchor x="422" y="1490" name="top"/>
+  <anchor x="425" y="1070" name="center"/>
+  <anchor x="425" y="1491" name="top"/>
   <outline>
     <component base="zero.dnom" yOffset="648"/>
   </outline>

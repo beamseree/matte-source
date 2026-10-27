@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="trianglebullet.case" format="2">
-  <advance width="1036"/>
+  <advance width="1070"/>
   <unicode hex="E08F"/>
   <outline>
     <component base="trianglebullet" yOffset="151"/>

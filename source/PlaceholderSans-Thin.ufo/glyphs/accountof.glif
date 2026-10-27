@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="accountof" format="2">
-  <advance width="1722"/>
+  <advance width="1740"/>
   <unicode hex="2100"/>
-  <anchor x="1385" y="-1" name="bottom"/>
-  <anchor x="594" y="916" name="ogonek"/>
-  <anchor x="1385" y="582" name="top"/>
-  <anchor x="1385" y="-1" name="cedilla"/>
-  <anchor x="1385" y="290" name="center"/>
-  <anchor x="1638" y="467" name="topr"/>
+  <anchor x="1398" y="-1" name="bottom"/>
+  <anchor x="598" y="916" name="ogonek"/>
+  <anchor x="1398" y="582" name="top"/>
+  <anchor x="1398" y="-1" name="cedilla"/>
+  <anchor x="1398" y="290" name="center"/>
+  <anchor x="1651" y="467" name="topr"/>
   <outline>
     <component base="a.sups"/>
-    <component base="fraction" xOffset="718"/>
-    <component base="c.subs" xOffset="986" yOffset="283"/>
+    <component base="fraction" xOffset="727"/>
+    <component base="c.subs" xOffset="995" yOffset="283"/>
   </outline>
   <lib>
     <dict>

@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni03F4" format="2">
-  <advance width="1571"/>
+  <advance width="1590"/>
   <unicode hex="03F4"/>
   <note>
 Note: Glyph reused for /obar
 </note>
-  <anchor x="794" y="0" name="bottom"/>
-  <anchor x="794" y="745" name="center"/>
-  <anchor x="1478" y="744" name="ogonek"/>
-  <anchor x="262" y="1490" name="tonos"/>
-  <anchor x="794" y="1490" name="top"/>
-  <anchor x="794" y="1510" name="tophorn"/>
+  <anchor x="806" y="0" name="bottom"/>
+  <anchor x="806" y="745" name="center"/>
+  <anchor x="1482" y="744" name="ogonek"/>
+  <anchor x="279" y="1490" name="tonos"/>
+  <anchor x="806" y="1490" name="top"/>
+  <anchor x="806" y="1510" name="tophorn"/>
   <outline>
     <contour>
-      <point x="1450" y="768" type="line"/>
-      <point x="139" y="768" type="line"/>
-      <point x="139" y="722" type="line"/>
-      <point x="1450" y="722" type="line"/>
+      <point x="1454" y="768" type="line"/>
+      <point x="157" y="768" type="line"/>
+      <point x="157" y="722" type="line"/>
+      <point x="1454" y="722" type="line"/>
     </contour>
     <component base="O"/>
   </outline>

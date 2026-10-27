@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="E.circled" format="2">
-  <advance width="2852"/>
+  <advance width="2876"/>
   <unicode hex="24BA"/>
-  <anchor x="1420" y="0" name="bottom"/>
-  <anchor x="1420" y="0" name="cedilla"/>
-  <anchor x="1883" y="0" name="ogonek"/>
-  <anchor x="958" y="1490" name="tonos"/>
-  <anchor x="1420" y="1490" name="top"/>
+  <anchor x="1428" y="0" name="bottom"/>
+  <anchor x="1428" y="0" name="cedilla"/>
+  <anchor x="1895" y="0" name="ogonek"/>
+  <anchor x="962" y="1490" name="tonos"/>
+  <anchor x="1428" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="E" xOffset="776"/>
+    <component base="E" xOffset="778"/>
   </outline>
   <lib>
     <dict>

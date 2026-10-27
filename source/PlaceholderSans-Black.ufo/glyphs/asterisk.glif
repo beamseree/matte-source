@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="asterisk" format="2">
-  <advance width="1189"/>
+  <advance width="1256"/>
   <unicode hex="002A"/>
   <note>
 hexagonal angle: 30 deg
@@ -14,24 +14,24 @@ hexagonal angle: 30 deg
   <guideline x="856" y="1472" angle="300"/>
   <outline>
     <contour>
-      <point x="478" y="652" type="line"/>
-      <point x="710" y="652" type="line"/>
-      <point x="688" y="908" type="line"/>
-      <point x="900" y="760" type="line"/>
-      <point x="1016" y="962" type="line"/>
-      <point x="784" y="1070" type="line"/>
-      <point x="1016" y="1178" type="line"/>
-      <point x="900" y="1382" type="line"/>
-      <point x="688" y="1234" type="line"/>
-      <point x="710" y="1490" type="line"/>
-      <point x="478" y="1490" type="line"/>
-      <point x="502" y="1234" type="line"/>
-      <point x="290" y="1382" type="line"/>
-      <point x="172" y="1178" type="line"/>
-      <point x="406" y="1070" type="line"/>
-      <point x="172" y="962" type="line"/>
-      <point x="290" y="760" type="line"/>
-      <point x="502" y="908" type="line"/>
+      <point x="517" y="652" type="line"/>
+      <point x="737" y="652" type="line"/>
+      <point x="716" y="905" type="line"/>
+      <point x="936" y="758" type="line"/>
+      <point x="1046" y="964" type="line"/>
+      <point x="807" y="1070" type="line"/>
+      <point x="1046" y="1176" type="line"/>
+      <point x="936" y="1384" type="line"/>
+      <point x="716" y="1237" type="line"/>
+      <point x="737" y="1490" type="line"/>
+      <point x="517" y="1490" type="line"/>
+      <point x="540" y="1237" type="line"/>
+      <point x="320" y="1384" type="line"/>
+      <point x="208" y="1176" type="line"/>
+      <point x="449" y="1070" type="line"/>
+      <point x="208" y="964" type="line"/>
+      <point x="320" y="758" type="line"/>
+      <point x="540" y="905" type="line"/>
     </contour>
   </outline>
 </glyph>

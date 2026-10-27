@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greaterequal" format="2">
-  <advance width="1235"/>
+  <advance width="1255"/>
   <unicode hex="2265"/>
   <guideline x="268" y="800" angle="0"/>
   <outline>
     <contour>
-      <point x="210" y="94" type="line"/>
-      <point x="1024" y="94" type="line"/>
-      <point x="1024" y="140" type="line"/>
-      <point x="210" y="140" type="line"/>
+      <point x="220" y="94" type="line"/>
+      <point x="1034" y="94" type="line"/>
+      <point x="1034" y="140" type="line"/>
+      <point x="220" y="140" type="line"/>
     </contour>
     <contour>
-      <point x="1024" y="672" type="line"/>
-      <point x="1024" y="724" type="line"/>
-      <point x="210" y="1120" type="line"/>
-      <point x="210" y="1068" type="line"/>
-      <point x="978" y="696" type="line"/>
-      <point x="966" y="710" type="line"/>
-      <point x="966" y="686" type="line"/>
-      <point x="978" y="702" type="line"/>
-      <point x="210" y="328" type="line"/>
-      <point x="210" y="276" type="line"/>
+      <point x="1034" y="672" type="line"/>
+      <point x="1034" y="724" type="line"/>
+      <point x="220" y="1120" type="line"/>
+      <point x="220" y="1068" type="line"/>
+      <point x="988" y="696" type="line"/>
+      <point x="976" y="710" type="line"/>
+      <point x="976" y="686" type="line"/>
+      <point x="988" y="702" type="line"/>
+      <point x="220" y="328" type="line"/>
+      <point x="220" y="276" type="line"/>
     </contour>
   </outline>
   <lib>

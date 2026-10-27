@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="psilioxia" format="2">
-  <advance width="818"/>
+  <advance width="902"/>
   <unicode hex="1FCE"/>
-  <anchor x="423" y="1118" name="_top"/>
+  <anchor x="429" y="1118" name="_top"/>
   <outline>
     <component base="psili"/>
-    <component base="oxia" xScale="0.866" yScale="1.041" xOffset="302" yOffset="-51"/>
+    <component base="oxia" xScale="0.866" yScale="1.041" xOffset="323" yOffset="-51"/>
   </outline>
   <lib>
     <dict>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dialytikavaria" format="2">
-  <advance width="1162"/>
+  <advance width="1172"/>
   <unicode hex="1FED"/>
-  <anchor x="581" y="1118" name="_top"/>
+  <anchor x="586" y="1118" name="_top"/>
   <outline>
-    <component base="dieresistonos" xScale="-1" xOffset="1162"/>
+    <component base="dieresistonos" xScale="-1" xOffset="1172"/>
   </outline>
 </glyph>

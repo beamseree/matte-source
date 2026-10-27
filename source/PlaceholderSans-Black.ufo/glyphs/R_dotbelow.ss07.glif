@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rdotbelow.ss07" format="2">
-  <advance width="1415"/>
+  <advance width="1395"/>
   <unicode hex="E20A"/>
-  <anchor x="712" y="0" name="bottom"/>
-  <anchor x="686" y="1490" name="top"/>
+  <anchor x="698" y="0" name="bottom"/>
+  <anchor x="673" y="1490" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="dotbelow.ss07" xOffset="448"/>
+    <component base="dotbelow.ss07" xOffset="408"/>
   </outline>
   <lib>
     <dict>

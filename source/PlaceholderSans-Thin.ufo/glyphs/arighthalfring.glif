@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="arighthalfring" format="2">
-  <advance width="993"/>
+  <advance width="1055"/>
   <unicode hex="1E9A"/>
-  <anchor x="525" y="0" name="bottom"/>
-  <anchor x="870" y="0" name="ogonek"/>
-  <anchor x="521" y="1076" name="top"/>
+  <anchor x="558" y="0" name="bottom"/>
+  <anchor x="923" y="0" name="ogonek"/>
+  <anchor x="554" y="1076" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="righthalfringabovecomb" xOffset="308"/>
+    <component base="righthalfringabovecomb" xOffset="365"/>
   </outline>
 </glyph>

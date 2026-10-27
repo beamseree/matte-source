@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FCB" format="2">
-  <advance width="1545"/>
+  <advance width="1536"/>
   <unicode hex="1FCB"/>
-  <anchor x="844" y="0" name="bottom"/>
-  <anchor x="333" y="0" name="cedilla"/>
-  <anchor x="1377" y="0" name="cyrtic"/>
-  <anchor x="1331" y="0" name="lfthook"/>
-  <anchor x="1377" y="0" name="right"/>
-  <anchor x="310" y="1490" name="tonos"/>
-  <anchor x="844" y="1490" name="top"/>
+  <anchor x="846" y="0" name="bottom"/>
+  <anchor x="336" y="0" name="cedilla"/>
+  <anchor x="1380" y="0" name="cyrtic"/>
+  <anchor x="1334" y="0" name="lfthook"/>
+  <anchor x="1380" y="0" name="right"/>
+  <anchor x="313" y="1490" name="tonos"/>
+  <anchor x="846" y="1490" name="top"/>
   <outline>
     <component base="H" xOffset="135"/>
-    <component base="tonos" xOffset="-53" yOffset="-67"/>
+    <component base="tonos" xOffset="-71" yOffset="-67"/>
   </outline>
   <lib>
     <dict>

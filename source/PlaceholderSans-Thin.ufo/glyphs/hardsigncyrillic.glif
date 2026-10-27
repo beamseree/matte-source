@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hardsigncyrillic" format="2">
-  <advance width="1117"/>
+  <advance width="1130"/>
   <unicode hex="044A"/>
   <outline>
     <contour>
-      <point x="-20" y="1030" type="line"/>
-      <point x="285" y="1030" type="line"/>
-      <point x="285" y="1076" type="line"/>
-      <point x="-20" y="1076" type="line"/>
+      <point x="-12" y="1030" type="line"/>
+      <point x="293" y="1030" type="line"/>
+      <point x="293" y="1076" type="line"/>
+      <point x="-12" y="1076" type="line"/>
     </contour>
     <component base="softsigncyrillic" xOffset="90"/>
   </outline>

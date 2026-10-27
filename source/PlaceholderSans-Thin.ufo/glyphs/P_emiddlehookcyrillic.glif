@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Pemiddlehookcyrillic" format="2">
-  <advance width="2222"/>
+  <advance width="2242"/>
   <unicode hex="04A6"/>
   <outline>
     <component base="Pi"/>
-    <component base="largerighthook" xOffset="1005"/>
+    <component base="largerighthook" xOffset="1018"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10040" format="2">
-  <advance width="1281"/>
+  <advance width="1299"/>
   <unicode hex="0426"/>
-  <anchor x="1202" y="0" name="cyrtic"/>
-  <anchor x="691" y="0" name="cyrtic_center"/>
-  <anchor x="689" y="1490" name="top"/>
+  <anchor x="1209" y="0" name="cyrtic"/>
+  <anchor x="698" y="0" name="cyrtic_center"/>
+  <anchor x="696" y="1490" name="top"/>
   <outline>
     <component base="Pe-cy.turn"/>
-    <component base="_part.cyrtic" xOffset="1081"/>
+    <component base="_part.cyrtic" xOffset="1095"/>
   </outline>
   <lib>
     <dict>

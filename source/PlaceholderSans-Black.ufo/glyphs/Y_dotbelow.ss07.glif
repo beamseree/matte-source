@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ydotbelow.ss07" format="2">
-  <advance width="1463"/>
+  <advance width="1467"/>
   <unicode hex="E223"/>
-  <anchor x="742" y="0" name="bottom"/>
-  <anchor x="743" y="323" name="cross"/>
-  <anchor x="946" y="0" name="ogonek"/>
-  <anchor x="8" y="1490" name="tonos"/>
-  <anchor x="737" y="1490" name="top"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="723" y="320" name="cross"/>
+  <anchor x="912" y="0" name="ogonek"/>
+  <anchor x="-3" y="1490" name="tonos"/>
+  <anchor x="718" y="1490" name="top"/>
   <outline>
     <component base="Y"/>
-    <component base="dotbelow.ss07" xOffset="377"/>
+    <component base="dotbelow.ss07" xOffset="360"/>
   </outline>
   <lib>
     <dict>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="three.subs.ss01" format="2">
-  <advance width="802"/>
-  <anchor x="402" y="483" name="top"/>
+  <advance width="812"/>
+  <anchor x="408" y="483" name="top"/>
   <outline>
     <component base="three.sups.ss01" yOffset="-1200"/>
   </outline>

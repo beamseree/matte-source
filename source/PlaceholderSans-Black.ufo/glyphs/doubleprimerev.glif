@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="doubleprimerev" format="2">
-  <advance width="1230"/>
+  <advance width="1288"/>
   <unicode hex="2036"/>
   <outline>
     <component base="primerev"/>
-    <component base="primerev" xOffset="615"/>
+    <component base="primerev" xOffset="644"/>
   </outline>
   <lib>
     <dict>

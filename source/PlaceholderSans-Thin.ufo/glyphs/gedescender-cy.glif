@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gedescender-cy" format="2">
-  <advance width="810"/>
+  <advance width="824"/>
   <unicode hex="04F7"/>
-  <anchor x="315" y="537" name="cross"/>
-  <anchor x="216" y="0" name="cyrtic"/>
-  <anchor x="469" y="1076" name="top"/>
+  <anchor x="324" y="537" name="cross"/>
+  <anchor x="224" y="0" name="cyrtic"/>
+  <anchor x="477" y="1076" name="top"/>
   <outline>
     <component base="ge-cy"/>
-    <component base="_part.cyrtic" xOffset="152"/>
+    <component base="_part.cyrtic" xOffset="162"/>
   </outline>
 </glyph>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="epsilon1revclosed" format="2">
-  <advance width="1060"/>
+  <advance width="1071"/>
   <unicode hex="025E"/>
   <note>
 mirror of epsilonclosed
 </note>
   <outline>
-    <component base="epsilonclosed" xScale="-1" xOffset="1060"/>
+    <component base="epsilonclosed" xScale="-1" xOffset="1071"/>
   </outline>
   <lib>
     <dict>

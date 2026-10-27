@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FD7" format="2">
-  <advance width="278"/>
+  <advance width="336"/>
   <unicode hex="1FD7"/>
-  <anchor x="193" y="1076" name="top"/>
+  <anchor x="201" y="1076" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="dialytikaperispomeni" xOffset="-225"/>
+    <component base="dialytikaperispomeni" xOffset="-216"/>
   </outline>
 </glyph>

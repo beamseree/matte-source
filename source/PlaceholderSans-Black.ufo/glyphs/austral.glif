@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="austral" format="2">
-  <advance width="1639"/>
+  <advance width="1628"/>
   <unicode hex="20B3"/>
   <guideline x="1240" y="68" angle="90"/>
-  <anchor x="815" y="0" name="bottom"/>
-  <anchor x="815" y="1490" name="top"/>
+  <anchor x="810" y="0" name="bottom"/>
+  <anchor x="810" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="37" y="614" type="line"/>
-      <point x="1602" y="614" type="line"/>
-      <point x="1602" y="760" type="line"/>
-      <point x="37" y="760" type="line"/>
+      <point x="53" y="609" type="line"/>
+      <point x="1575" y="609" type="line"/>
+      <point x="1575" y="755" type="line"/>
+      <point x="53" y="755" type="line"/>
     </contour>
     <contour>
-      <point x="37" y="322" type="line"/>
-      <point x="1602" y="322" type="line"/>
-      <point x="1602" y="468" type="line"/>
-      <point x="37" y="468" type="line"/>
+      <point x="53" y="319" type="line"/>
+      <point x="1575" y="319" type="line"/>
+      <point x="1575" y="465" type="line"/>
+      <point x="53" y="465" type="line"/>
     </contour>
     <component base="Lambda"/>
   </outline>

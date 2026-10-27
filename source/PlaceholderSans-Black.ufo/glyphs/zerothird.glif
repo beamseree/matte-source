@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zerothird" format="2">
-  <advance width="2126"/>
+  <advance width="2130"/>
   <unicode hex="2189"/>
-  <anchor x="422" y="1069" name="center"/>
-  <anchor x="1729" y="842" name="top"/>
+  <anchor x="425" y="1070" name="center"/>
+  <anchor x="1728" y="843" name="top"/>
   <outline>
     <component base="zero.numr"/>
-    <component base="fraction" xOffset="843"/>
-    <component base="three.dnom" xOffset="1337"/>
+    <component base="fraction" xOffset="849"/>
+    <component base="three.dnom" xOffset="1333"/>
   </outline>
   <lib>
     <dict>

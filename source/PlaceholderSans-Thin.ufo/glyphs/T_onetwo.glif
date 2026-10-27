@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tonetwo" format="2">
-  <advance width="1274"/>
+  <advance width="1290"/>
   <unicode hex="01A7"/>
-  <anchor x="635" y="0" name="bottom"/>
-  <anchor x="635" y="0" name="cedilla"/>
-  <anchor x="635" y="1490" name="top"/>
+  <anchor x="646" y="0" name="bottom"/>
+  <anchor x="646" y="0" name="cedilla"/>
+  <anchor x="646" y="1490" name="top"/>
   <outline>
-    <component base="S" xScale="-1" xOffset="1274"/>
+    <component base="S" xScale="-1" xOffset="1290"/>
   </outline>
   <lib>
     <dict>

@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Enhookcyrillic" format="2">
-  <advance width="1425"/>
+  <advance width="1412"/>
   <unicode hex="04C7"/>
-  <anchor x="709" y="0" name="bottom"/>
-  <anchor x="198" y="0" name="cedilla"/>
-  <anchor x="1242" y="0" name="cyrtic"/>
-  <anchor x="1196" y="0" name="lfthook"/>
-  <anchor x="1242" y="0" name="right"/>
-  <anchor x="175" y="1490" name="tonos"/>
-  <anchor x="709" y="1490" name="top"/>
+  <anchor x="711" y="0" name="bottom"/>
+  <anchor x="201" y="0" name="cedilla"/>
+  <anchor x="1245" y="0" name="cyrtic"/>
+  <anchor x="1199" y="0" name="lfthook"/>
+  <anchor x="1245" y="0" name="right"/>
+  <anchor x="178" y="1490" name="tonos"/>
+  <anchor x="711" y="1490" name="top"/>
   <outline>
     <component base="H"/>
-    <component base="_part.bottom_lfthook_uc" xOffset="891"/>
+    <component base="_part.bottom_lfthook_uc" xOffset="873"/>
   </outline>
   <lib>
     <dict>

@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Xi" format="2">
-  <advance width="1290"/>
+  <advance width="1299"/>
   <unicode hex="039E"/>
   <outline>
     <contour>
-      <point x="112" y="0" type="line"/>
-      <point x="1179" y="0" type="line"/>
-      <point x="1179" y="46" type="line"/>
-      <point x="112" y="46" type="line"/>
+      <point x="116" y="0" type="line"/>
+      <point x="1183" y="0" type="line"/>
+      <point x="1183" y="46" type="line"/>
+      <point x="116" y="46" type="line"/>
     </contour>
     <contour>
-      <point x="193" y="722" type="line"/>
-      <point x="1097" y="722" type="line"/>
-      <point x="1097" y="768" type="line"/>
-      <point x="193" y="768" type="line"/>
+      <point x="198" y="722" type="line"/>
+      <point x="1102" y="722" type="line"/>
+      <point x="1102" y="768" type="line"/>
+      <point x="198" y="768" type="line"/>
     </contour>
     <contour>
-      <point x="120" y="1444" type="line"/>
-      <point x="1170" y="1444" type="line"/>
-      <point x="1170" y="1490" type="line"/>
-      <point x="120" y="1490" type="line"/>
+      <point x="124" y="1444" type="line"/>
+      <point x="1175" y="1444" type="line"/>
+      <point x="1175" y="1490" type="line"/>
+      <point x="124" y="1490" type="line"/>
     </contour>
   </outline>
   <lib>

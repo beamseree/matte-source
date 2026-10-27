@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblbase" format="2">
-  <advance width="594"/>
+  <advance width="616"/>
   <unicode hex="201E"/>
   <outline>
     <component base="quotedblright" xOffset="-30" yOffset="-1337"/>

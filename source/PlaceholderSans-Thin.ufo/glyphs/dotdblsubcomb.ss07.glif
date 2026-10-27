@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotdblsubcomb.ss07" format="2">
-  <advance width="1109"/>
+  <advance width="1135"/>
   <unicode hex="E2C9"/>
-  <anchor x="576" y="0" name="_bottom"/>
+  <anchor x="583" y="0" name="_bottom"/>
   <outline>
     <component base="dieresiscomb.ss07" yOffset="-1686"/>
   </outline>

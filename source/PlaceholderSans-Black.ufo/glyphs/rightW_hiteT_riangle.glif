@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightWhiteTriangle" format="2">
-  <advance width="1964"/>
+  <advance width="2018"/>
   <unicode hex="25B7"/>
   <unicode hex="25BB"/>
   <outline>
     <contour>
-      <point x="198" y="-186" type="line"/>
-      <point x="1858" y="744" type="line"/>
-      <point x="198" y="1676" type="line"/>
+      <point x="239" y="-186" type="line"/>
+      <point x="1889" y="744" type="line"/>
+      <point x="239" y="1676" type="line"/>
     </contour>
     <contour>
-      <point x="488" y="310" type="line"/>
-      <point x="488" y="1178" type="line"/>
-      <point x="1264" y="744" type="line"/>
+      <point x="512" y="319" type="line"/>
+      <point x="512" y="1169" type="line"/>
+      <point x="1332" y="744" type="line"/>
     </contour>
   </outline>
   <lib>

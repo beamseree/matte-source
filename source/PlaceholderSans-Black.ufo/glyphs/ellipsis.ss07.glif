@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ellipsis.ss07" format="2">
-  <advance width="2141"/>
+  <advance width="2264"/>
   <unicode hex="E2AE"/>
   <guideline x="776" y="248" angle="0"/>
   <outline>
     <component base="period.ss07"/>
-    <component base="period.ss07" xOffset="714"/>
-    <component base="period.ss07" xOffset="1428"/>
+    <component base="period.ss07" xOffset="755"/>
+    <component base="period.ss07" xOffset="1509"/>
   </outline>
   <lib>
     <dict>

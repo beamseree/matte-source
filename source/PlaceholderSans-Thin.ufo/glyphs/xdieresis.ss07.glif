@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="xdieresis.ss07" format="2">
-  <advance width="983"/>
+  <advance width="990"/>
   <unicode hex="E26E"/>
-  <anchor x="517" y="0" name="bottom"/>
-  <anchor x="984" y="0" name="cyrtic"/>
-  <anchor x="876" y="0" name="right"/>
-  <anchor x="536" y="1434" name="top"/>
+  <anchor x="524" y="0" name="bottom"/>
+  <anchor x="964" y="0" name="cyrtic"/>
+  <anchor x="861" y="0" name="right"/>
+  <anchor x="524" y="1434" name="top"/>
   <outline>
     <component base="x"/>
-    <component base="dieresiscomb.ss07" xOffset="-40"/>
+    <component base="dieresiscomb.ss07" xOffset="-59"/>
   </outline>
   <lib>
     <dict>

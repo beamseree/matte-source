@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutedblcomb" format="2">
-  <advance width="812"/>
+  <advance width="827"/>
   <unicode hex="EEA7"/>
   <note>
 Match /dblgravecmb.
 See /hungarumlaut for non-combining variant
 </note>
-  <anchor x="318" y="1118" name="_top"/>
-  <anchor x="318" y="1557" name="top"/>
+  <anchor x="326" y="1118" name="_top"/>
+  <anchor x="326" y="1557" name="top"/>
   <outline>
-    <component base="dblgravecmb" xScale="-1" xOffset="812"/>
+    <component base="dblgravecmb" xScale="-1" xOffset="827"/>
   </outline>
   <lib>
     <dict>

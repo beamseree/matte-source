@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.squared" format="2">
-  <advance width="2799"/>
+  <advance width="2815"/>
   <unicode hex="E145"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="seven" xOffset="836"/>
+    <component base="seven" xOffset="841"/>
   </outline>
   <lib>
     <dict>

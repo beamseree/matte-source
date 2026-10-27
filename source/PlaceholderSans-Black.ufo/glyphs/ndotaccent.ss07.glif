@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ndotaccent.ss07" format="2">
-  <advance width="1237"/>
+  <advance width="1183"/>
   <unicode hex="E24C"/>
-  <anchor x="627" y="0" name="bottom"/>
-  <anchor x="1187" y="0" name="bottomr"/>
-  <anchor x="69" y="0" name="lfthook"/>
-  <anchor x="590" y="1586" name="top"/>
-  <anchor x="471" y="1076" name="topr"/>
+  <anchor x="597" y="0" name="bottom"/>
+  <anchor x="1094" y="0" name="bottomr"/>
+  <anchor x="102" y="0" name="lfthook"/>
+  <anchor x="525" y="1590" name="top"/>
+  <anchor x="448" y="1076" name="topr"/>
   <outline>
     <component base="n"/>
-    <component base="dotaccentcomb.ss07" xOffset="274"/>
+    <component base="dotaccentcomb.ss07" xOffset="199"/>
   </outline>
   <lib>
     <dict>

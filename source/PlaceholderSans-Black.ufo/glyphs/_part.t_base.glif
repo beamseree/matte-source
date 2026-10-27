@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_part.t_base" format="2">
-  <advance width="806"/>
-  <anchor x="439" y="0" name="bottom"/>
-  <anchor x="482" y="0" name="cedilla"/>
-  <anchor x="773" y="15" name="lfthook"/>
-  <anchor x="350" y="1384" name="top"/>
+  <advance width="819"/>
+  <anchor x="457" y="0" name="bottom"/>
+  <anchor x="502" y="0" name="cedilla"/>
+  <anchor x="780" y="15" name="lfthook"/>
+  <anchor x="367" y="1384" name="top"/>
   <outline>
     <contour>
-      <point x="149" y="1384" type="line"/>
-      <point x="149" y="322" type="line" smooth="yes"/>
-      <point x="149" y="99"/>
-      <point x="277" y="-17"/>
-      <point x="528" y="-17" type="curve" smooth="yes"/>
-      <point x="600" y="-17"/>
-      <point x="681" y="-10"/>
-      <point x="773" y="15" type="curve"/>
-      <point x="725" y="302" type="line"/>
-      <point x="710" y="297"/>
-      <point x="651" y="289"/>
-      <point x="627" y="289" type="curve" smooth="yes"/>
-      <point x="574" y="289"/>
-      <point x="551" y="312"/>
-      <point x="551" y="359" type="curve" smooth="yes"/>
-      <point x="551" y="1384" type="line"/>
+      <point x="181" y="1384" type="line"/>
+      <point x="181" y="324" type="line" smooth="yes"/>
+      <point x="181" y="99"/>
+      <point x="307" y="-17"/>
+      <point x="550" y="-17" type="curve" smooth="yes"/>
+      <point x="619" y="-17"/>
+      <point x="695" y="-10"/>
+      <point x="780" y="15" type="curve"/>
+      <point x="733" y="308" type="line"/>
+      <point x="716" y="303"/>
+      <point x="660" y="295"/>
+      <point x="636" y="295" type="curve" smooth="yes"/>
+      <point x="577" y="295"/>
+      <point x="552" y="317"/>
+      <point x="552" y="362" type="curve" smooth="yes"/>
+      <point x="552" y="1384" type="line"/>
     </contour>
   </outline>
 </glyph>

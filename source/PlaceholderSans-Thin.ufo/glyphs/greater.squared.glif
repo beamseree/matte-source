@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greater.squared" format="2">
-  <advance width="2738"/>
+  <advance width="2765"/>
   <unicode hex="E153"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="greater" xOffset="744" yOffset="164"/>
+    <component base="greater" xOffset="749" yOffset="164"/>
   </outline>
   <lib>
     <dict>

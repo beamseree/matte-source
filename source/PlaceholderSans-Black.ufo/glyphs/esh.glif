@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="esh" format="2">
-  <advance width="845"/>
+  <advance width="824"/>
   <unicode hex="0283"/>
   <guideline x="12" y="2140" angle="0"/>
   <guideline x="12" y="-600" angle="0"/>
-  <anchor x="373" y="108" name="cross"/>
+  <anchor x="360" y="110" name="cross"/>
   <outline>
     <component base="integral"/>
   </outline>

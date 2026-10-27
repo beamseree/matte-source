@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nrthook" format="2">
-  <advance width="1239"/>
+  <advance width="1180"/>
   <unicode hex="0273"/>
-  <anchor x="627" y="0" name="bottom"/>
-  <anchor x="1187" y="0" name="bottomr"/>
-  <anchor x="69" y="0" name="lfthook"/>
-  <anchor x="627" y="1076" name="top"/>
-  <anchor x="471" y="1076" name="topr"/>
+  <anchor x="597" y="0" name="bottom"/>
+  <anchor x="1094" y="0" name="bottomr"/>
+  <anchor x="102" y="0" name="lfthook"/>
+  <anchor x="597" y="1076" name="top"/>
+  <anchor x="448" y="1076" name="topr"/>
   <outline>
     <component base="n"/>
-    <component base="_part.bottom_rthook" xOffset="643"/>
+    <component base="_part.bottom_rthook" xOffset="568"/>
   </outline>
   <lib>
     <dict>

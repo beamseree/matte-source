@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="question.squared" format="2">
-  <advance width="2780"/>
+  <advance width="2794"/>
   <unicode hex="E14F"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="question" xOffset="916"/>
+    <component base="question" xOffset="921"/>
   </outline>
   <lib>
     <dict>

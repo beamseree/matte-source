@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ukcyrillic" format="2">
-  <advance width="2532"/>
+  <advance width="2447"/>
   <unicode hex="0479"/>
-  <anchor x="2260" y="0" name="bottom"/>
-  <anchor x="654" y="538" name="center"/>
-  <anchor x="2087" y="0" name="ogonek"/>
-  <anchor x="1877" y="1076" name="top"/>
-  <anchor x="654" y="1101" name="tophorn"/>
+  <anchor x="2183" y="0" name="bottom"/>
+  <anchor x="658" y="538" name="center"/>
+  <anchor x="2010" y="0" name="ogonek"/>
+  <anchor x="1831" y="1076" name="top"/>
+  <anchor x="658" y="1101" name="tophorn"/>
   <outline>
     <component base="o"/>
-    <component base="ucyrillic" xOffset="1253"/>
+    <component base="ucyrillic" xOffset="1249"/>
   </outline>
 </glyph>

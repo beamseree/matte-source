@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisgravecomb.lc" format="2">
-  <advance width="1015"/>
+  <advance width="1059"/>
   <unicode hex="E10E"/>
   <guideline y="1616"/>
   <guideline y="1392"/>
   <guideline y="1681"/>
-  <anchor x="533" y="1118" name="_top"/>
+  <anchor x="547" y="1118" name="_top"/>
   <outline>
     <component base="dieresiscomb" yOffset="-28"/>
-    <component base="grave_compact" xOffset="107" yOffset="333"/>
+    <component base="grave_compact" xOffset="136" yOffset="333"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Pamphyliandigamma" format="2">
-  <advance width="1517"/>
+  <advance width="1466"/>
   <unicode hex="0376"/>
-  <anchor x="761" y="0" name="bottom"/>
-  <anchor x="1346" y="0" name="lfthook"/>
-  <anchor x="176" y="0" name="lfthook2"/>
-  <anchor x="760" y="1490" name="top"/>
-  <anchor x="1342" y="0" name="cyrtic"/>
+  <anchor x="734" y="0" name="bottom"/>
+  <anchor x="1286" y="0" name="lfthook"/>
+  <anchor x="182" y="0" name="lfthook2"/>
+  <anchor x="734" y="1490" name="top"/>
+  <anchor x="1284" y="0" name="cyrtic"/>
   <outline>
     <component base="Ii-cy"/>
   </outline>

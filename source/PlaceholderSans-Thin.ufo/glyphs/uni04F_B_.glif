@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni04FB" format="2">
-  <advance width="768"/>
+  <advance width="795"/>
   <unicode hex="04FB"/>
-  <anchor x="315" y="537" name="cross"/>
-  <anchor x="216" y="0" name="cyrtic"/>
-  <anchor x="469" y="1076" name="top"/>
+  <anchor x="324" y="537" name="cross"/>
+  <anchor x="224" y="0" name="cyrtic"/>
+  <anchor x="477" y="1076" name="top"/>
   <outline>
     <component base="ge-cy"/>
-    <component base="crossbar" xOffset="-110" yOffset="-187"/>
-    <component base="_part.cyrtic_hook" xOffset="3"/>
+    <component base="crossbar" xOffset="-100" yOffset="-187"/>
+    <component base="_part.cyrtic_hook" xOffset="25"/>
   </outline>
   <lib>
     <dict>

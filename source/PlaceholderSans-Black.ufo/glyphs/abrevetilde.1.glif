@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevetilde.1" format="2">
-  <advance width="1292"/>
+  <advance width="1291"/>
   <unicode hex="E033"/>
-  <anchor x="660" y="0" name="bottom"/>
-  <anchor x="1237" y="0" name="bottomr"/>
-  <anchor x="1237" y="0" name="ogonek"/>
-  <anchor x="656" y="1886" name="top"/>
-  <anchor x="1237" y="1076" name="topr"/>
+  <anchor x="650" y="0" name="bottom"/>
+  <anchor x="1205" y="0" name="bottomr"/>
+  <anchor x="1205" y="0" name="ogonek"/>
+  <anchor x="649" y="1888" name="top"/>
+  <anchor x="1205" y="1076" name="topr"/>
   <outline>
     <component base="a.1"/>
-    <component base="brevetildecomb.cn" xOffset="192"/>
+    <component base="brevetildecomb.cn" xOffset="179"/>
   </outline>
   <lib>
     <dict>

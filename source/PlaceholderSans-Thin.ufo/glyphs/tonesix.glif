@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tonesix" format="2">
-  <advance width="1230"/>
+  <advance width="1243"/>
   <unicode hex="0185"/>
   <outline>
     <contour>
-      <point x="111" y="594" type="line"/>
-      <point x="402" y="1076" type="line"/>
-      <point x="349" y="1076" type="line"/>
-      <point x="71" y="616" type="line"/>
+      <point x="120" y="594" type="line"/>
+      <point x="410" y="1076" type="line"/>
+      <point x="357" y="1076" type="line"/>
+      <point x="80" y="616" type="line"/>
     </contour>
     <component base="softsigncyrillic" xOffset="203"/>
   </outline>

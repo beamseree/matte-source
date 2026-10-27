@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresis.three.ss07" format="2">
-  <advance width="1470"/>
+  <advance width="1508"/>
   <unicode hex="E2C7"/>
   <guideline x="131" y="1378" angle="0"/>
-  <anchor x="778" y="1118" name="_top"/>
-  <anchor x="778" y="1434" name="top"/>
+  <anchor x="785" y="1118" name="_top"/>
+  <anchor x="785" y="1434" name="top"/>
   <outline>
     <component base="dotaccentcomb.ss07" xOffset="210"/>
-    <component base="dotaccentcomb.ss07" xOffset="571"/>
-    <component base="dotaccentcomb.ss07" xOffset="931"/>
+    <component base="dotaccentcomb.ss07" xOffset="583"/>
+    <component base="dotaccentcomb.ss07" xOffset="957"/>
   </outline>
   <lib>
     <dict>

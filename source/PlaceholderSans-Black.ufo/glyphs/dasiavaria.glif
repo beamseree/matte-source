@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dasiavaria" format="2">
-  <advance width="760"/>
+  <advance width="844"/>
   <unicode hex="1FDD"/>
-  <anchor x="487" y="1118" name="_top"/>
+  <anchor x="501" y="1118" name="_top"/>
   <outline>
     <component base="dasia"/>
-    <component base="varia" xScale="0.866" yScale="1.041" xOffset="431" yOffset="-51"/>
+    <component base="varia" xScale="0.866" yScale="1.041" xOffset="452" yOffset="-51"/>
   </outline>
   <lib>
     <dict>

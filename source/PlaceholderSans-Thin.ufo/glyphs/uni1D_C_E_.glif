@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1DCE" format="2">
   <unicode hex="1DCE"/>
-  <anchor x="-426.0" y="1088.0" name="_ogonek"/>
+  <anchor x="-428.0" y="1088.0" name="_ogonek"/>
   <outline>
     <component base="ogonekcomb" xScale="-1.0" yScale="-1.0" xOffset="-160.0" yOffset="1088.0"/>
   </outline>

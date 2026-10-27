@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kabashkircyrillic" format="2">
-  <advance width="1890"/>
+  <advance width="1883"/>
   <unicode hex="04A0"/>
   <note>
 !post:RemoveOverlap
 </note>
-  <anchor x="1770" y="0" name="cyrtic"/>
-  <anchor x="1044" y="1490" name="top"/>
+  <anchor x="1757" y="0" name="cyrtic"/>
+  <anchor x="1049" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="626" y="1490" type="line"/>
-      <point x="34" y="1490" type="line"/>
-      <point x="34" y="1164" type="line"/>
-      <point x="626" y="1164" type="line"/>
+      <point x="644" y="1490" type="line"/>
+      <point x="60" y="1490" type="line"/>
+      <point x="60" y="1157" type="line"/>
+      <point x="644" y="1157" type="line"/>
     </contour>
     <component base="Kacyr" xOffset="343"/>
   </outline>

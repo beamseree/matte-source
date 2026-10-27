@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yi-cy.ss07" format="2">
-  <advance width="491"/>
+  <advance width="549"/>
   <unicode hex="E28D"/>
-  <anchor x="280" y="0" name="bottom"/>
-  <anchor x="280" y="788" name="cross"/>
+  <anchor x="295" y="0" name="bottom"/>
+  <anchor x="295" y="789" name="cross"/>
   <anchor x="484" y="0" name="ogonek"/>
-  <anchor x="510" y="0" name="right"/>
-  <anchor x="80" y="1490" name="tonos"/>
-  <anchor x="256" y="1957" name="top"/>
+  <anchor x="509" y="0" name="right"/>
+  <anchor x="110" y="1490" name="tonos"/>
+  <anchor x="281" y="1961" name="top"/>
   <outline>
     <component base="Idieresis.ss07"/>
   </outline>

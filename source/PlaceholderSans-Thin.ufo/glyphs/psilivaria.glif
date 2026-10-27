@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="psilivaria" format="2">
-  <advance width="465"/>
+  <advance width="481"/>
   <unicode hex="1FCD"/>
-  <anchor x="295" y="1118" name="_top"/>
+  <anchor x="298" y="1118" name="_top"/>
   <outline>
     <component base="psili"/>
-    <component base="varia" xOffset="331"/>
+    <component base="varia" xOffset="338"/>
   </outline>
   <lib>
     <dict>

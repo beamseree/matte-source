@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="careof" format="2">
-  <advance width="1810"/>
+  <advance width="1827"/>
   <unicode hex="2105"/>
-  <anchor x="1412" y="0" name="bottom"/>
-  <anchor x="399" y="916" name="cedilla"/>
-  <anchor x="1412" y="291" name="center"/>
-  <anchor x="1412" y="583" name="top"/>
-  <anchor x="652" y="1384" name="topr"/>
-  <anchor x="1724" y="289" name="ogonek"/>
-  <anchor x="1412" y="590" name="tophorn"/>
+  <anchor x="1424" y="0" name="bottom"/>
+  <anchor x="403" y="916" name="cedilla"/>
+  <anchor x="1424" y="291" name="center"/>
+  <anchor x="1424" y="583" name="top"/>
+  <anchor x="656" y="1384" name="topr"/>
+  <anchor x="1736" y="289" name="ogonek"/>
+  <anchor x="1424" y="590" name="tophorn"/>
   <outline>
     <component base="c.sups"/>
-    <component base="fraction" xOffset="737"/>
-    <component base="o.subs" xOffset="1013" yOffset="284"/>
+    <component base="fraction" xOffset="745"/>
+    <component base="o.subs" xOffset="1021" yOffset="284"/>
   </outline>
   <lib>
     <dict>

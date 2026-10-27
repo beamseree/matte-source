@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zbar" format="2">
-  <advance width="1178"/>
+  <advance width="1172"/>
   <unicode hex="01B6"/>
-  <anchor x="603" y="0" name="bottom"/>
-  <anchor x="1130" y="0" name="bottomr"/>
-  <anchor x="596" y="537" name="cross"/>
-  <anchor x="600" y="1076" name="top"/>
+  <anchor x="585" y="0" name="bottom"/>
+  <anchor x="1110" y="0" name="bottomr"/>
+  <anchor x="583" y="537" name="cross"/>
+  <anchor x="586" y="1076" name="top"/>
   <outline>
     <component base="z"/>
-    <component base="_part.crossbar_compact" xOffset="153" yOffset="-187"/>
+    <component base="_part.crossbar_compact" xOffset="150" yOffset="-187"/>
   </outline>
 </glyph>

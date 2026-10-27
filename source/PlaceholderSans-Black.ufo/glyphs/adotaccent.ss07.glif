@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="adotaccent.ss07" format="2">
-  <advance width="1143"/>
+  <advance width="1125"/>
   <unicode hex="E22F"/>
-  <anchor x="605" y="0" name="bottom"/>
-  <anchor x="1120" y="0" name="ogonek"/>
-  <anchor x="556" y="1586" name="top"/>
+  <anchor x="585" y="0" name="bottom"/>
+  <anchor x="1086" y="0" name="ogonek"/>
+  <anchor x="527" y="1590" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="dotaccentcomb.ss07" xOffset="240"/>
+    <component base="dotaccentcomb.ss07" xOffset="201"/>
   </outline>
   <lib>
     <dict>

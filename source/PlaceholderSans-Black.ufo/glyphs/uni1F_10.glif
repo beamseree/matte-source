@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F10" format="2">
-  <advance width="1147"/>
+  <advance width="1139"/>
   <unicode hex="1F10"/>
-  <anchor x="601" y="1076" name="top"/>
+  <anchor x="585" y="1076" name="top"/>
   <outline>
     <component base="epsilon"/>
-    <component base="koronis" xOffset="397"/>
+    <component base="koronis" xOffset="368"/>
   </outline>
 </glyph>

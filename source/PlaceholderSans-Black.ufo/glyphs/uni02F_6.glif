@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni02F6" format="2">
-  <advance width="1236"/>
+  <advance width="1271"/>
   <unicode hex="02F6"/>
-  <anchor x="488" y="1118" name="_top"/>
-  <anchor x="488" y="1582" name="top"/>
+  <anchor x="508" y="1118" name="_top"/>
+  <anchor x="508" y="1583" name="top"/>
   <outline>
     <component base="acutedblcomb" xOffset="26"/>
   </outline>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="paragraphreversed" format="2">
-  <advance width="1087"/>
+  <advance width="1103"/>
   <unicode hex="204B"/>
   <outline>
-    <component base="paragraph" xScale="-1" xOffset="1087"/>
+    <component base="paragraph" xScale="-1" xOffset="1103"/>
   </outline>
   <lib>
     <dict>

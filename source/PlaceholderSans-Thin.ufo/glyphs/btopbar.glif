@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="btopbar" format="2">
-  <advance width="1145"/>
+  <advance width="1234"/>
   <unicode hex="0183"/>
   <note>
 !post:RemoveOverlap
 </note>
-  <anchor x="621" y="0" name="bottom"/>
-  <anchor x="220" y="1288" name="cross"/>
-  <anchor x="621" y="1288" name="top"/>
-  <anchor x="174" y="1490" name="topbar"/>
+  <anchor x="667" y="0" name="bottom"/>
+  <anchor x="239" y="1288" name="cross"/>
+  <anchor x="667" y="1288" name="top"/>
+  <anchor x="192" y="1490" name="topbar"/>
   <outline>
     <component base="b"/>
-    <component base="_part.topbar" xOffset="61"/>
+    <component base="_part.topbar" xOffset="140"/>
   </outline>
   <lib>
     <dict>

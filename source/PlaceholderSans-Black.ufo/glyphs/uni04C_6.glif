@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni04C6" format="2">
-  <advance width="1268"/>
+  <advance width="1228"/>
   <unicode hex="04C6"/>
-  <anchor x="612" y="0" name="bottom"/>
-  <anchor x="1191" y="0" name="cyrtic"/>
-  <anchor x="700" y="1076" name="top"/>
+  <anchor x="607" y="0" name="bottom"/>
+  <anchor x="1151" y="0" name="cyrtic"/>
+  <anchor x="684" y="1076" name="top"/>
   <outline>
     <component base="elcyrillic"/>
-    <component base="_part.cyrtail" xOffset="744"/>
+    <component base="_part.cyrtail" xOffset="724"/>
   </outline>
   <lib>
     <dict>

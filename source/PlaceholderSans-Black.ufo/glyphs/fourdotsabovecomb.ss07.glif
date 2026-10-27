@@ -6,9 +6,9 @@ COMBINING FOUR DOTS ABOVE
 </note>
   <outline>
     <component base="period.ss07" yOffset="1224"/>
-    <component base="period.ss07" xOffset="714" yOffset="1224"/>
-    <component base="period.ss07" xOffset="1428" yOffset="1224"/>
-    <component base="period.ss07" xOffset="2141" yOffset="1224"/>
+    <component base="period.ss07" xOffset="755" yOffset="1224"/>
+    <component base="period.ss07" xOffset="1509" yOffset="1224"/>
+    <component base="period.ss07" xOffset="2264" yOffset="1224"/>
   </outline>
   <lib>
     <dict>
@@ -48,7 +48,7 @@ COMBINING FOUR DOTS ABOVE
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>2855</integer>
+      <integer>3018</integer>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

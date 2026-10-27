@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ygrave" format="2">
-  <advance width="1163"/>
+  <advance width="1140"/>
   <unicode hex="1EF2"/>
-  <anchor x="593" y="0" name="bottom"/>
-  <anchor x="593" y="438" name="cross"/>
-  <anchor x="617" y="0" name="ogonek"/>
-  <anchor x="23" y="1490" name="tonos"/>
-  <anchor x="528" y="1929" name="top"/>
+  <anchor x="584" y="0" name="bottom"/>
+  <anchor x="584" y="438" name="cross"/>
+  <anchor x="608" y="0" name="ogonek"/>
+  <anchor x="44" y="1490" name="tonos"/>
+  <anchor x="498" y="1929" name="top"/>
   <outline>
     <component base="Y"/>
-    <component base="gravecomb" xOffset="192" yOffset="372"/>
+    <component base="gravecomb" xOffset="155" yOffset="372"/>
   </outline>
 </glyph>

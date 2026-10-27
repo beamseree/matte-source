@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zedescendercyrillic" format="2">
-  <advance width="1154"/>
+  <advance width="1173"/>
   <unicode hex="0498"/>
-  <anchor x="592" y="1490" name="top"/>
-  <anchor x="595" y="0" name="cedilla"/>
+  <anchor x="599" y="1490" name="top"/>
+  <anchor x="601" y="0" name="cedilla"/>
   <outline>
     <component base="afii10025"/>
-    <component base="cedillacomb" xOffset="369"/>
+    <component base="cedillacomb" xOffset="382"/>
   </outline>
 </glyph>

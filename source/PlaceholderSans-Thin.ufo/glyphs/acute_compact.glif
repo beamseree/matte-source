@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acute_compact" format="2">
-  <advance width="522"/>
+  <advance width="537"/>
   <unicode hex="EE9E"/>
   <guideline y="1283"/>
   <guideline y="1557"/>
-  <anchor x="187" y="1118" name="_top"/>
-  <anchor x="191" y="1557" name="top"/>
+  <anchor x="194" y="1118" name="_top"/>
+  <anchor x="198" y="1557" name="top"/>
   <outline>
     <contour>
-      <point x="155" y="1283" type="line"/>
-      <point x="201" y="1283" type="line"/>
-      <point x="368" y="1557" type="line"/>
-      <point x="308" y="1557" type="line"/>
+      <point x="162" y="1283" type="line"/>
+      <point x="208" y="1283" type="line"/>
+      <point x="375" y="1557" type="line"/>
+      <point x="315" y="1557" type="line"/>
     </contour>
   </outline>
 </glyph>

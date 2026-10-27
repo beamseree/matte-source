@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketright" format="2">
-  <advance width="762"/>
+  <advance width="780"/>
   <unicode hex="005D"/>
   <guideline y="651" name="Mid center"/>
-  <anchor x="443" y="651" name="cross"/>
+  <anchor x="450" y="651" name="cross"/>
   <outline>
     <contour>
-      <point x="72" y="-279" type="line"/>
-      <point x="638" y="-279" type="line"/>
-      <point x="638" y="1581" type="line"/>
-      <point x="72" y="1581" type="line"/>
-      <point x="72" y="1289" type="line"/>
-      <point x="248" y="1289" type="line"/>
-      <point x="248" y="13" type="line"/>
-      <point x="72" y="13" type="line"/>
+      <point x="87" y="-279" type="line"/>
+      <point x="630" y="-279" type="line"/>
+      <point x="630" y="1581" type="line"/>
+      <point x="87" y="1581" type="line"/>
+      <point x="87" y="1283" type="line"/>
+      <point x="270" y="1283" type="line"/>
+      <point x="270" y="19" type="line"/>
+      <point x="87" y="19" type="line"/>
     </contour>
   </outline>
   <lib>

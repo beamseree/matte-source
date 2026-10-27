@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yogonek" format="2">
-  <advance width="1261"/>
+  <advance width="1184"/>
   <unicode hex="EE05"/>
   <note>
 Elfdalian. Black weight has custom-drawn ogonek. Other masters use a verbatim decomposed "ogonek" component.
 See https://github.com/rsms/inter/issues/285
 </note>
-  <anchor x="1007" y="0" name="bottom"/>
-  <anchor x="834" y="0" name="ogonek"/>
-  <anchor x="624" y="1076" name="top"/>
+  <anchor x="934" y="0" name="bottom"/>
+  <anchor x="761" y="0" name="ogonek"/>
+  <anchor x="582" y="1076" name="top"/>
   <outline>
     <component base="y"/>
-    <component base="ogonek.y" xOffset="425"/>
+    <component base="ogonek.y" xOffset="344"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bbar" format="2">
-  <advance width="1301"/>
+  <advance width="1260"/>
   <unicode hex="0180"/>
-  <anchor x="676" y="0" name="bottom"/>
-  <anchor x="377" y="1288" name="cross"/>
-  <anchor x="840" y="1288" name="top"/>
-  <anchor x="92" y="1490" name="topbar"/>
+  <anchor x="635" y="0" name="bottom"/>
+  <anchor x="343" y="1288" name="cross"/>
+  <anchor x="764" y="1288" name="top"/>
+  <anchor x="89" y="1490" name="topbar"/>
   <outline>
     <component base="b"/>
-    <component base="crossbar" xOffset="-121" yOffset="559"/>
+    <component base="crossbar" xOffset="-190" yOffset="559"/>
   </outline>
 </glyph>

@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tonebarlowmod.cn" format="2">
-  <advance width="809"/>
+  <advance width="806"/>
   <unicode hex="02E8"/>
   <outline>
     <contour>
-      <point x="749" y="1458" type="line"/>
-      <point x="373" y="1458" type="line"/>
-      <point x="373" y="0" type="line"/>
-      <point x="749" y="0" type="line"/>
+      <point x="734" y="1458" type="line"/>
+      <point x="381" y="1458" type="line"/>
+      <point x="381" y="0" type="line"/>
+      <point x="734" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="717" y="514" type="line"/>
-      <point x="65" y="514" type="line"/>
-      <point x="65" y="216" type="line"/>
-      <point x="717" y="216" type="line"/>
+      <point x="699" y="517" type="line"/>
+      <point x="79" y="517" type="line"/>
+      <point x="79" y="213" type="line"/>
+      <point x="699" y="213" type="line"/>
     </contour>
   </outline>
 </glyph>

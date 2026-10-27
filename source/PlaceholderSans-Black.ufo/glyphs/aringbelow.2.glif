@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aringbelow.2" format="2">
-  <advance width="1239"/>
-  <anchor x="607" y="0" name="bottom"/>
-  <anchor x="1276" y="25" name="ogonek"/>
-  <anchor x="620" y="1076" name="top"/>
+  <advance width="1257"/>
+  <anchor x="594" y="0" name="bottom"/>
+  <anchor x="1246" y="25" name="ogonek"/>
+  <anchor x="604" y="1076" name="top"/>
   <outline>
     <component base="a.2"/>
-    <component base="uni02F3" xOffset="212"/>
+    <component base="uni02F3" xOffset="183"/>
   </outline>
   <lib>
     <dict>

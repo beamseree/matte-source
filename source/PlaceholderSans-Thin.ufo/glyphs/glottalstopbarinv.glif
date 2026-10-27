@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="glottalstopbarinv" format="2">
-  <advance width="1004"/>
+  <advance width="1015"/>
   <unicode hex="01BE"/>
   <outline>
     <contour>
-      <point x="854" y="275" type="curve" smooth="yes"/>
-      <point x="854" y="127"/>
-      <point x="708" y="29"/>
-      <point x="504" y="29" type="curve" smooth="yes"/>
-      <point x="281" y="29"/>
-      <point x="157" y="170"/>
-      <point x="156" y="322" type="curve"/>
-      <point x="110" y="322" type="line"/>
-      <point x="110" y="144"/>
-      <point x="256" y="-18"/>
-      <point x="502" y="-18" type="curve" smooth="yes"/>
-      <point x="736" y="-18"/>
-      <point x="899" y="100"/>
-      <point x="899" y="276" type="curve" smooth="yes"/>
-      <point x="899" y="548"/>
-      <point x="513" y="477"/>
-      <point x="512" y="785" type="curve" smooth="yes"/>
-      <point x="512" y="1321" type="line"/>
-      <point x="466" y="1321" type="line"/>
-      <point x="466" y="785" type="line" smooth="yes"/>
-      <point x="466" y="450"/>
-      <point x="854" y="508"/>
+      <point x="859" y="275" type="curve" smooth="yes"/>
+      <point x="859" y="127"/>
+      <point x="713" y="29"/>
+      <point x="509" y="29" type="curve" smooth="yes"/>
+      <point x="286" y="29"/>
+      <point x="162" y="170"/>
+      <point x="161" y="322" type="curve"/>
+      <point x="115" y="322" type="line"/>
+      <point x="115" y="144"/>
+      <point x="262" y="-18"/>
+      <point x="507" y="-18" type="curve" smooth="yes"/>
+      <point x="741" y="-18"/>
+      <point x="905" y="100"/>
+      <point x="905" y="276" type="curve" smooth="yes"/>
+      <point x="905" y="548"/>
+      <point x="518" y="477"/>
+      <point x="517" y="785" type="curve" smooth="yes"/>
+      <point x="517" y="1321" type="line"/>
+      <point x="471" y="1321" type="line"/>
+      <point x="471" y="785" type="line" smooth="yes"/>
+      <point x="471" y="450"/>
+      <point x="859" y="508"/>
     </contour>
     <contour>
-      <point x="762" y="1030" type="line"/>
-      <point x="215" y="1030" type="line"/>
-      <point x="215" y="982" type="line"/>
-      <point x="762" y="982" type="line"/>
+      <point x="768" y="1030" type="line"/>
+      <point x="220" y="1030" type="line"/>
+      <point x="220" y="982" type="line"/>
+      <point x="768" y="982" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hcedilla" format="2">
-  <advance width="1132"/>
+  <advance width="1191"/>
   <unicode hex="1E29"/>
-  <anchor x="585" y="0" name="bottom"/>
-  <anchor x="213" y="0" name="cedilla"/>
-  <anchor x="236" y="1288" name="cross"/>
-  <anchor x="935" y="0" name="lfthook"/>
-  <anchor x="213" y="1490" name="top"/>
+  <anchor x="620" y="0" name="bottom"/>
+  <anchor x="241" y="0" name="cedilla"/>
+  <anchor x="264" y="1288" name="cross"/>
+  <anchor x="976" y="0" name="lfthook"/>
+  <anchor x="241" y="1490" name="top"/>
   <outline>
     <component base="h"/>
-    <component base="cedillacomb" xOffset="-40"/>
+    <component base="cedillacomb" xOffset="13"/>
   </outline>
   <lib>
     <dict>

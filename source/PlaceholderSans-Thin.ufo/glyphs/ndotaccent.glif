@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ndotaccent" format="2">
-  <advance width="1073"/>
+  <advance width="1126"/>
   <unicode hex="1E45"/>
-  <anchor x="547" y="0" name="bottom"/>
-  <anchor x="943" y="0" name="bottomr"/>
-  <anchor x="151" y="0" name="lfthook"/>
-  <anchor x="497" y="1467" name="top"/>
-  <anchor x="197" y="1076" name="topr"/>
+  <anchor x="571" y="0" name="bottom"/>
+  <anchor x="975" y="0" name="bottomr"/>
+  <anchor x="167" y="0" name="lfthook"/>
+  <anchor x="543" y="1467" name="top"/>
+  <anchor x="213" y="1076" name="topr"/>
   <outline>
     <component base="n"/>
-    <component base="dotaccentcomb" xOffset="331"/>
+    <component base="dotaccentcomb" xOffset="371"/>
   </outline>
 </glyph>

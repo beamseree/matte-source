@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ibreve" format="2">
-  <advance width="361"/>
+  <advance width="385"/>
   <unicode hex="012D"/>
-  <anchor x="192" y="0" name="bottom"/>
-  <anchor x="192" y="560" name="cross"/>
-  <anchor x="216" y="0" name="ogonek"/>
-  <anchor x="151" y="1532" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="200" y="560" name="cross"/>
+  <anchor x="224" y="0" name="ogonek"/>
+  <anchor x="172" y="1532" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="brevecomb" xOffset="-188"/>
+    <component base="brevecomb" xOffset="-171"/>
   </outline>
 </glyph>

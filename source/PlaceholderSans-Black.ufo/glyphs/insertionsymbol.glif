@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="insertionsymbol" format="2">
-  <advance width="1605"/>
+  <advance width="1625"/>
   <unicode hex="2380"/>
-  <anchor x="820" y="700" name="bottom"/>
-  <anchor x="1169" y="700" name="ogonek"/>
-  <anchor x="835" y="1354" name="top"/>
+  <anchor x="827" y="699" name="bottom"/>
+  <anchor x="1169" y="699" name="ogonek"/>
+  <anchor x="840" y="1355" name="top"/>
   <outline>
     <contour>
-      <point x="804" y="-24" type="line"/>
-      <point x="1518" y="690" type="line"/>
-      <point x="1390" y="814" type="line"/>
-      <point x="804" y="228" type="line"/>
-      <point x="218" y="814" type="line"/>
-      <point x="92" y="690" type="line"/>
+      <point x="817" y="-24" type="line"/>
+      <point x="1531" y="690" type="line"/>
+      <point x="1407" y="815" type="line"/>
+      <point x="817" y="231" type="line"/>
+      <point x="227" y="815" type="line"/>
+      <point x="105" y="690" type="line"/>
     </contour>
     <component base="a.sups" xOffset="384" yOffset="-186"/>
   </outline>

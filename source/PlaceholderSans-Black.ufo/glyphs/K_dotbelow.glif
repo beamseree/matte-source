@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kdotbelow" format="2">
-  <advance width="1560"/>
+  <advance width="1491"/>
   <unicode hex="1E32"/>
-  <anchor x="766" y="0" name="bottom"/>
-  <anchor x="766" y="1490" name="top"/>
+  <anchor x="722" y="0" name="bottom"/>
+  <anchor x="722" y="1490" name="top"/>
   <outline>
     <component base="K"/>
-    <component base="dotbelow" xOffset="460"/>
+    <component base="dotbelow" xOffset="361"/>
   </outline>
 </glyph>

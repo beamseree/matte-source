@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="udieresisbelow.1.ss07" format="2">
-  <advance width="1061"/>
+  <advance width="1103"/>
   <unicode hex="E285"/>
-  <anchor x="574" y="0" name="bottom"/>
-  <anchor x="978" y="355" name="ogonek"/>
-  <anchor x="574" y="1076" name="top"/>
+  <anchor x="582" y="0" name="bottom"/>
+  <anchor x="986" y="355" name="ogonek"/>
+  <anchor x="582" y="1076" name="top"/>
   <outline>
     <component base="u.1"/>
-    <component base="dotdblsubcomb.ss07" xOffset="-48"/>
+    <component base="dotdblsubcomb.ss07" xOffset="-32"/>
   </outline>
   <lib>
     <dict>

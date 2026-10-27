@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alternativekeysymbol" format="2">
-  <advance width="2042"/>
+  <advance width="2109"/>
   <unicode hex="2387"/>
   <note>
 Mirror copy of option
 </note>
   <outline>
     <contour>
-      <point x="160" y="0" type="line"/>
-      <point x="808" y="0" type="line"/>
-      <point x="1408" y="1186" type="line"/>
-      <point x="1882" y="1186" type="line"/>
-      <point x="1882" y="1490" type="line"/>
-      <point x="1234" y="1490" type="line"/>
-      <point x="636" y="302" type="line"/>
-      <point x="160" y="302" type="line"/>
+      <point x="194" y="0" type="line"/>
+      <point x="832" y="0" type="line"/>
+      <point x="1441" y="1180" type="line"/>
+      <point x="1916" y="1180" type="line"/>
+      <point x="1916" y="1490" type="line"/>
+      <point x="1278" y="1490" type="line"/>
+      <point x="670" y="308" type="line"/>
+      <point x="194" y="308" type="line"/>
     </contour>
     <contour>
-      <point x="1186" y="0" type="line"/>
-      <point x="1882" y="0" type="line"/>
-      <point x="1882" y="302" type="line"/>
-      <point x="1186" y="302" type="line"/>
+      <point x="1220" y="0" type="line"/>
+      <point x="1916" y="0" type="line"/>
+      <point x="1916" y="308" type="line"/>
+      <point x="1220" y="308" type="line"/>
     </contour>
   </outline>
   <lib>

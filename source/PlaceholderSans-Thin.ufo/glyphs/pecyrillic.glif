@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pecyrillic" format="2">
-  <advance width="1120"/>
+  <advance width="1137"/>
   <unicode hex="043F"/>
-  <anchor x="170.0" y="1076.0" name="cyrtic"/>
-  <anchor x="560.0" y="1076.0" name="cyrtic_center"/>
+  <anchor x="179.0" y="1076.0" name="cyrtic"/>
+  <anchor x="569.0" y="1076.0" name="cyrtic_center"/>
   <outline>
-    <component base="pecyrillicturn" xScale="-1.0" yScale="-1.0" xOffset="1120.0" yOffset="1076.0"/>
+    <component base="pecyrillicturn" xScale="-1.0" yScale="-1.0" xOffset="1137.0" yOffset="1076.0"/>
   </outline>
   <lib>
     <dict>

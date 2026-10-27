@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="adieresismacron.2.ss07" format="2">
-  <advance width="955"/>
-  <anchor x="527" y="0" name="bottom"/>
-  <anchor x="1064" y="3" name="ogonek"/>
-  <anchor x="522" y="1076" name="top"/>
+  <advance width="1001"/>
+  <anchor x="531" y="0" name="bottom"/>
+  <anchor x="1068" y="3" name="ogonek"/>
+  <anchor x="527" y="1076" name="top"/>
   <outline>
     <component base="a.2"/>
-    <component base="dieresismacroncomb.lc.ss07" xOffset="-65"/>
+    <component base="dieresismacroncomb.lc.ss07" xOffset="-59"/>
   </outline>
   <lib>
     <dict>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FC0" format="2">
-  <advance width="991"/>
+  <advance width="1004"/>
   <unicode hex="1FC0"/>
-  <anchor x="496" y="1118" name="_top"/>
-  <anchor x="498" y="1570" name="top"/>
+  <anchor x="502" y="1118" name="_top"/>
+  <anchor x="504" y="1572" name="top"/>
   <outline>
     <component base="tildecomb"/>
   </outline>

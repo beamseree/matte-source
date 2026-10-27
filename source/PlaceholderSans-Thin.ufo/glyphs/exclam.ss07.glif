@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclam.ss07" format="2">
-  <advance width="473"/>
+  <advance width="492"/>
   <unicode hex="E2AF"/>
   <outline>
     <contour>
-      <point x="213" y="434" type="line"/>
-      <point x="259" y="434" type="line"/>
-      <point x="259" y="1490" type="line"/>
-      <point x="213" y="1490" type="line"/>
+      <point x="223" y="434" type="line"/>
+      <point x="269" y="434" type="line"/>
+      <point x="269" y="1490" type="line"/>
+      <point x="223" y="1490" type="line"/>
     </contour>
     <component base="period.ss07" xOffset="-8"/>
   </outline>

@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one.sups" format="2">
-  <advance width="701"/>
+  <advance width="727"/>
   <unicode hex="00B9"/>
   <guideline x="414" y="1638" angle="180"/>
   <outline>
     <contour>
-      <point x="612" y="1728" type="line"/>
-      <point x="313" y="1728" type="line"/>
-      <point x="105" y="1604" type="line"/>
-      <point x="105" y="1370" type="line"/>
-      <point x="316" y="1493" type="line"/>
-      <point x="327" y="1493" type="line"/>
-      <point x="327" y="886" type="line"/>
-      <point x="612" y="886" type="line"/>
+      <point x="619" y="1729" type="line"/>
+      <point x="335" y="1729" type="line"/>
+      <point x="127" y="1605" type="line"/>
+      <point x="127" y="1367" type="line"/>
+      <point x="339" y="1490" type="line"/>
+      <point x="350" y="1490" type="line"/>
+      <point x="350" y="885" type="line"/>
+      <point x="619" y="885" type="line"/>
     </contour>
   </outline>
   <lib>

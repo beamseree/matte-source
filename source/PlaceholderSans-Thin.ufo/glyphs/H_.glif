@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="H" format="2">
-  <advance width="1443"/>
+  <advance width="1425"/>
   <unicode hex="0048"/>
-  <anchor x="709" y="0" name="bottom"/>
-  <anchor x="198" y="0" name="cedilla"/>
-  <anchor x="1242" y="0" name="cyrtic"/>
-  <anchor x="1196" y="0" name="lfthook"/>
-  <anchor x="1242" y="0" name="right"/>
-  <anchor x="175" y="1490" name="tonos"/>
-  <anchor x="709" y="1490" name="top"/>
+  <anchor x="711" y="0" name="bottom"/>
+  <anchor x="201" y="0" name="cedilla"/>
+  <anchor x="1245" y="0" name="cyrtic"/>
+  <anchor x="1199" y="0" name="lfthook"/>
+  <anchor x="1245" y="0" name="right"/>
+  <anchor x="178" y="1490" name="tonos"/>
+  <anchor x="711" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="175" y="0" type="line"/>
-      <point x="221" y="0" type="line"/>
-      <point x="221" y="738" type="line"/>
-      <point x="1196" y="738" type="line"/>
-      <point x="1196" y="0" type="line"/>
-      <point x="1242" y="0" type="line"/>
-      <point x="1242" y="1490" type="line"/>
-      <point x="1196" y="1490" type="line"/>
-      <point x="1196" y="784" type="line"/>
-      <point x="221" y="784" type="line"/>
-      <point x="221" y="1490" type="line"/>
-      <point x="175" y="1490" type="line"/>
+      <point x="178" y="0" type="line"/>
+      <point x="224" y="0" type="line"/>
+      <point x="224" y="738" type="line"/>
+      <point x="1199" y="738" type="line"/>
+      <point x="1199" y="0" type="line"/>
+      <point x="1245" y="0" type="line"/>
+      <point x="1245" y="1490" type="line"/>
+      <point x="1199" y="1490" type="line"/>
+      <point x="1199" y="784" type="line"/>
+      <point x="224" y="784" type="line"/>
+      <point x="224" y="1490" type="line"/>
+      <point x="178" y="1490" type="line"/>
     </contour>
   </outline>
 </glyph>

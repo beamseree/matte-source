@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="doubleprimemod" format="2">
-  <advance width="509"/>
+  <advance width="539"/>
   <unicode hex="02BA"/>
   <outline>
     <component base="primemod"/>
-    <component base="primemod" xOffset="151"/>
+    <component base="primemod" xOffset="165"/>
   </outline>
   <lib>
     <dict>

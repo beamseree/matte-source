@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1EFA" format="2">
-  <advance width="2160"/>
+  <advance width="2179"/>
   <unicode hex="1EFA"/>
-  <anchor x="1245" y="0" name="bottom"/>
-  <anchor x="992" y="745" name="cross"/>
-  <anchor x="1249" y="872" name="dot"/>
-  <anchor x="1344" y="1490" name="raccent"/>
-  <anchor x="916" y="1490" name="top"/>
+  <anchor x="1267" y="0" name="bottom"/>
+  <anchor x="1017" y="745" name="cross"/>
+  <anchor x="1269" y="875" name="dot"/>
+  <anchor x="1352" y="1490" name="raccent"/>
+  <anchor x="933" y="1490" name="top"/>
   <outline>
     <component base="L" xOffset="96"/>
-    <component base="L" xOffset="645"/>
+    <component base="L" xOffset="655"/>
   </outline>
   <lib>
     <dict>

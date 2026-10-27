@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F66" format="2">
-  <advance width="1586"/>
+  <advance width="1623"/>
   <unicode hex="1F66"/>
-  <anchor x="837" y="0" name="bottom"/>
-  <anchor x="768" y="1838" name="top"/>
+  <anchor x="842" y="0" name="bottom"/>
+  <anchor x="796" y="1838" name="top"/>
   <outline>
     <component base="omega"/>
-    <component base="psiliperispomeni" xOffset="545"/>
+    <component base="psiliperispomeni" xOffset="556"/>
   </outline>
 </glyph>

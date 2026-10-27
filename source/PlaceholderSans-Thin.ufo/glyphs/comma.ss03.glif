@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="comma.ss03" format="2">
-  <advance width="490"/>
+  <advance width="509"/>
   <unicode hex="EE88"/>
   <outline>
     <component base="quoteright.ss03" xOffset="-23" yOffset="-1406"/>

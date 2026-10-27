@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="udieresismacron" format="2">
-  <advance width="1035"/>
+  <advance width="1102"/>
   <unicode hex="01D6"/>
-  <anchor x="571" y="0" name="bottom"/>
-  <anchor x="967" y="0" name="ogonek"/>
-  <anchor x="921" y="1076" name="rtophorn"/>
-  <anchor x="571" y="1076" name="top"/>
+  <anchor x="583" y="0" name="bottom"/>
+  <anchor x="993" y="0" name="ogonek"/>
+  <anchor x="947" y="1076" name="rtophorn"/>
+  <anchor x="583" y="1076" name="top"/>
   <outline>
     <component base="u"/>
-    <component base="dieresismacroncomb.lc" xOffset="1"/>
+    <component base="dieresismacroncomb.lc" xOffset="24"/>
   </outline>
 </glyph>

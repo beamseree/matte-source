@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="u.1" format="2">
-  <advance width="1306"/>
+  <advance width="1284"/>
   <unicode hex="EE26"/>
   <note>
 https://en.wikipedia.org/wiki/Upsilon
 </note>
-  <anchor x="653" y="0" name="bottom"/>
-  <anchor x="1219" y="446" name="ogonek"/>
-  <anchor x="653" y="1076" name="top"/>
+  <anchor x="642" y="0" name="bottom"/>
+  <anchor x="1177" y="448" name="ogonek"/>
+  <anchor x="642" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="652" y="-14" type="curve" smooth="yes"/>
-      <point x="995" y="-14"/>
-      <point x="1219" y="165"/>
-      <point x="1219" y="446" type="curve" smooth="yes"/>
-      <point x="1219" y="1076" type="line"/>
-      <point x="817" y="1076" type="line"/>
-      <point x="817" y="474" type="line" smooth="yes"/>
-      <point x="817" y="377"/>
-      <point x="749" y="313"/>
-      <point x="653" y="313" type="curve" smooth="yes"/>
-      <point x="558" y="313"/>
-      <point x="489" y="377"/>
-      <point x="489" y="474" type="curve" smooth="yes"/>
-      <point x="489" y="1076" type="line"/>
-      <point x="88" y="1076" type="line"/>
-      <point x="88" y="446" type="line" smooth="yes"/>
-      <point x="88" y="165"/>
-      <point x="310" y="-14"/>
+      <point x="641" y="-13" type="curve" smooth="yes"/>
+      <point x="970" y="-13"/>
+      <point x="1177" y="166"/>
+      <point x="1177" y="448" type="curve" smooth="yes"/>
+      <point x="1177" y="1076" type="line"/>
+      <point x="833" y="1076" type="line"/>
+      <point x="833" y="477" type="line" smooth="yes"/>
+      <point x="833" y="383"/>
+      <point x="759" y="321"/>
+      <point x="642" y="321" type="curve" smooth="yes"/>
+      <point x="524" y="321"/>
+      <point x="450" y="383"/>
+      <point x="450" y="477" type="curve" smooth="yes"/>
+      <point x="450" y="1076" type="line"/>
+      <point x="106" y="1076" type="line"/>
+      <point x="106" y="448" type="line" smooth="yes"/>
+      <point x="106" y="166"/>
+      <point x="313" y="-13"/>
     </contour>
   </outline>
   <lib>

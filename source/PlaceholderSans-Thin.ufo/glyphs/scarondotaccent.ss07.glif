@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scarondotaccent.ss07" format="2">
-  <advance width="888"/>
+  <advance width="980"/>
   <unicode hex="E25A"/>
-  <anchor x="493" y="0" name="bottom"/>
-  <anchor x="491" y="0" name="cedilla"/>
-  <anchor x="100" y="247" name="rthook"/>
-  <anchor x="493" y="1076" name="top"/>
+  <anchor x="536" y="0" name="bottom"/>
+  <anchor x="534" y="0" name="cedilla"/>
+  <anchor x="125" y="247" name="rthook"/>
+  <anchor x="536" y="1076" name="top"/>
   <outline>
     <component base="s"/>
-    <component base="carondot.lc.ss07" xOffset="121"/>
+    <component base="carondot.lc.ss07" xOffset="187"/>
   </outline>
   <lib>
     <dict>

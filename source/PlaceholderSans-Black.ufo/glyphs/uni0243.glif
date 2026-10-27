@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0243" format="2">
-  <advance width="1508"/>
+  <advance width="1494"/>
   <unicode hex="0243"/>
   <note>
 effective LSB should be a little less than LSB of /t
 </note>
-  <anchor x="760" y="0" name="bottom"/>
-  <anchor x="390" y="480" name="cross"/>
-  <anchor x="760" y="1490" name="top"/>
-  <anchor x="153" y="1490" name="topl"/>
+  <anchor x="766" y="0" name="bottom"/>
+  <anchor x="401" y="483" name="cross"/>
+  <anchor x="765" y="1490" name="top"/>
+  <anchor x="174" y="1490" name="topl"/>
   <outline>
     <component base="B" xOffset="80"/>
-    <component base="_part.crossbar_compact" xOffset="43" yOffset="-265"/>
+    <component base="_part.crossbar_compact" xOffset="32" yOffset="-265"/>
   </outline>
   <lib>
     <dict>

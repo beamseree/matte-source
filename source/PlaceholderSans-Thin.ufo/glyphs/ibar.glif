@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ibar" format="2">
-  <advance width="305"/>
+  <advance width="346"/>
   <unicode hex="0268"/>
-  <anchor x="192" y="0" name="bottom"/>
-  <anchor x="192" y="560" name="cross"/>
-  <anchor x="216" y="0" name="ogonek"/>
-  <anchor x="144" y="1467" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="200" y="560" name="cross"/>
+  <anchor x="224" y="0" name="ogonek"/>
+  <anchor x="167" y="1467" name="top"/>
   <outline>
     <component base="i"/>
-    <component base="crossbar" xOffset="-299" yOffset="-163"/>
+    <component base="crossbar" xOffset="-271" yOffset="-163"/>
   </outline>
 </glyph>

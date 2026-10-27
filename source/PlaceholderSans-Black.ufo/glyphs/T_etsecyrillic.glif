@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tetsecyrillic" format="2">
-  <advance width="1977"/>
+  <advance width="1976"/>
   <unicode hex="04B4"/>
   <note>
 Top copied from /T (shortened for black weights)
 </note>
-  <anchor x="1812" y="0" name="cyrtic"/>
-  <anchor x="1145" y="0" name="cyrtic_center"/>
-  <anchor x="1145" y="1490" name="top"/>
+  <anchor x="1807" y="0" name="cyrtic"/>
+  <anchor x="1153" y="0" name="cyrtic_center"/>
+  <anchor x="1153" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="34" y="1164" type="line"/>
-      <point x="1271" y="1164" type="line"/>
-      <point x="1271" y="1490" type="line"/>
-      <point x="34" y="1490" type="line"/>
+      <point x="60" y="1157" type="line"/>
+      <point x="1286" y="1157" type="line"/>
+      <point x="1286" y="1490" type="line"/>
+      <point x="60" y="1490" type="line"/>
     </contour>
     <component base="afii10040" xOffset="405"/>
   </outline>

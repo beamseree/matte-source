@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macronacutecomb.cn" format="2">
-  <anchor x="400" y="1490" name="_top"/>
+  <anchor x="418" y="1490" name="_top"/>
   <outline>
     <component base="macronacutecomb" yOffset="372"/>
   </outline>
@@ -18,7 +18,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>751</integer>
+      <integer>830</integer>
     </dict>
   </lib>
 </glyph>

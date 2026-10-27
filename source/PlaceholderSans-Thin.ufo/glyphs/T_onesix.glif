@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tonesix" format="2">
-  <advance width="1357"/>
+  <advance width="1368"/>
   <unicode hex="0184"/>
-  <anchor x="426" y="1176" name="cross"/>
+  <anchor x="433" y="1176" name="cross"/>
   <outline>
     <contour>
-      <point x="44" y="989" type="line"/>
-      <point x="340" y="1490" type="line"/>
-      <point x="287" y="1490" type="line"/>
-      <point x="4" y="1011" type="line"/>
+      <point x="51" y="989" type="line"/>
+      <point x="347" y="1490" type="line"/>
+      <point x="294" y="1490" type="line"/>
+      <point x="11" y="1011" type="line"/>
     </contour>
     <component base="Softsign-cy" xOffset="137"/>
   </outline>

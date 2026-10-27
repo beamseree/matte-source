@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexgravecomb.cn" format="2">
-  <advance width="768"/>
+  <advance width="797"/>
   <guideline y="1616"/>
   <guideline y="1392"/>
   <guideline y="1681"/>
-  <anchor x="410" y="1118" name="_top"/>
-  <anchor x="410" y="1890" name="top"/>
+  <anchor x="416" y="1118" name="_top"/>
+  <anchor x="416" y="1890" name="top"/>
   <outline>
     <component base="circumflexcomb" yOffset="-31"/>
-    <component base="grave_compact" xOffset="267" yOffset="333"/>
+    <component base="grave_compact" xOffset="280" yOffset="333"/>
   </outline>
   <lib>
     <dict>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guilsinglright" format="2">
-  <advance width="630"/>
+  <advance width="638"/>
   <unicode hex="203A"/>
   <outline>
     <contour>
-      <point x="86" y="144" type="line"/>
-      <point x="143" y="144" type="line"/>
-      <point x="544" y="616" type="line"/>
-      <point x="143" y="1088" type="line"/>
-      <point x="86" y="1088" type="line"/>
-      <point x="483" y="616" type="line"/>
+      <point x="90" y="144" type="line"/>
+      <point x="147" y="144" type="line"/>
+      <point x="548" y="616" type="line"/>
+      <point x="147" y="1088" type="line"/>
+      <point x="90" y="1088" type="line"/>
+      <point x="487" y="616" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fraction.circled" format="2">
-  <advance width="2803"/>
+  <advance width="2816"/>
   <unicode hex="2298"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="_part.divfrac" xOffset="808"/>
+    <component base="_part.divfrac" xOffset="810"/>
   </outline>
   <lib>
     <dict>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringhalfright" format="2">
-  <advance width="329"/>
+  <advance width="335"/>
   <unicode hex="02BE"/>
-  <anchor x="149" y="1118" name="_top"/>
+  <anchor x="153" y="1118" name="_top"/>
   <outline>
     <component base="righthalfringabovecomb"/>
   </outline>

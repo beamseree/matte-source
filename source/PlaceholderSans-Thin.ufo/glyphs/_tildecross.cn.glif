@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_tildecross.cn" format="2">
-  <advance width="605"/>
-  <anchor x="298" y="870" name="top"/>
-  <anchor x="302" y="768" name="_cross"/>
+  <advance width="624"/>
+  <anchor x="308" y="870" name="top"/>
+  <anchor x="312" y="768" name="_cross"/>
   <outline>
     <component base="tildecomb" xOffset="-174" yOffset="-628"/>
   </outline>

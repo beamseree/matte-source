@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pecyrillicturn" format="2">
-  <advance width="1271"/>
+  <advance width="1280"/>
   <unicode hex="EED3"/>
-  <anchor x="1182" y="0" name="cyrtic"/>
-  <anchor x="636" y="0" name="cyrtic_center"/>
+  <anchor x="1172" y="0" name="cyrtic"/>
+  <anchor x="640" y="0" name="cyrtic_center"/>
   <outline>
     <contour>
-      <point x="88" y="0" type="line"/>
-      <point x="1184" y="0" type="line"/>
-      <point x="1184" y="1118" type="line"/>
-      <point x="782" y="1118" type="line"/>
-      <point x="782" y="300" type="line"/>
-      <point x="490" y="300" type="line"/>
-      <point x="490" y="1118" type="line"/>
-      <point x="88" y="1118" type="line"/>
+      <point x="106" y="0" type="line"/>
+      <point x="1173" y="0" type="line"/>
+      <point x="1173" y="1118" type="line"/>
+      <point x="802" y="1118" type="line"/>
+      <point x="802" y="306" type="line"/>
+      <point x="478" y="306" type="line"/>
+      <point x="478" y="1118" type="line"/>
+      <point x="106" y="1118" type="line"/>
     </contour>
   </outline>
   <lib>

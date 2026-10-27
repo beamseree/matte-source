@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yericyrillic" format="2">
-  <advance width="1729"/>
+  <advance width="1682"/>
   <unicode hex="044B"/>
-  <anchor x="1444" y="0" name="bottom"/>
-  <anchor x="1438" y="588" name="cross"/>
-  <anchor x="1641" y="0" name="ogonek"/>
-  <anchor x="880" y="1076" name="top"/>
+  <anchor x="1406" y="0" name="bottom"/>
+  <anchor x="1401" y="589" name="cross"/>
+  <anchor x="1575" y="0" name="ogonek"/>
+  <anchor x="899" y="1076" name="top"/>
   <outline>
     <component base="softsigncyrillic"/>
-    <component base="idotless" xOffset="1152"/>
+    <component base="idotless" xOffset="1125"/>
   </outline>
   <lib>
     <dict>

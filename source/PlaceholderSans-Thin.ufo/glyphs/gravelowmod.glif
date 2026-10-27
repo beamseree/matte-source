@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gravelowmod" format="2">
-  <advance width="619"/>
+  <advance width="634"/>
   <unicode hex="02CE"/>
-  <anchor x="506" y="-482" name="_top"/>
-  <anchor x="502" y="-43" name="top"/>
+  <anchor x="513" y="-482" name="_top"/>
+  <anchor x="509" y="-43" name="top"/>
   <outline>
     <component base="gravecomb" xOffset="166" yOffset="-1600"/>
   </outline>

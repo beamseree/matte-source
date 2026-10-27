@@ -2,13 +2,13 @@
 <glyph name="jcrosstail.ss07" format="2">
   <advance width="1071"/>
   <unicode hex="E2D9"/>
-  <anchor x="766" y="-460" name="bottom"/>
-  <anchor x="736" y="588" name="cross"/>
-  <anchor x="939" y="0" name="ogonek"/>
-  <anchor x="704" y="1586" name="top"/>
+  <anchor x="755" y="-460" name="bottom"/>
+  <anchor x="726" y="589" name="cross"/>
+  <anchor x="900" y="0" name="ogonek"/>
+  <anchor x="693" y="1590" name="top"/>
   <outline>
     <component base="jcrosstail.ccmp"/>
-    <component base="dotaccentcomb.ss07" xOffset="388"/>
+    <component base="dotaccentcomb.ss07" xOffset="367"/>
   </outline>
   <lib>
     <dict>

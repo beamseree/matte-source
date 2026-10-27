@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="blackleftbullet" format="2">
-  <advance width="1194"/>
+  <advance width="1218"/>
   <unicode hex="204C"/>
   <note>
 Based on paragraph. Slightly shorter.
@@ -8,25 +8,25 @@ Based on paragraph. Slightly shorter.
   <guideline x="1044" y="816" angle="0"/>
   <outline>
     <contour>
-      <point x="645" y="212" type="curve" smooth="yes"/>
-      <point x="945" y="212" type="line"/>
-      <point x="945" y="258" type="line"/>
-      <point x="759" y="258" type="line"/>
-      <point x="759" y="928" type="line"/>
-      <point x="945" y="928" type="line"/>
-      <point x="945" y="974" type="line"/>
-      <point x="645" y="974" type="line" smooth="yes"/>
-      <point x="384" y="974"/>
-      <point x="241" y="822"/>
-      <point x="241" y="594" type="curve" smooth="yes"/>
-      <point x="241" y="365"/>
-      <point x="384" y="212"/>
+      <point x="656" y="212" type="curve" smooth="yes"/>
+      <point x="956" y="212" type="line"/>
+      <point x="956" y="258" type="line"/>
+      <point x="770" y="258" type="line"/>
+      <point x="770" y="928" type="line"/>
+      <point x="956" y="928" type="line"/>
+      <point x="956" y="974" type="line"/>
+      <point x="656" y="974" type="line" smooth="yes"/>
+      <point x="395" y="974"/>
+      <point x="252" y="822"/>
+      <point x="252" y="594" type="curve" smooth="yes"/>
+      <point x="252" y="365"/>
+      <point x="395" y="212"/>
     </contour>
     <contour>
-      <point x="897" y="212" type="line"/>
-      <point x="945" y="212" type="line"/>
-      <point x="945" y="974" type="line"/>
-      <point x="897" y="974" type="line"/>
+      <point x="908" y="212" type="line"/>
+      <point x="956" y="212" type="line"/>
+      <point x="956" y="974" type="line"/>
+      <point x="908" y="974" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tdotaccent" format="2">
-  <advance width="1407"/>
+  <advance width="1426"/>
   <unicode hex="1E6A"/>
-  <anchor x="723" y="0" name="bottom"/>
-  <anchor x="925" y="0" name="bottomr"/>
-  <anchor x="724" y="0" name="cedilla"/>
-  <anchor x="723" y="666" name="cross"/>
-  <anchor x="925" y="0" name="cyrtic"/>
-  <anchor x="872" y="0" name="right"/>
-  <anchor x="724" y="1972" name="top"/>
+  <anchor x="714" y="0" name="bottom"/>
+  <anchor x="901" y="0" name="bottomr"/>
+  <anchor x="715" y="0" name="cedilla"/>
+  <anchor x="714" y="662" name="cross"/>
+  <anchor x="901" y="0" name="cyrtic"/>
+  <anchor x="849" y="0" name="right"/>
+  <anchor x="727" y="1975" name="top"/>
   <outline>
     <component base="T"/>
-    <component base="dotaccentcomb" xOffset="409" yOffset="372"/>
+    <component base="dotaccentcomb" xOffset="398" yOffset="372"/>
   </outline>
 </glyph>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chekhakassiancyrillic" format="2">
-  <advance width="1316"/>
+  <advance width="1284"/>
   <unicode hex="04CC"/>
-  <anchor x="625" y="435" name="cross"/>
-  <anchor x="1163" y="0" name="cyrtic"/>
-  <anchor x="624" y="1076" name="top"/>
+  <anchor x="618" y="436" name="cross"/>
+  <anchor x="1129" y="0" name="cyrtic"/>
+  <anchor x="617" y="1076" name="top"/>
   <outline>
     <component base="checyrillic"/>
-    <component base="_part.cyrtic_left" xOffset="464"/>
+    <component base="_part.cyrtic_left" xOffset="449"/>
   </outline>
   <lib>
     <dict>

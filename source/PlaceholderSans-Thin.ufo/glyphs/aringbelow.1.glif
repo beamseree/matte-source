@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aringbelow.1" format="2">
-  <advance width="1146"/>
+  <advance width="1166"/>
   <unicode hex="E049"/>
-  <anchor x="595" y="0" name="bottom"/>
-  <anchor x="998" y="0" name="bottomr"/>
-  <anchor x="998" y="0" name="ogonek"/>
-  <anchor x="577" y="1076" name="top"/>
-  <anchor x="998" y="1076" name="topr"/>
+  <anchor x="601" y="0" name="bottom"/>
+  <anchor x="1004" y="0" name="bottomr"/>
+  <anchor x="1004" y="0" name="ogonek"/>
+  <anchor x="582" y="1076" name="top"/>
+  <anchor x="1004" y="1076" name="topr"/>
   <outline>
     <component base="a.1"/>
-    <component base="uni02F3" xOffset="338"/>
+    <component base="uni02F3" xOffset="352"/>
   </outline>
   <lib>
     <dict>

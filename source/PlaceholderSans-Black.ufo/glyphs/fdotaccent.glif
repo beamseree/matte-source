@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fdotaccent" format="2">
-  <advance width="799"/>
+  <advance width="839"/>
   <unicode hex="1E1F"/>
-  <anchor x="372" y="0" name="bottom"/>
-  <anchor x="372" y="768" name="cross"/>
-  <anchor x="410" y="2034" name="top"/>
+  <anchor x="390" y="0" name="bottom"/>
+  <anchor x="390" y="768" name="cross"/>
+  <anchor x="434" y="2037" name="top"/>
   <outline>
     <component base="f"/>
-    <component base="dotaccentcomb" xOffset="95" yOffset="434"/>
+    <component base="dotaccentcomb" xOffset="105" yOffset="434"/>
   </outline>
 </glyph>

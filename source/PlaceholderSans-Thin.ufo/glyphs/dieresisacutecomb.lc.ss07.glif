@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisacutecomb.lc.ss07" format="2">
-  <advance width="1026"/>
+  <advance width="1067"/>
   <unicode hex="E2CD"/>
   <guideline y="1616"/>
   <guideline y="1392"/>
   <guideline y="1681"/>
-  <anchor x="560" y="1118" name="_top"/>
+  <anchor x="567" y="1118" name="_top"/>
   <outline>
     <component base="dieresiscomb.ss07" xOffset="-16" yOffset="16"/>
-    <component base="acute_compact" xOffset="291" yOffset="333"/>
+    <component base="acute_compact" xOffset="317" yOffset="333"/>
   </outline>
   <lib>
     <dict>

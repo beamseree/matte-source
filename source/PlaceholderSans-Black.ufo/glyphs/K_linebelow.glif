@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Klinebelow" format="2">
-  <advance width="1566"/>
+  <advance width="1503"/>
   <unicode hex="1E34"/>
-  <anchor x="766" y="0" name="bottom"/>
-  <anchor x="766" y="1490" name="top"/>
+  <anchor x="722" y="0" name="bottom"/>
+  <anchor x="722" y="1490" name="top"/>
   <outline>
     <component base="K"/>
-    <component base="macronsub" xOffset="378"/>
+    <component base="macronsub" xOffset="279"/>
   </outline>
 </glyph>

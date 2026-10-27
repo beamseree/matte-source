@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wdotaccent.ss07" format="2">
-  <advance width="1820"/>
+  <advance width="1797"/>
   <unicode hex="E26C"/>
-  <anchor x="931" y="0" name="bottom"/>
-  <anchor x="939" y="1586" name="top"/>
+  <anchor x="915" y="0" name="bottom"/>
+  <anchor x="906" y="1590" name="top"/>
   <outline>
     <component base="w"/>
-    <component base="dotaccentcomb.ss07" xOffset="623"/>
+    <component base="dotaccentcomb.ss07" xOffset="580"/>
   </outline>
   <lib>
     <dict>

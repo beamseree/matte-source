@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="varia" format="2">
-  <advance width="133"/>
+  <advance width="143"/>
   <unicode hex="1FEF"/>
-  <anchor x="96" y="1118" name="_top"/>
+  <anchor x="101" y="1118" name="_top"/>
   <outline>
-    <component base="tonos.top" xScale="-1" xOffset="213"/>
+    <component base="tonos.top" xScale="-1" xOffset="223"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="psiliperispomeni" format="2">
-  <advance width="737"/>
+  <advance width="770"/>
   <unicode hex="1FCF"/>
-  <anchor x="416" y="1118" name="_top"/>
-  <anchor x="359" y="1969.0" name="top"/>
+  <anchor x="423" y="1118" name="_top"/>
+  <anchor x="386" y="1970.8" name="top"/>
   <outline>
     <component base="psili" xOffset="147"/>
-    <component base="tildecomb" yScale="0.9" xOffset="-139" yOffset="556"/>
+    <component base="tildecomb" yScale="0.9" xOffset="-118" yOffset="556"/>
   </outline>
   <lib>
     <dict>

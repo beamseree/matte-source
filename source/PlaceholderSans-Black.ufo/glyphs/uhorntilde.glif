@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorntilde" format="2">
-  <advance width="1400"/>
+  <advance width="1301"/>
   <unicode hex="1EEF"/>
-  <anchor x="669" y="0" name="bottom"/>
-  <anchor x="1211" y="0" name="ogonek"/>
-  <anchor x="809" y="1076" name="rtophorn"/>
-  <anchor x="665" y="1570" name="top"/>
+  <anchor x="613" y="0" name="bottom"/>
+  <anchor x="1101" y="0" name="ogonek"/>
+  <anchor x="756" y="1076" name="rtophorn"/>
+  <anchor x="559" y="1572" name="top"/>
   <outline>
     <component base="uhorn"/>
-    <component base="tildecomb" xOffset="167"/>
+    <component base="tildecomb" xOffset="55"/>
   </outline>
 </glyph>

@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="diamondwhite" format="2">
-  <advance width="2105"/>
+  <advance width="2113"/>
   <unicode hex="25C7"/>
   <outline>
     <contour>
-      <point x="2030" y="744" type="line"/>
-      <point x="1058" y="1722" type="line"/>
-      <point x="76" y="744" type="line"/>
-      <point x="1058" y="-232" type="line"/>
+      <point x="2033" y="744" type="line"/>
+      <point x="1061" y="1722" type="line"/>
+      <point x="79" y="744" type="line"/>
+      <point x="1061" y="-232" type="line"/>
     </contour>
     <contour>
-      <point x="1966" y="744" type="line"/>
-      <point x="1058" y="-166" type="line"/>
-      <point x="142" y="744" type="line"/>
-      <point x="1058" y="1656" type="line"/>
+      <point x="1969" y="744" type="line"/>
+      <point x="1061" y="-166" type="line"/>
+      <point x="145" y="744" type="line"/>
+      <point x="1061" y="1656" type="line"/>
     </contour>
   </outline>
   <lib>

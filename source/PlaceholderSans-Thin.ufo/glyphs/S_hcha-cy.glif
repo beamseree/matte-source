@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Shcha-cy" format="2">
-  <advance width="1784"/>
+  <advance width="1802"/>
   <unicode hex="0429"/>
-  <anchor x="1613" y="0" name="cyrtic"/>
-  <anchor x="894" y="1490" name="top"/>
+  <anchor x="1620" y="0" name="cyrtic"/>
+  <anchor x="901" y="1490" name="top"/>
   <outline>
     <component base="Sha-cy"/>
-    <component base="_part.cyrtic" xOffset="1493"/>
+    <component base="_part.cyrtic" xOffset="1506"/>
   </outline>
   <lib>
     <dict>

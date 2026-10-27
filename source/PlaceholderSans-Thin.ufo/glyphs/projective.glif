@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="projective" format="2">
-  <advance width="1539"/>
+  <advance width="1556"/>
   <unicode hex="2305"/>
   <note>
 Based on control
 </note>
   <outline>
     <contour>
-      <point x="177" y="1442" type="line"/>
-      <point x="1363" y="1442" type="line"/>
-      <point x="1363" y="1490" type="line"/>
-      <point x="177" y="1490" type="line"/>
+      <point x="185" y="1442" type="line"/>
+      <point x="1371" y="1442" type="line"/>
+      <point x="1371" y="1490" type="line"/>
+      <point x="185" y="1490" type="line"/>
     </contour>
     <component base="control" yOffset="-267"/>
   </outline>

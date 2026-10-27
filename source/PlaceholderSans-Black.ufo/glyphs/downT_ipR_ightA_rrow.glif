@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="downTipRightArrow" format="2">
-  <advance width="2057"/>
+  <advance width="2118"/>
   <unicode hex="21B3"/>
   <note>
 Mirror copy of carriagereturn
@@ -8,21 +8,21 @@ Mirror copy of carriagereturn
   <guideline x="178" y="896" angle="0"/>
   <outline>
     <contour>
-      <point x="1335" y="118" type="line"/>
-      <point x="1883" y="652" type="line"/>
-      <point x="1335" y="1186" type="line"/>
+      <point x="1375" y="114" type="line"/>
+      <point x="1908" y="652" type="line"/>
+      <point x="1375" y="1190" type="line"/>
     </contour>
     <contour>
-      <point x="175" y="500" type="line"/>
-      <point x="471" y="500" type="line"/>
-      <point x="471" y="1490" type="line"/>
-      <point x="175" y="1490" type="line"/>
+      <point x="212" y="497" type="line"/>
+      <point x="490" y="497" type="line"/>
+      <point x="490" y="1490" type="line"/>
+      <point x="212" y="1490" type="line"/>
     </contour>
     <contour>
-      <point x="179" y="500" type="line"/>
-      <point x="1515" y="500" type="line"/>
-      <point x="1515" y="802" type="line"/>
-      <point x="179" y="802" type="line"/>
+      <point x="216" y="497" type="line"/>
+      <point x="1549" y="497" type="line"/>
+      <point x="1549" y="805" type="line"/>
+      <point x="216" y="805" type="line"/>
     </contour>
   </outline>
   <lib>

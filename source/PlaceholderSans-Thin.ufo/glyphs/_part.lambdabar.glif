@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_part.lambdabar" format="2">
-  <advance width="1112"/>
-  <anchor x="421" y="1249" name="_bar"/>
+  <advance width="1147"/>
+  <anchor x="432" y="1249" name="_bar"/>
   <outline>
     <contour>
-      <point x="220" y="1128" type="line"/>
-      <point x="614" y="1314" type="line"/>
-      <point x="614" y="1364" type="line"/>
-      <point x="220" y="1178" type="line"/>
+      <point x="231" y="1128" type="line"/>
+      <point x="625" y="1314" type="line"/>
+      <point x="625" y="1364" type="line"/>
+      <point x="231" y="1178" type="line"/>
     </contour>
   </outline>
 </glyph>

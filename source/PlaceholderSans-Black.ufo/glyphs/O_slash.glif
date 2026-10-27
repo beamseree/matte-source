@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oslash" format="2">
-  <advance width="1657"/>
+  <advance width="1680"/>
   <unicode hex="00D8"/>
   <guideline x="1024" y="1588" angle="90"/>
   <guideline x="1292" y="1024" angle="0"/>
   <guideline x="1024" y="1024" angle="55.9722"/>
-  <anchor x="842" y="0" name="bottom"/>
-  <anchor x="842" y="745" name="center"/>
-  <anchor x="1633" y="744" name="ogonek"/>
-  <anchor x="204" y="1490" name="tonos"/>
-  <anchor x="842" y="1490" name="top"/>
-  <anchor x="842" y="1510" name="tophorn"/>
+  <anchor x="845" y="0" name="bottom"/>
+  <anchor x="845" y="745" name="center"/>
+  <anchor x="1620" y="744" name="ogonek"/>
+  <anchor x="222" y="1490" name="tonos"/>
+  <anchor x="845" y="1490" name="top"/>
+  <anchor x="845" y="1510" name="tophorn"/>
   <outline>
     <component base="O"/>
-    <component base="_part.Oslash" xOffset="209"/>
+    <component base="_part.Oslash" xOffset="230"/>
   </outline>
   <lib>
     <dict>

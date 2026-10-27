@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tripleprimerev" format="2">
-  <advance width="1845"/>
+  <advance width="1932"/>
   <unicode hex="2037"/>
   <outline>
     <component base="primerev"/>
-    <component base="primerev" xOffset="615"/>
-    <component base="primerev" xOffset="1230"/>
+    <component base="primerev" xOffset="644"/>
+    <component base="primerev" xOffset="1288"/>
   </outline>
   <lib>
     <dict>

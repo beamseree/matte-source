@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semicolon.ss03" format="2">
-  <advance width="681"/>
+  <advance width="749"/>
   <unicode hex="EE89"/>
   <outline>
     <component base="comma.ss03"/>
-    <component base="period" xOffset="-24" yOffset="685"/>
+    <component base="period" yOffset="685"/>
   </outline>
   <lib>
     <dict>

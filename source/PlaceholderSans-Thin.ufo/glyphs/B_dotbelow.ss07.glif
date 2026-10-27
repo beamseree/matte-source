@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Bdotbelow.ss07" format="2">
-  <advance width="1278"/>
+  <advance width="1283"/>
   <unicode hex="E1E9"/>
-  <anchor x="619" y="0" name="bottom"/>
-  <anchor x="240" y="390" name="cross"/>
-  <anchor x="598" y="1490" name="top"/>
-  <anchor x="173" y="1490" name="topl"/>
+  <anchor x="624" y="0" name="bottom"/>
+  <anchor x="247" y="390" name="cross"/>
+  <anchor x="604" y="1490" name="top"/>
+  <anchor x="180" y="1490" name="topl"/>
   <outline>
     <component base="B"/>
-    <component base="dotbelow.ss07" xOffset="461"/>
+    <component base="dotbelow.ss07" xOffset="453"/>
   </outline>
   <lib>
     <dict>

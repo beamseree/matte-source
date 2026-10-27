@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="option" format="2">
-  <advance width="2042"/>
+  <advance width="2109"/>
   <unicode hex="2325"/>
   <note>
 stroke:
@@ -12,20 +12,20 @@ B: 208,200,50%
   <guideline x="1088" y="208" angle="0"/>
   <outline>
     <contour>
-      <point x="1186" y="1490" type="line"/>
-      <point x="1186" y="1186" type="line"/>
-      <point x="1882" y="1186" type="line"/>
-      <point x="1882" y="1490" type="line"/>
+      <point x="1220" y="1490" type="line"/>
+      <point x="1220" y="1180" type="line"/>
+      <point x="1916" y="1180" type="line"/>
+      <point x="1916" y="1490" type="line"/>
     </contour>
     <contour>
-      <point x="160" y="1186" type="line"/>
-      <point x="636" y="1186" type="line"/>
-      <point x="1234" y="0" type="line"/>
-      <point x="1882" y="0" type="line"/>
-      <point x="1882" y="302" type="line"/>
-      <point x="1408" y="302" type="line"/>
-      <point x="808" y="1490" type="line"/>
-      <point x="160" y="1490" type="line"/>
+      <point x="194" y="1180" type="line"/>
+      <point x="670" y="1180" type="line"/>
+      <point x="1278" y="0" type="line"/>
+      <point x="1916" y="0" type="line"/>
+      <point x="1916" y="308" type="line"/>
+      <point x="1441" y="308" type="line"/>
+      <point x="832" y="1490" type="line"/>
+      <point x="194" y="1490" type="line"/>
     </contour>
   </outline>
 </glyph>

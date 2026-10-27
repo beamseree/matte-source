@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sixroman" format="2">
-  <advance width="1119"/>
+  <advance width="1135"/>
   <unicode hex="2175"/>
-  <anchor x="980" y="0" name="bottom"/>
-  <anchor x="932" y="1467" name="top"/>
-  <anchor x="980" y="560" name="cross"/>
-  <anchor x="1004" y="0" name="ogonek"/>
+  <anchor x="976" y="0" name="bottom"/>
+  <anchor x="943" y="1467" name="top"/>
+  <anchor x="976" y="560" name="cross"/>
+  <anchor x="1000" y="0" name="ogonek"/>
   <outline>
     <component base="v" xOffset="-20"/>
-    <component base="i" xOffset="788"/>
+    <component base="i" xOffset="776"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="R.circled" format="2">
-  <advance width="2924"/>
+  <advance width="2893"/>
   <unicode hex="24C7"/>
-  <anchor x="1442" y="0" name="bottom"/>
-  <anchor x="1416" y="1490" name="top"/>
+  <anchor x="1437" y="0" name="bottom"/>
+  <anchor x="1412" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="R" xOffset="730"/>
+    <component base="R" xOffset="739"/>
   </outline>
   <lib>
     <dict>

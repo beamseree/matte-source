@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breveacutecomb.cn" format="2">
-  <advance width="628"/>
+  <advance width="650"/>
   <guideline y="1616"/>
   <guideline y="1529"/>
   <guideline y="1681"/>
-  <anchor x="339" y="1118" name="_top"/>
-  <anchor x="339" y="1890" name="top"/>
+  <anchor x="343" y="1118" name="_top"/>
+  <anchor x="343" y="1890" name="top"/>
   <outline>
     <component base="brevecomb" yOffset="-28"/>
-    <component base="acute_compact" xOffset="124" yOffset="333"/>
+    <component base="acute_compact" xOffset="131" yOffset="333"/>
   </outline>
   <lib>
     <dict>

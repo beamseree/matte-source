@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idotbelow.1.ss07" format="2">
-  <advance width="680"/>
+  <advance width="700"/>
   <unicode hex="E22A"/>
-  <anchor x="362" y="0" name="bottom"/>
-  <anchor x="361" y="768" name="cross"/>
-  <anchor x="633" y="0" name="ogonek"/>
-  <anchor x="658" y="0" name="right"/>
-  <anchor x="132" y="1490" name="tonos"/>
-  <anchor x="362" y="1490" name="top"/>
+  <anchor x="365" y="0" name="bottom"/>
+  <anchor x="364" y="768" name="cross"/>
+  <anchor x="636" y="0" name="ogonek"/>
+  <anchor x="662" y="0" name="right"/>
+  <anchor x="136" y="1490" name="tonos"/>
+  <anchor x="365" y="1490" name="top"/>
   <outline>
     <component base="I.1"/>
-    <component base="dotbelow.ss07" xOffset="153"/>
+    <component base="dotbelow.ss07" xOffset="160"/>
   </outline>
   <lib>
     <dict>

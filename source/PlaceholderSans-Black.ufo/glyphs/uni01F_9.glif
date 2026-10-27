@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni01F9" format="2">
-  <advance width="1227"/>
+  <advance width="1195"/>
   <unicode hex="01F9"/>
-  <anchor x="627" y="0" name="bottom"/>
-  <anchor x="1187" y="0" name="bottomr"/>
-  <anchor x="69" y="0" name="lfthook"/>
-  <anchor x="585" y="1582" name="top"/>
-  <anchor x="471" y="1076" name="topr"/>
+  <anchor x="597" y="0" name="bottom"/>
+  <anchor x="1094" y="0" name="bottomr"/>
+  <anchor x="102" y="0" name="lfthook"/>
+  <anchor x="529" y="1583" name="top"/>
+  <anchor x="448" y="1076" name="topr"/>
   <outline>
     <component base="n"/>
-    <component base="gravecomb" xOffset="91"/>
+    <component base="gravecomb" xOffset="16"/>
   </outline>
 </glyph>

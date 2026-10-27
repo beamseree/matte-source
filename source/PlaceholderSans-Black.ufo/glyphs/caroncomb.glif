@@ -5,25 +5,25 @@
 Harmonize with /breve
 </note>
   <guideline y="1256"/>
-  <anchor x="507" y="1118" name="_top"/>
-  <anchor x="507" y="1582" name="top"/>
+  <anchor x="492" y="1118" name="_top"/>
+  <anchor x="492" y="1583" name="top"/>
   <outline>
     <contour>
-      <point x="365" y="1582" type="line"/>
-      <point x="33" y="1582" type="line"/>
-      <point x="33" y="1576" type="line"/>
-      <point x="367" y="1256" type="line"/>
-      <point x="647" y="1256" type="line"/>
-      <point x="981" y="1576" type="line"/>
-      <point x="981" y="1582" type="line"/>
-      <point x="649" y="1582" type="line"/>
-      <point x="507" y="1416" type="line"/>
+      <point x="350" y="1583" type="line"/>
+      <point x="40" y="1583" type="line"/>
+      <point x="40" y="1577" type="line"/>
+      <point x="360" y="1255" type="line"/>
+      <point x="625" y="1255" type="line"/>
+      <point x="945" y="1577" type="line"/>
+      <point x="945" y="1583" type="line"/>
+      <point x="634" y="1583" type="line"/>
+      <point x="492" y="1417" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>1013</integer>
+      <integer>985</integer>
     </dict>
   </lib>
 </glyph>

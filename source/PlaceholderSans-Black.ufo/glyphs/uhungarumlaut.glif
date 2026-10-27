@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhungarumlaut" format="2">
-  <advance width="1295"/>
+  <advance width="1217"/>
   <unicode hex="0171"/>
-  <anchor x="669" y="0" name="bottom"/>
-  <anchor x="1211" y="0" name="ogonek"/>
-  <anchor x="809" y="1076" name="rtophorn"/>
-  <anchor x="653" y="1076" name="top"/>
+  <anchor x="613" y="0" name="bottom"/>
+  <anchor x="1101" y="0" name="ogonek"/>
+  <anchor x="756" y="1076" name="rtophorn"/>
+  <anchor x="601" y="1076" name="top"/>
   <outline>
     <component base="u"/>
-    <component base="hungarumlaut" xOffset="119"/>
+    <component base="hungarumlaut" xOffset="7"/>
   </outline>
 </glyph>

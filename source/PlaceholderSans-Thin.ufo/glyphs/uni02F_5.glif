@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni02F5" format="2">
-  <advance width="964"/>
+  <advance width="979"/>
   <unicode hex="02F5"/>
-  <anchor x="570" y="1118" name="_top"/>
-  <anchor x="570" y="1557" name="top"/>
+  <anchor x="577" y="1118" name="_top"/>
+  <anchor x="577" y="1557" name="top"/>
   <outline>
     <component base="dblgravecmb" xOffset="76"/>
   </outline>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="utilde.1" format="2">
-  <advance width="1083"/>
+  <advance width="1119"/>
   <unicode hex="EE43"/>
-  <anchor x="574" y="0" name="bottom"/>
-  <anchor x="978" y="355" name="ogonek"/>
-  <anchor x="518" y="1498" name="top"/>
+  <anchor x="582" y="0" name="bottom"/>
+  <anchor x="986" y="355" name="ogonek"/>
+  <anchor x="544" y="1498" name="top"/>
   <outline>
     <component base="u.1"/>
-    <component base="tildecomb" xOffset="46"/>
+    <component base="tildecomb" xOffset="62"/>
   </outline>
   <lib>
     <dict>

@@ -38,6 +38,11 @@
     <key>com.github.googlei18n.ufo2ft.filters</key>
     <array>
       <dict>
+        <key>exclude</key>
+        <array>
+          <string>uni0238</string>
+          <string>uni0239</string>
+        </array>
         <key>name</key>
         <string>eraseOpenCorners</string>
         <key>namespace</key>

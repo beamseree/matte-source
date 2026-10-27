@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yerudieresis-cy.ss07" format="2">
-  <advance width="1653"/>
+  <advance width="1647"/>
   <unicode hex="E29F"/>
-  <anchor x="1444" y="0" name="bottom"/>
-  <anchor x="1438" y="588" name="cross"/>
-  <anchor x="1641" y="0" name="ogonek"/>
-  <anchor x="827" y="1585" name="top"/>
+  <anchor x="1406" y="0" name="bottom"/>
+  <anchor x="1401" y="589" name="cross"/>
+  <anchor x="1575" y="0" name="ogonek"/>
+  <anchor x="788" y="1589" name="top"/>
   <outline>
     <component base="yericyrillic"/>
-    <component base="dieresiscomb.ss07" xOffset="177"/>
+    <component base="dieresiscomb.ss07" xOffset="130"/>
   </outline>
   <lib>
     <dict>

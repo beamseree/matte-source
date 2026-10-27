@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="multiply.circled" format="2">
-  <advance width="2801"/>
+  <advance width="2831"/>
   <unicode hex="2297"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="multiply" xOffset="706" yOffset="140"/>
+    <component base="multiply" xOffset="715" yOffset="140"/>
   </outline>
   <lib>
     <dict>

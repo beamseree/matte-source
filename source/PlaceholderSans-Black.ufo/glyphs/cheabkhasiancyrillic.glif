@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cheabkhasiancyrillic" format="2">
-  <advance width="1617"/>
+  <advance width="1575"/>
   <unicode hex="04BD"/>
-  <anchor x="989" y="0" name="bottom"/>
-  <anchor x="995" y="0" name="cedilla"/>
-  <anchor x="1542" y="299" name="ogonek"/>
-  <anchor x="989" y="1076" name="top"/>
+  <anchor x="974" y="0" name="bottom"/>
+  <anchor x="979" y="0" name="cedilla"/>
+  <anchor x="1498" y="301" name="ogonek"/>
+  <anchor x="974" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="459" y="443" type="curve"/>
-      <point x="459" y="664" type="line"/>
-      <point x="321" y="664"/>
-      <point x="276" y="738"/>
-      <point x="276" y="880" type="curve"/>
-      <point x="7" y="880" type="line"/>
-      <point x="7" y="593"/>
-      <point x="163" y="443"/>
+      <point x="443" y="441" type="curve"/>
+      <point x="443" y="666" type="line"/>
+      <point x="306" y="666"/>
+      <point x="258" y="740"/>
+      <point x="258" y="882" type="curve"/>
+      <point x="19" y="882" type="line"/>
+      <point x="19" y="592"/>
+      <point x="165" y="441"/>
     </contour>
     <component base="e" xOffset="372"/>
   </outline>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringhalfleftcentered" format="2">
-  <advance width="294"/>
+  <advance width="298"/>
   <unicode hex="02D3"/>
   <outline>
     <component base="ringhalfleft"/>

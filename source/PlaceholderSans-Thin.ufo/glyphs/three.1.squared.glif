@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="three.1.squared" format="2">
-  <advance width="2792"/>
+  <advance width="2810"/>
   <unicode hex="E14A"/>
-  <anchor x="1380" y="1490" name="top"/>
+  <anchor x="1392" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="three.1" xOffset="793"/>
+    <component base="three.1" xOffset="798"/>
   </outline>
   <lib>
     <dict>

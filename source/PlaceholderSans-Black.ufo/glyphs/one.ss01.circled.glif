@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one.ss01.circled" format="2">
-  <advance width="2822"/>
+  <advance width="2837"/>
   <unicode hex="E12C"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="one.ss01" xOffset="866"/>
+    <component base="one.ss01" xOffset="875"/>
   </outline>
   <lib>
     <dict>

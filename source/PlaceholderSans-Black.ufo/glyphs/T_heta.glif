@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Theta" format="2">
-  <advance width="1668"/>
+  <advance width="1689"/>
   <unicode hex="0398"/>
-  <anchor x="842" y="0" name="bottom"/>
-  <anchor x="842" y="745" name="center"/>
-  <anchor x="1633" y="744" name="ogonek"/>
-  <anchor x="204" y="1490" name="tonos"/>
-  <anchor x="842" y="1490" name="top"/>
-  <anchor x="842" y="1510" name="tophorn"/>
+  <anchor x="845" y="0" name="bottom"/>
+  <anchor x="845" y="745" name="center"/>
+  <anchor x="1620" y="744" name="ogonek"/>
+  <anchor x="222" y="1490" name="tonos"/>
+  <anchor x="845" y="1490" name="top"/>
+  <anchor x="845" y="1510" name="tophorn"/>
   <outline>
     <contour>
-      <point x="1115" y="862" type="line"/>
-      <point x="590" y="862" type="line"/>
-      <point x="590" y="628" type="line"/>
-      <point x="1115" y="628" type="line"/>
+      <point x="1133" y="864" type="line"/>
+      <point x="591" y="864" type="line"/>
+      <point x="591" y="626" type="line"/>
+      <point x="1133" y="626" type="line"/>
     </contour>
     <component base="O"/>
   </outline>

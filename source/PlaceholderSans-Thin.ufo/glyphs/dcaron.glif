@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dcaron" format="2">
-  <advance width="1208"/>
+  <advance width="1309"/>
   <unicode hex="010F"/>
-  <anchor x="560" y="0" name="bottom"/>
-  <anchor x="961" y="1288" name="cross"/>
-  <anchor x="560" y="1288" name="top"/>
-  <anchor x="1007" y="1490" name="topbar"/>
-  <anchor x="998" y="0" name="bottomr"/>
-  <anchor x="1133" y="1490" name="raccent"/>
+  <anchor x="593" y="0" name="bottom"/>
+  <anchor x="1021" y="1288" name="cross"/>
+  <anchor x="593" y="1288" name="top"/>
+  <anchor x="1068" y="1490" name="topbar"/>
+  <anchor x="1069" y="0" name="bottomr"/>
+  <anchor x="1212" y="1490" name="raccent"/>
   <outline>
     <component base="d"/>
-    <component base="commaaccentright.cn" xOffset="853"/>
+    <component base="commaaccentright.cn" xOffset="932"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Vdotbelow.ss07" format="2">
-  <advance width="1671"/>
+  <advance width="1524"/>
   <unicode hex="E21B"/>
-  <anchor x="874" y="0" name="bottom"/>
-  <anchor x="874" y="1490" name="top"/>
+  <anchor x="780" y="0" name="bottom"/>
+  <anchor x="780" y="1490" name="top"/>
   <outline>
     <component base="V"/>
-    <component base="dotbelow.ss07" xOffset="559"/>
+    <component base="dotbelow.ss07" xOffset="392"/>
   </outline>
   <lib>
     <dict>

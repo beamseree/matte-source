@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="diamondblack_x" format="2">
-  <advance width="2105"/>
+  <advance width="2113"/>
   <unicode hex="2756"/>
   <outline>
     <contour>
-      <point x="1484" y="1292" type="line"/>
-      <point x="1058" y="1722" type="line"/>
-      <point x="628" y="1292" type="line"/>
-      <point x="1058" y="866" type="line"/>
+      <point x="1487" y="1292" type="line"/>
+      <point x="1061" y="1722" type="line"/>
+      <point x="631" y="1292" type="line"/>
+      <point x="1061" y="866" type="line"/>
     </contour>
     <contour>
-      <point x="2030" y="744" type="line"/>
-      <point x="1606" y="1170" type="line"/>
-      <point x="1180" y="744" type="line"/>
-      <point x="1606" y="314" type="line"/>
+      <point x="2033" y="744" type="line"/>
+      <point x="1609" y="1170" type="line"/>
+      <point x="1183" y="744" type="line"/>
+      <point x="1609" y="314" type="line"/>
     </contour>
     <contour>
-      <point x="936" y="744" type="line"/>
-      <point x="506" y="1170" type="line"/>
-      <point x="76" y="744" type="line"/>
-      <point x="506" y="314" type="line"/>
+      <point x="939" y="744" type="line"/>
+      <point x="509" y="1170" type="line"/>
+      <point x="79" y="744" type="line"/>
+      <point x="509" y="314" type="line"/>
     </contour>
     <contour>
-      <point x="1484" y="192" type="line"/>
-      <point x="1058" y="622" type="line"/>
-      <point x="628" y="192" type="line"/>
-      <point x="1058" y="-232" type="line"/>
+      <point x="1487" y="192" type="line"/>
+      <point x="1061" y="622" type="line"/>
+      <point x="631" y="192" type="line"/>
+      <point x="1061" y="-232" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="K.circled" format="2">
-  <advance width="2883"/>
+  <advance width="2793"/>
   <unicode hex="24C0"/>
-  <anchor x="1448" y="0" name="bottom"/>
-  <anchor x="1448" y="1490" name="top"/>
+  <anchor x="1413" y="0" name="bottom"/>
+  <anchor x="1413" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="K" xOffset="682"/>
+    <component base="K" xOffset="691"/>
   </outline>
   <lib>
     <dict>

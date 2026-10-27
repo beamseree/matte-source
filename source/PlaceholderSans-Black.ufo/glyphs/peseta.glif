@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="peseta" format="2">
-  <advance width="2223"/>
+  <advance width="2195"/>
   <unicode hex="20A7"/>
-  <anchor x="65" y="1490" name="tonos"/>
-  <anchor x="1773" y="1384" name="top"/>
-  <anchor x="91" y="1490" name="topl"/>
-  <anchor x="1862" y="0" name="bottom"/>
-  <anchor x="1905" y="0" name="cedilla"/>
-  <anchor x="2196" y="15" name="lfthook"/>
-  <anchor x="2104" y="1562" name="raccent"/>
+  <anchor x="90" y="1490" name="tonos"/>
+  <anchor x="1748" y="1384" name="top"/>
+  <anchor x="115" y="1490" name="topl"/>
+  <anchor x="1838" y="0" name="bottom"/>
+  <anchor x="1883" y="0" name="cedilla"/>
+  <anchor x="2161" y="15" name="lfthook"/>
+  <anchor x="2094" y="1562" name="raccent"/>
   <outline>
     <component base="P"/>
-    <component base="t" xOffset="1435"/>
+    <component base="t" xOffset="1393"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abreve.2" format="2">
-  <advance width="1255"/>
-  <anchor x="607" y="0" name="bottom"/>
-  <anchor x="1276" y="25" name="ogonek"/>
-  <anchor x="624" y="1582" name="top"/>
+  <advance width="1230"/>
+  <anchor x="594" y="0" name="bottom"/>
+  <anchor x="1246" y="25" name="ogonek"/>
+  <anchor x="597" y="1583" name="top"/>
   <outline>
     <component base="a.2"/>
-    <component base="brevecomb" xOffset="156"/>
+    <component base="brevecomb" xOffset="127"/>
   </outline>
   <lib>
     <dict>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="downArrow" format="2">
-  <advance width="1921"/>
+  <advance width="1957"/>
   <unicode hex="2193"/>
   <outline>
-    <component base="upArrow" xScale="-1.0" yScale="-1.0" xOffset="1921.0" yOffset="1490.0"/>
+    <component base="upArrow" xScale="-1.0" yScale="-1.0" xOffset="1957.0" yOffset="1490.0"/>
   </outline>
   <lib>
     <dict>

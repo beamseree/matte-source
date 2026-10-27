@@ -6,9 +6,9 @@ COMBINING FOUR DOTS ABOVE
 </note>
   <outline>
     <component base="period" yOffset="1237"/>
-    <component base="period" xOffset="714" yOffset="1237"/>
-    <component base="period" xOffset="1429" yOffset="1237"/>
-    <component base="period" xOffset="2143" yOffset="1237"/>
+    <component base="period" xOffset="759" yOffset="1237"/>
+    <component base="period" xOffset="1518" yOffset="1237"/>
+    <component base="period" xOffset="2276" yOffset="1237"/>
   </outline>
   <lib>
     <dict>
@@ -48,7 +48,7 @@ COMBINING FOUR DOTS ABOVE
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>2857</integer>
+      <integer>3035</integer>
     </dict>
   </lib>
 </glyph>

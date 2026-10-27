@@ -28,8 +28,10 @@ PARAMS = {
     "xh_overshoot": 25,   # lowercase overshoot above the new x-height
     "weight_v": {},       # per-master vertical stem factor, e.g. {"Regular": 1.07}
     "weight_h": {},       # per-master horizontal stem factor
+    "weight_v_lower": {}, # per-master vertical stem factor for lowercase (default: weight_v)
     "ink": {},            # per-glyph ink factor overrides
     "sb": {},             # per-glyph [left, right] sidebearing adjustments in units
+    "masters": {},        # per-master overrides of the keys above, e.g. {"Thin": {"ink": {...}}}
     "space": 0.85,        # whitespace width factor
     # ink-width factors (applied to the weight-compensated outline)
     "lower": 1.01,
@@ -151,9 +153,26 @@ def main(src, dst, params_path=None):
     def is_tabular(name):
         return "tf" in suffixes(name)
 
-    def ink_factor(name):
-        if name in P["ink"]:
-            return P["ink"][name]
+    master_name = {m.id: m.name for m in font.masters}
+
+    def opt(key, mid):
+        """A parameter for one master: its override if it has one, else the global value."""
+        return P["masters"].get(master_name[mid], {}).get(key, P[key])
+
+    def per_glyph(key, name, mid, default):
+        own = P["masters"].get(master_name[mid], {}).get(key, {})
+        return own[name] if name in own else P[key].get(name, default)
+
+    def ink_factor(name, mid):
+        f = per_glyph("ink", name, mid, None)
+        if f is not None:
+            return f
+        P_ = {k: opt(k, mid) for k in ("lower", "lower_round", "lower_diagonal", "lower_xz",
+                                       "lower_tr", "upper", "upper_round", "upper_diagonal",
+                                       "figures", "other")}
+        return group_factor(name, P_)
+
+    def group_factor(name, P):
         if suffixes(name) & SKIP_SUFFIXES:
             return P["other"]
         key = name.split(".ss")[0].split(".cv")[0]
@@ -180,10 +199,11 @@ def main(src, dst, params_path=None):
 
     plans_x, plans_y = {}, {}
 
-    def plan_x(s):
-        if s not in plans_x:
-            plans_x[s] = compensation(font.masters, V_STEMS, s, P["weight_v"])
-        return plans_x[s]
+    def plan_x(s, lower):
+        if (s, lower) not in plans_x:
+            boost = {**P["weight_v"], **P["weight_v_lower"]} if lower else P["weight_v"]
+            plans_x[(s, lower)] = compensation(font.masters, V_STEMS, s, boost)
+        return plans_x[(s, lower)]
 
     def plan_y(lower):
         if lower not in plans_y:
@@ -200,7 +220,7 @@ def main(src, dst, params_path=None):
     def mixed_coords(g, mid, s, lower):
         """Weight-compensated node and anchor coordinates for one master layer."""
         ok = compatible(g)
-        ax, bx, fx = plan_x(s)[mid] if ok else (mid, mid, 0)
+        ax, bx, fx = plan_x(s, lower)[mid] if ok else (mid, mid, 0)
         ay, by, fy = plan_y(lower)[mid] if (ok and (lower or P["weight_h"])) else (mid, mid, 0)
         LA, LB, MA, MB = g.layers[ax], g.layers[bx], g.layers[ay], g.layers[by]
         nodes = [
@@ -224,8 +244,8 @@ def main(src, dst, params_path=None):
     # result[(name, mid)] = dict(width, old_width, L_old, L_new, s, anchors_old, anchors_new)
     result = {}
 
-    def sb(v, name):
-        factor = P["spacing_upper"] if char_of(name).isupper() else P["spacing"]
+    def sb(v, name, mid):
+        factor = opt("spacing_upper" if char_of(name).isupper() else "spacing", mid)
         return v * factor if v > 0 else v
 
     def process(name):
@@ -240,8 +260,9 @@ def main(src, dst, params_path=None):
         pre = {}
         if not is_mark(name) and g.layers[reg].paths:
             base_reg = next((c for c in g.layers[reg].components if not is_mark(c.name) and c.name in glyphs), None)
-            s_g = ink_factor(name) if base_reg is None else result[(base_reg.name, reg)]["s"]
-            pre = {mid: mixed_coords(g, mid, s_g, lower) for mid in mids}
+            s_of = (lambda mid: ink_factor(name, mid)) if base_reg is None else \
+                   (lambda mid: result[(base_reg.name, mid)]["s"])
+            pre = {mid: mixed_coords(g, mid, s_of(mid), lower) for mid in mids}
         for mid in mids:
             layer = g.layers[mid]
             old_w = layer.width
@@ -256,10 +277,10 @@ def main(src, dst, params_path=None):
 
             if base is None:
                 # Simple glyph (paths only, or paths + marks, or whitespace).
-                s = ink_factor(name)
+                s = ink_factor(name, mid)
                 ext = oncurve_extent(layer)
                 if ext is None:
-                    w = old_w * P["space"] if not layer.components else old_w
+                    w = old_w * opt("space", mid) if not layer.components else old_w
                     layer.width = round(w)
                     info.update(width=w, anchors_new=old_anchors, L_old=0, L_new=0, s=1.0)
                     result[(name, mid)] = info
@@ -273,9 +294,9 @@ def main(src, dst, params_path=None):
                     L_new = L_old + ((R_old - L_old) - ink_w) / 2
                     w = old_w
                 else:
-                    dL, dR = P["sb"].get(name, (0, 0))
-                    L_new = sb(L_old, name) + dL
-                    w = L_new + ink_w + sb(old_w - R_old, name) + dR
+                    dL, dR = per_glyph("sb", name, mid, (0, 0))
+                    L_new = sb(L_old, name, mid) + dL
+                    w = L_new + ink_w + sb(old_w - R_old, name, mid) + dR
                 fx = lambda x: L_new + s * (x - mL)
                 fy = ymap if lower else (lambda y: y)
                 for pth, pts in zip(layer.paths, nodes):

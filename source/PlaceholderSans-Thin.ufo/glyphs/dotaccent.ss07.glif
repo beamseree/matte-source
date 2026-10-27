@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccent.ss07" format="2">
-  <advance width="329"/>
+  <advance width="341"/>
   <unicode hex="E2C6"/>
-  <anchor x="164" y="1118" name="_top"/>
-  <anchor x="164" y="1434" name="top"/>
+  <anchor x="171" y="1118" name="_top"/>
+  <anchor x="171" y="1434" name="top"/>
   <outline>
     <component base="dotaccentcomb.ss07"/>
   </outline>

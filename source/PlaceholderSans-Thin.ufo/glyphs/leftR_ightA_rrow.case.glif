@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="leftRightArrow.case" format="2">
-  <advance width="2689"/>
+  <advance width="2706"/>
   <unicode hex="E1DC"/>
   <outline>
     <component base="leftRightArrow" yOffset="93"/>

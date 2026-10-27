@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="edotaccent" format="2">
-  <advance width="1206"/>
+  <advance width="1194"/>
   <unicode hex="0117"/>
-  <anchor x="617" y="0" name="bottom"/>
-  <anchor x="623" y="0" name="cedilla"/>
-  <anchor x="1170" y="299" name="ogonek"/>
-  <anchor x="606" y="1600" name="top"/>
+  <anchor x="602" y="0" name="bottom"/>
+  <anchor x="607" y="0" name="cedilla"/>
+  <anchor x="1126" y="301" name="ogonek"/>
+  <anchor x="578" y="1603" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="dotaccentcomb" xOffset="291"/>
+    <component base="dotaccentcomb" xOffset="249"/>
   </outline>
 </glyph>

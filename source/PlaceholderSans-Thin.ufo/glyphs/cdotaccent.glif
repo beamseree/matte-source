@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cdotaccent" format="2">
-  <advance width="1080"/>
+  <advance width="1140"/>
   <unicode hex="010B"/>
-  <anchor x="621" y="0" name="bottom"/>
-  <anchor x="621" y="0" name="cedilla"/>
-  <anchor x="621" y="538" name="center"/>
-  <anchor x="599" y="1467" name="top"/>
-  <anchor x="1015" y="864" name="topr"/>
+  <anchor x="642" y="0" name="bottom"/>
+  <anchor x="642" y="0" name="cedilla"/>
+  <anchor x="642" y="538" name="center"/>
+  <anchor x="653" y="1467" name="top"/>
+  <anchor x="1058" y="864" name="topr"/>
   <outline>
     <component base="c"/>
-    <component base="dotaccentcomb" xOffset="433"/>
+    <component base="dotaccentcomb" xOffset="481"/>
   </outline>
 </glyph>
