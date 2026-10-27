@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="peseta" format="2">
-  <advance width="2229"/>
+  <advance width="2250"/>
   <unicode hex="20A7"/>
   <anchor x="97" y="1490" name="tonos"/>
   <anchor x="1779" y="1384" name="top"/>

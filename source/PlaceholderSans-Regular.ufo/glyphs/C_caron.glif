@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ccaron" format="2">
-  <advance width="1540"/>
+  <advance width="1545"/>
   <unicode hex="010C"/>
   <anchor x="812" y="-9" name="cedilla"/>
   <anchor x="811" y="745" name="center"/>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedi" format="2">
-  <advance width="1549"/>
+  <advance width="1554"/>
   <unicode hex="20B5"/>
   <anchor x="812" y="-9" name="cedilla"/>
   <anchor x="811" y="745" name="center"/>

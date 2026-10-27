@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Cstroke" format="2">
-  <advance width="1549"/>
+  <advance width="1554"/>
   <unicode hex="023B"/>
   <guideline x="1016" y="1756" angle="90"/>
   <anchor x="812" y="-9" name="cedilla"/>

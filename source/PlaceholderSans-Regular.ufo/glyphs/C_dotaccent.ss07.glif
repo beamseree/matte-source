@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Cdotaccent.ss07" format="2">
-  <advance width="1520"/>
+  <advance width="1525"/>
   <unicode hex="E1EA"/>
   <anchor x="812" y="-9" name="cedilla"/>
   <anchor x="811" y="745" name="center"/>

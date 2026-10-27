@@ -7,10 +7,10 @@ See README.md for the file layout, setup and commands.
 
 ## Status (2026-10-27)
 
-- **Regular** is fitted to `reference/mockup.svg` (fit report: ink error mean 1.2 units,
-  gap error mean 7.2 units, since the redraws below and the new f).
+- **Regular** is fitted to `reference/mockup.svg` (fit report: ink error mean 1.0 units,
+  gap error mean 7.2 units, since the redraws below, the new f, t, P and C/G/S terminals).
 - **Thin** is fitted to `reference/mockup-thin.webp` (a screenshot, so about ±12 units of
-  precision; ink error mean 3.1, gap error mean 9.8). At the user's request Thin keeps
+  precision; ink error mean 2.8, gap error mean 9.8). At the user's request Thin keeps
   Inter's stems (46). The image is a shape and proportion reference only: its strokes
   are about 105 units thick, so the targets keep each letter's skeleton and thin the
   strokes evenly (`imgtarget.py --stem 46`). Thin has its own guides, traced from the
@@ -19,7 +19,9 @@ See README.md for the file layout, setup and commands.
   layout and scale as mockup.svg), **including its stroke weights**: l stem 353, I stem
   377, H bar 327, against the SVG's 352, 377 and 327 and Inter's 402, 404 and 326. Black
   is low-contrast like Regular, and its lowercase stems are lighter than its capital
-  stems (`weight_v_lower`). Ink error mean 1.3, gap error mean 4.9; the largest gap
+  stems (`weight_v_lower`). Ink error mean 2.0 (the largest are t, 22 units wider than
+  the mockup's because its stem is: 374 against 352, and S, see below), gap error mean
+  5.2; the largest gap
   errors are word spaces ("BROWN FOX" −55, "quick brown" −49), uneven in the mockup
   itself. It was first fitted to the screenshot `mockup-black.webp` (against the SVG:
   ink 9.7, gap 14.6). Black's guides are the SVG's outlines, except f, g, y and
@@ -42,6 +44,17 @@ See README.md for the file layout, setup and commands.
   (the mockups only show t after a word space, so the fits never set t's left side).
   The longer bars also join in "tt" and "ft" at 400 and 900. Leave these for the
   spacing and kerning pass.
+- **t's foot, P's bowl and the C, G and S terminals are reshaped by script**
+  (`tools/reshape.py`, see Decisions): t ends in a flat foot with an upright cut, like
+  the mockups' and like f's top, reaching about 20 units past the crossbar (25 in Thin),
+  so t and every glyph built on it widened by that much with their right sidebearings
+  kept. P's bowl is shorter, its lower bar at the mockups' height (about 70–90 units
+  higher than Inter's). C, G and S have the mockups' angled terminal cuts (8–20°, Black
+  S 19°) instead of Inter's flat ones; the user chose them after comparing both, as
+  letters and in real text. Where our curves differ from the mockups', the cut lands
+  away from the mockup's corners along its line: S's upper terminal by 20–50 units, and
+  Black S's lower tip ends 23 right of the mockup's (our outer curve turns sooner), which
+  makes S's left side 23 looser in Black. Leave that for the spacing pass.
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -52,21 +65,21 @@ See README.md for the file layout, setup and commands.
   Letters that still differ from the mockups in shape, largest first (Black's numbers
   are ours against mockup-black.svg; Regular's percentages are the outline mismatch):
   S and s (terminals reach too far round: Black S's lower terminal reaches 126 units
-  higher at 150 from the left, its upper one 102 lower near the right; Regular S 16%),
-  P (the bowl's lower bar sits about 70 units low in Black; Regular 22%), t (stem top 14
-  too tall, the hook's end 24 lower than the mockup's and the hook shorter: about 25
-  units in Regular, 45 in Black, 80 in Thin, from the stem), G (Black's bar is 27 thinner
-  at the bottom and the mockup's spur runs straight down into the bowl; top terminal),
+  higher at 150 from the left, its upper one 102 lower near the right; Regular S 16%,
+  both before the angled cuts; the upper arm is still wider than the mockup's near its
+  terminal), t (stem top 14 too tall), G (Black's bar is 27 thinner at the bottom and the
+  mockup's spur runs straight down into the bowl; its bar starts about 45 further left),
   a (the mockup's top terminal is taller: 710–932 in Black, ours 749–918; spur at the
-  foot), J (the hook's end is 66 units lower than the mockup's), C, c and e (flatter
-  terminals: c's and e's lower ends about 23 too high), R (Black's bowl bar 350 thick at
+  foot), J (the hook's end is 66 units lower than the mockup's), c and e (their terminals
+  are already angled, within about 5° of the mockups' except Black e's lower one, 9°
+  against 20°; c's and e's lower ends about 23 too high), R (Black's bowl bar 350 thick at
   the leg, the mockup's 428; leg join; Regular 15%), B (Black's middle bar 250 thick,
   the mockup's 303), r (the arm's end hangs about 100 lower in the mockups), the n, m, h
   and u shoulders (slightly heavy where the arch meets the stem), j (Regular's hook,
   14%), i and j in Regular (dots 240 wide with their top at 1515, ours 260 and 1548),
   f in Black (crossbar 293 thick, the mockup's 269; stem 373, the mockup's 352), and
-  Regular's O and Q bowl (6%). The t's crossbar no longer depends on its ink factor,
-  which `fit.py` still holds at 1.12 and now only moves the hook.
+  Regular's O and Q bowl (6%). `fit.py` still holds t's ink factor at 1.12, but
+  redraw.py and reshape.py now set t's crossbar and foot, so the factor has no effect.
 - Next, with Claude: choose a real name, review figures and punctuation in real text
   (the mockup only covers letters), do a kerning pass, then use the font in
   `~/Documents/Projects/port-coming-soon` instead of `src/app/fonts/MuotoTrialVAR.ttf`.
@@ -111,6 +124,20 @@ See README.md for the file layout, setup and commands.
   dotaccentcomb component's transform in i and j, so other dotted letters keep theirs,
   and ufo2ft decomposes i and j because that transform differs between masters.
   `to_ufo.py` runs it after straighten.py.
+- t's foot, P's bowl and the C, G and S terminals are construction differences from
+  Inter, so `tools/reshape.py` rebuilds them in every master: `_part.t_base` (t and t.1)
+  becomes 12 points, a flat foot whose curves and reach past the stem's right edge come
+  from its `FOOT` table (Regular's from mockup.svg, Black's single cubics fitted to
+  mockup-black.svg's two within 1.3 units, Thin's a 46-unit stroke reaching 25 past the
+  crossbar as in its screenshot); P moves its 20 points so the bowl's lower bar sits at
+  `P_BAR`; C, G and S keep their points, and each terminal's two curves are trimmed or
+  extended along their own path to the SVG's cut line (`TERMINALS`, x from the letter's
+  left edge for C and G, right edge for S, which the cuts don't move). Thin's
+  screenshot is too blurred to show terminals, so Thin tilts its own cuts about their
+  middles to Regular's angles. Every glyph built on these keeps its right sidebearing.
+  `to_ufo.py` runs it after redraw.py. Small curve differences are left alone at the
+  user's request: the user wants changes that alter a letter's construction (like f's
+  top, y's tail, t's foot, the terminal angles).
 - ȸ and ȹ (uni0238/uni0239) are excluded from the eraseOpenCorners filter in every
   master's lib: once stem weights differ between masters, their overlapping contours
   erase differently and stop interpolating.
@@ -148,8 +175,8 @@ See README.md for the file layout, setup and commands.
   showed the user, call `fit.apply(<M>, <guides>)` rather than refitting with `--apply`.
 - Stop Fontra before rewriting UFOs from outside it, and restart it after (see Gotchas).
 - Masters must stay compatible: change Thin, Regular and Black the same way, and move
-  points rather than adding or deleting them (straighten.py and redraw.py rebuild their
-  letters with new points, but the same points in every master).
+  points rather than adding or deleting them (straighten.py, redraw.py and reshape.py
+  rebuild their letters with new points, but the same points in every master).
 - Checking work: `tools/build.sh`, then
   `.venv/bin/python -I -c "import sys,json; sys.path.insert(0,'tools'); import fit; fit.TTF='build/PlaceholderSans-VF.ttf'; fit.report(fit.Master(json.load(open('reference/params.json')), 'Regular'), json.load(open('reference/targets.json')), update=False)"`
   for numbers against the mockup (swap in `'Thin'` / `'Black'` and their targets files),

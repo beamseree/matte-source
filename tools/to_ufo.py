@@ -2,7 +2,7 @@
 and put mockup letters into masters' background layers as tracing guides
 (an SVG of outlined text, or a screenshot traced at 50% coverage). Inter's own backup and background layers are dropped: they no
 longer match the derived outlines and would only clutter the editor. Letters that
-tools/straighten.py and tools/redraw.py fix are redrawn in every master.
+tools/straighten.py, tools/redraw.py and tools/reshape.py fix are redrawn in every master.
 
 Each SVG letter is scaled to font units (the "l" and capitals are 1490 units
 tall), sat on the baseline, and centred on the glyph's own outline.
@@ -31,6 +31,7 @@ from fontTools.svgLib.path import parse_path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import imgtarget  # noqa: E402
 import redraw  # noqa: E402
+import reshape  # noqa: E402
 import straighten  # noqa: E402
 
 BACKGROUND = "public.background"
@@ -139,6 +140,7 @@ def main():
         exclude_from_open_corner_erasing(source.font.lib)
         straighten.apply(source.font, MASTERS[source.location["Weight"]])
         redraw.apply(source.font, MASTERS[source.location["Weight"]])
+        reshape.apply(source.font, MASTERS[source.location["Weight"]])
     by_name = {MASTERS[s.location["Weight"]]: s for s in ds.sources}
     for spec in args.guides:
         name, path = spec.split("=", 1)

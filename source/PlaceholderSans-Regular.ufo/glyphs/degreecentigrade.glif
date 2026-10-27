@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="degreecentigrade" format="2">
-  <advance width="2427"/>
+  <advance width="2432"/>
   <unicode hex="2103"/>
   <anchor x="1690" y="-9" name="cedilla"/>
   <anchor x="1689" y="745" name="center"/>

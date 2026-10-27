@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcommaaccent.ss03" format="2">
-  <advance width="822"/>
+  <advance width="843"/>
   <unicode hex="EE82"/>
   <anchor x="457" y="0" name="bottom"/>
   <anchor x="501" y="0" name="cedilla"/>
