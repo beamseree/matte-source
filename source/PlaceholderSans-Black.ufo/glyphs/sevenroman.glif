@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sevenroman" format="2">
-  <advance width="2396"/>
+  <advance width="2385"/>
   <unicode hex="2176"/>
-  <anchor x="2109" y="0" name="bottom"/>
-  <anchor x="2106" y="1539" name="top"/>
-  <anchor x="2104" y="588" name="cross"/>
-  <anchor x="2283" y="0" name="ogonek"/>
+  <anchor x="2098" y="0" name="bottom"/>
+  <anchor x="2095" y="1539" name="top"/>
+  <anchor x="2093" y="588" name="cross"/>
+  <anchor x="2272" y="0" name="ogonek"/>
   <outline>
     <component base="v"/>
-    <component base="i" xOffset="1238"/>
-    <component base="i" xOffset="1817"/>
+    <component base="i" xOffset="1227"/>
+    <component base="i" xOffset="1806"/>
   </outline>
 </glyph>

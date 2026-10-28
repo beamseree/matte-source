@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="OE" format="2">
-  <advance width="2128"/>
+  <advance width="2132"/>
   <unicode hex="0152"/>
   <note>
 Mirrored D + E
 </note>
-  <anchor x="1494" y="0" name="bottom"/>
-  <anchor x="1495" y="0" name="cedilla"/>
-  <anchor x="2036" y="0" name="ogonek"/>
-  <anchor x="947" y="1490" name="tonos"/>
-  <anchor x="1494" y="1490" name="top"/>
+  <anchor x="1496" y="0" name="bottom"/>
+  <anchor x="1497" y="0" name="cedilla"/>
+  <anchor x="2038" y="0" name="ogonek"/>
+  <anchor x="949" y="1490" name="tonos"/>
+  <anchor x="1496" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="840" y="0" type="curve"/>
-      <point x="1216" y="0" type="line"/>
-      <point x="1216" y="345" type="line"/>
-      <point x="854" y="345" type="line"/>
-      <point x="606" y="345"/>
-      <point x="457" y="433"/>
-      <point x="457" y="744" type="curve"/>
-      <point x="457" y="1056"/>
-      <point x="606" y="1145"/>
-      <point x="864" y="1145" type="curve"/>
-      <point x="1221" y="1145" type="line"/>
-      <point x="1221" y="1490" type="line"/>
-      <point x="845" y="1490" type="line"/>
-      <point x="378" y="1490"/>
-      <point x="79" y="1210"/>
-      <point x="79" y="744" type="curve"/>
-      <point x="79" y="279"/>
-      <point x="378" y="0"/>
+      <point x="842" y="0" type="curve"/>
+      <point x="1218" y="0" type="line"/>
+      <point x="1218" y="345" type="line"/>
+      <point x="856" y="345" type="line"/>
+      <point x="608" y="345"/>
+      <point x="459" y="433"/>
+      <point x="459" y="744" type="curve"/>
+      <point x="459" y="1056"/>
+      <point x="608" y="1145"/>
+      <point x="866" y="1145" type="curve"/>
+      <point x="1223" y="1145" type="line"/>
+      <point x="1223" y="1490" type="line"/>
+      <point x="847" y="1490" type="line"/>
+      <point x="380" y="1490"/>
+      <point x="81" y="1210"/>
+      <point x="81" y="744" type="curve"/>
+      <point x="81" y="279"/>
+      <point x="380" y="0"/>
     </contour>
-    <component base="E" xOffset="841"/>
+    <component base="E" xOffset="833"/>
   </outline>
   <lib>
     <dict>

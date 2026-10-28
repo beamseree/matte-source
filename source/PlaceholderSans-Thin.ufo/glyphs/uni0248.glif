@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0248" format="2">
-  <advance width="894"/>
+  <advance width="924"/>
   <unicode hex="0248"/>
   <note>
 RSB should match RSB of /Istroke
 </note>
-  <anchor x="717" y="884" name="cross"/>
-  <anchor x="717" y="1490" name="top"/>
+  <anchor x="730" y="884" name="cross"/>
+  <anchor x="730" y="1490" name="top"/>
   <outline>
     <component base="J"/>
-    <component base="_part.crossbar_compact" xOffset="452" yOffset="139"/>
+    <component base="_part.crossbar_compact" xOffset="465" yOffset="139"/>
   </outline>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ocircumflexacute" format="2">
-  <advance width="1222"/>
+  <advance width="1267"/>
   <unicode hex="1ED1"/>
-  <anchor x="609" y="0" name="bottom"/>
-  <anchor x="609" y="538" name="center"/>
-  <anchor x="1137" y="532" name="ogonek"/>
-  <anchor x="609" y="1852" name="top"/>
-  <anchor x="609" y="1101" name="tophorn"/>
+  <anchor x="633" y="0" name="bottom"/>
+  <anchor x="633" y="538" name="center"/>
+  <anchor x="1161" y="532" name="ogonek"/>
+  <anchor x="633" y="1852" name="top"/>
+  <anchor x="633" y="1101" name="tophorn"/>
   <outline>
     <component base="o"/>
-    <component base="circumflexacutecomb.cn" xOffset="198" yOffset="-42"/>
+    <component base="circumflexacutecomb.cn" xOffset="222" yOffset="-42"/>
   </outline>
 </glyph>

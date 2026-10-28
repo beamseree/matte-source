@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ndotbelow.ss07" format="2">
-  <advance width="1544"/>
+  <advance width="1576"/>
   <unicode hex="E200"/>
-  <anchor x="768" y="0" name="bottom"/>
-  <anchor x="145" y="0" name="lfthook"/>
-  <anchor x="1391" y="0" name="lfthook2"/>
-  <anchor x="768" y="1490" name="top"/>
+  <anchor x="788" y="0" name="bottom"/>
+  <anchor x="165" y="0" name="lfthook"/>
+  <anchor x="1411" y="0" name="lfthook2"/>
+  <anchor x="788" y="1490" name="top"/>
   <outline>
     <component base="N"/>
-    <component base="dotbelow.ss07" xOffset="541"/>
+    <component base="dotbelow.ss07" xOffset="561"/>
   </outline>
   <lib>
     <dict>

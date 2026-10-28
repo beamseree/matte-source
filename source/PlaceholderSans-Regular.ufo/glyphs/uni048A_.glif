@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni048A" format="2">
-  <advance width="1544"/>
+  <advance width="1576"/>
   <unicode hex="048A"/>
-  <anchor x="776" y="0" name="bottom"/>
-  <anchor x="1399" y="0" name="lfthook"/>
-  <anchor x="153" y="0" name="lfthook2"/>
-  <anchor x="776" y="1933" name="top"/>
-  <anchor x="1392" y="0" name="cyrtic"/>
+  <anchor x="788" y="0" name="bottom"/>
+  <anchor x="1411" y="0" name="lfthook"/>
+  <anchor x="165" y="0" name="lfthook2"/>
+  <anchor x="788" y="1933" name="top"/>
+  <anchor x="1404" y="0" name="cyrtic"/>
   <outline>
     <component base="Ii-cy"/>
-    <component base="brevecomb" xOffset="394" yOffset="372"/>
-    <component base="_part.cyrtail" xOffset="1108"/>
+    <component base="brevecomb" xOffset="406" yOffset="372"/>
+    <component base="_part.cyrtail" xOffset="1120"/>
   </outline>
   <lib>
     <dict>

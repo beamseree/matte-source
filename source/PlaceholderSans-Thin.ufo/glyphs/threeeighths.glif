@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threeeighths" format="2">
-  <advance width="1645"/>
+  <advance width="1640"/>
   <unicode hex="215C"/>
-  <anchor x="351" y="1490" name="top"/>
+  <anchor x="348" y="1490" name="top"/>
   <outline>
     <component base="three.numr"/>
-    <component base="fraction" xOffset="662"/>
-    <component base="eight.dnom" xOffset="938"/>
+    <component base="fraction" xOffset="659"/>
+    <component base="eight.dnom" xOffset="935"/>
   </outline>
   <lib>
     <dict>

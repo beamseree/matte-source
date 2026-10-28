@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="T.circled" format="2">
-  <advance width="2851"/>
+  <advance width="2846"/>
   <unicode hex="24C9"/>
   <anchor x="1425" y="0" name="bottom"/>
   <anchor x="1614" y="0" name="bottomr"/>
@@ -11,7 +11,7 @@
   <anchor x="1425" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="T" xOffset="699"/>
+    <component base="T" xOffset="685"/>
   </outline>
   <lib>
     <dict>

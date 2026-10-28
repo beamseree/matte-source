@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="insertionsymbol" format="2">
-  <advance width="1607"/>
+  <advance width="1630"/>
   <unicode hex="2380"/>
-  <anchor x="809" y="730" name="bottom"/>
-  <anchor x="1046" y="730" name="ogonek"/>
-  <anchor x="807" y="1313" name="top"/>
+  <anchor x="817" y="730" name="bottom"/>
+  <anchor x="1054" y="730" name="ogonek"/>
+  <anchor x="815" y="1313" name="top"/>
   <outline>
     <contour>
-      <point x="806" y="-24" type="line"/>
-      <point x="1520" y="690" type="line"/>
-      <point x="1486" y="722" type="line"/>
-      <point x="806" y="42" type="line"/>
-      <point x="128" y="722" type="line"/>
-      <point x="94" y="690" type="line"/>
+      <point x="814" y="-24" type="line"/>
+      <point x="1528" y="690" type="line"/>
+      <point x="1494" y="722" type="line"/>
+      <point x="814" y="42" type="line"/>
+      <point x="136" y="722" type="line"/>
+      <point x="102" y="690" type="line"/>
     </contour>
-    <component base="a.sups" xOffset="448" yOffset="-186"/>
+    <component base="a.sups" xOffset="437" yOffset="-186"/>
   </outline>
   <lib>
     <dict>

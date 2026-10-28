@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbar" format="2">
-  <advance width="1572"/>
+  <advance width="1598"/>
   <unicode hex="0126"/>
   <guideline x="972" y="2068" angle="90"/>
-  <anchor x="785" y="0" name="bottom"/>
-  <anchor x="290" y="1" name="cedilla"/>
-  <anchor x="1386" y="0" name="cyrtic"/>
-  <anchor x="1183" y="0" name="lfthook"/>
-  <anchor x="1386" y="0" name="right"/>
-  <anchor x="186" y="1490" name="tonos"/>
-  <anchor x="785" y="1490" name="top"/>
+  <anchor x="802" y="0" name="bottom"/>
+  <anchor x="307" y="1" name="cedilla"/>
+  <anchor x="1403" y="0" name="cyrtic"/>
+  <anchor x="1200" y="0" name="lfthook"/>
+  <anchor x="1403" y="0" name="right"/>
+  <anchor x="203" y="1490" name="tonos"/>
+  <anchor x="802" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="1501" y="1189" type="line"/>
-      <point x="62" y="1189" type="line"/>
-      <point x="62" y="1031" type="line"/>
-      <point x="1501" y="1031" type="line"/>
+      <point x="1518" y="1189" type="line"/>
+      <point x="79" y="1189" type="line"/>
+      <point x="79" y="1031" type="line"/>
+      <point x="1518" y="1031" type="line"/>
     </contour>
     <component base="H" xOffset="38"/>
   </outline>

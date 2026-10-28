@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romannine" format="2">
-  <advance width="1972"/>
+  <advance width="2052"/>
   <unicode hex="2168"/>
-  <anchor x="1226" y="-1" name="bottom"/>
-  <anchor x="1226" y="761" name="cross"/>
-  <anchor x="353" y="0" name="ogonek"/>
-  <anchor x="370" y="0" name="right"/>
-  <anchor x="149" y="1490" name="tonos"/>
-  <anchor x="1226" y="1490" name="top"/>
-  <anchor x="1867" y="0" name="cyrtic"/>
+  <anchor x="1292" y="-1" name="bottom"/>
+  <anchor x="1292" y="761" name="cross"/>
+  <anchor x="369" y="0" name="ogonek"/>
+  <anchor x="386" y="0" name="right"/>
+  <anchor x="165" y="1490" name="tonos"/>
+  <anchor x="1292" y="1490" name="top"/>
+  <anchor x="1933" y="0" name="cyrtic"/>
   <outline>
     <component base="I"/>
-    <component base="X" xOffset="509"/>
+    <component base="X" xOffset="534"/>
   </outline>
 </glyph>

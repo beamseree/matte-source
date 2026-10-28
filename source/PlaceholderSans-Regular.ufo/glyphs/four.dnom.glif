@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.dnom" format="2">
-  <advance width="782"/>
+  <advance width="789"/>
   <unicode hex="E0B8"/>
   <outline>
     <contour>
-      <point x="78" y="122" type="line"/>
-      <point x="707" y="122" type="line"/>
-      <point x="707" y="263" type="line"/>
-      <point x="245" y="263" type="line"/>
-      <point x="245" y="274" type="line"/>
-      <point x="442" y="613" type="line"/>
-      <point x="512" y="613" type="line"/>
-      <point x="512" y="816" type="line"/>
-      <point x="402" y="816" type="line"/>
-      <point x="78" y="258" type="line"/>
+      <point x="82" y="122" type="line"/>
+      <point x="711" y="122" type="line"/>
+      <point x="711" y="263" type="line"/>
+      <point x="249" y="263" type="line"/>
+      <point x="249" y="274" type="line"/>
+      <point x="446" y="613" type="line"/>
+      <point x="516" y="613" type="line"/>
+      <point x="516" y="816" type="line"/>
+      <point x="406" y="816" type="line"/>
+      <point x="82" y="258" type="line"/>
     </contour>
     <contour>
-      <point x="450" y="0" type="line"/>
-      <point x="609" y="0" type="line"/>
-      <point x="609" y="816" type="line"/>
-      <point x="453" y="816" type="line"/>
-      <point x="453" y="224" type="line"/>
-      <point x="450" y="162" type="line"/>
+      <point x="454" y="0" type="line"/>
+      <point x="613" y="0" type="line"/>
+      <point x="613" y="816" type="line"/>
+      <point x="457" y="816" type="line"/>
+      <point x="457" y="224" type="line"/>
+      <point x="454" y="162" type="line"/>
     </contour>
   </outline>
   <lib>

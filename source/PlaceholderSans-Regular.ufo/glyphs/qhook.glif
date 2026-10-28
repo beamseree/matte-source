@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="qhook" format="2">
-  <advance width="1246"/>
+  <advance width="1292"/>
   <unicode hex="02A0"/>
   <note>
 decomposed q + custom tail
 !post:removeoverlap
 </note>
-  <anchor x="1012" y="-414" name="bottom"/>
-  <anchor x="1011" y="-162" name="cross"/>
-  <anchor x="612" y="1076" name="top"/>
-  <anchor x="1086" y="1076" name="topr"/>
+  <anchor x="1044" y="-414" name="bottom"/>
+  <anchor x="1043" y="-162" name="cross"/>
+  <anchor x="644" y="1076" name="top"/>
+  <anchor x="1118" y="1076" name="topr"/>
   <outline>
     <component base="q"/>
-    <component base="_part.top_r_hook" xOffset="761"/>
+    <component base="_part.top_r_hook" xOffset="793"/>
   </outline>
   <lib>
     <dict>

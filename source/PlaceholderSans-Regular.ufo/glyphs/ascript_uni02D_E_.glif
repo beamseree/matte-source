@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ascript_uni02DE" format="2">
-  <advance width="1549"/>
+  <advance width="1577"/>
   <unicode hex="E10A"/>
-  <anchor x="612" y="0" name="bottom_1"/>
-  <anchor x="1111" y="0" name="bottomr_1"/>
-  <anchor x="1111" y="0" name="ogonek_1"/>
-  <anchor x="613" y="1076" name="top_1"/>
-  <anchor x="1111" y="1076" name="topr_1"/>
-  <anchor x="1058" y="537" name="rhotichook_1"/>
+  <anchor x="626" y="0" name="bottom_1"/>
+  <anchor x="1125" y="0" name="bottomr_1"/>
+  <anchor x="1125" y="0" name="ogonek_1"/>
+  <anchor x="627" y="1076" name="top_1"/>
+  <anchor x="1125" y="1076" name="topr_1"/>
+  <anchor x="1072" y="537" name="rhotichook_1"/>
   <outline>
     <component base="ascript"/>
-    <component base="rhotichookmod" xOffset="1064" yOffset="-106"/>
+    <component base="rhotichookmod" xOffset="1078" yOffset="-106"/>
   </outline>
   <lib>
     <dict>

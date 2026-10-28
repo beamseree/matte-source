@@ -5,7 +5,7 @@
   <guideline x="26" y="764" angle="0"/>
   <guideline x="26" y="1240" angle="0"/>
   <outline>
-    <component base="nine.ss01" xOffset="36"/>
+    <component base="nine.ss01" xOffset="34"/>
   </outline>
   <lib>
     <dict>

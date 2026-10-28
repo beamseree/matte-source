@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y" format="2">
-  <advance width="1038"/>
+  <advance width="1063"/>
   <unicode hex="0079"/>
-  <anchor x="707" y="0" name="bottom"/>
-  <anchor x="536" y="0" name="ogonek"/>
-  <anchor x="506" y="1076" name="top"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="552" y="0" name="ogonek"/>
+  <anchor x="522" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="377" y="-414" type="line"/>
-      <point x="962" y="1076" type="line"/>
-      <point x="913" y="1076" type="line"/>
-      <point x="497" y="16" type="line"/>
+      <point x="393" y="-414" type="line"/>
+      <point x="978" y="1076" type="line"/>
+      <point x="929" y="1076" type="line"/>
       <point x="513" y="16" type="line"/>
-      <point x="103" y="1076" type="line"/>
-      <point x="53" y="1076" type="line"/>
-      <point x="482" y="-14" type="line"/>
-      <point x="331" y="-414" type="line"/>
+      <point x="529" y="16" type="line"/>
+      <point x="119" y="1076" type="line"/>
+      <point x="69" y="1076" type="line"/>
+      <point x="498" y="-14" type="line"/>
+      <point x="347" y="-414" type="line"/>
     </contour>
   </outline>
   <lib>

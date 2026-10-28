@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="itildebelow" format="2">
-  <advance width="485"/>
+  <advance width="498"/>
   <unicode hex="1E2D"/>
   <guideline x="436" y="1508" angle="90"/>
-  <anchor x="241" y="0" name="bottom"/>
-  <anchor x="241" y="575" name="cross"/>
-  <anchor x="337" y="0" name="ogonek"/>
-  <anchor x="240" y="1485" name="top"/>
+  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="250" y="575" name="cross"/>
+  <anchor x="346" y="0" name="ogonek"/>
+  <anchor x="249" y="1485" name="top"/>
   <outline>
     <component base="i"/>
-    <component base="tildesubcomb" xOffset="841"/>
+    <component base="tildesubcomb" xOffset="850"/>
   </outline>
 </glyph>

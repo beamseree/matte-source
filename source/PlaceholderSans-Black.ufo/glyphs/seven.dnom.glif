@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.dnom" format="2">
-  <advance width="712"/>
+  <advance width="713"/>
   <unicode hex="E0BB"/>
   <outline>
     <contour>
-      <point x="105" y="0" type="line"/>
-      <point x="340" y="0" type="line"/>
-      <point x="662" y="652" type="line"/>
-      <point x="662" y="842" type="line"/>
-      <point x="50" y="842" type="line"/>
-      <point x="50" y="658" type="line"/>
-      <point x="425" y="658" type="line"/>
-      <point x="425" y="651" type="line"/>
+      <point x="106" y="0" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="663" y="652" type="line"/>
+      <point x="663" y="842" type="line"/>
+      <point x="51" y="842" type="line"/>
+      <point x="51" y="658" type="line"/>
+      <point x="426" y="658" type="line"/>
+      <point x="426" y="651" type="line"/>
     </contour>
   </outline>
   <lib>

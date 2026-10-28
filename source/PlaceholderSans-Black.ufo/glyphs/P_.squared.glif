@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="P.squared" format="2">
-  <advance width="2841"/>
+  <advance width="2828"/>
   <unicode hex="1F13F"/>
-  <anchor x="800" y="1490" name="tonos"/>
-  <anchor x="1403" y="1490" name="top"/>
-  <anchor x="825" y="1490" name="topl"/>
+  <anchor x="794" y="1490" name="tonos"/>
+  <anchor x="1397" y="1490" name="top"/>
+  <anchor x="819" y="1490" name="topl"/>
   <outline>
     <component base="whiteLargeSquare"/>
     <component base="P" xOffset="703"/>

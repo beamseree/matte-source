@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Wdotbelow.ss07" format="2">
-  <advance width="1918"/>
+  <advance width="1972"/>
   <unicode hex="E21E"/>
-  <anchor x="948" y="0" name="bottom"/>
-  <anchor x="948" y="1490" name="top"/>
+  <anchor x="986" y="0" name="bottom"/>
+  <anchor x="986" y="1490" name="top"/>
   <outline>
     <component base="W"/>
-    <component base="dotbelow.ss07" xOffset="777"/>
+    <component base="dotbelow.ss07" xOffset="815"/>
   </outline>
   <lib>
     <dict>

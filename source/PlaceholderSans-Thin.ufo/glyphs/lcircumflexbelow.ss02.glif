@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lcircumflexbelow.ss02" format="2">
-  <advance width="448"/>
+  <advance width="486"/>
   <unicode hex="E05C"/>
-  <anchor x="281" y="0" name="bottom"/>
-  <anchor x="230" y="717" name="centerr"/>
-  <anchor x="208" y="739" name="cross"/>
-  <anchor x="370" y="1490" name="raccent"/>
-  <anchor x="207" y="1490" name="top"/>
+  <anchor x="301" y="0" name="bottom"/>
+  <anchor x="250" y="717" name="centerr"/>
+  <anchor x="228" y="739" name="cross"/>
+  <anchor x="390" y="1490" name="raccent"/>
+  <anchor x="227" y="1490" name="top"/>
   <outline>
     <component base="l.ss02"/>
-    <component base="circumflexsubcomb" xOffset="858"/>
+    <component base="circumflexsubcomb" xOffset="878"/>
   </outline>
   <lib>
     <dict>

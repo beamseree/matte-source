@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="v.subs" format="2">
-  <advance width="851"/>
+  <advance width="852"/>
   <unicode hex="1D65"/>
   <anchor x="426" y="-304" name="bottom"/>
   <anchor x="426" y="320" name="top"/>

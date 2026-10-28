@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FDA.1" format="2">
-  <advance width="1494"/>
+  <advance width="1496"/>
   <unicode hex="E028"/>
-  <anchor x="972" y="0" name="bottom"/>
-  <anchor x="970" y="788" name="cross"/>
-  <anchor x="1428" y="0" name="ogonek"/>
-  <anchor x="1453" y="0" name="right"/>
-  <anchor x="519" y="1490" name="tonos"/>
-  <anchor x="972" y="1490" name="top"/>
+  <anchor x="973" y="0" name="bottom"/>
+  <anchor x="971" y="788" name="cross"/>
+  <anchor x="1429" y="0" name="ogonek"/>
+  <anchor x="1454" y="0" name="right"/>
+  <anchor x="520" y="1490" name="tonos"/>
+  <anchor x="973" y="1490" name="top"/>
   <outline>
     <component base="I.1" xOffset="450"/>
-    <component base="uni1FEF.tonos" xOffset="-191"/>
+    <component base="uni1FEF.tonos" xOffset="-190"/>
   </outline>
   <lib>
     <dict>

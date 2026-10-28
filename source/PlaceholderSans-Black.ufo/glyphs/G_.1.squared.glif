@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="G.1.squared" format="2">
-  <advance width="2841"/>
+  <advance width="2828"/>
   <unicode hex="EE74"/>
   <anchor x="1391" y="0" name="bottom"/>
   <anchor x="1825" y="434" name="cross"/>
@@ -8,7 +8,7 @@
   <anchor x="2088" y="998" name="topr"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="G.1" xOffset="570"/>
+    <component base="G.1" xOffset="562"/>
   </outline>
   <lib>
     <dict>

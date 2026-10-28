@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightLongArrow" format="2">
-  <advance width="2681"/>
+  <advance width="2746"/>
   <unicode hex="27F6"/>
   <guideline x="272" y="896" angle="0"/>
   <guideline x="668" y="1008" angle="90"/>
   <outline>
-    <component base="leftLongArrow" xScale="-1" xOffset="2681"/>
+    <component base="leftLongArrow" xScale="-1" xOffset="2746"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketleft_quill" format="2">
-  <advance width="607"/>
+  <advance width="622"/>
   <unicode hex="2045"/>
-  <anchor x="261" y="651" name="cross"/>
+  <anchor x="269" y="651" name="cross"/>
   <outline>
     <component base="bracketleft"/>
-    <component base="_part.brackquill_left" xOffset="146"/>
+    <component base="_part.brackquill_left" xOffset="154"/>
   </outline>
   <lib>
     <dict>

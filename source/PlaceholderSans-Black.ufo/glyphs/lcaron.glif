@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lcaron" format="2">
-  <advance width="891"/>
+  <advance width="895"/>
   <unicode hex="013E"/>
-  <anchor x="294" y="0" name="bottom"/>
-  <anchor x="471" y="0" name="bottomr"/>
-  <anchor x="471" y="717" name="centerr"/>
-  <anchor x="294" y="739" name="cross"/>
-  <anchor x="594" y="1490" name="raccent"/>
-  <anchor x="295" y="1490" name="top"/>
+  <anchor x="297" y="0" name="bottom"/>
+  <anchor x="474" y="0" name="bottomr"/>
+  <anchor x="474" y="717" name="centerr"/>
+  <anchor x="297" y="739" name="cross"/>
+  <anchor x="597" y="1490" name="raccent"/>
+  <anchor x="298" y="1490" name="top"/>
   <outline>
     <component base="l"/>
-    <component base="commaaccentright.cn" xOffset="455"/>
+    <component base="commaaccentright.cn" xOffset="458"/>
   </outline>
   <lib>
     <dict>

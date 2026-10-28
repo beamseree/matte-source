@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="insertionsymbol" format="2">
-  <advance width="1609"/>
+  <advance width="1630"/>
   <unicode hex="2380"/>
   <guideline x="1120" y="274" angle="45"/>
   <guideline x="1120" y="274" angle="315"/>
@@ -8,19 +8,19 @@
   <guideline x="1120" y="-32" angle="45"/>
   <guideline x="2140" y="906" angle="315"/>
   <guideline x="108" y="916" angle="45"/>
-  <anchor x="813" y="710" name="bottom"/>
-  <anchor x="1119" y="710" name="ogonek"/>
-  <anchor x="819" y="1334" name="top"/>
+  <anchor x="823" y="710" name="bottom"/>
+  <anchor x="1129" y="710" name="ogonek"/>
+  <anchor x="829" y="1334" name="top"/>
   <outline>
     <contour>
-      <point x="804" y="-24" type="line"/>
-      <point x="1518" y="690" type="line"/>
-      <point x="1418" y="790" type="line"/>
-      <point x="804" y="178" type="line"/>
-      <point x="192" y="790" type="line"/>
-      <point x="92" y="690" type="line"/>
+      <point x="814" y="-24" type="line"/>
+      <point x="1528" y="690" type="line"/>
+      <point x="1428" y="790" type="line"/>
+      <point x="814" y="178" type="line"/>
+      <point x="202" y="790" type="line"/>
+      <point x="102" y="690" type="line"/>
     </contour>
-    <component base="a.sups" xOffset="418" yOffset="-186"/>
+    <component base="a.sups" xOffset="411" yOffset="-186"/>
   </outline>
   <lib>
     <dict>

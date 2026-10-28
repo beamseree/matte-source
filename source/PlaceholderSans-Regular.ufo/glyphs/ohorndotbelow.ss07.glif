@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohorndotbelow.ss07" format="2">
-  <advance width="1216"/>
+  <advance width="1261"/>
   <unicode hex="E253"/>
-  <anchor x="609" y="0" name="bottom"/>
-  <anchor x="609" y="538" name="center"/>
-  <anchor x="1137" y="532" name="ogonek"/>
-  <anchor x="609" y="1076" name="top"/>
-  <anchor x="609" y="1101" name="tophorn"/>
+  <anchor x="633" y="0" name="bottom"/>
+  <anchor x="633" y="538" name="center"/>
+  <anchor x="1161" y="532" name="ogonek"/>
+  <anchor x="633" y="1076" name="top"/>
+  <anchor x="633" y="1101" name="tophorn"/>
   <outline>
     <component base="ohorn"/>
-    <component base="dotbelow.ss07" xOffset="382"/>
+    <component base="dotbelow.ss07" xOffset="406"/>
   </outline>
   <lib>
     <dict>

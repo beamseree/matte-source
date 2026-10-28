@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="divide.circled" format="2">
-  <advance width="2841"/>
+  <advance width="2846"/>
   <unicode hex="2A38"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="divide" xOffset="795" yOffset="163"/>
+    <component base="divide" xOffset="792" yOffset="163"/>
   </outline>
   <lib>
     <dict>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="amacron.1" format="2">
-  <advance width="1328"/>
+  <advance width="1330"/>
   <unicode hex="E044"/>
-  <anchor x="660" y="0" name="bottom"/>
-  <anchor x="1218" y="0" name="bottomr"/>
-  <anchor x="1218" y="0" name="ogonek"/>
-  <anchor x="670" y="1490" name="top"/>
-  <anchor x="1218" y="1076" name="topr"/>
+  <anchor x="661" y="0" name="bottom"/>
+  <anchor x="1219" y="0" name="bottomr"/>
+  <anchor x="1219" y="0" name="ogonek"/>
+  <anchor x="671" y="1490" name="top"/>
+  <anchor x="1219" y="1076" name="topr"/>
   <outline>
     <component base="a.1"/>
-    <component base="macroncomb" xOffset="245" yOffset="-42"/>
+    <component base="macroncomb" xOffset="246" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="blackstar" format="2">
-  <advance width="2088"/>
+  <advance width="2140"/>
   <unicode hex="2605"/>
   <guideline x="1514" y="2080" angle="0"/>
   <guideline x="1514" y="-32" angle="0"/>
   <outline>
     <contour>
-      <point x="1044" y="382" type="line"/>
-      <point x="1594" y="-14" type="line"/>
-      <point x="1378" y="632" type="line"/>
-      <point x="1928" y="1030" type="line"/>
-      <point x="1254" y="1030" type="line"/>
-      <point x="1044" y="1676" type="line"/>
-      <point x="836" y="1030" type="line"/>
-      <point x="160" y="1030" type="line"/>
-      <point x="712" y="632" type="line"/>
-      <point x="494" y="-14" type="line"/>
+      <point x="1070" y="382" type="line"/>
+      <point x="1620" y="-14" type="line"/>
+      <point x="1404" y="632" type="line"/>
+      <point x="1954" y="1030" type="line"/>
+      <point x="1280" y="1030" type="line"/>
+      <point x="1070" y="1676" type="line"/>
+      <point x="862" y="1030" type="line"/>
+      <point x="186" y="1030" type="line"/>
+      <point x="738" y="632" type="line"/>
+      <point x="520" y="-14" type="line"/>
     </contour>
   </outline>
   <lib>

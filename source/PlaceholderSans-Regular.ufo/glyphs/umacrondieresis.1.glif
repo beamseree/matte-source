@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="umacrondieresis.1" format="2">
-  <advance width="1186"/>
+  <advance width="1212"/>
   <unicode hex="EE40"/>
-  <anchor x="593" y="0" name="bottom"/>
-  <anchor x="1051" y="410" name="ogonek"/>
-  <anchor x="598" y="1789" name="top"/>
+  <anchor x="602" y="0" name="bottom"/>
+  <anchor x="1060" y="410" name="ogonek"/>
+  <anchor x="607" y="1789" name="top"/>
   <outline>
     <component base="u.1"/>
-    <component base="macrondieresiscomb.lc" xOffset="133" yOffset="-42"/>
+    <component base="macrondieresiscomb.lc" xOffset="142" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

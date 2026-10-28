@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbrevebelow" format="2">
-  <advance width="1504"/>
+  <advance width="1530"/>
   <unicode hex="1E2A"/>
   <guideline x="1064" y="260" angle="90"/>
-  <anchor x="747" y="0" name="bottom"/>
-  <anchor x="252" y="1" name="cedilla"/>
-  <anchor x="1348" y="0" name="cyrtic"/>
-  <anchor x="1145" y="0" name="lfthook"/>
-  <anchor x="1348" y="0" name="right"/>
-  <anchor x="148" y="1490" name="tonos"/>
-  <anchor x="747" y="1490" name="top"/>
+  <anchor x="764" y="0" name="bottom"/>
+  <anchor x="269" y="1" name="cedilla"/>
+  <anchor x="1365" y="0" name="cyrtic"/>
+  <anchor x="1162" y="0" name="lfthook"/>
+  <anchor x="1365" y="0" name="right"/>
+  <anchor x="165" y="1490" name="tonos"/>
+  <anchor x="764" y="1490" name="top"/>
   <outline>
     <component base="H"/>
-    <component base="brevesubcomb" xOffset="1346"/>
+    <component base="brevesubcomb" xOffset="1363"/>
   </outline>
 </glyph>

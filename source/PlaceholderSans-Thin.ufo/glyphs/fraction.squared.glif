@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fraction.squared" format="2">
-  <advance width="2815"/>
+  <advance width="2828"/>
   <unicode hex="EE09"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="_part.divfrac" xOffset="813"/>
+    <component base="_part.divfrac" xOffset="819"/>
   </outline>
   <lib>
     <dict>

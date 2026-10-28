@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jecyrillic" format="2">
-  <advance width="463"/>
+  <advance width="487"/>
   <unicode hex="0458"/>
-  <anchor x="454" y="0" name="_right"/>
-  <anchor x="172" y="-446" name="bottom"/>
-  <anchor x="228" y="632" name="cross"/>
-  <anchor x="229" y="1485" name="top"/>
+  <anchor x="465" y="0" name="_right"/>
+  <anchor x="183" y="-446" name="bottom"/>
+  <anchor x="239" y="632" name="cross"/>
+  <anchor x="239" y="1485" name="top"/>
   <outline>
     <component base="j"/>
   </outline>

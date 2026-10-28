@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tshecyrillic" format="2">
-  <advance width="1191"/>
+  <advance width="1188"/>
   <unicode hex="045B"/>
-  <anchor x="605" y="0" name="bottom"/>
-  <anchor x="226" y="0" name="cedilla"/>
-  <anchor x="249" y="1288" name="cross"/>
-  <anchor x="961" y="0" name="lfthook"/>
-  <anchor x="226" y="1490" name="top"/>
+  <anchor x="594" y="0" name="bottom"/>
+  <anchor x="215" y="0" name="cedilla"/>
+  <anchor x="238" y="1288" name="cross"/>
+  <anchor x="950" y="0" name="lfthook"/>
+  <anchor x="215" y="1490" name="top"/>
   <outline>
     <component base="hbar"/>
   </outline>

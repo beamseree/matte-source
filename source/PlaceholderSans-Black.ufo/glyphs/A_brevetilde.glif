@@ -2,12 +2,12 @@
 <glyph name="Abrevetilde" format="2">
   <advance width="1592"/>
   <unicode hex="1EB4"/>
-  <anchor x="804" y="0" name="bottom"/>
-  <anchor x="1576" y="0" name="ogonek"/>
-  <anchor x="482" y="1490" name="tonos"/>
-  <anchor x="804" y="2258" name="top"/>
+  <anchor x="793" y="0" name="bottom"/>
+  <anchor x="1565" y="0" name="ogonek"/>
+  <anchor x="471" y="1490" name="tonos"/>
+  <anchor x="793" y="2258" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="brevetildecomb.cn" xOffset="326" yOffset="372"/>
+    <component base="brevetildecomb.cn" xOffset="315" yOffset="372"/>
   </outline>
 </glyph>

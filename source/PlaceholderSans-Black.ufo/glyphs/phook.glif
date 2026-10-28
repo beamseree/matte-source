@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="phook" format="2">
-  <advance width="1279"/>
+  <advance width="1295"/>
   <unicode hex="01A5"/>
-  <anchor x="290" y="-401" name="bottom"/>
-  <anchor x="286" y="-162" name="cross"/>
-  <anchor x="705" y="1076" name="top"/>
-  <anchor x="464" y="1076" name="topr"/>
+  <anchor x="292" y="-401" name="bottom"/>
+  <anchor x="288" y="-162" name="cross"/>
+  <anchor x="707" y="1076" name="top"/>
+  <anchor x="466" y="1076" name="topr"/>
   <outline>
     <component base="p"/>
-    <component base="_part.top_r_hook" xOffset="3"/>
+    <component base="_part.top_r_hook" xOffset="5"/>
   </outline>
 </glyph>

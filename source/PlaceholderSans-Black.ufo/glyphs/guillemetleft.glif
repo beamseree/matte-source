@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guillemetleft" format="2">
-  <advance width="1485"/>
+  <advance width="1495"/>
   <unicode hex="00AB"/>
   <guideline x="-56" y="1240" angle="0"/>
   <guideline x="-56" y="764" angle="0"/>
   <outline>
     <component base="guilsinglleft"/>
-    <component base="guilsinglleft" xOffset="521"/>
+    <component base="guilsinglleft" xOffset="526"/>
   </outline>
   <lib>
     <dict>

@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="coloncurrency" format="2">
-  <advance width="1599"/>
+  <advance width="1600"/>
   <unicode hex="20A1"/>
-  <anchor x="821" y="6" name="cedilla"/>
-  <anchor x="824" y="745" name="center"/>
-  <anchor x="828" y="1490" name="top"/>
-  <anchor x="1521" y="946" name="topr"/>
+  <anchor x="828" y="6" name="cedilla"/>
+  <anchor x="831" y="745" name="center"/>
+  <anchor x="835" y="1490" name="top"/>
+  <anchor x="1528" y="946" name="topr"/>
   <outline>
     <contour>
-      <point x="1336" y="1676" type="line"/>
-      <point x="1231" y="1676" type="line"/>
-      <point x="630" y="-186" type="line"/>
-      <point x="731" y="-186" type="line"/>
+      <point x="1343" y="1676" type="line"/>
+      <point x="1238" y="1676" type="line"/>
+      <point x="637" y="-186" type="line"/>
+      <point x="738" y="-186" type="line"/>
     </contour>
     <contour>
-      <point x="1061" y="1676" type="line"/>
-      <point x="956" y="1672" type="line"/>
-      <point x="355" y="-190" type="line"/>
-      <point x="456" y="-186" type="line"/>
+      <point x="1068" y="1676" type="line"/>
+      <point x="963" y="1672" type="line"/>
+      <point x="362" y="-190" type="line"/>
+      <point x="463" y="-186" type="line"/>
     </contour>
     <component base="C"/>
   </outline>

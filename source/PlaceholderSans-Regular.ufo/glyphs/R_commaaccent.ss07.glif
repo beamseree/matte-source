@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rcommaaccent.ss07" format="2">
-  <advance width="1385"/>
-  <anchor x="685" y="0" name="bottom"/>
-  <anchor x="657" y="1490" name="top"/>
+  <advance width="1417"/>
+  <anchor x="700" y="0" name="bottom"/>
+  <anchor x="672" y="1490" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="commaaccent.ss07" xOffset="444"/>
+    <component base="commaaccent.ss07" xOffset="459"/>
   </outline>
   <lib>
     <dict>

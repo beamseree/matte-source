@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="F.circled" format="2">
-  <advance width="2841"/>
+  <advance width="2846"/>
   <unicode hex="24BB"/>
-  <anchor x="1024" y="0" name="bottom"/>
-  <anchor x="1024" y="410" name="cross"/>
-  <anchor x="1001" y="0" name="lfthook"/>
-  <anchor x="1456" y="1490" name="top"/>
+  <anchor x="1026" y="0" name="bottom"/>
+  <anchor x="1026" y="410" name="cross"/>
+  <anchor x="1003" y="0" name="lfthook"/>
+  <anchor x="1458" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="F" xOffset="821"/>
+    <component base="F" xOffset="804"/>
   </outline>
   <lib>
     <dict>

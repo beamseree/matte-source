@@ -4357,32 +4357,12 @@
       <string>vtilde</string>
       <string>vdotbelow</string>
       <string>chi</string>
-      <string>y</string>
-      <string>ydieresis</string>
       <string>yhook</string>
       <string>uni024F</string>
-      <string>yacute</string>
-      <string>ycircumflex</string>
-      <string>uni0233</string>
-      <string>ydotaccent</string>
-      <string>yring</string>
-      <string>ygrave</string>
-      <string>ydotbelow</string>
-      <string>yhookabove</string>
-      <string>ytilde</string>
-      <string>ucyrillic</string>
-      <string>ushortcyrillic</string>
-      <string>umacroncyrillic</string>
-      <string>udieresiscyrillic</string>
-      <string>uhungarumlautcyrillic</string>
-      <string>yogonek</string>
       <string>y.sc</string>
       <string>gamma1</string>
       <string>izhitsacyrillic</string>
       <string>vdotbelow.ss07</string>
-      <string>ydieresis.ss07</string>
-      <string>ydotaccent.ss07</string>
-      <string>ydotbelow.ss07</string>
       <string>izhitsadblgravecyrillic</string>
       <string>ustraightcyrillic</string>
       <string>ustraightstrokecyrillic</string>
@@ -4429,6 +4409,29 @@
     <key>public.kern2.x.sups</key>
     <array>
       <string>x.sups</string>
+    </array>
+    <key>public.kern2.y</key>
+    <array>
+      <string>y</string>
+      <string>ydieresis</string>
+      <string>yacute</string>
+      <string>ycircumflex</string>
+      <string>uni0233</string>
+      <string>ydotaccent</string>
+      <string>yring</string>
+      <string>ygrave</string>
+      <string>ydotbelow</string>
+      <string>yhookabove</string>
+      <string>ytilde</string>
+      <string>ucyrillic</string>
+      <string>ushortcyrillic</string>
+      <string>umacroncyrillic</string>
+      <string>udieresiscyrillic</string>
+      <string>uhungarumlautcyrillic</string>
+      <string>yogonek</string>
+      <string>ydieresis.ss07</string>
+      <string>ydotaccent.ss07</string>
+      <string>ydotbelow.ss07</string>
     </array>
     <key>public.kern2.z</key>
     <array>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tworoman" format="2">
-  <advance width="970"/>
+  <advance width="996"/>
   <unicode hex="2171"/>
-  <anchor x="726" y="0" name="bottom"/>
-  <anchor x="726" y="575" name="cross"/>
-  <anchor x="822" y="0" name="ogonek"/>
-  <anchor x="725" y="1485" name="top"/>
+  <anchor x="748" y="0" name="bottom"/>
+  <anchor x="748" y="575" name="cross"/>
+  <anchor x="844" y="0" name="ogonek"/>
+  <anchor x="747" y="1485" name="top"/>
   <outline>
     <component base="i"/>
-    <component base="i" xOffset="485"/>
+    <component base="i" xOffset="498"/>
   </outline>
 </glyph>

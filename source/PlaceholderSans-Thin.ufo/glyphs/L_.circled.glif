@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L.circled" format="2">
-  <advance width="2841"/>
+  <advance width="2846"/>
   <unicode hex="24C1"/>
   <anchor x="1473" y="0" name="bottom"/>
   <anchor x="1213" y="745" name="cross"/>
@@ -9,7 +9,7 @@
   <anchor x="1076" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="L" xOffset="876"/>
+    <component base="L" xOffset="856"/>
   </outline>
   <lib>
     <dict>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Z.squared" format="2">
-  <advance width="2815"/>
+  <advance width="2828"/>
   <unicode hex="1F149"/>
-  <anchor x="1406" y="0" name="bottom"/>
-  <anchor x="2036" y="0" name="bottomr"/>
-  <anchor x="1406" y="744" name="cross"/>
-  <anchor x="1406" y="1490" name="top"/>
+  <anchor x="1412" y="0" name="bottom"/>
+  <anchor x="2042" y="0" name="bottomr"/>
+  <anchor x="1412" y="744" name="cross"/>
+  <anchor x="1412" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="Z" xOffset="668"/>
+    <component base="Z" xOffset="674"/>
   </outline>
   <lib>
     <dict>

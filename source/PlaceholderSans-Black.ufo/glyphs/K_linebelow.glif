@@ -2,10 +2,10 @@
 <glyph name="Klinebelow" format="2">
   <advance width="1533"/>
   <unicode hex="1E34"/>
-  <anchor x="746" y="0" name="bottom"/>
-  <anchor x="746" y="1490" name="top"/>
+  <anchor x="752" y="0" name="bottom"/>
+  <anchor x="752" y="1490" name="top"/>
   <outline>
     <component base="K"/>
-    <component base="macronsub" xOffset="318"/>
+    <component base="macronsub" xOffset="324"/>
   </outline>
 </glyph>

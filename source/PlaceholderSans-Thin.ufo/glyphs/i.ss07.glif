@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="i.ss07" format="2">
-  <advance width="415"/>
+  <advance width="430"/>
   <unicode hex="E23F"/>
-  <anchor x="207" y="0" name="bottom"/>
-  <anchor x="207" y="560" name="cross"/>
-  <anchor x="231" y="0" name="ogonek"/>
-  <anchor x="207" y="1392" name="top"/>
+  <anchor x="214" y="0" name="bottom"/>
+  <anchor x="214" y="560" name="cross"/>
+  <anchor x="238" y="0" name="ogonek"/>
+  <anchor x="214" y="1392" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb.ss07" xOffset="36" yOffset="-42"/>
+    <component base="dotaccentcomb.ss07" xOffset="43" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

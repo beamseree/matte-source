@@ -195,8 +195,14 @@ See README.md for the file layout, setup and commands.
   Jakarta Sans, Helvetica Neue and Graphik, is in `build/audit/README.md` (gitignored; area
   reports beside it). The release layer (metadata, STAT, gasp, win metrics, the đ ₫ Ҋ holes
   from mirrored components) and the spacing and kerning tools were fixed in their own
-  sessions and merged (see Decisions); the new spacing and kerning code hasn't been run on
-  `source/` yet, until the user chooses `LOOSEN` and `ASIDE`. Also fixed: **what derive.py missed** (`tools/xheight.py`,
+  sessions and merged (see Decisions), and `source/` was refitted with the new spacing and
+  kerning code and the user's `LOOSEN` (Thin and Regular 8% looser) and `ASIDE` (FO, ZY, OX,
+  ox): fit, apply, fit again (identical on a third fit). Symmetric letters are now centred
+  (Y was 43 units off at 900), n h m r b p k share one left side (152 at 430, was 122–156), n's
+  sidebearing over its counter is Inter's 0.296 at 430 (was 0.251), fy is 53 apart (was 35;
+  13 at 900), fî's kerning +12 (was +97), and no letter pairs come nearer than 50 at any
+  weight. The cost against the mockups: gap error mean Regular 2.3 → 25.4, Thin 7.5 → 27.9,
+  Black 3.6 → 17.3 (ink error unchanged). Also fixed: **what derive.py missed** (`tools/xheight.py`,
   see Decisions). The small capitals and pecyrillicturn were still at Inter's x-height, 1118,
   so Cyrillic н т м я ц џ ң ҥ ӈ ӊ ӎ ҭ ҵ and the IPA small capitals stood 42 units above о and
   x, and п (pecyrillicturn turned over) hung 42 below the baseline; in Black their stems were

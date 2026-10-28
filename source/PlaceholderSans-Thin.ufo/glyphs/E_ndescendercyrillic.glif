@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Endescendercyrillic" format="2">
-  <advance width="1445"/>
+  <advance width="1475"/>
   <unicode hex="04A2"/>
-  <anchor x="726" y="0" name="bottom"/>
-  <anchor x="216" y="0" name="cedilla"/>
-  <anchor x="1260" y="0" name="cyrtic"/>
-  <anchor x="1214" y="0" name="lfthook"/>
-  <anchor x="1260" y="0" name="right"/>
-  <anchor x="193" y="1490" name="tonos"/>
-  <anchor x="726" y="1490" name="top"/>
+  <anchor x="732" y="0" name="bottom"/>
+  <anchor x="222" y="0" name="cedilla"/>
+  <anchor x="1266" y="0" name="cyrtic"/>
+  <anchor x="1220" y="0" name="lfthook"/>
+  <anchor x="1266" y="0" name="right"/>
+  <anchor x="199" y="1490" name="tonos"/>
+  <anchor x="732" y="1490" name="top"/>
   <outline>
     <component base="H"/>
-    <component base="_part.cyrtic" xOffset="1201"/>
+    <component base="_part.cyrtic" xOffset="1207"/>
   </outline>
   <lib>
     <dict>

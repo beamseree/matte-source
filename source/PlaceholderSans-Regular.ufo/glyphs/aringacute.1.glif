@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aringacute.1" format="2">
-  <advance width="1249"/>
+  <advance width="1277"/>
   <unicode hex="E048"/>
-  <anchor x="612" y="0" name="bottom"/>
-  <anchor x="1111" y="0" name="bottomr"/>
-  <anchor x="1111" y="0" name="ogonek"/>
-  <anchor x="613" y="1076" name="top"/>
-  <anchor x="1111" y="1076" name="topr"/>
+  <anchor x="626" y="0" name="bottom"/>
+  <anchor x="1125" y="0" name="bottomr"/>
+  <anchor x="1125" y="0" name="ogonek"/>
+  <anchor x="627" y="1076" name="top"/>
+  <anchor x="1125" y="1076" name="topr"/>
   <outline>
     <component base="a.1"/>
-    <component base="ringacute.lc" xOffset="313" yOffset="-42"/>
+    <component base="ringacute.lc" xOffset="327" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

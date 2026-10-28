@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oneseventh" format="2">
-  <advance width="1769"/>
+  <advance width="1786"/>
   <unicode hex="2150"/>
   <outline>
     <component base="one.numr"/>
-    <component base="fraction" xOffset="568"/>
-    <component base="seven.dnom" xOffset="1076"/>
+    <component base="fraction" xOffset="580"/>
+    <component base="seven.dnom" xOffset="1088"/>
   </outline>
   <lib>
     <dict>

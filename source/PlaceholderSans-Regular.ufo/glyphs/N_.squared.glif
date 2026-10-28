@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="N.squared" format="2">
-  <advance width="2810"/>
+  <advance width="2828"/>
   <unicode hex="1F13D"/>
   <anchor x="1405" y="0" name="bottom"/>
   <anchor x="782" y="0" name="lfthook"/>
@@ -8,7 +8,7 @@
   <anchor x="1405" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="N" xOffset="636"/>
+    <component base="N" xOffset="626"/>
   </outline>
   <lib>
     <dict>

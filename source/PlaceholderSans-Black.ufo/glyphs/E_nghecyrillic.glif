@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Enghecyrillic" format="2">
-  <advance width="2094"/>
+  <advance width="2082"/>
   <unicode hex="04A4"/>
   <note>
 !post:RemoveOverlap
 </note>
-  <anchor x="754" y="0" name="bottom"/>
-  <anchor x="293" y="0" name="cedilla"/>
-  <anchor x="1402" y="0" name="cyrtic"/>
-  <anchor x="1025" y="0" name="lfthook"/>
-  <anchor x="1402" y="0" name="right"/>
-  <anchor x="106" y="1490" name="tonos"/>
-  <anchor x="754" y="1490" name="top"/>
+  <anchor x="764" y="0" name="bottom"/>
+  <anchor x="303" y="0" name="cedilla"/>
+  <anchor x="1412" y="0" name="cyrtic"/>
+  <anchor x="1035" y="0" name="lfthook"/>
+  <anchor x="1412" y="0" name="right"/>
+  <anchor x="116" y="1490" name="tonos"/>
+  <anchor x="764" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="1987" y="1490" type="line"/>
-      <point x="1032" y="1490" type="line"/>
-      <point x="1349" y="1163" type="line"/>
-      <point x="1987" y="1163" type="line"/>
+      <point x="1997" y="1490" type="line"/>
+      <point x="1042" y="1490" type="line"/>
+      <point x="1359" y="1163" type="line"/>
+      <point x="1997" y="1163" type="line"/>
     </contour>
     <component base="H"/>
   </outline>

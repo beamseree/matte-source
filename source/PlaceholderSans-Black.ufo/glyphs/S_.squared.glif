@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="S.squared" format="2">
-  <advance width="2841"/>
+  <advance width="2828"/>
   <unicode hex="1F142"/>
-  <anchor x="1427" y="0" name="bottom"/>
-  <anchor x="1424" y="0" name="cedilla"/>
-  <anchor x="1422" y="1490" name="top"/>
+  <anchor x="1421" y="0" name="bottom"/>
+  <anchor x="1418" y="0" name="cedilla"/>
+  <anchor x="1416" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="S" xOffset="719"/>
+    <component base="S" xOffset="713"/>
   </outline>
   <lib>
     <dict>

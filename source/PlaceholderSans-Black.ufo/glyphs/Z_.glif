@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Z" format="2">
-  <advance width="1412"/>
+  <advance width="1453"/>
   <unicode hex="005A"/>
-  <anchor x="709" y="0" name="bottom"/>
-  <anchor x="1353" y="0" name="bottomr"/>
-  <anchor x="709" y="745" name="cross"/>
-  <anchor x="714" y="1490" name="top"/>
+  <anchor x="699" y="0" name="bottom"/>
+  <anchor x="1343" y="0" name="bottomr"/>
+  <anchor x="699" y="745" name="cross"/>
+  <anchor x="704" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="67" y="0" type="line"/>
-      <point x="1353" y="0" type="line"/>
-      <point x="1353" y="327" type="line"/>
-      <point x="549" y="327" type="line"/>
-      <point x="1312" y="1149" type="line"/>
-      <point x="1312" y="1490" type="line"/>
-      <point x="123" y="1490" type="line"/>
-      <point x="123" y="1163" type="line"/>
-      <point x="843" y="1163" type="line"/>
-      <point x="67" y="333" type="line"/>
+      <point x="57" y="0" type="line"/>
+      <point x="1343" y="0" type="line"/>
+      <point x="1343" y="327" type="line"/>
+      <point x="539" y="327" type="line"/>
+      <point x="1302" y="1149" type="line"/>
+      <point x="1302" y="1490" type="line"/>
+      <point x="113" y="1490" type="line"/>
+      <point x="113" y="1163" type="line"/>
+      <point x="833" y="1163" type="line"/>
+      <point x="57" y="333" type="line"/>
     </contour>
   </outline>
   <lib>

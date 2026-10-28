@@ -2,12 +2,12 @@
 <glyph name="ldot" format="2">
   <advance width="463"/>
   <unicode hex="0140"/>
-  <anchor x="215" y="0" name="bottom"/>
-  <anchor x="237" y="0" name="bottomr"/>
-  <anchor x="237" y="717" name="centerr"/>
-  <anchor x="215" y="739" name="cross"/>
-  <anchor x="377" y="1490" name="raccent"/>
-  <anchor x="214" y="1490" name="top"/>
+  <anchor x="228" y="0" name="bottom"/>
+  <anchor x="250" y="0" name="bottomr"/>
+  <anchor x="250" y="717" name="centerr"/>
+  <anchor x="228" y="739" name="cross"/>
+  <anchor x="390" y="1490" name="raccent"/>
+  <anchor x="227" y="1490" name="top"/>
   <outline>
     <component base="l"/>
     <component base="periodcentered" xOffset="126" yOffset="48"/>

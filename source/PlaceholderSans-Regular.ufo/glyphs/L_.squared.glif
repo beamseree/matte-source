@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L.squared" format="2">
-  <advance width="2810"/>
+  <advance width="2828"/>
   <unicode hex="1F13B"/>
   <anchor x="1425" y="0" name="bottom"/>
   <anchor x="1191" y="745" name="cross"/>
@@ -9,7 +9,7 @@
   <anchor x="1060" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="L" xOffset="806"/>
+    <component base="L" xOffset="802"/>
   </outline>
   <lib>
     <dict>

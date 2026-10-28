@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="five.circled" format="2">
-  <advance width="2851"/>
+  <advance width="2846"/>
   <unicode hex="2464"/>
   <unicode hex="2784"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="five" xOffset="719"/>
+    <component base="five" xOffset="715"/>
   </outline>
   <lib>
     <dict>

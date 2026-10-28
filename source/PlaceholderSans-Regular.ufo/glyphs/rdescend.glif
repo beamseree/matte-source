@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rdescend" format="2">
-  <advance width="805"/>
+  <advance width="803"/>
   <unicode hex="E05E"/>
-  <anchor x="248" y="0" name="bottom"/>
-  <anchor x="346" y="0" name="bottomr"/>
-  <anchor x="250" y="516" name="cross"/>
-  <anchor x="441" y="1076" name="top"/>
+  <anchor x="247" y="0" name="bottom"/>
+  <anchor x="345" y="0" name="bottomr"/>
+  <anchor x="249" y="516" name="cross"/>
+  <anchor x="440" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="153" y="-418" type="line"/>
-      <point x="335" y="-418" type="line"/>
-      <point x="335" y="0" type="line"/>
-      <point x="153" y="0" type="line"/>
+      <point x="152" y="-418" type="line"/>
+      <point x="334" y="-418" type="line"/>
+      <point x="334" y="0" type="line"/>
+      <point x="152" y="0" type="line"/>
     </contour>
     <component base="r"/>
   </outline>

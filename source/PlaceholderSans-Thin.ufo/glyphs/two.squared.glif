@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two.squared" format="2">
-  <advance width="2815"/>
+  <advance width="2828"/>
   <unicode hex="E140"/>
   <anchor x="1505" y="637" name="cross"/>
   <anchor x="1407" y="1490" name="top"/>

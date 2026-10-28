@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="U.circled" format="2">
-  <advance width="2841"/>
+  <advance width="2846"/>
   <unicode hex="24CA"/>
-  <anchor x="1421" y="0" name="bottom"/>
-  <anchor x="1949" y="504" name="ogonek"/>
-  <anchor x="1482" y="0" name="right"/>
-  <anchor x="1901" y="1490" name="rtophorn"/>
-  <anchor x="1421" y="1490" name="top"/>
+  <anchor x="1423" y="0" name="bottom"/>
+  <anchor x="1951" y="504" name="ogonek"/>
+  <anchor x="1484" y="0" name="right"/>
+  <anchor x="1903" y="1490" name="rtophorn"/>
+  <anchor x="1423" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="U" xOffset="735"/>
+    <component base="U" xOffset="725"/>
   </outline>
   <lib>
     <dict>

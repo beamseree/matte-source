@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romanfivehundred" format="2">
-  <advance width="1555"/>
+  <advance width="1580"/>
   <unicode hex="216E"/>
-  <anchor x="683" y="0" name="bottom"/>
-  <anchor x="369" y="745" name="cross"/>
-  <anchor x="616" y="1490" name="top"/>
-  <anchor x="98" y="1490" name="topl"/>
+  <anchor x="701" y="0" name="bottom"/>
+  <anchor x="387" y="745" name="cross"/>
+  <anchor x="634" y="1490" name="top"/>
+  <anchor x="116" y="1490" name="topl"/>
   <outline>
     <component base="D"/>
   </outline>

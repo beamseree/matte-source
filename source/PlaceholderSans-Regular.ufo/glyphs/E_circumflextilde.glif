@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflextilde" format="2">
-  <advance width="1267"/>
+  <advance width="1292"/>
   <unicode hex="1EC4"/>
-  <anchor x="668" y="0" name="bottom"/>
-  <anchor x="668" y="0" name="cedilla"/>
-  <anchor x="1185" y="0" name="ogonek"/>
-  <anchor x="150" y="1490" name="tonos"/>
-  <anchor x="673" y="2233" name="top"/>
+  <anchor x="683" y="0" name="bottom"/>
+  <anchor x="683" y="0" name="cedilla"/>
+  <anchor x="1200" y="0" name="ogonek"/>
+  <anchor x="165" y="1490" name="tonos"/>
+  <anchor x="688" y="2233" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="circumflextildecomb.cn" xOffset="257" yOffset="372"/>
+    <component base="circumflextildecomb.cn" xOffset="272" yOffset="372"/>
   </outline>
 </glyph>

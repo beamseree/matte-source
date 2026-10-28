@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="deleteleft" format="2">
-  <advance width="2439"/>
+  <advance width="2490"/>
   <unicode hex="232B"/>
   <note>
 stroke:
@@ -12,30 +12,30 @@ B x: 200,200,50%
 </note>
   <outline>
     <contour>
-      <point x="889" y="0" type="line"/>
-      <point x="2279" y="0" type="line"/>
-      <point x="2279" y="1490" type="line"/>
-      <point x="889" y="1490" type="line"/>
-      <point x="149" y="744" type="line"/>
+      <point x="914" y="0" type="line"/>
+      <point x="2304" y="0" type="line"/>
+      <point x="2304" y="1490" type="line"/>
+      <point x="914" y="1490" type="line"/>
+      <point x="174" y="744" type="line"/>
     </contour>
     <contour>
-      <point x="960" y="184" type="line"/>
-      <point x="393" y="744" type="line"/>
-      <point x="960" y="1306" type="line"/>
-      <point x="2107" y="1306" type="line"/>
-      <point x="2107" y="184" type="line"/>
+      <point x="985" y="184" type="line"/>
+      <point x="418" y="744" type="line"/>
+      <point x="985" y="1306" type="line"/>
+      <point x="2132" y="1306" type="line"/>
+      <point x="2132" y="184" type="line"/>
     </contour>
     <contour>
-      <point x="1835" y="440" type="line"/>
-      <point x="1083" y="1177" type="line"/>
-      <point x="966" y="1050" type="line"/>
-      <point x="1718" y="313" type="line"/>
+      <point x="1860" y="440" type="line"/>
+      <point x="1108" y="1177" type="line"/>
+      <point x="991" y="1050" type="line"/>
+      <point x="1743" y="313" type="line"/>
     </contour>
     <contour>
-      <point x="1083" y="313" type="line"/>
-      <point x="1835" y="1050" type="line"/>
-      <point x="1718" y="1177" type="line"/>
-      <point x="966" y="440" type="line"/>
+      <point x="1108" y="313" type="line"/>
+      <point x="1860" y="1050" type="line"/>
+      <point x="1743" y="1177" type="line"/>
+      <point x="991" y="440" type="line"/>
     </contour>
   </outline>
 </glyph>

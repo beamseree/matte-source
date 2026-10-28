@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oslashacute" format="2">
-  <advance width="1559"/>
+  <advance width="1585"/>
   <unicode hex="01FE"/>
-  <anchor x="781" y="0" name="bottom"/>
-  <anchor x="781" y="745" name="center"/>
-  <anchor x="1457" y="744" name="ogonek"/>
-  <anchor x="254" y="1490" name="tonos"/>
-  <anchor x="785" y="1929" name="top"/>
-  <anchor x="781" y="1510" name="tophorn"/>
+  <anchor x="794" y="0" name="bottom"/>
+  <anchor x="794" y="745" name="center"/>
+  <anchor x="1470" y="744" name="ogonek"/>
+  <anchor x="267" y="1490" name="tonos"/>
+  <anchor x="798" y="1929" name="top"/>
+  <anchor x="794" y="1510" name="tophorn"/>
   <outline>
     <component base="Oslash"/>
-    <component base="acutecomb" xOffset="588" yOffset="372"/>
+    <component base="acutecomb" xOffset="601" yOffset="372"/>
   </outline>
 </glyph>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="question.circled" format="2">
-  <advance width="2839"/>
+  <advance width="2846"/>
   <unicode hex="E132"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="question" xOffset="913"/>
+    <component base="question" xOffset="915"/>
   </outline>
   <lib>
     <dict>

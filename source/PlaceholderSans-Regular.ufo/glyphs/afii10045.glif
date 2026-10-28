@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10045" format="2">
-  <advance width="1736"/>
+  <advance width="1761"/>
   <unicode hex="042B"/>
-  <anchor x="1478" y="772" name="cross"/>
-  <anchor x="1478" y="0" name="bottom"/>
-  <anchor x="1580" y="0" name="ogonek"/>
-  <anchor x="1597" y="0" name="right"/>
-  <anchor x="1376" y="1490" name="tonos"/>
+  <anchor x="1494" y="772" name="cross"/>
+  <anchor x="1494" y="0" name="bottom"/>
+  <anchor x="1596" y="0" name="ogonek"/>
+  <anchor x="1613" y="0" name="right"/>
+  <anchor x="1392" y="1490" name="tonos"/>
   <anchor x="847" y="1490" name="top"/>
   <outline>
     <component base="Softsign-cy"/>

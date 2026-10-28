@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="T.squared" format="2">
-  <advance width="2841"/>
+  <advance width="2828"/>
   <unicode hex="1F143"/>
   <anchor x="1420" y="0" name="bottom"/>
   <anchor x="1609" y="0" name="bottomr"/>
@@ -11,7 +11,7 @@
   <anchor x="1420" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="T" xOffset="694"/>
+    <component base="T" xOffset="676"/>
   </outline>
   <lib>
     <dict>

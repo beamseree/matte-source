@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="twothirds" format="2">
-  <advance width="2133"/>
+  <advance width="2137"/>
   <unicode hex="2154"/>
-  <anchor x="457" y="1041" name="cross"/>
-  <anchor x="1728" y="842" name="top"/>
+  <anchor x="459" y="1041" name="cross"/>
+  <anchor x="1732" y="842" name="top"/>
   <outline>
     <component base="two.numr"/>
-    <component base="fraction" xOffset="844"/>
-    <component base="three.dnom" xOffset="1329"/>
+    <component base="fraction" xOffset="846"/>
+    <component base="three.dnom" xOffset="1331"/>
   </outline>
   <lib>
     <dict>

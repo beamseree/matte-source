@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="downArrowToBar.circled" format="2">
-  <advance width="2851"/>
+  <advance width="2846"/>
   <unicode hex="EE73"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="downArrowToBar" xOffset="509"/>
+    <component base="downArrowToBar" xOffset="507"/>
   </outline>
   <lib>
     <dict>

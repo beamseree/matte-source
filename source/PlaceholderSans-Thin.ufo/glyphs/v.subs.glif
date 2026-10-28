@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="v.subs" format="2">
-  <advance width="760"/>
+  <advance width="765"/>
   <unicode hex="1D65"/>
-  <anchor x="379" y="-284" name="bottom"/>
-  <anchor x="379" y="299" name="top"/>
+  <anchor x="382" y="-284" name="bottom"/>
+  <anchor x="382" y="299" name="top"/>
   <outline>
     <component base="v.sups" yOffset="-1200"/>
   </outline>

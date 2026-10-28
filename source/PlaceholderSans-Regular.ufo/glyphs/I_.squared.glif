@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="I.squared" format="2">
-  <advance width="2810"/>
+  <advance width="2828"/>
   <unicode hex="1F138"/>
-  <anchor x="1405" y="0" name="bottom"/>
-  <anchor x="1405" y="772" name="cross"/>
-  <anchor x="1507" y="0" name="ogonek"/>
-  <anchor x="1524" y="0" name="right"/>
-  <anchor x="1303" y="1490" name="tonos"/>
-  <anchor x="1405" y="1490" name="top"/>
+  <anchor x="1414" y="0" name="bottom"/>
+  <anchor x="1414" y="772" name="cross"/>
+  <anchor x="1516" y="0" name="ogonek"/>
+  <anchor x="1533" y="0" name="right"/>
+  <anchor x="1312" y="1490" name="tonos"/>
+  <anchor x="1414" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="I" xOffset="1154"/>
+    <component base="I" xOffset="1147"/>
   </outline>
   <lib>
     <dict>

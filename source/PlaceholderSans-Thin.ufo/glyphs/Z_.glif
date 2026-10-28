@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Z" format="2">
-  <advance width="1481"/>
+  <advance width="1475"/>
   <unicode hex="005A"/>
   <guideline x="1492" y="100" angle="90"/>
   <anchor x="738" y="0" name="bottom"/>

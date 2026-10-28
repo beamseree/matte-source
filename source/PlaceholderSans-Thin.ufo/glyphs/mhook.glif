@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="mhook" format="2">
-  <advance width="1752"/>
+  <advance width="1789"/>
   <unicode hex="0271"/>
-  <anchor x="876" y="0" name="bottom"/>
-  <anchor x="1532" y="0" name="lfthook"/>
-  <anchor x="876" y="1076" name="top"/>
+  <anchor x="895" y="0" name="bottom"/>
+  <anchor x="1551" y="0" name="lfthook"/>
+  <anchor x="895" y="1076" name="top"/>
   <outline>
     <component base="m"/>
-    <component base="_part.bottom_lfthook" xOffset="1264"/>
+    <component base="_part.bottom_lfthook" xOffset="1283"/>
   </outline>
   <lib>
     <dict>

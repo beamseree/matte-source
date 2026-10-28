@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="parenleft.dnom" format="2">
-  <advance width="488"/>
+  <advance width="490"/>
   <unicode hex="E0CB"/>
   <guideline x="56" y="212" angle="0"/>
   <outline>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jcrosstail" format="2">
-  <advance width="699"/>
+  <advance width="712"/>
   <unicode hex="029D"/>
-  <anchor x="364" y="-460" name="bottom"/>
-  <anchor x="465" y="575" name="cross"/>
-  <anchor x="561" y="0" name="ogonek"/>
-  <anchor x="465" y="1485" name="top"/>
+  <anchor x="373" y="-460" name="bottom"/>
+  <anchor x="474" y="575" name="cross"/>
+  <anchor x="570" y="0" name="ogonek"/>
+  <anchor x="474" y="1485" name="top"/>
   <outline>
     <component base="jcrosstail.ccmp"/>
-    <component base="dotaccentcomb" xOffset="230" yOffset="-42"/>
+    <component base="dotaccentcomb" xOffset="239" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

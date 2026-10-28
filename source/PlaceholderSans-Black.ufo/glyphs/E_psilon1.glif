@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Epsilon1" format="2">
-  <advance width="1388"/>
+  <advance width="1392"/>
   <unicode hex="0190"/>
-  <anchor x="693" y="1490" name="top"/>
-  <anchor x="713" y="0" name="bottom"/>
+  <anchor x="695" y="1490" name="top"/>
+  <anchor x="715" y="0" name="bottom"/>
   <outline>
-    <component base="three" xScale="-1" xOffset="1388"/>
+    <component base="three" xScale="-1" xOffset="1392"/>
   </outline>
 </glyph>

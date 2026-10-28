@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yerudieresis-cy.ss07" format="2">
-  <advance width="1961"/>
+  <advance width="1971"/>
   <unicode hex="E296"/>
-  <anchor x="1659" y="788" name="cross"/>
-  <anchor x="1659" y="0" name="bottom"/>
-  <anchor x="1849" y="0" name="ogonek"/>
-  <anchor x="1874" y="0" name="right"/>
-  <anchor x="1472" y="1490" name="tonos"/>
+  <anchor x="1665" y="788" name="cross"/>
+  <anchor x="1665" y="0" name="bottom"/>
+  <anchor x="1855" y="0" name="ogonek"/>
+  <anchor x="1880" y="0" name="right"/>
+  <anchor x="1478" y="1490" name="tonos"/>
   <anchor x="957" y="1958" name="top"/>
   <outline>
     <component base="afii10045"/>

@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="I" format="2">
-  <advance width="509"/>
+  <advance width="534"/>
   <unicode hex="0049"/>
-  <anchor x="251" y="0" name="bottom"/>
-  <anchor x="251" y="772" name="cross"/>
-  <anchor x="353" y="0" name="ogonek"/>
-  <anchor x="370" y="0" name="right"/>
-  <anchor x="149" y="1490" name="tonos"/>
-  <anchor x="251" y="1490" name="top"/>
+  <anchor x="267" y="0" name="bottom"/>
+  <anchor x="267" y="772" name="cross"/>
+  <anchor x="369" y="0" name="ogonek"/>
+  <anchor x="386" y="0" name="right"/>
+  <anchor x="165" y="1490" name="tonos"/>
+  <anchor x="267" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="353" y="1490" type="line"/>
-      <point x="149" y="1490" type="line"/>
-      <point x="149" y="0" type="line"/>
-      <point x="353" y="0" type="line"/>
+      <point x="369" y="1490" type="line"/>
+      <point x="165" y="1490" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="369" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

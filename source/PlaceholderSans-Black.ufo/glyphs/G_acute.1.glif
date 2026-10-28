@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gacute.1" format="2">
-  <advance width="1636"/>
+  <advance width="1640"/>
   <unicode hex="E00A"/>
-  <anchor x="820" y="0" name="bottom"/>
-  <anchor x="1254" y="434" name="cross"/>
-  <anchor x="824" y="1954" name="top"/>
-  <anchor x="1517" y="998" name="topr"/>
+  <anchor x="822" y="0" name="bottom"/>
+  <anchor x="1256" y="434" name="cross"/>
+  <anchor x="826" y="1954" name="top"/>
+  <anchor x="1519" y="998" name="topr"/>
   <outline>
     <component base="G.1"/>
-    <component base="acutecomb" xOffset="510" yOffset="372"/>
+    <component base="acutecomb" xOffset="512" yOffset="372"/>
   </outline>
   <lib>
     <dict>

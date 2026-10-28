@@ -2,13 +2,13 @@
 <glyph name="onetenth" format="2">
   <advance width="1907"/>
   <unicode hex="2152"/>
-  <anchor x="1560" y="384" name="center"/>
-  <anchor x="1560" y="767" name="top"/>
+  <anchor x="1559" y="384" name="center"/>
+  <anchor x="1559" y="767" name="top"/>
   <outline>
     <component base="one.numr"/>
-    <component base="fraction" xOffset="489"/>
-    <component base="one.dnom" xOffset="765"/>
-    <component base="zero.dnom" xOffset="1214"/>
+    <component base="fraction" xOffset="488"/>
+    <component base="one.dnom" xOffset="764"/>
+    <component base="zero.dnom" xOffset="1212"/>
   </outline>
   <lib>
     <dict>

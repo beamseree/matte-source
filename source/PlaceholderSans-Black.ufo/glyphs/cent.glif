@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cent" format="2">
-  <advance width="1232"/>
+  <advance width="1220"/>
   <unicode hex="00A2"/>
   <guideline x="1472" y="1372" angle="90"/>
-  <anchor x="644" y="190" name="bottom"/>
-  <anchor x="644" y="190" name="cedilla"/>
-  <anchor x="644" y="728" name="center"/>
-  <anchor x="644" y="1266" name="top"/>
-  <anchor x="1166" y="861" name="topr"/>
+  <anchor x="643" y="190" name="bottom"/>
+  <anchor x="643" y="190" name="cedilla"/>
+  <anchor x="643" y="728" name="center"/>
+  <anchor x="643" y="1266" name="top"/>
+  <anchor x="1165" y="861" name="topr"/>
   <outline>
     <contour>
-      <point x="598" y="0" type="line"/>
-      <point x="719" y="0" type="line"/>
-      <point x="719" y="1490" type="line"/>
-      <point x="598" y="1490" type="line"/>
+      <point x="597" y="0" type="line"/>
+      <point x="718" y="0" type="line"/>
+      <point x="718" y="1490" type="line"/>
+      <point x="597" y="1490" type="line"/>
     </contour>
     <component base="c" yOffset="190"/>
   </outline>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni024F" format="2">
-  <advance width="1038"/>
+  <advance width="1063"/>
   <unicode hex="024F"/>
-  <anchor x="707" y="0" name="bottom"/>
-  <anchor x="536" y="0" name="ogonek"/>
-  <anchor x="506" y="1076" name="top"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="552" y="0" name="ogonek"/>
+  <anchor x="522" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="916" y="777" type="line" name="hr00"/>
-      <point x="99" y="777" type="line"/>
-      <point x="99" y="732" type="line"/>
-      <point x="916" y="732" type="line"/>
+      <point x="932" y="777" type="line" name="hr00"/>
+      <point x="115" y="777" type="line"/>
+      <point x="115" y="732" type="line"/>
+      <point x="932" y="732" type="line"/>
     </contour>
     <component base="y"/>
   </outline>

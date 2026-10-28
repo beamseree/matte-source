@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idblgrave" format="2">
-  <advance width="415"/>
+  <advance width="430"/>
   <unicode hex="0209"/>
-  <anchor x="207" y="0" name="bottom"/>
-  <anchor x="207" y="560" name="cross"/>
-  <anchor x="231" y="0" name="ogonek"/>
-  <anchor x="207" y="1515" name="top"/>
+  <anchor x="214" y="0" name="bottom"/>
+  <anchor x="214" y="560" name="cross"/>
+  <anchor x="238" y="0" name="ogonek"/>
+  <anchor x="214" y="1515" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="dblgravecmb" xOffset="-294" yOffset="-42"/>
+    <component base="dblgravecmb" xOffset="-287" yOffset="-42"/>
   </outline>
 </glyph>

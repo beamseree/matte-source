@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ydotaccent" format="2">
-  <advance width="1038"/>
+  <advance width="1063"/>
   <unicode hex="1E8F"/>
-  <anchor x="707" y="0" name="bottom"/>
-  <anchor x="536" y="0" name="ogonek"/>
-  <anchor x="506" y="1425" name="top"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="552" y="0" name="ogonek"/>
+  <anchor x="522" y="1425" name="top"/>
   <outline>
     <component base="y"/>
-    <component base="dotaccentcomb" xOffset="334" yOffset="-42"/>
+    <component base="dotaccentcomb" xOffset="350" yOffset="-42"/>
   </outline>
 </glyph>

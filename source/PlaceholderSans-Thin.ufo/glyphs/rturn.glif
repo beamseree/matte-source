@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rturn" format="2">
-  <advance width="756"/>
+  <advance width="762"/>
   <unicode hex="0279"/>
-  <anchor x="482" y="1076" name="top"/>
-  <anchor x="512" y="1076" name="topr"/>
-  <anchor x="534" y="560" name="cross"/>
-  <anchor x="434" y="0" name="bottom"/>
-  <anchor x="558" y="0" name="bottomr"/>
+  <anchor x="493" y="1076" name="top"/>
+  <anchor x="523" y="1076" name="topr"/>
+  <anchor x="545" y="560" name="cross"/>
+  <anchor x="445" y="0" name="bottom"/>
+  <anchor x="569" y="0" name="bottomr"/>
   <outline>
-    <component base="r" xScale="-1.0" yScale="-1.0" xOffset="756.0" yOffset="1076.0"/>
+    <component base="r" xScale="-1.0" yScale="-1.0" xOffset="762.0" yOffset="1076.0"/>
   </outline>
 </glyph>

@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f.1" format="2">
-  <advance width="759"/>
+  <advance width="762"/>
   <unicode hex="EE0D"/>
   <note>
 !flatten
 </note>
-  <anchor x="297" y="0" name="bottom"/>
-  <anchor x="297" y="768" name="cross"/>
-  <anchor x="356" y="1552" name="top"/>
+  <anchor x="298" y="0" name="bottom"/>
+  <anchor x="298" y="768" name="cross"/>
+  <anchor x="357" y="1552" name="top"/>
   <outline>
     <contour>
-      <point x="697" y="1076" type="line"/>
-      <point x="295" y="1076" type="line"/>
-      <point x="295" y="807" type="line"/>
-      <point x="697" y="807" type="line"/>
+      <point x="698" y="1076" type="line"/>
+      <point x="296" y="1076" type="line"/>
+      <point x="296" y="807" type="line"/>
+      <point x="698" y="807" type="line"/>
     </contour>
-    <component base="_part.f_base" xOffset="-92"/>
+    <component base="_part.f_base" xOffset="-91"/>
   </outline>
   <lib>
     <dict>

@@ -2,12 +2,12 @@
 <glyph name="Aringacute" format="2">
   <advance width="1592"/>
   <unicode hex="01FA"/>
-  <anchor x="804" y="0" name="bottom"/>
-  <anchor x="1576" y="0" name="ogonek"/>
-  <anchor x="482" y="1490" name="tonos"/>
-  <anchor x="804" y="1490" name="top"/>
+  <anchor x="793" y="0" name="bottom"/>
+  <anchor x="1565" y="0" name="ogonek"/>
+  <anchor x="471" y="1490" name="tonos"/>
+  <anchor x="793" y="1490" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="ringacute.uc" xOffset="360" yOffset="28"/>
+    <component base="ringacute.uc" xOffset="349" yOffset="28"/>
   </outline>
 </glyph>

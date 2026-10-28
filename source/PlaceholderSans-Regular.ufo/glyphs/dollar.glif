@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dollar" format="2">
-  <advance width="1369"/>
+  <advance width="1399"/>
   <unicode hex="0024"/>
-  <anchor x="686" y="0" name="bottom"/>
-  <anchor x="686" y="0" name="cedilla"/>
-  <anchor x="684" y="1490" name="top"/>
+  <anchor x="698" y="0" name="bottom"/>
+  <anchor x="698" y="0" name="cedilla"/>
+  <anchor x="696" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="623" y="-213" type="line"/>
-      <point x="752" y="-213" type="line"/>
-      <point x="752" y="1703" type="line"/>
-      <point x="623" y="1703" type="line"/>
+      <point x="635" y="-213" type="line"/>
+      <point x="764" y="-213" type="line"/>
+      <point x="764" y="1703" type="line"/>
+      <point x="635" y="1703" type="line"/>
     </contour>
     <component base="S"/>
   </outline>

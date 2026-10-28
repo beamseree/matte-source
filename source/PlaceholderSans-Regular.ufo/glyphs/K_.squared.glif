@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="K.squared" format="2">
-  <advance width="2810"/>
+  <advance width="2828"/>
   <unicode hex="1F13A"/>
-  <anchor x="1381" y="0" name="bottom"/>
-  <anchor x="1381" y="1490" name="top"/>
+  <anchor x="1390" y="0" name="bottom"/>
+  <anchor x="1390" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="K" xOffset="665"/>
+    <component base="K" xOffset="660"/>
   </outline>
   <lib>
     <dict>

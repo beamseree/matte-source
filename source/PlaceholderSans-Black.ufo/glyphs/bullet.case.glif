@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bullet.case" format="2">
-  <advance width="838"/>
+  <advance width="842"/>
   <unicode hex="E08C"/>
   <guideline x="20" y="2716" angle="0"/>
   <outline>

@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightDoubleArrow" format="2">
-  <advance width="2000"/>
+  <advance width="1954"/>
   <unicode hex="21D2"/>
   <guideline x="948" y="0" angle="45"/>
   <guideline x="2740" y="0" angle="315"/>
   <outline>
     <contour>
-      <point x="1008" y="-137" type="line"/>
-      <point x="1778" y="652" type="line"/>
-      <point x="1008" y="1439" type="line"/>
-      <point x="814" y="1234" type="line"/>
-      <point x="1391" y="652" type="line"/>
-      <point x="814" y="70" type="line"/>
+      <point x="982" y="-137" type="line"/>
+      <point x="1752" y="652" type="line"/>
+      <point x="982" y="1439" type="line"/>
+      <point x="788" y="1234" type="line"/>
+      <point x="1365" y="652" type="line"/>
+      <point x="788" y="70" type="line"/>
     </contour>
     <contour>
-      <point x="282" y="295" type="line"/>
-      <point x="1253" y="295" type="line"/>
-      <point x="1529" y="584" type="line"/>
-      <point x="282" y="584" type="line"/>
+      <point x="256" y="295" type="line"/>
+      <point x="1227" y="295" type="line"/>
+      <point x="1503" y="584" type="line"/>
+      <point x="256" y="584" type="line"/>
     </contour>
     <contour>
-      <point x="282" y="718" type="line"/>
-      <point x="1529" y="718" type="line"/>
-      <point x="1253" y="1007" type="line"/>
-      <point x="282" y="1007" type="line"/>
+      <point x="256" y="718" type="line"/>
+      <point x="1503" y="718" type="line"/>
+      <point x="1227" y="1007" type="line"/>
+      <point x="256" y="1007" type="line"/>
     </contour>
   </outline>
   <lib>

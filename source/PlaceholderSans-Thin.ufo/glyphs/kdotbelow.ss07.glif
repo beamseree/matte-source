@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kdotbelow.ss07" format="2">
-  <advance width="1032"/>
+  <advance width="1062"/>
   <unicode hex="E246"/>
-  <anchor x="558" y="0" name="bottom"/>
-  <anchor x="205" y="1490" name="top"/>
+  <anchor x="569" y="0" name="bottom"/>
+  <anchor x="216" y="1490" name="top"/>
   <outline>
     <component base="k"/>
-    <component base="dotbelow.ss07" xOffset="387"/>
+    <component base="dotbelow.ss07" xOffset="398"/>
   </outline>
   <lib>
     <dict>

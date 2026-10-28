@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lmidtilde.ss02" format="2">
-  <advance width="601"/>
+  <advance width="643"/>
   <unicode hex="E053"/>
   <guideline x="389" y="1392" angle="90"/>
-  <anchor x="354" y="0" name="bottom"/>
-  <anchor x="388" y="717" name="centerr"/>
-  <anchor x="292" y="744" name="cross"/>
-  <anchor x="531" y="1490" name="raccent"/>
-  <anchor x="304" y="876" name="top"/>
+  <anchor x="378" y="0" name="bottom"/>
+  <anchor x="412" y="717" name="centerr"/>
+  <anchor x="316" y="744" name="cross"/>
+  <anchor x="555" y="1490" name="raccent"/>
+  <anchor x="328" y="876" name="top"/>
   <outline>
     <component base="l.ss02" xOffset="57"/>
-    <component base="_tildecross.cn" xOffset="-34" yOffset="-24"/>
+    <component base="_tildecross.cn" xOffset="-10" yOffset="-24"/>
   </outline>
   <lib>
     <dict>

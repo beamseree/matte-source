@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yhook" format="2">
-  <advance width="1316"/>
+  <advance width="1341"/>
   <unicode hex="01B4"/>
   <note>
 hook from /_part.top_r_hook
 </note>
-  <anchor x="707" y="0" name="bottom"/>
-  <anchor x="536" y="0" name="ogonek"/>
-  <anchor x="506" y="1076" name="top"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="552" y="0" name="ogonek"/>
+  <anchor x="522" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="913" y="1076" type="line"/>
-      <point x="961" y="1076" type="line"/>
-      <point x="1024" y="1265" type="line" smooth="yes"/>
-      <point x="1090" y="1453"/>
-      <point x="1138" y="1508"/>
-      <point x="1212" y="1508" type="curve" smooth="yes"/>
-      <point x="1240" y="1508"/>
-      <point x="1268" y="1501"/>
-      <point x="1286" y="1492" type="curve"/>
-      <point x="1307" y="1534" type="line"/>
-      <point x="1284" y="1546"/>
-      <point x="1245" y="1555"/>
-      <point x="1212" y="1555" type="curve" smooth="yes"/>
-      <point x="1115" y="1555"/>
-      <point x="1051" y="1482"/>
-      <point x="981" y="1283" type="curve" smooth="yes"/>
+      <point x="929" y="1076" type="line"/>
+      <point x="977" y="1076" type="line"/>
+      <point x="1040" y="1265" type="line" smooth="yes"/>
+      <point x="1106" y="1453"/>
+      <point x="1154" y="1508"/>
+      <point x="1228" y="1508" type="curve" smooth="yes"/>
+      <point x="1256" y="1508"/>
+      <point x="1284" y="1501"/>
+      <point x="1302" y="1492" type="curve"/>
+      <point x="1323" y="1534" type="line"/>
+      <point x="1300" y="1546"/>
+      <point x="1261" y="1555"/>
+      <point x="1228" y="1555" type="curve" smooth="yes"/>
+      <point x="1131" y="1555"/>
+      <point x="1067" y="1482"/>
+      <point x="997" y="1283" type="curve" smooth="yes"/>
     </contour>
     <component base="y"/>
   </outline>

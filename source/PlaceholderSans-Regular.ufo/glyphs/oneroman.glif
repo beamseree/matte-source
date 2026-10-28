@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oneroman" format="2">
-  <advance width="535"/>
+  <advance width="548"/>
   <unicode hex="2170"/>
-  <anchor x="229" y="0" name="bottom"/>
-  <anchor x="229" y="575" name="cross"/>
-  <anchor x="325" y="0" name="ogonek"/>
-  <anchor x="228" y="1485" name="top"/>
+  <anchor x="238" y="0" name="bottom"/>
+  <anchor x="238" y="575" name="cross"/>
+  <anchor x="334" y="0" name="ogonek"/>
+  <anchor x="237" y="1485" name="top"/>
   <outline>
     <component base="i" xOffset="-12"/>
   </outline>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romanhundred" format="2">
-  <advance width="1599"/>
+  <advance width="1600"/>
   <unicode hex="216D"/>
-  <anchor x="821" y="6" name="cedilla"/>
-  <anchor x="824" y="745" name="center"/>
-  <anchor x="828" y="1490" name="top"/>
-  <anchor x="1521" y="946" name="topr"/>
+  <anchor x="828" y="6" name="cedilla"/>
+  <anchor x="831" y="745" name="center"/>
+  <anchor x="835" y="1490" name="top"/>
+  <anchor x="1528" y="946" name="topr"/>
   <outline>
     <component base="C"/>
   </outline>

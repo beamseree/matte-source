@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F40" format="2">
-  <advance width="1271"/>
+  <advance width="1268"/>
   <unicode hex="1F40"/>
-  <anchor x="642" y="0" name="bottom"/>
-  <anchor x="642" y="538" name="center"/>
-  <anchor x="1203" y="535" name="ogonek"/>
-  <anchor x="642" y="1076" name="top"/>
-  <anchor x="642" y="1101" name="tophorn"/>
+  <anchor x="634" y="0" name="bottom"/>
+  <anchor x="634" y="538" name="center"/>
+  <anchor x="1195" y="535" name="ogonek"/>
+  <anchor x="634" y="1076" name="top"/>
+  <anchor x="634" y="1101" name="tophorn"/>
   <outline>
     <component base="o"/>
-    <component base="koronis" xOffset="441" yOffset="-42"/>
+    <component base="koronis" xOffset="433" yOffset="-42"/>
   </outline>
 </glyph>

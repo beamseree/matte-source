@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zlinebelow" format="2">
-  <advance width="1430"/>
+  <advance width="1465"/>
   <unicode hex="1E94"/>
-  <anchor x="714" y="0" name="bottom"/>
-  <anchor x="1361" y="0" name="bottomr"/>
-  <anchor x="720" y="745" name="cross"/>
-  <anchor x="720" y="1490" name="top"/>
+  <anchor x="719" y="0" name="bottom"/>
+  <anchor x="1366" y="0" name="bottomr"/>
+  <anchor x="725" y="745" name="cross"/>
+  <anchor x="725" y="1490" name="top"/>
   <outline>
     <component base="Z"/>
-    <component base="macronsub" xOffset="256"/>
+    <component base="macronsub" xOffset="261"/>
   </outline>
 </glyph>

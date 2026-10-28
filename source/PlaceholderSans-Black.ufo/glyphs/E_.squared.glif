@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="E.squared" format="2">
-  <advance width="2841"/>
+  <advance width="2828"/>
   <unicode hex="1F134"/>
   <anchor x="1422" y="0" name="bottom"/>
   <anchor x="1423" y="0" name="cedilla"/>
@@ -9,7 +9,7 @@
   <anchor x="1422" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="E" xOffset="768"/>
+    <component base="E" xOffset="752"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gcursive" format="2">
-  <advance width="1285"/>
+  <advance width="1281"/>
   <unicode hex="0261"/>
-  <anchor x="626" y="-413" name="bottom"/>
-  <anchor x="1001" y="547" name="cross"/>
-  <anchor x="633" y="1076" name="top"/>
-  <anchor x="1175" y="1076" name="topr"/>
+  <anchor x="621" y="-413" name="bottom"/>
+  <anchor x="996" y="547" name="cross"/>
+  <anchor x="628" y="1076" name="top"/>
+  <anchor x="1170" y="1076" name="topr"/>
   <outline>
     <component base="g"/>
   </outline>

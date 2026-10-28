@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldotbelowmacron.ss02" format="2">
-  <advance width="448"/>
+  <advance width="486"/>
   <unicode hex="E05A"/>
-  <anchor x="281" y="0" name="bottom"/>
-  <anchor x="230" y="717" name="centerr"/>
-  <anchor x="208" y="739" name="cross"/>
-  <anchor x="370" y="1490" name="raccent"/>
-  <anchor x="207" y="1815" name="top"/>
+  <anchor x="301" y="0" name="bottom"/>
+  <anchor x="250" y="717" name="centerr"/>
+  <anchor x="228" y="739" name="cross"/>
+  <anchor x="390" y="1490" name="raccent"/>
+  <anchor x="227" y="1815" name="top"/>
   <outline>
     <component base="l.ss02"/>
-    <component base="dotbelow" xOffset="109"/>
-    <component base="macroncomb" xOffset="-176" yOffset="372"/>
+    <component base="dotbelow" xOffset="129"/>
+    <component base="macroncomb" xOffset="-156" yOffset="372"/>
   </outline>
   <lib>
     <dict>

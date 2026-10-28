@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Y.squared" format="2">
-  <advance width="2841"/>
+  <advance width="2828"/>
   <unicode hex="1F148"/>
   <anchor x="1424" y="0" name="bottom"/>
   <anchor x="1425" y="323" name="cross"/>
@@ -9,7 +9,7 @@
   <anchor x="1420" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="Y" xOffset="681"/>
+    <component base="Y" xOffset="635"/>
   </outline>
   <lib>
     <dict>

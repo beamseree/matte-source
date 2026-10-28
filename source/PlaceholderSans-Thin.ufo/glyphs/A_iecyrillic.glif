@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Aiecyrillic" format="2">
-  <advance width="1930"/>
+  <advance width="1943"/>
   <unicode hex="04D4"/>
-  <anchor x="1254" y="1490" name="top"/>
+  <anchor x="1262" y="1490" name="top"/>
   <outline>
     <component base="AE"/>
   </outline>

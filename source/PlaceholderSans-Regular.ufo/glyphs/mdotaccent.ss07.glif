@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="mdotaccent.ss07" format="2">
-  <advance width="1809"/>
+  <advance width="1835"/>
   <unicode hex="E24A"/>
-  <anchor x="907" y="0" name="bottom"/>
-  <anchor x="1480" y="0" name="lfthook"/>
-  <anchor x="907" y="1462" name="top"/>
+  <anchor x="916" y="0" name="bottom"/>
+  <anchor x="1489" y="0" name="lfthook"/>
+  <anchor x="916" y="1462" name="top"/>
   <outline>
     <component base="m"/>
-    <component base="dotaccentcomb.ss07" xOffset="674" yOffset="-42"/>
+    <component base="dotaccentcomb.ss07" xOffset="683" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

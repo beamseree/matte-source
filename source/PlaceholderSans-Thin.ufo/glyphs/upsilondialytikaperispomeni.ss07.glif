@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upsilondialytikaperispomeni.ss07" format="2">
-  <advance width="1172"/>
+  <advance width="1177"/>
   <unicode hex="E2A8"/>
-  <anchor x="586" y="0" name="bottom"/>
-  <anchor x="990" y="355" name="ogonek"/>
-  <anchor x="602" y="1791" name="top"/>
+  <anchor x="581" y="0" name="bottom"/>
+  <anchor x="985" y="355" name="ogonek"/>
+  <anchor x="597" y="1791" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="dialytikaperispomeni.ss07" xOffset="185" yOffset="-42"/>
+    <component base="dialytikaperispomeni.ss07" xOffset="180" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

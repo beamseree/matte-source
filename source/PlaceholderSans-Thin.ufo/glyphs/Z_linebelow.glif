@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zlinebelow" format="2">
-  <advance width="1481"/>
+  <advance width="1475"/>
   <unicode hex="1E94"/>
   <anchor x="738" y="0" name="bottom"/>
   <anchor x="1368" y="0" name="bottomr"/>

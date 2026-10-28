@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F1D" format="2">
-  <advance width="1949"/>
+  <advance width="1974"/>
   <unicode hex="1F1D"/>
-  <anchor x="1350" y="0" name="bottom"/>
-  <anchor x="1350" y="0" name="cedilla"/>
-  <anchor x="1867" y="0" name="ogonek"/>
-  <anchor x="832" y="1490" name="tonos"/>
-  <anchor x="1350" y="1490" name="top"/>
+  <anchor x="1365" y="0" name="bottom"/>
+  <anchor x="1365" y="0" name="cedilla"/>
+  <anchor x="1882" y="0" name="ogonek"/>
+  <anchor x="847" y="1490" name="tonos"/>
+  <anchor x="1365" y="1490" name="top"/>
   <outline>
     <component base="E" xOffset="682"/>
-    <component base="uni1FDE.tonos" xOffset="-1" yOffset="-68"/>
+    <component base="uni1FDE.tonos" xOffset="14" yOffset="-68"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aturn.1" format="2">
-  <advance width="1187"/>
-  <anchor x="622" y="1076" name="top"/>
-  <anchor x="184" y="1076" name="topr"/>
-  <anchor x="184" y="1076" name="ogonek"/>
-  <anchor x="625" y="0" name="bottom"/>
-  <anchor x="184" y="0" name="bottomr"/>
+  <advance width="1207"/>
+  <anchor x="632" y="1076" name="top"/>
+  <anchor x="194" y="1076" name="topr"/>
+  <anchor x="194" y="1076" name="ogonek"/>
+  <anchor x="635" y="0" name="bottom"/>
+  <anchor x="194" y="0" name="bottomr"/>
   <outline>
-    <component base="a.1" xScale="-1.0" yScale="-1.0" xOffset="1187.0" yOffset="1076.0"/>
+    <component base="a.1" xScale="-1.0" yScale="-1.0" xOffset="1207.0" yOffset="1076.0"/>
   </outline>
   <lib>
     <dict>

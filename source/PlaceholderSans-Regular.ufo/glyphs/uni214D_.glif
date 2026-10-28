@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni214D" format="2">
-  <advance width="1795"/>
+  <advance width="1785"/>
   <unicode hex="214D"/>
-  <anchor x="1408" y="-9" name="bottom"/>
+  <anchor x="1397" y="-9" name="bottom"/>
   <anchor x="725" y="866" name="ogonek"/>
   <anchor x="233" y="1490" name="tonos"/>
-  <anchor x="1406" y="615" name="top"/>
-  <anchor x="1410" y="-9" name="cedilla"/>
-  <anchor x="1078" y="154" name="rthook"/>
+  <anchor x="1395" y="615" name="top"/>
+  <anchor x="1399" y="-9" name="cedilla"/>
+  <anchor x="1067" y="154" name="rthook"/>
   <outline>
     <component base="_part.A_frac"/>
     <component base="fraction" xOffset="742"/>

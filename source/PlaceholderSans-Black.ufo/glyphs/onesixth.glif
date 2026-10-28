@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onesixth" format="2">
-  <advance width="1914"/>
+  <advance width="1911"/>
   <unicode hex="2159"/>
   <outline>
     <component base="one.numr"/>
-    <component base="fraction" xOffset="640"/>
-    <component base="six.dnom" xOffset="1095"/>
+    <component base="fraction" xOffset="637"/>
+    <component base="six.dnom" xOffset="1092"/>
   </outline>
   <lib>
     <dict>

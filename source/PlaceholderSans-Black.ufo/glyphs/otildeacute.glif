@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildeacute" format="2">
-  <advance width="1271"/>
+  <advance width="1268"/>
   <unicode hex="1E4D"/>
-  <anchor x="642" y="0" name="bottom"/>
-  <anchor x="642" y="538" name="center"/>
-  <anchor x="1203" y="535" name="ogonek"/>
-  <anchor x="633" y="1851" name="top"/>
-  <anchor x="642" y="1101" name="tophorn"/>
+  <anchor x="634" y="0" name="bottom"/>
+  <anchor x="634" y="538" name="center"/>
+  <anchor x="1195" y="535" name="ogonek"/>
+  <anchor x="625" y="1851" name="top"/>
+  <anchor x="634" y="1101" name="tophorn"/>
   <outline>
     <component base="o"/>
-    <component base="tildeacute.lc" xOffset="132" yOffset="-42"/>
+    <component base="tildeacute.lc" xOffset="124" yOffset="-42"/>
   </outline>
 </glyph>

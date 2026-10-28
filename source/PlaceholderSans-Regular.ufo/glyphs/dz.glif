@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dz" format="2">
-  <advance width="2391"/>
+  <advance width="2429"/>
   <unicode hex="01F3"/>
-  <anchor x="1818" y="0" name="bottom"/>
-  <anchor x="1825" y="537" name="cross"/>
-  <anchor x="1825" y="1076" name="top"/>
-  <anchor x="1120" y="1490" name="topbar"/>
-  <anchor x="2317" y="0" name="bottomr"/>
-  <anchor x="1248" y="1490" name="raccent"/>
+  <anchor x="1845" y="0" name="bottom"/>
+  <anchor x="1852" y="537" name="cross"/>
+  <anchor x="1852" y="1076" name="top"/>
+  <anchor x="1140" y="1490" name="topbar"/>
+  <anchor x="2344" y="0" name="bottomr"/>
+  <anchor x="1268" y="1490" name="raccent"/>
   <outline>
     <component base="d"/>
-    <component base="z" xOffset="1276"/>
+    <component base="z" xOffset="1292"/>
   </outline>
   <lib>
     <dict>

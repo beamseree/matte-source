@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hdieresis.ss07" format="2">
-  <advance width="1182"/>
+  <advance width="1205"/>
   <unicode hex="E23C"/>
-  <anchor x="595" y="0" name="bottom"/>
-  <anchor x="241" y="0" name="cedilla"/>
-  <anchor x="324" y="1288" name="cross"/>
-  <anchor x="851" y="0" name="lfthook"/>
-  <anchor x="241" y="1876" name="top"/>
+  <anchor x="602" y="0" name="bottom"/>
+  <anchor x="248" y="0" name="cedilla"/>
+  <anchor x="331" y="1288" name="cross"/>
+  <anchor x="858" y="0" name="lfthook"/>
+  <anchor x="248" y="1876" name="top"/>
   <outline>
     <component base="h"/>
-    <component base="dieresiscomb.ss07" xOffset="-349" yOffset="372"/>
+    <component base="dieresiscomb.ss07" xOffset="-342" yOffset="372"/>
   </outline>
   <lib>
     <dict>

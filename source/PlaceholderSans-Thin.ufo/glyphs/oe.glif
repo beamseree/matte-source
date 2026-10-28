@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oe" format="2">
-  <advance width="2025"/>
+  <advance width="2108"/>
   <unicode hex="0153"/>
-  <anchor x="1453" y="0" name="bottom"/>
-  <anchor x="594" y="538" name="center"/>
-  <anchor x="1863" y="191" name="ogonek"/>
-  <anchor x="1453" y="1076" name="top"/>
-  <anchor x="594" y="1103" name="tophorn"/>
-  <anchor x="1457" y="0" name="cedilla"/>
+  <anchor x="1508" y="0" name="bottom"/>
+  <anchor x="614" y="538" name="center"/>
+  <anchor x="1918" y="191" name="ogonek"/>
+  <anchor x="1508" y="1076" name="top"/>
+  <anchor x="614" y="1103" name="tophorn"/>
+  <anchor x="1512" y="0" name="cedilla"/>
   <outline>
     <component base="o"/>
-    <component base="e" xOffset="883"/>
+    <component base="e" xOffset="919"/>
   </outline>
   <lib>
     <dict>

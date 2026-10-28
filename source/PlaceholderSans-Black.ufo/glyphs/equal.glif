@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal" format="2">
-  <advance width="1428"/>
+  <advance width="1434"/>
   <unicode hex="003D"/>
   <guideline x="408" y="832" angle="0"/>
   <outline>
     <contour>
-      <point x="187" y="702" type="line"/>
-      <point x="1241" y="702" type="line"/>
-      <point x="1241" y="1027" type="line"/>
-      <point x="187" y="1027" type="line"/>
+      <point x="190" y="702" type="line"/>
+      <point x="1244" y="702" type="line"/>
+      <point x="1244" y="1027" type="line"/>
+      <point x="190" y="1027" type="line"/>
     </contour>
     <contour>
-      <point x="187" y="183" type="line"/>
-      <point x="1241" y="183" type="line"/>
-      <point x="1241" y="510" type="line"/>
-      <point x="187" y="510" type="line"/>
+      <point x="190" y="183" type="line"/>
+      <point x="1244" y="183" type="line"/>
+      <point x="1244" y="510" type="line"/>
+      <point x="190" y="510" type="line"/>
     </contour>
   </outline>
   <lib>

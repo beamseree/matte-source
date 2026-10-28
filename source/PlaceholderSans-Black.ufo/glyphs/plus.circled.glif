@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plus.circled" format="2">
-  <advance width="2851"/>
+  <advance width="2846"/>
   <unicode hex="2295"/>
   <outline>
     <contour>
-      <point x="1271" y="62" type="line"/>
-      <point x="1576" y="62" type="line"/>
-      <point x="1576" y="1428" type="line"/>
-      <point x="1271" y="1428" type="line"/>
+      <point x="1269" y="62" type="line"/>
+      <point x="1574" y="62" type="line"/>
+      <point x="1574" y="1428" type="line"/>
+      <point x="1269" y="1428" type="line"/>
     </contour>
     <contour>
-      <point x="743" y="589" type="line"/>
-      <point x="2104" y="589" type="line"/>
-      <point x="2104" y="901" type="line"/>
-      <point x="743" y="901" type="line"/>
+      <point x="741" y="589" type="line"/>
+      <point x="2102" y="589" type="line"/>
+      <point x="2102" y="901" type="line"/>
+      <point x="741" y="901" type="line"/>
     </contour>
     <component base="largeCircle"/>
   </outline>

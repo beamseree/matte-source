@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iacute.1" format="2">
-  <advance width="1044"/>
+  <advance width="1046"/>
   <unicode hex="E012"/>
-  <anchor x="522" y="0" name="bottom"/>
-  <anchor x="520" y="788" name="cross"/>
-  <anchor x="978" y="0" name="ogonek"/>
-  <anchor x="1003" y="0" name="right"/>
-  <anchor x="69" y="1490" name="tonos"/>
-  <anchor x="522" y="1954" name="top"/>
+  <anchor x="523" y="0" name="bottom"/>
+  <anchor x="521" y="788" name="cross"/>
+  <anchor x="979" y="0" name="ogonek"/>
+  <anchor x="1004" y="0" name="right"/>
+  <anchor x="70" y="1490" name="tonos"/>
+  <anchor x="523" y="1954" name="top"/>
   <outline>
     <component base="I.1"/>
-    <component base="acutecomb" xOffset="208" yOffset="372"/>
+    <component base="acutecomb" xOffset="209" yOffset="372"/>
   </outline>
   <lib>
     <dict>

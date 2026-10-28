@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kturn" format="2">
-  <advance width="1209"/>
+  <advance width="1218"/>
   <unicode hex="029E"/>
   <guideline y="-572"/>
-  <anchor x="607" y="1076" name="top"/>
-  <anchor x="934" y="-372" name="bottom"/>
+  <anchor x="605" y="1076" name="top"/>
+  <anchor x="932" y="-372" name="bottom"/>
   <outline>
-    <component base="k" xScale="-1.0" yScale="-1.0" xOffset="1209.0" yOffset="1076.0"/>
+    <component base="k" xScale="-1.0" yScale="-1.0" xOffset="1218.0" yOffset="1076.0"/>
   </outline>
 </glyph>

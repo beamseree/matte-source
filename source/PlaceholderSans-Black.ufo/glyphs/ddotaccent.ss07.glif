@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ddotaccent.ss07" format="2">
-  <advance width="1290"/>
+  <advance width="1295"/>
   <unicode hex="E234"/>
-  <anchor x="638" y="0" name="bottom"/>
-  <anchor x="928" y="1288" name="cross"/>
-  <anchor x="503" y="1757" name="top"/>
-  <anchor x="1185" y="1490" name="topbar"/>
-  <anchor x="1194" y="0" name="bottomr"/>
-  <anchor x="1310" y="1490" name="raccent"/>
+  <anchor x="635" y="0" name="bottom"/>
+  <anchor x="925" y="1288" name="cross"/>
+  <anchor x="500" y="1757" name="top"/>
+  <anchor x="1182" y="1490" name="topbar"/>
+  <anchor x="1191" y="0" name="bottomr"/>
+  <anchor x="1307" y="1490" name="raccent"/>
   <outline>
     <component base="d"/>
-    <component base="dotaccentcomb.ss07" xOffset="168" yOffset="170"/>
+    <component base="dotaccentcomb.ss07" xOffset="165" yOffset="170"/>
   </outline>
   <lib>
     <dict>

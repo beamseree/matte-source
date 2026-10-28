@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ibreve.1" format="2">
-  <advance width="694"/>
+  <advance width="708"/>
   <unicode hex="E016"/>
-  <anchor x="347" y="0" name="bottom"/>
-  <anchor x="346" y="768" name="cross"/>
-  <anchor x="618" y="0" name="ogonek"/>
-  <anchor x="644" y="0" name="right"/>
-  <anchor x="118" y="1490" name="tonos"/>
-  <anchor x="347" y="1904" name="top"/>
+  <anchor x="354" y="0" name="bottom"/>
+  <anchor x="353" y="768" name="cross"/>
+  <anchor x="625" y="0" name="ogonek"/>
+  <anchor x="651" y="0" name="right"/>
+  <anchor x="125" y="1490" name="tonos"/>
+  <anchor x="354" y="1904" name="top"/>
   <outline>
     <component base="I.1"/>
-    <component base="brevecomb" xOffset="4" yOffset="372"/>
+    <component base="brevecomb" xOffset="11" yOffset="372"/>
   </outline>
   <lib>
     <dict>

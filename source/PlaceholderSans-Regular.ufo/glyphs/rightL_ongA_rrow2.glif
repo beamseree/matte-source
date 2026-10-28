@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightLongArrow2" format="2">
-  <advance width="5427"/>
+  <advance width="5492"/>
   <unicode hex="1F852"/>
   <outline>
     <contour>
-      <point x="4588" y="-25" type="line"/>
-      <point x="5254" y="652" type="line"/>
-      <point x="4588" y="1328" type="line"/>
-      <point x="4466" y="1200" type="line"/>
-      <point x="4924" y="745" type="line"/>
-      <point x="220" y="745" type="line"/>
-      <point x="220" y="559" type="line"/>
-      <point x="4924" y="559" type="line"/>
-      <point x="4466" y="104" type="line"/>
+      <point x="4624" y="-25" type="line"/>
+      <point x="5290" y="652" type="line"/>
+      <point x="4624" y="1328" type="line"/>
+      <point x="4502" y="1200" type="line"/>
+      <point x="4960" y="745" type="line"/>
+      <point x="256" y="745" type="line"/>
+      <point x="256" y="559" type="line"/>
+      <point x="4960" y="559" type="line"/>
+      <point x="4502" y="104" type="line"/>
     </contour>
   </outline>
   <lib>

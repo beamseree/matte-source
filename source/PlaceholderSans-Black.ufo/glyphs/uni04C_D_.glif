@@ -2,12 +2,12 @@
 <glyph name="uni04CD" format="2">
   <advance width="1967"/>
   <unicode hex="04CD"/>
-  <anchor x="977" y="0" name="bottom"/>
-  <anchor x="1844" y="0" name="cyrtic"/>
-  <anchor x="977" y="1490" name="top"/>
+  <anchor x="983" y="0" name="bottom"/>
+  <anchor x="1850" y="0" name="cyrtic"/>
+  <anchor x="983" y="1490" name="top"/>
   <outline>
     <component base="M"/>
-    <component base="_part.cyrtail" xOffset="1438"/>
+    <component base="_part.cyrtail" xOffset="1444"/>
   </outline>
   <lib>
     <dict>

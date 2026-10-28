@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ascriptturn" format="2">
-  <advance width="1328"/>
+  <advance width="1330"/>
   <unicode hex="0252"/>
-  <anchor x="668" y="0" name="bottom"/>
-  <anchor x="110" y="0" name="bottomr"/>
-  <anchor x="110" y="0" name="ogonek"/>
-  <anchor x="658" y="1076" name="top"/>
-  <anchor x="110" y="1076" name="topr"/>
+  <anchor x="669" y="0" name="bottom"/>
+  <anchor x="111" y="0" name="bottomr"/>
+  <anchor x="111" y="0" name="ogonek"/>
+  <anchor x="659" y="1076" name="top"/>
+  <anchor x="111" y="1076" name="topr"/>
   <outline>
-    <component base="a.1" xScale="-1" xOffset="1328"/>
+    <component base="a.1" xScale="-1" xOffset="1330"/>
   </outline>
   <lib>
     <dict>

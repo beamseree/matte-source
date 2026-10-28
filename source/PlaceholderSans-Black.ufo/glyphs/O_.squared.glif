@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="O.squared" format="2">
-  <advance width="2841"/>
+  <advance width="2828"/>
   <unicode hex="1F13E"/>
-  <anchor x="1421" y="0" name="bottom"/>
-  <anchor x="1421" y="745" name="center"/>
-  <anchor x="2199" y="744" name="ogonek"/>
-  <anchor x="795" y="1490" name="tonos"/>
-  <anchor x="1421" y="1490" name="top"/>
-  <anchor x="1421" y="1510" name="tophorn"/>
+  <anchor x="1415" y="0" name="bottom"/>
+  <anchor x="1415" y="745" name="center"/>
+  <anchor x="2193" y="744" name="ogonek"/>
+  <anchor x="789" y="1490" name="tonos"/>
+  <anchor x="1415" y="1490" name="top"/>
+  <anchor x="1415" y="1510" name="tophorn"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="O" xOffset="555"/>
+    <component base="O" xOffset="543"/>
   </outline>
   <lib>
     <dict>

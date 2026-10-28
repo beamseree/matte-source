@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ncurl" format="2">
-  <advance width="1537"/>
+  <advance width="1539"/>
   <unicode hex="0235"/>
-  <anchor x="606" y="0" name="bottom"/>
-  <anchor x="1103" y="0" name="bottomr"/>
-  <anchor x="110" y="0" name="lfthook"/>
-  <anchor x="606" y="1076" name="top"/>
-  <anchor x="465" y="1076" name="topr"/>
+  <anchor x="609" y="0" name="bottom"/>
+  <anchor x="1106" y="0" name="bottomr"/>
+  <anchor x="113" y="0" name="lfthook"/>
+  <anchor x="609" y="1076" name="top"/>
+  <anchor x="468" y="1076" name="topr"/>
   <outline>
     <component base="n"/>
-    <component base="_part.curl_sw" xOffset="351"/>
+    <component base="_part.curl_sw" xOffset="354"/>
   </outline>
   <lib>
     <dict>

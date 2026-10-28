@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lmidtilde" format="2">
-  <advance width="436"/>
+  <advance width="454"/>
   <unicode hex="026B"/>
-  <anchor x="215" y="0" name="bottom"/>
-  <anchor x="237" y="0" name="bottomr"/>
-  <anchor x="237" y="717" name="centerr"/>
-  <anchor x="215" y="739" name="cross"/>
-  <anchor x="377" y="1490" name="raccent"/>
-  <anchor x="211" y="841" name="top"/>
+  <anchor x="228" y="0" name="bottom"/>
+  <anchor x="250" y="0" name="bottomr"/>
+  <anchor x="250" y="717" name="centerr"/>
+  <anchor x="228" y="739" name="cross"/>
+  <anchor x="390" y="1490" name="raccent"/>
+  <anchor x="224" y="841" name="top"/>
   <outline>
     <component base="l"/>
-    <component base="_tildecross.cn" xOffset="-97" yOffset="-29"/>
+    <component base="_tildecross.cn" xOffset="-84" yOffset="-29"/>
   </outline>
 </glyph>

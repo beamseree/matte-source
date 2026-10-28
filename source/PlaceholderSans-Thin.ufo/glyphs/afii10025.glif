@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10025" format="2">
-  <advance width="1154"/>
+  <advance width="1171"/>
   <unicode hex="0417"/>
-  <anchor x="581" y="1490" name="top"/>
-  <anchor x="583" y="0" name="cedilla"/>
+  <anchor x="589" y="1490" name="top"/>
+  <anchor x="591" y="0" name="cedilla"/>
   <outline>
     <component base="three"/>
   </outline>

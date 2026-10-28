@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="c.subs" format="2">
-  <advance width="745"/>
+  <advance width="763"/>
   <unicode hex="E0AA"/>
-  <anchor x="403" y="-284" name="bottom"/>
-  <anchor x="403" y="-284" name="cedilla"/>
-  <anchor x="403" y="7" name="center"/>
-  <anchor x="403" y="299" name="top"/>
-  <anchor x="656" y="184" name="topr"/>
+  <anchor x="415" y="-284" name="bottom"/>
+  <anchor x="415" y="-284" name="cedilla"/>
+  <anchor x="415" y="7" name="center"/>
+  <anchor x="415" y="299" name="top"/>
+  <anchor x="668" y="184" name="topr"/>
   <outline>
     <component base="c.sups" yOffset="-1200"/>
   </outline>

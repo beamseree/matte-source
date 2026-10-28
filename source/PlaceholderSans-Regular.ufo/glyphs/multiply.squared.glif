@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="multiply.squared" format="2">
-  <advance width="2810"/>
+  <advance width="2828"/>
   <unicode hex="E157"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="multiply" xOffset="756" yOffset="163"/>
+    <component base="multiply" xOffset="748" yOffset="163"/>
   </outline>
   <lib>
     <dict>

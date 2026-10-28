@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Nj" format="2">
-  <advance width="2190"/>
+  <advance width="2215"/>
   <unicode hex="01CB"/>
-  <anchor x="1844" y="-393" name="bottom"/>
-  <anchor x="88" y="0" name="lfthook"/>
-  <anchor x="1500" y="0" name="lfthook2"/>
-  <anchor x="1902" y="1539" name="top"/>
-  <anchor x="1902" y="663" name="cross"/>
+  <anchor x="1867" y="-393" name="bottom"/>
+  <anchor x="116" y="0" name="lfthook"/>
+  <anchor x="1528" y="0" name="lfthook2"/>
+  <anchor x="1925" y="1539" name="top"/>
+  <anchor x="1925" y="663" name="cross"/>
   <outline>
     <component base="N"/>
-    <component base="j" xOffset="1621"/>
+    <component base="j" xOffset="1644"/>
   </outline>
   <lib>
     <dict>

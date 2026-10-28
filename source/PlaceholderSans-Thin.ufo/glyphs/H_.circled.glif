@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="H.circled" format="2">
-  <advance width="2841"/>
+  <advance width="2846"/>
   <unicode hex="24BD"/>
   <anchor x="1421" y="0" name="bottom"/>
   <anchor x="911" y="0" name="cedilla"/>
@@ -11,7 +11,7 @@
   <anchor x="1421" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="H" xOffset="694"/>
+    <component base="H" xOffset="690"/>
   </outline>
   <lib>
     <dict>

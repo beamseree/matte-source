@@ -4,7 +4,7 @@
   <unicode hex="E074"/>
   <anchor x="699" y="1490" name="top"/>
   <outline>
-    <component base="three" xOffset="2"/>
+    <component base="three"/>
   </outline>
   <lib>
     <dict>

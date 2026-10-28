@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onetenth" format="2">
-  <advance width="2253"/>
+  <advance width="2285"/>
   <unicode hex="2152"/>
-  <anchor x="1869" y="408" name="center"/>
-  <anchor x="1869" y="816" name="top"/>
+  <anchor x="1897" y="408" name="center"/>
+  <anchor x="1897" y="816" name="top"/>
   <outline>
     <component base="one.numr"/>
-    <component base="fraction" xOffset="568"/>
-    <component base="one.dnom" xOffset="966"/>
-    <component base="zero.dnom" xOffset="1484"/>
+    <component base="fraction" xOffset="580"/>
+    <component base="one.dnom" xOffset="978"/>
+    <component base="zero.dnom" xOffset="1508"/>
   </outline>
   <lib>
     <dict>

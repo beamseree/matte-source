@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Istroke" format="2">
-  <advance width="424"/>
+  <advance width="444"/>
   <unicode hex="0197"/>
   <note>
 effectiv sidebearings should match LSB of /t
 </note>
-  <anchor x="210" y="0" name="bottom"/>
-  <anchor x="210" y="768" name="cross"/>
-  <anchor x="233" y="0" name="ogonek"/>
-  <anchor x="241" y="0" name="right"/>
-  <anchor x="187" y="1490" name="tonos"/>
-  <anchor x="210" y="1490" name="top"/>
+  <anchor x="222" y="0" name="bottom"/>
+  <anchor x="222" y="768" name="cross"/>
+  <anchor x="245" y="0" name="ogonek"/>
+  <anchor x="253" y="0" name="right"/>
+  <anchor x="199" y="1490" name="tonos"/>
+  <anchor x="222" y="1490" name="top"/>
   <outline>
     <component base="I"/>
-    <component base="_part.crossbar_compact" xOffset="-55" yOffset="23"/>
+    <component base="_part.crossbar_compact" xOffset="-43" yOffset="23"/>
   </outline>
 </glyph>

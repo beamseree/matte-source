@@ -2,8 +2,8 @@
 <glyph name="Kappa" format="2">
   <advance width="1533"/>
   <unicode hex="039A"/>
-  <anchor x="746" y="0" name="bottom"/>
-  <anchor x="746" y="1490" name="top"/>
+  <anchor x="752" y="0" name="bottom"/>
+  <anchor x="752" y="1490" name="top"/>
   <outline>
     <component base="K"/>
   </outline>

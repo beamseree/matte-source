@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="v.sups" format="2">
-  <advance width="851"/>
+  <advance width="852"/>
   <unicode hex="1D5B"/>
   <anchor x="426" y="896" name="bottom"/>
   <anchor x="426" y="1520" name="top"/>

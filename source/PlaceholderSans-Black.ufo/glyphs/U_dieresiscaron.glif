@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresiscaron" format="2">
-  <advance width="1505"/>
+  <advance width="1513"/>
   <unicode hex="01D9"/>
-  <anchor x="742" y="0" name="bottom"/>
-  <anchor x="1387" y="536" name="ogonek"/>
-  <anchor x="866" y="0" name="right"/>
-  <anchor x="1011" y="1490" name="rtophorn"/>
-  <anchor x="734" y="2284" name="top"/>
+  <anchor x="756" y="0" name="bottom"/>
+  <anchor x="1401" y="536" name="ogonek"/>
+  <anchor x="880" y="0" name="right"/>
+  <anchor x="1025" y="1490" name="rtophorn"/>
+  <anchor x="748" y="2284" name="top"/>
   <outline>
     <component base="U"/>
-    <component base="dieresiscaroncomb.uc" xOffset="61"/>
+    <component base="dieresiscaroncomb.uc" xOffset="75"/>
   </outline>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="C.circled" format="2">
-  <advance width="2841"/>
+  <advance width="2846"/>
   <unicode hex="24B8"/>
-  <anchor x="1423" y="0" name="cedilla"/>
-  <anchor x="1416" y="745" name="center"/>
-  <anchor x="1423" y="1490" name="top"/>
-  <anchor x="2021" y="1024" name="topr"/>
+  <anchor x="1425" y="0" name="cedilla"/>
+  <anchor x="1418" y="745" name="center"/>
+  <anchor x="1425" y="1490" name="top"/>
+  <anchor x="2023" y="1024" name="topr"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="C" xOffset="672"/>
+    <component base="C" xOffset="661"/>
   </outline>
   <lib>
     <dict>

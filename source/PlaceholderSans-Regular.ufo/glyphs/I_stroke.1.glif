@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Istroke.1" format="2">
-  <advance width="875"/>
+  <advance width="907"/>
   <unicode hex="E00F"/>
-  <anchor x="438" y="0" name="bottom"/>
-  <anchor x="438" y="772" name="cross"/>
-  <anchor x="812" y="0" name="ogonek"/>
-  <anchor x="830" y="0" name="right"/>
-  <anchor x="79" y="1490" name="tonos"/>
-  <anchor x="438" y="1490" name="top"/>
+  <anchor x="454" y="0" name="bottom"/>
+  <anchor x="454" y="772" name="cross"/>
+  <anchor x="828" y="0" name="ogonek"/>
+  <anchor x="846" y="0" name="right"/>
+  <anchor x="95" y="1490" name="tonos"/>
+  <anchor x="454" y="1490" name="top"/>
   <outline>
     <component base="I.1"/>
-    <component base="_part.crossbar_compact" xOffset="76" yOffset="27"/>
+    <component base="_part.crossbar_compact" xOffset="92" yOffset="27"/>
   </outline>
   <lib>
     <dict>

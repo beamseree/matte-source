@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="d" format="2">
-  <advance width="1276"/>
+  <advance width="1292"/>
   <unicode hex="0064"/>
   <note>
 mirror of b
 </note>
-  <anchor x="598" y="0" name="bottom"/>
-  <anchor x="935" y="1288" name="cross"/>
-  <anchor x="580" y="1288" name="top"/>
-  <anchor x="1120" y="1490" name="topbar"/>
-  <anchor x="1099" y="0" name="bottomr"/>
-  <anchor x="1248" y="1490" name="raccent"/>
+  <anchor x="618" y="0" name="bottom"/>
+  <anchor x="955" y="1288" name="cross"/>
+  <anchor x="600" y="1288" name="top"/>
+  <anchor x="1140" y="1490" name="topbar"/>
+  <anchor x="1119" y="0" name="bottomr"/>
+  <anchor x="1268" y="1490" name="raccent"/>
   <outline>
-    <component base="b" xScale="-1" xOffset="1276"/>
+    <component base="b" xScale="-1" xOffset="1292"/>
   </outline>
   <lib>
     <dict>

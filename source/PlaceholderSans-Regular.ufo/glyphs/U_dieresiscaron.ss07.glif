@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresiscaron.ss07" format="2">
-  <advance width="1474"/>
+  <advance width="1494"/>
   <unicode hex="E215"/>
-  <anchor x="737" y="0" name="bottom"/>
-  <anchor x="1330" y="511" name="ogonek"/>
-  <anchor x="826" y="0" name="right"/>
-  <anchor x="1126" y="1490" name="rtophorn"/>
-  <anchor x="737" y="1879" name="top"/>
+  <anchor x="748" y="0" name="bottom"/>
+  <anchor x="1341" y="511" name="ogonek"/>
+  <anchor x="837" y="0" name="right"/>
+  <anchor x="1137" y="1490" name="rtophorn"/>
+  <anchor x="748" y="1879" name="top"/>
   <outline>
     <component base="U"/>
-    <component base="dieresiscaroncomb.uc.ss07" xOffset="142"/>
+    <component base="dieresiscaroncomb.uc.ss07" xOffset="153"/>
   </outline>
   <lib>
     <dict>

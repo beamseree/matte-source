@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dzcaron_" format="2">
-  <advance width="2613"/>
+  <advance width="2667"/>
   <unicode hex="01C5"/>
-  <anchor x="2040" y="0" name="bottom"/>
-  <anchor x="2047" y="537" name="cross"/>
-  <anchor x="2047" y="1519" name="top"/>
-  <anchor x="148" y="1490" name="topl"/>
-  <anchor x="2539" y="0" name="bottomr"/>
+  <anchor x="2083" y="0" name="bottom"/>
+  <anchor x="2090" y="537" name="cross"/>
+  <anchor x="2090" y="1519" name="top"/>
+  <anchor x="165" y="1490" name="topl"/>
+  <anchor x="2582" y="0" name="bottomr"/>
   <outline>
     <component base="D"/>
-    <component base="zcaron" xOffset="1498"/>
+    <component base="zcaron" xOffset="1530"/>
   </outline>
 </glyph>

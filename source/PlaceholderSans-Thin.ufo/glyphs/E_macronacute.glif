@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Emacronacute" format="2">
-  <advance width="1219"/>
+  <advance width="1247"/>
   <unicode hex="1E16"/>
-  <anchor x="657" y="0" name="bottom"/>
-  <anchor x="657" y="0" name="cedilla"/>
-  <anchor x="1124" y="0" name="ogonek"/>
-  <anchor x="191" y="1490" name="tonos"/>
-  <anchor x="657" y="1490" name="top"/>
+  <anchor x="665" y="0" name="bottom"/>
+  <anchor x="665" y="0" name="cedilla"/>
+  <anchor x="1132" y="0" name="ogonek"/>
+  <anchor x="199" y="1490" name="tonos"/>
+  <anchor x="665" y="1490" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="macronacutecomb.cn" xOffset="274"/>
+    <component base="macronacutecomb.cn" xOffset="282"/>
   </outline>
 </glyph>

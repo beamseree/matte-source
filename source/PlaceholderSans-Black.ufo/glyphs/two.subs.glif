@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two.subs" format="2">
-  <advance width="977"/>
+  <advance width="972"/>
   <unicode hex="2082"/>
-  <anchor x="576" y="83" name="cross"/>
-  <anchor x="488" y="528" name="top"/>
+  <anchor x="575" y="83" name="cross"/>
+  <anchor x="487" y="528" name="top"/>
   <outline>
     <component base="two.sups" yOffset="-1200"/>
   </outline>

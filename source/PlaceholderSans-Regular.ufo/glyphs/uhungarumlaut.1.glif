@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhungarumlaut.1" format="2">
-  <advance width="1186"/>
+  <advance width="1212"/>
   <unicode hex="EE3D"/>
-  <anchor x="593" y="0" name="bottom"/>
-  <anchor x="1051" y="410" name="ogonek"/>
-  <anchor x="514" y="1519" name="top"/>
+  <anchor x="602" y="0" name="bottom"/>
+  <anchor x="1060" y="410" name="ogonek"/>
+  <anchor x="523" y="1519" name="top"/>
   <outline>
     <component base="u.1"/>
-    <component base="hungarumlaut" xOffset="124" yOffset="-42"/>
+    <component base="hungarumlaut" xOffset="133" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

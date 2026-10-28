@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two.circled" format="2">
-  <advance width="2841"/>
+  <advance width="2846"/>
   <unicode hex="2461"/>
   <unicode hex="2781"/>
   <anchor x="1518" y="637" name="cross"/>
   <anchor x="1420" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="two" xOffset="810"/>
+    <component base="two" xOffset="806"/>
   </outline>
   <lib>
     <dict>

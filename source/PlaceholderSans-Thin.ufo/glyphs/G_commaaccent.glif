@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gcommaaccent" format="2">
-  <advance width="1458"/>
+  <advance width="1477"/>
   <unicode hex="0122"/>
-  <anchor x="728" y="0" name="bottom"/>
-  <anchor x="1040" y="354" name="cross"/>
-  <anchor x="728" y="1490" name="top"/>
-  <anchor x="1325" y="1024" name="topr"/>
+  <anchor x="741" y="0" name="bottom"/>
+  <anchor x="1053" y="354" name="cross"/>
+  <anchor x="741" y="1490" name="top"/>
+  <anchor x="1338" y="1024" name="topr"/>
   <outline>
     <component base="G"/>
-    <component base="commaaccent" xOffset="463"/>
+    <component base="commaaccent" xOffset="476"/>
   </outline>
 </glyph>

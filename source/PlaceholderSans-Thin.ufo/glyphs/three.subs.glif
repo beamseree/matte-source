@@ -2,7 +2,7 @@
 <glyph name="three.subs" format="2">
   <advance width="808"/>
   <unicode hex="2083"/>
-  <anchor x="410" y="483" name="top"/>
+  <anchor x="408" y="483" name="top"/>
   <outline>
     <component base="three.sups" yOffset="-1200"/>
   </outline>

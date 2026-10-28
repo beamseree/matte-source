@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedbl" format="2">
-  <advance width="722"/>
+  <advance width="754"/>
   <unicode hex="0022"/>
   <note>
 space in between:
@@ -11,7 +11,7 @@ space in between:
 </note>
   <outline>
     <component base="quotesingle"/>
-    <component base="quotesingle" xOffset="195"/>
+    <component base="quotesingle" xOffset="211"/>
   </outline>
   <lib>
     <dict>

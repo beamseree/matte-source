@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zerothird" format="2">
-  <advance width="2146"/>
+  <advance width="2148"/>
   <unicode hex="2189"/>
   <anchor x="429" y="1069" name="center"/>
-  <anchor x="1741" y="842" name="top"/>
+  <anchor x="1743" y="842" name="top"/>
   <outline>
     <component base="zero.numr"/>
     <component base="fraction" xOffset="857"/>
