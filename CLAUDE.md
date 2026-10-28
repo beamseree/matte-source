@@ -81,16 +81,37 @@ See README.md for the file layout, setup and commands.
   Regular and Black; Thin is unchanged. The mockups' arches get heavier toward the stem,
   where Inter's stay even or thin out: at 15 units from the stem, Regular's n, h, m and u
   were 80–85 units thinner than the mockup's, a 100, r 70, the bowls 25; Black's 30–45.
-  Now every joint is within 3 units of the mockup's at 15, 40 and 80 units from the stem
-  in Regular, and at 15 and 40 in Black, and Black r's arm is the mockup's weight all
-  along (it was 20–30 thinner). Further out our arches stay heavier, because their tops
-  are (see below): at 140 units Regular is 1–9 heavier (n, h, m, r 5–7, where they had
-  matched), and Black's n, h, m and u are 6–9 heavier at 80 and 14–21 at 140 (8–16
-  before). `tools/joints.py --check` prints these. þ has b's joints and takes the
+  Now every joint is within 3 units of the mockup's at 15, 40 and 80 units from the stem.
+  `tools/joints.py --check` prints these. þ has b's joints and takes the
   mockup's b. æ needed nothing: its a-bowl runs into the e's bowl, not a stem, so the
   joint is already the mockup a's weight in Regular (241/210/188/173 at 15/40/80/140,
   the mockup's 234/209/187/171) and heavier in Black (285/264/251/246, the mockup's
   229/215/216/231). The user chose this from `build/joints-compare/`.
+- **The arch and bowl tops are the mockups' depth, and r's arm is flat** (`tools/joints.py`
+  again, Regular and Black). Our counters stopped short of the mockups' tops (bottoms, in
+  u and the bowls), so the arches were heavy all across: n's arch was 198 units deep at
+  the top in Regular (the mockup's 178) and 339 in Black (310), the bowls of b, d, p, q
+  and þ 193 (178), and Black's n, h, m and u were 14–21 heavier at 140 units from the
+  stem. Each counter's edge now takes the mockup's shape all the way across, with our
+  outer edges, x-height and overshoot kept, so every arch and bowl is within 3 units of
+  the mockup's weight at 15–260 units from the stem (Black þ, which takes the mockup's b
+  scaled to its wider counter, up to 8 lighter at 200–260). Depths now: Regular n and h
+  179, m 180, u 178, the bowls 177–178 (mockups 178); Black n and h 316 (310), m 319–321
+  (314–315), u 313 (310), the bowls 307–311 (315). Where a depth differs, our outer edge
+  does and the counter keeps the mockup's weight under it: Black's shoulders are 5–6
+  lower than the mockup's 100–180 units out, and u and the bowls overshoot 13–22 at the
+  baseline where the mockups overshoot 25. The bowls' far sides are the mockup's weight
+  (Regular b 197 → 203 at mid-height, Black 364 → 370), and the counters join their far
+  stems where the mockups' do. r's arm is flat on top (1101) and underneath (903 in
+  Regular, 728 in Black; the mockups' 902 and 726) out to a square-cut terminal, as in
+  both mockups; it had drooped toward the end (Regular's underside 906 → 882, Black's
+  top 1101 → 1073), and its weight is now the mockup's out to the terminal. Outline
+  mismatch, Regular: n 2.4 → 0.9%, h 2.0 → 0.7, m 3.0 → 2.0, u 3.1 → 2.4, r 2.9 → 2.5,
+  b, d, p and q 2.6–3.1 → 1.4–1.9; Black: n 1.8 → 1.1, h 2.2 → 1.6, m 2.8 → 2.2, u 2.4 →
+  1.9, the bowls 1.6–1.7 → 1.4–1.5. Thin is unchanged: every top stroke there is 58 units
+  and every bottom 47, o, e and c too, and its screenshot shows nothing particular to the
+  arches. The user chose this from `build/arch-tops-compare/`, after a first fit that
+  turned sharply at the bowls' far sides (fixed by balancing the handles, see Decisions).
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -107,10 +128,9 @@ See README.md for the file layout, setup and commands.
   are already angled, within about 5° of the mockups' except Black e's lower one, 9°
   against 20°; c's and e's lower ends about 23 too high), R (Black's bowl bar 350 thick at
   the leg, the mockup's 428; leg join; Regular 15%), B (Black's middle bar 250 thick,
-  the mockup's 303), r (the arm's end hangs about 100 lower in the mockups), the arch
-  tops (too heavy: n's arch is 198 units deep at the top in Regular, the mockup's 178,
-  and 339 in Black, the mockup's 310, so our counters reach lower; that keeps the arches
-  heavier than the mockups' from about 80 units past the stem), j (Regular's hook,
+  the mockup's 303), Regular's o, e and c tops (10–14 units too deep, like the arches
+  were: their counters top out at 909–913, the mockups' at 923), the bottoms of u and
+  the bowls (they overshoot 14 and 22 in Regular, 13–14 in Black, the mockups 25), η and ƕ (drawn apart from n, they keep Inter's joints and tops), j (Regular's hook,
   14%), S and s (the spine: the mockups' bowls run into it higher on the right and lower
   on the left, up to 45 units in Regular S, whose spine is straight at 7° from level
   where ours is 13°; Black S's counters are 15–17 units shallower, tops 1177 and 315
@@ -194,15 +214,30 @@ See README.md for the file layout, setup and commands.
   curve on into the stem instead, and Thin still does; eraseOpenCorners leaves both
   shapes alone in every master (it doesn't see them as open corners), so they
   interpolate. m's second arch keeps its end, which the first arch's outer curve starts
-  from. Black r's arm moves its whole lower edge. Every curve keeps its far end. The moved
-  points are in `POINTS`, as x from the stem's edge (a point nothing moves) and y;
-  `--fit` remakes the table by least squares: the mockup's ink edge, aligned on the
-  stem's edge, up to `NEAR` units out (Regular 100, Black 60) and the curve's own
-  outline from `FAR` on (180, 130), so it keeps its shape further out. Black's are
-  shorter because its counters reach 28 units less high than the mockup's, so its inner
-  curves can only follow the mockup's that far. It refits from the current outlines, so
-  refit only after changing a joint's far end. Each changed glyph keeps its right
-  sidebearing, and `to_ufo.py` runs it after reshape.py.
+  from. The outer curves keep their far ends, so the x-height and overshoot stay. The
+  inner curves (and b's, p's and þ's counters) are fitted together with the curve beyond
+  the counter's top or bottom, against the mockup's whole counter edge: the top moves
+  with its handles level, and the far end slides along the far stem (n, h, m, u) or
+  across to the mockup's counter extremum (b, p; þ's stays, since it takes the mockup's
+  b scaled across to its own counter). Each target point is moved up or down by how far
+  our outer edge is from the mockup's at that x, so the counter keeps the mockup's depth
+  under our edge. `BALANCE` keeps each of these curves' two handles about the same
+  fraction of its box (now 54–70%, like the mockups' and Inter's): many handle pairs fit
+  the mockup's edge within a unit, and the closest was often one long and one short,
+  which turned sharply at the short end (the user saw it at the bowls' far sides). r's
+  lower edge is an "arm": a curve out of the stem, then a flat run to the terminal's
+  foot, which slides along the cut; "level" puts r's top, from the arch to the terminal,
+  at the mockup's 1101. The moved points are in `POINTS`, as x from the stem's edge (a
+  point nothing moves) and y. `--fit [kind ...]` remakes the table by least squares,
+  only the curves of the kinds named (`top` is the inner curves and counters fitted
+  with the curve beyond), keeping the other rows. The outer curves and a's inner curve
+  are fitted to the mockup's ink edge, aligned on the stem's edge, up to `NEAR` units out
+  (Regular 100, Black 60) and to their own outline from `FAR` on (180, 130). Black's
+  `NEAR` was set when its counters reached 28 units less high than the mockup's; now only
+  those curves use it, and at 100 they came only 1–2 units closer, so it stays. Refits
+  start from the current outlines, so refit only the curves you change (a full refit
+  moves the outer curves' handles a little each time). Each changed glyph keeps its
+  right sidebearing, and `to_ufo.py` runs it after reshape.py.
 - t's and f's crossbars stay apart through kerning, not shorter bars (the bars' reach
   is the mockups'): `tools/kern.py` sets glyph-to-glyph pairs tt, tf, ft and ff to leave
   `BAR_GAP` (60) between the bars in every master, on top of Inter's group kerning.
