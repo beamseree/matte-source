@@ -13604,7 +13604,7 @@
       <key>acutecomb</key>
       <string>mark</string>
       <key>acutedblcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>acutedotcomb.lc</key>
       <string>base</string>
       <key>acutedotcomb.lc.ss07</key>
@@ -13908,7 +13908,7 @@
       <key>brevegravecomb.cn</key>
       <string>base</string>
       <key>breveinvcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>breveinverteddoublecmb</key>
       <string>mark</string>
       <key>brevetildecomb.cn</key>

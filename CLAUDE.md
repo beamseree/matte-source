@@ -553,10 +553,16 @@ See README.md for the file layout, setup and commands.
   `tools/build.sh` calls `python -m fontmake` so it doesn't depend on script shebangs.
 - glyphsLib ignores `font.copyright`; set the copyright (name ID 0) in the masters'
   fontinfo.plist.
-- `acutedblcomb` (U+030B and Inter's PUA U+EEA7) is categorised "base" in the masters'
-  `public.openTypeCategories` and keeps its width, as in Inter, so U+030B after a letter
-  with no precomposed form shows as a spacing glyph, not attached. ő, ű, Ő and Ű are fine:
-  HarfBuzz and the ccmp feature compose them.
+- `acutedblcomb` and `breveinvcomb` were Inter's PUA-only marks (U+EEA7, U+EEAB) and
+  "base" in `public.openTypeCategories`, so U+030B and U+0311 were missing. Now they also
+  encode U+030B and U+0311 and are "mark" in every master, so they attach over letters
+  with no precomposed form (a̋, n̑); ő ű ȃ ȓ … still compose through HarfBuzz and ccmp.
+  Unlike the other combining marks they still have widths (Thin / Regular / Black:
+  acutedblcomb 827 / 984 / 1241, breveinvcomb 704 / 819 / 1026). HarfBuzz zeroes a mark's
+  advance, but fontbakery `gdef_spacing_marks` WARNs; zeroing them is the spacing pass's job.
+  The enclosing marks U+0488, U+0489, U+20DD and U+20DE (category Me) have no category,
+  so they are still outside GDEF's mark class (`gdef_mark_chars` WARN); U+0488 and U+0489
+  also have zero width, which fails `base_has_width`.
 - `imgtarget.py` finds letter edges at 2% coverage, which catches webp ringing, so some
   letter boxes in the screenshot targets are up to about 1 px (25 units) too wide on a
   side, and the fits matched them. That still affects Thin; Black's webp fit had N 1439
@@ -578,8 +584,8 @@ See README.md for the file layout, setup and commands.
   dot, the semicolon's dot and the circled forms. accents.py, dots.py and stacked.py
   undo all of this after it; fix derive.py itself before ever deriving again.
 - glyphsLib zeroes the combining marks' widths in the UFOs, and `public.openTypeCategories`
-  calls some combining marks "base" (breveinvcomb U+0311, breveacutecomb.cn ...), as
-  Inter's own glyphsLib build does.
+  calls some combining marks "base" (breveacutecomb.cn, acutesubcomb ..., all unencoded or
+  PUA-only), as Inter's own glyphsLib build does.
 - Re-running straighten.py, redraw.py, reshape.py, refit.py or joints.py on `source/`
   moves a few points by 1 unit since spacing.py shifted the outlines (Python rounds .5 to
   even, so an odd shift flips some roundings). Run spacing.py after them; the 1-unit
