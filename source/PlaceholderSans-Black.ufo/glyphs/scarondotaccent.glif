@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scarondotaccent" format="2">
-  <advance width="1087"/>
+  <advance width="1091"/>
   <unicode hex="1E67"/>
   <anchor x="543" y="0" name="bottom"/>
   <anchor x="549" y="0" name="cedilla"/>

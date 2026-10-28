@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbrevebelow" format="2">
-  <advance width="1505"/>
+  <advance width="1504"/>
   <unicode hex="1E2A"/>
   <guideline x="1064" y="260" angle="90"/>
   <anchor x="747" y="0" name="bottom"/>

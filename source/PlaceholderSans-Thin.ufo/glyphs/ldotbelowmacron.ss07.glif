@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldotbelowmacron.ss07" format="2">
-  <advance width="435"/>
+  <advance width="436"/>
   <unicode hex="E249"/>
   <anchor x="215" y="0" name="bottom"/>
   <anchor x="237" y="0" name="bottomr"/>

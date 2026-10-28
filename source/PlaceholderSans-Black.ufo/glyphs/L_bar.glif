@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lbar" format="2">
-  <advance width="1319"/>
+  <advance width="1321"/>
   <unicode hex="023D"/>
-  <anchor x="752" y="0" name="bottom"/>
-  <anchor x="502" y="745" name="cross"/>
-  <anchor x="755" y="872" name="dot"/>
-  <anchor x="838" y="1490" name="raccent"/>
-  <anchor x="417" y="1490" name="top"/>
+  <anchor x="754" y="0" name="bottom"/>
+  <anchor x="504" y="745" name="cross"/>
+  <anchor x="757" y="872" name="dot"/>
+  <anchor x="840" y="1490" name="raccent"/>
+  <anchor x="419" y="1490" name="top"/>
   <outline>
     <component base="L" xOffset="120"/>
-    <component base="crossbar_short.uc" xOffset="-6"/>
+    <component base="crossbar_short.uc" xOffset="-4"/>
   </outline>
   <lib>
     <dict>

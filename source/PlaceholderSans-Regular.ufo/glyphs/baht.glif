@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="baht" format="2">
-  <advance width="1393"/>
+  <advance width="1390"/>
   <unicode hex="0E3F"/>
-  <anchor x="667" y="0" name="bottom"/>
-  <anchor x="326" y="430" name="cross"/>
-  <anchor x="658" y="1490" name="top"/>
-  <anchor x="150" y="1490" name="topl"/>
+  <anchor x="665" y="0" name="bottom"/>
+  <anchor x="324" y="430" name="cross"/>
+  <anchor x="656" y="1490" name="top"/>
+  <anchor x="148" y="1490" name="topl"/>
   <outline>
     <contour>
-      <point x="607" y="-186" type="line"/>
-      <point x="736" y="-186" type="line"/>
-      <point x="736" y="1676" type="line"/>
-      <point x="607" y="1676" type="line"/>
+      <point x="605" y="-186" type="line"/>
+      <point x="734" y="-186" type="line"/>
+      <point x="734" y="1676" type="line"/>
+      <point x="605" y="1676" type="line"/>
     </contour>
     <component base="B"/>
   </outline>

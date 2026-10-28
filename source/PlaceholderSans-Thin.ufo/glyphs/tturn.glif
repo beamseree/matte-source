@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tturn" format="2">
-  <advance width="628"/>
+  <advance width="624"/>
   <unicode hex="0287"/>
   <anchor x="269" y="1118" name="top"/>
   <anchor x="252" y="1076" name="cedilla"/>
@@ -8,6 +8,6 @@
   <anchor x="340" y="-266" name="bottom"/>
   <anchor x="446" y="-450" name="raccent"/>
   <outline>
-    <component base="t" xScale="-1.0" yScale="-1.0" xOffset="628.0" yOffset="1076.0"/>
+    <component base="t" xScale="-1.0" yScale="-1.0" xOffset="624.0" yOffset="1076.0"/>
   </outline>
 </glyph>

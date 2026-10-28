@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iotatonos" format="2">
-  <advance width="791"/>
+  <advance width="790"/>
   <unicode hex="038A"/>
-  <anchor x="533" y="0" name="bottom"/>
-  <anchor x="533" y="772" name="cross"/>
-  <anchor x="635" y="0" name="ogonek"/>
-  <anchor x="652" y="0" name="right"/>
-  <anchor x="431" y="1490" name="tonos"/>
-  <anchor x="533" y="1490" name="top"/>
+  <anchor x="532" y="0" name="bottom"/>
+  <anchor x="532" y="772" name="cross"/>
+  <anchor x="634" y="0" name="ogonek"/>
+  <anchor x="651" y="0" name="right"/>
+  <anchor x="430" y="1490" name="tonos"/>
+  <anchor x="532" y="1490" name="top"/>
   <outline>
     <component base="I" xOffset="281"/>
-    <component base="tonos" xOffset="-71" yOffset="-68"/>
+    <component base="tonos" xOffset="-72" yOffset="-68"/>
   </outline>
   <lib>
     <dict>

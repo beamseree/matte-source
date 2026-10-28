@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lcurl" format="2">
-  <advance width="908"/>
+  <advance width="911"/>
   <unicode hex="0234"/>
-  <anchor x="291" y="0" name="bottom"/>
-  <anchor x="468" y="0" name="bottomr"/>
-  <anchor x="468" y="717" name="centerr"/>
-  <anchor x="291" y="739" name="cross"/>
-  <anchor x="591" y="1490" name="raccent"/>
-  <anchor x="292" y="1490" name="top"/>
+  <anchor x="294" y="0" name="bottom"/>
+  <anchor x="471" y="0" name="bottomr"/>
+  <anchor x="471" y="717" name="centerr"/>
+  <anchor x="294" y="739" name="cross"/>
+  <anchor x="594" y="1490" name="raccent"/>
+  <anchor x="295" y="1490" name="top"/>
   <outline>
     <component base="l"/>
-    <component base="_part.curl_sw" xOffset="-284"/>
+    <component base="_part.curl_sw" xOffset="-281"/>
   </outline>
   <lib>
     <dict>

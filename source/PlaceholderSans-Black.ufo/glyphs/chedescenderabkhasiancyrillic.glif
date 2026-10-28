@@ -2,12 +2,12 @@
 <glyph name="chedescenderabkhasiancyrillic" format="2">
   <advance width="1583"/>
   <unicode hex="04BF"/>
-  <anchor x="979" y="0" name="bottom"/>
-  <anchor x="984" y="0" name="cedilla"/>
-  <anchor x="1502" y="299" name="ogonek"/>
-  <anchor x="979" y="1076" name="top"/>
+  <anchor x="978" y="0" name="bottom"/>
+  <anchor x="983" y="0" name="cedilla"/>
+  <anchor x="1501" y="299" name="ogonek"/>
+  <anchor x="978" y="1076" name="top"/>
   <outline>
     <component base="cheabkhasiancyrillic"/>
-    <component base="cedillacomb" xOffset="509"/>
+    <component base="cedillacomb" xOffset="508"/>
   </outline>
 </glyph>

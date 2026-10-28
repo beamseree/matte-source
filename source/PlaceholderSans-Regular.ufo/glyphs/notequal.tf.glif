@@ -3,7 +3,7 @@
   <advance width="1328"/>
   <unicode hex="EE5B"/>
   <outline>
-    <component base="notequal" xOffset="12"/>
+    <component base="notequal" xOffset="14"/>
   </outline>
   <lib>
     <dict>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F3C.1" format="2">
-  <advance width="1256"/>
+  <advance width="1240"/>
   <unicode hex="E022"/>
-  <anchor x="901" y="0" name="bottom"/>
-  <anchor x="900" y="768" name="cross"/>
-  <anchor x="1172" y="0" name="ogonek"/>
-  <anchor x="1198" y="0" name="right"/>
-  <anchor x="672" y="1490" name="tonos"/>
-  <anchor x="901" y="1490" name="top"/>
+  <anchor x="893" y="0" name="bottom"/>
+  <anchor x="892" y="768" name="cross"/>
+  <anchor x="1164" y="0" name="ogonek"/>
+  <anchor x="1190" y="0" name="right"/>
+  <anchor x="664" y="1490" name="tonos"/>
+  <anchor x="893" y="1490" name="top"/>
   <outline>
     <component base="I.1" xOffset="546"/>
-    <component base="uni1FCE.tonos" xOffset="22" yOffset="-67"/>
+    <component base="uni1FCE.tonos" xOffset="14" yOffset="-67"/>
   </outline>
   <lib>
     <dict>

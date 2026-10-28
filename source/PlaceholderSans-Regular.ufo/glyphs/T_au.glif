@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tau" format="2">
-  <advance width="1331"/>
+  <advance width="1327"/>
   <unicode hex="03A4"/>
-  <anchor x="667" y="0" name="bottom"/>
-  <anchor x="769" y="0" name="bottomr"/>
-  <anchor x="668" y="0" name="cedilla"/>
-  <anchor x="667" y="749" name="cross"/>
-  <anchor x="769" y="0" name="cyrtic"/>
-  <anchor x="716" y="0" name="right"/>
-  <anchor x="667" y="1490" name="top"/>
+  <anchor x="664" y="0" name="bottom"/>
+  <anchor x="766" y="0" name="bottomr"/>
+  <anchor x="665" y="0" name="cedilla"/>
+  <anchor x="664" y="749" name="cross"/>
+  <anchor x="766" y="0" name="cyrtic"/>
+  <anchor x="713" y="0" name="right"/>
+  <anchor x="664" y="1490" name="top"/>
   <outline>
     <component base="T"/>
   </outline>

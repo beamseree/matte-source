@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="phook" format="2">
-  <advance width="1280"/>
+  <advance width="1279"/>
   <unicode hex="01A5"/>
   <anchor x="290" y="-401" name="bottom"/>
   <anchor x="286" y="-162" name="cross"/>

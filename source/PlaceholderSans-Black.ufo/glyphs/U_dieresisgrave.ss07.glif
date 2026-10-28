@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresisgrave.ss07" format="2">
-  <advance width="1507"/>
+  <advance width="1505"/>
   <unicode hex="E216"/>
-  <anchor x="743" y="0" name="bottom"/>
-  <anchor x="1388" y="536" name="ogonek"/>
-  <anchor x="867" y="0" name="right"/>
-  <anchor x="1012" y="1490" name="rtophorn"/>
-  <anchor x="743" y="1896" name="top"/>
+  <anchor x="742" y="0" name="bottom"/>
+  <anchor x="1387" y="536" name="ogonek"/>
+  <anchor x="866" y="0" name="right"/>
+  <anchor x="1011" y="1490" name="rtophorn"/>
+  <anchor x="742" y="1896" name="top"/>
   <outline>
     <component base="U"/>
-    <component base="dieresisgravecomb.uc.ss07" xOffset="74"/>
+    <component base="dieresisgravecomb.uc.ss07" xOffset="73"/>
   </outline>
   <lib>
     <dict>

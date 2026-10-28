@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Klinebelow" format="2">
-  <advance width="1303"/>
+  <advance width="1300"/>
   <unicode hex="1E34"/>
   <anchor x="689" y="0" name="bottom"/>
   <anchor x="689" y="1490" name="top"/>

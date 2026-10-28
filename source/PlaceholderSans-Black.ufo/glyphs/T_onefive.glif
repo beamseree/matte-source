@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tonefive" format="2">
-  <advance width="1353"/>
+  <advance width="1359"/>
   <unicode hex="01BC"/>
   <outline>
     <contour>
-      <point x="396" y="1490" type="line"/>
-      <point x="70" y="1490" type="line"/>
-      <point x="70" y="1165" type="line"/>
-      <point x="396" y="1165" type="line"/>
+      <point x="399" y="1490" type="line"/>
+      <point x="73" y="1490" type="line"/>
+      <point x="73" y="1165" type="line"/>
+      <point x="399" y="1165" type="line"/>
     </contour>
     <component base="five" xOffset="22"/>
   </outline>

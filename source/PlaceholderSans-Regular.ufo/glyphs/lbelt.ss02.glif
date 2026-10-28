@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lbelt.ss02" format="2">
-  <advance width="830"/>
+  <advance width="829"/>
   <unicode hex="E054"/>
   <anchor x="567" y="0" name="bottom"/>
   <anchor x="601" y="717" name="centerr"/>

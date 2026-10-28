@@ -2,13 +2,13 @@
 <glyph name="Etildebelow" format="2">
   <advance width="1267"/>
   <unicode hex="1E1A"/>
-  <anchor x="667" y="0" name="bottom"/>
-  <anchor x="667" y="0" name="cedilla"/>
-  <anchor x="1184" y="0" name="ogonek"/>
-  <anchor x="149" y="1490" name="tonos"/>
-  <anchor x="667" y="1490" name="top"/>
+  <anchor x="668" y="0" name="bottom"/>
+  <anchor x="668" y="0" name="cedilla"/>
+  <anchor x="1185" y="0" name="ogonek"/>
+  <anchor x="150" y="1490" name="tonos"/>
+  <anchor x="668" y="1490" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="tildesubcomb" xOffset="1267"/>
+    <component base="tildesubcomb" xOffset="1268"/>
   </outline>
 </glyph>

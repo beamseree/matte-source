@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ocaron" format="2">
-  <advance width="1272"/>
+  <advance width="1271"/>
   <unicode hex="01D2"/>
-  <anchor x="644" y="0" name="bottom"/>
-  <anchor x="644" y="538" name="center"/>
-  <anchor x="1205" y="535" name="ogonek"/>
-  <anchor x="644" y="1540" name="top"/>
-  <anchor x="644" y="1101" name="tophorn"/>
+  <anchor x="642" y="0" name="bottom"/>
+  <anchor x="642" y="538" name="center"/>
+  <anchor x="1203" y="535" name="ogonek"/>
+  <anchor x="642" y="1540" name="top"/>
+  <anchor x="642" y="1101" name="tophorn"/>
   <outline>
     <component base="o"/>
-    <component base="caroncomb" xOffset="148" yOffset="-42"/>
+    <component base="caroncomb" xOffset="146" yOffset="-42"/>
   </outline>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idieresis.ss07" format="2">
-  <advance width="414"/>
+  <advance width="415"/>
   <unicode hex="E240"/>
-  <anchor x="206" y="0" name="bottom"/>
-  <anchor x="206" y="560" name="cross"/>
-  <anchor x="230" y="0" name="ogonek"/>
-  <anchor x="206" y="1392" name="top"/>
+  <anchor x="207" y="0" name="bottom"/>
+  <anchor x="207" y="560" name="cross"/>
+  <anchor x="231" y="0" name="ogonek"/>
+  <anchor x="207" y="1392" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="dieresiscomb.ss07" xOffset="-377" yOffset="-42"/>
+    <component base="dieresiscomb.ss07" xOffset="-376" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

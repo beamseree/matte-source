@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ndotbelow.ss07" format="2">
-  <advance width="1619"/>
+  <advance width="1621"/>
   <unicode hex="E200"/>
   <anchor x="794" y="0" name="bottom"/>
   <anchor x="88" y="0" name="lfthook"/>

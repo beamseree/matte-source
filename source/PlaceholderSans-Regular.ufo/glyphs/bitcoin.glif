@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bitcoin" format="2">
-  <advance width="1393"/>
+  <advance width="1390"/>
   <unicode hex="20BF"/>
-  <anchor x="667" y="0" name="bottom"/>
-  <anchor x="326" y="430" name="cross"/>
-  <anchor x="658" y="1490" name="top"/>
-  <anchor x="150" y="1490" name="topl"/>
+  <anchor x="665" y="0" name="bottom"/>
+  <anchor x="324" y="430" name="cross"/>
+  <anchor x="656" y="1490" name="top"/>
+  <anchor x="148" y="1490" name="topl"/>
   <outline>
     <contour>
-      <point x="390" y="1414" type="line"/>
-      <point x="520" y="1414" type="line"/>
-      <point x="520" y="1676" type="line"/>
-      <point x="390" y="1676" type="line"/>
+      <point x="388" y="1414" type="line"/>
+      <point x="518" y="1414" type="line"/>
+      <point x="518" y="1676" type="line"/>
+      <point x="388" y="1676" type="line"/>
     </contour>
     <contour>
-      <point x="713" y="1414" type="line"/>
-      <point x="842" y="1414" type="line"/>
-      <point x="842" y="1676" type="line"/>
-      <point x="713" y="1676" type="line"/>
+      <point x="711" y="1414" type="line"/>
+      <point x="840" y="1414" type="line"/>
+      <point x="840" y="1676" type="line"/>
+      <point x="711" y="1676" type="line"/>
     </contour>
     <contour>
-      <point x="390" y="-186" type="line"/>
-      <point x="520" y="-186" type="line"/>
-      <point x="520" y="76" type="line"/>
-      <point x="390" y="76" type="line"/>
+      <point x="388" y="-186" type="line"/>
+      <point x="518" y="-186" type="line"/>
+      <point x="518" y="76" type="line"/>
+      <point x="388" y="76" type="line"/>
     </contour>
     <contour>
-      <point x="713" y="-186" type="line"/>
-      <point x="842" y="-186" type="line"/>
-      <point x="842" y="76" type="line"/>
-      <point x="713" y="76" type="line"/>
+      <point x="711" y="-186" type="line"/>
+      <point x="840" y="-186" type="line"/>
+      <point x="840" y="76" type="line"/>
+      <point x="711" y="76" type="line"/>
     </contour>
     <component base="B"/>
   </outline>

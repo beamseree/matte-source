@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="udieresismacron.ss07" format="2">
-  <advance width="1223"/>
+  <advance width="1222"/>
   <unicode hex="E266"/>
   <anchor x="623" y="0" name="bottom"/>
   <anchor x="1105" y="0" name="ogonek"/>

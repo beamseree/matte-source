@@ -2,10 +2,10 @@
 <glyph name="Rdotbelow" format="2">
   <advance width="1425"/>
   <unicode hex="1E5A"/>
-  <anchor x="718" y="0" name="bottom"/>
-  <anchor x="693" y="1490" name="top"/>
+  <anchor x="717" y="0" name="bottom"/>
+  <anchor x="692" y="1490" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="dotbelow" xOffset="370"/>
+    <component base="dotbelow" xOffset="369"/>
   </outline>
 </glyph>

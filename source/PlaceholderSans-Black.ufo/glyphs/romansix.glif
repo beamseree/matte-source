@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romansix" format="2">
-  <advance width="2159"/>
+  <advance width="2168"/>
   <unicode hex="2165"/>
-  <anchor x="1857" y="0" name="bottom"/>
-  <anchor x="1860" y="1490" name="top"/>
-  <anchor x="1857" y="788" name="cross"/>
-  <anchor x="2047" y="0" name="ogonek"/>
-  <anchor x="2072" y="0" name="right"/>
-  <anchor x="1670" y="1490" name="tonos"/>
+  <anchor x="1866" y="0" name="bottom"/>
+  <anchor x="1869" y="1490" name="top"/>
+  <anchor x="1866" y="788" name="cross"/>
+  <anchor x="2056" y="0" name="ogonek"/>
+  <anchor x="2081" y="0" name="right"/>
+  <anchor x="1679" y="1490" name="tonos"/>
   <outline>
     <component base="V"/>
-    <component base="I" xOffset="1560"/>
+    <component base="I" xOffset="1569"/>
   </outline>
 </glyph>

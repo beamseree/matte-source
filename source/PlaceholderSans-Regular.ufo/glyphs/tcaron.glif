@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcaron" format="2">
-  <advance width="829"/>
+  <advance width="826"/>
   <unicode hex="0165"/>
-  <anchor x="408" y="0" name="bottom"/>
-  <anchor x="461" y="0" name="cedilla"/>
-  <anchor x="665" y="7" name="lfthook"/>
-  <anchor x="309" y="1384" name="top"/>
-  <anchor x="508" y="1562" name="raccent"/>
+  <anchor x="405" y="0" name="bottom"/>
+  <anchor x="458" y="0" name="cedilla"/>
+  <anchor x="662" y="7" name="lfthook"/>
+  <anchor x="306" y="1384" name="top"/>
+  <anchor x="505" y="1562" name="raccent"/>
   <outline>
     <component base="t"/>
-    <component base="commaaccentright.cn" xOffset="338" yOffset="72"/>
+    <component base="commaaccentright.cn" xOffset="335" yOffset="72"/>
   </outline>
   <lib>
     <dict>

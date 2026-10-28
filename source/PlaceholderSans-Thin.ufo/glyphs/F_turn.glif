@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Fturn" format="2">
-  <advance width="1182"/>
+  <advance width="1174"/>
   <unicode hex="2132"/>
-  <anchor x="921" y="1490" name="top"/>
-  <anchor x="975" y="1080" name="cross"/>
-  <anchor x="998" y="1490" name="lfthook"/>
-  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="917" y="1490" name="top"/>
+  <anchor x="971" y="1080" name="cross"/>
+  <anchor x="994" y="1490" name="lfthook"/>
+  <anchor x="596" y="0" name="bottom"/>
   <outline>
-    <component base="F" xScale="-1.0" yScale="-1.0" xOffset="1182.0" yOffset="1490.0"/>
+    <component base="F" xScale="-1.0" yScale="-1.0" xOffset="1174.0" yOffset="1490.0"/>
   </outline>
   <lib>
     <dict>

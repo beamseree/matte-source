@@ -2,11 +2,11 @@
 <glyph name="rturn" format="2">
   <advance width="973"/>
   <unicode hex="0279"/>
-  <anchor x="659" y="1160" name="top"/>
-  <anchor x="510" y="1076" name="topr"/>
-  <anchor x="685" y="560" name="cross"/>
-  <anchor x="551" y="0" name="bottom"/>
-  <anchor x="911" y="0" name="bottomr"/>
+  <anchor x="660" y="1160" name="top"/>
+  <anchor x="511" y="1076" name="topr"/>
+  <anchor x="686" y="560" name="cross"/>
+  <anchor x="552" y="0" name="bottom"/>
+  <anchor x="912" y="0" name="bottomr"/>
   <outline>
     <component base="r" xScale="-1.0" yScale="-1.0" xOffset="973.0" yOffset="1076.0"/>
   </outline>

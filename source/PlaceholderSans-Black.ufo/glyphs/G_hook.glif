@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ghook" format="2">
-  <advance width="1637"/>
+  <advance width="1640"/>
   <unicode hex="0193"/>
   <guideline x="1872" y="996" angle="90"/>
   <anchor x="835" y="0" name="bottom"/>

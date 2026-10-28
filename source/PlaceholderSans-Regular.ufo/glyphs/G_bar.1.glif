@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gbar.1" format="2">
-  <advance width="1568"/>
+  <advance width="1560"/>
   <unicode hex="E003"/>
-  <anchor x="783" y="0" name="bottom"/>
-  <anchor x="1184" y="398" name="cross"/>
-  <anchor x="787" y="1490" name="top"/>
-  <anchor x="1436" y="1019" name="topr"/>
+  <anchor x="779" y="0" name="bottom"/>
+  <anchor x="1180" y="398" name="cross"/>
+  <anchor x="783" y="1490" name="top"/>
+  <anchor x="1432" y="1019" name="topr"/>
   <outline>
     <component base="G.1"/>
-    <component base="_part.crossbar_compact_rext" xOffset="736" yOffset="-323"/>
+    <component base="_part.crossbar_compact_rext" xOffset="732" yOffset="-323"/>
   </outline>
   <lib>
     <dict>

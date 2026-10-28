@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scommaaccent.ss07" format="2">
-  <advance width="1047"/>
-  <anchor x="540" y="0" name="bottom"/>
-  <anchor x="538" y="0" name="cedilla"/>
-  <anchor x="129" y="247" name="rthook"/>
-  <anchor x="540" y="1076" name="top"/>
+  <advance width="1046"/>
+  <anchor x="541" y="0" name="bottom"/>
+  <anchor x="539" y="0" name="cedilla"/>
+  <anchor x="130" y="247" name="rthook"/>
+  <anchor x="541" y="1076" name="top"/>
   <outline>
     <component base="s"/>
-    <component base="commaaccent.ss07" xOffset="309"/>
+    <component base="commaaccent.ss07" xOffset="310"/>
   </outline>
   <lib>
     <dict>

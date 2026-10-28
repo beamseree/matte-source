@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Umacrondieresis.ss07" format="2">
-  <advance width="1507"/>
+  <advance width="1505"/>
   <unicode hex="E21A"/>
-  <anchor x="743" y="0" name="bottom"/>
-  <anchor x="1388" y="536" name="ogonek"/>
-  <anchor x="867" y="0" name="right"/>
-  <anchor x="1012" y="1490" name="rtophorn"/>
-  <anchor x="743" y="2270" name="top"/>
+  <anchor x="742" y="0" name="bottom"/>
+  <anchor x="1387" y="536" name="ogonek"/>
+  <anchor x="866" y="0" name="right"/>
+  <anchor x="1011" y="1490" name="rtophorn"/>
+  <anchor x="742" y="2270" name="top"/>
   <outline>
     <component base="U"/>
-    <component base="macrondieresiscomb.cn.ss07" xOffset="318"/>
+    <component base="macrondieresiscomb.cn.ss07" xOffset="317"/>
   </outline>
   <lib>
     <dict>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idieresisacute.ss07" format="2">
-  <advance width="428"/>
+  <advance width="424"/>
   <unicode hex="E1F7"/>
-  <anchor x="213" y="0" name="bottom"/>
-  <anchor x="213" y="768" name="cross"/>
-  <anchor x="236" y="0" name="ogonek"/>
-  <anchor x="244" y="0" name="right"/>
-  <anchor x="190" y="1490" name="tonos"/>
-  <anchor x="225" y="2262" name="top"/>
+  <anchor x="210" y="0" name="bottom"/>
+  <anchor x="210" y="768" name="cross"/>
+  <anchor x="233" y="0" name="ogonek"/>
+  <anchor x="241" y="0" name="right"/>
+  <anchor x="187" y="1490" name="tonos"/>
+  <anchor x="222" y="2262" name="top"/>
   <outline>
     <component base="I"/>
-    <component base="dieresisacutecomb.uc.ss07" xOffset="-354"/>
+    <component base="dieresisacutecomb.uc.ss07" xOffset="-357"/>
   </outline>
   <lib>
     <dict>

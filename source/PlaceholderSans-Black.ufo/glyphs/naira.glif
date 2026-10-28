@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="naira" format="2">
-  <advance width="1573"/>
+  <advance width="1575"/>
   <unicode hex="20A6"/>
   <anchor x="820" y="0" name="bottom"/>
   <anchor x="114" y="0" name="lfthook"/>

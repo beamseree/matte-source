@@ -2,12 +2,12 @@
 <glyph name="xdotaccent" format="2">
   <advance width="1040"/>
   <unicode hex="1E8B"/>
-  <anchor x="519" y="0" name="bottom"/>
-  <anchor x="959" y="0" name="cyrtic"/>
-  <anchor x="856" y="0" name="right"/>
-  <anchor x="519" y="1425" name="top"/>
+  <anchor x="520" y="0" name="bottom"/>
+  <anchor x="960" y="0" name="cyrtic"/>
+  <anchor x="857" y="0" name="right"/>
+  <anchor x="520" y="1425" name="top"/>
   <outline>
     <component base="x"/>
-    <component base="dotaccentcomb" xOffset="347" yOffset="-42"/>
+    <component base="dotaccentcomb" xOffset="348" yOffset="-42"/>
   </outline>
 </glyph>

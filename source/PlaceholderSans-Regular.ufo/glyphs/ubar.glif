@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ubar" format="2">
-  <advance width="1272"/>
+  <advance width="1273"/>
   <unicode hex="0289"/>
   <anchor x="637" y="0" name="bottom"/>
   <anchor x="1086" y="0" name="ogonek"/>

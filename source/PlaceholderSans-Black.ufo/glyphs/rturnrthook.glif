@@ -2,14 +2,14 @@
 <glyph name="rturnrthook" format="2">
   <advance width="973"/>
   <unicode hex="027B"/>
-  <anchor x="659" y="1160" name="top"/>
-  <anchor x="510" y="1076" name="topr"/>
-  <anchor x="685" y="560" name="cross"/>
-  <anchor x="551" y="0" name="bottom"/>
-  <anchor x="911" y="0" name="bottomr"/>
+  <anchor x="660" y="1160" name="top"/>
+  <anchor x="511" y="1076" name="topr"/>
+  <anchor x="686" y="560" name="cross"/>
+  <anchor x="552" y="0" name="bottom"/>
+  <anchor x="912" y="0" name="bottomr"/>
   <outline>
     <component base="rturn"/>
-    <component base="_part.bottom_rthook_r" xOffset="478"/>
+    <component base="_part.bottom_rthook_r" xOffset="479"/>
   </outline>
   <lib>
     <dict>

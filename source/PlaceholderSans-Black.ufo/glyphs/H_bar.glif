@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbar" format="2">
-  <advance width="1709"/>
+  <advance width="1710"/>
   <unicode hex="0126"/>
   <anchor x="838" y="0" name="bottom"/>
   <anchor x="377" y="0" name="cedilla"/>

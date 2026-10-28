@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gbar" format="2">
-  <advance width="1394"/>
+  <advance width="1393"/>
   <unicode hex="01E5"/>
   <anchor x="641" y="-436" name="bottom"/>
   <anchor x="1042" y="544" name="cross"/>

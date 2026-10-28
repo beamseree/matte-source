@@ -2,10 +2,10 @@
 <glyph name="vdotbelow" format="2">
   <advance width="1238"/>
   <unicode hex="1E7F"/>
-  <anchor x="620" y="0" name="bottom"/>
-  <anchor x="620" y="1076" name="top"/>
+  <anchor x="619" y="0" name="bottom"/>
+  <anchor x="619" y="1076" name="top"/>
   <outline>
     <component base="v"/>
-    <component base="dotbelow" xOffset="272"/>
+    <component base="dotbelow" xOffset="271"/>
   </outline>
 </glyph>

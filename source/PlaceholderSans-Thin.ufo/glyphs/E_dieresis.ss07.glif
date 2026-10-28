@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Edieresis.ss07" format="2">
-  <advance width="1220"/>
+  <advance width="1219"/>
   <unicode hex="E1EE"/>
-  <anchor x="656" y="0" name="bottom"/>
-  <anchor x="656" y="0" name="cedilla"/>
-  <anchor x="1123" y="0" name="ogonek"/>
-  <anchor x="190" y="1490" name="tonos"/>
-  <anchor x="656" y="1806" name="top"/>
+  <anchor x="657" y="0" name="bottom"/>
+  <anchor x="657" y="0" name="cedilla"/>
+  <anchor x="1124" y="0" name="ogonek"/>
+  <anchor x="191" y="1490" name="tonos"/>
+  <anchor x="657" y="1806" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="dieresiscomb.ss07" xOffset="73" yOffset="372"/>
+    <component base="dieresiscomb.ss07" xOffset="74" yOffset="372"/>
   </outline>
   <lib>
     <dict>

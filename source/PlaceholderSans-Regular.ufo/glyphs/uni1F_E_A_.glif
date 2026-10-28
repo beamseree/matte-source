@@ -2,14 +2,14 @@
 <glyph name="uni1FEA" format="2">
   <advance width="1443"/>
   <unicode hex="1FEA"/>
-  <anchor x="790" y="0" name="bottom"/>
-  <anchor x="790" y="379" name="cross"/>
-  <anchor x="892" y="0" name="ogonek"/>
-  <anchor x="158" y="1490" name="tonos"/>
-  <anchor x="789" y="1490" name="top"/>
+  <anchor x="791" y="0" name="bottom"/>
+  <anchor x="791" y="379" name="cross"/>
+  <anchor x="893" y="0" name="ogonek"/>
+  <anchor x="159" y="1490" name="tonos"/>
+  <anchor x="790" y="1490" name="top"/>
   <outline>
     <component base="Y" xOffset="150"/>
-    <component base="uni1FEF.tonos" xOffset="-343"/>
+    <component base="uni1FEF.tonos" xOffset="-342"/>
   </outline>
   <lib>
     <dict>

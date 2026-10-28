@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gmacron" format="2">
-  <advance width="1637"/>
+  <advance width="1640"/>
   <unicode hex="1E20"/>
   <anchor x="835" y="0" name="bottom"/>
   <anchor x="1274" y="434" name="cross"/>

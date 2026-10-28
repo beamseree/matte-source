@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F53" format="2">
-  <advance width="1168"/>
+  <advance width="1172"/>
   <unicode hex="1F53"/>
-  <anchor x="584" y="0" name="bottom"/>
-  <anchor x="988" y="355" name="ogonek"/>
-  <anchor x="584" y="1076" name="top"/>
+  <anchor x="586" y="0" name="bottom"/>
+  <anchor x="990" y="355" name="ogonek"/>
+  <anchor x="586" y="1076" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="dasiavaria" xOffset="241" yOffset="-42"/>
+    <component base="dasiavaria" xOffset="243" yOffset="-42"/>
   </outline>
 </glyph>

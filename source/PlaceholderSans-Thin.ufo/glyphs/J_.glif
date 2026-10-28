@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="J" format="2">
-  <advance width="902"/>
+  <advance width="894"/>
   <unicode hex="004A"/>
-  <anchor x="722" y="884" name="cross"/>
-  <anchor x="722" y="1490" name="top"/>
+  <anchor x="717" y="884" name="cross"/>
+  <anchor x="717" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="437" y="-20" type="curve" smooth="yes"/>
-      <point x="626" y="-20"/>
-      <point x="746" y="140"/>
-      <point x="746" y="396" type="curve" smooth="yes"/>
-      <point x="746" y="1490" type="line"/>
-      <point x="700" y="1490" type="line"/>
-      <point x="700" y="396" type="line" smooth="yes"/>
-      <point x="700" y="167"/>
-      <point x="601" y="26"/>
-      <point x="437" y="26" type="curve" smooth="yes"/>
-      <point x="274" y="26"/>
-      <point x="175" y="167"/>
-      <point x="175" y="396" type="curve" smooth="yes"/>
-      <point x="175" y="464" type="line"/>
-      <point x="129" y="464" type="line"/>
-      <point x="129" y="396" type="line" smooth="yes"/>
-      <point x="129" y="140"/>
-      <point x="248" y="-20"/>
+      <point x="432" y="-20" type="curve" smooth="yes"/>
+      <point x="621" y="-20"/>
+      <point x="741" y="140"/>
+      <point x="741" y="396" type="curve" smooth="yes"/>
+      <point x="741" y="1490" type="line"/>
+      <point x="695" y="1490" type="line"/>
+      <point x="695" y="396" type="line" smooth="yes"/>
+      <point x="695" y="167"/>
+      <point x="596" y="26"/>
+      <point x="432" y="26" type="curve" smooth="yes"/>
+      <point x="269" y="26"/>
+      <point x="170" y="167"/>
+      <point x="170" y="396" type="curve" smooth="yes"/>
+      <point x="170" y="464" type="line"/>
+      <point x="124" y="464" type="line"/>
+      <point x="124" y="396" type="line" smooth="yes"/>
+      <point x="124" y="140"/>
+      <point x="243" y="-20"/>
     </contour>
   </outline>
   <lib>

@@ -2,10 +2,10 @@
 <glyph name="Rdblgrave" format="2">
   <advance width="1385"/>
   <unicode hex="0210"/>
-  <anchor x="684" y="0" name="bottom"/>
-  <anchor x="656" y="1933" name="top"/>
+  <anchor x="685" y="0" name="bottom"/>
+  <anchor x="657" y="1933" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="dblgravecmb" xOffset="62" yOffset="372"/>
+    <component base="dblgravecmb" xOffset="63" yOffset="372"/>
   </outline>
 </glyph>

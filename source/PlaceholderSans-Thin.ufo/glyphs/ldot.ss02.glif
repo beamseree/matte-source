@@ -2,11 +2,11 @@
 <glyph name="ldot.ss02" format="2">
   <advance width="496"/>
   <unicode hex="E055"/>
-  <anchor x="278" y="0" name="bottom"/>
-  <anchor x="227" y="717" name="centerr"/>
-  <anchor x="205" y="739" name="cross"/>
-  <anchor x="367" y="1490" name="raccent"/>
-  <anchor x="204" y="1490" name="top"/>
+  <anchor x="281" y="0" name="bottom"/>
+  <anchor x="230" y="717" name="centerr"/>
+  <anchor x="208" y="739" name="cross"/>
+  <anchor x="370" y="1490" name="raccent"/>
+  <anchor x="207" y="1490" name="top"/>
   <outline>
     <component base="l.ss02"/>
     <component base="periodcentered" xOffset="127" yOffset="48"/>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dong" format="2">
-  <advance width="1272"/>
+  <advance width="1276"/>
   <unicode hex="20AB"/>
   <anchor x="598" y="0" name="bottom"/>
   <anchor x="935" y="1288" name="cross"/>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="S" format="2">
-  <advance width="1408"/>
+  <advance width="1411"/>
   <unicode hex="0053"/>
   <note>
 recipe: use stroke + offset curve filter with 32, no autostroke

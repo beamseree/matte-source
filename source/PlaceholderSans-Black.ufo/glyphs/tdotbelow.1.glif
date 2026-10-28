@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdotbelow.1" format="2">
-  <advance width="763"/>
+  <advance width="769"/>
   <unicode hex="EE22"/>
-  <anchor x="382" y="0" name="bottom"/>
-  <anchor x="426" y="0" name="cedilla"/>
-  <anchor x="705" y="15" name="lfthook"/>
-  <anchor x="291" y="1384" name="top"/>
-  <anchor x="636" y="1562" name="raccent"/>
+  <anchor x="385" y="0" name="bottom"/>
+  <anchor x="429" y="0" name="cedilla"/>
+  <anchor x="708" y="15" name="lfthook"/>
+  <anchor x="294" y="1384" name="top"/>
+  <anchor x="639" y="1562" name="raccent"/>
   <outline>
     <component base="t.1"/>
-    <component base="dotbelow" xOffset="34"/>
+    <component base="dotbelow" xOffset="37"/>
   </outline>
   <lib>
     <dict>

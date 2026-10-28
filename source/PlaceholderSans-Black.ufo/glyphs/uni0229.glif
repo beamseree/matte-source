@@ -2,12 +2,12 @@
 <glyph name="uni0229" format="2">
   <advance width="1211"/>
   <unicode hex="0229"/>
-  <anchor x="607" y="0" name="bottom"/>
-  <anchor x="612" y="0" name="cedilla"/>
-  <anchor x="1119" y="272" name="ogonek"/>
-  <anchor x="607" y="1076" name="top"/>
+  <anchor x="606" y="0" name="bottom"/>
+  <anchor x="611" y="0" name="cedilla"/>
+  <anchor x="1118" y="272" name="ogonek"/>
+  <anchor x="606" y="1076" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="cedillacomb" xOffset="137"/>
+    <component base="cedillacomb" xOffset="136"/>
   </outline>
 </glyph>

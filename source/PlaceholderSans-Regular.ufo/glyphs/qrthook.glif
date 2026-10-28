@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="qrthook" format="2">
-  <advance width="1251"/>
+  <advance width="1249"/>
   <unicode hex="024B"/>
-  <anchor x="613" y="0" name="bottom"/>
-  <anchor x="1112" y="0" name="bottomr"/>
-  <anchor x="1112" y="0" name="ogonek"/>
-  <anchor x="614" y="1076" name="top"/>
-  <anchor x="1112" y="1076" name="topr"/>
+  <anchor x="612" y="0" name="bottom"/>
+  <anchor x="1111" y="0" name="bottomr"/>
+  <anchor x="1111" y="0" name="ogonek"/>
+  <anchor x="613" y="1076" name="top"/>
+  <anchor x="1111" y="1076" name="topr"/>
   <outline>
     <component base="a.1"/>
-    <component base="_part.bottom_rthook_d" xOffset="808"/>
+    <component base="_part.bottom_rthook_d" xOffset="807"/>
   </outline>
   <lib>
     <dict>

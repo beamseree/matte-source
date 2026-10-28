@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rturnrthook" format="2">
-  <advance width="748"/>
+  <advance width="756"/>
   <unicode hex="027B"/>
-  <anchor x="475" y="1160" name="top"/>
-  <anchor x="505" y="1076" name="topr"/>
-  <anchor x="527" y="560" name="cross"/>
-  <anchor x="427" y="0" name="bottom"/>
-  <anchor x="551" y="0" name="bottomr"/>
+  <anchor x="482" y="1160" name="top"/>
+  <anchor x="512" y="1076" name="topr"/>
+  <anchor x="534" y="560" name="cross"/>
+  <anchor x="434" y="0" name="bottom"/>
+  <anchor x="558" y="0" name="bottomr"/>
   <outline>
     <component base="rturn"/>
-    <component base="_part.bottom_rthook_r" xOffset="447"/>
+    <component base="_part.bottom_rthook_r" xOffset="454"/>
   </outline>
   <lib>
     <dict>

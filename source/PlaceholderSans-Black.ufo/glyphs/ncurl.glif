@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ncurl" format="2">
-  <advance width="1534"/>
+  <advance width="1537"/>
   <unicode hex="0235"/>
   <anchor x="606" y="0" name="bottom"/>
   <anchor x="1103" y="0" name="bottomr"/>

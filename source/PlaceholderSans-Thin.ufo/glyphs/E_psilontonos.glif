@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Epsilontonos" format="2">
-  <advance width="1355"/>
+  <advance width="1354"/>
   <unicode hex="0388"/>
-  <anchor x="791" y="0" name="bottom"/>
-  <anchor x="791" y="0" name="cedilla"/>
-  <anchor x="1258" y="0" name="ogonek"/>
-  <anchor x="325" y="1490" name="tonos"/>
-  <anchor x="791" y="1490" name="top"/>
+  <anchor x="792" y="0" name="bottom"/>
+  <anchor x="792" y="0" name="cedilla"/>
+  <anchor x="1259" y="0" name="ogonek"/>
+  <anchor x="326" y="1490" name="tonos"/>
+  <anchor x="792" y="1490" name="top"/>
   <outline>
     <component base="E" xOffset="135"/>
-    <component base="tonos" xOffset="-22" yOffset="-67"/>
+    <component base="tonos" xOffset="-21" yOffset="-67"/>
   </outline>
   <lib>
     <dict>

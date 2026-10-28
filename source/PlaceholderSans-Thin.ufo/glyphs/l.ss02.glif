@@ -1,30 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.ss02" format="2">
-  <advance width="443"/>
+  <advance width="448"/>
   <unicode hex="E050"/>
-  <anchor x="278" y="0" name="bottom"/>
-  <anchor x="227" y="717" name="centerr"/>
-  <anchor x="205" y="739" name="cross"/>
-  <anchor x="367" y="1490" name="raccent"/>
-  <anchor x="204" y="1490" name="top"/>
+  <anchor x="281" y="0" name="bottom"/>
+  <anchor x="230" y="717" name="centerr"/>
+  <anchor x="208" y="739" name="cross"/>
+  <anchor x="370" y="1490" name="raccent"/>
+  <anchor x="207" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="410" y="-2" type="curve" smooth="yes"/>
-      <point x="416" y="0"/>
-      <point x="421" y="1"/>
-      <point x="427" y="3" type="curve"/>
-      <point x="415" y="47" type="line"/>
-      <point x="407" y="45"/>
-      <point x="415" y="47"/>
-      <point x="407" y="45" type="curve" smooth="yes"/>
-      <point x="301" y="20"/>
-      <point x="227" y="44"/>
-      <point x="227" y="170" type="curve" smooth="yes"/>
-      <point x="227" y="1490" type="line"/>
-      <point x="181" y="1490" type="line"/>
-      <point x="181" y="169" type="line" smooth="yes"/>
-      <point x="181" y="20"/>
-      <point x="275" y="-31"/>
+      <point x="413" y="-2" type="curve" smooth="yes"/>
+      <point x="419" y="0"/>
+      <point x="424" y="1"/>
+      <point x="430" y="3" type="curve"/>
+      <point x="418" y="47" type="line"/>
+      <point x="410" y="45"/>
+      <point x="418" y="47"/>
+      <point x="410" y="45" type="curve" smooth="yes"/>
+      <point x="304" y="20"/>
+      <point x="230" y="44"/>
+      <point x="230" y="170" type="curve" smooth="yes"/>
+      <point x="230" y="1490" type="line"/>
+      <point x="184" y="1490" type="line"/>
+      <point x="184" y="169" type="line" smooth="yes"/>
+      <point x="184" y="20"/>
+      <point x="278" y="-31"/>
     </contour>
   </outline>
   <lib>

@@ -6,10 +6,11 @@ tools/straighten.py, tools/redraw.py, tools/reshape.py and tools/refit.py fix ar
 every master, tools/joints.py thickens the joints of arches and bowls in Regular and Black,
 tools/spacing.py sets the letters', figures' and punctuation's sidebearings and the word
 space, tools/accents.py gives composites (accented letters) Inter's widths and puts their marks on
-their anchors, tools/kern.py keeps t's and f's crossbars apart, tools/dots.py gives the punctuation dots
-the i dot's size, tools/stacked.py puts stacked components (the semicolon's dot, the
-circled forms) where Inter has them, and tools/tabular.py gives the tabular glyphs one
-width per master.
+their anchors, tools/dots.py gives the punctuation dots the i dot's size, tools/stacked.py
+puts stacked components (the semicolon's dot, the circled forms) where Inter has them,
+tools/kerning.py refits Inter's kerning to our shapes and keeps pairs from colliding (all
+masters at once), tools/kern.py keeps t's and f's crossbars apart, and tools/tabular.py
+gives the tabular glyphs one width per master.
 
 Each SVG letter is scaled to font units (the "l" and capitals are 1490 units
 tall), sat on the baseline, and centred on the glyph's own outline.
@@ -41,6 +42,7 @@ import dots  # noqa: E402
 import imgtarget  # noqa: E402
 import joints  # noqa: E402
 import kern  # noqa: E402
+import kerning  # noqa: E402
 import redraw  # noqa: E402
 import refit  # noqa: E402
 import reshape  # noqa: E402
@@ -160,11 +162,13 @@ def main():
         joints.apply(source.font, MASTERS[source.location["Weight"]])
         spacing.apply(source.font, MASTERS[source.location["Weight"]])
         accents.apply(source.font, MASTERS[source.location["Weight"]])
-        kern.apply(source.font, MASTERS[source.location["Weight"]])
         dots.apply(source.font, MASTERS[source.location["Weight"]])
         stacked.apply(source.font, MASTERS[source.location["Weight"]])
-        tabular.apply(source.font, MASTERS[source.location["Weight"]])
     by_name = {MASTERS[s.location["Weight"]]: s for s in ds.sources}
+    kerning.apply_all({name: source.font for name, source in by_name.items()})
+    for name, source in by_name.items():
+        kern.apply(source.font, name)
+        tabular.apply(source.font, name)
     for spec in args.guides:
         name, path = spec.split("=", 1)
         letters = svg_letters(path) if path.endswith(".svg") else img_letters(path)

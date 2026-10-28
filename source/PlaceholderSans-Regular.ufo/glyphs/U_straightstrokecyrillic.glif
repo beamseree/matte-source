@@ -2,13 +2,13 @@
 <glyph name="Ustraightstrokecyrillic" format="2">
   <advance width="1293"/>
   <unicode hex="04B0"/>
-  <anchor x="640" y="0" name="bottom"/>
-  <anchor x="640" y="379" name="cross"/>
-  <anchor x="742" y="0" name="ogonek"/>
-  <anchor x="8" y="1490" name="tonos"/>
-  <anchor x="639" y="1490" name="top"/>
+  <anchor x="641" y="0" name="bottom"/>
+  <anchor x="641" y="379" name="cross"/>
+  <anchor x="743" y="0" name="ogonek"/>
+  <anchor x="9" y="1490" name="tonos"/>
+  <anchor x="640" y="1490" name="top"/>
   <outline>
     <component base="Y"/>
-    <component base="crossbar.uc" xOffset="188" yOffset="-366"/>
+    <component base="crossbar.uc" xOffset="189" yOffset="-366"/>
   </outline>
 </glyph>

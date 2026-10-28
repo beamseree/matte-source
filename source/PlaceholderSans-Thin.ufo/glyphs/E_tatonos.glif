@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Etatonos" format="2">
-  <advance width="1573"/>
+  <advance width="1570"/>
   <unicode hex="0389"/>
   <anchor x="861" y="0" name="bottom"/>
   <anchor x="351" y="0" name="cedilla"/>

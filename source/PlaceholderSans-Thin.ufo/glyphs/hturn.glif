@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hturn" format="2">
-  <advance width="1189"/>
+  <advance width="1191"/>
   <unicode hex="0265"/>
-  <anchor x="587" y="1118" name="top"/>
-  <anchor x="964" y="1076" name="cedilla"/>
-  <anchor x="941" y="-212" name="cross"/>
-  <anchor x="229" y="1076" name="lfthook"/>
-  <anchor x="964" y="-414" name="bottom"/>
+  <anchor x="588" y="1118" name="top"/>
+  <anchor x="965" y="1076" name="cedilla"/>
+  <anchor x="942" y="-212" name="cross"/>
+  <anchor x="230" y="1076" name="lfthook"/>
+  <anchor x="965" y="-414" name="bottom"/>
   <outline>
-    <component base="h" xScale="-1.0" yScale="-1.0" xOffset="1189.0" yOffset="1076.0"/>
+    <component base="h" xScale="-1.0" yScale="-1.0" xOffset="1191.0" yOffset="1076.0"/>
   </outline>
   <lib>
     <dict>

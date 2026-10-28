@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni037F" format="2">
-  <advance width="1118"/>
+  <advance width="1121"/>
   <unicode hex="037F"/>
-  <anchor x="812" y="884" name="cross"/>
-  <anchor x="816" y="1490" name="top"/>
+  <anchor x="814" y="884" name="cross"/>
+  <anchor x="818" y="1490" name="top"/>
   <outline>
     <component base="J"/>
   </outline>

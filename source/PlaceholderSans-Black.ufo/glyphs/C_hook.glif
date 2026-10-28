@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Chook" format="2">
-  <advance width="1598"/>
+  <advance width="1599"/>
   <unicode hex="0187"/>
   <guideline x="-1572"/>
   <anchor x="821" y="6" name="cedilla"/>

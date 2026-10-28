@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gcommaaccent.ss07" format="2">
-  <advance width="1556"/>
+  <advance width="1553"/>
   <anchor x="788" y="0" name="bottom"/>
   <anchor x="1194" y="398" name="cross"/>
   <anchor x="792" y="1490" name="top"/>

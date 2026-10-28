@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10034" format="2">
-  <advance width="1312"/>
+  <advance width="1311"/>
   <unicode hex="0420"/>
-  <anchor x="138" y="1490" name="tonos"/>
-  <anchor x="667" y="1490" name="top"/>
-  <anchor x="188" y="1490" name="topl"/>
+  <anchor x="137" y="1490" name="tonos"/>
+  <anchor x="666" y="1490" name="top"/>
+  <anchor x="187" y="1490" name="topl"/>
   <outline>
     <component base="P"/>
   </outline>

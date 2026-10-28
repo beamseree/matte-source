@@ -2,7 +2,7 @@
 <glyph name="bracketright.tf" format="2">
   <advance width="800"/>
   <unicode hex="EE4D"/>
-  <anchor x="422" y="651" name="cross"/>
+  <anchor x="421" y="651" name="cross"/>
   <outline>
     <component base="bracketright" xOffset="9"/>
   </outline>

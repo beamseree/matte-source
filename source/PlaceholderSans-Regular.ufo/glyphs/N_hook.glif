@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Nhook" format="2">
-  <advance width="1547"/>
+  <advance width="1544"/>
   <unicode hex="019D"/>
-  <anchor x="769" y="0" name="bottom"/>
-  <anchor x="146" y="0" name="lfthook"/>
-  <anchor x="1392" y="0" name="lfthook2"/>
-  <anchor x="769" y="1490" name="top"/>
+  <anchor x="768" y="0" name="bottom"/>
+  <anchor x="145" y="0" name="lfthook"/>
+  <anchor x="1391" y="0" name="lfthook2"/>
+  <anchor x="768" y="1490" name="top"/>
   <outline>
     <component base="N"/>
-    <component base="_part.bottom_lfthook_uc" xOffset="-170"/>
+    <component base="_part.bottom_lfthook_uc" xOffset="-171"/>
   </outline>
   <lib>
     <dict>

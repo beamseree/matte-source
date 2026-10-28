@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sixroman" format="2">
-  <advance width="1816"/>
+  <advance width="1817"/>
   <unicode hex="2175"/>
-  <anchor x="1529" y="0" name="bottom"/>
-  <anchor x="1526" y="1539" name="top"/>
-  <anchor x="1524" y="588" name="cross"/>
-  <anchor x="1703" y="0" name="ogonek"/>
+  <anchor x="1530" y="0" name="bottom"/>
+  <anchor x="1527" y="1539" name="top"/>
+  <anchor x="1525" y="588" name="cross"/>
+  <anchor x="1704" y="0" name="ogonek"/>
   <outline>
     <component base="v"/>
     <component base="i" xOffset="1238"/>

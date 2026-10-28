@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jcrosstail.ccmp" format="2">
-  <advance width="1110"/>
+  <advance width="1111"/>
   <unicode hex="E04F"/>
-  <anchor x="765" y="-460" name="bottom"/>
-  <anchor x="736" y="588" name="cross"/>
-  <anchor x="915" y="0" name="ogonek"/>
-  <anchor x="738" y="1076" name="top"/>
+  <anchor x="766" y="-460" name="bottom"/>
+  <anchor x="737" y="588" name="cross"/>
+  <anchor x="916" y="0" name="ogonek"/>
+  <anchor x="739" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="448" y="-444" type="curve" smooth="yes"/>
-      <point x="792" y="-444"/>
-      <point x="876" y="-227"/>
-      <point x="876" y="-11" type="curve" smooth="yes"/>
-      <point x="876" y="245" type="line"/>
-      <point x="526" y="245" type="line"/>
-      <point x="526" y="-127" type="line" smooth="yes"/>
-      <point x="526" y="-187"/>
-      <point x="516" y="-219"/>
-      <point x="443" y="-219" type="curve" smooth="yes"/>
-      <point x="395" y="-219"/>
-      <point x="350" y="-215"/>
-      <point x="352" y="-167" type="curve" smooth="yes"/>
-      <point x="352" y="-114"/>
-      <point x="404" y="-117"/>
-      <point x="455" y="-116" type="curve" smooth="yes"/>
-      <point x="1163" y="-116" type="line"/>
-      <point x="1163" y="130" type="line"/>
-      <point x="420" y="130" type="line" smooth="yes"/>
-      <point x="183" y="130"/>
-      <point x="58" y="17"/>
-      <point x="58" y="-152" type="curve" smooth="yes"/>
-      <point x="60" y="-328"/>
-      <point x="183" y="-444"/>
+      <point x="449" y="-444" type="curve" smooth="yes"/>
+      <point x="793" y="-444"/>
+      <point x="877" y="-227"/>
+      <point x="877" y="-11" type="curve" smooth="yes"/>
+      <point x="877" y="245" type="line"/>
+      <point x="527" y="245" type="line"/>
+      <point x="527" y="-127" type="line" smooth="yes"/>
+      <point x="527" y="-187"/>
+      <point x="517" y="-219"/>
+      <point x="444" y="-219" type="curve" smooth="yes"/>
+      <point x="396" y="-219"/>
+      <point x="351" y="-215"/>
+      <point x="353" y="-167" type="curve" smooth="yes"/>
+      <point x="353" y="-114"/>
+      <point x="405" y="-117"/>
+      <point x="456" y="-116" type="curve" smooth="yes"/>
+      <point x="1164" y="-116" type="line"/>
+      <point x="1164" y="130" type="line"/>
+      <point x="421" y="130" type="line" smooth="yes"/>
+      <point x="184" y="130"/>
+      <point x="59" y="17"/>
+      <point x="59" y="-152" type="curve" smooth="yes"/>
+      <point x="61" y="-328"/>
+      <point x="184" y="-444"/>
     </contour>
     <component base="idotless" xOffset="450"/>
   </outline>

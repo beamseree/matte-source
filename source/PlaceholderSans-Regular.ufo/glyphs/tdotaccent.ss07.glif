@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdotaccent.ss07" format="2">
-  <advance width="729"/>
+  <advance width="726"/>
   <unicode hex="E25F"/>
-  <anchor x="408" y="0" name="bottom"/>
-  <anchor x="461" y="0" name="cedilla"/>
-  <anchor x="665" y="7" name="lfthook"/>
-  <anchor x="309" y="1770" name="top"/>
-  <anchor x="508" y="1562" name="raccent"/>
+  <anchor x="405" y="0" name="bottom"/>
+  <anchor x="458" y="0" name="cedilla"/>
+  <anchor x="662" y="7" name="lfthook"/>
+  <anchor x="306" y="1770" name="top"/>
+  <anchor x="505" y="1562" name="raccent"/>
   <outline>
     <component base="t"/>
-    <component base="dotaccentcomb.ss07" xOffset="76" yOffset="266"/>
+    <component base="dotaccentcomb.ss07" xOffset="73" yOffset="266"/>
   </outline>
   <lib>
     <dict>

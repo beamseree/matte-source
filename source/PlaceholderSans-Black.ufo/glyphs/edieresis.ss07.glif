@@ -2,13 +2,13 @@
 <glyph name="edieresis.ss07" format="2">
   <advance width="1211"/>
   <unicode hex="E237"/>
-  <anchor x="607" y="0" name="bottom"/>
-  <anchor x="612" y="0" name="cedilla"/>
-  <anchor x="1119" y="272" name="ogonek"/>
-  <anchor x="607" y="1544" name="top"/>
+  <anchor x="606" y="0" name="bottom"/>
+  <anchor x="611" y="0" name="cedilla"/>
+  <anchor x="1118" y="272" name="ogonek"/>
+  <anchor x="606" y="1544" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="dieresiscomb.ss07" xOffset="-58" yOffset="-42"/>
+    <component base="dieresiscomb.ss07" xOffset="-59" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dzaltone" format="2">
-  <advance width="2247"/>
+  <advance width="2251"/>
   <unicode hex="02A3"/>
   <anchor x="598" y="0" name="bottom"/>
   <anchor x="935" y="1288" name="cross"/>

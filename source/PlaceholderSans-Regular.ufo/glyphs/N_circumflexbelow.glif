@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ncircumflexbelow" format="2">
-  <advance width="1547"/>
+  <advance width="1544"/>
   <unicode hex="1E4A"/>
-  <anchor x="769" y="0" name="bottom"/>
-  <anchor x="146" y="0" name="lfthook"/>
-  <anchor x="1392" y="0" name="lfthook2"/>
-  <anchor x="769" y="1490" name="top"/>
+  <anchor x="768" y="0" name="bottom"/>
+  <anchor x="145" y="0" name="lfthook"/>
+  <anchor x="1391" y="0" name="lfthook2"/>
+  <anchor x="768" y="1490" name="top"/>
   <outline>
     <component base="N"/>
-    <component base="circumflexsubcomb" xOffset="1365"/>
+    <component base="circumflexsubcomb" xOffset="1364"/>
   </outline>
 </glyph>

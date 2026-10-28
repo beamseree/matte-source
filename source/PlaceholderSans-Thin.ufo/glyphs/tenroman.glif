@@ -2,10 +2,10 @@
 <glyph name="tenroman" format="2">
   <advance width="1052"/>
   <unicode hex="2179"/>
-  <anchor x="499" y="0" name="bottom"/>
-  <anchor x="939" y="0" name="cyrtic"/>
-  <anchor x="836" y="0" name="right"/>
-  <anchor x="499" y="1076" name="top"/>
+  <anchor x="500" y="0" name="bottom"/>
+  <anchor x="940" y="0" name="cyrtic"/>
+  <anchor x="837" y="0" name="right"/>
+  <anchor x="500" y="1076" name="top"/>
   <outline>
     <component base="x" xOffset="-20"/>
   </outline>

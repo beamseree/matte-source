@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="henghook" format="2">
-  <advance width="1214"/>
+  <advance width="1217"/>
   <unicode hex="0267"/>
   <anchor x="606" y="0" name="bottom"/>
   <anchor x="1103" y="0" name="bottomr"/>

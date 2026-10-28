@@ -8,7 +8,8 @@ Inter puts it over the comma, the circled and squared letters, figures and signs
 centre in their circles and squares, and those glyphs' widths had drifted from their
 circle's or square's by up to 262 units.
 
-For each glyph in STACKED and every .circled and .squared glyph, the first component
+For each glyph in STACKED (ǂ's crossbars had moved 52 and 83 units apart) and every
+.circled and .squared glyph, the first component
 stays, and each other part (a component, or the glyph's own contours together) moves so
 that its ink centre sits as far from the first component's as in Inter's text-size
 masters. The width becomes the first component's plus Inter's difference. Anchors that
@@ -39,7 +40,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import tabular  # noqa: E402
 
 STACKED = ["semicolon", "semicolon.ss03", "semicolon.ss07", "colon.ss07", "uni2051",
-           "bullseye", "uni03FE", "uni03FF"]
+           "bullseye", "uni03FE", "uni03FF", "pipedblbar"]
 
 _inter = {}
 

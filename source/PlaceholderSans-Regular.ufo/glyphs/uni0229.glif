@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0229" format="2">
-  <advance width="1190"/>
+  <advance width="1189"/>
   <unicode hex="0229"/>
   <anchor x="597" y="0" name="bottom"/>
   <anchor x="599" y="0" name="cedilla"/>

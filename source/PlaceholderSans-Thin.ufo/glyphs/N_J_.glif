@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="NJ" format="2">
-  <advance width="2386"/>
+  <advance width="2373"/>
   <unicode hex="01CA"/>
-  <anchor x="748" y="0" name="bottom"/>
-  <anchor x="196" y="0" name="lfthook"/>
-  <anchor x="1300" y="0" name="lfthook2"/>
-  <anchor x="2206" y="1490" name="top"/>
-  <anchor x="2206" y="884" name="cross"/>
+  <anchor x="747" y="0" name="bottom"/>
+  <anchor x="195" y="0" name="lfthook"/>
+  <anchor x="1299" y="0" name="lfthook2"/>
+  <anchor x="2196" y="1490" name="top"/>
+  <anchor x="2196" y="884" name="cross"/>
   <outline>
     <component base="N"/>
-    <component base="J" xOffset="1484"/>
+    <component base="J" xOffset="1479"/>
   </outline>
 </glyph>

@@ -5,7 +5,7 @@
   <guideline x="12" y="1240" angle="0"/>
   <guideline x="12" y="764" angle="0"/>
   <outline>
-    <component base="comma" xOffset="-98"/>
+    <component base="comma" xOffset="-105"/>
   </outline>
   <lib>
     <dict>

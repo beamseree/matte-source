@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kacute" format="2">
-  <advance width="1303"/>
+  <advance width="1300"/>
   <unicode hex="1E30"/>
   <anchor x="689" y="0" name="bottom"/>
   <anchor x="693" y="1929" name="top"/>

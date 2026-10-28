@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zrthook" format="2">
-  <advance width="1198"/>
+  <advance width="1199"/>
   <unicode hex="0290"/>
   <guideline x="748" y="656" angle="90"/>
   <anchor x="598" y="0" name="bottom"/>

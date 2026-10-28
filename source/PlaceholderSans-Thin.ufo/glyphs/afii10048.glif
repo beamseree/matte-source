@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10048" format="2">
-  <advance width="1972"/>
+  <advance width="1968"/>
   <unicode hex="042E"/>
-  <anchor x="1178" y="0" name="bottom"/>
-  <anchor x="213" y="766" name="cross"/>
-  <anchor x="1854" y="744" name="ogonek"/>
-  <anchor x="244" y="-2" name="right"/>
-  <anchor x="651" y="1490" name="tonos"/>
-  <anchor x="1178" y="1490" name="top"/>
-  <anchor x="1178" y="745" name="center"/>
-  <anchor x="1178" y="1510" name="tophorn"/>
+  <anchor x="1175" y="0" name="bottom"/>
+  <anchor x="210" y="766" name="cross"/>
+  <anchor x="1851" y="744" name="ogonek"/>
+  <anchor x="241" y="-2" name="right"/>
+  <anchor x="648" y="1490" name="tonos"/>
+  <anchor x="1175" y="1490" name="top"/>
+  <anchor x="1175" y="745" name="center"/>
+  <anchor x="1175" y="1510" name="tophorn"/>
   <outline>
     <contour>
-      <point x="612" y="772" type="line"/>
-      <point x="211" y="772" type="line"/>
-      <point x="211" y="726" type="line"/>
-      <point x="612" y="726" type="line"/>
+      <point x="609" y="772" type="line"/>
+      <point x="208" y="772" type="line"/>
+      <point x="208" y="726" type="line"/>
+      <point x="609" y="726" type="line"/>
     </contour>
     <component base="I" yOffset="-2"/>
     <component base="O" xOffset="363"/>

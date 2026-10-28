@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="t.1" format="2">
-  <advance width="545"/>
+  <advance width="549"/>
   <unicode hex="EE06"/>
-  <anchor x="315" y="0" name="bottom"/>
-  <anchor x="315" y="0" name="cedilla"/>
-  <anchor x="457" y="4" name="lfthook"/>
-  <anchor x="202" y="1384" name="top"/>
-  <anchor x="367" y="1562" name="raccent"/>
+  <anchor x="317" y="0" name="bottom"/>
+  <anchor x="317" y="0" name="cedilla"/>
+  <anchor x="459" y="4" name="lfthook"/>
+  <anchor x="204" y="1384" name="top"/>
+  <anchor x="369" y="1562" name="raccent"/>
   <outline>
     <contour>
-      <point x="457" y="1076" type="line"/>
-      <point x="202" y="1076" type="line"/>
-      <point x="202" y="1030" type="line"/>
-      <point x="457" y="1030" type="line"/>
+      <point x="459" y="1076" type="line"/>
+      <point x="204" y="1076" type="line"/>
+      <point x="204" y="1030" type="line"/>
+      <point x="459" y="1030" type="line"/>
     </contour>
-    <component base="_part.t_base" xOffset="-62"/>
+    <component base="_part.t_base" xOffset="-60"/>
   </outline>
   <lib>
     <dict>

@@ -2,10 +2,10 @@
 <glyph name="two.tf" format="2">
   <advance width="1320"/>
   <unicode hex="E073"/>
-  <anchor x="755" y="637" name="cross"/>
-  <anchor x="657" y="1490" name="top"/>
+  <anchor x="754" y="637" name="cross"/>
+  <anchor x="656" y="1490" name="top"/>
   <outline>
-    <component base="two" xOffset="43"/>
+    <component base="two" xOffset="45"/>
   </outline>
   <lib>
     <dict>

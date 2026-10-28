@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldotbelow.ss07" format="2">
-  <advance width="497"/>
+  <advance width="496"/>
   <unicode hex="E248"/>
-  <anchor x="244" y="0" name="bottom"/>
-  <anchor x="342" y="0" name="bottomr"/>
-  <anchor x="342" y="717" name="centerr"/>
-  <anchor x="244" y="739" name="cross"/>
-  <anchor x="485" y="1490" name="raccent"/>
-  <anchor x="245" y="1490" name="top"/>
+  <anchor x="243" y="0" name="bottom"/>
+  <anchor x="341" y="0" name="bottomr"/>
+  <anchor x="341" y="717" name="centerr"/>
+  <anchor x="243" y="739" name="cross"/>
+  <anchor x="484" y="1490" name="raccent"/>
+  <anchor x="244" y="1490" name="top"/>
   <outline>
     <component base="l"/>
-    <component base="dotbelow.ss07" xOffset="17"/>
+    <component base="dotbelow.ss07" xOffset="16"/>
   </outline>
   <lib>
     <dict>

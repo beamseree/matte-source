@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lmidtilde.ss02" format="2">
-  <advance width="602"/>
+  <advance width="601"/>
   <unicode hex="E053"/>
   <guideline x="389" y="1392" angle="90"/>
   <anchor x="354" y="0" name="bottom"/>

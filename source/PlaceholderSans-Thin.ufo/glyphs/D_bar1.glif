@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dbar1" format="2">
-  <advance width="1468"/>
+  <advance width="1463"/>
   <unicode hex="0189"/>
   <note>
 effective LSB should be ~t
 </note>
-  <anchor x="576" y="0" name="bottom"/>
-  <anchor x="352" y="745" name="cross"/>
-  <anchor x="623" y="1490" name="top"/>
-  <anchor x="188" y="1490" name="topl"/>
+  <anchor x="572" y="0" name="bottom"/>
+  <anchor x="348" y="745" name="cross"/>
+  <anchor x="619" y="1490" name="top"/>
+  <anchor x="184" y="1490" name="topl"/>
   <outline>
     <component base="D"/>
-    <component base="crossbar_short.uc" xOffset="-26"/>
+    <component base="crossbar_short.uc" xOffset="-30"/>
   </outline>
 </glyph>

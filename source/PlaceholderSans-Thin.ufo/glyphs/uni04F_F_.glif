@@ -2,16 +2,16 @@
 <glyph name="uni04FF" format="2">
   <advance width="1040"/>
   <unicode hex="04FF"/>
-  <anchor x="519" y="0" name="bottom"/>
-  <anchor x="959" y="0" name="cyrtic"/>
-  <anchor x="856" y="0" name="right"/>
-  <anchor x="519" y="1076" name="top"/>
+  <anchor x="520" y="0" name="bottom"/>
+  <anchor x="960" y="0" name="cyrtic"/>
+  <anchor x="857" y="0" name="right"/>
+  <anchor x="520" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="141" y="529" type="line"/>
-      <point x="897" y="529" type="line"/>
-      <point x="897" y="572" type="line"/>
-      <point x="141" y="572" type="line"/>
+      <point x="142" y="529" type="line"/>
+      <point x="898" y="529" type="line"/>
+      <point x="898" y="572" type="line"/>
+      <point x="142" y="572" type="line"/>
     </contour>
     <component base="x"/>
   </outline>

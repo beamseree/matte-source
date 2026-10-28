@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tedescendercyrillic" format="2">
-  <advance width="1270"/>
+  <advance width="1265"/>
   <unicode hex="04AC"/>
-  <anchor x="638" y="0" name="bottom"/>
-  <anchor x="661" y="0" name="bottomr"/>
-  <anchor x="638" y="0" name="cedilla"/>
-  <anchor x="637" y="768" name="cross"/>
-  <anchor x="661" y="0" name="cyrtic"/>
-  <anchor x="649" y="0" name="right"/>
-  <anchor x="637" y="1490" name="top"/>
+  <anchor x="634" y="0" name="bottom"/>
+  <anchor x="657" y="0" name="bottomr"/>
+  <anchor x="634" y="0" name="cedilla"/>
+  <anchor x="633" y="768" name="cross"/>
+  <anchor x="657" y="0" name="cyrtic"/>
+  <anchor x="645" y="0" name="right"/>
+  <anchor x="633" y="1490" name="top"/>
   <outline>
     <component base="T"/>
-    <component base="_part.cyrtic" xOffset="602"/>
+    <component base="_part.cyrtic" xOffset="598"/>
   </outline>
 </glyph>

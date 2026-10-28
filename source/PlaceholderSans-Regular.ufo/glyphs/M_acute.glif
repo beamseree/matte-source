@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Macute" format="2">
-  <advance width="1857"/>
+  <advance width="1856"/>
   <unicode hex="1E3E"/>
-  <anchor x="923" y="0" name="bottom"/>
-  <anchor x="1699" y="0" name="cyrtic"/>
-  <anchor x="923" y="1933" name="top"/>
+  <anchor x="922" y="0" name="bottom"/>
+  <anchor x="1698" y="0" name="cyrtic"/>
+  <anchor x="922" y="1933" name="top"/>
   <outline>
     <component base="M"/>
-    <component base="acutecomb" xOffset="696" yOffset="372"/>
+    <component base="acutecomb" xOffset="695" yOffset="372"/>
   </outline>
 </glyph>

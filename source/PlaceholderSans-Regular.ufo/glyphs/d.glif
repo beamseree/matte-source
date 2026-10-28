@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="d" format="2">
-  <advance width="1272"/>
+  <advance width="1276"/>
   <unicode hex="0064"/>
   <note>
 mirror of b
@@ -12,7 +12,7 @@ mirror of b
   <anchor x="1099" y="0" name="bottomr"/>
   <anchor x="1248" y="1490" name="raccent"/>
   <outline>
-    <component base="b" xScale="-1" xOffset="1272"/>
+    <component base="b" xScale="-1" xOffset="1276"/>
   </outline>
   <lib>
     <dict>

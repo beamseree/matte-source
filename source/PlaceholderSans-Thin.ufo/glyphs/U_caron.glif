@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ucaron" format="2">
-  <advance width="1363"/>
+  <advance width="1366"/>
   <unicode hex="01D3"/>
-  <anchor x="685" y="0" name="bottom"/>
-  <anchor x="1213" y="504" name="ogonek"/>
-  <anchor x="746" y="0" name="right"/>
-  <anchor x="1165" y="1490" name="rtophorn"/>
-  <anchor x="685" y="1929" name="top"/>
+  <anchor x="686" y="0" name="bottom"/>
+  <anchor x="1214" y="504" name="ogonek"/>
+  <anchor x="747" y="0" name="right"/>
+  <anchor x="1166" y="1490" name="rtophorn"/>
+  <anchor x="686" y="1929" name="top"/>
   <outline>
     <component base="U"/>
-    <component base="caroncomb" xOffset="269" yOffset="372"/>
+    <component base="caroncomb" xOffset="270" yOffset="372"/>
   </outline>
 </glyph>

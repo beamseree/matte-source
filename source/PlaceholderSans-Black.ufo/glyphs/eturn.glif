@@ -2,10 +2,10 @@
 <glyph name="eturn" format="2">
   <advance width="1211"/>
   <unicode hex="01DD"/>
-  <anchor x="607" y="1160" name="top"/>
-  <anchor x="620" y="0" name="cedilla"/>
-  <anchor x="970" y="58" name="ogonek"/>
-  <anchor x="613" y="0" name="bottom"/>
+  <anchor x="608" y="1160" name="top"/>
+  <anchor x="621" y="0" name="cedilla"/>
+  <anchor x="971" y="58" name="ogonek"/>
+  <anchor x="614" y="0" name="bottom"/>
   <outline>
     <component base="e" xScale="-1.0" yScale="-1.0" xOffset="1211.0" yOffset="1076.0"/>
   </outline>

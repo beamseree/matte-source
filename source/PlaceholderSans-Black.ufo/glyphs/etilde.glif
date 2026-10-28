@@ -2,12 +2,12 @@
 <glyph name="etilde" format="2">
   <advance width="1211"/>
   <unicode hex="1EBD"/>
-  <anchor x="607" y="0" name="bottom"/>
-  <anchor x="612" y="0" name="cedilla"/>
-  <anchor x="1119" y="272" name="ogonek"/>
-  <anchor x="609" y="1528" name="top"/>
+  <anchor x="606" y="0" name="bottom"/>
+  <anchor x="611" y="0" name="cedilla"/>
+  <anchor x="1118" y="272" name="ogonek"/>
+  <anchor x="608" y="1528" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="tildecomb" xOffset="97" yOffset="-42"/>
+    <component base="tildecomb" xOffset="96" yOffset="-42"/>
   </outline>
 </glyph>
