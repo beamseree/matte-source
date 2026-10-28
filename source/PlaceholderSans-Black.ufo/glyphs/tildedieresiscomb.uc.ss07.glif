@@ -3,6 +3,7 @@
   <advance width="1022"/>
   <unicode hex="E2D8"/>
   <anchor x="510" y="1118" name="_top"/>
+  <anchor x="514" y="1898" name="top"/>
   <outline>
     <component base="tildedieresiscomb.lc.ss07"/>
   </outline>

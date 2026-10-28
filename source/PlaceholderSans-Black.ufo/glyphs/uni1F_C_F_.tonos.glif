@@ -3,6 +3,7 @@
   <advance width="797"/>
   <unicode hex="EE97"/>
   <anchor x="697" y="1570" name="_tonos"/>
+  <anchor x="404" y="1969" name="top"/>
   <outline>
     <component base="psiliperispomeni"/>
   </outline>

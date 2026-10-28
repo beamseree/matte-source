@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FFC" format="2">
-  <advance width="1531"/>
+  <advance width="1563"/>
   <unicode hex="1FFC"/>
   <anchor x="781" y="0" name="bottom"/>
   <anchor x="231" y="1490" name="tonos"/>
   <anchor x="781" y="1490" name="top"/>
   <outline>
     <component base="Omega"/>
-    <component base="uni1FBE" xOffset="542"/>
+    <component base="uni1FBE" xOffset="566"/>
   </outline>
 </glyph>

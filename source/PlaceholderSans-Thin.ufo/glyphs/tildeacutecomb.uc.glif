@@ -3,6 +3,7 @@
   <advance width="937"/>
   <unicode hex="E12A"/>
   <anchor x="482" y="1118" name="_top"/>
+  <anchor x="490" y="1890" name="top"/>
   <outline>
     <component base="tildeacute.lc"/>
   </outline>

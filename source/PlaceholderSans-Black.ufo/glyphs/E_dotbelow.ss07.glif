@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Edotbelow.ss07" format="2">
-  <advance width="1278"/>
+  <advance width="1280"/>
   <unicode hex="E1F0"/>
   <anchor x="654" y="0" name="bottom"/>
   <anchor x="655" y="0" name="cedilla"/>
@@ -9,7 +9,7 @@
   <anchor x="654" y="1490" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="dotbelow.ss07" xOffset="320"/>
+    <component base="dotbelow.ss07" xOffset="306"/>
   </outline>
   <lib>
     <dict>

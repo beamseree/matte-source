@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ndotaccent" format="2">
-  <advance width="1613"/>
+  <advance width="1619"/>
   <unicode hex="1E44"/>
-  <anchor x="796" y="0" name="bottom"/>
-  <anchor x="90" y="0" name="lfthook"/>
-  <anchor x="1502" y="0" name="lfthook2"/>
-  <anchor x="820" y="1972" name="top"/>
+  <anchor x="794" y="0" name="bottom"/>
+  <anchor x="88" y="0" name="lfthook"/>
+  <anchor x="1500" y="0" name="lfthook2"/>
+  <anchor x="794" y="1972" name="top"/>
   <outline>
     <component base="N"/>
-    <component base="dotaccentcomb" xOffset="482" yOffset="372"/>
+    <component base="dotaccentcomb" xOffset="456" yOffset="372"/>
   </outline>
 </glyph>

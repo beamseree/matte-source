@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="naira" format="2">
-  <advance width="1558"/>
+  <advance width="1573"/>
   <unicode hex="20A6"/>
-  <anchor x="822" y="0" name="bottom"/>
-  <anchor x="116" y="0" name="lfthook"/>
-  <anchor x="1528" y="0" name="lfthook2"/>
-  <anchor x="822" y="1490" name="top"/>
+  <anchor x="820" y="0" name="bottom"/>
+  <anchor x="114" y="0" name="lfthook"/>
+  <anchor x="1526" y="0" name="lfthook2"/>
+  <anchor x="820" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="1581" y="946" type="line"/>
-      <point x="19" y="946" type="line"/>
-      <point x="19" y="800" type="line"/>
-      <point x="1581" y="800" type="line"/>
+      <point x="1579" y="946" type="line"/>
+      <point x="17" y="946" type="line"/>
+      <point x="17" y="800" type="line"/>
+      <point x="1579" y="800" type="line"/>
     </contour>
     <contour>
-      <point x="1581" y="632" type="line"/>
-      <point x="19" y="632" type="line"/>
-      <point x="19" y="486" type="line"/>
-      <point x="1581" y="486" type="line"/>
+      <point x="1579" y="632" type="line"/>
+      <point x="17" y="632" type="line"/>
+      <point x="17" y="486" type="line"/>
+      <point x="1579" y="486" type="line"/>
     </contour>
     <component base="N" xOffset="26"/>
   </outline>

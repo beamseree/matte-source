@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upsilondieresistonos.ss07" format="2">
-  <advance width="1141"/>
+  <advance width="1168"/>
   <unicode hex="E2A3"/>
-  <anchor x="582" y="0" name="bottom"/>
-  <anchor x="986" y="355" name="ogonek"/>
-  <anchor x="352" y="1434" name="top"/>
+  <anchor x="584" y="0" name="bottom"/>
+  <anchor x="988" y="355" name="ogonek"/>
+  <anchor x="382" y="1392" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="dieresistonos.ss07" xOffset="-32"/>
+    <component base="dieresistonos.ss07" xOffset="-2" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

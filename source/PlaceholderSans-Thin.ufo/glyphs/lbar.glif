@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lbar" format="2">
-  <advance width="390"/>
+  <advance width="435"/>
   <unicode hex="019A"/>
-  <anchor x="202" y="0" name="bottom"/>
-  <anchor x="224" y="0" name="bottomr"/>
-  <anchor x="224" y="717" name="centerr"/>
-  <anchor x="202" y="739" name="cross"/>
-  <anchor x="364" y="1490" name="raccent"/>
-  <anchor x="201" y="1490" name="top"/>
+  <anchor x="215" y="0" name="bottom"/>
+  <anchor x="237" y="0" name="bottomr"/>
+  <anchor x="237" y="717" name="centerr"/>
+  <anchor x="215" y="739" name="cross"/>
+  <anchor x="377" y="1490" name="raccent"/>
+  <anchor x="214" y="1490" name="top"/>
   <outline>
     <component base="l"/>
-    <component base="crossbar" xOffset="-224" yOffset="23"/>
+    <component base="crossbar" xOffset="-194" yOffset="-6"/>
   </outline>
 </glyph>

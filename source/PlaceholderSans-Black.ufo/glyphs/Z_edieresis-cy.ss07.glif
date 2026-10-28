@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zedieresis-cy.ss07" format="2">
-  <advance width="1385"/>
+  <advance width="1382"/>
   <unicode hex="E290"/>
-  <anchor x="702" y="1958" name="top"/>
-  <anchor x="722" y="0" name="cedilla"/>
+  <anchor x="694" y="1958" name="top"/>
+  <anchor x="721" y="0" name="cedilla"/>
   <outline>
     <component base="afii10025"/>
-    <component base="dieresiscomb.ss07" xOffset="37" yOffset="372"/>
+    <component base="dieresiscomb.ss07" xOffset="29" yOffset="372"/>
   </outline>
   <lib>
     <dict>

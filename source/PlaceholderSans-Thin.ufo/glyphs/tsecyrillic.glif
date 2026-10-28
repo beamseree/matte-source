@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tsecyrillic" format="2">
-  <advance width="1079"/>
+  <advance width="1089"/>
   <unicode hex="0446"/>
   <note>
 !post:RemoveOverlap
@@ -9,7 +9,7 @@
   <anchor x="568" y="0" name="cyrtic_center"/>
   <outline>
     <component base="pecyrillicturn"/>
-    <component base="_part.cyrtic" xOffset="875"/>
+    <component base="_part.cyrtic" xOffset="899"/>
   </outline>
   <lib>
     <dict>

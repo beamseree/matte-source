@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rupee" format="2">
-  <advance width="2350"/>
+  <advance width="2337"/>
   <unicode hex="20A8"/>
   <anchor x="1818" y="0" name="bottom"/>
   <anchor x="1818" y="1076" name="top"/>
@@ -8,7 +8,7 @@
   <anchor x="1356" y="273" name="rthook"/>
   <outline>
     <component base="R"/>
-    <component base="s" xOffset="1280"/>
+    <component base="s" xOffset="1281"/>
   </outline>
   <lib>
     <dict>

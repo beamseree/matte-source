@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10039" format="2">
-  <advance width="1480"/>
+  <advance width="1457"/>
   <unicode hex="0425"/>
-  <anchor x="718" y="-1" name="bottom"/>
-  <anchor x="718" y="761" name="cross"/>
-  <anchor x="1359" y="0" name="cyrtic"/>
-  <anchor x="718" y="1490" name="top"/>
+  <anchor x="710" y="-1" name="bottom"/>
+  <anchor x="710" y="761" name="cross"/>
+  <anchor x="1351" y="0" name="cyrtic"/>
+  <anchor x="710" y="1490" name="top"/>
   <outline>
     <component base="X"/>
   </outline>

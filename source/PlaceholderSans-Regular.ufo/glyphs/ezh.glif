@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ezh" format="2">
-  <advance width="1273"/>
+  <advance width="1251"/>
   <unicode hex="0292"/>
-  <anchor x="635" y="1118" name="top"/>
+  <anchor x="622" y="1118" name="top"/>
   <outline>
     <component base="dzeabkhasiancyrillic"/>
   </outline>

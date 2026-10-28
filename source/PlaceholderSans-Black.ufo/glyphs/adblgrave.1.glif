@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="adblgrave.1" format="2">
-  <advance width="1336"/>
+  <advance width="1321"/>
   <unicode hex="E03B"/>
-  <anchor x="657" y="0" name="bottom"/>
-  <anchor x="1215" y="0" name="bottomr"/>
-  <anchor x="1215" y="0" name="ogonek"/>
-  <anchor x="677" y="1582" name="top"/>
-  <anchor x="1215" y="1076" name="topr"/>
+  <anchor x="656" y="0" name="bottom"/>
+  <anchor x="1214" y="0" name="bottomr"/>
+  <anchor x="1214" y="0" name="ogonek"/>
+  <anchor x="666" y="1540" name="top"/>
+  <anchor x="1214" y="1076" name="topr"/>
   <outline>
     <component base="a.1"/>
-    <component base="dblgravecmb" xOffset="-71"/>
+    <component base="dblgravecmb" xOffset="-82" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ustraightstrokecyrillic" format="2">
-  <advance width="1074"/>
+  <advance width="1103"/>
   <unicode hex="04B1"/>
   <anchor x="551" y="-24" name="cross"/>
   <outline>
     <component base="gamma"/>
-    <component base="crossbar" xOffset="122" yOffset="-768"/>
+    <component base="crossbar" xOffset="142" yOffset="-769"/>
   </outline>
 </glyph>

@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisgravecomb.lc.ss07" format="2">
-  <advance width="1348"/>
+  <advance width="1346"/>
   <unicode hex="E2D1"/>
   <guideline y="1632"/>
   <guideline y="1392"/>
   <guideline y="1765"/>
   <anchor x="669" y="1118" name="_top"/>
+  <anchor x="669" y="1524" name="top"/>
   <outline>
     <component base="grave_compact" xScale="0.8" yScale="0.8" xOffset="241" yOffset="627"/>
-    <component base="dieresiscomb.ss07" yScale="0.8" xOffset="16" yOffset="255"/>
+    <component base="dieresiscomb.ss07" yScale="0.8" xOffset="4" yOffset="255"/>
   </outline>
   <lib>
     <dict>

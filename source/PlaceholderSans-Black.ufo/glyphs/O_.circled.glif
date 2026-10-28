@@ -10,7 +10,7 @@
   <anchor x="1426" y="1510" name="tophorn"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="O" xOffset="572"/>
+    <component base="O" xOffset="560"/>
   </outline>
   <lib>
     <dict>

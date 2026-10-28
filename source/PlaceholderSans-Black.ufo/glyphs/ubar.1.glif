@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ubar.1" format="2">
-  <advance width="1463"/>
+  <advance width="1454"/>
   <unicode hex="EE28"/>
-  <anchor x="730" y="0" name="bottom"/>
-  <anchor x="1270" y="446" name="ogonek"/>
-  <anchor x="730" y="1076" name="top"/>
+  <anchor x="726" y="0" name="bottom"/>
+  <anchor x="1266" y="446" name="ogonek"/>
+  <anchor x="726" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="1445" y="703" type="line"/>
-      <point x="29" y="703" type="line"/>
-      <point x="29" y="565" type="line"/>
-      <point x="1445" y="565" type="line"/>
+      <point x="1441" y="703" type="line"/>
+      <point x="25" y="703" type="line"/>
+      <point x="25" y="565" type="line"/>
+      <point x="1441" y="565" type="line"/>
     </contour>
     <component base="u.1" xOffset="78"/>
   </outline>

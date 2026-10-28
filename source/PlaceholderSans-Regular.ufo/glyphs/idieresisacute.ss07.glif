@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idieresisacute.ss07" format="2">
-  <advance width="372"/>
+  <advance width="485"/>
   <unicode hex="E241"/>
   <guideline x="360" y="1968" angle="90"/>
-  <anchor x="234" y="0" name="bottom"/>
-  <anchor x="234" y="575" name="cross"/>
-  <anchor x="330" y="0" name="ogonek"/>
-  <anchor x="234" y="1076" name="top"/>
+  <anchor x="241" y="0" name="bottom"/>
+  <anchor x="241" y="575" name="cross"/>
+  <anchor x="337" y="0" name="ogonek"/>
+  <anchor x="254" y="1866" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="dieresisacutecomb.lc.ss07" xOffset="-381"/>
+    <component base="dieresisacutecomb.lc.ss07" xOffset="-344" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

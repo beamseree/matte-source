@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10052" format="2">
-  <advance width="1114"/>
+  <advance width="1150"/>
   <unicode hex="0403"/>
   <anchor x="363" y="745" name="cross"/>
   <anchor x="340" y="0" name="cyrtic"/>
-  <anchor x="581" y="1933" name="top"/>
+  <anchor x="609" y="1933" name="top"/>
   <outline>
     <component base="Ge-cy"/>
-    <component base="acutecomb" xOffset="354" yOffset="372"/>
+    <component base="acutecomb" xOffset="382" yOffset="372"/>
   </outline>
 </glyph>

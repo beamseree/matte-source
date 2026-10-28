@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="schwadieresiscyrillic" format="2">
-  <advance width="1242"/>
+  <advance width="1211"/>
   <unicode hex="04DB"/>
-  <anchor x="606" y="1585" name="top"/>
-  <anchor x="617" y="0" name="cedilla"/>
-  <anchor x="967" y="58" name="ogonek"/>
-  <anchor x="610" y="0" name="bottom"/>
+  <anchor x="607" y="1627" name="top"/>
+  <anchor x="620" y="0" name="cedilla"/>
+  <anchor x="970" y="58" name="ogonek"/>
+  <anchor x="613" y="0" name="bottom"/>
   <outline>
     <component base="schwa"/>
-    <component base="dieresiscomb" xOffset="-75"/>
+    <component base="dieresiscomb" xOffset="-74" yOffset="42"/>
   </outline>
 </glyph>

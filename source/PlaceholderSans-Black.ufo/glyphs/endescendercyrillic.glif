@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="endescendercyrillic" format="2">
-  <advance width="1379"/>
+  <advance width="1400"/>
   <unicode hex="04A3"/>
   <anchor x="660" y="0" name="bottom"/>
   <anchor x="1208" y="0" name="cyrtic"/>
@@ -8,7 +8,7 @@
   <anchor x="660" y="1118" name="top"/>
   <outline>
     <component base="encyrillic"/>
-    <component base="_part.cyrtic" xOffset="832"/>
+    <component base="_part.cyrtic" xOffset="846"/>
   </outline>
   <lib>
     <dict>

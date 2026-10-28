@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guarani" format="2">
-  <advance width="1590"/>
+  <advance width="1556"/>
   <unicode hex="20B2"/>
-  <anchor x="819" y="0" name="bottom"/>
-  <anchor x="1225" y="398" name="cross"/>
-  <anchor x="823" y="1490" name="top"/>
-  <anchor x="1481" y="1019" name="topr"/>
+  <anchor x="788" y="0" name="bottom"/>
+  <anchor x="1194" y="398" name="cross"/>
+  <anchor x="792" y="1490" name="top"/>
+  <anchor x="1450" y="1019" name="topr"/>
   <outline>
     <contour>
-      <point x="753" y="-213" type="line"/>
-      <point x="881" y="-213" type="line"/>
-      <point x="881" y="1703" type="line"/>
-      <point x="753" y="1703" type="line"/>
+      <point x="722" y="-213" type="line"/>
+      <point x="850" y="-213" type="line"/>
+      <point x="850" y="1703" type="line"/>
+      <point x="722" y="1703" type="line"/>
     </contour>
     <component base="G"/>
   </outline>

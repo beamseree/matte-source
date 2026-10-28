@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tlinebelow.1" format="2">
-  <advance width="573"/>
+  <advance width="643"/>
   <unicode hex="EE23"/>
-  <anchor x="321" y="0" name="bottom"/>
-  <anchor x="374" y="0" name="cedilla"/>
-  <anchor x="578" y="7" name="lfthook"/>
-  <anchor x="222" y="1384" name="top"/>
-  <anchor x="421" y="1562" name="raccent"/>
+  <anchor x="334" y="0" name="bottom"/>
+  <anchor x="387" y="0" name="cedilla"/>
+  <anchor x="591" y="7" name="lfthook"/>
+  <anchor x="235" y="1384" name="top"/>
+  <anchor x="434" y="1562" name="raccent"/>
   <outline>
     <component base="t.1"/>
-    <component base="macronsub" xOffset="-175"/>
+    <component base="macronsub" xOffset="-124"/>
   </outline>
   <lib>
     <dict>

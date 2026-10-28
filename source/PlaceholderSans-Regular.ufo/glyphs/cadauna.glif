@@ -2,17 +2,17 @@
 <glyph name="cadauna" format="2">
   <advance width="2016"/>
   <unicode hex="2106"/>
-  <anchor x="1587" y="-2" name="bottom"/>
+  <anchor x="1588" y="-2" name="bottom"/>
   <anchor x="430" y="896" name="cedilla"/>
   <anchor x="428" y="1208" name="center"/>
-  <anchor x="1583" y="622" name="top"/>
+  <anchor x="1584" y="622" name="top"/>
   <anchor x="746" y="1319" name="topr"/>
-  <anchor x="1915" y="-2" name="ogonek"/>
-  <anchor x="1736" y="622" name="rtophorn"/>
+  <anchor x="1916" y="-2" name="ogonek"/>
+  <anchor x="1737" y="622" name="rtophorn"/>
   <outline>
     <component base="c.sups"/>
     <component base="fraction" xOffset="753"/>
-    <component base="u.subs" xOffset="1150" yOffset="302"/>
+    <component base="u.subs" xOffset="1151" yOffset="302"/>
   </outline>
   <lib>
     <dict>

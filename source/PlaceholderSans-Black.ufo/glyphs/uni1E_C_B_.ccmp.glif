@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1ECB.ccmp" format="2">
-  <advance width="586"/>
+  <advance width="578"/>
   <unicode hex="E04D"/>
   <anchor x="291" y="0" name="bottom"/>
   <anchor x="286" y="588" name="cross"/>

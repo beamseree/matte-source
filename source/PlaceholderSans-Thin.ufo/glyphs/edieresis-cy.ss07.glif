@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="edieresis-cy.ss07" format="2">
-  <advance width="1017"/>
+  <advance width="1078"/>
   <unicode hex="E29D"/>
-  <anchor x="492" y="1434" name="top"/>
+  <anchor x="516" y="1392" name="top"/>
   <outline>
     <component base="ereversedcyrillic"/>
-    <component base="dieresiscomb.ss07" xOffset="-91"/>
+    <component base="dieresiscomb.ss07" xOffset="-67" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

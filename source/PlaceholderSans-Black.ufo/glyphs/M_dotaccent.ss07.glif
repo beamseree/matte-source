@@ -2,12 +2,12 @@
 <glyph name="Mdotaccent.ss07" format="2">
   <advance width="1967"/>
   <unicode hex="E1FD"/>
-  <anchor x="976" y="0" name="bottom"/>
-  <anchor x="1843" y="0" name="cyrtic"/>
-  <anchor x="987" y="1959" name="top"/>
+  <anchor x="977" y="0" name="bottom"/>
+  <anchor x="1844" y="0" name="cyrtic"/>
+  <anchor x="977" y="1959" name="top"/>
   <outline>
     <component base="M"/>
-    <component base="dotaccentcomb.ss07" xOffset="652" yOffset="372"/>
+    <component base="dotaccentcomb.ss07" xOffset="642" yOffset="372"/>
   </outline>
   <lib>
     <dict>

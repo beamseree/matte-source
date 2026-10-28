@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblleft.ss03" format="2">
-  <advance width="745"/>
+  <advance width="744"/>
   <unicode hex="EE8B"/>
   <outline>
     <component base="quoteleft.ss03"/>

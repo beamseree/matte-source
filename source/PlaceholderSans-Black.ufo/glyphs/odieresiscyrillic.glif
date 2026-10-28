@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odieresiscyrillic" format="2">
-  <advance width="1320"/>
+  <advance width="1272"/>
   <unicode hex="04E7"/>
-  <anchor x="658" y="0" name="bottom"/>
-  <anchor x="658" y="538" name="center"/>
-  <anchor x="1219" y="535" name="ogonek"/>
-  <anchor x="664" y="1585" name="top"/>
-  <anchor x="658" y="1101" name="tophorn"/>
+  <anchor x="644" y="0" name="bottom"/>
+  <anchor x="644" y="538" name="center"/>
+  <anchor x="1205" y="535" name="ogonek"/>
+  <anchor x="644" y="1543" name="top"/>
+  <anchor x="644" y="1101" name="tophorn"/>
   <outline>
     <component base="odieresis"/>
   </outline>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romanthree" format="2">
-  <advance width="1228"/>
+  <advance width="1284"/>
   <unicode hex="2162"/>
-  <anchor x="1023" y="0" name="bottom"/>
-  <anchor x="1023" y="768" name="cross"/>
-  <anchor x="1046" y="0" name="ogonek"/>
-  <anchor x="1054" y="0" name="right"/>
-  <anchor x="1000" y="1490" name="tonos"/>
-  <anchor x="1023" y="1490" name="top"/>
+  <anchor x="1069" y="0" name="bottom"/>
+  <anchor x="1069" y="768" name="cross"/>
+  <anchor x="1092" y="0" name="ogonek"/>
+  <anchor x="1100" y="0" name="right"/>
+  <anchor x="1046" y="1490" name="tonos"/>
+  <anchor x="1069" y="1490" name="top"/>
   <outline>
     <component base="I"/>
-    <component base="I" xOffset="409"/>
-    <component base="I" xOffset="819"/>
+    <component base="I" xOffset="428"/>
+    <component base="I" xOffset="856"/>
   </outline>
 </glyph>

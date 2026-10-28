@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Thorn" format="2">
-  <advance width="1442"/>
+  <advance width="1445"/>
   <unicode hex="00DE"/>
   <guideline x="12" y="1240" angle="0"/>
   <guideline x="12" y="764" angle="0"/>

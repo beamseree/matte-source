@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lacute" format="2">
-  <advance width="384"/>
+  <advance width="435"/>
   <unicode hex="013A"/>
-  <anchor x="202" y="0" name="bottom"/>
-  <anchor x="224" y="0" name="bottomr"/>
-  <anchor x="224" y="717" name="centerr"/>
-  <anchor x="202" y="739" name="cross"/>
-  <anchor x="364" y="1490" name="raccent"/>
-  <anchor x="184" y="1929" name="top"/>
+  <anchor x="215" y="0" name="bottom"/>
+  <anchor x="237" y="0" name="bottomr"/>
+  <anchor x="237" y="717" name="centerr"/>
+  <anchor x="215" y="739" name="cross"/>
+  <anchor x="377" y="1490" name="raccent"/>
+  <anchor x="218" y="1929" name="top"/>
   <outline>
     <component base="l"/>
-    <component base="acutecomb" xOffset="-13" yOffset="372"/>
+    <component base="acutecomb" xOffset="21" yOffset="372"/>
   </outline>
 </glyph>

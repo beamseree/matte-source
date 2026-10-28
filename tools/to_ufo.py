@@ -4,7 +4,9 @@ and put mockup letters into masters' background layers as tracing guides
 longer match the derived outlines and would only clutter the editor. Letters that
 tools/straighten.py, tools/redraw.py, tools/reshape.py and tools/refit.py fix are redrawn in
 every master, tools/joints.py thickens the joints of arches and bowls in Regular and Black,
-tools/kern.py keeps t's and f's crossbars apart, tools/dots.py gives the punctuation dots
+tools/spacing.py sets the letters', figures' and punctuation's sidebearings and the word
+space, tools/accents.py gives composites (accented letters) Inter's widths and puts their marks on
+their anchors, tools/kern.py keeps t's and f's crossbars apart, tools/dots.py gives the punctuation dots
 the i dot's size, tools/stacked.py puts stacked components (the semicolon's dot, the
 circled forms) where Inter has them, and tools/tabular.py gives the tabular glyphs one
 width per master.
@@ -34,6 +36,7 @@ from fontTools.pens.transformPen import TransformPen
 from fontTools.svgLib.path import parse_path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import accents  # noqa: E402
 import dots  # noqa: E402
 import imgtarget  # noqa: E402
 import joints  # noqa: E402
@@ -41,6 +44,7 @@ import kern  # noqa: E402
 import redraw  # noqa: E402
 import refit  # noqa: E402
 import reshape  # noqa: E402
+import spacing  # noqa: E402
 import stacked  # noqa: E402
 import straighten  # noqa: E402
 import tabular  # noqa: E402
@@ -154,6 +158,8 @@ def main():
         reshape.apply(source.font, MASTERS[source.location["Weight"]])
         refit.apply(source.font, MASTERS[source.location["Weight"]])
         joints.apply(source.font, MASTERS[source.location["Weight"]])
+        spacing.apply(source.font, MASTERS[source.location["Weight"]])
+        accents.apply(source.font, MASTERS[source.location["Weight"]])
         kern.apply(source.font, MASTERS[source.location["Weight"]])
         dots.apply(source.font, MASTERS[source.location["Weight"]])
         stacked.apply(source.font, MASTERS[source.location["Weight"]])

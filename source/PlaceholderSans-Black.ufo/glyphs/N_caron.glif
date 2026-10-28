@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ncaron" format="2">
-  <advance width="1573"/>
+  <advance width="1619"/>
   <unicode hex="0147"/>
-  <anchor x="796" y="0" name="bottom"/>
-  <anchor x="90" y="0" name="lfthook"/>
-  <anchor x="1502" y="0" name="lfthook2"/>
-  <anchor x="800" y="1954" name="top"/>
+  <anchor x="794" y="0" name="bottom"/>
+  <anchor x="88" y="0" name="lfthook"/>
+  <anchor x="1500" y="0" name="lfthook2"/>
+  <anchor x="794" y="1954" name="top"/>
   <outline>
     <component base="N"/>
-    <component base="caroncomb" xOffset="304" yOffset="372"/>
+    <component base="caroncomb" xOffset="298" yOffset="372"/>
   </outline>
 </glyph>

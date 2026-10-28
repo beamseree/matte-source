@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotbelow.ss07" format="2">
-  <advance width="579"/>
+  <advance width="578"/>
   <unicode hex="E242"/>
   <anchor x="291" y="0" name="bottom"/>
   <anchor x="286" y="588" name="cross"/>
   <anchor x="465" y="0" name="ogonek"/>
-  <anchor x="273" y="1587" name="top"/>
+  <anchor x="288" y="1545" name="top"/>
   <outline>
     <component base="i.ss07"/>
     <component base="dotbelow.ss07" xOffset="-57"/>

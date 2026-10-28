@@ -6,9 +6,10 @@
   <guideline y="1392"/>
   <guideline y="1717"/>
   <anchor x="566" y="1118" name="_top"/>
+  <anchor x="573" y="1901" name="top"/>
   <outline>
     <component base="dieresiscomb" yOffset="-28"/>
-    <component base="caroncomb" xOffset="116" yOffset="333"/>
+    <component base="caroncomb" xOffset="155" yOffset="340"/>
   </outline>
   <lib>
     <dict>

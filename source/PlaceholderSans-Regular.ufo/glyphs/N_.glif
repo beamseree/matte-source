@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="N" format="2">
-  <advance width="1514"/>
+  <advance width="1547"/>
   <unicode hex="004E"/>
-  <anchor x="755" y="0" name="bottom"/>
-  <anchor x="132" y="0" name="lfthook"/>
-  <anchor x="1378" y="0" name="lfthook2"/>
-  <anchor x="755" y="1490" name="top"/>
+  <anchor x="769" y="0" name="bottom"/>
+  <anchor x="146" y="0" name="lfthook"/>
+  <anchor x="1392" y="0" name="lfthook2"/>
+  <anchor x="769" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="132" y="0" type="line"/>
-      <point x="326" y="0" type="line"/>
-      <point x="326" y="1251" type="line"/>
-      <point x="344" y="1251" type="line"/>
-      <point x="1076" y="0" type="line"/>
-      <point x="1378" y="0" type="line"/>
-      <point x="1378" y="1490" type="line"/>
-      <point x="1184" y="1490" type="line"/>
-      <point x="1184" y="207" type="line"/>
-      <point x="1166" y="207" type="line"/>
-      <point x="416" y="1490" type="line"/>
-      <point x="132" y="1490" type="line"/>
+      <point x="146" y="0" type="line"/>
+      <point x="340" y="0" type="line"/>
+      <point x="340" y="1251" type="line"/>
+      <point x="358" y="1251" type="line"/>
+      <point x="1090" y="0" type="line"/>
+      <point x="1392" y="0" type="line"/>
+      <point x="1392" y="1490" type="line"/>
+      <point x="1198" y="1490" type="line"/>
+      <point x="1198" y="207" type="line"/>
+      <point x="1180" y="207" type="line"/>
+      <point x="430" y="1490" type="line"/>
+      <point x="146" y="1490" type="line"/>
     </contour>
   </outline>
   <lib>

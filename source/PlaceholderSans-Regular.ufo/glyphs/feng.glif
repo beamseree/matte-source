@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="feng" format="2">
-  <advance width="1620"/>
+  <advance width="1655"/>
   <unicode hex="02A9"/>
-  <anchor x="1053" y="0" name="bottom"/>
-  <anchor x="304" y="768" name="cross"/>
-  <anchor x="1053" y="1076" name="top"/>
-  <anchor x="1505" y="0" name="bottomr"/>
-  <anchor x="603" y="0" name="lfthook"/>
-  <anchor x="797" y="1076" name="topr"/>
+  <anchor x="1066" y="0" name="bottom"/>
+  <anchor x="311" y="768" name="cross"/>
+  <anchor x="1066" y="1076" name="top"/>
+  <anchor x="1518" y="0" name="bottomr"/>
+  <anchor x="616" y="0" name="lfthook"/>
+  <anchor x="810" y="1076" name="topr"/>
   <outline>
     <component base="f"/>
-    <component base="eng" xOffset="486"/>
+    <component base="eng" xOffset="494"/>
   </outline>
   <lib>
     <dict>

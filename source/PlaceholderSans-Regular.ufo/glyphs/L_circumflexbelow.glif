@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lcircumflexbelow" format="2">
-  <advance width="1146"/>
+  <advance width="1166"/>
   <unicode hex="1E3C"/>
-  <anchor x="603" y="0" name="bottom"/>
-  <anchor x="369" y="745" name="cross"/>
-  <anchor x="593" y="808" name="dot"/>
-  <anchor x="607" y="1490" name="raccent"/>
-  <anchor x="238" y="1490" name="top"/>
+  <anchor x="620" y="0" name="bottom"/>
+  <anchor x="386" y="745" name="cross"/>
+  <anchor x="610" y="808" name="dot"/>
+  <anchor x="624" y="1490" name="raccent"/>
+  <anchor x="255" y="1490" name="top"/>
   <outline>
     <component base="L"/>
-    <component base="circumflexsubcomb" xOffset="1199"/>
+    <component base="circumflexsubcomb" xOffset="1216"/>
   </outline>
 </glyph>

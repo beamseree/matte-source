@@ -11,7 +11,7 @@
   <anchor x="1419" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="H" xOffset="684"/>
+    <component base="H" xOffset="672"/>
   </outline>
   <lib>
     <dict>

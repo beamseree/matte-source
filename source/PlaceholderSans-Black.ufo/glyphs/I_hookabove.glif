@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ihookabove" format="2">
-  <advance width="614"/>
+  <advance width="599"/>
   <unicode hex="1EC8"/>
   <anchor x="297" y="0" name="bottom"/>
   <anchor x="297" y="788" name="cross"/>
@@ -10,6 +10,6 @@
   <anchor x="300" y="1490" name="top"/>
   <outline>
     <component base="I"/>
-    <component base="hookabovecomb" xOffset="-10" yOffset="372"/>
+    <component base="hookabovecomb" xOffset="-18" yOffset="372"/>
   </outline>
 </glyph>

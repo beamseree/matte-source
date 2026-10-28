@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idieresisacute" format="2">
-  <advance width="298"/>
+  <advance width="414"/>
   <unicode hex="1E2F"/>
-  <anchor x="200" y="0" name="bottom"/>
-  <anchor x="200" y="560" name="cross"/>
-  <anchor x="224" y="0" name="ogonek"/>
-  <anchor x="200" y="1076" name="top"/>
+  <anchor x="206" y="0" name="bottom"/>
+  <anchor x="206" y="560" name="cross"/>
+  <anchor x="230" y="0" name="ogonek"/>
+  <anchor x="218" y="1848" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="dieresisacutecomb.lc" xOffset="-401"/>
+    <component base="dieresisacutecomb.lc" xOffset="-341" yOffset="-42"/>
   </outline>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FDA" format="2">
-  <advance width="1078"/>
+  <advance width="1049"/>
   <unicode hex="1FDA"/>
   <anchor x="747" y="0" name="bottom"/>
   <anchor x="747" y="788" name="cross"/>
@@ -10,7 +10,7 @@
   <anchor x="750" y="1490" name="top"/>
   <outline>
     <component base="I" xOffset="450"/>
-    <component base="uni1FEF.tonos" xOffset="-134"/>
+    <component base="uni1FEF.tonos" xOffset="-150"/>
   </outline>
   <lib>
     <dict>

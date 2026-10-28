@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ae" format="2">
-  <advance width="1867"/>
+  <advance width="1866"/>
   <unicode hex="00E6"/>
   <guideline x="8" y="1148" angle="0"/>
   <guideline x="1240" y="1700" angle="90"/>

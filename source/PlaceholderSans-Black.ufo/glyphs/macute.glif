@@ -2,11 +2,11 @@
 <glyph name="macute" format="2">
   <advance width="1859"/>
   <unicode hex="1E3F"/>
-  <anchor x="920" y="0" name="bottom"/>
-  <anchor x="1383" y="0" name="lfthook"/>
-  <anchor x="887" y="1582" name="top"/>
+  <anchor x="929" y="0" name="bottom"/>
+  <anchor x="1392" y="0" name="lfthook"/>
+  <anchor x="929" y="1540" name="top"/>
   <outline>
     <component base="m"/>
-    <component base="acutecomb" xOffset="573"/>
+    <component base="acutecomb" xOffset="615" yOffset="-42"/>
   </outline>
 </glyph>

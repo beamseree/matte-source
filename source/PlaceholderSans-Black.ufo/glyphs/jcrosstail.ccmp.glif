@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jcrosstail.ccmp" format="2">
-  <advance width="1109"/>
+  <advance width="1110"/>
   <unicode hex="E04F"/>
   <anchor x="765" y="-460" name="bottom"/>
   <anchor x="736" y="588" name="cross"/>

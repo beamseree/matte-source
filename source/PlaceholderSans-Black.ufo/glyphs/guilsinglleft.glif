@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guilsinglleft" format="2">
-  <advance width="954"/>
+  <advance width="955"/>
   <unicode hex="2039"/>
   <guideline x="4" y="1240" angle="0"/>
   <guideline x="4" y="764" angle="0"/>

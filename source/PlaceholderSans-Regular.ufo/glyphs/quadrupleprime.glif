@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quadrupleprime" format="2">
-  <advance width="1727"/>
+  <advance width="1726"/>
   <unicode hex="2057"/>
   <outline>
     <component base="prime"/>
     <component base="prime" xOffset="430"/>
-    <component base="prime" xOffset="861"/>
-    <component base="prime" xOffset="1291"/>
+    <component base="prime" xOffset="860"/>
+    <component base="prime" xOffset="1290"/>
   </outline>
   <lib>
     <dict>

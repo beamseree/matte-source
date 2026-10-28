@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="edotaccent.ss07" format="2">
-  <advance width="1210"/>
+  <advance width="1211"/>
   <unicode hex="E238"/>
-  <anchor x="608" y="0" name="bottom"/>
-  <anchor x="613" y="0" name="cedilla"/>
-  <anchor x="1131" y="299" name="ogonek"/>
-  <anchor x="590" y="1587" name="top"/>
+  <anchor x="607" y="0" name="bottom"/>
+  <anchor x="612" y="0" name="cedilla"/>
+  <anchor x="1119" y="272" name="ogonek"/>
+  <anchor x="607" y="1545" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="dotaccentcomb.ss07" xOffset="255"/>
+    <component base="dotaccentcomb.ss07" xOffset="272" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

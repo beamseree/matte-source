@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romanthousand" format="2">
-  <advance width="1966"/>
+  <advance width="1967"/>
   <unicode hex="216F"/>
-  <anchor x="976" y="0" name="bottom"/>
-  <anchor x="1843" y="0" name="cyrtic"/>
-  <anchor x="976" y="1490" name="top"/>
+  <anchor x="977" y="0" name="bottom"/>
+  <anchor x="1844" y="0" name="cyrtic"/>
+  <anchor x="977" y="1490" name="top"/>
   <outline>
     <component base="M"/>
   </outline>

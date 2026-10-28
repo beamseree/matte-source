@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aringacute" format="2">
-  <advance width="1097"/>
+  <advance width="1104"/>
   <unicode hex="01FB"/>
-  <anchor x="560" y="0" name="bottom"/>
-  <anchor x="997" y="0" name="ogonek"/>
-  <anchor x="562" y="1076" name="top"/>
+  <anchor x="555" y="0" name="bottom"/>
+  <anchor x="992" y="0" name="ogonek"/>
+  <anchor x="557" y="1076" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="ringacute.lc" xOffset="209"/>
+    <component base="ringacute.lc" xOffset="257" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

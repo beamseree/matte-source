@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F74" format="2">
-  <advance width="1334"/>
+  <advance width="1306"/>
   <unicode hex="1F74"/>
   <anchor x="289" y="0" name="bottom"/>
   <anchor x="657" y="1076" name="top"/>
   <outline>
     <component base="eta"/>
-    <component base="varia" xOffset="350"/>
+    <component base="varia" xOffset="356" yOffset="-42"/>
   </outline>
 </glyph>

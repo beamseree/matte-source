@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="srthook" format="2">
-  <advance width="1066"/>
+  <advance width="1056"/>
   <unicode hex="0282"/>
-  <anchor x="538" y="0" name="bottom"/>
-  <anchor x="535" y="0" name="cedilla"/>
-  <anchor x="76" y="273" name="rthook"/>
-  <anchor x="538" y="1076" name="top"/>
+  <anchor x="537" y="0" name="bottom"/>
+  <anchor x="534" y="0" name="cedilla"/>
+  <anchor x="75" y="273" name="rthook"/>
+  <anchor x="537" y="1076" name="top"/>
   <outline>
     <component base="s"/>
-    <component base="_part.bottom_rthook_s" xOffset="32"/>
+    <component base="_part.bottom_rthook_s" xOffset="20" yOffset="-7"/>
   </outline>
   <lib>
     <dict>

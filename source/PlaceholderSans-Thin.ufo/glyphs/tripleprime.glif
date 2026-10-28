@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tripleprime" format="2">
-  <advance width="742"/>
+  <advance width="741"/>
   <unicode hex="2034"/>
   <outline>
     <component base="prime"/>
     <component base="prime" xOffset="215"/>
-    <component base="prime" xOffset="433"/>
+    <component base="prime" xOffset="432"/>
   </outline>
   <lib>
     <dict>

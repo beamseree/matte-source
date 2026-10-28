@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threeroman" format="2">
-  <advance width="1126"/>
+  <advance width="1242"/>
   <unicode hex="2172"/>
-  <anchor x="950" y="0" name="bottom"/>
-  <anchor x="950" y="560" name="cross"/>
-  <anchor x="974" y="0" name="ogonek"/>
-  <anchor x="917" y="1467" name="top"/>
+  <anchor x="1034" y="0" name="bottom"/>
+  <anchor x="1034" y="560" name="cross"/>
+  <anchor x="1058" y="0" name="ogonek"/>
+  <anchor x="1035" y="1434" name="top"/>
   <outline>
     <component base="i"/>
-    <component base="i" xOffset="375"/>
-    <component base="i" xOffset="750"/>
+    <component base="i" xOffset="414"/>
+    <component base="i" xOffset="828"/>
   </outline>
 </glyph>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hhook" format="2">
-  <advance width="1125"/>
+  <advance width="1160"/>
   <unicode hex="0266"/>
-  <anchor x="567" y="0" name="bottom"/>
-  <anchor x="1019" y="0" name="bottomr"/>
-  <anchor x="831" y="0" name="lfthook"/>
-  <anchor x="567" y="1076" name="top"/>
-  <anchor x="311" y="1076" name="topr"/>
+  <anchor x="572" y="0" name="bottom"/>
+  <anchor x="1024" y="0" name="bottomr"/>
+  <anchor x="836" y="0" name="lfthook"/>
+  <anchor x="572" y="1076" name="top"/>
+  <anchor x="316" y="1076" name="topr"/>
   <outline>
     <component base="n"/>
-    <component base="_part.top_r_hook" xOffset="-50"/>
+    <component base="_part.top_r_hook" xOffset="-9" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

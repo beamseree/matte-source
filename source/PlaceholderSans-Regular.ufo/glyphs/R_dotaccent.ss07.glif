@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rdotaccent.ss07" format="2">
-  <advance width="1355"/>
+  <advance width="1385"/>
   <unicode hex="E209"/>
-  <anchor x="677" y="0" name="bottom"/>
-  <anchor x="702" y="1876" name="top"/>
+  <anchor x="684" y="0" name="bottom"/>
+  <anchor x="656" y="1876" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="dotaccentcomb.ss07" xOffset="469" yOffset="372"/>
+    <component base="dotaccentcomb.ss07" xOffset="423" yOffset="372"/>
   </outline>
   <lib>
     <dict>

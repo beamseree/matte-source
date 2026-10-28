@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dcedilla" format="2">
-  <advance width="1219"/>
+  <advance width="1259"/>
   <unicode hex="1E11"/>
-  <anchor x="593" y="0" name="bottom"/>
-  <anchor x="1021" y="1288" name="cross"/>
-  <anchor x="593" y="1288" name="top"/>
-  <anchor x="1068" y="1490" name="topbar"/>
-  <anchor x="1069" y="0" name="bottomr"/>
-  <anchor x="1212" y="1490" name="raccent"/>
+  <anchor x="588" y="0" name="bottom"/>
+  <anchor x="1016" y="1288" name="cross"/>
+  <anchor x="588" y="1288" name="top"/>
+  <anchor x="1063" y="1490" name="topbar"/>
+  <anchor x="1064" y="0" name="bottomr"/>
+  <anchor x="1207" y="1490" name="raccent"/>
   <outline>
     <component base="d"/>
-    <component base="commaaccent" xOffset="350"/>
+    <component base="commaaccent" xOffset="323"/>
   </outline>
 </glyph>

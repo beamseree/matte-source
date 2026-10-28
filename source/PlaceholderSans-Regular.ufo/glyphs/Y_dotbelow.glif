@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ydotbelow" format="2">
-  <advance width="1288"/>
+  <advance width="1293"/>
   <unicode hex="1EF4"/>
-  <anchor x="644" y="0" name="bottom"/>
-  <anchor x="644" y="379" name="cross"/>
-  <anchor x="746" y="0" name="ogonek"/>
-  <anchor x="12" y="1490" name="tonos"/>
-  <anchor x="643" y="1490" name="top"/>
+  <anchor x="640" y="0" name="bottom"/>
+  <anchor x="640" y="379" name="cross"/>
+  <anchor x="742" y="0" name="ogonek"/>
+  <anchor x="8" y="1490" name="tonos"/>
+  <anchor x="639" y="1490" name="top"/>
   <outline>
     <component base="Y"/>
-    <component base="dotbelow" xOffset="374"/>
+    <component base="dotbelow" xOffset="413"/>
   </outline>
 </glyph>

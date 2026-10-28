@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Egrave" format="2">
-  <advance width="1294"/>
+  <advance width="1280"/>
   <unicode hex="00C8"/>
   <anchor x="654" y="0" name="bottom"/>
   <anchor x="655" y="0" name="cedilla"/>
   <anchor x="1196" y="0" name="ogonek"/>
   <anchor x="107" y="1490" name="tonos"/>
-  <anchor x="661" y="1954" name="top"/>
+  <anchor x="654" y="1954" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="gravecomb" xOffset="137" yOffset="372"/>
+    <component base="gravecomb" xOffset="130" yOffset="372"/>
   </outline>
 </glyph>

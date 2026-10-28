@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F12" format="2">
-  <advance width="978"/>
+  <advance width="1018"/>
   <unicode hex="1F12"/>
   <anchor x="514" y="1076" name="top"/>
   <outline>
     <component base="epsilon"/>
-    <component base="psilivaria" xOffset="199"/>
+    <component base="psilivaria" xOffset="216" yOffset="-42"/>
   </outline>
 </glyph>

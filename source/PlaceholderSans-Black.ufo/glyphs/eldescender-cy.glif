@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eldescender-cy" format="2">
-  <advance width="1330"/>
+  <advance width="1351"/>
   <unicode hex="052F"/>
   <anchor x="610" y="0" name="bottom"/>
   <anchor x="1159" y="0" name="cyrtic"/>
   <anchor x="688" y="1076" name="top"/>
   <outline>
     <component base="elcyrillic"/>
-    <component base="_part.cyrtic" xOffset="783"/>
+    <component base="_part.cyrtic" xOffset="797"/>
   </outline>
   <lib>
     <dict>

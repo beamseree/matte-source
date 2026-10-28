@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hdotaccent" format="2">
-  <advance width="1473"/>
+  <advance width="1505"/>
   <unicode hex="1E22"/>
-  <anchor x="735" y="0" name="bottom"/>
-  <anchor x="240" y="1" name="cedilla"/>
-  <anchor x="1336" y="0" name="cyrtic"/>
-  <anchor x="1133" y="0" name="lfthook"/>
-  <anchor x="1336" y="0" name="right"/>
-  <anchor x="136" y="1490" name="tonos"/>
-  <anchor x="724" y="1920" name="top"/>
+  <anchor x="747" y="0" name="bottom"/>
+  <anchor x="252" y="1" name="cedilla"/>
+  <anchor x="1348" y="0" name="cyrtic"/>
+  <anchor x="1145" y="0" name="lfthook"/>
+  <anchor x="1348" y="0" name="right"/>
+  <anchor x="148" y="1490" name="tonos"/>
+  <anchor x="747" y="1920" name="top"/>
   <outline>
     <component base="H"/>
-    <component base="dotaccentcomb" xOffset="489" yOffset="372"/>
+    <component base="dotaccentcomb" xOffset="512" yOffset="372"/>
   </outline>
 </glyph>

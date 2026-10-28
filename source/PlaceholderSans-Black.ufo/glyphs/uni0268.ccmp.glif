@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0268.ccmp" format="2">
-  <advance width="586"/>
+  <advance width="578"/>
   <unicode hex="E0F3"/>
   <anchor x="291" y="0" name="bottom"/>
   <anchor x="286" y="588" name="cross"/>
@@ -8,6 +8,6 @@
   <anchor x="288" y="1076" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="crossbar" xOffset="-249" yOffset="-135"/>
+    <component base="crossbar" xOffset="-238" yOffset="-157"/>
   </outline>
 </glyph>

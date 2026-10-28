@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yi-cy" format="2">
-  <advance width="334"/>
+  <advance width="414"/>
   <unicode hex="0457"/>
-  <anchor x="200" y="0" name="bottom"/>
-  <anchor x="200" y="560" name="cross"/>
-  <anchor x="224" y="0" name="ogonek"/>
-  <anchor x="146" y="1467" name="top"/>
+  <anchor x="206" y="0" name="bottom"/>
+  <anchor x="206" y="560" name="cross"/>
+  <anchor x="230" y="0" name="ogonek"/>
+  <anchor x="206" y="1425" name="top"/>
   <outline>
     <component base="idieresis"/>
   </outline>

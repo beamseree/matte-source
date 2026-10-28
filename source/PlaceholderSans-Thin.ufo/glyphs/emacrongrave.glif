@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emacrongrave" format="2">
-  <advance width="1077"/>
+  <advance width="1142"/>
   <unicode hex="1E15"/>
   <anchor x="570" y="0" name="bottom"/>
   <anchor x="574" y="0" name="cedilla"/>
@@ -8,7 +8,7 @@
   <anchor x="570" y="1076" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="macrongravecomb.lc" xOffset="164"/>
+    <component base="macrongravecomb.lc" xOffset="187" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Umacroncyrillic" format="2">
-  <advance width="1250"/>
+  <advance width="1307"/>
   <unicode hex="04EE"/>
-  <anchor x="635" y="1869" name="top"/>
+  <anchor x="653" y="1869" name="top"/>
   <outline>
     <component base="U-cy"/>
-    <component base="macroncomb" xOffset="174" yOffset="372"/>
+    <component base="macroncomb" xOffset="192" yOffset="372"/>
   </outline>
 </glyph>

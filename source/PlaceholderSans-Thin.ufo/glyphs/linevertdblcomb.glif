@@ -3,7 +3,7 @@
   <unicode hex="EEBD"/>
   <outline>
     <component base="linevert" xOffset="-710"/>
-    <component base="linevert" xOffset="-530"/>
+    <component base="linevert" xOffset="-549"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="khacyrillic" format="2">
-  <advance width="1051"/>
+  <advance width="1040"/>
   <unicode hex="0445"/>
-  <anchor x="524" y="0" name="bottom"/>
-  <anchor x="964" y="0" name="cyrtic"/>
-  <anchor x="861" y="0" name="right"/>
-  <anchor x="524" y="1076" name="top"/>
+  <anchor x="519" y="0" name="bottom"/>
+  <anchor x="959" y="0" name="cyrtic"/>
+  <anchor x="856" y="0" name="right"/>
+  <anchor x="519" y="1076" name="top"/>
   <outline>
     <component base="x"/>
   </outline>

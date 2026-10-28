@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Izhitsadblgravecyrillic" format="2">
-  <advance width="1298"/>
+  <advance width="1334"/>
   <unicode hex="0476"/>
-  <anchor x="652" y="1929" name="top"/>
+  <anchor x="667" y="1929" name="top"/>
   <outline>
     <component base="afii10148"/>
-    <component base="dblgravecmb" xOffset="151" yOffset="372"/>
+    <component base="dblgravecmb" xOffset="166" yOffset="372"/>
   </outline>
 </glyph>

@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="E" format="2">
-  <advance width="1231"/>
+  <advance width="1220"/>
   <unicode hex="0045"/>
-  <anchor x="650" y="0" name="bottom"/>
-  <anchor x="650" y="0" name="cedilla"/>
-  <anchor x="1117" y="0" name="ogonek"/>
-  <anchor x="184" y="1490" name="tonos"/>
-  <anchor x="650" y="1490" name="top"/>
+  <anchor x="656" y="0" name="bottom"/>
+  <anchor x="656" y="0" name="cedilla"/>
+  <anchor x="1123" y="0" name="ogonek"/>
+  <anchor x="190" y="1490" name="tonos"/>
+  <anchor x="656" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="184" y="0" type="line"/>
-      <point x="1117" y="0" type="line"/>
-      <point x="1117" y="46" type="line"/>
-      <point x="230" y="46" type="line"/>
-      <point x="230" y="722" type="line"/>
-      <point x="1043" y="722" type="line"/>
-      <point x="1043" y="768" type="line"/>
-      <point x="230" y="768" type="line"/>
-      <point x="230" y="1444" type="line"/>
-      <point x="1091" y="1444" type="line"/>
-      <point x="1091" y="1490" type="line"/>
-      <point x="184" y="1490" type="line"/>
+      <point x="190" y="0" type="line"/>
+      <point x="1123" y="0" type="line"/>
+      <point x="1123" y="46" type="line"/>
+      <point x="236" y="46" type="line"/>
+      <point x="236" y="722" type="line"/>
+      <point x="1049" y="722" type="line"/>
+      <point x="1049" y="768" type="line"/>
+      <point x="236" y="768" type="line"/>
+      <point x="236" y="1444" type="line"/>
+      <point x="1097" y="1444" type="line"/>
+      <point x="1097" y="1490" type="line"/>
+      <point x="190" y="1490" type="line"/>
     </contour>
   </outline>
   <lib>

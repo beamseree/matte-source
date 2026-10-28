@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Istroke" format="2">
-  <advance width="791"/>
+  <advance width="799"/>
   <unicode hex="0197"/>
   <note>
 effectiv sidebearings should match LSB of /t
@@ -13,7 +13,7 @@ effectiv sidebearings should match LSB of /t
   <anchor x="400" y="1490" name="top"/>
   <outline>
     <component base="I" xOffset="100"/>
-    <component base="_part.crossbar_compact" xOffset="-31" yOffset="43"/>
+    <component base="_part.crossbar_compact" xOffset="-29" yOffset="43"/>
   </outline>
   <lib>
     <dict>

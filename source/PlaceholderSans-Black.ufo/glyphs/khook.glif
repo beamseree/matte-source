@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="khook" format="2">
-  <advance width="1205"/>
+  <advance width="1213"/>
   <unicode hex="0199"/>
   <anchor x="619" y="0" name="bottom"/>
   <anchor x="289" y="1076" name="top"/>
   <anchor x="465" y="1076" name="topr"/>
   <outline>
     <component base="k.base"/>
-    <component base="_part.top_r_hook" xOffset="-25"/>
+    <component base="_part.top_r_hook" xOffset="-17" yOffset="-42"/>
   </outline>
 </glyph>

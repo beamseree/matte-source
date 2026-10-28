@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yerudieresiscyrillic" format="2">
-  <advance width="1394"/>
+  <advance width="1481"/>
   <unicode hex="04F9"/>
-  <anchor x="1230" y="0" name="bottom"/>
-  <anchor x="1230" y="575" name="cross"/>
-  <anchor x="1326" y="0" name="ogonek"/>
-  <anchor x="669" y="1545" name="top"/>
+  <anchor x="1237" y="0" name="bottom"/>
+  <anchor x="1237" y="575" name="cross"/>
+  <anchor x="1333" y="0" name="ogonek"/>
+  <anchor x="733" y="1503" name="top"/>
   <outline>
     <component base="yericyrillic"/>
-    <component base="dieresiscomb" xOffset="98"/>
+    <component base="dieresiscomb" xOffset="162" yOffset="-42"/>
   </outline>
 </glyph>

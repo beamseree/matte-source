@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F72" format="2">
-  <advance width="1182"/>
+  <advance width="1154"/>
   <unicode hex="1F72"/>
   <anchor x="592" y="1076" name="top"/>
   <outline>
     <component base="epsilon"/>
-    <component base="varia" xOffset="290"/>
+    <component base="varia" xOffset="291" yOffset="-42"/>
   </outline>
 </glyph>

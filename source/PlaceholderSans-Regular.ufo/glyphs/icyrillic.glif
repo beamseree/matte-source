@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="icyrillic" format="2">
-  <advance width="441"/>
+  <advance width="485"/>
   <unicode hex="0456"/>
-  <anchor x="234" y="0" name="bottom"/>
-  <anchor x="234" y="575" name="cross"/>
-  <anchor x="330" y="0" name="ogonek"/>
-  <anchor x="207" y="1548" name="top"/>
+  <anchor x="241" y="0" name="bottom"/>
+  <anchor x="241" y="575" name="cross"/>
+  <anchor x="337" y="0" name="ogonek"/>
+  <anchor x="240" y="1485" name="top"/>
   <outline>
     <component base="i"/>
   </outline>

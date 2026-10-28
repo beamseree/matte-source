@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romaneight" format="2">
-  <advance width="3358"/>
+  <advance width="3357"/>
   <unicode hex="2167"/>
-  <anchor x="3054" y="0" name="bottom"/>
-  <anchor x="3057" y="1490" name="top"/>
-  <anchor x="3054" y="788" name="cross"/>
-  <anchor x="3244" y="0" name="ogonek"/>
-  <anchor x="3269" y="0" name="right"/>
-  <anchor x="2867" y="1490" name="tonos"/>
+  <anchor x="3055" y="0" name="bottom"/>
+  <anchor x="3058" y="1490" name="top"/>
+  <anchor x="3055" y="788" name="cross"/>
+  <anchor x="3245" y="0" name="ogonek"/>
+  <anchor x="3270" y="0" name="right"/>
+  <anchor x="2868" y="1490" name="tonos"/>
   <outline>
     <component base="V"/>
-    <component base="I" xOffset="1557"/>
-    <component base="I" xOffset="2157"/>
-    <component base="I" xOffset="2757"/>
+    <component base="I" xOffset="1560"/>
+    <component base="I" xOffset="2159"/>
+    <component base="I" xOffset="2758"/>
   </outline>
   <lib>
     <dict>

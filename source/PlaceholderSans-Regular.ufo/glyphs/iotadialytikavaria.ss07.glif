@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iotadialytikavaria.ss07" format="2">
-  <advance width="516"/>
+  <advance width="553"/>
   <unicode hex="E2A4"/>
-  <anchor x="511" y="1490" name="top"/>
+  <anchor x="525" y="1448" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="dialytikavaria.ss07" xOffset="-446"/>
+    <component base="dialytikavaria.ss07" xOffset="-432" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="racute" format="2">
-  <advance width="698"/>
+  <advance width="748"/>
   <unicode hex="0155"/>
-  <anchor x="218" y="0" name="bottom"/>
-  <anchor x="240" y="0" name="bottomr"/>
-  <anchor x="218" y="516" name="cross"/>
-  <anchor x="481" y="1557" name="top"/>
+  <anchor x="221" y="0" name="bottom"/>
+  <anchor x="243" y="0" name="bottomr"/>
+  <anchor x="221" y="516" name="cross"/>
+  <anchor x="483" y="1515" name="top"/>
   <outline>
     <component base="r"/>
-    <component base="acutecomb" xOffset="284"/>
+    <component base="acutecomb" xOffset="286" yOffset="-42"/>
   </outline>
 </glyph>

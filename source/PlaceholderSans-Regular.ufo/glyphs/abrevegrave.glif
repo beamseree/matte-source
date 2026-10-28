@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevegrave" format="2">
-  <advance width="1055"/>
+  <advance width="1104"/>
   <unicode hex="1EB1"/>
-  <anchor x="560" y="0" name="bottom"/>
-  <anchor x="997" y="0" name="ogonek"/>
-  <anchor x="470" y="1893" name="top"/>
+  <anchor x="555" y="0" name="bottom"/>
+  <anchor x="992" y="0" name="ogonek"/>
+  <anchor x="557" y="1851" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="brevegravecomb.cn" xOffset="130"/>
+    <component base="brevegravecomb.cn" xOffset="217" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

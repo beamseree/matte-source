@@ -7,6 +7,7 @@
 See /acutedblnosp for combining variant
 </note>
   <anchor x="469" y="1118" name="_top"/>
+  <anchor x="390" y="1561" name="top"/>
   <outline>
     <component base="dblgravecmb" xScale="-1" xOffset="984"/>
   </outline>

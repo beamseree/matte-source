@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="i.ss07" format="2">
-  <advance width="437"/>
+  <advance width="485"/>
   <unicode hex="E23F"/>
   <guideline x="322" y="2136" angle="90"/>
-  <anchor x="234" y="0" name="bottom"/>
-  <anchor x="234" y="575" name="cross"/>
-  <anchor x="330" y="0" name="ogonek"/>
-  <anchor x="204" y="1504" name="top"/>
+  <anchor x="241" y="0" name="bottom"/>
+  <anchor x="241" y="575" name="cross"/>
+  <anchor x="337" y="0" name="ogonek"/>
+  <anchor x="241" y="1462" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb.ss07" xOffset="-29"/>
+    <component base="dotaccentcomb.ss07" xOffset="8" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

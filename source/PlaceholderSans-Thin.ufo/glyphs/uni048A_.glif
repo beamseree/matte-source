@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni048A" format="2">
-  <advance width="1417"/>
+  <advance width="1484"/>
   <unicode hex="048A"/>
-  <anchor x="734" y="0" name="bottom"/>
-  <anchor x="1286" y="0" name="lfthook"/>
-  <anchor x="182" y="0" name="lfthook2"/>
-  <anchor x="667" y="1904" name="top"/>
-  <anchor x="1284" y="0" name="cyrtic"/>
+  <anchor x="736" y="0" name="bottom"/>
+  <anchor x="1288" y="0" name="lfthook"/>
+  <anchor x="184" y="0" name="lfthook2"/>
+  <anchor x="736" y="1904" name="top"/>
+  <anchor x="1286" y="0" name="cyrtic"/>
   <outline>
     <component base="Ii-cy"/>
-    <component base="brevecomb" xOffset="324" yOffset="372"/>
-    <component base="_part.cyrtail" xOffset="1120"/>
+    <component base="brevecomb" xOffset="393" yOffset="372"/>
+    <component base="_part.cyrtail" xOffset="1196"/>
   </outline>
 </glyph>

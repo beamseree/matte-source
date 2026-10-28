@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="less" format="2">
-  <advance width="1306"/>
+  <advance width="1300"/>
   <unicode hex="003C"/>
   <note>
 Recipe: Make rect and rotate 63deg (regular) or 69deg (black)
@@ -9,16 +9,16 @@ Recipe: Make rect and rotate 63deg (regular) or 69deg (black)
   <guideline x="268" y="800" angle="0"/>
   <outline>
     <contour>
-      <point x="149" y="507" type="line"/>
-      <point x="1102" y="37" type="line"/>
-      <point x="1102" y="256" type="line"/>
-      <point x="386" y="582" type="line"/>
-      <point x="393" y="571" type="line"/>
-      <point x="393" y="601" type="line"/>
-      <point x="386" y="588" type="line"/>
-      <point x="1102" y="915" type="line"/>
-      <point x="1102" y="1135" type="line"/>
-      <point x="149" y="665" type="line"/>
+      <point x="143" y="507" type="line"/>
+      <point x="1096" y="37" type="line"/>
+      <point x="1096" y="256" type="line"/>
+      <point x="380" y="582" type="line"/>
+      <point x="387" y="571" type="line"/>
+      <point x="387" y="601" type="line"/>
+      <point x="380" y="588" type="line"/>
+      <point x="1096" y="915" type="line"/>
+      <point x="1096" y="1135" type="line"/>
+      <point x="143" y="665" type="line"/>
     </contour>
   </outline>
   <lib>

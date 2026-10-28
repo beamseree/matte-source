@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sacutedotaccent" format="2">
-  <advance width="1085"/>
+  <advance width="1087"/>
   <unicode hex="1E65"/>
-  <anchor x="544" y="0" name="bottom"/>
-  <anchor x="550" y="0" name="cedilla"/>
-  <anchor x="48" y="328" name="rthook"/>
-  <anchor x="540" y="1076" name="top"/>
-  <anchor x="486" y="2093" name="mkmktop_acc"/>
+  <anchor x="543" y="0" name="bottom"/>
+  <anchor x="549" y="0" name="cedilla"/>
+  <anchor x="47" y="328" name="rthook"/>
+  <anchor x="539" y="1076" name="top"/>
+  <anchor x="539" y="2051" name="mkmktop_acc"/>
   <outline>
     <component base="s"/>
-    <component base="acutedotcomb.lc" xOffset="266"/>
+    <component base="acutedotcomb.lc" xOffset="319" yOffset="-42"/>
   </outline>
 </glyph>

@@ -3,6 +3,7 @@
   <advance width="667"/>
   <unicode hex="EECD"/>
   <anchor x="347" y="1490" name="_top"/>
+  <anchor x="347" y="2100" name="top"/>
   <outline>
     <component base="carondot.lc" yOffset="372"/>
   </outline>

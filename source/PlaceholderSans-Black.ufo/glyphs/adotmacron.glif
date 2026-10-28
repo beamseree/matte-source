@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="adotmacron" format="2">
-  <advance width="1140"/>
+  <advance width="1115"/>
   <unicode hex="01E1"/>
-  <anchor x="572" y="0" name="bottom"/>
-  <anchor x="1045" y="0" name="ogonek"/>
-  <anchor x="584" y="1076" name="top"/>
+  <anchor x="575" y="0" name="bottom"/>
+  <anchor x="1048" y="0" name="ogonek"/>
+  <anchor x="588" y="1816" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="dotmacron.lc" xOffset="173"/>
+    <component base="dotmacron.lc" xOffset="249" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

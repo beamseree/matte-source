@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ljecyrillic" format="2">
-  <advance width="1927"/>
+  <advance width="1926"/>
   <unicode hex="0459"/>
   <anchor x="622" y="0" name="bottom"/>
   <anchor x="1171" y="0" name="cyrtic"/>

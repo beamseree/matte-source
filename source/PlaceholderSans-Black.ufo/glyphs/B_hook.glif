@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Bhook" format="2">
-  <advance width="1911"/>
+  <advance width="1900"/>
   <unicode hex="0181"/>
-  <anchor x="1158" y="0" name="bottom"/>
-  <anchor x="806" y="480" name="cross"/>
-  <anchor x="1157" y="1490" name="top"/>
-  <anchor x="582" y="1490" name="topl"/>
+  <anchor x="1152" y="0" name="bottom"/>
+  <anchor x="800" y="480" name="cross"/>
+  <anchor x="1151" y="1490" name="top"/>
+  <anchor x="576" y="1490" name="topl"/>
   <outline>
     <component base="B" xOffset="480"/>
-    <component base="_part.top_left_hook" xOffset="-31"/>
+    <component base="_part.top_left_hook" xOffset="-82"/>
   </outline>
   <lib>
     <dict>

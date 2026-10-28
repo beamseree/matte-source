@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fiveroman" format="2">
-  <advance width="1146"/>
+  <advance width="1148"/>
   <unicode hex="2174"/>
-  <anchor x="625" y="0" name="bottom"/>
-  <anchor x="625" y="1076" name="top"/>
+  <anchor x="626" y="0" name="bottom"/>
+  <anchor x="626" y="1076" name="top"/>
   <outline>
     <component base="v" xOffset="6"/>
   </outline>

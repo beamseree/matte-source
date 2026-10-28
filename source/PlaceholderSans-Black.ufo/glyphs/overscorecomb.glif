@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="overscorecomb" format="2">
-  <advance width="18"/>
+  <advance width="8"/>
   <unicode hex="EEC0"/>
   <anchor x="-676" y="2019" name="_bottom"/>
   <outline>

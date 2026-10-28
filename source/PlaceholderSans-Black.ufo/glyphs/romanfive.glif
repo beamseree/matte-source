@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romanfive" format="2">
-  <advance width="1557"/>
+  <advance width="1560"/>
   <unicode hex="2164"/>
-  <anchor x="786" y="0" name="bottom"/>
-  <anchor x="786" y="1490" name="top"/>
+  <anchor x="789" y="0" name="bottom"/>
+  <anchor x="789" y="1490" name="top"/>
   <outline>
     <component base="V"/>
   </outline>

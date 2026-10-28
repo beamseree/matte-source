@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflexdotbelow" format="2">
-  <advance width="1172"/>
+  <advance width="1220"/>
   <unicode hex="1EC6"/>
-  <anchor x="650" y="0" name="bottom"/>
-  <anchor x="650" y="0" name="cedilla"/>
-  <anchor x="1117" y="0" name="ogonek"/>
-  <anchor x="184" y="1490" name="tonos"/>
-  <anchor x="659" y="1935" name="top"/>
+  <anchor x="656" y="0" name="bottom"/>
+  <anchor x="656" y="0" name="cedilla"/>
+  <anchor x="1123" y="0" name="ogonek"/>
+  <anchor x="190" y="1490" name="tonos"/>
+  <anchor x="656" y="1935" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="circumflexcomb" xOffset="243" yOffset="372"/>
-    <component base="dotbelow" xOffset="457"/>
+    <component base="circumflexcomb" xOffset="240" yOffset="372"/>
+    <component base="dotbelow" xOffset="484"/>
   </outline>
 </glyph>

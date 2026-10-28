@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildedieresis.ss07" format="2">
-  <advance width="1083"/>
+  <advance width="1188"/>
   <unicode hex="E254"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="538" name="center"/>
-  <anchor x="1077" y="535" name="ogonek"/>
-  <anchor x="600" y="1076" name="top"/>
-  <anchor x="600" y="1103" name="tophorn"/>
+  <anchor x="592" y="0" name="bottom"/>
+  <anchor x="592" y="538" name="center"/>
+  <anchor x="1069" y="535" name="ogonek"/>
+  <anchor x="613" y="1697" name="top"/>
+  <anchor x="592" y="1103" name="tophorn"/>
   <outline>
     <component base="o"/>
-    <component base="tildedieresiscomb.lc.ss07" xOffset="94"/>
+    <component base="tildedieresiscomb.lc.ss07" xOffset="110" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

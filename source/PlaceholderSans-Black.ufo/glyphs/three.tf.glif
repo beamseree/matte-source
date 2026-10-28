@@ -2,9 +2,9 @@
 <glyph name="three.tf" format="2">
   <advance width="1400"/>
   <unicode hex="E074"/>
-  <anchor x="699" y="1490" name="top"/>
+  <anchor x="700" y="1490" name="top"/>
   <outline>
-    <component base="three" xOffset="4"/>
+    <component base="three" xOffset="6"/>
   </outline>
   <lib>
     <dict>

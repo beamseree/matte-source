@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kadescendercyrillic" format="2">
-  <advance width="1149"/>
+  <advance width="1147"/>
   <unicode hex="049B"/>
   <anchor x="1004" y="0" name="cyrtic"/>
   <anchor x="545" y="1076" name="top"/>
   <outline>
     <component base="kacyrillic"/>
-    <component base="_part.cyrtic" xOffset="843"/>
+    <component base="_part.cyrtic" xOffset="837"/>
   </outline>
   <lib>
     <dict>

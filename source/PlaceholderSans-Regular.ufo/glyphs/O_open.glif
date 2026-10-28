@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oopen" format="2">
-  <advance width="1549"/>
+  <advance width="1530"/>
   <unicode hex="0186"/>
-  <anchor x="737.0" y="1499.0" name="cedilla"/>
-  <anchor x="738.0" y="745.0" name="center"/>
-  <anchor x="775" y="0" name="bottom"/>
-  <anchor x="91.0" y="480.0" name="bottomr"/>
-  <anchor x="771" y="1490" name="top"/>
+  <anchor x="733" y="1499" name="cedilla"/>
+  <anchor x="734" y="745" name="center"/>
+  <anchor x="766" y="0" name="bottom"/>
+  <anchor x="87" y="480" name="bottomr"/>
+  <anchor x="762" y="1490" name="top"/>
   <outline>
-    <component base="C" xScale="-1.0" yScale="-1.0" xOffset="1549.0" yOffset="1490.0"/>
+    <component base="C" xScale="-1.0" yScale="-1.0" xOffset="1530.0" yOffset="1490.0"/>
   </outline>
   <lib>
     <dict>

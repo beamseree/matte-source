@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="vtilde" format="2">
-  <advance width="1020"/>
+  <advance width="1061"/>
   <unicode hex="1E7D"/>
-  <anchor x="530" y="0" name="bottom"/>
-  <anchor x="487" y="1498" name="top"/>
+  <anchor x="526" y="0" name="bottom"/>
+  <anchor x="526" y="1456" name="top"/>
   <outline>
     <component base="v"/>
-    <component base="tildecomb" xOffset="5"/>
+    <component base="tildecomb" xOffset="44" yOffset="-42"/>
   </outline>
 </glyph>

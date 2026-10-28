@@ -6,7 +6,7 @@
   <anchor x="476" y="1118" name="_top"/>
   <outline>
     <component base="brevecomb" yOffset="-27"/>
-    <component base="hookabove_compact" xScale="0.8" yScale="0.8" xOffset="225" yOffset="627"/>
+    <component base="hookabove_compact" xScale="0.8" yScale="0.8" xOffset="226" yOffset="627"/>
   </outline>
   <lib>
     <dict>

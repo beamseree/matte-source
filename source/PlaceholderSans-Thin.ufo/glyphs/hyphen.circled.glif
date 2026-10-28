@@ -4,7 +4,7 @@
   <unicode hex="E134"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="hyphen" xOffset="988" yOffset="106"/>
+    <component base="hyphen" xOffset="985" yOffset="106"/>
   </outline>
   <lib>
     <dict>

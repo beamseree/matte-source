@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="x" format="2">
-  <advance width="1051"/>
+  <advance width="1040"/>
   <unicode hex="0078"/>
-  <anchor x="524" y="0" name="bottom"/>
-  <anchor x="964" y="0" name="cyrtic"/>
-  <anchor x="861" y="0" name="right"/>
-  <anchor x="524" y="1076" name="top"/>
+  <anchor x="519" y="0" name="bottom"/>
+  <anchor x="959" y="0" name="cyrtic"/>
+  <anchor x="856" y="0" name="right"/>
+  <anchor x="519" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="51" y="0" type="line"/>
-      <point x="108" y="0" type="line"/>
-      <point x="524" y="515" type="line"/>
-      <point x="939" y="0" type="line"/>
-      <point x="997" y="0" type="line"/>
-      <point x="552" y="550" type="line"/>
-      <point x="977" y="1076" type="line"/>
-      <point x="919" y="1076" type="line"/>
-      <point x="524" y="586" type="line"/>
-      <point x="128" y="1076" type="line"/>
-      <point x="71" y="1076" type="line"/>
-      <point x="495" y="550" type="line"/>
+      <point x="46" y="0" type="line"/>
+      <point x="103" y="0" type="line"/>
+      <point x="519" y="515" type="line"/>
+      <point x="934" y="0" type="line"/>
+      <point x="992" y="0" type="line"/>
+      <point x="547" y="550" type="line"/>
+      <point x="972" y="1076" type="line"/>
+      <point x="914" y="1076" type="line"/>
+      <point x="519" y="586" type="line"/>
+      <point x="123" y="1076" type="line"/>
+      <point x="66" y="1076" type="line"/>
+      <point x="490" y="550" type="line"/>
     </contour>
   </outline>
   <lib>

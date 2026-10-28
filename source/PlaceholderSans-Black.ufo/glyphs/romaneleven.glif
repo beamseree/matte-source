@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romaneleven" format="2">
-  <advance width="2264"/>
+  <advance width="2263"/>
   <unicode hex="216A"/>
   <anchor x="1961" y="0" name="bottom"/>
   <anchor x="1961" y="788" name="cross"/>
-  <anchor x="1532" y="0" name="cyrtic"/>
+  <anchor x="1534" y="0" name="cyrtic"/>
   <anchor x="1964" y="1490" name="top"/>
   <anchor x="2151" y="0" name="ogonek"/>
   <anchor x="2176" y="0" name="right"/>

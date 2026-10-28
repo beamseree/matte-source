@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omicrontonos" format="2">
-  <advance width="1647"/>
+  <advance width="1642"/>
   <unicode hex="038C"/>
-  <anchor x="887" y="0" name="bottom"/>
-  <anchor x="887" y="745" name="center"/>
-  <anchor x="1563" y="744" name="ogonek"/>
-  <anchor x="360" y="1490" name="tonos"/>
-  <anchor x="887" y="1490" name="top"/>
-  <anchor x="887" y="1510" name="tophorn"/>
+  <anchor x="863" y="0" name="bottom"/>
+  <anchor x="863" y="745" name="center"/>
+  <anchor x="1539" y="744" name="ogonek"/>
+  <anchor x="336" y="1490" name="tonos"/>
+  <anchor x="863" y="1490" name="top"/>
+  <anchor x="863" y="1510" name="tophorn"/>
   <outline>
     <component base="O" xOffset="81"/>
-    <component base="tonos" xOffset="68" yOffset="-67"/>
+    <component base="tonos" xOffset="-11" yOffset="-67"/>
   </outline>
   <lib>
     <dict>

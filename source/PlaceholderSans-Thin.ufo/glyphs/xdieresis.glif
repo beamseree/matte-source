@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="xdieresis" format="2">
-  <advance width="982"/>
+  <advance width="1040"/>
   <unicode hex="1E8D"/>
-  <anchor x="524" y="0" name="bottom"/>
-  <anchor x="964" y="0" name="cyrtic"/>
-  <anchor x="861" y="0" name="right"/>
-  <anchor x="504" y="1467" name="top"/>
+  <anchor x="519" y="0" name="bottom"/>
+  <anchor x="959" y="0" name="cyrtic"/>
+  <anchor x="856" y="0" name="right"/>
+  <anchor x="519" y="1425" name="top"/>
   <outline>
     <component base="x"/>
-    <component base="dieresiscomb" xOffset="-59"/>
+    <component base="dieresiscomb" xOffset="-44" yOffset="-42"/>
   </outline>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Te-cy" format="2">
-  <advance width="1450"/>
+  <advance width="1453"/>
   <unicode hex="0422"/>
-  <anchor x="722" y="0" name="bottom"/>
-  <anchor x="911" y="0" name="bottomr"/>
-  <anchor x="723" y="0" name="cedilla"/>
-  <anchor x="722" y="665" name="cross"/>
-  <anchor x="911" y="0" name="cyrtic"/>
-  <anchor x="859" y="0" name="right"/>
-  <anchor x="722" y="1490" name="top"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="912" y="0" name="bottomr"/>
+  <anchor x="724" y="0" name="cedilla"/>
+  <anchor x="723" y="665" name="cross"/>
+  <anchor x="912" y="0" name="cyrtic"/>
+  <anchor x="860" y="0" name="right"/>
+  <anchor x="723" y="1490" name="top"/>
   <outline>
     <component base="T"/>
   </outline>

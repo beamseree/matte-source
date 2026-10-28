@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ccedillaacute" format="2">
-  <advance width="1118"/>
+  <advance width="1147"/>
   <unicode hex="1E09"/>
-  <anchor x="642" y="0" name="bottom"/>
-  <anchor x="642" y="0" name="cedilla"/>
-  <anchor x="642" y="538" name="center"/>
-  <anchor x="638" y="1557" name="top"/>
-  <anchor x="1058" y="864" name="topr"/>
+  <anchor x="627" y="0" name="bottom"/>
+  <anchor x="627" y="0" name="cedilla"/>
+  <anchor x="627" y="538" name="center"/>
+  <anchor x="631" y="1515" name="top"/>
+  <anchor x="1043" y="864" name="topr"/>
   <outline>
     <component base="c"/>
-    <component base="cedillacomb" xOffset="450"/>
-    <component base="acutecomb" xOffset="441"/>
+    <component base="cedillacomb" xOffset="422"/>
+    <component base="acutecomb" xOffset="434" yOffset="-42"/>
   </outline>
 </glyph>

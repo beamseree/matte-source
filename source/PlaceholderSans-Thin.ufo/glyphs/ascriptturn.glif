@@ -2,11 +2,11 @@
 <glyph name="ascriptturn" format="2">
   <advance width="1182"/>
   <unicode hex="0252"/>
-  <anchor x="581" y="0" name="bottom"/>
-  <anchor x="178" y="0" name="bottomr"/>
-  <anchor x="178" y="0" name="ogonek"/>
-  <anchor x="600" y="1076" name="top"/>
-  <anchor x="178" y="1076" name="topr"/>
+  <anchor x="585" y="0" name="bottom"/>
+  <anchor x="182" y="0" name="bottomr"/>
+  <anchor x="182" y="0" name="ogonek"/>
+  <anchor x="604" y="1076" name="top"/>
+  <anchor x="182" y="1076" name="topr"/>
   <outline>
     <component base="a.1" xScale="-1" xOffset="1182"/>
   </outline>

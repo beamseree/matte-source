@@ -6,7 +6,7 @@
   <anchor x="1695" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="J" xOffset="876"/>
+    <component base="J" xOffset="879"/>
   </outline>
   <lib>
     <dict>

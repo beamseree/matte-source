@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="angstrom" format="2">
-  <advance width="1611"/>
+  <advance width="1592"/>
   <unicode hex="212B"/>
   <anchor x="804" y="0" name="bottom"/>
   <anchor x="1576" y="0" name="ogonek"/>

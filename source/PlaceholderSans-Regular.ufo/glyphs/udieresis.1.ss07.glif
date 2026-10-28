@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="udieresis.1.ss07" format="2">
-  <advance width="1130"/>
+  <advance width="1188"/>
   <unicode hex="E283"/>
   <anchor x="594" y="0" name="bottom"/>
   <anchor x="1052" y="410" name="ogonek"/>
-  <anchor x="567" y="1504" name="top"/>
+  <anchor x="594" y="1462" name="top"/>
   <outline>
     <component base="u.1"/>
-    <component base="dieresiscomb.ss07" xOffset="-23"/>
+    <component base="dieresiscomb.ss07" xOffset="4" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

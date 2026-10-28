@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upsilon" format="2">
-  <advance width="1305"/>
+  <advance width="1296"/>
   <unicode hex="03C5"/>
   <note>
 https://en.wikipedia.org/wiki/Upsilon
 </note>
-  <anchor x="652" y="0" name="bottom"/>
-  <anchor x="1192" y="446" name="ogonek"/>
-  <anchor x="652" y="1076" name="top"/>
+  <anchor x="648" y="0" name="bottom"/>
+  <anchor x="1188" y="446" name="ogonek"/>
+  <anchor x="648" y="1076" name="top"/>
   <outline>
     <component base="u.1"/>
   </outline>

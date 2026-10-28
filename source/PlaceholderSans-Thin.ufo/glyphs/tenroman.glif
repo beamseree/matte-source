@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tenroman" format="2">
-  <advance width="1063"/>
+  <advance width="1052"/>
   <unicode hex="2179"/>
-  <anchor x="504" y="0" name="bottom"/>
-  <anchor x="944" y="0" name="cyrtic"/>
-  <anchor x="841" y="0" name="right"/>
-  <anchor x="504" y="1076" name="top"/>
+  <anchor x="499" y="0" name="bottom"/>
+  <anchor x="939" y="0" name="cyrtic"/>
+  <anchor x="836" y="0" name="right"/>
+  <anchor x="499" y="1076" name="top"/>
   <outline>
     <component base="x" xOffset="-20"/>
   </outline>

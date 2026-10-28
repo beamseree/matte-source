@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="comma.numr" format="2">
-  <advance width="449"/>
+  <advance width="439"/>
   <outline>
     <component base="comma" xScale="0.8" yScale="0.8" yOffset="682"/>
   </outline>

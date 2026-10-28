@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ndotbelow" format="2">
-  <advance width="1230"/>
+  <advance width="1214"/>
   <unicode hex="1E47"/>
-  <anchor x="611" y="0" name="bottom"/>
-  <anchor x="1108" y="0" name="bottomr"/>
-  <anchor x="115" y="0" name="lfthook"/>
-  <anchor x="611" y="1076" name="top"/>
-  <anchor x="470" y="1076" name="topr"/>
+  <anchor x="606" y="0" name="bottom"/>
+  <anchor x="1103" y="0" name="bottomr"/>
+  <anchor x="110" y="0" name="lfthook"/>
+  <anchor x="606" y="1076" name="top"/>
+  <anchor x="465" y="1076" name="topr"/>
   <outline>
     <component base="n"/>
-    <component base="dotbelow" xOffset="221"/>
+    <component base="dotbelow" xOffset="258"/>
   </outline>
 </glyph>

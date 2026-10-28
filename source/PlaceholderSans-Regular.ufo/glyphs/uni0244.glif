@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0244" format="2">
-  <advance width="1488"/>
+  <advance width="1467"/>
   <unicode hex="0244"/>
   <guideline x="1036" y="148" angle="90"/>
-  <anchor x="750" y="0" name="bottom"/>
-  <anchor x="1343" y="511" name="ogonek"/>
-  <anchor x="839" y="0" name="right"/>
-  <anchor x="1139" y="1490" name="rtophorn"/>
-  <anchor x="750" y="1490" name="top"/>
+  <anchor x="736" y="0" name="bottom"/>
+  <anchor x="1329" y="511" name="ogonek"/>
+  <anchor x="825" y="0" name="right"/>
+  <anchor x="1125" y="1490" name="rtophorn"/>
+  <anchor x="736" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="1523" y="860" type="line"/>
-      <point x="-34" y="860" type="line"/>
-      <point x="-34" y="725" type="line"/>
-      <point x="1523" y="725" type="line"/>
+      <point x="1509" y="860" type="line"/>
+      <point x="-48" y="860" type="line"/>
+      <point x="-48" y="725" type="line"/>
+      <point x="1509" y="725" type="line"/>
     </contour>
     <component base="U"/>
   </outline>

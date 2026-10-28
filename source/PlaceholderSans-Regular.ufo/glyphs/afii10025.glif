@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10025" format="2">
-  <advance width="1269"/>
+  <advance width="1245"/>
   <unicode hex="0417"/>
   <guideline x="916" y="1044" angle="90"/>
-  <anchor x="636" y="1490" name="top"/>
-  <anchor x="658" y="0" name="cedilla"/>
+  <anchor x="623" y="1490" name="top"/>
+  <anchor x="645" y="0" name="cedilla"/>
   <outline>
     <component base="three"/>
   </outline>

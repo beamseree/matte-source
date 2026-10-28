@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbar" format="2">
-  <advance width="1711"/>
+  <advance width="1709"/>
   <unicode hex="0126"/>
-  <anchor x="840" y="0" name="bottom"/>
-  <anchor x="379" y="0" name="cedilla"/>
-  <anchor x="1488" y="0" name="cyrtic"/>
-  <anchor x="1111" y="0" name="lfthook"/>
-  <anchor x="1488" y="0" name="right"/>
-  <anchor x="192" y="1490" name="tonos"/>
-  <anchor x="840" y="1490" name="top"/>
+  <anchor x="838" y="0" name="bottom"/>
+  <anchor x="377" y="0" name="cedilla"/>
+  <anchor x="1486" y="0" name="cyrtic"/>
+  <anchor x="1109" y="0" name="lfthook"/>
+  <anchor x="1486" y="0" name="right"/>
+  <anchor x="190" y="1490" name="tonos"/>
+  <anchor x="838" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="1611" y="1269" type="line"/>
-      <point x="72" y="1269" type="line"/>
-      <point x="72" y="1076" type="line"/>
-      <point x="1611" y="1076" type="line"/>
+      <point x="1609" y="1269" type="line"/>
+      <point x="70" y="1269" type="line"/>
+      <point x="70" y="1076" type="line"/>
+      <point x="1609" y="1076" type="line"/>
     </contour>
     <component base="H" xOffset="84"/>
   </outline>

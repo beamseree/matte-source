@@ -8,7 +8,7 @@
   <anchor x="877" y="1490" name="topl"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="D" xOffset="741"/>
+    <component base="D" xOffset="727"/>
   </outline>
   <lib>
     <dict>

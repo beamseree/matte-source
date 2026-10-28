@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yerudieresis-cy.ss07" format="2">
-  <advance width="1662"/>
+  <advance width="1737"/>
   <unicode hex="E296"/>
-  <anchor x="1472" y="772" name="cross"/>
-  <anchor x="1472" y="0" name="bottom"/>
-  <anchor x="1574" y="0" name="ogonek"/>
-  <anchor x="1591" y="0" name="right"/>
-  <anchor x="1370" y="1490" name="tonos"/>
-  <anchor x="767" y="1876" name="top"/>
+  <anchor x="1479" y="772" name="cross"/>
+  <anchor x="1479" y="0" name="bottom"/>
+  <anchor x="1581" y="0" name="ogonek"/>
+  <anchor x="1598" y="0" name="right"/>
+  <anchor x="1377" y="1490" name="tonos"/>
+  <anchor x="847" y="1876" name="top"/>
   <outline>
     <component base="afii10045"/>
-    <component base="dieresiscomb.ss07" xOffset="177" yOffset="372"/>
+    <component base="dieresiscomb.ss07" xOffset="257" yOffset="372"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F6E" format="2">
-  <advance width="1875"/>
+  <advance width="1937"/>
   <unicode hex="1F6E"/>
   <anchor x="1180" y="0" name="bottom"/>
   <anchor x="659" y="1490" name="tonos"/>
-  <anchor x="1180" y="1490" name="top"/>
+  <anchor x="348" y="1763" name="top"/>
   <outline>
     <component base="Omega" xOffset="422"/>
-    <component base="uni1FCF.tonos" xOffset="101" yOffset="-75"/>
+    <component base="uni1FCF.tonos" xOffset="108" yOffset="-75"/>
   </outline>
   <lib>
     <dict>

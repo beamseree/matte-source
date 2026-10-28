@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ndotbelow" format="2">
-  <advance width="1438"/>
+  <advance width="1484"/>
   <unicode hex="1E46"/>
-  <anchor x="732" y="0" name="bottom"/>
-  <anchor x="180" y="0" name="lfthook"/>
-  <anchor x="1284" y="0" name="lfthook2"/>
-  <anchor x="732" y="1490" name="top"/>
+  <anchor x="748" y="0" name="bottom"/>
+  <anchor x="196" y="0" name="lfthook"/>
+  <anchor x="1300" y="0" name="lfthook2"/>
+  <anchor x="748" y="1490" name="top"/>
   <outline>
     <component base="N"/>
-    <component base="dotbelow" xOffset="490"/>
+    <component base="dotbelow" xOffset="576"/>
   </outline>
 </glyph>

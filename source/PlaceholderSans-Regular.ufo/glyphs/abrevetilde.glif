@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevetilde" format="2">
-  <advance width="1056"/>
+  <advance width="1104"/>
   <unicode hex="1EB5"/>
-  <anchor x="560" y="0" name="bottom"/>
-  <anchor x="997" y="0" name="ogonek"/>
-  <anchor x="489" y="1853" name="top"/>
+  <anchor x="555" y="0" name="bottom"/>
+  <anchor x="992" y="0" name="ogonek"/>
+  <anchor x="557" y="1811" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="brevetildecomb.cn" xOffset="130"/>
+    <component base="brevetildecomb.cn" xOffset="198" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

@@ -7,8 +7,8 @@ COMBINING FOUR DOTS ABOVE
   <outline>
     <component base="period.ss07" yOffset="1224"/>
     <component base="period.ss07" xOffset="778" yOffset="1224"/>
-    <component base="period.ss07" xOffset="1555" yOffset="1224"/>
-    <component base="period.ss07" xOffset="2333" yOffset="1224"/>
+    <component base="period.ss07" xOffset="1556" yOffset="1224"/>
+    <component base="period.ss07" xOffset="2334" yOffset="1224"/>
   </outline>
   <lib>
     <dict>

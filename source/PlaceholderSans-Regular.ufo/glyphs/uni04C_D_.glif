@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni04CD" format="2">
-  <advance width="1830"/>
+  <advance width="1857"/>
   <unicode hex="04CD"/>
-  <anchor x="916" y="0" name="bottom"/>
-  <anchor x="1692" y="0" name="cyrtic"/>
-  <anchor x="916" y="1490" name="top"/>
+  <anchor x="923" y="0" name="bottom"/>
+  <anchor x="1699" y="0" name="cyrtic"/>
+  <anchor x="923" y="1490" name="top"/>
   <outline>
     <component base="M"/>
-    <component base="_part.cyrtail" xOffset="1375"/>
+    <component base="_part.cyrtail" xOffset="1415"/>
   </outline>
   <lib>
     <dict>

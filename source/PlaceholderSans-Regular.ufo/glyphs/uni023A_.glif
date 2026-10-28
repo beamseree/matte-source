@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni023A" format="2">
-  <advance width="1453"/>
+  <advance width="1444"/>
   <unicode hex="023A"/>
-  <anchor x="733" y="0" name="bottom"/>
-  <anchor x="1428" y="0" name="ogonek"/>
-  <anchor x="507" y="1490" name="tonos"/>
-  <anchor x="733" y="1490" name="top"/>
+  <anchor x="729" y="0" name="bottom"/>
+  <anchor x="1424" y="0" name="ogonek"/>
+  <anchor x="503" y="1490" name="tonos"/>
+  <anchor x="729" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="1196" y="1678" type="line"/>
-      <point x="1021" y="1678" type="line"/>
-      <point x="320" y="-190" type="line"/>
-      <point x="495" y="-190" type="line"/>
+      <point x="1192" y="1678" type="line"/>
+      <point x="1017" y="1678" type="line"/>
+      <point x="316" y="-190" type="line"/>
+      <point x="491" y="-190" type="line"/>
     </contour>
     <component base="A"/>
   </outline>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F54" format="2">
-  <advance width="1125"/>
+  <advance width="1168"/>
   <unicode hex="1F54"/>
-  <anchor x="582" y="0" name="bottom"/>
-  <anchor x="986" y="355" name="ogonek"/>
-  <anchor x="582" y="1076" name="top"/>
+  <anchor x="584" y="0" name="bottom"/>
+  <anchor x="988" y="355" name="ogonek"/>
+  <anchor x="584" y="1076" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="psilioxia" xOffset="260"/>
+    <component base="psilioxia" xOffset="286" yOffset="-42"/>
   </outline>
 </glyph>

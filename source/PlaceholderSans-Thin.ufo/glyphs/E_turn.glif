@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eturn" format="2">
-  <advance width="1231"/>
+  <advance width="1220"/>
   <unicode hex="018E"/>
-  <anchor x="658" y="1490" name="top"/>
-  <anchor x="626" y="0" name="cedilla"/>
-  <anchor x="114.0" y="1490.0" name="ogonek"/>
-  <anchor x="1047.0" y="0.0" name="tonos"/>
-  <anchor x="624" y="0" name="bottom"/>
+  <anchor x="641" y="1490" name="top"/>
+  <anchor x="609" y="0" name="cedilla"/>
+  <anchor x="97" y="1490" name="ogonek"/>
+  <anchor x="1030" y="0" name="tonos"/>
+  <anchor x="607" y="0" name="bottom"/>
   <outline>
-    <component base="E" xScale="-1.0" yScale="-1.0" xOffset="1231.0" yOffset="1490.0"/>
+    <component base="E" xScale="-1.0" yScale="-1.0" xOffset="1220.0" yOffset="1490.0"/>
   </outline>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F3C" format="2">
-  <advance width="1511"/>
+  <advance width="1474"/>
   <unicode hex="1F3C"/>
   <anchor x="1172" y="0" name="bottom"/>
   <anchor x="1172" y="788" name="cross"/>
@@ -10,7 +10,7 @@
   <anchor x="1175" y="1490" name="top"/>
   <outline>
     <component base="I" xOffset="875"/>
-    <component base="uni1FCE.tonos" xOffset="-20" yOffset="-105"/>
+    <component base="uni1FCE.tonos" xOffset="-18" yOffset="-105"/>
   </outline>
   <lib>
     <dict>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="degreefarenheit" format="2">
-  <advance width="2075"/>
+  <advance width="2076"/>
   <unicode hex="2109"/>
-  <anchor x="1103" y="0" name="bottom"/>
-  <anchor x="1103" y="410" name="cross"/>
-  <anchor x="1080" y="0" name="lfthook"/>
-  <anchor x="1535" y="1490" name="top"/>
+  <anchor x="1101" y="0" name="bottom"/>
+  <anchor x="1101" y="410" name="cross"/>
+  <anchor x="1078" y="0" name="lfthook"/>
+  <anchor x="1533" y="1490" name="top"/>
   <outline>
     <component base="degree"/>
-    <component base="F" xOffset="898"/>
+    <component base="F" xOffset="894"/>
   </outline>
   <lib>
     <dict>

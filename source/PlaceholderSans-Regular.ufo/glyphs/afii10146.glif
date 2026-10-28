@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10146" format="2">
-  <advance width="1371"/>
+  <advance width="1379"/>
   <unicode hex="0462"/>
   <note>
 effectiv LSB should be the LSB of /t
@@ -8,7 +8,7 @@ effectiv LSB should be the LSB of /t
   <anchor x="393" y="1187" name="cross"/>
   <outline>
     <component base="Softsign-cy" xOffset="80"/>
-    <component base="crossbar.uc" xOffset="-59" yOffset="434"/>
+    <component base="crossbar.uc" xOffset="-59" yOffset="442"/>
   </outline>
   <lib>
     <dict>

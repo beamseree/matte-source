@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ehookabove" format="2">
-  <advance width="1123"/>
+  <advance width="1142"/>
   <unicode hex="1EBB"/>
   <anchor x="570" y="0" name="bottom"/>
   <anchor x="574" y="0" name="cedilla"/>
@@ -8,6 +8,6 @@
   <anchor x="570" y="1076" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="hookabovecomb" xOffset="344"/>
+    <component base="hookabovecomb" xOffset="360" yOffset="-42"/>
   </outline>
 </glyph>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FE4" format="2">
-  <advance width="1150"/>
+  <advance width="1166"/>
   <unicode hex="1FE4"/>
   <anchor x="249" y="-190" name="cross"/>
   <anchor x="614" y="1076" name="top"/>
   <outline>
     <component base="rho"/>
-    <component base="koronis" xOffset="433"/>
+    <component base="koronis" xOffset="449" yOffset="-42"/>
   </outline>
 </glyph>

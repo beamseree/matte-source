@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iecyrillic" format="2">
-  <advance width="1146"/>
+  <advance width="1142"/>
   <unicode hex="0435"/>
   <anchor x="570" y="0" name="bottom"/>
   <anchor x="574" y="0" name="cedilla"/>

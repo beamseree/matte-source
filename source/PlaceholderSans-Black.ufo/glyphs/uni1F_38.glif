@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F38" format="2">
-  <advance width="1027"/>
+  <advance width="1018"/>
   <unicode hex="1F38"/>
   <anchor x="716" y="0" name="bottom"/>
   <anchor x="716" y="788" name="cross"/>
@@ -10,7 +10,7 @@
   <anchor x="719" y="1490" name="top"/>
   <outline>
     <component base="I" xOffset="419"/>
-    <component base="koronisaccentleft.cn" xOffset="-20" yOffset="-89"/>
+    <component base="koronisaccentleft.cn" xOffset="-18" yOffset="-89"/>
   </outline>
   <lib>
     <dict>

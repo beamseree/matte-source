@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="qhook" format="2">
-  <advance width="1190"/>
+  <advance width="1234"/>
   <unicode hex="02A0"/>
   <note>
 decomposed q + custom tail
@@ -12,7 +12,7 @@ decomposed q + custom tail
   <anchor x="1066" y="1076" name="topr"/>
   <outline>
     <component base="q"/>
-    <component base="_part.top_r_hook" xOffset="787"/>
+    <component base="_part.top_r_hook" xOffset="842" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

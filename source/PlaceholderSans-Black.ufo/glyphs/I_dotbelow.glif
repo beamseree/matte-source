@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idotbelow" format="2">
-  <advance width="609"/>
+  <advance width="599"/>
   <unicode hex="1ECA"/>
   <anchor x="297" y="0" name="bottom"/>
   <anchor x="297" y="788" name="cross"/>
@@ -10,6 +10,6 @@
   <anchor x="300" y="1490" name="top"/>
   <outline>
     <component base="I"/>
-    <component base="dotbelow" xOffset="-34"/>
+    <component base="dotbelow" xOffset="-51"/>
   </outline>
 </glyph>

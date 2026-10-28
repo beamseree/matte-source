@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idieresis-cy.ss07" format="2">
-  <advance width="1308"/>
+  <advance width="1306"/>
   <unicode hex="E29B"/>
   <anchor x="1194" y="0" name="cyrtic"/>
-  <anchor x="641" y="1586" name="top"/>
+  <anchor x="653" y="1544" name="top"/>
   <outline>
     <component base="iicyrillic"/>
-    <component base="dieresiscomb.ss07" xOffset="-24"/>
+    <component base="dieresiscomb.ss07" xOffset="-12" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

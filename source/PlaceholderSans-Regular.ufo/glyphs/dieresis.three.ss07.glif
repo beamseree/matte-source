@@ -8,8 +8,8 @@
   <anchor x="800" y="1504" name="top"/>
   <outline>
     <component base="dotaccentcomb.ss07" xOffset="147"/>
-    <component base="dotaccentcomb.ss07" xOffset="538"/>
-    <component base="dotaccentcomb.ss07" xOffset="929"/>
+    <component base="dotaccentcomb.ss07" xOffset="567" yOffset="14"/>
+    <component base="dotaccentcomb.ss07" xOffset="987" yOffset="28"/>
   </outline>
   <lib>
     <dict>

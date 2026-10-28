@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ustraightstrokecyrillic" format="2">
-  <advance width="1513"/>
+  <advance width="1518"/>
   <unicode hex="04B0"/>
-  <anchor x="739" y="0" name="bottom"/>
-  <anchor x="740" y="323" name="cross"/>
-  <anchor x="929" y="0" name="ogonek"/>
-  <anchor x="2" y="1490" name="tonos"/>
-  <anchor x="735" y="1490" name="top"/>
+  <anchor x="743" y="0" name="bottom"/>
+  <anchor x="744" y="323" name="cross"/>
+  <anchor x="933" y="0" name="ogonek"/>
+  <anchor x="6" y="1490" name="tonos"/>
+  <anchor x="739" y="1490" name="top"/>
   <outline>
     <component base="Y"/>
-    <component base="crossbar.uc" xOffset="218" yOffset="-422"/>
+    <component base="crossbar.uc" xOffset="236" yOffset="-422"/>
   </outline>
 </glyph>

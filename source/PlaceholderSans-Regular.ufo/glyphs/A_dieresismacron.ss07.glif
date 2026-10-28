@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Adieresismacron.ss07" format="2">
-  <advance width="1338"/>
+  <advance width="1444"/>
   <unicode hex="E1E5"/>
-  <anchor x="733" y="0" name="bottom"/>
-  <anchor x="1428" y="0" name="ogonek"/>
-  <anchor x="507" y="1490" name="tonos"/>
-  <anchor x="733" y="1490" name="top"/>
+  <anchor x="729" y="0" name="bottom"/>
+  <anchor x="1424" y="0" name="ogonek"/>
+  <anchor x="503" y="1490" name="tonos"/>
+  <anchor x="729" y="1881" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="dieresismacroncomb.uc.ss07" xOffset="146"/>
+    <component base="dieresismacroncomb.uc.ss07" xOffset="157"/>
   </outline>
   <lib>
     <dict>

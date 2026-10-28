@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aturn.2" format="2">
-  <advance width="1095"/>
-  <anchor x="564" y="1160" name="top"/>
-  <anchor x="27.0" y="1073.0" name="ogonek"/>
-  <anchor x="568" y="0" name="bottom"/>
+  <advance width="1078"/>
+  <anchor x="553" y="1160" name="top"/>
+  <anchor x="16" y="1073" name="ogonek"/>
+  <anchor x="557" y="0" name="bottom"/>
   <outline>
-    <component base="a.2" xScale="-1.0" yScale="-1.0" xOffset="1095.0" yOffset="1076.0"/>
+    <component base="a.2" xScale="-1.0" yScale="-1.0" xOffset="1078.0" yOffset="1076.0"/>
   </outline>
   <lib>
     <dict>

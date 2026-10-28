@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sacutedotaccent.ss07" format="2">
-  <advance width="1012"/>
+  <advance width="1047"/>
   <unicode hex="E259"/>
-  <anchor x="536" y="0" name="bottom"/>
-  <anchor x="534" y="0" name="cedilla"/>
-  <anchor x="125" y="247" name="rthook"/>
-  <anchor x="536" y="1076" name="top"/>
-  <anchor x="535" y="1844" name="mkmktop_acc"/>
+  <anchor x="540" y="0" name="bottom"/>
+  <anchor x="538" y="0" name="cedilla"/>
+  <anchor x="129" y="247" name="rthook"/>
+  <anchor x="544" y="1689" name="top"/>
+  <anchor x="540" y="1802" name="mkmktop_acc"/>
   <outline>
     <component base="s"/>
-    <component base="acutedotcomb.lc.ss07" xOffset="448"/>
+    <component base="acutedotcomb.lc.ss07" xOffset="453" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

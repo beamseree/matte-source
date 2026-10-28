@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="twostroke" format="2">
-  <advance width="1251"/>
+  <advance width="1228"/>
   <unicode hex="01BB"/>
-  <anchor x="728" y="637" name="cross"/>
-  <anchor x="630" y="1490" name="top"/>
+  <anchor x="712" y="637" name="cross"/>
+  <anchor x="614" y="1490" name="top"/>
   <outline>
     <component base="two"/>
-    <component base="crossbar.uc" xOffset="337" yOffset="-108"/>
+    <component base="crossbar.uc" xOffset="334" yOffset="-108"/>
   </outline>
   <lib>
     <dict>

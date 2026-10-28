@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Q_rthook" format="2">
-  <advance width="1513"/>
+  <advance width="1534"/>
   <unicode hex="024A"/>
   <note>
 Composed by O and a vertical stem with tail
@@ -8,7 +8,7 @@ Composed by O and a vertical stem with tail
   <anchor x="1380" y="0" name="bottomr"/>
   <outline>
     <component base="_part.q_big"/>
-    <component base="_part.bottom_rthook" xOffset="1046"/>
+    <component base="_part.bottom_rthook" xOffset="1076"/>
   </outline>
   <lib>
     <dict>

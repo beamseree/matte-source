@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Fhook" format="2">
-  <advance width="1189"/>
+  <advance width="1210"/>
   <unicode hex="0191"/>
-  <anchor x="291" y="0" name="bottom"/>
-  <anchor x="291" y="249" name="cross"/>
-  <anchor x="102" y="0" name="lfthook"/>
-  <anchor x="634" y="1490" name="top"/>
+  <anchor x="308" y="0" name="bottom"/>
+  <anchor x="308" y="249" name="cross"/>
+  <anchor x="119" y="0" name="lfthook"/>
+  <anchor x="651" y="1490" name="top"/>
   <outline>
     <component base="F"/>
-    <component base="_part.bottom_lfthook_uc" xOffset="-254"/>
+    <component base="_part.bottom_lfthook_uc" xOffset="-238"/>
   </outline>
   <lib>
     <dict>

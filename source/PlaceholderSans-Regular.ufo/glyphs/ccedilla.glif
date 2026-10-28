@@ -2,13 +2,13 @@
 <glyph name="ccedilla" format="2">
   <advance width="1176"/>
   <unicode hex="00E7"/>
-  <anchor x="648" y="0" name="bottom"/>
-  <anchor x="648" y="0" name="cedilla"/>
-  <anchor x="648" y="538" name="center"/>
-  <anchor x="648" y="1076" name="top"/>
-  <anchor x="1126" y="771" name="topr"/>
+  <anchor x="629" y="0" name="bottom"/>
+  <anchor x="629" y="0" name="cedilla"/>
+  <anchor x="629" y="538" name="center"/>
+  <anchor x="629" y="1076" name="top"/>
+  <anchor x="1099" y="761" name="topr"/>
   <outline>
     <component base="c"/>
-    <component base="cedillacomb" xOffset="389"/>
+    <component base="cedillacomb" xOffset="383"/>
   </outline>
 </glyph>

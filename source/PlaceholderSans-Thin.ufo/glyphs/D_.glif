@@ -1,40 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="D" format="2">
-  <advance width="1484"/>
+  <advance width="1468"/>
   <unicode hex="0044"/>
   <note>
 !post:RemoveOverlap
 </note>
-  <anchor x="570" y="0" name="bottom"/>
-  <anchor x="346" y="745" name="cross"/>
-  <anchor x="617" y="1490" name="top"/>
-  <anchor x="182" y="1490" name="topl"/>
+  <anchor x="576" y="0" name="bottom"/>
+  <anchor x="352" y="745" name="cross"/>
+  <anchor x="623" y="1490" name="top"/>
+  <anchor x="188" y="1490" name="topl"/>
   <outline>
     <contour>
-      <point x="605" y="0" type="line" smooth="yes"/>
-      <point x="1082" y="0"/>
-      <point x="1359" y="275"/>
-      <point x="1359" y="750" type="curve" smooth="yes"/>
-      <point x="1359" y="1214"/>
-      <point x="1094" y="1490"/>
-      <point x="647" y="1490" type="curve" smooth="yes"/>
-      <point x="206" y="1490" type="line"/>
-      <point x="206" y="1444" type="line"/>
-      <point x="647" y="1444" type="line" smooth="yes"/>
-      <point x="1071" y="1444"/>
-      <point x="1313" y="1185"/>
-      <point x="1313" y="750" type="curve" smooth="yes"/>
-      <point x="1313" y="309"/>
-      <point x="1058" y="46"/>
-      <point x="605" y="46" type="curve" smooth="yes"/>
-      <point x="206" y="46" type="line"/>
-      <point x="206" y="0" type="line"/>
+      <point x="611" y="0" type="line" smooth="yes"/>
+      <point x="1088" y="0"/>
+      <point x="1365" y="275"/>
+      <point x="1365" y="750" type="curve" smooth="yes"/>
+      <point x="1365" y="1214"/>
+      <point x="1100" y="1490"/>
+      <point x="653" y="1490" type="curve" smooth="yes"/>
+      <point x="212" y="1490" type="line"/>
+      <point x="212" y="1444" type="line"/>
+      <point x="653" y="1444" type="line" smooth="yes"/>
+      <point x="1077" y="1444"/>
+      <point x="1319" y="1185"/>
+      <point x="1319" y="750" type="curve" smooth="yes"/>
+      <point x="1319" y="309"/>
+      <point x="1064" y="46"/>
+      <point x="611" y="46" type="curve" smooth="yes"/>
+      <point x="212" y="46" type="line"/>
+      <point x="212" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="228" y="1490" type="line"/>
-      <point x="182" y="1490" type="line"/>
-      <point x="182" y="0" type="line"/>
-      <point x="228" y="0" type="line"/>
+      <point x="234" y="1490" type="line"/>
+      <point x="188" y="1490" type="line"/>
+      <point x="188" y="0" type="line"/>
+      <point x="234" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

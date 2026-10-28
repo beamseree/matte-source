@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Emacrongrave" format="2">
-  <advance width="1177"/>
+  <advance width="1267"/>
   <unicode hex="1E14"/>
-  <anchor x="661" y="0" name="bottom"/>
-  <anchor x="661" y="0" name="cedilla"/>
-  <anchor x="1178" y="0" name="ogonek"/>
-  <anchor x="143" y="1490" name="tonos"/>
-  <anchor x="661" y="1490" name="top"/>
+  <anchor x="667" y="0" name="bottom"/>
+  <anchor x="667" y="0" name="cedilla"/>
+  <anchor x="1184" y="0" name="ogonek"/>
+  <anchor x="149" y="1490" name="tonos"/>
+  <anchor x="667" y="1490" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="macrongravecomb.cn" xOffset="189"/>
+    <component base="macrongravecomb.cn" xOffset="207"/>
   </outline>
 </glyph>

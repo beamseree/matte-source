@@ -8,7 +8,7 @@
   <anchor x="343" y="1890" name="top"/>
   <outline>
     <component base="brevecomb" yOffset="-28"/>
-    <component base="acute_compact" xOffset="131" yOffset="333"/>
+    <component base="acute_compact" xOffset="158" yOffset="333"/>
   </outline>
   <lib>
     <dict>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onetenth" format="2">
-  <advance width="2533"/>
+  <advance width="2532"/>
   <unicode hex="2152"/>
   <anchor x="2104" y="421" name="center"/>
   <anchor x="2104" y="842" name="top"/>

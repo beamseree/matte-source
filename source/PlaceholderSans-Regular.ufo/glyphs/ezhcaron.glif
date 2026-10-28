@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ezhcaron" format="2">
-  <advance width="1264"/>
+  <advance width="1251"/>
   <unicode hex="01EF"/>
-  <anchor x="631" y="1561" name="top"/>
+  <anchor x="622" y="1561" name="top"/>
   <outline>
     <component base="dzeabkhasiancyrillic"/>
-    <component base="caroncomb" xOffset="213"/>
+    <component base="caroncomb" xOffset="204"/>
   </outline>
   <lib>
     <dict>

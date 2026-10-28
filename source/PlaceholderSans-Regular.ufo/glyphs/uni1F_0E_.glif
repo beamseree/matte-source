@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F0E" format="2">
-  <advance width="1581"/>
+  <advance width="1640"/>
   <unicode hex="1F0E"/>
-  <anchor x="929" y="0" name="bottom"/>
-  <anchor x="1624" y="0" name="ogonek"/>
-  <anchor x="703" y="1490" name="tonos"/>
-  <anchor x="929" y="1490" name="top"/>
+  <anchor x="925" y="0" name="bottom"/>
+  <anchor x="1620" y="0" name="ogonek"/>
+  <anchor x="699" y="1490" name="tonos"/>
+  <anchor x="367" y="1830" name="top"/>
   <outline>
     <component base="A" xOffset="196"/>
-    <component base="uni1FCF.tonos" xOffset="138" yOffset="-54"/>
+    <component base="uni1FCF.tonos" xOffset="119" yOffset="-54"/>
   </outline>
   <lib>
     <dict>

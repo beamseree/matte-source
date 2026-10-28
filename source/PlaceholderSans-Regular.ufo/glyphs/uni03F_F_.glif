@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni03FF" format="2">
-  <advance width="1549"/>
+  <advance width="1530"/>
   <unicode hex="03FF"/>
-  <anchor x="737" y="-9" name="cedilla"/>
-  <anchor x="738" y="745" name="center"/>
-  <anchor x="736" y="1490" name="top"/>
-  <anchor x="91" y="1010" name="topr"/>
+  <anchor x="728" y="-9" name="cedilla"/>
+  <anchor x="729" y="745" name="center"/>
+  <anchor x="727" y="1490" name="top"/>
+  <anchor x="82" y="1010" name="topr"/>
   <outline>
     <component base="uni03FD"/>
-    <component base="period" xOffset="481" yOffset="650"/>
+    <component base="period" xOffset="477" yOffset="650"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iocyrillic" format="2">
-  <advance width="1241"/>
+  <advance width="1211"/>
   <unicode hex="0451"/>
-  <anchor x="608" y="0" name="bottom"/>
-  <anchor x="613" y="0" name="cedilla"/>
-  <anchor x="1131" y="299" name="ogonek"/>
-  <anchor x="606" y="1585" name="top"/>
+  <anchor x="607" y="0" name="bottom"/>
+  <anchor x="612" y="0" name="cedilla"/>
+  <anchor x="1119" y="272" name="ogonek"/>
+  <anchor x="607" y="1543" name="top"/>
   <outline>
     <component base="edieresis"/>
   </outline>

@@ -8,10 +8,12 @@ See README.md for the file layout, setup and commands.
 ## Status (2026-10-28)
 
 - **Regular** is fitted to `reference/mockup.svg` (fit report: ink error mean 1.0 units,
-  gap error mean 7.0 units, since the redraws below, the new f, t, P, C/G/S/s terminals
-  and i/j dots, and c's wider opening, which makes c 12 units narrower than the mockup's).
+  since the redraws below, the new f, t, P, C/G/S/s terminals and i/j dots, and c's wider
+  opening, which makes c 12 units narrower than the mockup's; gap error mean 2.4 since the
+  spacing pass, 7.0 before it).
 - **Thin** is fitted to `reference/mockup-thin.webp` (a screenshot, so about ±12 units of
-  precision; ink error mean 2.9, gap error mean 10.0). At the user's request Thin keeps
+  precision; ink error mean 2.9, gap error mean 7.1 since the spacing pass, 10.0 before;
+  most of what's left is the round capitals, see the spacing bullet). At the user's request Thin keeps
   Inter's stems (46). The image is a shape and proportion reference only: its strokes
   are about 105 units thick, so the targets keep each letter's skeleton and thin the
   strokes evenly (`imgtarget.py --stem 46`). Thin has its own guides, traced from the
@@ -21,9 +23,9 @@ See README.md for the file layout, setup and commands.
   377, H bar 327, against the SVG's 352, 377 and 327 and Inter's 402, 404 and 326. Black
   is low-contrast like Regular, and its lowercase stems are lighter than its capital
   stems (`weight_v_lower`). Ink error mean 1.3 (the largest is j, 15), gap error
-  mean 4.9; the largest gap
-  errors are word spaces ("BROWN FOX" −55, "quick brown" −49), uneven in the mockup
-  itself. It was first fitted to the screenshot `mockup-black.webp` (against the SVG:
+  mean 3.6 since the spacing pass (4.9 before); the largest gap errors are the round
+  capitals' pairs (DO +19, OG +18; the user chose even round sides over the mockup's) and
+  word spaces ("over the" +21, "BROWN FOX" −17), uneven in the mockup itself. It was first fitted to the screenshot `mockup-black.webp` (against the SVG:
   ink 9.7, gap 14.6). Black's guides are the SVG's outlines, except f, g, y and
   `_part.f_base`, whose backgrounds the user was editing; those, the hand-drawn g and y
   and the empty "test" layer were carried over unchanged through the refit, so g and y
@@ -41,12 +43,11 @@ See README.md for the file layout, setup and commands.
   the t crossbar and the i/j dots (`tools/redraw.py`); see Decisions. Every measured
   stroke is within about 1% of the mockups (`tools/strokes.py --check`), and their
   outlines differ from the SVGs' by 0.0–0.4% of the ink area. Earlier, the redraw of
-  N, K, k, w, t and i/j lowered ink errors but raised gap errors, for two spacing
-  problems the redraw exposed: the i/j dots now sit centred over their stems, which
-  shows the fits had placed those stems about 20–30 units right of the mockups' to make
-  up for off-centre dots; and t's longer bar reaches further into its left sidebearing
-  (the mockups only show t after a word space, so the fits never set t's left side).
-  Leave these for the spacing and kerning pass. The longer bars also met or overlapped
+  N, K, k, w, t and i/j lowered ink errors but raised gap errors (ui, ic, ju, r_t, th),
+  which looked like i/j stems placed 20–30 units right of the mockups' and t's longer bar
+  reaching into its left sidebearing. The spacing pass found the cause (see its bullet):
+  the fits could never move i, j, t or f, and made up for them on their neighbours (u's
+  right side, not the i, was loose). The longer bars also met or overlapped
   in tt, tf, ft and ff; `tools/kern.py` now kerns those pairs so the bars sit 60 units
   apart at every weight (the user chose 60 over 30 and 100, side by side in real text).
 - **The i/j dots are lower than the mockups'** at the user's request: the mockups' size
@@ -56,7 +57,8 @@ See README.md for the file layout, setup and commands.
   (`tools/dots.py`, see Decisions); the user chose the i dot's size over 8% bigger
   (about Inter's ratio), from `build/dots-compare/`. They had been Inter's, scaled by
   derive.py: Regular's period was 280 × 290. The accent dots (ż ė ċ ġ İ, 260 × 257 in
-  Regular; ä ö ü, 245 × 252) are still Inter's.
+  Regular; ä ö ü, 245 × 252) are still Inter's size; since the spacing pass they sit on
+  their anchors, so over the lowercase their feet are near the i dot's (Regular: both 1249).
 - **t's foot, P's bowl and the C, G, S and s terminals are reshaped by script**
   (`tools/reshape.py`, see Decisions): t ends in a flat foot with an upright cut, like
   the mockups' and like f's top, reaching about 20 units past the crossbar (25 in Thin),
@@ -150,6 +152,27 @@ See README.md for the file layout, setup and commands.
   wider and its leg at the screenshot's slope; B's waist up 19, G's bar up 43, e's bar
   up 23; its c and e terminals are Inter's. ę's ogonek follows e's turned cut. The user
   chose these from `build/refit-compare/`.
+- **Spacing and kerning pass, phase 1 (spacing) is done** (see Decisions):
+  - Accented letters have Inter's widths and their marks sit on their anchors
+    (`tools/accents.py`). About 1,420 composites per master had their marks' sidebearing
+    changes added (Regular Á 36 narrower than A, Ä 68; Black's 15–32 wider), marks off
+    their anchors by up to 99 units (Ÿ's dieresis 59–99, ñ's tilde 36–58), and lowercase
+    marks 42 units high; Greek and Cyrillic too. i and j were among them: they gained
+    25 units on the right in Regular.
+  - Every letter's sides are refitted (`tools/spacing.py`): pairs inside words match the
+    mockups within a unit, except the round capitals' below (lowercase gap error inside
+    words: Thin 6.0 → 2.2, Regular 3.6 → 0.4, Black 1.5 → 0.5), sides the pangrams don't show take Inter's proportions (t's left +57 in Regular, +93
+    in Thin; u's right −33 and m's left +32 in Regular, where the old fit had made up for
+    the i), the word space is 519 / 513 / 506 (Thin / Regular / Black), figures came in
+    9–17 units a side in Thin and Regular (none in Black), punctuation about 10 in
+    Regular, and æ, ß, þ and the character variants follow Inter's proportions.
+  - The round capitals O, C, G and D have one round sidebearing per master, as in Inter,
+    at the white our straight capitals have: 103 / 88 / 86. The user chose this ("C")
+    over the mockups' uneven ones ("A": Regular O 94/83, C 94, G 111, D 102) and over
+    Inter's ratio to H ("B": 118 / 103 / 89, too loose for our wider O), from
+    `build/spacing-compare/`, setting the mockup aside for consistency. So RO, OW, DO and
+    OG differ from the mockups (Thin's screenshot most: OG −53, DO −46).
+  - ŀ's dot is still 24–40 units off l's anchor (dots.py's FOLLOW places it).
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -171,9 +194,11 @@ See README.md for the file layout, setup and commands.
   where ours is 13°; Black S's counters are 15–17 units shallower, tops 1177 and 315
   against 1192 and 298; Regular S 9.8%, s 6.0%), and Regular's O and Q bowl (6%). `fit.py` still holds t's ink factor at 1.12, but
   redraw.py and reshape.py now set t's crossbar and foot, so the factor has no effect.
-- Next, with Claude: choose a real name, review figures and punctuation in real text
-  (the mockup only covers letters), do a kerning pass, then use the font in
-  `~/Documents/Projects/port-coming-soon` instead of `src/app/fonts/MuotoTrialVAR.ttf`.
+- Next, with Claude: phase 2 of the spacing and kerning pass (refit Inter's kerning,
+  which was made for Inter's shapes, to ours: pairs whose shapes changed first, then a
+  collision scan at every 100, then tools/kern.py's bar pairs last), choose a real name,
+  then use the font in `~/Documents/Projects/port-coming-soon` instead of
+  `src/app/fonts/MuotoTrialVAR.ttf`.
 
 ## Decisions and why
 
@@ -341,7 +366,7 @@ See README.md for the file layout, setup and commands.
   `BAR_GAP` (60) between the bars in every master, on top of Inter's group kerning.
   Glyph pairs, because Inter's t and f kerning groups also hold letters without these
   bars (public.kern1.t has 56 members, 33 of them t's); accented t's and f's still kern
-  as before. It writes only kerning.plist, and `to_ufo.py` runs it after reshape.py.
+  as before. It writes only kerning.plist, and `to_ufo.py` runs it after accents.py.
 - The tabular glyphs (every name with a `tf` suffix part, and `figurespace`) have one width
   per master, as in Inter. Inter builds most of them from the proportional glyphs as
   components, and derive.py gave each its proportional glyph's width change, so the
@@ -368,6 +393,48 @@ See README.md for the file layout, setup and commands.
   width. The colon is dots.py's; accented letters follow their anchors and are left
   alone. `to_ufo.py` runs it after dots.py and before tabular.py; run on its own, it runs
   tabular.py after. The user approved it from `build/stacked-compare/`.
+- Composites follow Inter's construction: `tools/accents.py` takes each glyph built only of
+  components and, from Inter's source (text-size masters), sorts its components into
+  attached ones (a "_" anchor meeting an anchor propagated through the components before
+  it, by ufo2ft's own `anchors_traversing_components`) and ones set beside (the first,
+  and n and j in nj). Those set beside keep Inter's offset plus the width changes of the
+  ones before them (and their own, if mirrored); attached ones sit on their anchor at
+  Inter's offset from it (none, except where Inter placed a mark by hand); the width is
+  Inter's plus the width changes of the components set beside, so a composite with its
+  base's width in Inter has ours; the anchors are propagated again, keeping those Inter
+  sets by hand. It leaves alone glyphs with contours of their own (t, f, Q, Ħ ...), the
+  glyphs dots.py, stacked.py and tabular.py place, and our zero-width combining marks
+  and the glyphs built beside them (´ ¨ and the compound marks), since a zeroed mark has
+  no width change to add; i's and j's dots are redraw.py's `set_dot`, redone so they
+  follow a stem that moves. `to_ufo.py` runs it after spacing.py and before kern.py.
+- Sidebearings come from `tools/spacing.py`'s `SIDES` (absolute, ink to the advance's
+  edges, per master) and `SPACE`, made by `--fit`. derive.py applies fit.py's per-letter
+  "sb" only to drawn glyphs, so the fit never moved i, j, t, f or Q and made up for them
+  on their neighbours, and never set the sides the pangrams show only beside a word space.
+  `--fit` solves every letter's two sides at once by least squares: the mockups' pairs
+  inside words (weight 1), gaps across word spaces (with the space's width as a shared
+  unknown) and Inter's proportions, both weighted 0.11 (0.45 in Thin, whose screenshot is
+  ±12 units), because Inter's proportions predict the pinned pairs only to ±22–32 units
+  and the mockups' word gaps scatter as much. Inter's proportions are optical
+  sidebearings (sidebearing plus the profile's white, clipped at `DEPTH` deep, averaged
+  over the x-height or cap height) at the median letter's fraction of Inter's; `DEPTH`
+  (Thin 150, Regular 130, Black 100 lowercase / 60 capitals) is the depth that makes
+  Inter's own letters most even. d and q mirror b and p, i and j are ı and ȷ, Q's left is
+  O's. `OTHERS` (æ, ß, þ, the character variants ...) take Inter's proportions at their
+  case's median, `FIGURES` at the mean of both cases', `PUNCTUATION` at the lowercase
+  median over each glyph's own height; f.i and f.i.1 (dlig) move with f. The dot family
+  (. , : ; ! ? ¡ ¿ · …) is left to dots.py and stacked.py. `ROUND = "white"` gives O, C,
+  G and D's round sides one sidebearing: the mean of what leaves each as much white,
+  against Inter's, as the straight capitals' stems (`STEMS`) have; "mockup" fits them like
+  the other letters, "inter" uses H's plain fraction of Inter's (the user chose "white").
+  Applying moves each glyph's outline, components and anchors together; glyphs drawn over
+  it (Q's tail, the bars of đ and ŧ) move with it, and so do the anchors of composites
+  built on it. `to_ufo.py` runs it after joints.py; run on its own, it runs accents.py,
+  kern.py, stacked.py and tabular.py after. Refit with `--fit` (prints the tables) after
+  changing an outline's width, then apply. The committed tables were fitted on the
+  source before spacing; `--fit` isn't yet a fixed point (on the spaced source it would
+  move sides 3–5 units, up to 10 in a few Thin capitals, because it takes its medians
+  before solving and sets the round sides after), so make it one before refitting.
 - ȸ and ȹ (uni0238/uni0239) are excluded from the eraseOpenCorners filter in every
   master's lib: once stem weights differ between masters, their overlapping contours
   erase differently and stop interpolating.
@@ -436,8 +503,19 @@ See README.md for the file layout, setup and commands.
   rewriting a UFO while it runs can lose glyphs or layers.
 - Other Claude sessions sometimes work on this repo at the same time. Check `git status`
   and file times before overwriting anything you didn't just write.
-- `derive.py` places some marks off their base's anchor: the i/j dots were 26–34 units
-  left of the stem before the redraw, and ż (Regular) and ė (Thin, Black) dots are still
-  20–25 units off. Its composites moved some components by their glyph's width change:
-  the colon's upper dot (fixed by dots.py), and the semicolon's dot and the circled forms
-  (fixed by stacked.py).
+- `derive.py` tells marks from letters by a width of 0 in Inter's Regular, but Inter's
+  combining marks have widths in its source (acutecomb 573 / 661 / 822), so its composite
+  branch treated every mark as a part set beside its base: each accented glyph took its
+  marks' width changes, each mark moved by its base's width change instead of following
+  its anchor, and marks over the lowercase kept Inter's height while the x-height came
+  down 42. It also moved stacked parts by the width changes before them: the colon's upper
+  dot, the semicolon's dot and the circled forms. accents.py, dots.py and stacked.py
+  undo all of this after it; fix derive.py itself before ever deriving again.
+- glyphsLib zeroes the combining marks' widths in the UFOs, and `public.openTypeCategories`
+  calls some combining marks "base" (breveinvcomb U+0311, breveacutecomb.cn ...), as
+  Inter's own glyphsLib build does.
+- Re-running straighten.py, redraw.py, reshape.py, refit.py or joints.py on `source/`
+  moves a few points by 1 unit since spacing.py shifted the outlines (Python rounds .5 to
+  even, so an odd shift flips some roundings). Run spacing.py after them; the 1-unit
+  jitter is harmless. In `to_ufo.py`'s chain they run before spacing.py, so it doesn't
+  arise there.

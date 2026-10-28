@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tlinebelow" format="2">
-  <advance width="424"/>
+  <advance width="628"/>
   <unicode hex="1E6F"/>
-  <anchor x="283" y="0" name="bottom"/>
-  <anchor x="283" y="0" name="cedilla"/>
-  <anchor x="425" y="4" name="lfthook"/>
-  <anchor x="170" y="1384" name="top"/>
-  <anchor x="89" y="1526" name="raccent"/>
+  <anchor x="376" y="0" name="bottom"/>
+  <anchor x="376" y="0" name="cedilla"/>
+  <anchor x="518" y="4" name="lfthook"/>
+  <anchor x="263" y="1384" name="top"/>
+  <anchor x="182" y="1526" name="raccent"/>
   <outline>
     <component base="t"/>
-    <component base="macronsub" xOffset="-133"/>
+    <component base="macronsub" xOffset="-7"/>
   </outline>
 </glyph>

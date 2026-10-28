@@ -7,7 +7,7 @@
   <anchor x="460" y="1118" name="_top"/>
   <outline>
     <component base="macroncomb" yOffset="-28"/>
-    <component base="grave_compact" xOffset="13" yOffset="333"/>
+    <component base="grave_compact" xOffset="58" yOffset="339"/>
   </outline>
   <lib>
     <dict>

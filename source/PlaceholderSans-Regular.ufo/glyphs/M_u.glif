@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Mu" format="2">
-  <advance width="1850"/>
+  <advance width="1857"/>
   <unicode hex="039C"/>
-  <anchor x="916" y="0" name="bottom"/>
-  <anchor x="1692" y="0" name="cyrtic"/>
-  <anchor x="916" y="1490" name="top"/>
+  <anchor x="923" y="0" name="bottom"/>
+  <anchor x="1699" y="0" name="cyrtic"/>
+  <anchor x="923" y="1490" name="top"/>
   <outline>
     <component base="M"/>
   </outline>

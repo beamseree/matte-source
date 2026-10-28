@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F94" format="2">
-  <advance width="1101"/>
+  <advance width="1188"/>
   <unicode hex="1F94"/>
   <anchor x="233" y="0" name="bottom"/>
   <anchor x="608" y="1076" name="top"/>
   <outline>
     <component base="eta"/>
-    <component base="uni1FBE" xOffset="-7"/>
-    <component base="psilioxia" xOffset="181"/>
+    <component base="uni1FBE" xOffset="18"/>
+    <component base="psilioxia" xOffset="231" yOffset="-42"/>
   </outline>
 </glyph>

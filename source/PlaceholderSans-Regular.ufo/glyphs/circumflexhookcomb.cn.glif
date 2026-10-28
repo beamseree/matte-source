@@ -5,9 +5,10 @@
   <guideline y="1392"/>
   <guideline y="1717"/>
   <anchor x="411" y="1118" name="_top"/>
+  <anchor x="418" y="1533" name="top"/>
   <outline>
     <component base="circumflexcomb" yOffset="-28"/>
-    <component base="hookabove_compact" xOffset="346" yOffset="333"/>
+    <component base="hookabove_compact" xOffset="361" yOffset="336"/>
   </outline>
   <lib>
     <dict>

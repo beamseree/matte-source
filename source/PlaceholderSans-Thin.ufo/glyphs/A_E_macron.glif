@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="AEmacron" format="2">
-  <advance width="1934"/>
+  <advance width="1946"/>
   <unicode hex="01E2"/>
-  <anchor x="1242" y="1815" name="top"/>
+  <anchor x="1261" y="1815" name="top"/>
   <outline>
     <component base="AE"/>
-    <component base="macroncomb" xOffset="859" yOffset="372"/>
+    <component base="macroncomb" xOffset="878" yOffset="372"/>
   </outline>
 </glyph>

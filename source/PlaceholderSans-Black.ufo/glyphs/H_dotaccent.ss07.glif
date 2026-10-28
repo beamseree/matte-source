@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hdotaccent.ss07" format="2">
-  <advance width="1542"/>
+  <advance width="1539"/>
   <unicode hex="E1F4"/>
-  <anchor x="756" y="0" name="bottom"/>
-  <anchor x="295" y="0" name="cedilla"/>
-  <anchor x="1404" y="0" name="cyrtic"/>
-  <anchor x="1027" y="0" name="lfthook"/>
-  <anchor x="1404" y="0" name="right"/>
-  <anchor x="108" y="1490" name="tonos"/>
-  <anchor x="773" y="1959" name="top"/>
+  <anchor x="754" y="0" name="bottom"/>
+  <anchor x="293" y="0" name="cedilla"/>
+  <anchor x="1402" y="0" name="cyrtic"/>
+  <anchor x="1025" y="0" name="lfthook"/>
+  <anchor x="1402" y="0" name="right"/>
+  <anchor x="106" y="1490" name="tonos"/>
+  <anchor x="754" y="1959" name="top"/>
   <outline>
     <component base="H"/>
-    <component base="dotaccentcomb.ss07" xOffset="438" yOffset="372"/>
+    <component base="dotaccentcomb.ss07" xOffset="419" yOffset="372"/>
   </outline>
   <lib>
     <dict>

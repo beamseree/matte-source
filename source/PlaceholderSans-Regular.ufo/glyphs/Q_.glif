@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Q" format="2">
-  <advance width="1629"/>
+  <advance width="1649"/>
   <unicode hex="0051"/>
-  <anchor x="823" y="0" name="bottom"/>
-  <anchor x="823" y="745" name="center"/>
-  <anchor x="1554" y="744" name="ogonek"/>
-  <anchor x="245" y="1490" name="tonos"/>
-  <anchor x="823" y="1490" name="top"/>
-  <anchor x="823" y="1510" name="tophorn"/>
+  <anchor x="822" y="0" name="bottom"/>
+  <anchor x="822" y="745" name="center"/>
+  <anchor x="1553" y="744" name="ogonek"/>
+  <anchor x="244" y="1490" name="tonos"/>
+  <anchor x="822" y="1490" name="top"/>
+  <anchor x="822" y="1510" name="tophorn"/>
   <outline>
     <contour>
-      <point x="766" y="625" type="line"/>
-      <point x="956" y="389" type="line"/>
-      <point x="1146" y="152" type="line"/>
-      <point x="1337" y="-85" type="line"/>
-      <point x="1482" y="39" type="line"/>
-      <point x="1292" y="274" type="line"/>
-      <point x="1102" y="508" type="line"/>
-      <point x="912" y="743" type="line"/>
+      <point x="765" y="625" type="line"/>
+      <point x="955" y="389" type="line"/>
+      <point x="1145" y="152" type="line"/>
+      <point x="1336" y="-85" type="line"/>
+      <point x="1481" y="39" type="line"/>
+      <point x="1291" y="274" type="line"/>
+      <point x="1101" y="508" type="line"/>
+      <point x="911" y="743" type="line"/>
     </contour>
     <component base="O"/>
   </outline>

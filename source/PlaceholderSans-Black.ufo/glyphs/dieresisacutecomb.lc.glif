@@ -4,9 +4,10 @@
   <unicode hex="E106"/>
   <guideline y="1632"/>
   <anchor x="681" y="1118" name="_top"/>
+  <anchor x="675" y="1893" name="top"/>
   <outline>
     <component base="dieresiscomb" yOffset="-24"/>
-    <component base="acute_compact" xScale="0.8" yScale="0.8" xOffset="448" yOffset="627"/>
+    <component base="acute_compact" xScale="0.8" yScale="0.8" xOffset="423" yOffset="627"/>
   </outline>
   <lib>
     <dict>

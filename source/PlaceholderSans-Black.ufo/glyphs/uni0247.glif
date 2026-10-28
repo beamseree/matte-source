@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0247" format="2">
-  <advance width="1209"/>
+  <advance width="1211"/>
   <unicode hex="0247"/>
-  <anchor x="608" y="0" name="bottom"/>
-  <anchor x="613" y="0" name="cedilla"/>
-  <anchor x="1131" y="299" name="ogonek"/>
-  <anchor x="608" y="1076" name="top"/>
+  <anchor x="607" y="0" name="bottom"/>
+  <anchor x="612" y="0" name="cedilla"/>
+  <anchor x="1130" y="299" name="ogonek"/>
+  <anchor x="607" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="221" y="-418" type="line"/>
-      <point x="409" y="-418" type="line"/>
-      <point x="1018" y="1490" type="line"/>
-      <point x="828" y="1490" type="line"/>
+      <point x="220" y="-418" type="line"/>
+      <point x="408" y="-418" type="line"/>
+      <point x="1017" y="1490" type="line"/>
+      <point x="827" y="1490" type="line"/>
     </contour>
     <component base="e"/>
   </outline>

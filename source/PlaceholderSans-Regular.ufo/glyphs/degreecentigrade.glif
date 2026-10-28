@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="degreecentigrade" format="2">
-  <advance width="2432"/>
+  <advance width="2398"/>
   <unicode hex="2103"/>
-  <anchor x="1690" y="-9" name="cedilla"/>
-  <anchor x="1689" y="745" name="center"/>
-  <anchor x="1691" y="1490" name="top"/>
-  <anchor x="2336" y="1010" name="topr"/>
+  <anchor x="1665" y="-9" name="cedilla"/>
+  <anchor x="1664" y="745" name="center"/>
+  <anchor x="1666" y="1490" name="top"/>
+  <anchor x="2311" y="1010" name="topr"/>
   <outline>
     <component base="degree"/>
-    <component base="C" xOffset="878"/>
+    <component base="C" xOffset="868"/>
   </outline>
   <lib>
     <dict>

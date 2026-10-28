@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotless" format="2">
-  <advance width="466"/>
+  <advance width="485"/>
   <unicode hex="0131"/>
-  <anchor x="234" y="0" name="bottom"/>
-  <anchor x="234" y="575" name="cross"/>
-  <anchor x="330" y="0" name="ogonek"/>
-  <anchor x="234" y="1076" name="top"/>
+  <anchor x="241" y="0" name="bottom"/>
+  <anchor x="241" y="575" name="cross"/>
+  <anchor x="337" y="0" name="ogonek"/>
+  <anchor x="241" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="136" y="0" type="line"/>
-      <point x="330" y="0" type="line"/>
-      <point x="330" y="1076" type="line"/>
-      <point x="136" y="1076" type="line"/>
+      <point x="143" y="0" type="line"/>
+      <point x="337" y="0" type="line"/>
+      <point x="337" y="1076" type="line"/>
+      <point x="143" y="1076" type="line"/>
     </contour>
   </outline>
   <lib>

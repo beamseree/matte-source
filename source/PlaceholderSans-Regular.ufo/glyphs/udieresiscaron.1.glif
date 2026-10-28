@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="udieresiscaron.1" format="2">
-  <advance width="1111"/>
+  <advance width="1188"/>
   <unicode hex="EE31"/>
   <anchor x="594" y="0" name="bottom"/>
   <anchor x="1052" y="410" name="ogonek"/>
-  <anchor x="594" y="1076" name="top"/>
+  <anchor x="601" y="1859" name="top"/>
   <outline>
     <component base="u.1"/>
-    <component base="dieresiscaroncomb.lc" xOffset="-18"/>
+    <component base="dieresiscaroncomb.lc" xOffset="28" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

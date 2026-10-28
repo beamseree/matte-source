@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisgravecomb.uc.ss07" format="2">
-  <advance width="1348"/>
+  <advance width="1346"/>
   <unicode hex="E2D2"/>
   <anchor x="669" y="1490" name="_top"/>
+  <anchor x="669" y="1896" name="top"/>
   <outline>
     <component base="dieresisgravecomb.lc.ss07" yOffset="372"/>
   </outline>

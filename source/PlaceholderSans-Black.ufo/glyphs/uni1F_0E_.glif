@@ -5,10 +5,10 @@
   <anchor x="1073" y="0" name="bottom"/>
   <anchor x="1845" y="0" name="ogonek"/>
   <anchor x="751" y="1490" name="tonos"/>
-  <anchor x="1073" y="1490" name="top"/>
+  <anchor x="458" y="1889" name="top"/>
   <outline>
     <component base="A" xOffset="269"/>
-    <component base="uni1FCF.tonos" xOffset="15" yOffset="-80"/>
+    <component base="uni1FCF.tonos" xOffset="54" yOffset="-80"/>
   </outline>
   <lib>
     <dict>

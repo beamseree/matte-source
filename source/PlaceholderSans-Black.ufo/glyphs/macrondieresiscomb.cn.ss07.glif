@@ -3,6 +3,7 @@
   <advance width="851"/>
   <unicode hex="E2D5"/>
   <anchor x="425" y="1490" name="_top"/>
+  <anchor x="425" y="2270" name="top"/>
   <outline>
     <component base="macrondieresiscomb.lc.ss07" yOffset="372"/>
   </outline>

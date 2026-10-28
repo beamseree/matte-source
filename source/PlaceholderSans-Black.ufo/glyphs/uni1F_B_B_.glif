@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FBB" format="2">
-  <advance width="1707"/>
+  <advance width="1684"/>
   <unicode hex="1FBB"/>
   <anchor x="896" y="0" name="bottom"/>
   <anchor x="1668" y="0" name="ogonek"/>
@@ -8,7 +8,7 @@
   <anchor x="896" y="1490" name="top"/>
   <outline>
     <component base="A" xOffset="92"/>
-    <component base="tonos" xOffset="-241" yOffset="-92"/>
+    <component base="tonos" xOffset="-220" yOffset="-92"/>
   </outline>
   <lib>
     <dict>

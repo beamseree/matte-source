@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="esdescendercyrillic" format="2">
-  <advance width="1267"/>
+  <advance width="1232"/>
   <unicode hex="04AB"/>
-  <anchor x="636" y="0" name="bottom"/>
-  <anchor x="636" y="0" name="cedilla"/>
-  <anchor x="636" y="538" name="center"/>
-  <anchor x="636" y="1076" name="top"/>
-  <anchor x="1158" y="671" name="topr"/>
+  <anchor x="644" y="0" name="bottom"/>
+  <anchor x="644" y="0" name="cedilla"/>
+  <anchor x="644" y="538" name="center"/>
+  <anchor x="644" y="1076" name="top"/>
+  <anchor x="1170" y="674" name="topr"/>
   <outline>
     <component base="c"/>
-    <component base="cedillacomb" xOffset="175"/>
+    <component base="cedillacomb" xOffset="169"/>
   </outline>
 </glyph>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eth" format="2">
-  <advance width="1523"/>
+  <advance width="1527"/>
   <unicode hex="00D0"/>
-  <anchor x="644" y="0" name="bottom"/>
-  <anchor x="398" y="745" name="cross"/>
-  <anchor x="634" y="1490" name="top"/>
-  <anchor x="163" y="1490" name="topl"/>
+  <anchor x="658" y="0" name="bottom"/>
+  <anchor x="412" y="745" name="cross"/>
+  <anchor x="648" y="1490" name="top"/>
+  <anchor x="177" y="1490" name="topl"/>
   <outline>
     <component base="Dbar1"/>
   </outline>

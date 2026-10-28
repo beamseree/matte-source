@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idieresiscyrillic" format="2">
-  <advance width="1636"/>
+  <advance width="1619"/>
   <unicode hex="04E4"/>
-  <anchor x="808" y="0" name="bottom"/>
-  <anchor x="1514" y="0" name="lfthook"/>
-  <anchor x="102" y="0" name="lfthook2"/>
-  <anchor x="784" y="1957" name="top"/>
-  <anchor x="1447" y="0" name="cyrtic"/>
+  <anchor x="825" y="0" name="bottom"/>
+  <anchor x="1531" y="0" name="lfthook"/>
+  <anchor x="119" y="0" name="lfthook2"/>
+  <anchor x="777" y="1957" name="top"/>
+  <anchor x="1464" y="0" name="cyrtic"/>
   <outline>
     <component base="Ii-cy"/>
-    <component base="dieresiscomb" xOffset="103" yOffset="372"/>
+    <component base="dieresiscomb" xOffset="96" yOffset="372"/>
   </outline>
 </glyph>

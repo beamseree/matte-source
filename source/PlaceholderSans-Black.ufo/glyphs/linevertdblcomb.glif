@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="linevertdblcomb" format="2">
-  <advance width="38"/>
+  <advance width="68"/>
   <unicode hex="EEBD"/>
   <outline>
     <component base="linevert" xOffset="-1062"/>
-    <component base="linevert" xOffset="-696"/>
+    <component base="linevert" xOffset="-681"/>
   </outline>
   <lib>
     <dict>

@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cstroke" format="2">
-  <advance width="1200"/>
+  <advance width="1176"/>
   <unicode hex="023C"/>
-  <anchor x="648" y="0" name="bottom"/>
-  <anchor x="648" y="0" name="cedilla"/>
-  <anchor x="648" y="538" name="center"/>
-  <anchor x="648" y="1076" name="top"/>
-  <anchor x="1126" y="771" name="topr"/>
+  <anchor x="629" y="0" name="bottom"/>
+  <anchor x="629" y="0" name="cedilla"/>
+  <anchor x="629" y="538" name="center"/>
+  <anchor x="629" y="1076" name="top"/>
+  <anchor x="1107" y="771" name="topr"/>
   <outline>
     <contour>
-      <point x="193" y="-418" type="line"/>
-      <point x="339" y="-418" type="line"/>
-      <point x="1088" y="1490" type="line"/>
-      <point x="942" y="1490" type="line"/>
+      <point x="174" y="-418" type="line"/>
+      <point x="320" y="-418" type="line"/>
+      <point x="1069" y="1490" type="line"/>
+      <point x="923" y="1490" type="line"/>
     </contour>
     <component base="c"/>
   </outline>

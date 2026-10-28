@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="careof" format="2">
-  <advance width="2168"/>
+  <advance width="2167"/>
   <unicode hex="2105"/>
   <anchor x="1692" y="0" name="bottom"/>
   <anchor x="481" y="862" name="cedilla"/>

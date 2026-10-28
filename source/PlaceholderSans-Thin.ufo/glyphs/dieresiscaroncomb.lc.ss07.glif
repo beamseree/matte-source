@@ -8,9 +8,10 @@
   <guideline y="1681"/>
   <guideline y="1681"/>
   <anchor x="566" y="1118" name="_top"/>
+  <anchor x="566" y="1450" name="top"/>
   <outline>
     <component base="caroncomb" xOffset="150" yOffset="333"/>
-    <component base="dieresiscomb.ss07" xOffset="-48" yOffset="16"/>
+    <component base="dieresiscomb.ss07" xOffset="-17" yOffset="16"/>
   </outline>
   <lib>
     <dict>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghook.sc" format="2">
-  <advance width="1177"/>
+  <advance width="1202"/>
   <unicode hex="029B"/>
   <anchor x="574" y="0" name="bottom"/>
   <anchor x="867" y="307" name="cross"/>
@@ -8,7 +8,7 @@
   <anchor x="1048" y="760" name="topr"/>
   <outline>
     <component base="g.sc"/>
-    <component base="_part.top_r_hook_g_sc" xOffset="804"/>
+    <component base="_part.top_r_hook_g_sc" xOffset="822"/>
   </outline>
   <lib>
     <dict>

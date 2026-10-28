@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cadauna" format="2">
-  <advance width="2328"/>
+  <advance width="2327"/>
   <unicode hex="2106"/>
   <anchor x="1835" y="0" name="bottom"/>
   <anchor x="481" y="862" name="cedilla"/>

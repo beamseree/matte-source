@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="udieresismacron.1" format="2">
-  <advance width="1064"/>
+  <advance width="1188"/>
   <unicode hex="EE33"/>
   <anchor x="594" y="0" name="bottom"/>
   <anchor x="1052" y="410" name="ogonek"/>
-  <anchor x="594" y="1076" name="top"/>
+  <anchor x="595" y="1751" name="top"/>
   <outline>
     <component base="u.1"/>
-    <component base="dieresismacroncomb.lc" xOffset="-18"/>
+    <component base="dieresismacroncomb.lc" xOffset="28" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

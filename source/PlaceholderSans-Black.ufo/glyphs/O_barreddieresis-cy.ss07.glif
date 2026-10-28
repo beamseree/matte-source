@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Obarreddieresis-cy.ss07" format="2">
-  <advance width="1712"/>
+  <advance width="1729"/>
   <unicode hex="E292"/>
-  <anchor x="854" y="0" name="bottom"/>
-  <anchor x="854" y="745" name="center"/>
-  <anchor x="1632" y="744" name="ogonek"/>
-  <anchor x="228" y="1490" name="tonos"/>
-  <anchor x="917" y="1958" name="top"/>
-  <anchor x="854" y="1510" name="tophorn"/>
+  <anchor x="865" y="0" name="bottom"/>
+  <anchor x="865" y="745" name="center"/>
+  <anchor x="1643" y="744" name="ogonek"/>
+  <anchor x="239" y="1490" name="tonos"/>
+  <anchor x="865" y="1958" name="top"/>
+  <anchor x="865" y="1510" name="tophorn"/>
   <outline>
     <component base="afii10147"/>
-    <component base="dieresiscomb.ss07" xOffset="252" yOffset="372"/>
+    <component base="dieresiscomb.ss07" xOffset="200" yOffset="372"/>
   </outline>
   <lib>
     <dict>

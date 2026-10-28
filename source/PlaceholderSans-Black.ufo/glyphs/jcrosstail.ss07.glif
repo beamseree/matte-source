@@ -5,10 +5,10 @@
   <anchor x="765" y="-460" name="bottom"/>
   <anchor x="736" y="588" name="cross"/>
   <anchor x="915" y="0" name="ogonek"/>
-  <anchor x="723" y="1587" name="top"/>
+  <anchor x="738" y="1545" name="top"/>
   <outline>
     <component base="jcrosstail.ccmp"/>
-    <component base="dotaccentcomb.ss07" xOffset="388"/>
+    <component base="dotaccentcomb.ss07" xOffset="403" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idotaccent.1" format="2">
-  <advance width="703"/>
+  <advance width="710"/>
   <unicode hex="E018"/>
-  <anchor x="365" y="0" name="bottom"/>
-  <anchor x="364" y="768" name="cross"/>
-  <anchor x="636" y="0" name="ogonek"/>
-  <anchor x="662" y="0" name="right"/>
-  <anchor x="136" y="1490" name="tonos"/>
-  <anchor x="332" y="1839" name="top"/>
+  <anchor x="355" y="0" name="bottom"/>
+  <anchor x="354" y="768" name="cross"/>
+  <anchor x="626" y="0" name="ogonek"/>
+  <anchor x="652" y="0" name="right"/>
+  <anchor x="126" y="1490" name="tonos"/>
+  <anchor x="355" y="1839" name="top"/>
   <outline>
     <component base="I.1"/>
-    <component base="dotaccentcomb" xOffset="160" yOffset="372"/>
+    <component base="dotaccentcomb" xOffset="183" yOffset="372"/>
   </outline>
   <lib>
     <dict>

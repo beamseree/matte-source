@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gjecyrillic" format="2">
-  <advance width="799"/>
+  <advance width="834"/>
   <unicode hex="0453"/>
   <anchor x="324" y="537" name="cross"/>
   <anchor x="224" y="0" name="cyrtic"/>
-  <anchor x="461" y="1557" name="top"/>
+  <anchor x="481" y="1515" name="top"/>
   <outline>
     <component base="ge-cy"/>
-    <component base="acutecomb" xOffset="264"/>
+    <component base="acutecomb" xOffset="284" yOffset="-42"/>
   </outline>
 </glyph>

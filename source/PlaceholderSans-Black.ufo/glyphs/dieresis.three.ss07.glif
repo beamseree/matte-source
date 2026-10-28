@@ -7,8 +7,8 @@
   <anchor x="896" y="1587" name="top"/>
   <outline>
     <component base="dotaccentcomb.ss07" xScale="0.8" xOffset="166"/>
-    <component base="dotaccentcomb.ss07" xScale="0.8" xOffset="629"/>
-    <component base="dotaccentcomb.ss07" xScale="0.8" xOffset="1092"/>
+    <component base="dotaccentcomb.ss07" xScale="0.8" xOffset="628" yOffset="1"/>
+    <component base="dotaccentcomb.ss07" xScale="0.8" xOffset="1090" yOffset="2"/>
   </outline>
   <lib>
     <dict>

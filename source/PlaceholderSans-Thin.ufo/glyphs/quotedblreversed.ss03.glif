@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblreversed.ss03" format="2">
-  <advance width="745"/>
+  <advance width="744"/>
   <unicode hex="EEDF"/>
   <outline>
-    <component base="quotedblright.ss03" xScale="-1" xOffset="745"/>
+    <component base="quotedblright.ss03" xScale="-1" xOffset="744"/>
   </outline>
   <lib>
     <dict>

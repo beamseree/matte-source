@@ -3,6 +3,7 @@
   <advance width="513"/>
   <unicode hex="EE98"/>
   <anchor x="580" y="1560" name="_tonos"/>
+  <anchor x="248" y="1884" name="top"/>
   <outline>
     <component base="dasiaperispomeni"/>
   </outline>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F23" format="2">
-  <advance width="1125"/>
+  <advance width="1164"/>
   <unicode hex="1F23"/>
   <anchor x="201" y="0" name="bottom"/>
   <anchor x="592" y="1076" name="top"/>
   <outline>
     <component base="eta"/>
-    <component base="dasiavaria" xOffset="225"/>
+    <component base="dasiavaria" xOffset="249" yOffset="-42"/>
   </outline>
 </glyph>

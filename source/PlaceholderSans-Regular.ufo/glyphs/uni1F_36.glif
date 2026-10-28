@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F36" format="2">
-  <advance width="485"/>
+  <advance width="553"/>
   <unicode hex="1F36"/>
-  <anchor x="193" y="1884" name="top"/>
+  <anchor x="196" y="1842" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="psiliperispomeni" xOffset="-55"/>
+    <component base="psiliperispomeni" xOffset="-52" yOffset="-42"/>
   </outline>
 </glyph>

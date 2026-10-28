@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="I.1" format="2">
-  <advance width="1036"/>
+  <advance width="1040"/>
   <unicode hex="E00C"/>
-  <anchor x="518" y="0" name="bottom"/>
-  <anchor x="516" y="788" name="cross"/>
-  <anchor x="974" y="0" name="ogonek"/>
-  <anchor x="999" y="0" name="right"/>
-  <anchor x="65" y="1490" name="tonos"/>
-  <anchor x="518" y="1490" name="top"/>
+  <anchor x="520" y="0" name="bottom"/>
+  <anchor x="518" y="788" name="cross"/>
+  <anchor x="976" y="0" name="ogonek"/>
+  <anchor x="1001" y="0" name="right"/>
+  <anchor x="67" y="1490" name="tonos"/>
+  <anchor x="520" y="1490" name="top"/>
   <outline>
     <contour>
-      <point x="62" y="0" type="line"/>
-      <point x="974" y="0" type="line"/>
-      <point x="974" y="327" type="line"/>
-      <point x="706" y="327" type="line"/>
-      <point x="706" y="1163" type="line"/>
-      <point x="974" y="1163" type="line"/>
-      <point x="974" y="1490" type="line"/>
-      <point x="62" y="1490" type="line"/>
-      <point x="62" y="1163" type="line"/>
-      <point x="330" y="1163" type="line"/>
-      <point x="330" y="327" type="line"/>
-      <point x="62" y="327" type="line"/>
+      <point x="64" y="0" type="line"/>
+      <point x="976" y="0" type="line"/>
+      <point x="976" y="327" type="line"/>
+      <point x="708" y="327" type="line"/>
+      <point x="708" y="1163" type="line"/>
+      <point x="976" y="1163" type="line"/>
+      <point x="976" y="1490" type="line"/>
+      <point x="64" y="1490" type="line"/>
+      <point x="64" y="1163" type="line"/>
+      <point x="332" y="1163" type="line"/>
+      <point x="332" y="327" type="line"/>
+      <point x="64" y="327" type="line"/>
     </contour>
   </outline>
   <lib>

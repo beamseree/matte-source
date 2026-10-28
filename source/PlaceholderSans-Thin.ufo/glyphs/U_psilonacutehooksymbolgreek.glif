@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Upsilonacutehooksymbolgreek" format="2">
-  <advance width="1451"/>
+  <advance width="1475"/>
   <unicode hex="03D3"/>
   <anchor x="339" y="1490" name="tonos"/>
   <anchor x="839" y="1490" name="top"/>
   <outline>
     <component base="Upsilonhooksymbol" xOffset="239"/>
-    <component base="tonos" xOffset="-20" yOffset="-67"/>
+    <component base="tonos" xOffset="-8" yOffset="-67"/>
   </outline>
   <lib>
     <dict>

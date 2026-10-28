@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rcaron" format="2">
-  <advance width="703"/>
+  <advance width="748"/>
   <unicode hex="0159"/>
-  <anchor x="218" y="0" name="bottom"/>
-  <anchor x="240" y="0" name="bottomr"/>
-  <anchor x="218" y="516" name="cross"/>
-  <anchor x="480" y="1557" name="top"/>
+  <anchor x="221" y="0" name="bottom"/>
+  <anchor x="243" y="0" name="bottomr"/>
+  <anchor x="221" y="516" name="cross"/>
+  <anchor x="479" y="1515" name="top"/>
   <outline>
     <component base="r"/>
-    <component base="caroncomb" xOffset="64"/>
+    <component base="caroncomb" xOffset="63" yOffset="-42"/>
   </outline>
 </glyph>

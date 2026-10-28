@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresiscyrillic" format="2">
-  <advance width="1239"/>
+  <advance width="1307"/>
   <unicode hex="04F0"/>
-  <anchor x="629" y="1917" name="top"/>
+  <anchor x="653" y="1917" name="top"/>
   <outline>
     <component base="U-cy"/>
-    <component base="dieresiscomb" xOffset="58" yOffset="372"/>
+    <component base="dieresiscomb" xOffset="82" yOffset="372"/>
   </outline>
 </glyph>

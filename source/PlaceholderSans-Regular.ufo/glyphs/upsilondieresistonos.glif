@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upsilondieresistonos" format="2">
-  <advance width="1151"/>
+  <advance width="1188"/>
   <unicode hex="03B0"/>
   <anchor x="594" y="0" name="bottom"/>
   <anchor x="1052" y="410" name="ogonek"/>
   <anchor x="594" y="1076" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="dieresistonos" xOffset="-107"/>
+    <component base="dieresistonos" xOffset="-76" yOffset="-42"/>
   </outline>
 </glyph>
