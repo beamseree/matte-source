@@ -512,7 +512,8 @@ See README.md for the file layout, setup and commands.
   apart (XX, kX, fy, fW). Dashes join, so they aren't held apart from each other. Entries
   go against the right glyph's group when all its text glyphs fall short, then against
   the left glyph's group the same way, else per glyph, never tighter than what they
-  replace. `LETTERS` is the user's to choose (`build/clear-compare/`: 10, 40, 50, 60).
+  replace. The user chose `LETTERS` 50 over 10, 40 and 60 from `build/clear-compare/`
+  (60 would leave no letter pair under 51 units, at about 500 more entries per master).
   `OVERRIDES` takes pairs set by hand. `to_ufo.py` runs it once all three masters are done
   (after stacked.py), then kern.py and tabular.py; `--check` scans the built font for
   overlaps and for letter pairs nearer than `LETTERS`.

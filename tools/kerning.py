@@ -60,7 +60,8 @@ CLIP = 40
 THRESHOLD = 10
 OVERLAP = 0.5
 CLEAR = 10         # units between the nearest points of two glyphs side by side, at every weight
-LETTERS = 50       # and between two letters of a script, their marks left out, in any direction
+LETTERS = 50       # and between two letters of a script, their marks left out, in any direction;
+                   # the user chose 50 over 10, 40 and 60 (build/clear-compare/)
 Y0, Y1, STEP = -800, 2600, 10
 YS = np.arange(Y0 + STEP / 2, Y1, STEP)
 WEIGHTS = range(100, 901, 50)   # where the clearance is checked, in user weights
