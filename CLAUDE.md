@@ -5,7 +5,7 @@ to the user's own mockup, `reference/mockup.svg`. Working family name "Placehold
 the real name is still to be chosen. The folder name "aumo-font" is not the font name.
 See README.md for the file layout, setup and commands.
 
-## Status (2026-10-27)
+## Status (2026-10-28)
 
 - **Regular** is fitted to `reference/mockup.svg` (fit report: ink error mean 0.8 units,
   gap error mean 7.0 units, since the redraws below, the new f, t, P, C/G/S terminals and
@@ -65,6 +65,21 @@ See README.md for the file layout, setup and commands.
   exactly (stem, crossbar and foot) and is 22 units narrower. f's, f.1's and t.1's
   crossbars take t's height, as in both mockups (Black's f bar had reached 24 lower), and
   Thin's t foot is its f top turned upside down (it had turned a tighter corner).
+- **The joints where arches and bowls leave their stems are thickened by script**
+  (`tools/joints.py`, see Decisions) in a, n, h, m, u, r, b, p and þ, and so d and q, in
+  Regular and Black; Thin is unchanged. The mockups' arches get heavier toward the stem,
+  where Inter's stay even or thin out: at 15 units from the stem, Regular's n, h, m and u
+  were 80–85 units thinner than the mockup's, a 100, r 70, the bowls 25; Black's 30–45.
+  Now every joint is within 3 units of the mockup's at 15, 40 and 80 units from the stem
+  in Regular, and at 15 and 40 in Black, and Black r's arm is the mockup's weight all
+  along (it was 20–30 thinner). Further out our arches stay heavier, because their tops
+  are (see below): at 140 units Regular is 1–9 heavier (n, h, m, r 5–7, where they had
+  matched), and Black's n, h, m and u are 6–9 heavier at 80 and 14–21 at 140 (8–16
+  before). `tools/joints.py --check` prints these. þ has b's joints and takes the
+  mockup's b. æ needed nothing: its a-bowl runs into the e's bowl, not a stem, so the
+  joint is already the mockup a's weight in Regular (241/210/188/173 at 15/40/80/140,
+  the mockup's 234/209/187/171) and heavier in Black (285/264/251/246, the mockup's
+  229/215/216/231). The user chose this from `build/joints-compare/`.
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -84,8 +99,10 @@ See README.md for the file layout, setup and commands.
   are already angled, within about 5° of the mockups' except Black e's lower one, 9°
   against 20°; c's and e's lower ends about 23 too high), R (Black's bowl bar 350 thick at
   the leg, the mockup's 428; leg join; Regular 15%), B (Black's middle bar 250 thick,
-  the mockup's 303), r (the arm's end hangs about 100 lower in the mockups), the n, m, h
-  and u shoulders (slightly heavy where the arch meets the stem), j (Regular's hook,
+  the mockup's 303), r (the arm's end hangs about 100 lower in the mockups), the arch
+  tops (too heavy: n's arch is 198 units deep at the top in Regular, the mockup's 178,
+  and 339 in Black, the mockup's 310, so our counters reach lower; that keeps the arches
+  heavier than the mockups' from about 80 units past the stem), j (Regular's hook,
   14%), and
   Regular's O and Q bowl (6%). `fit.py` still holds t's ink factor at 1.12, but
   redraw.py and reshape.py now set t's crossbar and foot, so the factor has no effect.
@@ -153,6 +170,23 @@ See README.md for the file layout, setup and commands.
   `to_ufo.py` runs it after redraw.py. Small curve differences are left alone at the
   user's request: the user wants changes that alter a letter's construction (like f's
   top, y's tail, t's foot, the terminal angles).
+- The arch and bowl joints are the mockups' construction, so `tools/joints.py` moves the
+  points of the curves either side of each joint, in Regular and Black only (Thin's
+  screenshot can't show joints at 46-unit strokes): the inner curve's end slides along
+  the stem; the outer curve ends at the mockup's flat notch (12–17 units), placed from
+  the stem's edge, with the notch's line following it. Inter's n, h, m and u ran that
+  curve on into the stem instead, and Thin still does; eraseOpenCorners leaves both
+  shapes alone in every master (it doesn't see them as open corners), so they
+  interpolate. m's second arch keeps its end, which the first arch's outer curve starts
+  from. Black r's arm moves its whole lower edge. Every curve keeps its far end. The moved
+  points are in `POINTS`, as x from the stem's edge (a point nothing moves) and y;
+  `--fit` remakes the table by least squares: the mockup's ink edge, aligned on the
+  stem's edge, up to `NEAR` units out (Regular 100, Black 60) and the curve's own
+  outline from `FAR` on (180, 130), so it keeps its shape further out. Black's are
+  shorter because its counters reach 28 units less high than the mockup's, so its inner
+  curves can only follow the mockup's that far. It refits from the current outlines, so
+  refit only after changing a joint's far end. Each changed glyph keeps its right
+  sidebearing, and `to_ufo.py` runs it after reshape.py.
 - t's and f's crossbars stay apart through kerning, not shorter bars (the bars' reach
   is the mockups'): `tools/kern.py` sets glyph-to-glyph pairs tt, tf, ft and ff to leave
   `BAR_GAP` (60) between the bars in every master, on top of Inter's group kerning.
@@ -202,7 +236,8 @@ See README.md for the file layout, setup and commands.
   `.venv/bin/python -I -c "import sys,json; sys.path.insert(0,'tools'); import fit; fit.TTF='build/PlaceholderSans-VF.ttf'; fit.report(fit.Master(json.load(open('reference/params.json')), 'Regular'), json.load(open('reference/targets.json')), update=False)"`
   for numbers against the mockup (swap in `'Thin'` / `'Black'` and their targets files),
   `.venv/bin/python -I tools/strokes.py --check` for the redrawn letters' stroke widths
-  (`tools/strokes.py <Master> <char> <y>...` compares any letter on any scanline), and
+  (`tools/strokes.py <Master> <char> <y>...` compares any letter on any scanline),
+  `.venv/bin/python -I tools/joints.py --check` for the arch and bowl joints, and
   `specimen/check.html?m=regular|thin|black&x=<px>&s=<zoom>` for a visual overlay. `.claude/launch.json` has preview configs: "specimen" serves the project
   root on 8791, "fontra" runs Fontra on `source/` on 8793.
 
