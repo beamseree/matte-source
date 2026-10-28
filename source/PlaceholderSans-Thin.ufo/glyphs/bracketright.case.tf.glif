@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketright.case.tf" format="2">
-  <advance width="759"/>
+  <advance width="800"/>
   <unicode hex="EE53"/>
   <anchor x="351" y="745" name="cross"/>
   <outline>

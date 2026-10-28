@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="less.tf" format="2">
-  <advance width="1270"/>
+  <advance width="1320"/>
   <unicode hex="EE56"/>
   <outline>
-    <component base="less" xOffset="48"/>
+    <component base="less" xOffset="69"/>
   </outline>
   <lib>
     <dict>

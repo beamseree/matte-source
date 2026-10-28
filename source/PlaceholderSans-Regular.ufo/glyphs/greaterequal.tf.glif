@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greaterequal.tf" format="2">
-  <advance width="1279"/>
+  <advance width="1328"/>
   <unicode hex="EE59"/>
   <outline>
-    <component base="greaterequal" xOffset="-15"/>
+    <component base="greaterequal" xOffset="9"/>
   </outline>
   <lib>
     <dict>

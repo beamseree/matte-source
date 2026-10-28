@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="multiply.case.tf" format="2">
-  <advance width="1283"/>
+  <advance width="1328"/>
   <unicode hex="EE6C"/>
   <outline>
     <component base="multiply.tf" yOffset="163"/>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="approxequal.tf" format="2">
-  <advance width="1336"/>
+  <advance width="1400"/>
   <unicode hex="EE61"/>
   <outline>
-    <component base="approxequal" xOffset="-50"/>
+    <component base="approxequal" xOffset="-18"/>
   </outline>
   <lib>
     <dict>

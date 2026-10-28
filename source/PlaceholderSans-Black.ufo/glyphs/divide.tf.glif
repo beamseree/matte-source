@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="divide.tf" format="2">
-  <advance width="1337"/>
+  <advance width="1400"/>
   <unicode hex="EE5F"/>
   <outline>
-    <component base="divide" xOffset="-50"/>
+    <component base="divide" xOffset="-18"/>
   </outline>
   <lib>
     <dict>

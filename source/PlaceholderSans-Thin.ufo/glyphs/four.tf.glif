@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.tf" format="2">
-  <advance width="1316"/>
+  <advance width="1320"/>
   <unicode hex="E075"/>
   <outline>
-    <component base="four" xOffset="50"/>
+    <component base="four" xOffset="52"/>
   </outline>
   <lib>
     <dict>

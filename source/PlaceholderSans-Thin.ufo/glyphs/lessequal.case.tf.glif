@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lessequal.case.tf" format="2">
-  <advance width="1271"/>
+  <advance width="1320"/>
   <unicode hex="EE66"/>
   <outline>
     <component base="lessequal.tf" yOffset="138"/>

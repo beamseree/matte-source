@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="three.1.tf" format="2">
-  <advance width="1335"/>
+  <advance width="1400"/>
   <unicode hex="E07D"/>
-  <anchor x="669" y="1490" name="top"/>
+  <anchor x="701" y="1490" name="top"/>
   <outline>
-    <component base="three.1" xOffset="-28"/>
+    <component base="three.1" xOffset="4"/>
   </outline>
   <lib>
     <dict>

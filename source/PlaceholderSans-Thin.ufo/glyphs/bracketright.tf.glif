@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketright.tf" format="2">
-  <advance width="759"/>
+  <advance width="800"/>
   <unicode hex="EE4D"/>
-  <anchor x="351" y="651" name="cross"/>
+  <anchor x="367" y="651" name="cross"/>
   <outline>
-    <component base="bracketright"/>
+    <component base="bracketright" xOffset="16"/>
   </outline>
   <lib>
     <dict>

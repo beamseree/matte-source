@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="braceleft.tf" format="2">
-  <advance width="767"/>
+  <advance width="800"/>
   <unicode hex="EE4A"/>
   <outline>
-    <component base="braceleft" xOffset="-10"/>
+    <component base="braceleft" xOffset="7"/>
   </outline>
   <lib>
     <dict>

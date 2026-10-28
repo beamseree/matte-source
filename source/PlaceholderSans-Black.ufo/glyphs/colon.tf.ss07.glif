@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="colon.tf.ss07" format="2">
-  <advance width="577"/>
+  <advance width="550"/>
   <unicode hex="E2B7"/>
   <outline>
-    <component base="colon.ss07" xOffset="-107"/>
+    <component base="colon.ss07" xOffset="-121"/>
   </outline>
   <lib>
     <dict>

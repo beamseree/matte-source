@@ -48,7 +48,11 @@ See README.md for the file layout, setup and commands.
 - **The i/j dots are lower than the mockups'** at the user's request: the mockups' size
   (Thin's 94 units), moved down by 15% of the space above the x-height. Regular's is
   240 × 236 with its top at 1485 (the mockup's 1515), Black's 410 × 389 at 1539 (1552),
-  Thin's top at 1434.
+  Thin's top at 1434. The period and the dots of !, ?, ¡ and ¿ are the same size
+  (`tools/dots.py`, see Decisions); the user chose the i dot's size over 8% bigger
+  (about Inter's ratio), from `build/dots-compare/`. They had been Inter's, scaled by
+  derive.py: Regular's period was 280 × 290. The accent dots (ż ė ċ ġ İ, 260 × 257 in
+  Regular; ä ö ü, 245 × 252) are still Inter's.
 - **t's foot, P's bowl and the C, G, S and s terminals are reshaped by script**
   (`tools/reshape.py`, see Decisions): t ends in a flat foot with an upright cut, like
   the mockups' and like f's top, reaching about 20 units past the crossbar (25 in Thin),
@@ -180,6 +184,20 @@ See README.md for the file layout, setup and commands.
   dotaccentcomb component's transform in i and j, so other dotted letters keep theirs,
   and ufo2ft decomposes i and j because that transform differs between masters.
   `to_ufo.py` runs it after straighten.py.
+- The punctuation dots take the i dot's proportions: `tools/dots.py` scales the period's
+  contour and the separate dots of !, ?, ¡ and ¿ (and ¡.case), separately in x and y, to
+  redraw.py's `DOTS` width and height times `FACTOR` (1.0), about each dot's centre line,
+  so each stays on its stem. The period's and the ! and ? dots' feet stay on the
+  overshoot, and the ¡ dots keep their tops (¿ is ? turned round, so its top stays too).
+  The period, !, ¡ and the colon keep their sidebearings, so they narrow with their dots.
+  The 32 glyphs built on these follow by its `FOLLOW` table: the colon's upper dot and the
+  semicolon's keep their tops, so the colon stays centred on the middle of the x-height;
+  the middle dot keeps its height; the ellipsis and leaders close up; the dots in ʘ, Ͼ, Ͽ
+  and the circled ! keep their centres. It also lines up the colon's dots, centred in its
+  advance: derive.py had moved only the upper one, 44 / 36 / 17 units off. A glyph built
+  on a dot with no rule stops the script. `to_ufo.py` runs it after kern.py and before
+  tabular.py, which centres period.tf, colon.tf and semicolon.tf on the result; run on
+  its own, dots.py runs tabular.py after.
 - t's foot, P's bowl and the C, G, S and s terminals are construction differences from
   Inter, so `tools/reshape.py` rebuilds them in every master: `_part.t_base` (t and t.1)
   becomes 12 points, a flat foot whose curves and reach past the stem's right edge come
@@ -244,6 +262,18 @@ See README.md for the file layout, setup and commands.
   Glyph pairs, because Inter's t and f kerning groups also hold letters without these
   bars (public.kern1.t has 56 members, 33 of them t's); accented t's and f's still kern
   as before. It writes only kerning.plist, and `to_ufo.py` runs it after reshape.py.
+- The tabular glyphs (every name with a `tf` suffix part, and `figurespace`) have one width
+  per master, as in Inter. Inter builds most of them from the proportional glyphs as
+  components, and derive.py gave each its proportional glyph's width change, so the
+  figures came out 1292–1338 wide. `tools/tabular.py` sets each one's width from Inter's
+  source (its text-size masters), so glyphs that shared a width in Inter share one again,
+  and moves the whole glyph so its ink sits as far from the advance's centre as Inter's
+  (Inter's 1 is off-centre on purpose); no points move relative to each other. Figures,
+  maths signs and hyphen are 1320 / 1328 / 1400 (Thin / Regular / Black), punctuation and
+  spaces 550, brackets 800, and `figurespace` takes the figures' width. Black differs from
+  Inter's 1320 (`WIDTHS`): its figures are wider than Inter's, so at 1320 the 4 had 17
+  units a side; the user chose 1400 over 1320 and 1455 (the 4 with its own sidebearings)
+  in real text, from `build/tabular-compare/`. `to_ufo.py` runs it after kern.py.
 - ȸ and ȹ (uni0238/uni0239) are excluded from the eraseOpenCorners filter in every
   master's lib: once stem weights differ between masters, their overlapping contours
   erase differently and stop interpolating.
@@ -314,4 +344,6 @@ See README.md for the file layout, setup and commands.
   and file times before overwriting anything you didn't just write.
 - `derive.py` places some marks off their base's anchor: the i/j dots were 26–34 units
   left of the stem before the redraw, and ż (Regular) and ė (Thin, Black) dots are still
-  20–25 units off.
+  20–25 units off. Its composites moved some components by their glyph's width change:
+  the colon's upper dot (fixed by dots.py) and the semicolon's dot, which sits 31 / 24
+  units further left (Thin / Regular) and 7 right (Black) over the comma than Inter's.

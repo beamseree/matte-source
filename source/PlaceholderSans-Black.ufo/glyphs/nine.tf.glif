@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nine.tf" format="2">
-  <advance width="1332"/>
+  <advance width="1400"/>
   <unicode hex="E07A"/>
   <guideline x="-11" y="764" angle="0"/>
   <guideline x="-11" y="1240" angle="0"/>
   <outline>
-    <component base="nine" xOffset="-31"/>
+    <component base="nine" xOffset="3"/>
   </outline>
   <lib>
     <dict>

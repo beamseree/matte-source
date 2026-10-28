@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal.case.tf" format="2">
-  <advance width="1276"/>
+  <advance width="1328"/>
   <unicode hex="EE68"/>
   <outline>
     <component base="equal.tf" yOffset="163"/>
