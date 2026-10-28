@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="downArrow.squared" format="2">
-  <advance width="2770"/>
+  <advance width="2810"/>
   <unicode hex="E15A"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="downArrow" xOffset="542"/>
+    <component base="downArrow" xOffset="572"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="M.circled" format="2">
-  <advance width="2758"/>
+  <advance width="2841"/>
   <unicode hex="24C2"/>
-  <anchor x="1374" y="0" name="bottom"/>
-  <anchor x="2031" y="0" name="cyrtic"/>
-  <anchor x="1374" y="1490" name="top"/>
+  <anchor x="1421" y="0" name="bottom"/>
+  <anchor x="2078" y="0" name="cyrtic"/>
+  <anchor x="1421" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="M" xOffset="502"/>
+    <component base="M" xOffset="549"/>
   </outline>
   <lib>
     <dict>

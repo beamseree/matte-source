@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="less.squared" format="2">
-  <advance width="2857"/>
+  <advance width="2841"/>
   <unicode hex="E152"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="less" xOffset="717" yOffset="139"/>
+    <component base="less" xOffset="703" yOffset="139"/>
   </outline>
   <lib>
     <dict>

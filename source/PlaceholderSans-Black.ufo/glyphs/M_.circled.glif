@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="M.circled" format="2">
-  <advance width="2859"/>
+  <advance width="2851"/>
   <unicode hex="24C2"/>
   <anchor x="1425" y="0" name="bottom"/>
   <anchor x="2292" y="0" name="cyrtic"/>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Q.squared" format="2">
-  <advance width="2873"/>
+  <advance width="2810"/>
   <unicode hex="1F140"/>
-  <anchor x="1439" y="0" name="bottom"/>
-  <anchor x="1439" y="745" name="center"/>
-  <anchor x="2170" y="744" name="ogonek"/>
-  <anchor x="861" y="1490" name="tonos"/>
-  <anchor x="1439" y="1490" name="top"/>
-  <anchor x="1439" y="1510" name="tophorn"/>
+  <anchor x="1409" y="0" name="bottom"/>
+  <anchor x="1409" y="745" name="center"/>
+  <anchor x="2140" y="744" name="ogonek"/>
+  <anchor x="831" y="1490" name="tonos"/>
+  <anchor x="1409" y="1490" name="top"/>
+  <anchor x="1409" y="1510" name="tophorn"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="Q" xOffset="616"/>
+    <component base="Q" xOffset="586"/>
   </outline>
   <lib>
     <dict>

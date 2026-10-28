@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="I.circled" format="2">
-  <advance width="2783"/>
+  <advance width="2839"/>
   <unicode hex="24BE"/>
-  <anchor x="1386" y="0" name="bottom"/>
-  <anchor x="1386" y="772" name="cross"/>
-  <anchor x="1488" y="0" name="ogonek"/>
-  <anchor x="1505" y="0" name="right"/>
-  <anchor x="1284" y="1490" name="tonos"/>
-  <anchor x="1386" y="1490" name="top"/>
+  <anchor x="1420" y="0" name="bottom"/>
+  <anchor x="1420" y="772" name="cross"/>
+  <anchor x="1522" y="0" name="ogonek"/>
+  <anchor x="1539" y="0" name="right"/>
+  <anchor x="1318" y="1490" name="tonos"/>
+  <anchor x="1420" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="I" xOffset="1141"/>
+    <component base="I" xOffset="1175"/>
   </outline>
   <lib>
     <dict>

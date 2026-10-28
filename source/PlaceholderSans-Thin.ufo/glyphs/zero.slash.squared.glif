@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.slash.squared" format="2">
-  <advance width="2753"/>
+  <advance width="2815"/>
   <unicode hex="E148"/>
-  <anchor x="1399" y="745" name="center"/>
-  <anchor x="1399" y="1490" name="top"/>
+  <anchor x="1408" y="745" name="center"/>
+  <anchor x="1408" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="zero.slash" xOffset="796"/>
+    <component base="zero.slash" xOffset="805"/>
   </outline>
   <lib>
     <dict>

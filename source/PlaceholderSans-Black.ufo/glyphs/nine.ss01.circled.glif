@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nine.ss01.circled" format="2">
-  <advance width="2858"/>
+  <advance width="2851"/>
   <unicode hex="E130"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="nine.ss01" xOffset="770"/>
+    <component base="nine.ss01" xOffset="764"/>
   </outline>
   <lib>
     <dict>

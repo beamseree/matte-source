@@ -2,12 +2,12 @@
 <glyph name="M.squared" format="2">
   <advance width="2810"/>
   <unicode hex="1F13C"/>
-  <anchor x="1387" y="0" name="bottom"/>
-  <anchor x="2163" y="0" name="cyrtic"/>
-  <anchor x="1387" y="1490" name="top"/>
+  <anchor x="1401" y="0" name="bottom"/>
+  <anchor x="2177" y="0" name="cyrtic"/>
+  <anchor x="1401" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="M" xOffset="471"/>
+    <component base="M" xOffset="485"/>
   </outline>
   <lib>
     <dict>

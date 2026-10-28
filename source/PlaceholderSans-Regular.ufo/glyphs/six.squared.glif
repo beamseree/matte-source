@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="six.squared" format="2">
-  <advance width="2815"/>
+  <advance width="2810"/>
   <unicode hex="E144"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="six" xOffset="761"/>
+    <component base="six" xOffset="767"/>
   </outline>
   <lib>
     <dict>

@@ -5,7 +5,9 @@ longer match the derived outlines and would only clutter the editor. Letters tha
 tools/straighten.py, tools/redraw.py and tools/reshape.py fix are redrawn in every master,
 tools/joints.py thickens the joints of arches and bowls in Regular and Black,
 tools/kern.py keeps t's and f's crossbars apart, tools/dots.py gives the punctuation dots
-the i dot's size, and tools/tabular.py gives the tabular glyphs one width per master.
+the i dot's size, tools/stacked.py puts stacked components (the semicolon's dot, the
+circled forms) where Inter has them, and tools/tabular.py gives the tabular glyphs one
+width per master.
 
 Each SVG letter is scaled to font units (the "l" and capitals are 1490 units
 tall), sat on the baseline, and centred on the glyph's own outline.
@@ -38,6 +40,7 @@ import joints  # noqa: E402
 import kern  # noqa: E402
 import redraw  # noqa: E402
 import reshape  # noqa: E402
+import stacked  # noqa: E402
 import straighten  # noqa: E402
 import tabular  # noqa: E402
 
@@ -151,6 +154,7 @@ def main():
         joints.apply(source.font, MASTERS[source.location["Weight"]])
         kern.apply(source.font, MASTERS[source.location["Weight"]])
         dots.apply(source.font, MASTERS[source.location["Weight"]])
+        stacked.apply(source.font, MASTERS[source.location["Weight"]])
         tabular.apply(source.font, MASTERS[source.location["Weight"]])
     by_name = {MASTERS[s.location["Weight"]]: s for s in ds.sources}
     for spec in args.guides:

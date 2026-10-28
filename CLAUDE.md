@@ -273,7 +273,21 @@ See README.md for the file layout, setup and commands.
   spaces 550, brackets 800, and `figurespace` takes the figures' width. Black differs from
   Inter's 1320 (`WIDTHS`): its figures are wider than Inter's, so at 1320 the 4 had 17
   units a side; the user chose 1400 over 1320 and 1455 (the 4 with its own sidebearings)
-  in real text, from `build/tabular-compare/`. `to_ufo.py` runs it after kern.py.
+  in real text, from `build/tabular-compare/`. `to_ufo.py` runs it last.
+- Parts drawn over each other sit where Inter has them. derive.py moved each component
+  right by the width changes of the components before it and widened the glyph by all of
+  them, which suits parts side by side (the ellipsis) but put the semicolon's dot 31 / 24
+  units left and 7 right (Thin / Regular / Black) of Inter's place over the comma, set the
+  circled and squared forms' letters, figures and signs off centre by up to 124 units,
+  and changed those glyphs' widths by up to 262. `tools/stacked.py` moves each later
+  part of the semicolons, colon.ss07, ⁑, ʘ, Ͼ, Ͽ and every .circled and .squared glyph
+  so that its ink centre sits as far from the first part's as in Inter, and makes the
+  width the first part's plus Inter's difference (the semicolon is the comma's plus 8 /
+  28 / 10, so it got 44 / 47 units wider in Thin / Regular, 25 narrower in Black; each
+  circled form is its circle's width). Glyphs built on one of these alone follow its
+  width. The colon is dots.py's; accented letters follow their anchors and are left
+  alone. `to_ufo.py` runs it after dots.py and before tabular.py; run on its own, it runs
+  tabular.py after. The user approved it from `build/stacked-compare/`.
 - ȸ and ȹ (uni0238/uni0239) are excluded from the eraseOpenCorners filter in every
   master's lib: once stem weights differ between masters, their overlapping contours
   erase differently and stop interpolating.
@@ -345,5 +359,5 @@ See README.md for the file layout, setup and commands.
 - `derive.py` places some marks off their base's anchor: the i/j dots were 26–34 units
   left of the stem before the redraw, and ż (Regular) and ė (Thin, Black) dots are still
   20–25 units off. Its composites moved some components by their glyph's width change:
-  the colon's upper dot (fixed by dots.py) and the semicolon's dot, which sits 31 / 24
-  units further left (Thin / Regular) and 7 right (Black) over the comma than Inter's.
+  the colon's upper dot (fixed by dots.py), and the semicolon's dot and the circled forms
+  (fixed by stacked.py).
