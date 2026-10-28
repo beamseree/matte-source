@@ -426,7 +426,14 @@ See README.md for the file layout, setup and commands.
   spaces 550, brackets 800, and `figurespace` takes the figures' width. Black differs from
   Inter's 1320 (`WIDTHS`): its figures are wider than Inter's, so at 1320 the 4 had 17
   units a side; the user chose 1400 over 1320 and 1455 (the 4 with its own sidebearings)
-  in real text, from `build/tabular-compare/`. `to_ufo.py` runs it last.
+  in real text, from `build/tabular-compare/`. The same script gives every glyph whose
+  width is the same in all of Inter's masters (arrows, ■, ♥, the circled and squared
+  forms, the em space and its fractions, .notdef) Inter's width, placed the same way:
+  derive.py had given them sidebearing changes, so the em space was 1884 / 1810 / 2519
+  and 122 such glyphs varied by 20 or more. The quads are the en and em spaces, the
+  medium mathematical space 4/18 em, the punctuation space the period's width, and the
+  thin, narrow no-break and hair spaces the word space's fraction Inter has per master.
+  `to_ufo.py` runs it last.
 - Parts drawn over each other sit where Inter has them. derive.py moved each component
   right by the width changes of the components before it and widened the glyph by all of
   them, which suits parts side by side (the ellipsis) but put the semicolon's dot 31 / 24
@@ -475,16 +482,34 @@ See README.md for the file layout, setup and commands.
   G and D's round sides one sidebearing: the mean of what leaves each as much white,
   against Inter's, as the straight capitals' stems (`STEMS`) have; "mockup" fits them like
   the other letters, "inter" uses H's plain fraction of Inter's (the user chose "white").
+  The round sides are held at the rule's values while the rest are solved, so their
+  neighbours fit against them (solved free first, they had left Black F's right side at
+  −20 once O's sides were tied). The fit has structure, as Inter has: `SAME` sets share
+  one unknown, so the lowercase stems (n m h r b p k ı, and n h m u d q's rights: d and q
+  are b and p turned, so lefts and rights are one set), the bowls (o, c e g's lefts, b p's
+  rights, d q's lefts) and the capital stems (B D E F H I K L M N P R's lefts, H I M N's
+  rights) are one sidebearing per master, and `SYMMETRIC` letters (A H I M N O U V W X Y
+  i l o v w x; their Greek and Cyrillic twins follow) have equal sides. Before, the
+  pangrams' pairs gave n's left 122 and b's 156 on the same stem (Regular) and Y was 43
+  off centre in Black. That costs gap error against the mockups (`--cost`, at the current
+  kerning: free fit → `SYMMETRIC` → `SAME` → both): Thin 5.8 / 6.8 / 8.3 / 10.3, Regular
+  1.9 / 2.1 / 2.8 / 4.4, Black 2.9 / 3.2 / 4.9 / 5.7. Black's word space is `WORD` (3) times n|n's gap, 453, instead of the mockup's
+  503 (3.25 times; Inter, SF Pro and Graphik have 2.9–3.0); that adds about 44 to Black's
+  gap error across word spaces. `FOLLOW` (u.1, l.ss02) and `SMALL` (the drawn .sups, .dnom
+  and .numr glyphs; .subs and the other .numr are built on them) take Inter's sides plus
+  their default's change from Inter's, scaled by their height. `LOOSEN` (looser text
+  spacing, `build/loose-compare/`) and `ASIDE` (pangram pairs the fit leaves out: FO, ZY,
+  OX and ox alone make F's right, Y's and X/x's sides much tighter than Inter's
+  proportions, `build/structure-compare/`) are the user's to choose and empty until then.
   Applying moves each glyph's outline, components and anchors together; glyphs drawn over
   it (Q's tail, the bars of đ and ŧ) move with it, and so do the anchors of composites
   built on it. `to_ufo.py` runs it after joints.py; run on its own, it runs accents.py,
   stacked.py, tabular.py, kerning.py and kern.py after. Refit with `--fit` (prints the
   tables) after changing an outline's width, then apply; the pangrams are laid out with the
-  kerning, so refit again after kerning.py changes a pair in them (one round settles it). The fit solves again with its own solution's
-  medians until they stay put, and sets the round sides after solving the rest as
-  "mockup" would, so refitting the spaced source reproduces the tables exactly. (Thin's
-  capital median has two such settled values, 0.842 and 0.831, a few units apart in the
-  result; a refit from the current source keeps the current one.)
+  kerning, so refit again after kerning.py changes a pair in them (one round settles it).
+  The fit solves again with its own solution's medians and round sides until they stay
+  put, so refitting the spaced source reproduces the tables, but for a unit of rounding on
+  a few sides after the kerning changes (the clearance follows the widths).
 - Kerning is `tools/kerning.py`'s, worked out from Inter's source and our outlines each time
   it runs (no table), so it follows shape and spacing changes. Each Inter pair is measured
   on its groups' key glyphs by its visible gap: both sides' optical sidebearings (over the
@@ -499,15 +524,30 @@ See README.md for the file layout, setup and commands.
   lot and for punctuation, quotes and small figures it has too little to go on. Measuring
   against Inter's own pairs as a whole would have made the kerning undo the sides the
   spacing set from the mockups. Under `THRESHOLD` (10) a pair keeps Inter's value. Greek
-  and Cyrillic pairs keep Inter's. Then `clear` sets every text glyph (`SCRIPTS`, `MARKS`)
-  against its own script's letters and the figures and punctuation at every 100 from 100
-  to 900 (between the masters, outlines interpolated as the built font does) with each
-  glyph's edges spread a row up and down, and where a pair comes nearer than `CLEAR` (10)
-  adds kerning in every master: against the right glyph's group when all its text
-  letters collide, else per glyph, never tighter than what it replaces, raising both
-  neighbouring masters where a weight between them falls short. `OVERRIDES` takes pairs
-  set by hand. Groups don't change. `to_ufo.py` runs it once all three masters are done
-  (after stacked.py), then kern.py and tabular.py; `--check` scans the built font.
+  and Cyrillic pairs are refitted the same way (ТЛ, ГЛ, ТД had kept Inter's unscaled
+  −280). y is split from v's right-side group (`SPLIT`, written to groups.plist): its left
+  is fuller, so it takes v's pairs plus the difference in how y and v meet the other glyph
+  (A–y −121 where A–v is −139 in Regular). With each glyph's own spacing factored out, the
+  model's kerning matches Inter's within about 15 units for F's, Y's and the diagonals'
+  pairs, so the audit's tight F and Black-Y pairs are spacing (see `ASIDE`), not kerning.
+  Then `clear` sets every text glyph (`SCRIPTS`, `MARKS`) against its own script's
+  letters and the figures and punctuation, and the punctuation's capital forms (.case)
+  against capitals and figures, at every 50 from 100 to 900 (between the masters,
+  outlines interpolated as the built font does). A pair nearer than `CLEAR` (10, edges
+  spread a row up and down), or two letters of a script nearer than `LETTERS` (50) in any
+  direction with their marks left out (the left glyph's ink grown by a disc), gets the
+  least kerning over the axis that makes up its shortfalls (`least`: the integral of the
+  added kerning's square, the kerning going straight between the masters). Raising both
+  neighbouring masters by each weight's whole shortfall had left the Regular master up to
+  97 units looser than needed (fî, Tî) and the redrawn diagonals and long bars 4–33 units
+  apart (XX, kX, fy, fW). Dashes join, so they aren't held apart from each other. Entries
+  go against the right glyph's group when all its text glyphs fall short, then against
+  the left glyph's group the same way, else per glyph, never tighter than what they
+  replace. The user chose `LETTERS` 50 over 10, 40 and 60 from `build/clear-compare/`
+  (60 would leave no letter pair under 51 units, at about 500 more entries per master).
+  `OVERRIDES` takes pairs set by hand. `to_ufo.py` runs it once all three masters are done
+  (after stacked.py), then kern.py and tabular.py; `--check` scans the built font for
+  overlaps and for letter pairs nearer than `LETTERS`.
 - ȸ and ȹ (uni0238/uni0239) are excluded from the eraseOpenCorners filter in every
   master's lib: once stem weights differ between masters, their overlapping contours
   erase differently and stop interpolating.

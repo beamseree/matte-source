@@ -15,13 +15,21 @@ sidebearings, for the cases of the pair), and adds LAMBDA times the change in ho
 shapes meet, where both are letters sharing at least OVERLAP of their height (elsewhere the
 measure has too little to go on). That change is held to CLIP: one close point (our a's
 top terminal at F's middle arm, where Inter's sits above it) moves it a lot. A change under
-THRESHOLD keeps Inter's value. Greek and Cyrillic pairs keep Inter's values.
+THRESHOLD keeps Inter's value. Greek and Cyrillic pairs are refitted the same way (Inter's
+values for ТЛ, ГЛ and ТД had stayed unscaled). y's kerning group is split from v's (SPLIT):
+its left side is fuller, so it takes v's pairs plus the difference in how y and v meet the
+other glyph.
 
 Then every letter text uses (accented, Vietnamese, Greek and Cyrillic too) is set against
-every other of its script, and against the figures and punctuation, with the kerning, and
-a pair whose ink comes nearer than CLEAR gets kerning that holds it at CLEAR in every master
-(`--check` scans every 100 from 100 to 900 on the built font). The groups don't change. tools/kern.py's t and f pairs are
-left to it; run on its own, this runs it after, and to_ufo.py runs this after
+every other of its script, and against the figures and punctuation (and the punctuation's
+capital forms against capitals and figures), with the kerning, at every WEIGHTS: a pair
+whose ink comes nearer than CLEAR, or two letters of a script whose own shapes (marks left
+out) come nearer than LETTERS in any direction, gets the least kerning over the axis that
+holds it there (`least`). Dashes join, so they aren't held apart from each other. Raising
+both masters by each weight's whole shortfall had left the Regular master up to 97 units
+looser than needed (fî), and the redrawn diagonals and long bars 4-33 units apart (XX, fy).
+`--check` scans every 100 from 100 to 900 on the built font. tools/kern.py's t and f pairs
+are left to it; run on its own, this runs it after, and to_ufo.py runs this after
 tools/stacked.py, then tools/kern.py and tools/tabular.py. Running it again changes nothing.
 
 Usage: python tools/kerning.py source/PlaceholderSans-*.ufo
@@ -51,9 +59,22 @@ CAL = {"Thin": (200, 0.25), "Regular": (140, 0.375), "Black": (140, 0.375)}   # 
 CLIP = 40
 THRESHOLD = 10
 OVERLAP = 0.5
-CLEAR = 10         # units between the nearest points of two glyphs side by side, at every master
+CLEAR = 10         # units between the nearest points of two glyphs side by side, at every weight
+LETTERS = 50       # and between two letters of a script, their marks left out, in any direction;
+                   # the user chose 50 over 10, 40 and 60 (build/clear-compare/)
 Y0, Y1, STEP = -800, 2600, 10
 YS = np.arange(Y0 + STEP / 2, Y1, STEP)
+WEIGHTS = range(100, 901, 50)   # where the clearance is checked, in user weights
+DEFAULT = 430                    # the Regular master's weight
+
+# Kerning groups split from Inter's, {new group: (Inter's group, key glyph)}: the new group
+# takes the old one's members built on the key glyph, and a copy of the old group's pairs,
+# refitted to its own key. y's left side (its arm and tail) is 21-42 units fuller than v's,
+# so kerning y as v left Ay, Fy, ky and Py tight.
+SPLIT = {"public.kern2.y": ("public.kern2.v", "y")}
+
+# Glyphs drawn to join their neighbours, which the clearance leaves touching each other.
+DASHES = ("hyphen", "endash", "emdash", "hyphen.case", "endash.case", "emdash.case")
 
 # Pairs set by hand after looking at them in text: {master: {(left, right): value}}.
 OVERRIDES = {}
@@ -100,9 +121,22 @@ class Flat(BasePen):
     _endPath = _closePath
 
 
-def profile(glyph_set, name):
-    """(left, right) ink edges on every row of the grid (NaN where there's no ink)."""
-    rec = DecomposingRecordingPen(glyph_set)
+class Skipping(DecomposingRecordingPen):
+    """Decomposes components, leaving out those in `skip` (at any depth)."""
+
+    def __init__(self, glyph_set, skip=()):
+        super().__init__(glyph_set)
+        self.skip = skip
+
+    def addComponent(self, name, transformation):
+        if name not in self.skip:
+            super().addComponent(name, transformation)
+
+
+def profile(glyph_set, name, skip=()):
+    """(left, right) ink edges on every row of the grid (NaN where there's no ink), leaving
+    out the components named in `skip`."""
+    rec = Skipping(glyph_set, skip)
     glyph_set[name].draw(rec)
     pen = Flat(glyph_set)
     rec.replay(pen)
@@ -121,16 +155,16 @@ def profile(glyph_set, name):
 
 
 class Profiles:
-    def __init__(self, glyph_set, widths=None):
+    def __init__(self, glyph_set, widths=None, skip=()):
         self.glyphs, self.cache = glyph_set, {}
-        self.widths = widths
+        self.widths, self.skip = widths, skip
 
     def width(self, name):
         return self.widths[name] if self.widths else self.glyphs[name].width
 
     def __getitem__(self, name):
         if name not in self.cache:
-            self.cache[name] = profile(self.glyphs, name)
+            self.cache[name] = profile(self.glyphs, name, self.skip)
         return self.cache[name]
 
 
@@ -225,23 +259,40 @@ def scales(ufo, master):
 
 # --- Refitting -----------------------------------------------------------------------------
 
+def root(ufo, name):
+    """The glyph a composite is built on: its first component's, all the way down."""
+    while ufo[name].components and not ufo[name].contours:
+        name = ufo[name].components[0].baseGlyph
+    return name
+
+
+def split(ufo):
+    """Split SPLIT's groups off Inter's in `ufo`; returns whether the groups changed."""
+    changed = False
+    for new, (old, key) in SPLIT.items():
+        moving = [m for m in ufo.groups.get(old, []) if root(ufo, m) == key]
+        if moving:
+            ufo.groups[old] = [m for m in ufo.groups[old] if m not in moving]
+            ufo.groups[new] = list(ufo.groups.get(new, [])) + moving
+            changed = True
+    return changed
+
+
 def refit(ufo, master, ours):
-    """{pair: value} for Inter's pairs, refitted where they're ours to refit."""
+    """{pair: value} for Inter's pairs, refitted where they're ours to refit. A group SPLIT
+    off Inter's takes its old group's pairs, refitted, plus the difference between how its key
+    and the old group's key meet the other glyph, so it keeps the old group's gaps."""
     theirs, pairs = inter(master)
     depth, lam = CAL[master]
     k = scales(ufo, master)
-    out = {}
-    for (left, right), value in pairs.items():
-        if (left, right) in kern.PAIRS:
-            continue
-        out[(left, right)] = value
+
+    def one(left, right, value):
         if not all(n in ufo or n in ufo.groups for n in (left, right)):
-            continue
+            return value
         a, b = key_glyph(ufo, left), key_glyph(ufo, right)
         ca, cb = char(ufo, a), char(ufo, b)
-        if {script(ca), script(cb)} & {"greek", "cyrillic"} or a not in theirs.glyphs \
-                or b not in theirs.glyphs:
-            continue
+        if a not in theirs.glyphs or b not in theirs.glyphs:
+            return value
         o, t = measures(ours, a, b, depth), measures(theirs, a, b, depth)
         cases = [k[c] for c in (case(ca), case(cb)) if c]
         s = sum(cases) / len(cases) if cases else k["lower"]
@@ -250,9 +301,33 @@ def refit(ufo, master, ours):
             if all(case(c) in ("upper", "lower") for c in (ca, cb)) and shared(ours, a, b) >= OVERLAP:
                 change = lam * (s * (t[1] - t[0]) - (o[1] - o[0]))
                 new += max(-CLIP, min(CLIP, change))
-        new = round(new)
+        return new
+
+    def gap(a, b):
+        m = measures(ours, a, b, depth)
+        return m and (1 - lam) * m[0] + lam * m[1]
+
+    out = {}
+    for (left, right), value in pairs.items():
+        if (left, right) in kern.PAIRS:
+            continue
+        out[(left, right)] = value
+        new = round(one(left, right, value))
         if abs(new - value) >= THRESHOLD:
             out[(left, right)] = new
+    for split_group, (old, key) in SPLIT.items():
+        if split_group not in ufo.groups:
+            continue
+        side = 0 if split_group.startswith("public.kern1.") else 1
+        old_key = key_glyph(ufo, old)
+        for (left, right), value in pairs.items():
+            if (left, right)[side] != old:
+                continue
+            other = key_glyph(ufo, right if side == 0 else left)
+            g = (gap(key, other), gap(old_key, other)) if side == 0 else \
+                (gap(other, old_key), gap(other, key))
+            pair = (split_group, right) if side == 0 else (left, split_group)
+            out[pair] = round(one(left, right, value) + (g[0] - g[1] if None not in g else 0))
     return out
 
 
@@ -279,7 +354,9 @@ MARKS = "0123456789.,:;!?¡¿'\"‘’“”‚„«»‹›-–—…·•()[]{
 
 
 def text(ufo):
-    """(glyph names, a mask of which pairs of them text sets side by side)."""
+    """(glyph names, a mask of which pairs of them text sets side by side, a mask of which of
+    those are two letters of a script). The punctuation's capital forms (parenleft.case ...)
+    are set beside capitals and figures; dashes are drawn to join, so not against each other."""
     cmap = {g.unicode: g.name for g in ufo if g.unicode is not None}
     names, kinds = [], []
     for kind, ranges in SCRIPTS.items():
@@ -292,8 +369,35 @@ def text(ufo):
         if ord(c) in cmap:
             names.append(cmap[ord(c)])
             kinds.append("marks")
+    for c in MARKS:
+        if ord(c) in cmap and f"{cmap[ord(c)]}.case" in ufo:
+            names.append(f"{cmap[ord(c)]}.case")
+            kinds.append("case")
     k = np.array(kinds)
-    return names, (k[:, None] == k[None, :]) | (k[:, None] == "marks") | (k[None, :] == "marks")
+    tall = np.array([case(char(ufo, n)) in ("upper", "figure") for n in names])
+    marks, cased = k == "marks", k == "case"
+    letters = (k[:, None] == k[None, :]) & np.isin(k, list(SCRIPTS))[:, None]
+    mask = letters | (marks[:, None] & ~cased[None, :]) | (~cased[:, None] & marks[None, :])
+    mask |= (cased[:, None] & tall[None, :]) | (tall[:, None] & cased[None, :])
+    dash = np.isin(names, DASHES)
+    mask &= ~(dash[:, None] & dash[None, :])
+    return names, mask, letters
+
+
+def mark_names(ufo):
+    """The combining marks, which the clearance between letters leaves out."""
+    categories = ufo.lib.get("public.openTypeCategories", {})
+    return {n for n in ufo.keys() if categories.get(n) == "mark" or "comb" in n.split(".")[0]}
+
+
+def with_marks(ufo, names, marks):
+    """The glyphs among `names` built with a mark somewhere in them."""
+    memo = {}
+    def has(name):
+        if name not in memo:
+            memo[name] = any(c.baseGlyph in marks or has(c.baseGlyph) for c in ufo[name].components)
+        return memo[name]
+    return {n for n in names if has(n)}
 
 
 class Kerning:
@@ -321,11 +425,28 @@ def spread(edges, pick, rows=SPREAD):
     return out
 
 
-def nearest(names, P, K):
+def grown(edges, reach):
+    """Right edges grown by a disc of radius `reach`, less `reach`: each row's edge as far
+    out as the disc around any ink within `reach` above or below it gets, beyond `reach`."""
+    out = edges.copy()
+    for k in range(1, int(reach // STEP) + 1):
+        g = np.sqrt(reach ** 2 - (k * STEP) ** 2) - reach
+        for shifted in (np.roll(edges, k, axis=1), np.roll(edges, -k, axis=1)):
+            out = np.fmax(out, shifted + g)
+    return out
+
+
+def nearest(names, P, K, reach=None):
     """Matrix of each pair's nearest distance with kerning K (inf where no shared rows), with
-    each glyph's edges spread SPREAD rows up and down, so a near miss in height counts."""
-    L = spread(np.stack([P[n][0] for n in names]), np.fmin)
-    R = spread(np.stack([P[n][1] for n in names]), np.fmax)
+    each glyph's edges spread SPREAD rows up and down, so a near miss in height counts. With
+    `reach`, the distance in any direction where it is under `reach`: the left glyph's ink
+    grown by a disc that size (`grown`)."""
+    if reach:
+        L = np.stack([P[n][0] for n in names])
+        R = grown(np.stack([P[n][1] for n in names]), reach)
+    else:
+        L = spread(np.stack([P[n][0] for n in names]), np.fmin)
+        R = spread(np.stack([P[n][1] for n in names]), np.fmax)
     W = np.array([P.width(n) for n in names], dtype=float)
     Lf = np.where(np.isnan(L), np.inf, L)
     out = np.full((len(names), len(names)), np.inf)
@@ -351,13 +472,13 @@ class Blend:
             for op, args in self.ops:
                 getattr(pen, op)(*args)
 
-    def __init__(self, a, b, t):
-        self.a, self.b, self.t = a, b, t
+    def __init__(self, a, b, t, skip=()):
+        self.a, self.b, self.t, self.skip = a, b, t, skip
 
     def __getitem__(self, name):
         recs = []
         for font in (self.a, self.b):
-            rec = DecomposingRecordingPen(font)
+            rec = Skipping(font, self.skip)
             font[name].draw(rec)
             recs.append(rec.value)
         t = self.t
@@ -371,80 +492,138 @@ class Blend:
         return Blend.Glyph(width, ops)
 
 
-def weights(ufos):
-    """[(user weight, master below, master above, how far between)] at every 100."""
+def weights():
+    """[(user weight, master below, master above, how far between)] at each of WEIGHTS."""
     out = []
-    for w in range(100, 1000, 100):
-        if w <= 430:
-            out.append((w, "Thin", "Regular", (w - 100) / 330))
+    for w in WEIGHTS:
+        if w <= DEFAULT:
+            out.append((w, "Thin", "Regular", (w - WEIGHTS[0]) / (DEFAULT - WEIGHTS[0])))
         else:
-            out.append((w, "Regular", "Black", (w - 430) / 470))
+            out.append((w, "Regular", "Black", (w - DEFAULT) / (WEIGHTS[-1] - DEFAULT)))
     return out
 
 
+def least(short):
+    """{master: added kerning} making up each weight's shortfall ({weight: units}) with the
+    least kerning added over the whole axis: the integral of its square, the kerning going in
+    a straight line between the masters. Raising a master by the whole shortfall of a weight
+    near the next one had left the Regular master up to 97 units looser than it needed."""
+    lo, hi = WEIGHTS[0], WEIGHTS[-1]
+    # Each weight's shortfall with the share of it the far master has (Thin below the
+    # default, Black above it; Regular has the rest), and r: candidates for Regular's.
+    below = [(1 - (w - lo) / (DEFAULT - lo), v) for w, v in short.items() if w < DEFAULT]
+    above = [((w - DEFAULT) / (hi - DEFAULT), v) for w, v in short.items() if w > DEFAULT]
+    r0 = max([0.0] + [v for w, v in short.items() if w == DEFAULT])
+    r = np.linspace(r0, max(r0, 2 * max(short.values())), 401)
+    def far(found):
+        """The far master's least value for each candidate r."""
+        x = np.zeros_like(r)
+        for share, v in found:
+            x = np.maximum(x, (v - (1 - share) * r) / share)
+        return x
+    thin, black = far(below), far(above)
+    cost = (DEFAULT - lo) * (thin**2 + thin * r + r**2) + (hi - DEFAULT) * (r**2 + r * black + black**2)
+    i = int(np.argmin(cost))
+    return {"Thin": thin[i], "Regular": r[i], "Black": black[i]}
+
+
+class Bodies:
+    """Profiles of the glyphs with their marks left out (the rest are the glyphs' own)."""
+
+    def __init__(self, full, bodies, marked):
+        self.full, self.bodies, self.marked = full, bodies, marked
+
+    def width(self, name):
+        return self.full.width(name)
+
+    def __getitem__(self, name):
+        return (self.bodies if name in self.marked else self.full)[name]
+
+
 def clear(ufos, pairs, rounds=6):
-    """Kerning that holds every pair text sets side by side at least CLEAR apart at every
-    100 from 100 to 900: a glyph against the right glyph's kerning group where every letter of
-    the group collides with it (î against l's), or against each glyph that does, so the
-    rest keep their kerning. Between the masters, both masters' values rise by what's
-    missing. A group entry is never tighter than what it replaces. Returns the entries
-    added or raised."""
-    names, mask = text(ufos["Regular"])
-    steps = weights(ufos)
-    profiles = {}
-    for w, lo, hi, t in steps:
-        glyphs = ufos[lo] if t == 0 else ufos[hi] if t == 1 else Blend(ufos[lo], ufos[hi], t)
-        widths = None if t in (0, 1) else {n: glyphs[n].width for n in names}
+    """Kerning that holds every pair text sets side by side at least CLEAR apart, and two
+    letters of a script at least LETTERS apart in any direction with their marks left out,
+    at each of WEIGHTS: a glyph against the right glyph's kerning group where every letter
+    of the group falls short with it (î against l's), or against each glyph that does, so
+    the rest keep their kerning. Each pair gets the least kerning over the axis that makes
+    up its shortfalls (`least`); a group entry is never tighter than what it replaces.
+    Returns the entries added or raised."""
+    regular = ufos["Regular"]
+    names, mask, letters = text(regular)
+    skip = mark_names(regular)
+    marked = with_marks(regular, names, skip)
+    profiles, bodies = {}, {}
+    for w, lo, hi, t in weights():
+        if t in (0, 1):
+            glyphs = body = ufos[lo] if t == 0 else ufos[hi]
+            widths = None
+        else:
+            glyphs, body = Blend(ufos[lo], ufos[hi], t), Blend(ufos[lo], ufos[hi], t, skip)
+            widths = {n: glyphs[n].width for n in names}
         profiles[w] = Profiles(glyphs, widths)
-    second = {}
-    for g, members in ufos["Regular"].groups.items():
-        if g.startswith("public.kern2."):
+        bodies[w] = Bodies(profiles[w], Profiles(body, widths, skip), marked)
+    first, second = {}, {}
+    for g, members in regular.groups.items():
+        if g.startswith("public.kern1."):
+            first.update({m: g for m in members})
+        elif g.startswith("public.kern2."):
             second.update({m: g for m in members})
     in_text = set(names)
     touched = set()
     for _ in range(rounds):
         K = {m: Kerning(u.groups, pairs[m], names).K for m, u in ufos.items()}
-        need = {}          # (a, b) -> {master: value}
-        for w, lo, hi, t in steps:
-            near = nearest(names, profiles[w], K[lo] + (K[hi] - K[lo]) * t)
-            for i, j in zip(*np.where((near < CLEAR) & mask)):
-                short = CLEAR - near[i, j]
-                for master, share in ((lo, 1 - t), (hi, t)):
-                    if share > 0:
-                        got = need.setdefault((names[i], names[j]), {})
-                        got[master] = max(got.get(master, -np.inf), K[master][i, j] + short)
-        if not need:
+        short = {}         # (i, j) -> {weight: units}
+        for w, lo, hi, t in weights():
+            k = K[lo] + (K[hi] - K[lo]) * t
+            gap = np.where(mask, CLEAR - nearest(names, profiles[w], k), -np.inf)
+            gap = np.fmax(gap, np.where(letters, LETTERS - nearest(names, bodies[w], k, LETTERS),
+                                        -np.inf))
+            for i, j in zip(*np.where(gap > 0)):
+                short.setdefault((i, j), {})[w] = gap[i, j]
+        if not short:
             break
-        # One entry for a glyph against a whole group when all of the group's letters collide
-        # with it; otherwise one for each glyph that does, so the others keep their kerning.
-        by_group = {}
-        for (a, b), by_master in need.items():
-            by_group.setdefault((a, second.get(b, b)), {})[b] = by_master
-        entries = {}
-        for (a, right), found in by_group.items():
-            members = [m for m in ufos["Regular"].groups.get(right, [right]) if m in in_text]
-            if right in ufos["Regular"].groups and set(found) == set(members) and len(members) > 1:
-                merged = {}
-                for by_master in found.values():
-                    for master, v in by_master.items():
-                        merged[master] = max(merged.get(master, -np.inf), v)
-                entries[(a, right)] = merged
-            else:
-                entries.update({(a, b): by_master for b, by_master in found.items()})
+        need = {}          # (a, b) -> {master: value}
+        for (i, j), found in short.items():
+            add = least(found)
+            need[(names[i], names[j])] = {m: K[m][i, j] + add[m] for m in ufos}
+        # One entry against a whole group when all of the group's text glyphs fall short with
+        # the same glyph (î against l's), and then for a whole group on the left when all of
+        # its text glyphs need an entry against the same glyph or group (À Á Â ... beside X);
+        # otherwise one for each glyph that does, so the others keep their kerning.
+        def merge(found, side, groups):
+            out = {}
+            for key, by_master in found.items():
+                g = groups.get(key[side], key[side])
+                out.setdefault((g, key[1]) if side == 0 else (key[0], g), {})[key[side]] = by_master
+            entries = {}
+            for key, members_found in out.items():
+                g = key[side]
+                members = [m for m in regular.groups.get(g, [g]) if m in in_text]
+                if g in regular.groups and set(members_found) == set(members) and len(members) > 1:
+                    merged = {}
+                    for by_master in members_found.values():
+                        for master, v in by_master.items():
+                            merged[master] = max(merged.get(master, -np.inf), v)
+                    entries[key] = merged
+                else:
+                    entries.update({(m, key[1]) if side == 0 else (key[0], m): by_master
+                                    for m, by_master in members_found.items()})
+            return entries
+        entries = merge(merge(need, 1, second), 0, first)
         for key, by_master in entries.items():
-            a, right = key
-            members = ufos["Regular"].groups.get(right, [right])
+            lefts, rights = (regular.groups.get(n, [n]) for n in key)
             for master, ufo in ufos.items():
-                now = max(value(ufo.groups, pairs[master], a, b) for b in members if b in ufo)
-                pairs[master][key] = int(np.ceil(max(now, by_master.get(master, now))))
+                now = max(value(first, second, pairs[master], a, b)
+                          for a in lefts if a in ufo for b in rights if b in ufo)
+                pairs[master][key] = int(np.ceil(max(now, by_master.get(master, now)) - 1e-6))
             touched.add(key)
     return touched
 
 
-def value(groups, pairs, a, b):
-    """The kerning between glyphs a and b, by the UFO's precedence."""
-    ga = next((g for g, ms in groups.items() if g.startswith("public.kern1.") and a in ms), None)
-    gb = next((g for g, ms in groups.items() if g.startswith("public.kern2.") and b in ms), None)
+def value(first, second, pairs, a, b):
+    """The kerning between glyphs a and b, by the UFO's precedence ({glyph: its kerning
+    group} on the left and on the right)."""
+    ga, gb = first.get(a), second.get(b)
     for key in ((a, b), (a, gb), (ga, b), (ga, gb)):
         if key in pairs:
             return pairs[key]
@@ -455,6 +634,7 @@ def apply_all(ufos):
     """Refit and clear the kerning of {master: ufo}; returns {master: changed pairs}."""
     pairs = {}
     for master, ufo in ufos.items():
+        split(ufo)
         ours = Profiles(ufo)
         new = refit(ufo, master, ours)
         keep = {p: v for p, v in ufo.kerning.items() if p in kern.PAIRS}
@@ -488,16 +668,28 @@ def main(paths):
         data = {a: row for a, row in data.items() if row}
         with open(plist, "wb") as f:
             plistlib.dump(data, f)
+        groups = f"{path}/groups.plist"
+        with open(groups, "rb") as f:
+            data = plistlib.load(f)
+        if any(data.get(g) != ufos[master].groups.get(g) for n, (o, _) in SPLIT.items() for g in (n, o)):
+            for new, (old, _) in SPLIT.items():
+                data[old], data[new] = ufos[master].groups[old], ufos[master].groups[new]
+            with open(groups, "wb") as f:
+                plistlib.dump(data, f)
         print(f"{path}: {len(changed[master])} pairs changed, {len(ufos[master].kerning)} in all ({master})")
     kern.main(paths)   # t's and f's bars, last
 
 
 def check(ttf=os.path.join(ROOT, "build/PlaceholderSans-VF.ttf"), src=os.path.join(ROOT, "source")):
-    """Overlapping pairs of text glyphs, with the kerning, at every 100 from 100 to 900."""
+    """Overlapping pairs of text glyphs, with the kerning, at every 100 from 100 to 900, and
+    the pairs of letters without marks nearer than LETTERS (a unit's rounding allowed)."""
     from fontTools.ttLib import TTFont
     font = TTFont(ttf)
     ufos = {m: ufoLib2.Font.open(os.path.join(src, f"PlaceholderSans-{m}.ufo")) for m in MASTERS}
-    names, mask = text(ufos["Regular"])
+    names, mask, letters = text(ufos["Regular"])
+    plain = np.array([n not in with_marks(ufos["Regular"], names, mark_names(ufos["Regular"]))
+                      for n in names])
+    letters &= plain[:, None] & plain[None, :]
     K = {m: Kerning(u.groups, dict(u.kerning), names).K for m, u in ufos.items()}
     axis = font["fvar"].axes[0]
     total = 0
@@ -512,9 +704,14 @@ def check(ttf=os.path.join(ROOT, "build/PlaceholderSans-VF.ttf"), src=os.path.jo
             k = K["Regular"] + t * (K["Black"] - K["Regular"])
         near = nearest(names, P, np.round(k))
         bad = sorted((near[i, j], names[i], names[j]) for i, j in zip(*np.where((near < 0) & mask)))
+        close = nearest(names, P, np.round(k), LETTERS)
+        tight = sorted((close[i, j], names[i], names[j])
+                       for i, j in zip(*np.where((close < LETTERS - 1) & letters)))
         total += len(bad)
         print(f"wght {w}: {len(bad)} overlapping pairs" + (": " + ", ".join(
-            f"{a} {b} {d:.0f}" for d, a, b in bad[:12]) if bad else ""))
+            f"{a} {b} {d:.0f}" for d, a, b in bad[:12]) if bad else "") +
+            f"; {len(tight)} letter pairs nearer than {LETTERS}" + (": " + ", ".join(
+                f"{a} {b} {d:.0f}" for d, a, b in tight[:8]) if tight else ""))
     return total
 
 
