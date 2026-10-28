@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="twodotleader" format="2">
-  <advance width="1019"/>
+  <advance width="995"/>
   <unicode hex="2025"/>
   <outline>
     <component base="period"/>
-    <component base="period" xOffset="510"/>
+    <component base="period" xOffset="498"/>
   </outline>
   <lib>
     <dict>

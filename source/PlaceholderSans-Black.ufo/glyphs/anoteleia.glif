@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="anoteleia" format="2">
-  <advance width="781"/>
+  <advance width="797"/>
   <unicode hex="0387"/>
   <note>
 the Greek semicolon aka "upper stop"
 </note>
   <outline>
-    <component base="period" yOffset="762"/>
+    <component base="period" yOffset="780"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ratio" format="2">
-  <advance width="465"/>
+  <advance width="453"/>
   <unicode hex="2236"/>
   <unicode hex="EE01"/>
   <note>
 mathematical ratio operator.
-
 EE01 is a codepoint Android OS uses for the same glyph. See https://github.com/rsms/inter/pull/212
 </note>
   <outline>

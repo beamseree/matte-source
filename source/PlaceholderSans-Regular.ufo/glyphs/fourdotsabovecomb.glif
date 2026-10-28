@@ -5,10 +5,10 @@
 COMBINING FOUR DOTS ABOVE
 </note>
   <outline>
-    <component base="period" yOffset="1298"/>
-    <component base="period" xOffset="554" yOffset="1298"/>
+    <component base="period" xOffset="80" yOffset="1298"/>
+    <component base="period" xOffset="594" yOffset="1298"/>
     <component base="period" xOffset="1108" yOffset="1298"/>
-    <component base="period" xOffset="1662" yOffset="1298"/>
+    <component base="period" xOffset="1622" yOffset="1298"/>
   </outline>
   <lib>
     <dict>

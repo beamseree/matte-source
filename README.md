@@ -14,7 +14,7 @@ Working family name: "Placeholder Sans".
 | `reference/mockup-black.svg` | The Black design, same layout (`mockup-thin.webp` and `mockup-black.webp` are screenshots) |
 | `reference/targets.json`, `params.json` | Measurements from the mockup and the fitted parameters |
 | `tools/derive.py` | Inter → widened, lower x-height, heavier Regular, tighter spacing |
-| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides, runs straighten, redraw, reshape, joints, kern and tabular |
+| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides, runs straighten, redraw, reshape, joints, kern, dots and tabular |
 | `tools/straighten.py` | Redraws x, X, z, Z with straight strokes from the mockups' measurements (x/X narrowing toward the crossing, Z/z's shorter top bar; also usable on `source/` directly) |
 | `tools/redraw.py` | Redraws N, K, k, w, A, V, v, W, M, Y as the mockups' straight polygons, sets E/F's bars and Q's tail, the t crossbar and i/j dots (also usable on `source/` directly) |
 | `tools/dots.py` | Gives the period and the dots of !, ?, ¡ and ¿ the i dot's size, and moves the glyphs built on them (colon, semicolon, ellipsis, ·, ŀ, …); runs tabular.py after when used on `source/` directly |

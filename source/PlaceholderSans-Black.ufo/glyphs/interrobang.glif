@@ -39,7 +39,7 @@
       <point x="613" y="999" type="line"/>
       <point x="368" y="999" type="line"/>
     </contour>
-    <component base="period" xOffset="193"/>
+    <component base="period" xOffset="185"/>
   </outline>
   <lib>
     <dict>

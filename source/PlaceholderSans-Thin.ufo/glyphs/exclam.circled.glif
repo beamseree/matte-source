@@ -4,7 +4,7 @@
   <unicode hex="E131"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="exclam" xOffset="1141"/>
+    <component base="exclam" xOffset="1147"/>
   </outline>
   <lib>
     <dict>
