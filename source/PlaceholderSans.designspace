@@ -5,6 +5,17 @@
       <map input="100" output="100"/>
       <map input="430" output="400"/>
       <map input="900" output="900"/>
+      <labels>
+        <label uservalue="100" name="Thin"/>
+        <label uservalue="200" name="ExtraLight"/>
+        <label uservalue="300" name="Light"/>
+        <label uservalue="400" name="Regular" elidable="true" linkeduservalue="700"/>
+        <label uservalue="500" name="Medium"/>
+        <label uservalue="600" name="SemiBold"/>
+        <label uservalue="700" name="Bold"/>
+        <label uservalue="800" name="ExtraBold"/>
+        <label uservalue="900" name="Black"/>
+      </labels>
     </axis>
   </axes>
   <sources>
@@ -29,7 +40,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Placeholder Sans Thin" familyname="Placeholder Sans" stylename="Thin" filename="instance_ufos/PlaceholderSans-Thin.ufo" stylemapfamilyname="Placeholder Sans Thin" stylemapstylename="regular">
+    <instance name="Placeholder Sans Thin" familyname="Placeholder Sans" stylename="Thin" filename="instance_ufos/PlaceholderSans-Thin.ufo" postscriptfontname="PlaceholderSans-Thin" stylemapfamilyname="Placeholder Sans Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="100"/>
       </location>
@@ -53,21 +64,10 @@
               </array>
             </array>
           </array>
-          <key>com.schriftgestaltung.properties</key>
-          <array>
-            <array>
-              <string>WWSFamilyName</string>
-              <string>Inter</string>
-            </array>
-            <array>
-              <string>WWSSubfamilyName</string>
-              <string>Thin</string>
-            </array>
-          </array>
         </dict>
       </lib>
     </instance>
-    <instance name="Placeholder Sans ExtraLight" familyname="Placeholder Sans" stylename="ExtraLight" filename="instance_ufos/PlaceholderSans-ExtraLight.ufo" stylemapfamilyname="Placeholder Sans ExtraLight" stylemapstylename="regular">
+    <instance name="Placeholder Sans ExtraLight" familyname="Placeholder Sans" stylename="ExtraLight" filename="instance_ufos/PlaceholderSans-ExtraLight.ufo" postscriptfontname="PlaceholderSans-ExtraLight" stylemapfamilyname="Placeholder Sans ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="200"/>
       </location>
@@ -91,21 +91,10 @@
               </array>
             </array>
           </array>
-          <key>com.schriftgestaltung.properties</key>
-          <array>
-            <array>
-              <string>WWSFamilyName</string>
-              <string>Inter</string>
-            </array>
-            <array>
-              <string>WWSSubfamilyName</string>
-              <string>ExtraLight</string>
-            </array>
-          </array>
         </dict>
       </lib>
     </instance>
-    <instance name="Placeholder Sans Light" familyname="Placeholder Sans" stylename="Light" filename="instance_ufos/PlaceholderSans-Light.ufo" stylemapfamilyname="Placeholder Sans Light" stylemapstylename="regular">
+    <instance name="Placeholder Sans Light" familyname="Placeholder Sans" stylename="Light" filename="instance_ufos/PlaceholderSans-Light.ufo" postscriptfontname="PlaceholderSans-Light" stylemapfamilyname="Placeholder Sans Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="300"/>
       </location>
@@ -129,21 +118,10 @@
               </array>
             </array>
           </array>
-          <key>com.schriftgestaltung.properties</key>
-          <array>
-            <array>
-              <string>WWSFamilyName</string>
-              <string>Inter</string>
-            </array>
-            <array>
-              <string>WWSSubfamilyName</string>
-              <string>Light</string>
-            </array>
-          </array>
         </dict>
       </lib>
     </instance>
-    <instance name="Placeholder Sans Regular" familyname="Placeholder Sans" stylename="Regular" filename="instance_ufos/PlaceholderSans-Regular.ufo" stylemapfamilyname="Placeholder Sans" stylemapstylename="regular">
+    <instance name="Placeholder Sans Regular" familyname="Placeholder Sans" stylename="Regular" filename="instance_ufos/PlaceholderSans-Regular.ufo" postscriptfontname="PlaceholderSans-Regular" stylemapfamilyname="Placeholder Sans" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="400"/>
       </location>
@@ -170,7 +148,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Placeholder Sans Medium" familyname="Placeholder Sans" stylename="Medium" filename="instance_ufos/PlaceholderSans-Medium.ufo" stylemapfamilyname="Placeholder Sans Medium" stylemapstylename="regular">
+    <instance name="Placeholder Sans Medium" familyname="Placeholder Sans" stylename="Medium" filename="instance_ufos/PlaceholderSans-Medium.ufo" postscriptfontname="PlaceholderSans-Medium" stylemapfamilyname="Placeholder Sans Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="500"/>
       </location>
@@ -194,21 +172,10 @@
               </array>
             </array>
           </array>
-          <key>com.schriftgestaltung.properties</key>
-          <array>
-            <array>
-              <string>WWSFamilyName</string>
-              <string>Inter</string>
-            </array>
-            <array>
-              <string>WWSSubfamilyName</string>
-              <string>Medium</string>
-            </array>
-          </array>
         </dict>
       </lib>
     </instance>
-    <instance name="Placeholder Sans SemiBold" familyname="Placeholder Sans" stylename="SemiBold" filename="instance_ufos/PlaceholderSans-SemiBold.ufo" stylemapfamilyname="Placeholder Sans SemiBold" stylemapstylename="regular">
+    <instance name="Placeholder Sans SemiBold" familyname="Placeholder Sans" stylename="SemiBold" filename="instance_ufos/PlaceholderSans-SemiBold.ufo" postscriptfontname="PlaceholderSans-SemiBold" stylemapfamilyname="Placeholder Sans SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="600"/>
       </location>
@@ -232,21 +199,10 @@
               </array>
             </array>
           </array>
-          <key>com.schriftgestaltung.properties</key>
-          <array>
-            <array>
-              <string>WWSFamilyName</string>
-              <string>Inter</string>
-            </array>
-            <array>
-              <string>WWSSubfamilyName</string>
-              <string>SemiBold</string>
-            </array>
-          </array>
         </dict>
       </lib>
     </instance>
-    <instance name="Placeholder Sans Bold" familyname="Placeholder Sans" stylename="Bold" filename="instance_ufos/PlaceholderSans-Bold.ufo" stylemapfamilyname="Placeholder Sans" stylemapstylename="bold">
+    <instance name="Placeholder Sans Bold" familyname="Placeholder Sans" stylename="Bold" filename="instance_ufos/PlaceholderSans-Bold.ufo" postscriptfontname="PlaceholderSans-Bold" stylemapfamilyname="Placeholder Sans" stylemapstylename="bold">
       <location>
         <dimension name="Weight" uservalue="700"/>
       </location>
@@ -273,7 +229,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Placeholder Sans ExtraBold" familyname="Placeholder Sans" stylename="ExtraBold" filename="instance_ufos/PlaceholderSans-ExtraBold.ufo" stylemapfamilyname="Placeholder Sans ExtraBold" stylemapstylename="regular">
+    <instance name="Placeholder Sans ExtraBold" familyname="Placeholder Sans" stylename="ExtraBold" filename="instance_ufos/PlaceholderSans-ExtraBold.ufo" postscriptfontname="PlaceholderSans-ExtraBold" stylemapfamilyname="Placeholder Sans ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="800"/>
       </location>
@@ -297,21 +253,10 @@
               </array>
             </array>
           </array>
-          <key>com.schriftgestaltung.properties</key>
-          <array>
-            <array>
-              <string>WWSFamilyName</string>
-              <string>Inter</string>
-            </array>
-            <array>
-              <string>WWSSubfamilyName</string>
-              <string>ExtraBold</string>
-            </array>
-          </array>
         </dict>
       </lib>
     </instance>
-    <instance name="Placeholder Sans Black" familyname="Placeholder Sans" stylename="Black" filename="instance_ufos/PlaceholderSans-Black.ufo" stylemapfamilyname="Placeholder Sans Black" stylemapstylename="regular">
+    <instance name="Placeholder Sans Black" familyname="Placeholder Sans" stylename="Black" filename="instance_ufos/PlaceholderSans-Black.ufo" postscriptfontname="PlaceholderSans-Black" stylemapfamilyname="Placeholder Sans Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="900"/>
       </location>
@@ -333,17 +278,6 @@
                 <integer>0</integer>
                 <integer>4</integer>
               </array>
-            </array>
-          </array>
-          <key>com.schriftgestaltung.properties</key>
-          <array>
-            <array>
-              <string>WWSFamilyName</string>
-              <string>Inter</string>
-            </array>
-            <array>
-              <string>WWSSubfamilyName</string>
-              <string>Black</string>
             </array>
           </array>
         </dict>

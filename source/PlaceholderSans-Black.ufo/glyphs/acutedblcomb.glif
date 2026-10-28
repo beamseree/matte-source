@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutedblcomb" format="2">
   <advance width="1241"/>
+  <unicode hex="030B"/>
   <unicode hex="EEA7"/>
   <note>
 Match /dblgravecmb.
