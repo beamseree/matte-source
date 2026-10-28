@@ -29,9 +29,13 @@ See README.md for the file layout, setup and commands.
   and the empty "test" layer were carried over unchanged through the refit, so g and y
   keep the webp fit's spacing (g's advance 1277 where the refit gave 1280, y's 1198
   where it gave 1210).
-- Stems across the range: 100 → 46/46/46, 400 → 194/204/190, 900 → 353/377/327 (l/I/H).
-  The 300→400 step is larger than the others because Regular is heavier; the avar
-  mapping can even that out later.
+- **The Regular master is at wght 430**, the axis default (the axis map, see Decisions),
+  so the mockup's Regular is CSS weight 430, and the named Regular (400) has Inter
+  Regular's stem. The masters' stems: 100 → 46/46/46, 430 → 194/204/190, 900 →
+  353/377/327 (l/I/H). l stem at 100 … 900: 46, 91, 136, 181, 218, 252, 285, 319, 353
+  (I/H at 400: 190/177). The steps are 45 up to 400 (Inter's own), then 34 at each step
+  above 430. The site sets its body text at 415 (tuned for the Muoto trial); it needs 430
+  for the mockup's Regular.
 - **Straight letters are redrawn by script** to match the mockups: x, X, z, Z
   (`tools/straighten.py`), and N, K, k, w, A, V, v, W, M, Y, E's and F's bars, Q's tail,
   the t crossbar and the i/j dots (`tools/redraw.py`); see Decisions. Every measured
@@ -174,12 +178,32 @@ See README.md for the file layout, setup and commands.
 ## Decisions and why
 
 - **Source of truth is `source/*.ufo`** (designspace + 3 masters: Thin 100, Regular 400,
-  Black 900). The user chose Fontra over Glyphs 3. Fontra only partly writes .glyphs
-  files, so the source is UFO.
+  Black 900 in design units; Regular is at wght 430 for users, see the axis map below).
+  The user chose Fontra over Glyphs 3. Fontra only partly writes .glyphs files, so the
+  source is UFO.
 - **The Regular master is heavier than Inter's and has less contrast.** Stems are 194
   vertical and 190 horizontal, against Inter's 180 and 168, because the mockup measures
-  that way. Thin keeps Inter's stems; Black matches its mockup (see Status). If 400 later
-  feels too heavy, change the wght axis mapping (avar) rather than the drawings.
+  that way. Thin keeps Inter's stems; Black matches its mockup (see Status). How heavy
+  each weight number is comes from the axis map, never the drawings.
+- **The axis map puts the Regular master at wght 430** (`<map>` in
+  `source/PlaceholderSans.designspace`: 100→100, 430→400, 900→900; the axis default is
+  430). Inter's map kept the master at 400. Our Regular is heavier and our Black lighter
+  than Inter's, so with that map the l stem grew 49 a step up to 400 and 29 above it,
+  and 300→400 looked like a jump. With the master at 430, 100–400 take Inter's own stems
+  (46, 91, 135, 180) and steps, and 400 is about as heavy as Inter's, SF Pro's and Work Sans's 400
+  (l stem 12.1% of the H's height; ours at 430 is 13.0%). The user chose this from
+  `build/avar-compare/` (index.html, and fonts.html beside Inter, SF Pro, Geist, Public
+  Sans and Work Sans). The alternatives were keeping the master at 400 with steps
+  shrinking from 56 to 27 (other families' steps stay even or grow toward Black), and even
+  38-unit steps with the master at 485 (400 lighter than every font compared). The map
+  is straight on each side of the default, so the font has no avar table, and the
+  named instances are given as weights (`uservalue`), exactly 100 … 900. Changing the map
+  later moves no outlines, but whatever sets a weight number (the site, check.html)
+  changes with it. Only the designspace holds it: `--derive` would put Inter's map
+  back, and fit.py's own builds in build/fit/ keep Inter's map (Regular at 400). So
+  fit.py reads each master's weight from the font's fvar (`location()`: Thin at the
+  minimum, Regular at the default, Black at the maximum), and `specimen/check.html`
+  overlays Regular at 430.
 - x, X, z and Z are the mockups' straight shapes. Inter curves the inside of x/X at the
   crossing and Z's joints, and keeps those diagonals lighter than the stems; the user saw
   x as too thin. `tools/straighten.py` redraws them with the same points in every

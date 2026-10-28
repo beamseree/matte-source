@@ -27,7 +27,7 @@ PY = ".venv/bin/python"
 PARAMS = "reference/params.json"
 FIT_DIR = "build/fit"
 TTF = f"{FIT_DIR}/PlaceholderSans-VF.ttf"
-LOCATION = {"Thin": 100, "Regular": 400, "Black": 900}
+MASTERS = ("Thin", "Regular", "Black")
 SENTENCES = {"lower": "quick brown fox jumps over the lazy dog",
              "upper": "QUICK BROWN FOX JUMPS OVER THE LAZY DOG"}
 SINGLE_STEM = {"i", "l", "I", "j"}  # width is the stem; set by weight_v, not ink
@@ -59,6 +59,16 @@ class Master:
 
     def __setitem__(self, key, value):
         self.store[key] = value
+
+
+def location(name):
+    """A master's user wght in TTF: Thin and Black at the axis ends, Regular at the default.
+
+    The designspace's axis map decides where Regular's master is (430 in source/, 400 in
+    the fit builds, which take Inter's map), so it is read from the font, not fixed here."""
+    from fontTools.ttLib import TTFont
+    axis = TTFont(TTF)["fvar"].axes[0]
+    return {"Thin": axis.minValue, "Regular": axis.defaultValue, "Black": axis.maxValue}[name]
 
 
 def shape(text, wght):
@@ -121,7 +131,7 @@ def word_ends(text):
 
 
 def report(m, targets, update, fit_stems=False):
-    wght = LOCATION[m.name]
+    wght = location(m.name)
     ink_err, gap_err = [], []
     for key, text in SENTENCES.items():
         target, mine = targets[key]["letters"], shape(text, wght)
@@ -196,7 +206,7 @@ def fit_sidebearings(m, targets):
         return names.index((c, side))
     pairs = []
     for key, text in SENTENCES.items():
-        target, mine = targets[key]["letters"], shape(text, LOCATION[m.name])
+        target, mine = targets[key]["letters"], shape(text, location(m.name))
         s = text.replace(" ", "")
         ends = word_ends(text)
         for i in range(len(s) - 1):
@@ -226,7 +236,7 @@ def apply(name, guides):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--master", default="Regular", choices=list(LOCATION))
+    ap.add_argument("--master", default="Regular", choices=MASTERS)
     ap.add_argument("--targets", default="reference/targets.json")
     ap.add_argument("--guides")
     ap.add_argument("--rounds", type=int, default=4)
