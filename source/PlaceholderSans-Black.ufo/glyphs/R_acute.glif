@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Racute" format="2">
-  <advance width="1446"/>
+  <advance width="1445"/>
   <unicode hex="0154"/>
   <anchor x="721" y="0" name="bottom"/>
   <anchor x="746" y="1954" name="top"/>

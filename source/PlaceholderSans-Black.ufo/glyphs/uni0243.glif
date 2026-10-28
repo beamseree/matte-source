@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0243" format="2">
-  <advance width="1494"/>
+  <advance width="1493"/>
   <unicode hex="0243"/>
   <note>
 effective LSB should be a little less than LSB of /t

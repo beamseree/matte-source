@@ -2,8 +2,8 @@
 and put mockup letters into masters' background layers as tracing guides
 (an SVG of outlined text, or a screenshot traced at 50% coverage). Inter's own backup and background layers are dropped: they no
 longer match the derived outlines and would only clutter the editor. Letters that
-tools/straighten.py, tools/redraw.py and tools/reshape.py fix are redrawn in every master,
-tools/joints.py thickens the joints of arches and bowls in Regular and Black, and
+tools/straighten.py, tools/redraw.py, tools/reshape.py and tools/refit.py fix are redrawn in
+every master, tools/joints.py thickens the joints of arches and bowls in Regular and Black, and
 tools/kern.py keeps t's and f's crossbars apart.
 
 Each SVG letter is scaled to font units (the "l" and capitals are 1490 units
@@ -35,6 +35,7 @@ import imgtarget  # noqa: E402
 import joints  # noqa: E402
 import kern  # noqa: E402
 import redraw  # noqa: E402
+import refit  # noqa: E402
 import reshape  # noqa: E402
 import straighten  # noqa: E402
 
@@ -145,6 +146,7 @@ def main():
         straighten.apply(source.font, MASTERS[source.location["Weight"]])
         redraw.apply(source.font, MASTERS[source.location["Weight"]])
         reshape.apply(source.font, MASTERS[source.location["Weight"]])
+        refit.apply(source.font, MASTERS[source.location["Weight"]])
         joints.apply(source.font, MASTERS[source.location["Weight"]])
         kern.apply(source.font, MASTERS[source.location["Weight"]])
     by_name = {MASTERS[s.location["Weight"]]: s for s in ds.sources}

@@ -14,10 +14,11 @@ Working family name: "Placeholder Sans".
 | `reference/mockup-black.svg` | The Black design, same layout (`mockup-thin.webp` and `mockup-black.webp` are screenshots) |
 | `reference/targets.json`, `params.json` | Measurements from the mockup and the fitted parameters |
 | `tools/derive.py` | Inter → widened, lower x-height, heavier Regular, tighter spacing |
-| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides, runs straighten, redraw, reshape, joints and kern |
+| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides, runs straighten, redraw, reshape, refit, joints and kern |
 | `tools/straighten.py` | Redraws x, X, z, Z with straight strokes from the mockups' measurements (x/X narrowing toward the crossing, Z/z's shorter top bar; also usable on `source/` directly) |
 | `tools/redraw.py` | Redraws N, K, k, w, A, V, v, W, M, Y as the mockups' straight polygons, sets E/F's bars and Q's tail, the t crossbar and i/j dots (also usable on `source/` directly) |
 | `tools/reshape.py` | Rebuilds t's foot (flat, with an upright cut), cuts C, G, S and s's terminals at the mockups' angles and fits S's and s's arms either side of the cuts (`--fit` remakes that table), moves P's bowl bar to the mockups' height, sets Black's f and t stems to 352 and gives f's crossbar t's height, keeping right sidebearings (also usable on `source/` directly) |
+| `tools/refit.py` | Fits R (bowl, bar, leg), B (middle bar, bowls), G (bar, bowl), c and e (bowls, e's bar, the cut angles, keeping Inter's wider opening) to the mockups' points in Regular and Black, and makes the same construction moves in Thin from its guide (`--fit` remakes the table), keeping right sidebearings (also usable on `source/` directly) |
 | `tools/joints.py` | Thickens the joints where arches and bowls leave their stems (a, n, h, m, u, r, b, p, þ; d and q follow) in Regular and Black, from points fitted to the mockups; `--fit` refits them, `--check` compares the joints with the mockups (also usable on `source/` directly) |
 | `tools/kern.py` | Kerns tt, tf, ft and ff so t's and f's crossbars stay 60 units apart in every master (writes only kerning.plist) |
 | `tools/strokes.py` | Compares stroke widths on scanlines, ours (from `source/`) against the mockups; `--check` covers the redrawn letters |

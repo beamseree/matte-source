@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Blinebelow" format="2">
-  <advance width="1440"/>
+  <advance width="1439"/>
   <unicode hex="1E06"/>
   <anchor x="678" y="0" name="bottom"/>
   <anchor x="326" y="480" name="cross"/>

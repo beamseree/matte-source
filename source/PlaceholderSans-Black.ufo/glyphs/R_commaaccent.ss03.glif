@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rcommaaccent.ss03" format="2">
-  <advance width="1435"/>
+  <advance width="1434"/>
   <unicode hex="EE7A"/>
   <anchor x="721" y="0" name="bottom"/>
   <anchor x="696" y="1490" name="top"/>

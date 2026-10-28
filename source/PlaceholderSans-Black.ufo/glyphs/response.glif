@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="response" format="2">
-  <advance width="1450"/>
+  <advance width="1449"/>
   <unicode hex="211F"/>
   <anchor x="729" y="0" name="bottom"/>
   <anchor x="704" y="1490" name="top"/>

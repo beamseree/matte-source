@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="edotaccent.ss07" format="2">
-  <advance width="1211"/>
+  <advance width="1210"/>
   <unicode hex="E238"/>
   <anchor x="608" y="0" name="bottom"/>
   <anchor x="613" y="0" name="cedilla"/>

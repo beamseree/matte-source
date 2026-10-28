@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oe" format="2">
-  <advance width="1979"/>
+  <advance width="1978"/>
   <unicode hex="0153"/>
   <anchor x="1377" y="0" name="bottom"/>
   <anchor x="658" y="538" name="center"/>

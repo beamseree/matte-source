@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ehookabove" format="2">
-  <advance width="1224"/>
+  <advance width="1223"/>
   <unicode hex="1EBB"/>
   <anchor x="608" y="0" name="bottom"/>
   <anchor x="613" y="0" name="cedilla"/>

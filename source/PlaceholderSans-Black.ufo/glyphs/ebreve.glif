@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ebreve" format="2">
-  <advance width="1202"/>
+  <advance width="1201"/>
   <unicode hex="0115"/>
   <anchor x="608" y="0" name="bottom"/>
   <anchor x="613" y="0" name="cedilla"/>

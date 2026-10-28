@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Bdotaccent.ss07" format="2">
-  <advance width="1424"/>
+  <advance width="1423"/>
   <unicode hex="E1E8"/>
   <anchor x="678" y="0" name="bottom"/>
   <anchor x="326" y="480" name="cross"/>

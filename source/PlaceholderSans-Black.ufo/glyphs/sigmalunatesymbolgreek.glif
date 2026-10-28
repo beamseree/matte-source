@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sigmalunatesymbolgreek" format="2">
-  <advance width="1218"/>
+  <advance width="1222"/>
   <unicode hex="03F2"/>
   <anchor x="636" y="0" name="bottom"/>
   <anchor x="636" y="0" name="cedilla"/>
