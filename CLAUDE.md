@@ -194,8 +194,9 @@ See README.md for the file layout, setup and commands.
 - **A full audit (2026-10-28)**, with the mockups set aside and against Inter, SF Pro, Plus
   Jakarta Sans, Helvetica Neue and Graphik, is in `build/audit/README.md` (gitignored; area
   reports beside it). The release layer (metadata, STAT, gasp, win metrics, the đ ₫ Ҋ holes
-  from mirrored components) and the spacing and kerning tools are being fixed in their own
-  sessions on their own branches. Fixed here: **what derive.py missed** (`tools/xheight.py`,
+  from mirrored components) and the spacing and kerning tools were fixed in their own
+  sessions and merged (see Decisions); the new spacing and kerning code hasn't been run on
+  `source/` yet, until the user chooses `LOOSEN` and `ASIDE`. Also fixed: **what derive.py missed** (`tools/xheight.py`,
   see Decisions). The small capitals and pecyrillicturn were still at Inter's x-height, 1118,
   so Cyrillic н т м я ц џ ң ҥ ӈ ӊ ӎ ҭ ҵ and the IPA small capitals stood 42 units above о and
   x, and п (pecyrillicturn turned over) hung 42 below the baseline; in Black their stems were
