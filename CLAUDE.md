@@ -490,6 +490,26 @@ See README.md for the file layout, setup and commands.
   slongstroke); only the crossbar is drawn in f. Its background holds a copy of f's
   guide in every master, shifted by the component's offset in f, so it can be edited
   against the mockup.
+- The build layer does what Inter's and Google Fonts' release pipelines add after
+  fontmake. `tools/build.sh` runs ufo2ft's DecomposeTransformedComponentsFilter (after
+  the masters' own filters and flattening): d is b mirrored, so flattening left đ, ₫ and
+  Ҋ with a reversed stem that cancelled the crossbar or tail where they overlap (holes
+  at every weight), and 123 glyphs with counter-clockwise outer contours. Then
+  `tools/postbuild.py` adds gasp {0xFFFF: 15} and a smart-dropout prep (unhinted),
+  sets usWinAscent/Descent from every glyph at every weight (2306/706; hhea and typo
+  stay 1984/−494, so line height doesn't change), and recalculates the OS/2 Unicode and
+  code page ranges. The strikeout is in each master's fontinfo (top 662 / 700 / 708, so
+  its centre is the hyphen's), and postbuild.py warns if the hyphen moves away from it.
+  The STAT labels (Thin … Black, Regular 400 elidable and linked to 700) and the
+  instances' PostScript names are in the designspace. The default build keeps the source's
+  glyph names, which kerning.py --check and other tools look glyphs up by;
+  `--release` writes production names to `build/release/` with `OFL.txt`.
+- Metadata (every master's fontinfo): copyright "Copyright 2026 Beamseree
+  (https://beamseree.com); Copyright 2016 The Inter Project Authors
+  (https://github.com/rsms/inter)", designer and manufacturer Beamseree with that URL,
+  vendor ID NONE, the description credits Inter and Rasmus Andersson, the license URL is
+  https://openfontlicense.org, no trademark. Version 0.100: bump `versionMinor` in all
+  three masters for every build that leaves this machine (README "Releasing").
 - Licensing: keep Inter's copyright line and the OFL. Don't use "Inter" in the font name.
   The Muoto trial in port-coming-soon is a commercial trial font: never extract, trace or
   match its outlines. All targets come from the user's mockup.
@@ -531,8 +551,12 @@ See README.md for the file layout, setup and commands.
   installed from `vendor/fontra` (`pip install -e`) into `vendor/fontra-venv`.
 - Virtual environments break when the folder moves, so recreate them (README "Setup").
   `tools/build.sh` calls `python -m fontmake` so it doesn't depend on script shebangs.
-- The name table copyright (ID 0) is still Inter's line. Setting `font.copyright` in
-  glyphsLib didn't change it. That is acceptable under the OFL.
+- glyphsLib ignores `font.copyright`; set the copyright (name ID 0) in the masters'
+  fontinfo.plist.
+- `acutedblcomb` (U+030B and Inter's PUA U+EEA7) is categorised "base" in the masters'
+  `public.openTypeCategories` and keeps its width, as in Inter, so U+030B after a letter
+  with no precomposed form shows as a spacing glyph, not attached. ő, ű, Ő and Ű are fine:
+  HarfBuzz and the ccmp feature compose them.
 - `imgtarget.py` finds letter edges at 2% coverage, which catches webp ringing, so some
   letter boxes in the screenshot targets are up to about 1 px (25 units) too wide on a
   side, and the fits matched them. That still affects Thin; Black's webp fit had N 1439
