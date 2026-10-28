@@ -466,10 +466,16 @@ See README.md for the file layout, setup and commands.
   503 (3.25 times; Inter, SF Pro and Graphik have 2.9–3.0); that adds about 44 to Black's
   gap error across word spaces. `FOLLOW` (u.1, l.ss02) and `SMALL` (the drawn .sups, .dnom
   and .numr glyphs; .subs and the other .numr are built on them) take Inter's sides plus
-  their default's change from Inter's, scaled by their height. `LOOSEN` (looser text
-  spacing, `build/loose-compare/`) and `ASIDE` (pangram pairs the fit leaves out: FO, ZY,
-  OX and ox alone make F's right, Y's and X/x's sides much tighter than Inter's
-  proportions, `build/structure-compare/`) are the user's to choose and empty until then.
+  their default's change from Inter's, scaled by their height. `LOOSEN` adds the same
+  white to every side of a case, 8% of its median optical sidebearing, in Thin and Regular
+  (n 141 → 152 at 430; Black unchanged): the audit found 100–500 as tight as a display
+  face, and the user chose 8% over none and 12% from `build/loose-compare/`, for text.
+  `ASIDE` leaves the pangrams' FO, ZY, OX and ox out of the fit: each alone made F's
+  right, Y's or X/x's sides much tighter than Inter's proportions (Regular F right 41, X
+  −4), and the sets and symmetry carried that to every pair with the letter; the user
+  chose this from `build/structure-compare/`, so those four pairs sit 30–55 units looser
+  than the mockups'. Both act through `--fit`, and cost most of the gap error against the
+  mockups in Thin and Regular.
   Applying moves each glyph's outline, components and anchors together; glyphs drawn over
   it (Q's tail, the bars of đ and ŧ) move with it, and so do the anchors of composites
   built on it. `to_ufo.py` runs it after joints.py; run on its own, it runs accents.py,
