@@ -2,7 +2,7 @@
 <glyph name="uni1FD7" format="2">
   <advance width="659"/>
   <unicode hex="1FD7"/>
-  <anchor x="299" y="1843" name="top"/>
+  <anchor x="299" y="1862" name="top"/>
   <outline>
     <component base="iota"/>
     <component base="dialytikaperispomeni" xOffset="-207" yOffset="-42"/>

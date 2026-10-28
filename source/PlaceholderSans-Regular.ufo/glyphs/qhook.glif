@@ -12,7 +12,7 @@ decomposed q + custom tail
   <anchor x="1086" y="1076" name="topr"/>
   <outline>
     <component base="q"/>
-    <component base="_part.top_r_hook" xOffset="761" yOffset="-42"/>
+    <component base="_part.top_r_hook" xOffset="761"/>
   </outline>
   <lib>
     <dict>

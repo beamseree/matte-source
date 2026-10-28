@@ -3,7 +3,7 @@
   <advance width="697"/>
   <unicode hex="E122"/>
   <anchor x="338" y="1118" name="_top"/>
-  <anchor x="339" y="1858" name="top"/>
+  <anchor x="339" y="1879" name="top"/>
   <outline>
     <component base="dotmacron.lc"/>
   </outline>

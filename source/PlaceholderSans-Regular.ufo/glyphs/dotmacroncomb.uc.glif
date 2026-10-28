@@ -4,7 +4,7 @@
   <unicode hex="E122"/>
   <guideline x="-812" y="2700" angle="90"/>
   <anchor x="232" y="1118" name="_top"/>
-  <anchor x="233" y="1795" name="top"/>
+  <anchor x="233" y="1774" name="top"/>
   <outline>
     <component base="dotmacron.lc"/>
   </outline>

@@ -4,7 +4,7 @@
   <unicode hex="1E41"/>
   <anchor x="907" y="0" name="bottom"/>
   <anchor x="1480" y="0" name="lfthook"/>
-  <anchor x="907" y="1506" name="top"/>
+  <anchor x="907" y="1485" name="top"/>
   <outline>
     <component base="m"/>
     <component base="dotaccentcomb" xOffset="672" yOffset="-42"/>

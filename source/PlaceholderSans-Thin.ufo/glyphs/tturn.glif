@@ -2,7 +2,7 @@
 <glyph name="tturn" format="2">
   <advance width="624"/>
   <unicode hex="0287"/>
-  <anchor x="269" y="1118" name="top"/>
+  <anchor x="269" y="1076" name="top"/>
   <anchor x="252" y="1076" name="cedilla"/>
   <anchor x="110" y="1072" name="lfthook"/>
   <anchor x="340" y="-266" name="bottom"/>

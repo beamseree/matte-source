@@ -191,6 +191,24 @@ See README.md for the file layout, setup and commands.
   about 1,400 pairs per master to 4,100, the WOFF2 from 243 to 258 KB. Rare letters
   outside that set (Ƈ, ɉ, ǂ beside each other, polytonic Greek) can still overlap, as many
   do in Inter. ǂ's crossbars had drifted apart (derive.py), so it joined stacked.py's list.
+- **A full audit (2026-10-28)**, with the mockups set aside and against Inter, SF Pro, Plus
+  Jakarta Sans, Helvetica Neue and Graphik, is in `build/audit/README.md` (gitignored; area
+  reports beside it). The release layer (metadata, STAT, gasp, win metrics, the đ ₫ Ҋ holes
+  from mirrored components) and the spacing and kerning tools are being fixed in their own
+  sessions on their own branches. Fixed here: **what derive.py missed** (`tools/xheight.py`,
+  see Decisions). The small capitals and pecyrillicturn were still at Inter's x-height, 1118,
+  so Cyrillic н т м я ц џ ң ҥ ӈ ӊ ӎ ҭ ҵ and the IPA small capitals stood 42 units above о and
+  x, and п (pecyrillicturn turned over) hung 42 below the baseline; in Black their stems were
+  the capitals' 374 (now 353, l's). ӛ's dieresis sat 84 units above ӧ's (the turned letters'
+  top anchors were at 1160), the hooks of ƙ ɦ ɧ ƥ ɗ ɠ ʠ 42 low (the hook part's anchor), ʒ and
+  ӡ at 1118. **ť's caron** in Thin sat left of the stem (as in Inter's Thin), so from 150 to
+  300 it ran through it; it is now 100 units right of the stem (`accents.py`'s `CARON_GAP`).
+  **The dot accent and dot below** are the i dot's size at every weight, and the dieresis
+  takes Inter's size against its i dot (Regular 226 × 235, was 244 × 252; Black 365 × 357, was
+  337 × 338): `dots.py`'s `MARK_DOTS`. The bigger Black dieresis made ÏÏ, ïï and their
+  likes collide at 800–900 until kerning.py was rerun. Still open from the audit: see its
+  README (sups and small caps, separately drawn Cyrillic and Greek, hooked letters, a heavier
+  Black, Thin's contrast ...).
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -377,6 +395,19 @@ See README.md for the file layout, setup and commands.
   (ogonek.e) ends just inside e's lower cut, so its corner keeps its place against the
   turned cut. Each changed glyph keeps its right sidebearing, an anchor on a moved point
   moves with it (e's ogonek, c's topr), and `to_ufo.py` runs it after reshape.py.
+- derive.py lowered the x-height only in glyphs whose character is lowercase without a .sc
+  suffix, so `tools/xheight.py` brings the rest down: `LOWER` (the .sc glyphs,
+  pecyrillicturn, ҥ's and ҵ's own contours, ʛ's hook part) take derive.py's vertical map in
+  every master; in Black, each glyph in `STEMS` is mixed in x between Regular and Black (as
+  derive.py compensates stems) until its stem is Regular's times l's Black-to-Regular ratio,
+  keeping its left edge and sidebearings (`BORROW` mixes parts drawn on another glyph as that
+  glyph). A per-glyph factor, since the .sc stems weren't even (h.sc 374, y.sc already 347);
+  Black's points have Black's heights, so it mixes up to four times to get within a unit.
+  `ANCHORS` puts the turned letters' top anchors and the hook part's `_topr` at the
+  x-height, and ʒ's capital Ʒ moves down to meet it. The glyphs built on these follow through
+  accents.py. `to_ufo.py` runs it after joints.py, with Regular before Black. ʃ and ʄ are built
+  on ∫ and keep its heavier Black stem; k.base (inside ƙ) and the descender ticks shared with
+  the capitals (`_part.cyrtic` ...) were left as they are.
 - t's and f's crossbars stay apart through kerning, not shorter bars (the bars' reach
   is the mockups'): `tools/kern.py` sets glyph-to-glyph pairs tt, tf, ft and ff to leave
   `BAR_GAP` (60) between the bars in every master, on top of Inter's group kerning.
@@ -552,7 +583,10 @@ See README.md for the file layout, setup and commands.
   its anchor, and marks over the lowercase kept Inter's height while the x-height came
   down 42. It also moved stacked parts by the width changes before them: the colon's upper
   dot, the semicolon's dot and the circled forms. accents.py, dots.py and stacked.py
-  undo all of this after it; fix derive.py itself before ever deriving again.
+  undo all of this after it; fix derive.py itself before ever deriving again. It also
+  treated the .sc glyphs and parts like pecyrillicturn as capitals (no x-height change,
+  capital stems), and moved some anchors of turned glyphs up 42 instead of down: xheight.py
+  undoes that.
 - glyphsLib zeroes the combining marks' widths in the UFOs, and `public.openTypeCategories`
   calls some combining marks "base" (breveinvcomb U+0311, breveacutecomb.cn ...), as
   Inter's own glyphsLib build does.

@@ -2,7 +2,7 @@
 <glyph name="eturn" format="2">
   <advance width="1189"/>
   <unicode hex="01DD"/>
-  <anchor x="601" y="1160" name="top"/>
+  <anchor x="601" y="1076" name="top"/>
   <anchor x="603" y="0" name="cedilla"/>
   <anchor x="757" y="1" name="ogonek"/>
   <anchor x="601" y="0" name="bottom"/>

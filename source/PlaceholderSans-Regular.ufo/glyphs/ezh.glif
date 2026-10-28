@@ -2,7 +2,7 @@
 <glyph name="ezh" format="2">
   <advance width="1245"/>
   <unicode hex="0292"/>
-  <anchor x="619" y="1118" name="top"/>
+  <anchor x="619" y="1076" name="top"/>
   <outline>
     <component base="dzeabkhasiancyrillic"/>
   </outline>

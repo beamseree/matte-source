@@ -2,7 +2,7 @@
 <glyph name="rturn" format="2">
   <advance width="973"/>
   <unicode hex="0279"/>
-  <anchor x="660" y="1160" name="top"/>
+  <anchor x="660" y="1076" name="top"/>
   <anchor x="511" y="1076" name="topr"/>
   <anchor x="686" y="560" name="cross"/>
   <anchor x="552" y="0" name="bottom"/>

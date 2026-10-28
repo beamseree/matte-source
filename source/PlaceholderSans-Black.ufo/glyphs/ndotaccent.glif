@@ -5,7 +5,7 @@
   <anchor x="606" y="0" name="bottom"/>
   <anchor x="1103" y="0" name="bottomr"/>
   <anchor x="110" y="0" name="lfthook"/>
-  <anchor x="606" y="1558" name="top"/>
+  <anchor x="606" y="1579" name="top"/>
   <anchor x="465" y="1076" name="topr"/>
   <outline>
     <component base="n"/>

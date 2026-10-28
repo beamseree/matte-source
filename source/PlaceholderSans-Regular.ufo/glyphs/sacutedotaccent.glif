@@ -6,7 +6,7 @@
   <anchor x="534" y="0" name="cedilla"/>
   <anchor x="75" y="273" name="rthook"/>
   <anchor x="537" y="1076" name="top"/>
-  <anchor x="537" y="1924" name="mkmktop_acc"/>
+  <anchor x="537" y="1902" name="mkmktop_acc"/>
   <outline>
     <component base="s"/>
     <component base="acutedotcomb.lc" xOffset="381" yOffset="-42"/>

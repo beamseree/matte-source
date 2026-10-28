@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni04CE" format="2">
-  <advance width="1722"/>
+  <advance width="1715"/>
   <unicode hex="04CE"/>
-  <anchor x="861" y="0" name="bottom"/>
-  <anchor x="1610" y="0" name="cyrtic"/>
-  <anchor x="861" y="1118" name="top"/>
+  <anchor x="858" y="0" name="bottom"/>
+  <anchor x="1603" y="0" name="cyrtic"/>
+  <anchor x="858" y="1076" name="top"/>
   <outline>
     <component base="m.sc"/>
-    <component base="_part.cyrtail" xOffset="1204"/>
+    <component base="_part.cyrtail" xOffset="1197"/>
   </outline>
 </glyph>

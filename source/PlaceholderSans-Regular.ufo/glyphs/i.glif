@@ -9,6 +9,6 @@
   <anchor x="240" y="1485" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb" xScale="0.9231" yScale="0.9183" xOffset="23" yOffset="63"/>
+    <component base="dotaccentcomb" xOffset="5" yOffset="-42"/>
   </outline>
 </glyph>

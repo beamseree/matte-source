@@ -5,7 +5,7 @@
   <anchor x="587" y="0" name="bottom"/>
   <anchor x="1040" y="0" name="cyrtic"/>
   <anchor x="846" y="0" name="lfthook"/>
-  <anchor x="587" y="1118" name="top"/>
+  <anchor x="587" y="1076" name="top"/>
   <outline>
     <component base="encyrillic"/>
     <component base="_part.bottom_lfthook" xOffset="521"/>

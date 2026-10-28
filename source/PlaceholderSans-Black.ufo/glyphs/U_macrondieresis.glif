@@ -6,7 +6,7 @@
   <anchor x="1387" y="536" name="ogonek"/>
   <anchor x="866" y="0" name="right"/>
   <anchor x="1011" y="1490" name="rtophorn"/>
-  <anchor x="742" y="2306" name="top"/>
+  <anchor x="742" y="2325" name="top"/>
   <outline>
     <component base="U"/>
     <component base="macrondieresiscomb.cn" xOffset="317"/>

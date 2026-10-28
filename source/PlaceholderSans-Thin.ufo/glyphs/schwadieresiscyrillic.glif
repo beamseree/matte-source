@@ -2,12 +2,12 @@
 <glyph name="schwadieresiscyrillic" format="2">
   <advance width="1142"/>
   <unicode hex="04DB"/>
-  <anchor x="580" y="1509" name="top"/>
+  <anchor x="580" y="1425" name="top"/>
   <anchor x="574" y="0" name="cedilla"/>
   <anchor x="646" y="-23" name="ogonek"/>
   <anchor x="572" y="0" name="bottom"/>
   <outline>
     <component base="schwa"/>
-    <component base="dieresiscomb" xOffset="17" yOffset="42"/>
+    <component base="dieresiscomb" xOffset="17" yOffset="-42"/>
   </outline>
 </glyph>

@@ -2,10 +2,10 @@
 <glyph name="ezhcaron" format="2">
   <advance width="1388"/>
   <unicode hex="01EF"/>
-  <anchor x="699" y="1582" name="top"/>
+  <anchor x="699" y="1540" name="top"/>
   <outline>
     <component base="dzeabkhasiancyrillic"/>
-    <component base="caroncomb" xOffset="203"/>
+    <component base="caroncomb" xOffset="203" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

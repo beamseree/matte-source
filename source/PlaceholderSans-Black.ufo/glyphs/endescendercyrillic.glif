@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="endescendercyrillic" format="2">
-  <advance width="1400"/>
+  <advance width="1378"/>
   <unicode hex="04A3"/>
-  <anchor x="660" y="0" name="bottom"/>
-  <anchor x="1208" y="0" name="cyrtic"/>
-  <anchor x="834" y="0" name="lfthook"/>
-  <anchor x="660" y="1118" name="top"/>
+  <anchor x="649" y="0" name="bottom"/>
+  <anchor x="1186" y="0" name="cyrtic"/>
+  <anchor x="833" y="0" name="lfthook"/>
+  <anchor x="649" y="1076" name="top"/>
   <outline>
     <component base="encyrillic"/>
-    <component base="_part.cyrtic" xOffset="846"/>
+    <component base="_part.cyrtic" xOffset="824"/>
   </outline>
   <lib>
     <dict>

@@ -4,6 +4,7 @@ and put mockup letters into masters' background layers as tracing guides
 longer match the derived outlines and would only clutter the editor. Letters that
 tools/straighten.py, tools/redraw.py, tools/reshape.py and tools/refit.py fix are redrawn in
 every master, tools/joints.py thickens the joints of arches and bowls in Regular and Black,
+tools/xheight.py brings the small capitals and parts derive.py missed down to the x-height,
 tools/spacing.py sets the letters', figures' and punctuation's sidebearings and the word
 space, tools/accents.py gives composites (accented letters) Inter's widths and puts their marks on
 their anchors, tools/dots.py gives the punctuation dots the i dot's size, tools/stacked.py
@@ -50,6 +51,7 @@ import spacing  # noqa: E402
 import stacked  # noqa: E402
 import straighten  # noqa: E402
 import tabular  # noqa: E402
+import xheight  # noqa: E402
 
 BACKGROUND = "public.background"
 MASTERS = {100: "Thin", 400: "Regular", 900: "Black"}
@@ -150,6 +152,9 @@ def main():
         font, ufo_module=ufoLib2, expand_includes=True, write_skipexportglyphs=True
     )
     out_dir = os.path.dirname(os.path.abspath(dst))
+    # xheight.py mixes Black against Regular, so Regular goes before Black.
+    ds.sources.sort(key=lambda s: s.location["Weight"])
+    regular = next(s.font for s in ds.sources if MASTERS[s.location["Weight"]] == "Regular")
     for source in ds.sources:
         for name in list(source.font.layers.keys()):
             if name != source.font.layers.defaultLayer.name:
@@ -160,6 +165,7 @@ def main():
         reshape.apply(source.font, MASTERS[source.location["Weight"]])
         refit.apply(source.font, MASTERS[source.location["Weight"]])
         joints.apply(source.font, MASTERS[source.location["Weight"]])
+        xheight.apply(source.font, MASTERS[source.location["Weight"]], regular)
         spacing.apply(source.font, MASTERS[source.location["Weight"]])
         accents.apply(source.font, MASTERS[source.location["Weight"]])
         dots.apply(source.font, MASTERS[source.location["Weight"]])

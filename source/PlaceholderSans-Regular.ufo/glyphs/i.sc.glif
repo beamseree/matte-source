@@ -3,25 +3,25 @@
   <advance width="697"/>
   <unicode hex="026A"/>
   <anchor x="349" y="0" name="bottom"/>
-  <anchor x="348" y="583" name="cross"/>
+  <anchor x="348" y="561" name="cross"/>
   <anchor x="643" y="0" name="ogonek"/>
   <anchor x="658" y="0" name="right"/>
-  <anchor x="62" y="1118" name="tonos"/>
-  <anchor x="349" y="1118" name="top"/>
+  <anchor x="62" y="1076" name="tonos"/>
+  <anchor x="349" y="1076" name="top"/>
   <outline>
     <contour>
       <point x="54" y="0" type="line"/>
       <point x="643" y="0" type="line"/>
-      <point x="643" y="178" type="line"/>
-      <point x="446" y="178" type="line"/>
-      <point x="446" y="940" type="line"/>
-      <point x="643" y="940" type="line"/>
-      <point x="643" y="1118" type="line"/>
-      <point x="54" y="1118" type="line"/>
-      <point x="54" y="940" type="line"/>
-      <point x="252" y="940" type="line"/>
-      <point x="252" y="178" type="line"/>
-      <point x="54" y="178" type="line"/>
+      <point x="643" y="171" type="line"/>
+      <point x="446" y="171" type="line"/>
+      <point x="446" y="905" type="line"/>
+      <point x="643" y="905" type="line"/>
+      <point x="643" y="1076" type="line"/>
+      <point x="54" y="1076" type="line"/>
+      <point x="54" y="905" type="line"/>
+      <point x="252" y="905" type="line"/>
+      <point x="252" y="171" type="line"/>
+      <point x="54" y="171" type="line"/>
     </contour>
   </outline>
   <lib>

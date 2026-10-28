@@ -6,17 +6,17 @@
 used by cyrillic glyphs
 </note>
   <anchor x="434" y="0" name="cyrtic"/>
-  <anchor x="411" y="1118" name="top"/>
+  <anchor x="411" y="1076" name="top"/>
   <outline>
     <contour>
       <point x="388" y="0" type="line"/>
       <point x="434" y="0" type="line"/>
-      <point x="434" y="1072" type="line"/>
-      <point x="813" y="1072" type="line"/>
-      <point x="813" y="1118" type="line"/>
-      <point x="9" y="1118" type="line"/>
-      <point x="9" y="1072" type="line"/>
-      <point x="388" y="1072" type="line"/>
+      <point x="434" y="1032" type="line"/>
+      <point x="813" y="1032" type="line"/>
+      <point x="813" y="1076" type="line"/>
+      <point x="9" y="1076" type="line"/>
+      <point x="9" y="1032" type="line"/>
+      <point x="388" y="1032" type="line"/>
     </contour>
   </outline>
   <lib>

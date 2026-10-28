@@ -3,7 +3,7 @@
   <advance width="1372"/>
   <unicode hex="1E56"/>
   <anchor x="116" y="1490" name="tonos"/>
-  <anchor x="680" y="1920" name="top"/>
+  <anchor x="680" y="1899" name="top"/>
   <anchor x="154" y="1490" name="topl"/>
   <outline>
     <component base="P"/>

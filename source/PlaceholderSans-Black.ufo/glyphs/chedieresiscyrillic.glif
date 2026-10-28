@@ -4,7 +4,7 @@
   <unicode hex="04F5"/>
   <anchor x="628" y="435" name="cross"/>
   <anchor x="1143" y="0" name="cyrtic"/>
-  <anchor x="627" y="1543" name="top"/>
+  <anchor x="627" y="1562" name="top"/>
   <outline>
     <component base="checyrillic"/>
     <component base="dieresiscomb" xOffset="-54" yOffset="-42"/>

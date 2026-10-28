@@ -5,7 +5,7 @@
   <anchor x="729" y="0" name="bottom"/>
   <anchor x="1424" y="0" name="ogonek"/>
   <anchor x="503" y="1490" name="tonos"/>
-  <anchor x="730" y="2167" name="top"/>
+  <anchor x="730" y="2146" name="top"/>
   <outline>
     <component base="A"/>
     <component base="dotmacroncomb.uc" xOffset="497" yOffset="372"/>

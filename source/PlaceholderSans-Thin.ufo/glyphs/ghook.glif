@@ -8,7 +8,7 @@
   <anchor x="1096" y="1076" name="topr"/>
   <outline>
     <component base="g"/>
-    <component base="_part.top_r_hook" xOffset="872" yOffset="-42"/>
+    <component base="_part.top_r_hook" xOffset="872"/>
   </outline>
   <lib>
     <dict>

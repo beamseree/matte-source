@@ -2,13 +2,13 @@
 <glyph name="schwadieresis-cy.ss07" format="2">
   <advance width="1211"/>
   <unicode hex="E298"/>
-  <anchor x="608" y="1628" name="top"/>
+  <anchor x="608" y="1544" name="top"/>
   <anchor x="621" y="0" name="cedilla"/>
   <anchor x="971" y="58" name="ogonek"/>
   <anchor x="614" y="0" name="bottom"/>
   <outline>
     <component base="schwa"/>
-    <component base="dieresiscomb.ss07" xOffset="-57" yOffset="42"/>
+    <component base="dieresiscomb.ss07" xOffset="-57" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

@@ -6,7 +6,7 @@
   <anchor x="284" y="0" name="cedilla"/>
   <anchor x="342" y="1288" name="cross"/>
   <anchor x="745" y="0" name="lfthook"/>
-  <anchor x="278" y="1972" name="top"/>
+  <anchor x="278" y="1993" name="top"/>
   <outline>
     <component base="h"/>
     <component base="dotaccentcomb" xOffset="-60" yOffset="372"/>

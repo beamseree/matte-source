@@ -5,7 +5,7 @@
   <anchor x="454" y="0" name="_right"/>
   <anchor x="172" y="-446" name="bottom"/>
   <anchor x="228" y="632" name="cross"/>
-  <anchor x="229" y="1506" name="top"/>
+  <anchor x="229" y="1485" name="top"/>
   <outline>
     <component base="uni0249.ccmp"/>
     <component base="dotaccentcomb" xOffset="-6" yOffset="-42"/>

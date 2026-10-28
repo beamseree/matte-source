@@ -3,7 +3,7 @@
   <advance width="1211"/>
   <unicode hex="0265"/>
   <guideline x="1820" y="1536" angle="0"/>
-  <anchor x="564" y="1118" name="top"/>
+  <anchor x="564" y="1076" name="top"/>
   <anchor x="927" y="1076" name="cedilla"/>
   <anchor x="869" y="-212" name="cross"/>
   <anchor x="466" y="1076" name="lfthook"/>

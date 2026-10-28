@@ -2,7 +2,7 @@
 <glyph name="mturn" format="2">
   <advance width="1809"/>
   <unicode hex="026F"/>
-  <anchor x="893" y="1160" name="top"/>
+  <anchor x="893" y="1076" name="top"/>
   <anchor x="329" y="1076" name="lfthook"/>
   <anchor x="893" y="0" name="bottom"/>
   <anchor x="1614" y="0" name="bottomr"/>

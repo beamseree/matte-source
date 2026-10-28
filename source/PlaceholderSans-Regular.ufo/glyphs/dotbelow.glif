@@ -3,7 +3,7 @@
   <unicode hex="0323"/>
   <anchor x="227" y="0" name="_bottom"/>
   <outline>
-    <component base="dotaccentcomb" yOffset="-1722"/>
+    <component base="dotaccentcomb" yOffset="-1701"/>
   </outline>
   <lib>
     <dict>

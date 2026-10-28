@@ -6,7 +6,7 @@
   <guideline y="1717"/>
   <guideline y="1529"/>
   <anchor x="409" y="1118" name="_top"/>
-  <anchor x="412" y="1848" name="top"/>
+  <anchor x="412" y="1827" name="top"/>
   <outline>
     <component base="caroncomb" xOffset="-2" yOffset="-22"/>
     <component base="dotaccentcomb" xOffset="177" yOffset="300"/>

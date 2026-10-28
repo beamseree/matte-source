@@ -6,7 +6,7 @@
   <anchor x="1387" y="536" name="ogonek"/>
   <anchor x="866" y="0" name="right"/>
   <anchor x="1011" y="1490" name="rtophorn"/>
-  <anchor x="736" y="2265" name="top"/>
+  <anchor x="736" y="2284" name="top"/>
   <outline>
     <component base="U"/>
     <component base="dieresisacutecomb.uc" xOffset="61"/>

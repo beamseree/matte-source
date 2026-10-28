@@ -5,7 +5,7 @@
   <anchor x="623" y="0" name="bottom"/>
   <anchor x="1105" y="0" name="ogonek"/>
   <anchor x="751" y="1076" name="rtophorn"/>
-  <anchor x="610" y="1816" name="top"/>
+  <anchor x="610" y="1835" name="top"/>
   <outline>
     <component base="u"/>
     <component base="dieresismacroncomb.lc" xOffset="-71" yOffset="-42"/>

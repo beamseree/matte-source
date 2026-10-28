@@ -5,7 +5,7 @@
   <anchor x="405" y="0" name="bottom"/>
   <anchor x="458" y="0" name="cedilla"/>
   <anchor x="662" y="7" name="lfthook"/>
-  <anchor x="306" y="1811" name="top"/>
+  <anchor x="306" y="1794" name="top"/>
   <anchor x="505" y="1562" name="raccent"/>
   <outline>
     <component base="t"/>

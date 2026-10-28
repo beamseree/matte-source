@@ -5,7 +5,7 @@
   <anchor x="835" y="-6" name="bottom"/>
   <anchor x="835" y="744" name="cross"/>
   <anchor x="1541" y="0" name="cyrtic"/>
-  <anchor x="835" y="1957" name="top"/>
+  <anchor x="835" y="1976" name="top"/>
   <outline>
     <component base="X"/>
     <component base="dieresiscomb" xOffset="154" yOffset="372"/>

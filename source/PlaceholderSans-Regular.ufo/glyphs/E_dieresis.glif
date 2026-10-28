@@ -6,7 +6,7 @@
   <anchor x="668" y="0" name="cedilla"/>
   <anchor x="1185" y="0" name="ogonek"/>
   <anchor x="150" y="1490" name="tonos"/>
-  <anchor x="668" y="1917" name="top"/>
+  <anchor x="668" y="1900" name="top"/>
   <outline>
     <component base="E"/>
     <component base="dieresiscomb" xOffset="97" yOffset="372"/>

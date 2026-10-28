@@ -9,7 +9,7 @@
   <anchor x="178" y="1526" name="raccent"/>
   <outline>
     <component base="t"/>
-    <component base="commaaccentright.cn" xOffset="-56" yOffset="36"/>
+    <component base="commaaccentright.cn" xOffset="148" yOffset="36"/>
   </outline>
   <lib>
     <dict>

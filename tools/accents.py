@@ -18,6 +18,7 @@ components:
   set beside before it (and its own, if it is mirrored), as derive.py meant.
 - Each attached component sits on the anchor it sits on in Inter, at Inter's offset from it
   (none, unless Inter placed it by hand), with anchors propagated by ufo2ft's algorithm.
+  Except ť's caron in Thin, which Inter puts left of the stem: CARON_GAP places it.
 - The width is Inter's plus the width changes of the components set beside, so a composite
   with its base's width in Inter has our base's width. Our combining marks have no width
   (glyphsLib zeroes them), so glyphs built beside one (´, ¨, the compound marks) keep their
@@ -46,6 +47,7 @@ import sys
 import glyphsLib
 import ufoLib2
 from fontTools.misc.transform import Transform
+from fontTools.pens.recordingPen import DecomposingRecordingPen
 from fontTools.ufoLib.glifLib import GlyphSet
 from ufo2ft.filters.propagateAnchors import (AnchorData, _depth_sorted_glyphs,
                                              anchors_traversing_components)
@@ -54,10 +56,16 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import dots  # noqa: E402
 import redraw  # noqa: E402
 import stacked  # noqa: E402
+import strokes  # noqa: E402
 import tabular  # noqa: E402
 
 CATEGORIES = "public.openTypeCategories"
 DOTTED = ("i", "j")   # tools/redraw.py's set_dot places these dots
+
+# Inter's Thin master puts ť's caron left of t's stem, so from wght 150 to 300 it ran through
+# the stem. In the masters named, the caron's left edge goes this far right of the stem's
+# right edge instead (Regular's is 101 at 430); the others keep Inter's offset.
+CARON_GAP = {"Thin": {"tcaron": 100, "tcaron.1": 100}}
 
 _inter = {}
 
@@ -154,6 +162,14 @@ def inter(master, categories):
     return _inter[master]
 
 
+def stem_right(ufo, component):
+    """The right edge of a placed t's stem, 80 units below its top, where nothing else is."""
+    rec = DecomposingRecordingPen(ufo)
+    ufo[component.baseGlyph].draw(rec)
+    top = ufo[component.baseGlyph].getBounds(ufo).yMax
+    return strokes.cut(rec.replay, top - 80 + strokes.EPS)[-1][1] + component.transformation[4]
+
+
 def moved(component, dx, dy=0):
     t = component.transformation
     component.transformation = Transform(t[0], t[1], t[2], t[3], t[4] + dx, t[5] + dy)
@@ -211,6 +227,11 @@ def apply(ufo, master):
             mx, my = Transform(*c.transformation).transformPoint((m.x, m.y))
             bx, by = anchors[base_anchor]
             moved(c, round(bx - mx - ox), round(by - my - oy))
+        gap = CARON_GAP.get(master, {}).get(name)
+        if gap is not None:
+            base, caron = comps[0], comps[-1]
+            b = ufo[caron.baseGlyph].getBounds(ufo)
+            moved(caron, round(stem_right(ufo, base) + gap - (b.xMin + caron.transformation[4])))
         if name in DOTTED:
             redraw.set_dot(ufo, glyph, redraw.DOTS.get(master))
         if spacing and glyph.width and r["width"]:   # marks keep no width

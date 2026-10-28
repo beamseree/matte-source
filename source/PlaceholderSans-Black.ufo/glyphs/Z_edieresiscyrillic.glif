@@ -2,7 +2,7 @@
 <glyph name="Zedieresiscyrillic" format="2">
   <advance width="1388"/>
   <unicode hex="04DE"/>
-  <anchor x="697" y="1957" name="top"/>
+  <anchor x="697" y="1976" name="top"/>
   <anchor x="724" y="0" name="cedilla"/>
   <outline>
     <component base="afii10025"/>

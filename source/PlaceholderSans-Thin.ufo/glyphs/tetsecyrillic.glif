@@ -6,10 +6,10 @@
   <anchor x="689" y="0" name="cyrtic_center"/>
   <outline>
     <contour>
-      <point x="682" y="1076" type="line"/>
-      <point x="-10" y="1076" type="line"/>
-      <point x="-10" y="1030" type="line"/>
-      <point x="682" y="1030" type="line"/>
+      <point x="682" y="1036" type="line"/>
+      <point x="-10" y="1036" type="line"/>
+      <point x="-10" y="991" type="line"/>
+      <point x="682" y="991" type="line"/>
     </contour>
     <component base="tsecyrillic" xOffset="121"/>
   </outline>

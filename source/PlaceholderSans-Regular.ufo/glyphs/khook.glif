@@ -7,6 +7,6 @@
   <anchor x="330" y="1076" name="topr"/>
   <outline>
     <component base="k.base"/>
-    <component base="_part.top_r_hook" xOffset="5" yOffset="-42"/>
+    <component base="_part.top_r_hook" xOffset="5"/>
   </outline>
 </glyph>

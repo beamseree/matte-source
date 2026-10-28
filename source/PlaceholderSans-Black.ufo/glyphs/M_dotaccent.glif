@@ -4,7 +4,7 @@
   <unicode hex="1E40"/>
   <anchor x="977" y="0" name="bottom"/>
   <anchor x="1844" y="0" name="cyrtic"/>
-  <anchor x="977" y="1972" name="top"/>
+  <anchor x="977" y="1993" name="top"/>
   <outline>
     <component base="M"/>
     <component base="dotaccentcomb" xOffset="639" yOffset="372"/>

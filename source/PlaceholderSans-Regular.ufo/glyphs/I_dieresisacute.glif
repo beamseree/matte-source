@@ -7,7 +7,7 @@
   <anchor x="353" y="0" name="ogonek"/>
   <anchor x="370" y="0" name="right"/>
   <anchor x="149" y="1490" name="tonos"/>
-  <anchor x="264" y="2273" name="top"/>
+  <anchor x="264" y="2256" name="top"/>
   <outline>
     <component base="I"/>
     <component base="dieresisacutecomb.uc" xOffset="-315"/>

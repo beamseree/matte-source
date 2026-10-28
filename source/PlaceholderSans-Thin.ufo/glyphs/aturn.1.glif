@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aturn.1" format="2">
   <advance width="1187"/>
-  <anchor x="622" y="1160" name="top"/>
+  <anchor x="622" y="1076" name="top"/>
   <anchor x="184" y="1076" name="topr"/>
   <anchor x="184" y="1076" name="ogonek"/>
   <anchor x="625" y="0" name="bottom"/>

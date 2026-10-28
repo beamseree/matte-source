@@ -3,7 +3,7 @@
   <advance width="1371"/>
   <unicode hex="03D4"/>
   <anchor x="74" y="1490" name="tonos"/>
-  <anchor x="685" y="1917" name="top"/>
+  <anchor x="685" y="1900" name="top"/>
   <outline>
     <component base="Upsilonhooksymbol"/>
     <component base="dieresiscomb" xOffset="114" yOffset="372"/>

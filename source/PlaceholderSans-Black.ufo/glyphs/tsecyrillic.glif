@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tsecyrillic" format="2">
-  <advance width="1440"/>
+  <advance width="1420"/>
   <unicode hex="0446"/>
   <note>
 !post:RemoveOverlap
 </note>
-  <anchor x="1180" y="0" name="cyrtic"/>
-  <anchor x="647" y="0" name="cyrtic_center"/>
+  <anchor x="1161" y="0" name="cyrtic"/>
+  <anchor x="637" y="0" name="cyrtic_center"/>
   <outline>
     <component base="pecyrillicturn"/>
-    <component base="_part.cyrtic" xOffset="818"/>
+    <component base="_part.cyrtic" xOffset="799"/>
   </outline>
   <lib>
     <dict>

@@ -2,14 +2,14 @@
 <glyph name="tetsecyrillic" format="2">
   <advance width="1518"/>
   <unicode hex="04B5"/>
-  <anchor x="1280" y="0" name="cyrtic"/>
-  <anchor x="747" y="0" name="cyrtic_center"/>
+  <anchor x="1261" y="0" name="cyrtic"/>
+  <anchor x="737" y="0" name="cyrtic_center"/>
   <outline>
     <contour>
-      <point x="763" y="1076" type="line"/>
-      <point x="30" y="1076" type="line"/>
-      <point x="30" y="771" type="line"/>
-      <point x="763" y="771" type="line"/>
+      <point x="751" y="1036" type="line"/>
+      <point x="20" y="1036" type="line"/>
+      <point x="20" y="742" type="line"/>
+      <point x="751" y="742" type="line"/>
     </contour>
     <component base="tsecyrillic" xOffset="100"/>
   </outline>

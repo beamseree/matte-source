@@ -8,7 +8,7 @@
   <anchor x="1145" y="0" name="lfthook"/>
   <anchor x="1348" y="0" name="right"/>
   <anchor x="148" y="1490" name="tonos"/>
-  <anchor x="747" y="1917" name="top"/>
+  <anchor x="747" y="1900" name="top"/>
   <outline>
     <component base="H"/>
     <component base="dieresiscomb" xOffset="176" yOffset="372"/>

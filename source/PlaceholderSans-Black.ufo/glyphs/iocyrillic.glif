@@ -5,7 +5,7 @@
   <anchor x="606" y="0" name="bottom"/>
   <anchor x="611" y="0" name="cedilla"/>
   <anchor x="1118" y="272" name="ogonek"/>
-  <anchor x="606" y="1543" name="top"/>
+  <anchor x="606" y="1562" name="top"/>
   <outline>
     <component base="edieresis"/>
   </outline>

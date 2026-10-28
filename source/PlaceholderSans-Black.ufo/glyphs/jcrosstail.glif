@@ -5,7 +5,7 @@
   <anchor x="766" y="-460" name="bottom"/>
   <anchor x="737" y="588" name="cross"/>
   <anchor x="916" y="0" name="ogonek"/>
-  <anchor x="739" y="1558" name="top"/>
+  <anchor x="739" y="1579" name="top"/>
   <outline>
     <component base="jcrosstail.ccmp"/>
     <component base="dotaccentcomb" xOffset="401" yOffset="-42"/>

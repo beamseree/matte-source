@@ -14,6 +14,11 @@ vertical weight, so Regular's period was 280 x 290 against the i dot's 240 x 236
 - The glyphs built on these follow as FOLLOW says. In the colon the upper dot keeps its
   top, so the colon stays centred on the middle of the x-height, and both dots are centred
   in the advance (derive.py had moved only the upper one, 17-44 units off the lower).
+- The marks drawn as dots (MARK_DOTS: the dot accent, which the i and j dots are scaled
+  from, the dieresis ...) take the size Inter gives them against its i dot, so the dot
+  accent and dot below are the i dot's size at every weight (they were Inter's, scaled by
+  derive.py: 8% bigger than the i dot in Regular, 8% smaller in Black). Each keeps its
+  centre line and foot; the dot below keeps its top.
 
 Run it before tools/tabular.py, which centres the tabular forms (period.tf, colon.tf,
 semicolon.tf) on the result; run on its own, it runs tabular.py after. Running it again
@@ -91,6 +96,62 @@ FOLLOW = {
 # tools/tabular.py places the tabular forms.
 UNMOVED = {"questiondown", "question.circled", "question.squared", "uni2047",
            "invertedinterrobang"}
+
+# Marks drawn as dots: their dot contours. Inter's i dot is its dot accent, and its other
+# mark dots have their own size against it (the dieresis's 0.94 x 1.00 in Regular, 0.89 x
+# 0.92 in Black), so each takes Inter's size against its dotaccentcomb times DOTS, about its
+# own centre line with its foot kept, so it keeps its gap above the letter (the letters
+# place marks on their anchors, tools/accents.py). The dot below is the dot accent moved
+# down, and keeps its top (FOLLOW).
+MARK_DOTS = {"dotaccentcomb": (0,), "dieresiscomb": (0, 1), "dieresis.three": (0, 1, 2),
+             "dieresistonos": (0, 1), "dieresistonos_narrow": (0, 1),
+             "acutedotcomb.lc": (1,), "acutedotcomb.cn": (1,)}
+FOLLOW["dotbelow"] = ({0: (None, "top")}, None)
+
+_inter = {}
+
+
+def inter_sizes(master):
+    """{glyph: [(w, h)] of its MARK_DOTS contours} in Inter's text-size master, against its
+    dotaccentcomb's size."""
+    if not _inter:
+        import glyphsLib
+        font = glyphsLib.GSFont(tabular.INTER)
+        for m in font.masters:
+            if m.axes[0] != 14:
+                continue
+            def size(name, i):
+                xs = [n.position.x for n in font.glyphs[name].layers[m.id].paths[i].nodes]
+                ys = [n.position.y for n in font.glyphs[name].layers[m.id].paths[i].nodes]
+                return max(xs) - min(xs), max(ys) - min(ys)
+            w0, h0 = size("dotaccentcomb", 0)
+            _inter[m.name] = {name: [(w / w0, h / h0) for w, h in (size(name, i) for i in idx)]
+                              for name, idx in MARK_DOTS.items()}
+    return _inter[master]
+
+
+def resize_mark(glyph, sizes):
+    """Scale a mark's dots ({contour index: (w, h)}) about their centre lines, keeping their
+    feet; the anchors marks stack on above it go up or down with the first dot's top, and
+    the one it attaches by stays."""
+    boxes = {i: glyph.contours[i].getBounds() for i in sizes}
+    if all(abs(b.xMax - b.xMin - sizes[i][0]) < 1 and abs(b.yMax - b.yMin - sizes[i][1]) < 1
+           for i, b in boxes.items()):
+        return False
+    first = True
+    for index, (w, h) in sizes.items():
+        contour, b = glyph.contours[index], boxes[index]
+        cx, y0 = (b.xMin + b.xMax) / 2, b.yMin
+        sx, sy = w / (b.xMax - b.xMin), h / (b.yMax - b.yMin)
+        for p in contour.points:
+            p.x = otRound(cx + (p.x - cx) * sx)
+            p.y = otRound(y0 + (p.y - y0) * sy)
+        if first:
+            for a in glyph.anchors:
+                if not a.name.startswith("_") and a.y > y0:
+                    a.y = otRound(y0 + (a.y - y0) * sy)
+            first = False
+    return True
 
 
 def users(ufo, names):
@@ -193,8 +254,19 @@ def apply(ufo, master, factor=FACTOR):
     unknown = {n for n in built - set(FOLLOW) - UNMOVED if not tabular.tabular(n)}
     if unknown:
         raise ValueError(f"no FOLLOW rule for {sorted(unknown)}")
-    before = {n: (ufo[n].getBounds(ufo), ufo[n].width) for n in set(DOTTED) | built}
+    before = {n: (ufo[n].getBounds(ufo), ufo[n].width)
+              for n in set(DOTTED) | built | set(MARK_DOTS) | {"dotbelow"}}
     changed = [n for n, (index, keep) in DOTTED.items() if resize(ufo, ufo[n], index, keep, w, h)]
+    dw, dh, _ = DOTS[master]
+    marks = [name for name, ratios in inter_sizes(master).items()
+             if resize_mark(ufo[name], {i: (dw * rw, dh * rh)
+                                        for i, (rw, rh) in zip(MARK_DOTS[name], ratios)})]
+    if marks:
+        # The marks stacked on these, and the anchors of the letters they sit on, move with
+        # their anchors; tools/accents.py places them (and the i and j dots).
+        import accents
+        changed += marks
+        changed += [n for n in accents.apply(ufo, master) if n not in changed]
     for name in tabular.bases_first(ufo, [n for n in FOLLOW if n in ufo]):
         was = state(ufo[name])
         follow(ufo, ufo[name], *FOLLOW[name], before)

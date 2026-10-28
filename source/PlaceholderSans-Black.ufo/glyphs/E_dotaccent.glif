@@ -6,7 +6,7 @@
   <anchor x="654" y="0" name="cedilla"/>
   <anchor x="1195" y="0" name="ogonek"/>
   <anchor x="106" y="1490" name="tonos"/>
-  <anchor x="653" y="1972" name="top"/>
+  <anchor x="653" y="1993" name="top"/>
   <outline>
     <component base="E"/>
     <component base="dotaccentcomb" xOffset="315" yOffset="372"/>

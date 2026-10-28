@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_part.top_r_hook" format="2">
   <advance width="613"/>
-  <anchor x="224" y="1118" name="_topr"/>
+  <anchor x="224" y="1076" name="_topr"/>
   <outline>
     <contour>
       <point x="178" y="928" type="line"/>

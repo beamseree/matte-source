@@ -2,7 +2,7 @@
 <glyph name="iotadieresis" format="2">
   <advance width="659"/>
   <unicode hex="03CA"/>
-  <anchor x="289" y="1543" name="top"/>
+  <anchor x="289" y="1562" name="top"/>
   <outline>
     <component base="iota"/>
     <component base="dieresiscomb" xOffset="-392" yOffset="-42"/>

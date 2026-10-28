@@ -5,7 +5,7 @@
   <anchor x="768" y="0" name="bottom"/>
   <anchor x="145" y="0" name="lfthook"/>
   <anchor x="1391" y="0" name="lfthook2"/>
-  <anchor x="768" y="1920" name="top"/>
+  <anchor x="768" y="1899" name="top"/>
   <outline>
     <component base="N"/>
     <component base="dotaccentcomb" xOffset="533" yOffset="372"/>

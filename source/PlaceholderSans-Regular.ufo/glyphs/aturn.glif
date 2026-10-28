@@ -2,7 +2,7 @@
 <glyph name="aturn" format="2">
   <advance width="1104"/>
   <unicode hex="0250"/>
-  <anchor x="551" y="1160" name="top"/>
+  <anchor x="551" y="1076" name="top"/>
   <anchor x="112" y="1076" name="ogonek"/>
   <anchor x="544" y="0" name="bottom"/>
   <outline>

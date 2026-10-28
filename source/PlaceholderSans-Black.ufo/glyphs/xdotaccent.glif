@@ -5,7 +5,7 @@
   <anchor x="635" y="0" name="bottom"/>
   <anchor x="1207" y="0" name="cyrtic"/>
   <anchor x="1031" y="0" name="right"/>
-  <anchor x="635" y="1558" name="top"/>
+  <anchor x="635" y="1579" name="top"/>
   <outline>
     <component base="x"/>
     <component base="dotaccentcomb" xOffset="297" yOffset="-42"/>

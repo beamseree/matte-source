@@ -3,9 +3,9 @@
   <advance width="1202"/>
   <unicode hex="029B"/>
   <anchor x="574" y="0" name="bottom"/>
-  <anchor x="867" y="307" name="cross"/>
-  <anchor x="577" y="1118" name="top"/>
-  <anchor x="1048" y="760" name="topr"/>
+  <anchor x="867" y="295" name="cross"/>
+  <anchor x="577" y="1076" name="top"/>
+  <anchor x="1048" y="731" name="topr"/>
   <outline>
     <component base="g.sc"/>
     <component base="_part.top_r_hook_g_sc" xOffset="822"/>

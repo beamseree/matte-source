@@ -2,7 +2,7 @@
 <glyph name="Udieresiscyrillic" format="2">
   <advance width="1538"/>
   <unicode hex="04F0"/>
-  <anchor x="771" y="1957" name="top"/>
+  <anchor x="771" y="1976" name="top"/>
   <outline>
     <component base="U-cy"/>
     <component base="dieresiscomb" xOffset="90" yOffset="372"/>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dzhecyrillic" format="2">
-  <advance width="1294"/>
+  <advance width="1274"/>
   <unicode hex="045F"/>
-  <anchor x="1180" y="0" name="cyrtic"/>
-  <anchor x="647" y="0" name="cyrtic_center"/>
+  <anchor x="1161" y="0" name="cyrtic"/>
+  <anchor x="637" y="0" name="cyrtic_center"/>
   <outline>
     <component base="pecyrillicturn"/>
-    <component base="_part.cyrtic_center" xOffset="316"/>
+    <component base="_part.cyrtic_center" xOffset="306"/>
   </outline>
   <lib>
     <dict>

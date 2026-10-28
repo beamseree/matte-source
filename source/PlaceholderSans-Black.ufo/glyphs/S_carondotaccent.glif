@@ -4,7 +4,7 @@
   <unicode hex="1E66"/>
   <anchor x="708" y="0" name="bottom"/>
   <anchor x="705" y="0" name="cedilla"/>
-  <anchor x="703" y="2277" name="top"/>
+  <anchor x="703" y="2293" name="top"/>
   <outline>
     <component base="S"/>
     <component base="carondot.uc" xOffset="145"/>
