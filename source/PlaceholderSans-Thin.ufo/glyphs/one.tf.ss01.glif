@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one.tf.ss01" format="2">
-  <advance width="1293"/>
+  <advance width="1320"/>
   <unicode hex="E07C"/>
   <outline>
     <contour>
-      <point x="241" y="0" type="line"/>
-      <point x="1081" y="0" type="line"/>
-      <point x="1081" y="46" type="line"/>
-      <point x="241" y="46" type="line"/>
+      <point x="239" y="0" type="line"/>
+      <point x="1079" y="0" type="line"/>
+      <point x="1079" y="46" type="line"/>
+      <point x="239" y="46" type="line"/>
     </contour>
-    <component base="one.ss01" xOffset="192"/>
+    <component base="one.ss01" xOffset="190"/>
   </outline>
   <lib>
     <dict>

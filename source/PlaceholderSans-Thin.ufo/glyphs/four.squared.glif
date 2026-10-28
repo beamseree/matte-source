@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.squared" format="2">
-  <advance width="2811"/>
+  <advance width="2815"/>
   <unicode hex="E142"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="four" xOffset="744"/>
+    <component base="four" xOffset="753"/>
   </outline>
   <lib>
     <dict>

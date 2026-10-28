@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one.tf.2" format="2">
-  <advance width="1292"/>
+  <advance width="1320"/>
   <outline>
-    <component base="one" xOffset="224"/>
+    <component base="one" xOffset="234"/>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightArrow.squared" format="2">
-  <advance width="2770"/>
+  <advance width="2815"/>
   <unicode hex="E15C"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="rightArrow" xOffset="397" yOffset="93"/>
+    <component base="rightArrow" xOffset="429" yOffset="93"/>
   </outline>
   <lib>
     <dict>

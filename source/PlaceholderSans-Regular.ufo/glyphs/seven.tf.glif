@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.tf" format="2">
-  <advance width="1335"/>
+  <advance width="1328"/>
   <unicode hex="E078"/>
   <outline>
-    <component base="seven" xOffset="84"/>
+    <component base="seven" xOffset="81"/>
   </outline>
   <lib>
     <dict>

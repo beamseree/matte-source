@@ -2,9 +2,9 @@
 <glyph name="threedotsabovecomb" format="2">
   <unicode hex="20DB"/>
   <outline>
-    <component base="period" yOffset="1298"/>
-    <component base="period" xOffset="554" yOffset="1298"/>
-    <component base="period" xOffset="1108" yOffset="1298"/>
+    <component base="period" xOffset="60" yOffset="1298"/>
+    <component base="period" xOffset="574" yOffset="1298"/>
+    <component base="period" xOffset="1088" yOffset="1298"/>
   </outline>
   <lib>
     <dict>

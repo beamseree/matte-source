@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="figurespace" format="2">
-  <advance width="1174"/>
+  <advance width="1328"/>
   <unicode hex="2007"/>
   <note>
 space equal to tabular width of a font this is equivalent to the digit width of fonts with fixed-width digits

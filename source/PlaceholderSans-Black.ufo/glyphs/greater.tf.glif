@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greater.tf" format="2">
-  <advance width="1336"/>
+  <advance width="1400"/>
   <unicode hex="EE57"/>
   <outline>
-    <component base="greater" xOffset="-59"/>
+    <component base="greater" xOffset="-28"/>
   </outline>
   <lib>
     <dict>

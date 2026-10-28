@@ -48,7 +48,11 @@ See README.md for the file layout, setup and commands.
 - **The i/j dots are lower than the mockups'** at the user's request: the mockups' size
   (Thin's 94 units), moved down by 15% of the space above the x-height. Regular's is
   240 × 236 with its top at 1485 (the mockup's 1515), Black's 410 × 389 at 1539 (1552),
-  Thin's top at 1434.
+  Thin's top at 1434. The period and the dots of !, ?, ¡ and ¿ are the same size
+  (`tools/dots.py`, see Decisions); the user chose the i dot's size over 8% bigger
+  (about Inter's ratio), from `build/dots-compare/`. They had been Inter's, scaled by
+  derive.py: Regular's period was 280 × 290. The accent dots (ż ė ċ ġ İ, 260 × 257 in
+  Regular; ä ö ü, 245 × 252) are still Inter's.
 - **t's foot, P's bowl and the C, G, S and s terminals are reshaped by script**
   (`tools/reshape.py`, see Decisions): t ends in a flat foot with an upright cut, like
   the mockups' and like f's top, reaching about 20 units past the crossbar (25 in Thin),
@@ -81,16 +85,37 @@ See README.md for the file layout, setup and commands.
   Regular and Black; Thin is unchanged. The mockups' arches get heavier toward the stem,
   where Inter's stay even or thin out: at 15 units from the stem, Regular's n, h, m and u
   were 80–85 units thinner than the mockup's, a 100, r 70, the bowls 25; Black's 30–45.
-  Now every joint is within 3 units of the mockup's at 15, 40 and 80 units from the stem
-  in Regular, and at 15 and 40 in Black, and Black r's arm is the mockup's weight all
-  along (it was 20–30 thinner). Further out our arches stay heavier, because their tops
-  are (see below): at 140 units Regular is 1–9 heavier (n, h, m, r 5–7, where they had
-  matched), and Black's n, h, m and u are 6–9 heavier at 80 and 14–21 at 140 (8–16
-  before). `tools/joints.py --check` prints these. þ has b's joints and takes the
+  Now every joint is within 3 units of the mockup's at 15, 40 and 80 units from the stem.
+  `tools/joints.py --check` prints these. þ has b's joints and takes the
   mockup's b. æ needed nothing: its a-bowl runs into the e's bowl, not a stem, so the
   joint is already the mockup a's weight in Regular (241/210/188/173 at 15/40/80/140,
   the mockup's 234/209/187/171) and heavier in Black (285/264/251/246, the mockup's
   229/215/216/231). The user chose this from `build/joints-compare/`.
+- **The arch and bowl tops are the mockups' depth, and r's arm is flat** (`tools/joints.py`
+  again, Regular and Black). Our counters stopped short of the mockups' tops (bottoms, in
+  u and the bowls), so the arches were heavy all across: n's arch was 198 units deep at
+  the top in Regular (the mockup's 178) and 339 in Black (310), the bowls of b, d, p, q
+  and þ 193 (178), and Black's n, h, m and u were 14–21 heavier at 140 units from the
+  stem. Each counter's edge now takes the mockup's shape all the way across, with our
+  outer edges, x-height and overshoot kept, so every arch and bowl is within 3 units of
+  the mockup's weight at 15–260 units from the stem (Black þ, which takes the mockup's b
+  scaled to its wider counter, up to 8 lighter at 200–260). Depths now: Regular n and h
+  179, m 180, u 178, the bowls 177–178 (mockups 178); Black n and h 316 (310), m 319–321
+  (314–315), u 313 (310), the bowls 307–311 (315). Where a depth differs, our outer edge
+  does and the counter keeps the mockup's weight under it: Black's shoulders are 5–6
+  lower than the mockup's 100–180 units out, and u and the bowls overshoot 13–22 at the
+  baseline where the mockups overshoot 25. The bowls' far sides are the mockup's weight
+  (Regular b 197 → 203 at mid-height, Black 364 → 370), and the counters join their far
+  stems where the mockups' do. r's arm is flat on top (1101) and underneath (903 in
+  Regular, 728 in Black; the mockups' 902 and 726) out to a square-cut terminal, as in
+  both mockups; it had drooped toward the end (Regular's underside 906 → 882, Black's
+  top 1101 → 1073), and its weight is now the mockup's out to the terminal. Outline
+  mismatch, Regular: n 2.4 → 0.9%, h 2.0 → 0.7, m 3.0 → 2.0, u 3.1 → 2.4, r 2.9 → 2.5,
+  b, d, p and q 2.6–3.1 → 1.4–1.9; Black: n 1.8 → 1.1, h 2.2 → 1.6, m 2.8 → 2.2, u 2.4 →
+  1.9, the bowls 1.6–1.7 → 1.4–1.5. Thin is unchanged: every top stroke there is 58 units
+  and every bottom 47, o, e and c too, and its screenshot shows nothing particular to the
+  arches. The user chose this from `build/arch-tops-compare/`, after a first fit that
+  turned sharply at the bowls' far sides (fixed by balancing the handles, see Decisions).
 - **R, B, G, c and e take the mockups' outlines** (`tools/refit.py`, see Decisions). R's
   bowl bar is at the mockups' height (Regular 621–807, was 566–755; Black 530–836, was
   491–806), Regular's bowl is 34 units wider, and the leg leans more and meets the bar
@@ -120,11 +145,11 @@ See README.md for the file layout, setup and commands.
   are ours against mockup-black.svg; Regular's percentages are the outline mismatch):
   t (stem top 14 too tall), a (the mockup's top terminal is taller: 710–932 in Black,
   ours 749–918; spur at the foot), J (the hook's end is 66 units lower than the
-  mockup's), c and e (only their openings, wider on purpose; see above), r (the arm's
-  end hangs about 100 lower in the mockups), the arch
-  tops (too heavy: n's arch is 198 units deep at the top in Regular, the mockup's 178,
-  and 339 in Black, the mockup's 310, so our counters reach lower; that keeps the arches
-  heavier than the mockups' from about 80 units past the stem), j (Regular's hook,
+  mockup's), c and e (only their openings, wider on purpose; see above), Regular o's top
+  (14 units too deep, like the arches were: its counter tops out at 909, the mockup's at
+  923; c's and e's now take the mockups'), the bottoms of u and the bowls (they
+  overshoot 14 and 22 in Regular, 13–14 in Black, the mockups 25), η and ƕ (drawn apart
+  from n, they keep Inter's joints and tops), j (Regular's hook,
   14%), S and s (the spine: the mockups' bowls run into it higher on the right and lower
   on the left, up to 45 units in Regular S, whose spine is straight at 7° from level
   where ours is 13°; Black S's counters are 15–17 units shallower, tops 1177 and 315
@@ -174,6 +199,20 @@ See README.md for the file layout, setup and commands.
   dotaccentcomb component's transform in i and j, so other dotted letters keep theirs,
   and ufo2ft decomposes i and j because that transform differs between masters.
   `to_ufo.py` runs it after straighten.py.
+- The punctuation dots take the i dot's proportions: `tools/dots.py` scales the period's
+  contour and the separate dots of !, ?, ¡ and ¿ (and ¡.case), separately in x and y, to
+  redraw.py's `DOTS` width and height times `FACTOR` (1.0), about each dot's centre line,
+  so each stays on its stem. The period's and the ! and ? dots' feet stay on the
+  overshoot, and the ¡ dots keep their tops (¿ is ? turned round, so its top stays too).
+  The period, !, ¡ and the colon keep their sidebearings, so they narrow with their dots.
+  The 32 glyphs built on these follow by its `FOLLOW` table: the colon's upper dot and the
+  semicolon's keep their tops, so the colon stays centred on the middle of the x-height;
+  the middle dot keeps its height; the ellipsis and leaders close up; the dots in ʘ, Ͼ, Ͽ
+  and the circled ! keep their centres. It also lines up the colon's dots, centred in its
+  advance: derive.py had moved only the upper one, 44 / 36 / 17 units off. A glyph built
+  on a dot with no rule stops the script. `to_ufo.py` runs it after kern.py and before
+  tabular.py, which centres period.tf, colon.tf and semicolon.tf on the result; run on
+  its own, dots.py runs tabular.py after.
 - t's foot, P's bowl and the C, G, S and s terminals are construction differences from
   Inter, so `tools/reshape.py` rebuilds them in every master: `_part.t_base` (t and t.1)
   becomes 12 points, a flat foot whose curves and reach past the stem's right edge come
@@ -208,15 +247,30 @@ See README.md for the file layout, setup and commands.
   curve on into the stem instead, and Thin still does; eraseOpenCorners leaves both
   shapes alone in every master (it doesn't see them as open corners), so they
   interpolate. m's second arch keeps its end, which the first arch's outer curve starts
-  from. Black r's arm moves its whole lower edge. Every curve keeps its far end. The moved
-  points are in `POINTS`, as x from the stem's edge (a point nothing moves) and y;
-  `--fit` remakes the table by least squares: the mockup's ink edge, aligned on the
-  stem's edge, up to `NEAR` units out (Regular 100, Black 60) and the curve's own
-  outline from `FAR` on (180, 130), so it keeps its shape further out. Black's are
-  shorter because its counters reach 28 units less high than the mockup's, so its inner
-  curves can only follow the mockup's that far. It refits from the current outlines, so
-  refit only after changing a joint's far end. Each changed glyph keeps its right
-  sidebearing, and `to_ufo.py` runs it after reshape.py.
+  from. The outer curves keep their far ends, so the x-height and overshoot stay. The
+  inner curves (and b's, p's and þ's counters) are fitted together with the curve beyond
+  the counter's top or bottom, against the mockup's whole counter edge: the top moves
+  with its handles level, and the far end slides along the far stem (n, h, m, u) or
+  across to the mockup's counter extremum (b, p; þ's stays, since it takes the mockup's
+  b scaled across to its own counter). Each target point is moved up or down by how far
+  our outer edge is from the mockup's at that x, so the counter keeps the mockup's depth
+  under our edge. `BALANCE` keeps each of these curves' two handles about the same
+  fraction of its box (now 54–70%, like the mockups' and Inter's): many handle pairs fit
+  the mockup's edge within a unit, and the closest was often one long and one short,
+  which turned sharply at the short end (the user saw it at the bowls' far sides). r's
+  lower edge is an "arm": a curve out of the stem, then a flat run to the terminal's
+  foot, which slides along the cut; "level" puts r's top, from the arch to the terminal,
+  at the mockup's 1101. The moved points are in `POINTS`, as x from the stem's edge (a
+  point nothing moves) and y. `--fit [kind ...]` remakes the table by least squares,
+  only the curves of the kinds named (`top` is the inner curves and counters fitted
+  with the curve beyond), keeping the other rows. The outer curves and a's inner curve
+  are fitted to the mockup's ink edge, aligned on the stem's edge, up to `NEAR` units out
+  (Regular 100, Black 60) and to their own outline from `FAR` on (180, 130). Black's
+  `NEAR` was set when its counters reached 28 units less high than the mockup's; now only
+  those curves use it, and at 100 they came only 1–2 units closer, so it stays. Refits
+  start from the current outlines, so refit only the curves you change (a full refit
+  moves the outer curves' handles a little each time). Each changed glyph keeps its
+  right sidebearing, and `to_ufo.py` runs it after reshape.py.
 - R, B, G, c and e were still Inter's construction where the mockups' differs (R's bowl
   bar and leg, B's middle bar, G's bar, c's and e's bowls, e's bar and their cut angles),
   so `tools/refit.py` moves their points to its `POINTS` table, which `--fit` makes. In
@@ -241,6 +295,32 @@ See README.md for the file layout, setup and commands.
   Glyph pairs, because Inter's t and f kerning groups also hold letters without these
   bars (public.kern1.t has 56 members, 33 of them t's); accented t's and f's still kern
   as before. It writes only kerning.plist, and `to_ufo.py` runs it after reshape.py.
+- The tabular glyphs (every name with a `tf` suffix part, and `figurespace`) have one width
+  per master, as in Inter. Inter builds most of them from the proportional glyphs as
+  components, and derive.py gave each its proportional glyph's width change, so the
+  figures came out 1292–1338 wide. `tools/tabular.py` sets each one's width from Inter's
+  source (its text-size masters), so glyphs that shared a width in Inter share one again,
+  and moves the whole glyph so its ink sits as far from the advance's centre as Inter's
+  (Inter's 1 is off-centre on purpose); no points move relative to each other. Figures,
+  maths signs and hyphen are 1320 / 1328 / 1400 (Thin / Regular / Black), punctuation and
+  spaces 550, brackets 800, and `figurespace` takes the figures' width. Black differs from
+  Inter's 1320 (`WIDTHS`): its figures are wider than Inter's, so at 1320 the 4 had 17
+  units a side; the user chose 1400 over 1320 and 1455 (the 4 with its own sidebearings)
+  in real text, from `build/tabular-compare/`. `to_ufo.py` runs it last.
+- Parts drawn over each other sit where Inter has them. derive.py moved each component
+  right by the width changes of the components before it and widened the glyph by all of
+  them, which suits parts side by side (the ellipsis) but put the semicolon's dot 31 / 24
+  units left and 7 right (Thin / Regular / Black) of Inter's place over the comma, set the
+  circled and squared forms' letters, figures and signs off centre by up to 124 units,
+  and changed those glyphs' widths by up to 262. `tools/stacked.py` moves each later
+  part of the semicolons, colon.ss07, ⁑, ʘ, Ͼ, Ͽ and every .circled and .squared glyph
+  so that its ink centre sits as far from the first part's as in Inter, and makes the
+  width the first part's plus Inter's difference (the semicolon is the comma's plus 8 /
+  28 / 10, so it got 44 / 47 units wider in Thin / Regular, 25 narrower in Black; each
+  circled form is its circle's width). Glyphs built on one of these alone follow its
+  width. The colon is dots.py's; accented letters follow their anchors and are left
+  alone. `to_ufo.py` runs it after dots.py and before tabular.py; run on its own, it runs
+  tabular.py after. The user approved it from `build/stacked-compare/`.
 - ȸ and ȹ (uni0238/uni0239) are excluded from the eraseOpenCorners filter in every
   master's lib: once stem weights differ between masters, their overlapping contours
   erase differently and stop interpolating.
@@ -311,4 +391,6 @@ See README.md for the file layout, setup and commands.
   and file times before overwriting anything you didn't just write.
 - `derive.py` places some marks off their base's anchor: the i/j dots were 26–34 units
   left of the stem before the redraw, and ż (Regular) and ė (Thin, Black) dots are still
-  20–25 units off.
+  20–25 units off. Its composites moved some components by their glyph's width change:
+  the colon's upper dot (fixed by dots.py), and the semicolon's dot and the circled forms
+  (fixed by stacked.py).

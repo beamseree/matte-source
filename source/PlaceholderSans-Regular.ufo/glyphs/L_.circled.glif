@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L.circled" format="2">
-  <advance width="2827"/>
+  <advance width="2839"/>
   <unicode hex="24C1"/>
-  <anchor x="1443" y="0" name="bottom"/>
-  <anchor x="1209" y="745" name="cross"/>
-  <anchor x="1433" y="808" name="dot"/>
-  <anchor x="1447" y="1490" name="raccent"/>
-  <anchor x="1078" y="1490" name="top"/>
+  <anchor x="1463" y="0" name="bottom"/>
+  <anchor x="1229" y="745" name="cross"/>
+  <anchor x="1453" y="808" name="dot"/>
+  <anchor x="1467" y="1490" name="raccent"/>
+  <anchor x="1098" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="L" xOffset="840"/>
+    <component base="L" xOffset="860"/>
   </outline>
   <lib>
     <dict>

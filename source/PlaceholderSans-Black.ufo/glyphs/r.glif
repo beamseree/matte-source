@@ -10,15 +10,15 @@
     <contour>
       <point x="116" y="0" type="line"/>
       <point x="466" y="0" type="line"/>
-      <point x="466" y="447" type="line" smooth="yes"/>
-      <point x="466" y="688"/>
-      <point x="637" y="725"/>
-      <point x="740" y="725" type="curve" smooth="yes"/>
-      <point x="790" y="725"/>
-      <point x="858" y="729"/>
-      <point x="889" y="725" type="curve"/>
-      <point x="889" y="1073" type="line"/>
-      <point x="858" y="1089"/>
+      <point x="466" y="443" type="line" smooth="yes"/>
+      <point x="466" y="622"/>
+      <point x="562" y="728"/>
+      <point x="724" y="728" type="curve" smooth="yes"/>
+      <point x="779" y="728"/>
+      <point x="834" y="728"/>
+      <point x="889" y="728" type="curve"/>
+      <point x="889" y="1101" type="line"/>
+      <point x="858" y="1101"/>
       <point x="814" y="1101"/>
       <point x="778" y="1101" type="curve"/>
       <point x="578" y="1101"/>

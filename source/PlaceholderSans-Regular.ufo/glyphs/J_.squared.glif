@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="J.squared" format="2">
-  <advance width="2615"/>
+  <advance width="2810"/>
   <unicode hex="1F139"/>
-  <anchor x="1588" y="884" name="cross"/>
-  <anchor x="1589" y="1490" name="top"/>
+  <anchor x="1680" y="884" name="cross"/>
+  <anchor x="1681" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="J" xOffset="844"/>
+    <component base="J" xOffset="936"/>
   </outline>
   <lib>
     <dict>

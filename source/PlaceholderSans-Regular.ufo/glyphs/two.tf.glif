@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two.tf" format="2">
-  <advance width="1322"/>
+  <advance width="1328"/>
   <unicode hex="E073"/>
-  <anchor x="732" y="640" name="cross"/>
-  <anchor x="655" y="1490" name="top"/>
+  <anchor x="736" y="640" name="cross"/>
+  <anchor x="659" y="1490" name="top"/>
   <outline>
-    <component base="two" xOffset="35"/>
+    <component base="two" xOffset="39"/>
   </outline>
   <lib>
     <dict>

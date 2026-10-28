@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="N.squared" format="2">
-  <advance width="2781"/>
+  <advance width="2810"/>
   <unicode hex="1F13D"/>
-  <anchor x="1379" y="0" name="bottom"/>
-  <anchor x="756" y="0" name="lfthook"/>
-  <anchor x="2002" y="0" name="lfthook2"/>
-  <anchor x="1379" y="1490" name="top"/>
+  <anchor x="1405" y="0" name="bottom"/>
+  <anchor x="782" y="0" name="lfthook"/>
+  <anchor x="2028" y="0" name="lfthook2"/>
+  <anchor x="1405" y="1490" name="top"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="N" xOffset="624"/>
+    <component base="N" xOffset="650"/>
   </outline>
   <lib>
     <dict>

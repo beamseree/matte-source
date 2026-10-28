@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphen.circled" format="2">
-  <advance width="2801"/>
+  <advance width="2839"/>
   <unicode hex="E134"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="hyphen" xOffset="945" yOffset="107"/>
+    <component base="hyphen" xOffset="967" yOffset="107"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="comma.tf.ss07" format="2">
-  <advance width="564"/>
+  <advance width="550"/>
   <unicode hex="E2B6"/>
   <guideline x="4" y="1240" angle="0"/>
   <guideline x="4" y="764" angle="0"/>
   <outline>
-    <component base="comma.ss07" xOffset="-107"/>
+    <component base="comma.ss07" xOffset="-114"/>
   </outline>
   <lib>
     <dict>

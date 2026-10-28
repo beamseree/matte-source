@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphendot" format="2">
-  <advance width="510"/>
+  <advance width="498"/>
   <unicode hex="2027"/>
   <anchor x="74" y="697" name="_centerr"/>
   <outline>

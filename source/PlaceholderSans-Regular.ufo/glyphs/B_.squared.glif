@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="B.squared" format="2">
-  <advance width="2856"/>
+  <advance width="2810"/>
   <unicode hex="1F131"/>
-  <anchor x="1383" y="0" name="bottom"/>
-  <anchor x="1042" y="430" name="cross"/>
-  <anchor x="1374" y="1490" name="top"/>
-  <anchor x="866" y="1490" name="topl"/>
+  <anchor x="1385" y="0" name="bottom"/>
+  <anchor x="1044" y="430" name="cross"/>
+  <anchor x="1376" y="1490" name="top"/>
+  <anchor x="868" y="1490" name="topl"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="B" xOffset="730"/>
+    <component base="B" xOffset="732"/>
   </outline>
   <lib>
     <dict>

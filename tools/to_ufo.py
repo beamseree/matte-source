@@ -3,8 +3,11 @@ and put mockup letters into masters' background layers as tracing guides
 (an SVG of outlined text, or a screenshot traced at 50% coverage). Inter's own backup and background layers are dropped: they no
 longer match the derived outlines and would only clutter the editor. Letters that
 tools/straighten.py, tools/redraw.py, tools/reshape.py and tools/refit.py fix are redrawn in
-every master, tools/joints.py thickens the joints of arches and bowls in Regular and Black, and
-tools/kern.py keeps t's and f's crossbars apart.
+every master, tools/joints.py thickens the joints of arches and bowls in Regular and Black,
+tools/kern.py keeps t's and f's crossbars apart, tools/dots.py gives the punctuation dots
+the i dot's size, tools/stacked.py puts stacked components (the semicolon's dot, the
+circled forms) where Inter has them, and tools/tabular.py gives the tabular glyphs one
+width per master.
 
 Each SVG letter is scaled to font units (the "l" and capitals are 1490 units
 tall), sat on the baseline, and centred on the glyph's own outline.
@@ -31,13 +34,16 @@ from fontTools.pens.transformPen import TransformPen
 from fontTools.svgLib.path import parse_path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dots  # noqa: E402
 import imgtarget  # noqa: E402
 import joints  # noqa: E402
 import kern  # noqa: E402
 import redraw  # noqa: E402
 import refit  # noqa: E402
 import reshape  # noqa: E402
+import stacked  # noqa: E402
 import straighten  # noqa: E402
+import tabular  # noqa: E402
 
 BACKGROUND = "public.background"
 MASTERS = {100: "Thin", 400: "Regular", 900: "Black"}
@@ -149,6 +155,9 @@ def main():
         refit.apply(source.font, MASTERS[source.location["Weight"]])
         joints.apply(source.font, MASTERS[source.location["Weight"]])
         kern.apply(source.font, MASTERS[source.location["Weight"]])
+        dots.apply(source.font, MASTERS[source.location["Weight"]])
+        stacked.apply(source.font, MASTERS[source.location["Weight"]])
+        tabular.apply(source.font, MASTERS[source.location["Weight"]])
     by_name = {MASTERS[s.location["Weight"]]: s for s in ds.sources}
     for spec in args.guides:
         name, path = spec.split("=", 1)

@@ -2,7 +2,7 @@
 <glyph name="tripleunderdotcomb" format="2">
   <unicode hex="20E8"/>
   <outline>
-    <component base="ellipsis" yOffset="-424"/>
+    <component base="ellipsis" xOffset="60" yOffset="-370"/>
   </outline>
   <lib>
     <dict>

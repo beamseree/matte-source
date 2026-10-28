@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni03FE" format="2">
-  <advance width="1422"/>
+  <advance width="1466"/>
   <unicode hex="03FE"/>
   <anchor x="765" y="0" name="cedilla"/>
   <anchor x="758" y="745" name="center"/>
@@ -8,7 +8,7 @@
   <anchor x="1363" y="1024" name="topr"/>
   <outline>
     <component base="C"/>
-    <component base="period" xOffset="475" yOffset="701"/>
+    <component base="period" xOffset="513" yOffset="707"/>
   </outline>
   <lib>
     <dict>

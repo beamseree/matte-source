@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="asterisk.case.tf" format="2">
-  <advance width="1274"/>
+  <advance width="1320"/>
   <unicode hex="EE71"/>
   <note>
 Recipe:
@@ -13,7 +13,7 @@ Recipe:
 7. enter transform mode and center it
 </note>
   <outline>
-    <component base="asterisk.case" xOffset="52"/>
+    <component base="asterisk.case" xOffset="75"/>
   </outline>
   <lib>
     <dict>

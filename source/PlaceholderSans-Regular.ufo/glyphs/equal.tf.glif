@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal.tf" format="2">
-  <advance width="1276"/>
+  <advance width="1328"/>
   <unicode hex="EE5A"/>
   <outline>
-    <component base="equal" xOffset="-14"/>
+    <component base="equal" xOffset="12"/>
   </outline>
   <lib>
     <dict>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plus.tf" format="2">
-  <advance width="1274"/>
+  <advance width="1320"/>
   <unicode hex="EE5C"/>
   <outline>
-    <component base="plus" xOffset="8"/>
+    <component base="plus" xOffset="31"/>
   </outline>
   <lib>
     <dict>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="raisedcolonmod.ss07" format="2">
-  <advance width="462"/>
+  <advance width="508"/>
   <unicode hex="E2BA"/>
   <outline>
     <component base="colon.ss07" yOffset="437"/>

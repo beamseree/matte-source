@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nine.tf" format="2">
-  <advance width="1315"/>
+  <advance width="1320"/>
   <unicode hex="E07A"/>
   <outline>
-    <component base="nine" xOffset="82"/>
+    <component base="nine" xOffset="84"/>
   </outline>
   <lib>
     <dict>

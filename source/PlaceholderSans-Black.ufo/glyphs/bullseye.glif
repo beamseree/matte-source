@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bullseye" format="2">
-  <advance width="1728"/>
+  <advance width="1711"/>
   <unicode hex="0298"/>
   <anchor x="854" y="0" name="bottom"/>
   <anchor x="854" y="745" name="center"/>
@@ -10,7 +10,7 @@
   <anchor x="854" y="1510" name="tophorn"/>
   <outline>
     <component base="O"/>
-    <component base="period" xOffset="555" yOffset="566"/>
+    <component base="period" xOffset="475" yOffset="575"/>
   </outline>
   <lib>
     <dict>

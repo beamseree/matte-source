@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semicolon.tf" format="2">
-  <advance width="491"/>
+  <advance width="550"/>
   <unicode hex="E096"/>
   <outline>
-    <component base="semicolon" xOffset="-20"/>
+    <component base="semicolon" xOffset="7"/>
   </outline>
   <lib>
     <dict>

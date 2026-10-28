@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dngb_check.squared" format="2">
-  <advance width="2847"/>
+  <advance width="2841"/>
   <unicode hex="E15D"/>
   <outline>
     <component base="whiteLargeSquare"/>
-    <component base="dngb_check" xOffset="525" yOffset="93"/>
+    <component base="dngb_check" xOffset="509" yOffset="93"/>
   </outline>
   <lib>
     <dict>
