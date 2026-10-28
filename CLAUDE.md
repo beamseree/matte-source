@@ -116,6 +116,18 @@ See README.md for the file layout, setup and commands.
   and every bottom 47, o, e and c too, and its screenshot shows nothing particular to the
   arches. The user chose this from `build/arch-tops-compare/`, after a first fit that
   turned sharply at the bowls' far sides (fixed by balancing the handles, see Decisions).
+- **5's bowl leaves its stem like n's arch** (`tools/joints.py` again, Regular). It had
+  Inter's joint, which thins toward the stem: its top stroke was 152/157/164/172 units
+  thick at 15/40/80/140 from the notch, where n's, scaled to 5's depth (183, n's 179), is
+  268/220/191/177. Now 203/198/191/183: the notch moved up the stem's edge (881 → 908)
+  and the foot's corner, where the counter's top curve starts, down (711 → 666, so the
+  foot is cut steeper), each adding half the extra weight at 15. n's weight right by the
+  stem comes from its inner curve running down a vertical stem, which 5 doesn't have;
+  fits that matched it pulled the foot into a spike or the notch up to the bowl's top.
+  Black's 5 already has n's weight against its depth (within 4 units at 40–140, 17
+  lighter at 15), so it, like Thin, is unchanged; 6 and 9 already had b's and d's
+  weight at their joints. The user chose this ("n at 80") over matching n 40 units out
+  (231/220/205/189), from `build/five-compare/`.
 - **R, B, G, c and e take the mockups' outlines** (`tools/refit.py`, see Decisions). R's
   bowl bar is at the mockups' height (Regular 621–807, was 566–755; Black 530–836, was
   491–806), Regular's bowl is 34 units wider, and the leg leans more and meets the bar
@@ -271,6 +283,17 @@ See README.md for the file layout, setup and commands.
   start from the current outlines, so refit only the curves you change (a full refit
   moves the outer curves' handles a little each time). Each changed glyph keeps its
   right sidebearing, and `to_ufo.py` runs it after reshape.py.
+- 5 has no mockup letter, so `joints.py`'s `fit_five` (`--fit five`) fits its joint to n
+  instead: the notch's line end slides up the stem's edge, taking the outer curve's end
+  with it, and the foot's corner slides down a parallel line, so the foot's line
+  steepens; each curve keeps its far end (the bowl's top, the counter's top) and its
+  shape, scaled to its new ends, so nothing turns sharply. Two numbers come from the fit:
+  the notch and the foot each add `FIVE_SPLIT` (half) of the extra weight 15 units out,
+  and 5's top stroke has n's weight `FIVE_AT` (80) units from the stem, as a fraction of
+  each glyph's depth. Free least-squares fits of the handles to n's whole profile
+  bulged the curves. In Black the fit moves nothing, so `POINTS` has no Black 5.
+  `--check` prints 5 after n, against n's weight scaled to 5's depth. Its composites
+  (five.tf, five.circled, five.squared, Tonefive) follow; 5's ink box doesn't move.
 - R, B, G, c and e were still Inter's construction where the mockups' differs (R's bowl
   bar and leg, B's middle bar, G's bar, c's and e's bowls, e's bar and their cut angles),
   so `tools/refit.py` moves their points to its `POINTS` table, which `--fit` makes. In

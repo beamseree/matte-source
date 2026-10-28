@@ -51,13 +51,26 @@ mirrored. The mockup has no þ, so þ takes the mockup's b, its counter scaled a
 ours. Thin keeps Inter's joints and tops: at its 46-unit strokes its screenshot can't show
 the joints, and its arches are no heavier at the top than its o.
 
+5 has no mockup letter. Its bowl leaves its stem the way n's arch does, but it kept Inter's
+joint, which thinned toward the stem (Regular's top stroke was 152 units thick 15 units from
+the notch, 172 at 140). So its notch slides up the stem's edge and the foot's corner, where
+the counter's top curve starts, slides down a parallel line, so the foot's line steepens;
+each curve keeps its far end (the bowl's top, the counter's top) and its shape, scaled to its
+new ends. `fit_five` sets how far: 5 gets n's weight FIVE_AT units from the stem, as a
+fraction of each glyph's depth, and the notch and the foot add the same weight 15 units out.
+Nearer the stem n is heavier still (Regular 262, 1.46 times its depth, at 15), because its
+inner curve runs down a vertical stem, which 5 doesn't have. Black's 5 already has n's
+weight against its depth, so the fit leaves it alone.
+
 No points are added or removed, so the masters stay compatible. Each changed glyph keeps
 its right sidebearing. Running it again changes nothing.
 
 Usage: python tools/joints.py source/PlaceholderSans-*.ufo   # move the points to POINTS
        python tools/joints.py --fit [kind ...]                # print POINTS with these curves refitted
-                                                              # (all; "top": the inner curves and counters)
+                                                              # (all; "top": the inner curves and counters;
+                                                              # "five": 5's joint)
        python tools/joints.py --check [source]                # joint widths, ours against the mockups
+                                                              # (5 against n, scaled to 5's depth)
 """
 
 import os
@@ -104,6 +117,9 @@ STEMS = {
     "b": ("b", [((1, 3), (538, 0, 1), +1, B_LIKE)]),
     "p": ("p", [((1, 3), (538, 0, 1), +1, P_LIKE)]),
     "thorn": ("b", [((1, 3), (538, 0, 1), +1, B_LIKE)]),
+    # 5 has no mockup letter (fit_five): its stem's edge is the line from the bar down to the
+    # notch, and the counter's top curve leaves the stem's foot, which ends at point 16.
+    "five": (None, [((0, 11), None, +1, [("inner", 0, (16, 17, 18, 19)), ("notch", 0, (9, 8, 7, 6), 10)])]),
 }
 MASTERS = ("Regular", "Black")
 NEAR, FAR = {"Regular": 100, "Black": 60}, {"Regular": 180, "Black": 130}
@@ -158,6 +174,9 @@ POINTS = {
             (0, 1, 1, 117.6, 155), (0, 1, 2, 0, 303), (0, 1, 4, 0, 775),
             (0, 1, 5, 117.6, 924), (0, 1, 6, 302.7, 924), (0, 1, 7, 501.9, 924),
             (0, 1, 8, 622, 779), (0, 1, 10, 622, 297), (0, 1, 11, 504, 155)],
+        "five": [(0, 0, 7, 123.3, 978), (0, 0, 8, 21.6, 948), (0, 0, 9, -39.7, 908),
+            (0, 0, 10, -48.7, 908), (0, 0, 16, -76.6, 666), (0, 0, 17, -15.3, 741),
+            (0, 0, 18, 93.0, 795)],
     },
     "Black": {
         "n": [(0, 0, 0, 0, 581), (0, 0, 1, 0, 718), (0, 0, 2, 56.8, 785),
@@ -454,6 +473,12 @@ def fit_master(master, src, kinds=None):
     font = ufoLib2.Font.open(os.path.join(src, f"PlaceholderSans-{master}.ufo"))
     table = {}
     for name, (char, groups) in STEMS.items():
+        if char is None:                                # 5: n's weight, not a mockup's
+            kept = {r[:3]: r for r in POINTS.get(master, {}).get(name, [])}
+            kept.update({r[:3]: r for r in (fit_five(font) if not kinds or name in kinds else [])})
+            if kept:
+                table[name] = sorted(kept.values(), key=lambda r: (r[1], r[2]))
+            continue
         glyph, rows = font[name], []
         for group, ((ec, ei), scan, side, curves) in enumerate(groups):
             edge = glyph.contours[ec].points[ei].x
@@ -569,6 +594,77 @@ def fit_master(master, src, kinds=None):
     return table
 
 
+# --- 5, after n --------------------------------------------------------------------------
+
+# 5's joint is fitted to n's weight FIVE_AT units from the stem, as a fraction of each glyph's
+# depth, and FIVE_SPLIT of the extra weight 15 units from the stem comes from the notch (the
+# rest from the foot's corner).
+FIVE_AT, FIVE_SPLIT = 80, 0.5
+
+
+def five_curves():
+    (edge, _, _, ((_, ci, inner), (_, _, outer, line_end))), = STEMS["five"][1]
+    return edge, ci, inner, outer, line_end
+
+
+def five_runs(font, distances):
+    """5's top stroke on vertical lines `distances` units right of its notch: [(bottom, top)]."""
+    (_, bar), ci, _, _, line_end = five_curves()            # the stem's top corner, under the bar
+    pts = font["five"].contours[ci].points
+    replay = ours(font, "five")
+    return [[r for r in vertical_runs(replay, pts[line_end].x + d) if r[1] < pts[bar].y][-1] for d in distances]
+
+
+def n_like(font, distances):
+    """n's top stroke at `distances` from its stem, over its depth, times 5's depth."""
+    _, ci, inner, outer, _ = five_curves()
+    pts, replay = font["five"].contours[ci].points, ours(font, "n")
+    n = np.array(widths(replay, CHECK["n"], distances)[0]) / depth(replay, CHECK["n"], -1)[1]
+    return n * (pts[outer[3]].y - pts[inner[3]].y)
+
+
+def fit_five(font, at=FIVE_AT, split=FIVE_SPLIT):
+    """POINTS rows for 5: the notch's line end slides up the stem's edge, taking the outer curve's
+    end with it, and the foot's corner, where the counter's top curve starts, slides down a
+    line parallel to that edge, so the foot's line steepens. Each curve keeps its far end (the
+    bowl's top, the counter's top) and its shape, scaled to its new ends. How far each slides
+    is fitted so 5 has n's weight `at` units from the stem, `split` of the extra 15 units out
+    coming from the notch."""
+    from scipy.optimize import least_squares
+
+    (_, edge), ci, inner, outer, line_end = five_curves()
+    pts = font["five"].contours[ci].points
+    P = {i: np.array((pts[i].x, pts[i].y), float) for i in (edge, line_end, *inner, *outer)}
+    stem = (P[line_end] - P[edge]) / (P[line_end][1] - P[edge][1])     # per unit of height
+
+    def moved(rise, drop):
+        out = {line_end: P[line_end] + stem * rise}
+        for idx, shift in ((outer, rise), (inner, -drop)):
+            S, F = P[idx[0]], P[idx[3]]
+            scale = (F - S - stem * shift) / (F - S)
+            out.update({i: F - (F - P[i]) * scale for i in idx[:3]})
+        return out
+
+    def runs(v):
+        for i, q in moved(*v).items():
+            pts[i].x, pts[i].y = q
+        out = five_runs(font, (15, at))
+        for i, q in moved(0, 0).items():
+            pts[i].x, pts[i].y = q
+        return out
+
+    (bottom, top), _ = runs((0, 0))
+    target = n_like(font, (at,))[0]
+
+    def resid(v):
+        (b, t), (b_at, t_at) = runs(v)
+        return [(1 - split) * (t - top) - split * (bottom - b), t_at - b_at - target]
+
+    v = least_squares(resid, [10, 10], bounds=([0, 0], [200, 200])).x
+    return [(0, ci, i, round(float(q[0] - P[edge][0]), 1), round(float(q[1])))
+            for i, q in sorted(moved(*v).items()) if (round(q[0]), round(q[1])) != (pts[i].x, pts[i].y)]
+
+
 # How the joints are measured (tools/joints.py --check): the stem is found on a horizontal
 # scanline at y (its run, and +1 if the joint is right of it), and the joint is the top (-1)
 # or bottom (0) run on vertical scanlines DISTANCES from the stem's edge. The depth is from
@@ -621,6 +717,13 @@ def check(src="source"):
                 (oc, od), (mc, md) = (depth(f, spec, w) for f in (ours(font, name), mockup(master, "b" if name == "thorn" else name)))
                 print(f"{master:7s} {key:5s} {'top' if w else 'bottom':6s}  depth {od:3.0f}/{md:<3.0f} at {oc:4.0f}/{mc:<4.0f}"
                       f"  ours/mockup at {DISTANCES + far}:  {cells}")
+            if key == "n":                              # 5 against n, scaled to 5's depth
+                _, ci, inner, outer, _ = five_curves()
+                pts = font["five"].contours[ci].points
+                cells = "  ".join(f"{t - b:4.0f}/{n:<4.0f}" for (b, t), n in
+                                  zip(five_runs(font, DISTANCES), n_like(font, DISTANCES)))
+                print(f"{master:7s} {'5':5s} {'top':6s}  depth {pts[outer[3]].y - pts[inner[3]].y:3.0f}     at "
+                      f"{pts[inner[3]].y:4.0f}       ours/n's  at {DISTANCES}:  {cells}")
 
 
 if __name__ == "__main__":
