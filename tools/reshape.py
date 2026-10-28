@@ -1,4 +1,4 @@
-"""Reshape t's foot, the C, G and S terminals and P's bowl to match the mockups, and set
+"""Reshape t's foot, the C, G, S and s terminals and P's bowl to match the mockups, and set
 f's and t's stems where they're heavier than the master's other lowercase stems.
 
 These are the places where Inter's construction differs from the mockups', rather than
@@ -16,11 +16,16 @@ its curves:
   The left edge, f's terminal and f's crossbar stay where they are.
 - Crossbars: the mockups' f and t bars are the same height. f's, f.1's and t.1's take t's
   (Black's came out 24 units deeper than t's, which tools/redraw.py sets to the mockup's).
-- C, G and S: the mockups cut the terminals at an angle (8-20 degrees), where Inter's are
-  flat. Each terminal is cut along the mockup's line from TERMINALS: the curves on either
-  side are trimmed, or extended along their own path, to meet it, so the letter keeps its
-  points. Thin's screenshot is too blurred to show its terminals, so Thin tilts each of
-  its own cuts about its middle to Regular's angle.
+- C, G, S and s: the mockups cut the terminals at an angle (8-22 degrees), where Inter's
+  are flat (or, in s, shallower). Each terminal is cut along the mockup's line from
+  TERMINALS: the curves on either side are trimmed, or extended along their own path, to
+  meet it, so the letter keeps its points. Thin's screenshot is too blurred to show its
+  terminals' cuts, so Thin tilts each of its own C and G cuts about its middle to Regular's
+  angle; its S and s cuts are at Regular's angles where the screenshot's strokes end.
+- S and s: the curves either side of each cut, from its corners to the extremes either
+  side, take the mockup's shape (ARMS, Regular and Black). Inter's arms came down more
+  steeply into the terminals, so they were up to 70 units deeper there, and its s
+  terminals stopped short of the mockups', the lower one most.
 - P: the mockups' bowl is shorter. Its lower bar moves up to P_BAR's heights, and the
   bowl's outer and inner curves are scaled between the bar and their tops.
 
@@ -28,6 +33,7 @@ Every master gets the same points, so the masters stay compatible, and every cha
 glyph keeps its right sidebearing. Running it again changes nothing.
 
 Usage: python tools/reshape.py source/PlaceholderSans-*.ufo
+       python tools/reshape.py --fit [source]    # print ARMS fitted to the mockups
 """
 
 import os
@@ -69,14 +75,44 @@ FOOT = {
 
 # The mockups' terminal cuts, one line per terminal in contour order, each from the end of
 # the curve before the cut to the start of the curve after it. x is from the letter's left
-# edge (C, G) or right edge (S), which the cuts don't move.
+# edge (C, G) or right edge (S, s), which the cuts don't move. Thin's S and s cuts are at
+# Regular's angles, where its screenshot's strokes end: thinned to 46 units, they reach
+# further round than Inter's, by 60 units at S's lower terminal, 30 and 34 at s's lower and
+# upper ones (give or take 20); S's upper one is where it was.
 TERMINALS = {
     "C": ("left", {"Regular": [((1351.1, 502.9), (1150.4, 550.5)), ((1154.5, 941.6), (1355.3, 974.7))],
                    "Black": [((1437, 515), (1050, 573)), ((1045, 917), (1432, 975))]}),
     "G": ("left", {"Regular": [((1140.3, 1034.7), (1349.1, 1080.3))],
                    "Black": [((1062, 969), (1443, 1051))]}),
-    "S": ("right", {"Regular": [((-249.9, 1061.6), (-42.9, 1111.3)), ((-982.5, 461.5), (-1191.5, 416.0))],
+    "S": ("right", {"Thin": [((-69, 1113), (-23, 1123)), ((-999, 416), (-1047, 406))],
+                    "Regular": [((-249.9, 1061.6), (-42.9, 1111.3)), ((-982.5, 461.5), (-1191.5, 416.0))],
                     "Black": [((-439, 1035), (-75, 1161)), ((-900, 480), (-1279, 346))]}),
+    "s": ("right", {"Thin": [((-48, 803), (-2, 818)), ((-757, 289), (-803, 275))],
+                    "Regular": [((-217.3, 757.4), (-31.1, 817.4)), ((-714.0, 351.8), (-906.4, 295.9))],
+                    "Black": [((-368.3, 718.1), (-53.8, 827.8)), ((-672.6, 360.1), (-991.3, 229.7))]}),
+}
+
+# S's and s's terminals, fitted to the mockups by `--fit`: {master: {glyph: [(point, x from
+# the right edge, y)]}}. Each cut's corners are the mockup's, and the curves from them to the
+# extremes either side (the top, the bottom and the counters' top and bottom, which stay)
+# have their handles fitted by least squares to the mockup's outline.
+ARMS = {
+    "Regular": {
+        "S": [(14, -386.6, 1318), (15, -286.5, 1182), (16, -249.9, 1062), (17, -42.9, 1111),
+            (18, -115.5, 1395), (19, -357.1, 1510), (34, -721.3, 168), (35, -922.5, 210),
+            (36, -982.5, 462), (37, -1191.5, 416), (38, -1092.6, 21), (39, -749.8, -25)],
+        "s": [(14, -395.6, 921), (15, -272.9, 907), (16, -217.3, 757), (17, -31.1, 817),
+            (18, -115.5, 1093), (19, -408.9, 1101), (34, -472.7, 151), (35, -667.3, 158),
+            (36, -714.0, 352), (37, -906.4, 296), (38, -818.6, 14), (39, -578.5, -23)],
+    },
+    "Black": {
+        "S": [(14, -585.3, 1177), (15, -510.0, 1177), (16, -439.0, 1035), (17, -75.0, 1161),
+            (18, -160.0, 1405), (19, -404.8, 1510), (34, -728.1, 315), (35, -821.5, 315),
+            (36, -900.0, 480), (37, -1279.0, 346), (38, -1145.5, -18), (39, -787.5, -18)],
+        "s": [(14, -488.7, 822), (15, -400.6, 804), (16, -368.3, 718), (17, -53.8, 828),
+            (18, -116.6, 980), (19, -272.5, 1101), (34, -533.8, 252), (35, -621.6, 252),
+            (36, -672.6, 360), (37, -991.3, 230), (38, -886.9, -20), (39, -595.2, -20)],
+    },
 }
 
 # P's lower bar (bottom, top). Regular's and Black's are the SVGs'; Thin's is centred on its
@@ -158,6 +194,73 @@ def set_terminals(font, glyph, master):
             a = ((q.x + p.x) / 2, (q.y + p.y) / 2)
             b = (a[0] + bx - ax, a[1] + by - ay)
         cut(contour, i, a, b)
+
+
+def arm_curves(contour, i):
+    """The curves either side of the cut at i, each from its extreme to the cut's corner."""
+    n = len(contour.points)
+    return [[(i - k) % n for k in (3, 2, 1, 0)], [(i + k) % n for k in (4, 3, 2, 1)]]
+
+
+def set_arms(font, glyph, master):
+    edge = glyph.getBounds(font).xMax
+    for i, dx, y in ARMS[master][glyph.name]:
+        p = glyph.contours[0].points[i]
+        p.x, p.y = round(edge + dx), y
+
+
+def fit_arms(master, src):
+    """ARMS for one master: the mockup's corners, and handles fitted to its outline."""
+    import joints  # its least-squares helpers (it imports this module, so not at the top)
+    from fontTools.pens.boundsPen import BoundsPen
+    from fontTools.pens.recordingPen import RecordingPen
+    from fontTools.pens.transformPen import TransformPen
+
+    font = ufoLib2.Font.open(os.path.join(src, f"PlaceholderSans-{master}.ufo"))
+    table = {}
+    for name in ("S", "s"):
+        glyph, rows = font[name], []
+        set_terminals(font, glyph, master)
+        edge = glyph.getBounds(font).xMax
+        bp = BoundsPen(None)
+        joints.mockup(master, name)(bp)
+        rec = RecordingPen()                        # the mockup, on our right edge
+        joints.mockup(master, name)(TransformPen(rec, (1, 0, 0, 1, edge - bp.bounds[2], 0)))
+        segs = joints.segments(rec)
+        pts = glyph.contours[0].points
+        for k, i in enumerate(terminals(glyph.contours[0])):
+            corners = [(edge + x, y) for x, y in TERMINALS[name][1][master][k]]
+            for idx, corner in zip(arm_curves(glyph.contours[0], i), corners):
+                E, H, _, _ = [np.array((pts[j].x, pts[j].y), float) for j in idx]
+                C = np.array(corner)
+                # the mockup's outline from this corner, away from the cut, to its extreme
+                j = next(j for j, s in enumerate(segs) if len(s) == 2 and
+                         min(np.hypot(*(np.array(p) - C)) for p in s) < 1 and
+                         max(np.hypot(*(np.array(p) - C)) for p in s) > 50)
+                step = 1 if np.hypot(*(np.array(segs[j][1]) - C)) < 1 else -1
+                stretch = []
+                while True:
+                    j = (j + step) % len(segs)
+                    seg = segs[j] if step == 1 else segs[j][::-1]
+                    stretch.append(joints.bezier(seg, np.linspace(0, 1, 150)) if len(seg) == 4
+                                   else np.linspace(seg[0], seg[1], 50))
+                    if len(seg) == 4 and abs(seg[2][1] - seg[3][1]) < 0.5:
+                        break                       # a horizontal tangent: the extreme
+                stretch = np.vstack(stretch)
+                # only up to our own extreme, which stays
+                stretch = stretch[(stretch[:, 0] - E[0]) * np.sign(C[0] - E[0]) >= 0]
+                u = (H - E) / np.hypot(*(H - E))
+                span = abs(C[0] - E[0])
+                lo, hi = np.minimum(E, C), np.maximum(E, C)   # so the extremes stay extremes
+                build = lambda x, E=E, u=u, span=span, C=C: [E, E + x[0] * span * u, (x[1], x[2]), C]
+                x0 = [np.hypot(*(H - E)) / span, *(np.array((pts[idx[2]].x, pts[idx[2]].y)))]
+                Q, err = joints.solve(x0, ([0.05, lo[0], lo[1]], [1.5, hi[0], hi[1]]), build, stretch)
+                print(f"  {master} {name} {idx}: {len(stretch)} targets, rms {np.sqrt(np.mean(err ** 2)):.1f}, "
+                      f"max {err.max():.1f}", file=sys.stderr)
+                for j, q in zip(idx[1:], Q[1:]):
+                    rows.append((j, round(float(q[0]) - edge, 1), round(float(q[1]))))
+        table[name] = sorted(rows)
+    return table
 
 
 def set_foot(glyph, foot, stem=None):
@@ -245,6 +348,8 @@ def apply(ufo, master):
     match_bars(ufo, ("f", "f.1", "t.1"))
     for name in TERMINALS:
         set_terminals(ufo, ufo[name], master)
+    for name in ARMS.get(master, {}):
+        set_arms(ufo, ufo[name], master)
     set_bowl(ufo["P"], P_BAR[master])
     for name in right:
         if not name.startswith("_part."):
@@ -264,4 +369,9 @@ def main(paths):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    if sys.argv[1:2] == ["--fit"]:
+        root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+        src = sys.argv[2] if len(sys.argv) > 2 else os.path.join(root, "source")
+        print({m: fit_arms(m, src) for m in ("Regular", "Black")})
+    else:
+        main(sys.argv[1:])

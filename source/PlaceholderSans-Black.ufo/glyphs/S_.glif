@@ -24,12 +24,12 @@ recipe: use stroke + offset curve filter with 32, no autostroke
       <point x="495" y="1129"/>
       <point x="570" y="1177"/>
       <point x="718" y="1177" type="curve" smooth="yes"/>
-      <point x="851" y="1177"/>
-      <point x="932" y="1131"/>
-      <point x="954" y="1052" type="curve"/>
-      <point x="1298" y="1171" type="line"/>
-      <point x="1230" y="1380"/>
-      <point x="1019" y="1510"/>
+      <point x="758" y="1177"/>
+      <point x="833" y="1177"/>
+      <point x="904" y="1035" type="curve"/>
+      <point x="1268" y="1161" type="line"/>
+      <point x="1183" y="1405"/>
+      <point x="938" y="1510"/>
       <point x="720" y="1510" type="curve" smooth="yes"/>
       <point x="361" y="1510"/>
       <point x="105" y="1319"/>
@@ -44,12 +44,12 @@ recipe: use stroke + offset curve filter with 32, no autostroke
       <point x="961" y="367"/>
       <point x="868" y="315"/>
       <point x="715" y="315" type="curve" smooth="yes"/>
-      <point x="567" y="315"/>
-      <point x="464" y="371"/>
-      <point x="433" y="477" type="curve"/>
-      <point x="87" y="354" type="line"/>
-      <point x="158" y="99"/>
-      <point x="390" y="-18"/>
+      <point x="615" y="315"/>
+      <point x="522" y="315"/>
+      <point x="443" y="480" type="curve"/>
+      <point x="64" y="346" type="line"/>
+      <point x="198" y="-18"/>
+      <point x="556" y="-18"/>
     </contour>
   </outline>
 </glyph>

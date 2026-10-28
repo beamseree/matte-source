@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tonetwo" format="2">
-  <advance width="1290"/>
+  <advance width="1292"/>
   <unicode hex="01A7"/>
   <anchor x="646" y="0" name="bottom"/>
   <anchor x="646" y="0" name="cedilla"/>
