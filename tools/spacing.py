@@ -39,8 +39,9 @@ made n's left 122 units and b's 156 on the same stem, and Y 43 units off centre 
 `--cost` prints what each of these costs in fit.py's gap error against the mockups. Black's
 word space is WORD times n|n's gap rather than the mockup's (503 units, airy). Alternates
 (FOLLOW) and the small figures and letters drawn on their own (SMALL) move with their
-default glyph. LOOSEN (looser text spacing) and ASIDE (pangram pairs left out) are the
-user's to choose, and empty until then.
+default glyph. LOOSEN makes Thin and Regular 8% looser than the mockups, for text, and
+ASIDE leaves out four pangram pairs that alone set sides against Inter's proportions (the
+user chose both). They act through `--fit`: refit after changing them.
 
 SIDES holds the result as each glyph's left and right sidebearings (ink to the advance's
 edges), so applying it is the same whatever ran before. A glyph's outline, components and
@@ -136,16 +137,17 @@ SMALL = (".sups", ".dnom", ".numr")
 # punctuation spacing.py sets gets the same white, (factor - 1) times its case's median
 # optical sidebearing, so straight, round and diagonal sides loosen alike and the sets stay
 # one value. The audit found 100-500 about as tight as a display face (n's sidebearing 0.251
-# of its counter at 430; Inter's text cut 0.296). The user chooses from
-# build/loose-compare/; none until then.
-LOOSEN = {}
+# of its counter at 430; Inter's text cut 0.296). The user chose 8% over none and 12% from
+# build/loose-compare/ (n 141 -> 152 at 430); Black stays the mockup's, so 500-800 loosen
+# less.
+LOOSEN = {"Thin": 1.08, "Regular": 1.08}
 # Pangram pairs the fit leaves out. Each of these alone sets a side against Inter's
 # proportions (F's right 41 units in Regular, 13 in Black, from "FO"; X's and x's sides
 # from "OX" and "ox", Y's from "ZY"), and the sets and symmetry carry that to every pair
 # with the letter. Left out, those sides take Inter's proportions, and the four pairs come
-# out 30-55 units looser than the mockups' (93 in Black's ZY). The user chooses, from
-# build/structure-compare/; none until then.
-ASIDE = ()
+# out 30-55 units looser than the mockups' (93 in Black's ZY). The user chose to leave them
+# out, from build/structure-compare/.
+ASIDE = ("FO", "ZY", "OX", "ox")
 STEMS = {"H": (0, 1), "I": (0, 1), "M": (0, 1), "N": (0, 1), "U": (0, 1), "B": (0,), "D": (0,),
          "E": (0,), "F": (0,), "K": (0,), "L": (0,), "P": (0,), "R": (0,)}
 FIGURES = ("zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
