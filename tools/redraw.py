@@ -16,6 +16,7 @@ another. So:
 - A, V, v, W, M and Y (8, 8, 8, 16, 16 and 10 points; A also has its bar), E and F, and
   Q's tail take the mockups' points from POLYGONS, placed in proportion on our frame.
   Thin keeps its own strokes: each curved joint becomes a flat notch where its edges meet.
+  Q's tail then starts nearer the bowl in every master (Q_TAIL_START).
 - The t crossbar reaches T_BAR's distances past the stem's edges, whatever the stem's
   weight or the fitted ink factor. Black's bar also takes the mockup's thickness.
 - The i and j dots are centred over the stem and take DOTS's size and height, through
@@ -28,12 +29,15 @@ again changes nothing.
 Usage: python tools/redraw.py source/PlaceholderSans-*.ufo   # rewrites the letters in GLYPHS
 """
 
+import math
 import os
 import re
 import sys
 
 import ufoLib2
+from fontTools.misc.bezierTools import curveLineIntersections, lineLineIntersections
 from fontTools.misc.transform import Transform
+from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.recordingPen import DecomposingRecordingPen
 from fontTools.ufoLib.glifLib import GlyphSet
 from ufoLib2.objects import Point
@@ -152,6 +156,14 @@ POLYGONS = {
         "Black": (1556.2, 1514.9, {0: [(701.5, 536.0), (894.0, 328.4), (1086.5, 120.7), (1278.9, -86.9), (1519.0, 126.3), (1326.5, 333.9), (1134.1, 541.5), (941.6, 749.2)]}),
     },
 }
+
+# Q's tail starts nearer the bowl than the mockups' at the user's request: its inner
+# (top-left) end is pulled out along the tail toward the outer end, which stays, to
+# Q_TAIL_START of the way from the bowl's centre to the counter's edge, measured on the
+# tail's centre line. The mockups' tails start at the centre (Regular's 58 units past it,
+# Black's 106, about 10% and 25% of the way); Thin's (Inter's) 278 past it, 40%. None
+# keeps the mockups' tail.
+Q_TAIL_START = 0.5
 
 # Masters without a POLYGONS entry (Thin) keep their own strokes: these contours' curved
 # joints become flat notches THIN_NOTCH wide where their edges meet.
@@ -330,6 +342,65 @@ def build_polygons(font, glyph, shapes):
     glyph.width += round(glyph.getBounds(font).xMax - right)   # keep the right sidebearing
 
 
+def tail_line(pts):
+    """The middles of Q's tail's inner and outer ends, its length and its unit direction."""
+    inner = ((pts[0].x + pts[7].x) / 2, (pts[0].y + pts[7].y) / 2)
+    outer = ((pts[3].x + pts[4].x) / 2, (pts[3].y + pts[4].y) / 2)
+    length = math.dist(inner, outer)
+    return inner, length, ((outer[0] - inner[0]) / length, (outer[1] - inner[1]) / length)
+
+
+def trim_tail(font, glyph, start):
+    """Pull Q's tail's inner end out toward its outer end, to `start` of the way from the
+    bowl's centre to the counter's edge along the tail's centre line. The tail is 8 points:
+    0-3 one side from the inner end out, 4-7 the other side back in; every point slides
+    toward its side's outer end by the same fraction, so the tail keeps its width, angle,
+    end cuts and point spacing, and its outer end doesn't move."""
+    pts = glyph.contours[0].points
+    if len(pts) != 8:
+        raise ValueError("Q: expected an eight-point tail as the first contour")
+    if start is None:
+        return
+    inner, length, (ux, uy) = tail_line(pts)
+    rec = DecomposingRecordingPen(font)
+    for component in glyph.components:                       # the bowl (O)
+        component.draw(rec)
+    b = BoundsPen(font)
+    rec.replay(b)
+    centre = ((b.bounds[0] + b.bounds[2]) / 2, (b.bounds[1] + b.bounds[3]) / 2)
+    along = lambda q: (q[0] - inner[0]) * ux + (q[1] - inner[1]) * uy
+    t_centre = along(centre)
+    line = [(inner[0] + ux * t_centre, inner[1] + uy * t_centre),
+            (inner[0] + ux * length, inner[1] + uy * length)]
+    hits = []
+    for op, args in rec.value:
+        if op == "moveTo":
+            first = last = args[0]
+            continue
+        if op == "endPath":
+            continue
+        if op == "closePath":
+            seg, last = [last, first], first
+        else:
+            seg, last = [last, *args], args[-1]
+        if len(seg) == 2:
+            found = lineLineIntersections(*seg, *line)
+        else:
+            found = curveLineIntersections(seg, line)
+        hits += [along(i.pt) for i in found if 0 <= i.t1 <= 1 and 0 <= i.t2 <= 1]
+    t_edge = min(t for t in hits if t > t_centre)            # the counter's edge
+    target = t_centre + start * (t_edge - t_centre)
+    if target <= 0.5:
+        return                                               # already starts there
+    s = (length - target) / length
+    right = glyph.getBounds(font).xMax
+    for i, p in enumerate(pts):
+        o = pts[3] if i < 4 else pts[4]
+        x0, y0 = o.x, o.y
+        p.x, p.y = round(x0 + s * (p.x - x0)), round(y0 + s * (p.y - y0))
+    glyph.width += round(glyph.getBounds(font).xMax - right)   # keep the right sidebearing
+
+
 def apply(ufo, master):
     x_height = ufo.info.xHeight
     for name, shapes in POLYGONS.items():
@@ -338,6 +409,7 @@ def apply(ufo, master):
         elif name in JOINTED:
             for index in JOINTED[name]:
                 set_contour(ufo[name], index, collapse(ufo[name].contours[index], THIN_NOTCH))
+    trim_tail(ufo, ufo["Q"], Q_TAIL_START)
     build_N(ufo, ufo["N"], N_SHAPES[master])
     build_arm(ufo, ufo["K"], ARMS["K"][master], ufo["K"].getBounds(ufo).yMax)
     build_arm(ufo, ufo["k"], ARMS["k"][master], x_height)

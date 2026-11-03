@@ -290,7 +290,15 @@ See README.md for the file layout, setup and commands.
   mockup-black.svg; A, V, v, W, M and Y, E's and F's bars and arms, and Q's tail (a
   rotated rectangle, as in both mockups) take the mockups' points from its `POLYGONS`
   table, placed in proportion on our letter (Q's tail on its bowl, keeping Q's right
-  sidebearing). Thin's lines are its own Inter strokes: each curved joint becomes a
+  sidebearing). Q's tail then starts nearer the bowl than the mockups' at the user's
+  request (`Q_TAIL_START`, every master): its top-left (inner) end is pulled out along the
+  tail to halfway from the bowl's centre to the counter's edge, on the tail's centre line,
+  so it is 225 / 71 / 104 units shorter (Regular / Thin / Black; the mockups' tails start
+  at the centre, Thin's Inter tail already 40% of the way). The outer end, below the
+  baseline, stays, and so do the width, angle and end cuts. Before/after and ⅓ / ½ / ⅔
+  options in `build/q-tail-compare/` (`?options`); a first try that pulled in the outer
+  end instead was not what the user meant. Q has no kerning of its own (it kerns as D's
+  group), so the kerning didn't change. Thin's lines are its own Inter strokes: each curved joint becomes a
   5-unit flat notch where its edges meet. Each letter keeps its outer edges, so spacing
   doesn't move. Every master
   is rebuilt with the same points, because a master left with Inter's open corners would
