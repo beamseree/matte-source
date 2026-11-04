@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblreversed" format="2">
-  <advance width="1275"/>
+  <advance width="1259"/>
   <unicode hex="201F"/>
   <outline>
     <component base="quotereversed"/>
-    <component base="quotereversed" xOffset="539"/>
+    <component base="quotereversed" xOffset="531"/>
   </outline>
   <lib>
     <dict>

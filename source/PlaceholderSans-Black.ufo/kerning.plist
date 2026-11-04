@@ -8537,30 +8537,30 @@
       <key>public.kern2.v</key>
       <integer>-104</integer>
       <key>public.kern2.y</key>
-      <integer>-82</integer>
+      <integer>-84</integer>
       <key>tecyrillic</key>
       <integer>-104</integer>
     </dict>
     <key>public.kern1.quotedblleft</key>
     <dict>
       <key>Alphatonos</key>
-      <integer>-76</integer>
+      <integer>-87</integer>
       <key>afii10021</key>
       <integer>-117</integer>
       <key>ampersand</key>
       <integer>-140</integer>
       <key>decyrillic</key>
       <integer>-126</integer>
-      <key>ibreve</key>
-      <integer>1</integer>
       <key>icaron</key>
-      <integer>49</integer>
+      <integer>38</integer>
       <key>icircumflex</key>
-      <integer>45</integer>
+      <integer>38</integer>
       <key>idieresis</key>
-      <integer>26</integer>
+      <integer>16</integer>
+      <key>iotadieresis</key>
+      <integer>16</integer>
       <key>jcircumflex</key>
-      <integer>52</integer>
+      <integer>45</integer>
       <key>public.kern2.A</key>
       <integer>-221</integer>
       <key>public.kern2.Elcyrillic</key>
@@ -8573,8 +8573,6 @@
       <integer>-190</integer>
       <key>public.kern2.four</key>
       <integer>-142</integer>
-      <key>public.kern2.iotadieresisgreek</key>
-      <integer>26</integer>
       <key>public.kern2.o</key>
       <integer>-80</integer>
       <key>public.kern2.questiondown</key>
@@ -8586,12 +8584,12 @@
       <key>public.kern2.slash</key>
       <integer>-215</integer>
       <key>yi-cy</key>
-      <integer>26</integer>
+      <integer>16</integer>
     </dict>
     <key>public.kern1.quotedblright</key>
     <dict>
       <key>Alphatonos</key>
-      <integer>-80</integer>
+      <integer>-83</integer>
       <key>afii10021</key>
       <integer>-91</integer>
       <key>ampersand</key>
@@ -8601,11 +8599,9 @@
       <key>iacyrillic</key>
       <integer>-69</integer>
       <key>icaron</key>
-      <integer>45</integer>
+      <integer>42</integer>
       <key>idieresis</key>
-      <integer>14</integer>
-      <key>jcircumflex</key>
-      <integer>6</integer>
+      <integer>11</integer>
       <key>less</key>
       <integer>-215</integer>
       <key>micro</key>
@@ -8643,7 +8639,7 @@
       <key>public.kern2.hyphen</key>
       <integer>-93</integer>
       <key>public.kern2.iotadieresisgreek</key>
-      <integer>14</integer>
+      <integer>11</integer>
       <key>public.kern2.m</key>
       <integer>-70</integer>
       <key>public.kern2.nine.1</key>
@@ -8675,7 +8671,7 @@
       <key>xi</key>
       <integer>-151</integer>
       <key>yi-cy</key>
-      <integer>14</integer>
+      <integer>11</integer>
     </dict>
     <key>public.kern1.quoteleft.ss08</key>
     <dict>

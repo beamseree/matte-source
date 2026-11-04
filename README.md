@@ -16,7 +16,7 @@ Working family name: "Placeholder Sans".
 | `reference/mockup-black.svg` | The Black design, same layout (`mockup-thin.webp` and `mockup-black.webp` are screenshots) |
 | `reference/targets.json`, `params.json` | Measurements from the mockup and the fitted parameters |
 | `tools/derive.py` | Inter → widened, lower x-height, heavier Regular, tighter spacing |
-| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides, runs straighten, redraw, reshape, refit, joints, spacing, accents, dots, stacked, kerning, kern and tabular |
+| `tools/to_ufo.py` | Glyphs → designspace + UFO, adds the background guides, runs straighten, redraw, reshape, refit, joints, xheight, quotes, spacing, accents, dots, stacked, kerning, kern and tabular |
 | `tools/straighten.py` | Redraws x, X, z, Z with straight strokes from the mockups' measurements (x/X narrowing toward the crossing, Z/z's shorter top bar; also usable on `source/` directly) |
 | `tools/redraw.py` | Redraws N, K, k, w, A, V, v, W, M, Y as the mockups' straight polygons, sets E/F's bars and Q's tail, the t crossbar and i/j dots (also usable on `source/` directly) |
 | `tools/dots.py` | Gives the period and the dots of !, ?, ¡ and ¿ the i dot's size, and moves the glyphs built on them (colon, semicolon, ellipsis, ·, ŀ, …); runs tabular.py after when used on `source/` directly |
@@ -27,7 +27,8 @@ Working family name: "Placeholder Sans".
 | `tools/accents.py` | Gives composites (accented letters, digraphs, Greek and Cyrillic) Inter's widths and puts their marks on their anchors at Inter's offsets (also usable on `source/` directly) |
 | `tools/kerning.py` | Refits Inter's kerning to our shapes and spacing (y in its own group), and adds the least kerning that keeps every two text glyphs 10 units apart and two letters 50 apart at every weight; `--check` scans the built font at every 100 (also usable on `source/` directly) |
 | `tools/kern.py` | Kerns tt, tf, ft and ff so t's and f's crossbars stay 60 units apart in every master (writes only kerning.plist) |
-| `tools/stacked.py` | Puts parts drawn over each other where Inter has them: the semicolons' dots, ⁑, ʘ Ͼ Ͽ and the circled and squared forms, with Inter's widths (also usable on `source/` directly) |
+| `tools/quotes.py` | Shortens the ’ ‘ ' wedges (and so the comma, ‚ „ “ ” " and ;) to other text faces' median length, keeping head, tail and lean (Regular and Black 15%, Thin 8%); run on its own, it runs spacing.py after (also usable on `source/` directly) |
+| `tools/stacked.py` | Puts parts drawn over each other where Inter has them: the semicolons' dots (over the comma's head), ⁑, ʘ Ͼ Ͽ and the circled and squared forms, with Inter's widths (also usable on `source/` directly) |
 | `tools/tabular.py` | Gives the tabular glyphs (`.tf` names and `figurespace`) one width per master again, from Inter's source (Black's figures 1400), and Inter's fixed-width glyphs (arrows, symbols, the em space and its fractions) their constant widths, with their ink placed as in Inter; sets the quads, punctuation, maths and thin spaces (also usable on `source/` directly) |
 | `tools/strokes.py` | Compares stroke widths on scanlines, ours (from `source/`) against the mockups; `--check` covers the redrawn letters |
 | `tools/fit.py` | Fits one master's `params.json` values to its mockup, building in `build/fit/`; `--apply` writes that master into `source/` |

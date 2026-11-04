@@ -5,6 +5,7 @@ longer match the derived outlines and would only clutter the editor. Letters tha
 tools/straighten.py, tools/redraw.py, tools/reshape.py and tools/refit.py fix are redrawn in
 every master, tools/joints.py thickens the joints of arches and bowls in Regular and Black,
 tools/xheight.py brings the small capitals and parts derive.py missed down to the x-height,
+tools/quotes.py shortens the quote wedges (and so the comma) to other faces' median length,
 tools/spacing.py sets the letters', figures' and punctuation's sidebearings and the word
 space, tools/accents.py gives composites (accented letters) Inter's widths and puts their marks on
 their anchors, tools/dots.py gives the punctuation dots the i dot's size, tools/stacked.py
@@ -44,6 +45,7 @@ import imgtarget  # noqa: E402
 import joints  # noqa: E402
 import kern  # noqa: E402
 import kerning  # noqa: E402
+import quotes  # noqa: E402
 import redraw  # noqa: E402
 import refit  # noqa: E402
 import reshape  # noqa: E402
@@ -166,6 +168,7 @@ def main():
         refit.apply(source.font, MASTERS[source.location["Weight"]])
         joints.apply(source.font, MASTERS[source.location["Weight"]])
         xheight.apply(source.font, MASTERS[source.location["Weight"]], regular)
+        quotes.apply(source.font, MASTERS[source.location["Weight"]])
         spacing.apply(source.font, MASTERS[source.location["Weight"]])
         accents.apply(source.font, MASTERS[source.location["Weight"]])
         dots.apply(source.font, MASTERS[source.location["Weight"]])
