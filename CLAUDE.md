@@ -42,7 +42,8 @@ See README.md for the file layout, setup and commands.
   (`tools/straighten.py`), and N, K, k, w, A, V, v, W, M, Y, E's and F's bars, Q's tail,
   the t crossbar and the i/j dots (`tools/redraw.py`); see Decisions. Every measured
   stroke is within about 1% of the mockups (`tools/strokes.py --check`), and their
-  outlines differ from the SVGs' by 0.0–0.4% of the ink area. Earlier, the redraw of
+  outlines differ from the SVGs' by 0.0–0.4% of the ink area, except Q's tail, which is
+  shorter at the top and longer below the baseline on purpose (see Decisions). Earlier, the redraw of
   N, K, k, w, t and i/j lowered ink errors but raised gap errors (ui, ic, ju, r_t, th),
   which looked like i/j stems placed 20–30 units right of the mockups' and t's longer bar
   reaching into its left sidebearing. The spacing pass found the cause (see its bullet):
