@@ -47,6 +47,7 @@ import unicodedata
 
 import numpy as np
 import ufoLib2
+from scipy.spatial import cKDTree
 from fontTools.misc import plistlib
 from fontTools.pens.basePen import BasePen
 from fontTools.pens.recordingPen import DecomposingRecordingPen
@@ -91,6 +92,18 @@ BASELINE = ("public.kern2.comma",)          # . , and the ellipsis
 # the mockups' curves in Regular and Black, and Sv Sw Sx Sy St Sf came out 34-61 units loose.
 ADD = {"public.kern1.S": ("public.kern2.v", "public.kern2.w", "public.kern2.x", "public.kern2.y",
                           "public.kern2.t", "public.kern2.f")}
+
+# The apostrophe sits midway between the letters either side, as in SF Pro, rather than near
+# the following letter as Inter kerns it ("don't": 327 units from the n, 243 from the t, once
+# quotes.py shortened it): every Latin letter's pairs with it, on both sides, are set so the
+# nearest distance between the letter and the apostrophe is APOSTROPHE_GAP, the mean over
+# common contractions before the quotes were shortened (the user chose this, "centred,
+# tighter", over Inter's placement restored and centred at today's 372 / 308 / 293, from an
+# apostrophe comparison page). {(left group, right group): key glyph}: ’ shares its kerning
+# with ”, and ' with ", so those follow; each is measured on the apostrophe itself.
+APOSTROPHE_GAP = {"Thin": 356, "Regular": 286, "Black": 273}
+APOSTROPHES = {("public.kern1.quotedblright", "public.kern2.quotedblright"): "quoteright",
+               ("public.kern1.quotedbl", "public.kern2.quotedbl"): "quotesingle"}
 
 # Glyphs drawn to join their neighbours, which the clearance leaves touching each other.
 DASHES = ("hyphen", "endash", "emdash", "hyphen.case", "endash.case", "emdash.case")
@@ -387,6 +400,91 @@ def refit(ufo, master, ours):
             if p and p[2]:
                 new = round(p[1])
                 out[(left, right)] = new if abs(new) >= THRESHOLD else 0
+    out.update(apostrophes(ufo, master, pairs))
+    return out
+
+
+class Ink:
+    """Points along a glyph's outline, every few units, for nearest distances in any direction."""
+
+    def __init__(self, ufo):
+        self.ufo, self.cache = ufo, {}
+
+    def __getitem__(self, name):
+        if name not in self.cache:
+            rec = DecomposingRecordingPen(self.ufo)
+            self.ufo[name].draw(rec)
+            pen = Flat(self.ufo)
+            rec.replay(pen)
+            parts = []
+            for x0, y0, x1, y1 in pen.segs:
+                t = np.linspace(0, 1, max(1, int(np.hypot(x1 - x0, y1 - y0) // 4)) + 1)
+                parts.append(np.stack([x0 + (x1 - x0) * t, y0 + (y1 - y0) * t], axis=1))
+            self.cache[name] = np.concatenate(parts)
+        return self.cache[name]
+
+
+def gap_at(ufo, ink, a, b, k):
+    """The nearest distance between a and b, in any direction, with kerning k."""
+    return cKDTree(ink[a]).query(ink[b] + (ufo[a].width + k, 0))[0].min()
+
+
+def kerning_for_gap(ufo, ink, a, b, gap):
+    """The kerning that leaves `gap` between a and b at their nearest, in any direction."""
+    lo, hi = -1600.0, 800.0
+    for _ in range(18):
+        mid = (lo + hi) / 2
+        lo, hi = (mid, hi) if gap_at(ufo, ink, a, b, mid) < gap else (lo, mid)
+    return (lo + hi) / 2
+
+
+def apostrophes(ufo, master, pairs):
+    """{pair: value} putting APOSTROPHES APOSTROPHE_GAP from every Latin letter on each side:
+    each letter's kerning group against the apostrophe's (measured on the group's key glyph),
+    and Inter's exceptions against it on their own glyphs."""
+    gap, ink, out = APOSTROPHE_GAP[master], Ink(ufo), {}
+    first, second = {}, {}
+    for g, members in ufo.groups.items():
+        for m in members:
+            (first if g.startswith("public.kern1.") else second if g.startswith("public.kern2.") else {})[m] = g
+    cmap = {g.unicode: g.name for g in ufo if g.unicode is not None}
+    latin = [cmap[ord(c)] for c in string.ascii_letters]
+    def letter(name):
+        if name not in ufo and name not in ufo.groups:
+            return False
+        c = char(ufo, key_glyph(ufo, name))
+        return bool(case(c)) and case(c) != "figure" and script(c) == "latin"
+
+    for (g1, g2), q in APOSTROPHES.items():
+        if g1 not in ufo.groups or g2 not in ufo.groups or q not in ufo:
+            continue
+        before = {(first.get(n, n), g2) for n in latin}     # the letter, then the apostrophe
+        after = {(g1, second.get(n, n)) for n in latin}     # the apostrophe, then the letter
+        for left, right in pairs:                           # Inter's exceptions with a letter
+            if (right == g2 or right in ufo.groups[g2]) and letter(left):
+                before.add((left, right))
+            if (left == g1 or left in ufo.groups[g1]) and letter(right):
+                after.add((left, right))
+        for left, right in before:
+            mark = q if right == g2 else right
+            out[(left, right)] = round(kerning_for_gap(ufo, ink, key_glyph(ufo, left), mark, gap))
+        for left, right in after:
+            mark = q if left == g1 else left
+            out[(left, right)] = round(kerning_for_gap(ufo, ink, mark, key_glyph(ufo, right), gap))
+        # A letter shaped unlike its group's key glyph (c's terminal reaching up beside o's
+        # round side: c’ 229 where o’ is 286) gets its own value, and so do the glyphs built
+        # on it (ç, é ...), where its group's leaves it THRESHOLD or more off the gap.
+        for n in latin:
+            for group, pair, a, b in ((first.get(n), lambda g: (g, g2), n, q),
+                                      (second.get(n), lambda g: (g1, g), q, n)):
+                if not group or out.get(pair(group)) is None:
+                    continue
+                if abs(gap_at(ufo, ink, a, b, out[pair(group)]) - gap) < THRESHOLD:
+                    continue
+                own = round(kerning_for_gap(ufo, ink, a, b, gap))
+                for member in ufo.groups[group]:
+                    if root(ufo, member) == root(ufo, n) and pair(member) not in out:
+                        out[pair(member)] = own
     return out
 
 

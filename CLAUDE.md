@@ -282,13 +282,21 @@ See README.md for the file layout, setup and commands.
     These two fixes changed 36 / 31 / 14 entries (Thin / Regular / Black); no overlaps,
     and the spacing and the gap error against the mockups are unchanged.
 
-  Open, for the user to decide:
-  - **Apostrophes after lowercase opened up with the shorter quotes**: Regular n’ s’ e’ ’s
-    ’d 34–65 looser than before quotes.py (’s from 31 tight to 34 loose), Black o’ e’ c’
-    about 37, Thin k’ g’ 100–180: Inter's −40 to −157 were for its long tail, and
-    kerning.py keeps Inter's values for quote pairs. The heads didn't move, so judge by
-    eye. Also by eye: Fa in Regular (−91 by the measure; kerning −7, Inter −50) and Ti, Tj
-    in Thin (+90, probably the lowered i dot).
+  - **Fixed: the apostrophe sits midway between its letters, like SF Pro's.** With the
+    shorter quotes it had opened up after lowercase (Regular n’ s’ e’ ’s ’d 34–65 looser
+    than before quotes.py, Black o’ e’ c’ about 37) and still sat nearer the following
+    letter, as Inter kerns it ("don’t": 327 units from the n, 243 from the t). The user
+    compared Inter's placement at the old gaps, centred at today's average and centred at
+    the average before the shortening ("centred, tighter"), live beside SF Pro, Inter,
+    Geist and Work Sans, chose the last, and asked for the straight apostrophe too
+    (`APOSTROPHE_GAP`, see Decisions). Both ’ and ' are now 356 / 286 / 273 units (Thin /
+    Regular / Black) from every Latin letter on both sides at their nearest, within 9
+    units ("don’t" 286|286, was 327|243), and ” and " follow; L’ tucks over L's arm
+    (−702 in Regular), A’ over A's slope (−276). 236 / 316 / 243 entries changed, nothing
+    outside these pairs; no overlaps; the WOFF2 is still 258 KB.
+
+  Left as they are (the user looked at them): Fa in Regular (−91 by the measure; kerning
+  −7, Inter −50) and Ti, Tj in Thin (+90, probably the lowered i dot).
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -651,8 +659,18 @@ See README.md for the file layout, setup and commands.
   automatic refit against one close point; here the audit's pair terms agree pair by pair,
   and at 40 P. would have stayed 19 loose). The median over Inter's comma pairs suits the
   lowercase better than one over all 52 letters (which tightens r, by 14 where the audit
-  has it right); the capitals come out the same either way. With each glyph's own spacing
-  factored out, the
+  has it right); the capitals come out the same either way. The apostrophes (’, which
+  shares its kerning with ”, and ', with ") are set apart from Inter's kerning: every Latin
+  letter's pairs with them, on both sides, are solved (by bisection) so the nearest
+  distance in any direction between the letter and the apostrophe is `APOSTROPHE_GAP`
+  (356 / 286 / 273, the mean over common contractions before quotes.py shortened the
+  quotes), which centres the apostrophe between any two letters, as SF Pro does; nearest
+  distance because a mark that small is judged by how close it comes. Each letter's
+  kerning group is solved on its key glyph, Inter's exceptions against an apostrophe on
+  their own glyphs, and a letter its group leaves 10 or more off (c beside o's round
+  side: c’ 229 where o’ is 286) gets its own value, with the glyphs built on it (matched
+  by their root, so d and q go with b and p). Figures keep Inter's kerning. With each
+  glyph's own spacing factored out, the
   model's kerning matches Inter's within about 15 units for F's, Y's and the diagonals'
   pairs, so the audit's tight F and Black-Y pairs are spacing (see `ASIDE`), not kerning.
   Then `clear` sets every text glyph (`SCRIPTS`, `MARKS`) against its own script's
