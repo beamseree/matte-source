@@ -17,8 +17,7 @@ measure has too little to go on). That change is held to CLIP: one close point (
 top terminal at F's middle arm, where Inter's sits above it) moves it a lot. A change under
 THRESHOLD keeps Inter's value. Greek and Cyrillic pairs are refitted the same way (Inter's
 values for ТЛ, ГЛ and ТД had stayed unscaled). y's kerning group is split from v's (SPLIT):
-its left side is fuller, so it takes v's pairs plus the difference in how y and v meet the
-other glyph.
+its left side is fuller, so it takes v's pairs, each refitted on y itself.
 
 Then every letter text uses (accented, Vietnamese, Greek and Cyrillic too) is set against
 every other of its script, and against the figures and punctuation (and the punctuation's
@@ -69,8 +68,11 @@ DEFAULT = 430                    # the Regular master's weight
 
 # Kerning groups split from Inter's, {new group: (Inter's group, key glyph)}: the new group
 # takes the old one's members built on the key glyph, and a copy of the old group's pairs,
-# refitted to its own key. y's left side (its arm and tail) is 21-42 units fuller than v's,
-# so kerning y as v left Ay, Fy, ky and Py tight.
+# refitted on its own key like any other pair (Inter kerns y in v's group, so Inter's value
+# for x|y is x|v's). y's left side (its arm and tail) is 21-42 units fuller than v's, so
+# kerning y as v left Ay, Fy, ky and Py tight. Refitting each pair instead as v's value plus
+# whatever kept x|y's gap equal to x|v's undid y's own sidebearing: when spacing.py opened
+# y's left 31 units (ASIDE's "zy"), ny went from -34 to -65 and stayed 30 units tight.
 SPLIT = {"public.kern2.y": ("public.kern2.v", "y")}
 
 # Glyphs drawn to join their neighbours, which the clearance leaves touching each other.
@@ -280,8 +282,8 @@ def split(ufo):
 
 def refit(ufo, master, ours):
     """{pair: value} for Inter's pairs, refitted where they're ours to refit. A group SPLIT
-    off Inter's takes its old group's pairs, refitted, plus the difference between how its key
-    and the old group's key meet the other glyph, so it keeps the old group's gaps."""
+    off Inter's takes its old group's pairs, each refitted on its own key glyph: Inter's value
+    (the old group's, which Inter gives its key too), measured with that key in both fonts."""
     theirs, pairs = inter(master)
     depth, lam = CAL[master]
     k = scales(ufo, master)
@@ -303,10 +305,6 @@ def refit(ufo, master, ours):
                 new += max(-CLIP, min(CLIP, change))
         return new
 
-    def gap(a, b):
-        m = measures(ours, a, b, depth)
-        return m and (1 - lam) * m[0] + lam * m[1]
-
     out = {}
     for (left, right), value in pairs.items():
         if (left, right) in kern.PAIRS:
@@ -319,15 +317,11 @@ def refit(ufo, master, ours):
         if split_group not in ufo.groups:
             continue
         side = 0 if split_group.startswith("public.kern1.") else 1
-        old_key = key_glyph(ufo, old)
         for (left, right), value in pairs.items():
             if (left, right)[side] != old:
                 continue
-            other = key_glyph(ufo, right if side == 0 else left)
-            g = (gap(key, other), gap(old_key, other)) if side == 0 else \
-                (gap(other, old_key), gap(other, key))
             pair = (split_group, right) if side == 0 else (left, split_group)
-            out[pair] = round(one(left, right, value) + (g[0] - g[1] if None not in g else 0))
+            out[pair] = round(one(key, right, value) if side == 0 else one(left, key, value))
     return out
 
 

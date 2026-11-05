@@ -257,14 +257,17 @@ See README.md for the file layout, setup and commands.
   median 2.1 / 1.5 / 0.9 units (Thin / Regular / Black); the comma and semicolon didn't
   move; the word gap is 2.36 / 2.69 / 3.00 times n|n's (Inter 2.45 / 2.82 / 3.00); the 61
   pairs that change sign between masters are the clearance (Τ Γ Ρ before Ά, ơ before y)
-  and kern.py's bars. Open, for the user to decide (findings and live proofs were in the
-  "Placeholder Sans Kerning Audit" artifact):
-  - **y's kerning undoes B's y** (a bug): `kerning.py`'s `SPLIT` gives y v's pairs plus
-    whatever keeps each x|y gap equal to x|v, so when B opened y's left 31 units, every pair
-    Inter kerns against v took it back (Regular ny −34 → −65). ny my hy ay are 30 tight in
-    Regular (Black 32–40, Thin 46–58), ey oy 22. Measuring y's pairs on y itself, as every
-    other pair (`one(left, key, value)` in the SPLIT loop), brings them within 3 units
-    (68 / 78 / 30 pairs change in Thin / Regular / Black; the overlap check passes).
+  and kern.py's bars. Findings and live proofs were in the "Placeholder Sans Kerning Audit"
+  artifact.
+  - **Fixed: y's kerning undid B's y.** `kerning.py`'s `SPLIT` gave y v's pairs plus
+    whatever kept each x|y gap equal to x|v, so when B opened y's left 31 units, every pair
+    Inter kerns against v took it back (Regular ny −34 → −65): ny my hy ay were 30 tight in
+    Regular (Black 32–40, Thin 46–58), ey oy 22. y's pairs are now refitted on y itself, as
+    every other pair (see Decisions), which brings them within 3 units: 68 / 78 / 30 pairs
+    changed (Thin / Regular / Black), Regular ny −65 → −29 (nv −30), Ay −157 → −137; no
+    overlaps, spacing unchanged. The user chose to fix this first.
+
+  Open, for the user to decide:
   - **Apostrophes after lowercase opened up with the shorter quotes**: Regular n’ s’ e’ ’s
     ’d 34–65 looser than before quotes.py (’s from 31 tight to 34 loose), Black o’ e’ c’
     about 37, Thin k’ g’ 100–180: Inter's −40 to −157 were for its long tail, and
@@ -621,8 +624,11 @@ See README.md for the file layout, setup and commands.
   spacing set from the mockups. Under `THRESHOLD` (10) a pair keeps Inter's value. Greek
   and Cyrillic pairs are refitted the same way (ТЛ, ГЛ, ТД had kept Inter's unscaled
   −280). y is split from v's right-side group (`SPLIT`, written to groups.plist): its left
-  is fuller, so it takes v's pairs plus the difference in how y and v meet the other glyph
-  (A–y −121 where A–v is −139 in Regular). With each glyph's own spacing factored out, the
+  is fuller, so it takes v's pairs, each refitted on y itself like any other pair (Inter
+  kerns y in v's group, so Inter's x|y is its x|v): Regular A–y −137, A–v −139, n–y −29,
+  n–v −30. It had taken v's refitted value plus whatever kept x|y's gap equal to x|v's,
+  which undid y's own left side once spacing.py opened it (ny −65, 30 units tight). With
+  each glyph's own spacing factored out, the
   model's kerning matches Inter's within about 15 units for F's, Y's and the diagonals'
   pairs, so the audit's tight F and Black-Y pairs are spacing (see `ASIDE`), not kerning.
   Then `clear` sets every text glyph (`SCRIPTS`, `MARKS`) against its own script's

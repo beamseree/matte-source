@@ -2743,7 +2743,7 @@
       <key>public.kern2.w</key>
       <integer>-69</integer>
       <key>public.kern2.y</key>
-      <integer>-93</integer>
+      <integer>-69</integer>
     </dict>
     <key>aogonek</key>
     <dict>
@@ -2796,7 +2796,7 @@
       <key>public.kern2.v</key>
       <integer>-104</integer>
       <key>public.kern2.y</key>
-      <integer>-119</integer>
+      <integer>-104</integer>
     </dict>
     <key>becyrillic</key>
     <dict>
@@ -5407,21 +5407,21 @@
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yacute</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ycircumflex</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydieresis</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydotbelow</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ygrave</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yhookabove</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ytilde</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
     </dict>
     <key>ohorndotbelow</key>
     <dict>
@@ -5494,21 +5494,21 @@
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yacute</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ycircumflex</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydieresis</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydotbelow</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ygrave</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yhookabove</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ytilde</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
     </dict>
     <key>ohorngrave</key>
     <dict>
@@ -5581,21 +5581,21 @@
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yacute</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ycircumflex</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydieresis</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydotbelow</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ygrave</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yhookabove</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ytilde</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
     </dict>
     <key>ohornhookabove</key>
     <dict>
@@ -5668,21 +5668,21 @@
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yacute</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ycircumflex</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydieresis</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydotbelow</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ygrave</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yhookabove</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ytilde</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
     </dict>
     <key>ohorntilde</key>
     <dict>
@@ -5755,21 +5755,21 @@
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yacute</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ycircumflex</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydieresis</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ydotbelow</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ygrave</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>yhookabove</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>ytilde</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
     </dict>
     <key>ohungarumlaut</key>
     <dict>
@@ -5812,22 +5812,6 @@
     <dict>
       <key>lslash</key>
       <integer>0</integer>
-      <key>y</key>
-      <integer>-89</integer>
-      <key>yacute</key>
-      <integer>-89</integer>
-      <key>ycircumflex</key>
-      <integer>-89</integer>
-      <key>ydieresis</key>
-      <integer>-89</integer>
-      <key>ydotbelow</key>
-      <integer>-89</integer>
-      <key>ygrave</key>
-      <integer>-89</integer>
-      <key>yhookabove</key>
-      <integer>-89</integer>
-      <key>ytilde</key>
-      <integer>-89</integer>
     </dict>
     <key>otilde</key>
     <dict>
@@ -5980,7 +5964,7 @@
       <key>public.kern2.w</key>
       <integer>-139</integer>
       <key>public.kern2.y</key>
-      <integer>-161</integer>
+      <integer>-130</integer>
       <key>tau</key>
       <integer>-186</integer>
       <key>tenge</key>
@@ -6104,7 +6088,7 @@
       <key>public.kern2.v</key>
       <integer>-69</integer>
       <key>public.kern2.y</key>
-      <integer>-83</integer>
+      <integer>-63</integer>
       <key>public.kern2.z</key>
       <integer>-91</integer>
       <key>underscore</key>
@@ -6213,7 +6197,7 @@
       <key>public.kern2.w</key>
       <integer>-128</integer>
       <key>public.kern2.y</key>
-      <integer>-117</integer>
+      <integer>-94</integer>
     </dict>
     <key>public.kern1.L</key>
     <dict>
@@ -6270,7 +6254,7 @@
       <key>public.kern2.v</key>
       <integer>-139</integer>
       <key>public.kern2.y</key>
-      <integer>-151</integer>
+      <integer>-131</integer>
       <key>quotedblreversed</key>
       <integer>-80</integer>
       <key>quotereversed</key>
@@ -6437,7 +6421,7 @@
       <key>public.kern2.x</key>
       <integer>-128</integer>
       <key>public.kern2.y</key>
-      <integer>-155</integer>
+      <integer>-134</integer>
       <key>public.kern2.z</key>
       <integer>-103</integer>
       <key>rho</key>
@@ -7031,7 +7015,7 @@
       <key>public.kern2.w</key>
       <integer>-20</integer>
       <key>public.kern2.y</key>
-      <integer>-99</integer>
+      <integer>-38</integer>
       <key>uni023E</key>
       <integer>-151</integer>
     </dict>
@@ -7069,7 +7053,7 @@
       <key>public.kern2.x</key>
       <integer>-69</integer>
       <key>public.kern2.y</key>
-      <integer>-114</integer>
+      <integer>-81</integer>
       <key>tenge</key>
       <integer>-81</integer>
     </dict>
@@ -7132,7 +7116,7 @@
       <key>public.kern2.w</key>
       <integer>-26</integer>
       <key>public.kern2.y</key>
-      <integer>-76</integer>
+      <integer>-45</integer>
     </dict>
     <key>public.kern1.bsmcyrillic</key>
     <dict>
@@ -7161,7 +7145,7 @@
       <key>public.kern2.x</key>
       <integer>-46</integer>
       <key>public.kern2.y</key>
-      <integer>-98</integer>
+      <integer>-56</integer>
     </dict>
     <key>public.kern1.bullet</key>
     <dict>
@@ -7530,7 +7514,7 @@
       <key>public.kern2.x</key>
       <integer>-69</integer>
       <key>public.kern2.y</key>
-      <integer>-103</integer>
+      <integer>-69</integer>
     </dict>
     <key>public.kern1.hyphen</key>
     <dict>
@@ -7748,7 +7732,7 @@
       <key>public.kern2.x</key>
       <integer>-80</integer>
       <key>public.kern2.y</key>
-      <integer>-99</integer>
+      <integer>-79</integer>
       <key>public.kern2.z</key>
       <integer>-80</integer>
     </dict>
@@ -7765,7 +7749,7 @@
       <key>public.kern2.v</key>
       <integer>-10</integer>
       <key>public.kern2.y</key>
-      <integer>-40</integer>
+      <integer>-9</integer>
     </dict>
     <key>public.kern1.nine</key>
     <dict>
@@ -7871,7 +7855,7 @@
       <key>public.kern2.x</key>
       <integer>-46</integer>
       <key>public.kern2.y</key>
-      <integer>-89</integer>
+      <integer>-38</integer>
       <key>public.kern2.z</key>
       <integer>-30</integer>
     </dict>
@@ -8039,7 +8023,7 @@
       <key>public.kern2.v</key>
       <integer>-104</integer>
       <key>public.kern2.y</key>
-      <integer>-117</integer>
+      <integer>-104</integer>
       <key>tecyrillic</key>
       <integer>-104</integer>
     </dict>
@@ -8262,7 +8246,7 @@
       <key>public.kern2.x</key>
       <integer>32</integer>
       <key>public.kern2.y</key>
-      <integer>8</integer>
+      <integer>33</integer>
     </dict>
     <key>public.kern1.r.sups</key>
     <dict>
@@ -8546,7 +8530,7 @@
       <key>public.kern2.w</key>
       <integer>60</integer>
       <key>public.kern2.y</key>
-      <integer>25</integer>
+      <integer>46</integer>
     </dict>
     <key>public.kern1.t.sups</key>
     <dict>
@@ -8643,7 +8627,7 @@
       <key>public.kern2.v</key>
       <integer>40</integer>
       <key>public.kern2.y</key>
-      <integer>15</integer>
+      <integer>41</integer>
     </dict>
     <key>public.kern1.v</key>
     <dict>
@@ -8855,7 +8839,7 @@
       <key>public.kern2.v</key>
       <integer>-104</integer>
       <key>public.kern2.y</key>
-      <integer>-119</integer>
+      <integer>-104</integer>
     </dict>
     <key>public.kern1.zero.sups</key>
     <dict>
