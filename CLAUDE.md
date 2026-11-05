@@ -42,7 +42,8 @@ See README.md for the file layout, setup and commands.
   (`tools/straighten.py`), and N, K, k, w, A, V, v, W, M, Y, E's and F's bars, Q's tail,
   the t crossbar and the i/j dots (`tools/redraw.py`); see Decisions. Every measured
   stroke is within about 1% of the mockups (`tools/strokes.py --check`), and their
-  outlines differ from the SVGs' by 0.0–0.4% of the ink area. Earlier, the redraw of
+  outlines differ from the SVGs' by 0.0–0.4% of the ink area, except Q's tail, which is
+  shorter at the top and longer below the baseline on purpose (see Decisions). Earlier, the redraw of
   N, K, k, w, t and i/j lowered ink errors but raised gap errors (ui, ic, ju, r_t, th),
   which looked like i/j stems placed 20–30 units right of the mockups' and t's longer bar
   reaching into its left sidebearing. The spacing pass found the cause (see its bullet):
@@ -305,7 +306,28 @@ See README.md for the file layout, setup and commands.
   mockup-black.svg; A, V, v, W, M and Y, E's and F's bars and arms, and Q's tail (a
   rotated rectangle, as in both mockups) take the mockups' points from its `POLYGONS`
   table, placed in proportion on our letter (Q's tail on its bowl, keeping Q's right
-  sidebearing). Thin's lines are its own Inter strokes: each curved joint becomes a
+  sidebearing). Q's tail then starts nearer the bowl than the mockups' at the user's
+  request (`Q_TAIL_START`, every master): its top-left (inner) end is pulled out along the
+  tail to halfway from the bowl's centre to the counter's edge, on the tail's centre line,
+  so it is 225 / 71 / 104 units shorter (Regular / Thin / Black; the mockups' tails start
+  at the centre, Thin's Inter tail already 40% of the way); before/after and ⅓ / ½ / ⅔
+  options in `build/q-tail-compare/` (`?options`), and a first try that pulled in the
+  outer end instead was not what the user meant. The outer end then reaches further
+  below the baseline (`Q_TAIL_DEPTH`): its lowest corner is 100 below it in Regular and
+  Thin and 93 in Black (the mockups' 85 and 87, Thin's Inter tail 140), a quarter of the
+  way to Inter's depths (140 / 140 / 110) with Regular's rounded to 100, and Thin brought
+  up to Regular's at the user's request, so the tail keeps one depth from 100 to 430
+  (`build/q-tail-compare/thin.html`). The width, angle and end cuts stay: the mockups'
+  square-on cuts in Regular and Black, Inter's flat ones in Thin (at 46 units the two
+  differ by about 30 units at the corners). The user compared flat (Inter-like) end
+  cuts and depths out to SF Pro's (about 175 / 120, measured from a screenshot) in the
+  artifact https://claude.ai/artifact/NkCNmkHqVyEnNf7CQ29usS and `build/q-tail-compare/`
+  (cuts.html, depth.html): with flat cuts our heavier, shallower tail sticks out past the
+  bowl unless it slides left (161 in Black at today's depth), and deeper angled tails
+  bring QA within 50 units at 900 (44 at ¾ of the way, 36 at Inter's depth). Q has no
+  kerning of its own (it kerns as D's group), and at these depths no pair comes nearer
+  than 50, so the kerning didn't change. `strokes.py --check` leaves Q's tail out, since
+  its ends differ from the mockups' on purpose. Thin's lines are its own Inter strokes: each curved joint becomes a
   5-unit flat notch where its edges meet. Each letter keeps its outer edges, so spacing
   doesn't move. Every master
   is rebuilt with the same points, because a master left with Inter's open corners would

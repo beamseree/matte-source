@@ -227,7 +227,10 @@ def dot(master, char, source):
 # What tools/straighten.py and tools/redraw.py fixed: horizontal widths on these rows
 # (masters whose strokes match their mockup), the t crossbar's reach past the stem
 # (every master), the i/j dots, and the Z/z top bars' insets (every master).
-# x/X rows sit below, through and above the crossing; z/Z rows also cut both bars.
+# x/X rows sit below, through and above the crossing; z/Z rows also cut both bars. Q's
+# tail is left out: its thickness and angle are the mockups' (redraw.py's POLYGONS), but it
+# starts nearer the bowl and reaches further below the baseline on purpose (Q_TAIL_START,
+# Q_TAIL_DEPTH), so no row outside the bowl cuts it where it cuts the mockups'.
 ROWS = [("x", 150), ("x", 300), ("x", 560), ("x", 850), ("x", 900),
         ("X", 300), ("X", 450), ("X", 770), ("X", 1100), ("X", 1200),
         ("z", 80), ("z", 550), ("z", 1000), ("Z", 80), ("Z", 745), ("Z", 1420),
@@ -235,7 +238,7 @@ ROWS = [("x", 150), ("x", 300), ("x", 560), ("x", 850), ("x", 900),
         ("w", 300), ("w", 575), ("w", 800),
         ("A", 150), ("A", 450), ("A", 1100), ("V", 300), ("V", 1200), ("v", 250), ("v", 900),
         ("W", 300), ("W", 1200), ("M", 300), ("M", 1300), ("Y", 300), ("Y", 1200),
-        ("E", 750), ("E", 1300), ("F", 750), ("F", 1300), ("Q", -40)]
+        ("E", 750), ("E", 1300), ("F", 750), ("F", 1300)]
 BAR_ROWS = {"Thin": 1050, "Regular": 990, "Black": 940}  # inside both crossbars
 # Rows inside z's and Z's bottom and top bars: the mockups' (full rows of the screenshot,
 # whose strokes are about 105 units) and ours (20 units in from each edge, inside Thin's).
