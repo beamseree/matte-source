@@ -42,6 +42,7 @@
         <array>
           <string>uni0238</string>
           <string>uni0239</string>
+          <string>y.sups</string>
         </array>
         <key>name</key>
         <string>eraseOpenCorners</string>

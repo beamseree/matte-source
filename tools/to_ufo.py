@@ -6,8 +6,9 @@ tools/straighten.py, tools/redraw.py, tools/reshape.py and tools/refit.py fix ar
 every master, tools/joints.py thickens the joints of arches and bowls in Regular and Black,
 tools/xheight.py brings the small capitals and parts derive.py missed down to the x-height,
 tools/quotes.py shortens the quote wedges (and so the comma) to other faces' median length,
-tools/spacing.py sets the letters', figures' and punctuation's sidebearings and the word
-space, tools/accents.py gives composites (accented letters) Inter's widths and puts their marks on
+tools/superiors.py narrows the superscripts (and so the subscripts) to the figures'
+proportions (all masters at once), tools/spacing.py sets the letters', figures' and
+punctuation's sidebearings and the word space, tools/accents.py gives composites (accented letters) Inter's widths and puts their marks on
 their anchors, tools/dots.py gives the punctuation dots the i dot's size, tools/stacked.py
 puts stacked components (the semicolon's dot, the circled forms) where Inter has them,
 tools/kerning.py refits Inter's kerning to our shapes and keeps pairs from colliding (all
@@ -52,6 +53,7 @@ import reshape  # noqa: E402
 import spacing  # noqa: E402
 import stacked  # noqa: E402
 import straighten  # noqa: E402
+import superiors  # noqa: E402
 import tabular  # noqa: E402
 import xheight  # noqa: E402
 
@@ -131,7 +133,9 @@ def add_guides(ufo, letters):
 
 # Overlapping-contour glyphs whose open corners erase differently once the masters'
 # stem weights diverge, which breaks interpolation. Keeping their corners is harmless.
-OPEN_CORNER_EXCLUDE = ["uni0238", "uni0239"]
+# y.sups: narrowed (tools/superiors.py), the tail's 2-unit end step crosses its closing
+# line by about a unit in Thin only.
+OPEN_CORNER_EXCLUDE = ["uni0238", "uni0239", "y.sups"]
 
 
 def exclude_from_open_corner_erasing(lib):
@@ -157,6 +161,9 @@ def main():
     # xheight.py mixes Black against Regular, so Regular goes before Black.
     ds.sources.sort(key=lambda s: s.location["Weight"])
     regular = next(s.font for s in ds.sources if MASTERS[s.location["Weight"]] == "Regular")
+    # superiors.py mixes each master's superscripts with the next master's, so it reads all
+    # three before changing any; nothing before spacing.py below touches them.
+    superiors.apply_all({MASTERS[s.location["Weight"]]: s.font for s in ds.sources})
     for source in ds.sources:
         for name in list(source.font.layers.keys()):
             if name != source.font.layers.defaultLayer.name:
