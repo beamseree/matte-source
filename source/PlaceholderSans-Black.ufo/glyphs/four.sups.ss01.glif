@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.sups.ss01" format="2">
-  <advance width="1047"/>
+  <advance width="989"/>
   <outline>
     <contour>
       <point x="110" y="1011" type="line"/>
-      <point x="959" y="1011" type="line"/>
-      <point x="959" y="1198" type="line"/>
-      <point x="371" y="1198" type="line"/>
-      <point x="371" y="1209" type="line"/>
-      <point x="679" y="1728" type="line"/>
-      <point x="428" y="1728" type="line"/>
+      <point x="901" y="1011" type="line"/>
+      <point x="901" y="1198" type="line"/>
+      <point x="365" y="1198" type="line"/>
+      <point x="365" y="1209" type="line"/>
+      <point x="634" y="1728" type="line"/>
+      <point x="389" y="1728" type="line"/>
       <point x="110" y="1198" type="line"/>
     </contour>
     <contour>
-      <point x="586" y="886" type="line"/>
-      <point x="836" y="886" type="line"/>
-      <point x="836" y="1412" type="line"/>
-      <point x="602" y="1412" type="line"/>
-      <point x="602" y="1141" type="line"/>
-      <point x="586" y="1043" type="line"/>
+      <point x="544" y="886" type="line"/>
+      <point x="789" y="886" type="line"/>
+      <point x="789" y="1412" type="line"/>
+      <point x="561" y="1412" type="line"/>
+      <point x="561" y="1141" type="line"/>
+      <point x="544" y="1043" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -49,7 +49,9 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 MASTERS = ("Thin", "Regular", "Black")
 FIGURES = ("zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine")
 # How wide the superscript figures are for their height, as a multiple of the figures'
-# (Inter's: 1.26 / 1.26 / 1.18).
+# (Inter's: 1.26 / 1.26 / 1.18). The user chose 1.10 over 1.15 and 1.05, in text at every
+# weight and against twelve other sans serifs; in Black it mixes 24% past the master, and
+# 1.05 closed the counters too far there (the superscript 0's from 300 units to 207).
 RATIO = {"Thin": 1.10, "Regular": 1.10, "Black": 1.10}
 # The superscript 0's top over its side, as a multiple of the 0's.
 CONTRAST = {"Thin": 1.00, "Regular": 1.00, "Black": 0.95}

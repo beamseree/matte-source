@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="j.subs" format="2">
-  <advance width="479"/>
+  <advance width="461"/>
   <unicode hex="2C7C"/>
-  <anchor x="339" y="-314" name="_right"/>
-  <anchor x="205" y="-528" name="bottom"/>
-  <anchor x="243" y="83" name="cross"/>
-  <anchor x="245" y="633" name="top"/>
+  <anchor x="307" y="-314" name="_right"/>
+  <anchor x="192" y="-528" name="bottom"/>
+  <anchor x="228" y="83" name="cross"/>
+  <anchor x="230" y="633" name="top"/>
   <outline>
     <component base="j.sups" yOffset="-1200"/>
   </outline>

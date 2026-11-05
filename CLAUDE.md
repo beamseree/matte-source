@@ -5,7 +5,7 @@ to the user's own mockup, `reference/mockup.svg`. Working family name "Placehold
 the real name is still to be chosen. The folder name "aumo-font" is not the font name.
 See README.md for the file layout, setup and commands.
 
-## Status (2026-11-04)
+## Status (2026-11-05)
 
 - **Regular** is fitted to `reference/mockup.svg` (fit report: ink error mean 1.0 units,
   since the redraws below, the new f, t, P, C/G/S/s terminals and i/j dots, and c's wider
@@ -231,6 +231,23 @@ See README.md for the file layout, setup and commands.
   (7 / 9 / 16 pairs).
   The comma still has 2.07 times the period's ink at 400 (the others 1.49–2.06), since our
   period is the i dot's size; its head is 0.86 of the period's width, as in the others.
+- **The superscripts (and so the subscripts) are narrower** (`tools/superiors.py`, see
+  Decisions). The user saw them as wide and stretched: Inter made them with RMX Scaler at
+  66% of the figure's width and 54.5% of its height, so a superscript figure was 1.26 times
+  as wide for its height as our figure (Black 1.18), against a median 1.05 in 30 other
+  sans serifs (1.00–1.17, Roboto the widest), and in Regular its horizontals were thin
+  against its verticals (the superscript 0's side 188, top 154, where our 0 is 197 / 188).
+  Now 1.10 in every master, with the 0's contrast (Black 0.95 of it, the others' median at
+  900): the superscript 0's side is 45 / 161 / 286 (Thin / Regular / Black), its top 45 /
+  154 / 228 as before. At 400 its strokes are 0.82 / 0.82 of the 0's, like Roboto's, Noto
+  Sans's and Open Sans's. Heights, positions and sidebearings are unchanged (ours sit at
+  0.60–1.15 of the cap height, as Inter's; the others' median 0.48–1.02, with Noto Sans,
+  Open Sans and Figtree as high; subscripts −0.21–0.35, the median −0.15–0.44). The user
+  chose 1.10 over 1.15 and 1.05 (and Inter's), in text at every weight, then against
+  twelve other sans serifs. Still Inter's: the superscript letters' shapes (ᶠ's round top,
+  ᵗ's foot, ʸ's tail, ᵏ ᵛ ʷ ˣ's curved joints, ʳ's arm, ˢ ᶜ ᵉ's flat cuts, and ª º), the
+  superscript 5's joint (thinner than our 5's), and the fractions' contrast (.numr/.dnom are
+  evenly scaled, so only their horizontals are a little thin in Regular: 0.83 of the 0's).
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -448,6 +465,24 @@ See README.md for the file layout, setup and commands.
   alternates (quoteright.ss03 and the round set, the .ss08 square set, comma.ss07) are
   drawn apart and keep Inter's lengths. `to_ufo.py` runs it after xheight.py and before
   spacing.py; run on its own, it runs spacing.py after.
+- The superscripts are the figures' proportions, not Inter's stretched ones:
+  `tools/superiors.py` moves each master's drawn superscripts (every glyph with a "sups"
+  suffix part and contours: the figures and their alternates, the letters, + − = ( ) [ ])
+  in x only, so heights and horizontal strokes stay. As derive.py compensates stems, their
+  x coordinates are mixed with the next heavier master's (Black's extrapolated away from
+  Regular's) by f and scaled by s about the left ink edge, keeping both sidebearings. One
+  (f, s) per master, solved on the figures: s gives the superscript 0's side `CONTRAST`
+  times its top against the 0's own top over side, and f makes the superscript figures
+  `RATIO` (1.10) times as wide for their height as the figures (the mean of 0–9). The letters
+  and signs take the same (f, s). Black's f is +0.24 (24% past Black), which closes its
+  0's counter from 300 to 243 units; 1.05 would have taken it to 207. The .subs are the
+  .sups moved down, and ℀ ℁ ℅ ℆ ⅍ are built on them, so they follow through accents.py.
+  spacing.py's `SIDES` for the small glyphs are Inter's sides scaled, not fitted to the
+  outline, so they don't change. Inter's fractions are scaled evenly (55% by 54.5%) and
+  are left alone, as are ª and º (80% by 75%). `--check` prints each master against its
+  targets; running it again changes nothing. `to_ufo.py` runs it once for all three
+  masters before the per-master chain (nothing before spacing.py touches the
+  superscripts); run on its own, it runs spacing.py after.
 - t's and f's crossbars stay apart through kerning, not shorter bars (the bars' reach
   is the mockups'): `tools/kern.py` sets glyph-to-glyph pairs tt, tf, ft and ff to leave
   `BAR_GAP` (60) between the bars in every master, on top of Inter's group kerning.
@@ -598,7 +633,8 @@ See README.md for the file layout, setup and commands.
   overlaps and for letter pairs nearer than `LETTERS`.
 - ȸ and ȹ (uni0238/uni0239) are excluded from the eraseOpenCorners filter in every
   master's lib: once stem weights differ between masters, their overlapping contours
-  erase differently and stop interpolating.
+  erase differently and stop interpolating. So is y.sups: narrowed, the 2-unit step at
+  its tail's end crosses its closing line by about a unit in Thin only.
 - x-height is 1076 (Inter 1118), the lowercase overshoot is 25, and ascender, cap height
   and descenders are Inter's. The optical-size axis was dropped.
 - Each master's `public.background` layer holds the 52 mockup letters as tracing guides:
@@ -615,7 +651,8 @@ See README.md for the file layout, setup and commands.
   Ҋ with a reversed stem that cancelled the crossbar or tail where they overlap (holes
   at every weight), and 123 glyphs with counter-clockwise outer contours. Then
   `tools/postbuild.py` adds gasp {0xFFFF: 15} and a smart-dropout prep (unhinted),
-  sets usWinAscent/Descent from every glyph at every weight (2306/706; hhea and typo
+  sets usWinAscent/Descent from every glyph at every weight (2325/706, set by Ṻ at 900
+  since Black's dieresis grew; hhea and typo
   stay 1984/−494, so line height doesn't change), and recalculates the OS/2 Unicode and
   code page ranges. The strikeout is in each master's fontinfo (top 662 / 700 / 708, so
   its centre is the hyphen's), and postbuild.py warns if the hyphen moves away from it.
