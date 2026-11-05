@@ -10,8 +10,8 @@
   <anchor x="169" y="1683" name="top"/>
   <outline>
     <contour>
-      <point x="191" y="1683" type="line"/>
-      <point x="147" y="1683" type="line"/>
+      <point x="191" y="1723" type="line"/>
+      <point x="147" y="1723" type="line"/>
       <point x="147" y="916" type="line"/>
       <point x="191" y="916" type="line"/>
     </contour>

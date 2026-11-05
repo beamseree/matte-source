@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="a.2.subs" format="2">
-  <advance width="875"/>
-  <anchor x="417" y="-314" name="bottom"/>
-  <anchor x="831" y="-289" name="ogonek"/>
-  <anchor x="431" y="335" name="top"/>
+  <advance width="914"/>
+  <anchor x="435" y="-314" name="bottom"/>
+  <anchor x="870" y="-289" name="ogonek"/>
+  <anchor x="449" y="335" name="top"/>
   <outline>
     <component base="a.2.sups" yOffset="-1200"/>
   </outline>

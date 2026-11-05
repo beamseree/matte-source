@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n.subs" format="2">
-  <advance width="809"/>
+  <advance width="800"/>
   <unicode hex="2099"/>
-  <anchor x="403" y="-304" name="bottom"/>
-  <anchor x="695" y="-304" name="bottomr"/>
+  <anchor x="399" y="-304" name="bottom"/>
+  <anchor x="686" y="-304" name="bottomr"/>
   <anchor x="114" y="-304" name="lfthook"/>
-  <anchor x="403" y="320" name="top"/>
-  <anchor x="267" y="320" name="topr"/>
+  <anchor x="399" y="320" name="top"/>
+  <anchor x="265" y="320" name="topr"/>
   <outline>
     <component base="n.sups" yOffset="-1200"/>
   </outline>

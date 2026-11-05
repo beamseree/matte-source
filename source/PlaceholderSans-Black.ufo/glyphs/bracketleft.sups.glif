@@ -7,12 +7,12 @@
     <contour>
       <point x="152" y="748" type="line"/>
       <point x="509" y="748" type="line"/>
-      <point x="509" y="945" type="line"/>
-      <point x="403" y="945" type="line"/>
-      <point x="403" y="1602" type="line"/>
-      <point x="509" y="1602" type="line"/>
-      <point x="509" y="1799" type="line"/>
-      <point x="152" y="1799" type="line"/>
+      <point x="509" y="952" type="line"/>
+      <point x="418" y="952" type="line"/>
+      <point x="418" y="1596" type="line"/>
+      <point x="509" y="1596" type="line"/>
+      <point x="509" y="1800" type="line"/>
+      <point x="152" y="1800" type="line"/>
     </contour>
   </outline>
   <lib>

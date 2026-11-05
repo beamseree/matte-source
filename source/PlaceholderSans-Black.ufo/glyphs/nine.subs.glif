@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nine.subs" format="2">
-  <advance width="968"/>
+  <advance width="970"/>
   <unicode hex="2089"/>
   <outline>
     <component base="nine.sups" yOffset="-1200"/>

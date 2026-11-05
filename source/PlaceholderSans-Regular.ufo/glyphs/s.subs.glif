@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="s.subs" format="2">
-  <advance width="690"/>
+  <advance width="703"/>
   <unicode hex="209B"/>
-  <anchor x="342" y="-304" name="bottom"/>
-  <anchor x="344" y="-304" name="cedilla"/>
+  <anchor x="349" y="-304" name="bottom"/>
+  <anchor x="351" y="-304" name="cedilla"/>
   <anchor x="54" y="-141" name="rthook"/>
-  <anchor x="340" y="320" name="top"/>
+  <anchor x="347" y="320" name="top"/>
   <outline>
     <component base="s.sups" yOffset="-1200"/>
   </outline>

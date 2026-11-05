@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="addresssubject" format="2">
-  <advance width="1751"/>
+  <advance width="1774"/>
   <unicode hex="2101"/>
-  <anchor x="1403" y="-16" name="bottom"/>
-  <anchor x="637" y="888" name="ogonek"/>
-  <anchor x="1401" y="608" name="top"/>
-  <anchor x="1405" y="-16" name="cedilla"/>
-  <anchor x="1115" y="147" name="rthook"/>
+  <anchor x="1420" y="-16" name="bottom"/>
+  <anchor x="647" y="888" name="ogonek"/>
+  <anchor x="1418" y="608" name="top"/>
+  <anchor x="1422" y="-16" name="cedilla"/>
+  <anchor x="1125" y="147" name="rthook"/>
   <outline>
     <component base="a.sups" yOffset="-8"/>
-    <component base="fraction" xOffset="735"/>
-    <component base="s.subs" xOffset="1061" yOffset="288"/>
+    <component base="fraction" xOffset="745"/>
+    <component base="s.subs" xOffset="1071" yOffset="288"/>
   </outline>
   <lib>
     <dict>

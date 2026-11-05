@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cadauna" format="2">
-  <advance width="1886"/>
+  <advance width="1923"/>
   <unicode hex="2106"/>
-  <anchor x="1485" y="-2" name="bottom"/>
-  <anchor x="399" y="896" name="cedilla"/>
-  <anchor x="397" y="1208" name="center"/>
-  <anchor x="1481" y="622" name="top"/>
-  <anchor x="675" y="1319" name="topr"/>
-  <anchor x="1772" y="-2" name="ogonek"/>
-  <anchor x="1618" y="622" name="rtophorn"/>
+  <anchor x="1526" y="-2" name="bottom"/>
+  <anchor x="423" y="896" name="cedilla"/>
+  <anchor x="421" y="1208" name="center"/>
+  <anchor x="1523" y="622" name="top"/>
+  <anchor x="721" y="1319" name="topr"/>
+  <anchor x="1809" y="-2" name="ogonek"/>
+  <anchor x="1657" y="622" name="rtophorn"/>
   <outline>
     <component base="c.sups"/>
-    <component base="fraction" xOffset="684"/>
-    <component base="u.subs" xOffset="1082" yOffset="302"/>
+    <component base="fraction" xOffset="730"/>
+    <component base="u.subs" xOffset="1128" yOffset="302"/>
   </outline>
   <lib>
     <dict>

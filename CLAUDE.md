@@ -238,16 +238,23 @@ See README.md for the file layout, setup and commands.
   sans serifs (1.00–1.17, Roboto the widest), and in Regular its horizontals were thin
   against its verticals (the superscript 0's side 188, top 154, where our 0 is 197 / 188).
   Now 1.10 in every master, with the 0's contrast (Black 0.95 of it, the others' median at
-  900): the superscript 0's side is 45 / 161 / 286 (Thin / Regular / Black), its top 45 /
-  154 / 228 as before. At 400 its strokes are 0.82 / 0.82 of the 0's, like Roboto's, Noto
+  900): the superscript 0's side is 44 / 161 / 286 (Thin / Regular / Black), its top and
+  bottom 44 / 155 / 229, Inter's. At 400 its strokes are 0.82 / 0.82 of the 0's, like Roboto's, Noto
   Sans's and Open Sans's. Heights, positions and sidebearings are unchanged (ours sit at
   0.60–1.15 of the cap height, as Inter's; the others' median 0.48–1.02, with Noto Sans,
   Open Sans and Figtree as high; subscripts −0.21–0.35, the median −0.15–0.44). The user
   chose 1.10 over 1.15 and 1.05 (and Inter's), in text at every weight, then against
-  twelve other sans serifs. Still Inter's: the superscript letters' shapes (ᶠ's round top,
-  ᵗ's foot, ʸ's tail, ᵏ ᵛ ʷ ˣ's curved joints, ʳ's arm, ˢ ᶜ ᵉ's flat cuts, and ª º), the
-  superscript 5's joint (thinner than our 5's), and the fractions' contrast (.numr/.dnom are
-  evenly scaled, so only their horizontals are a little thin in Regular: 0.83 of the 0's).
+  twelve other sans serifs. They are now built from our own glyphs: the superscript
+  letters had kept Inter's shapes (ᶠ's round top, ᵗ's foot, ʸ's tail, ᵏ ᵛ ʷ ˣ's curved
+  joints, ʳ's arm, ˢ ᶜ ᵉ's flat cuts), and so had the superscript 5 (Inter's thin joint) and
+  ª º; now they follow our lowercase (with the user's g and y), figures and signs. The
+  letters are 1.10 times as wide for their height as our lowercase (a little wider than
+  Inter's, most in Thin) and as heavy as the superscript figures against our text (n's stem
+  159, o's top and bottom 153 in Regular); ª and º keep Inter's size, weight and width. The
+  user chose these from a page setting both sets in text. The superscript + − = ( ) [ ] keep
+  Inter's heights (+ now on − and ='s line: it had sat 5–12 units above in Regular and
+  Black). Still Inter's: the fractions' contrast (.numr/.dnom are evenly scaled, so only
+  their horizontals are a little thin in Regular: 0.83 of the 0's).
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -465,24 +472,32 @@ See README.md for the file layout, setup and commands.
   alternates (quoteright.ss03 and the round set, the .ss08 square set, comma.ss07) are
   drawn apart and keep Inter's lengths. `to_ufo.py` runs it after xheight.py and before
   spacing.py; run on its own, it runs spacing.py after.
-- The superscripts are the figures' proportions, not Inter's stretched ones:
-  `tools/superiors.py` moves each master's drawn superscripts (every glyph with a "sups"
-  suffix part and contours: the figures and their alternates, the letters, + − = ( ) [ ])
-  in x only, so heights and horizontal strokes stay. As derive.py compensates stems, their
-  x coordinates are mixed with the next heavier master's (Black's extrapolated away from
-  Regular's) by f and scaled by s about the left ink edge, keeping both sidebearings. One
-  (f, s) per master, solved on the figures: s gives the superscript 0's side `CONTRAST`
-  times its top against the 0's own top over side, and f makes the superscript figures
-  `RATIO` (1.10) times as wide for their height as the figures (the mean of 0–9). The letters
-  and signs take the same (f, s). Black's f is +0.24 (24% past Black), which closes its
-  0's counter from 300 to 243 units; 1.05 would have taken it to 207. The .subs are the
-  .sups moved down, and ℀ ℁ ℅ ℆ ⅍ are built on them, so they follow through accents.py.
-  spacing.py's `SIDES` for the small glyphs are Inter's sides scaled, not fitted to the
-  outline, so they don't change. Inter's fractions are scaled evenly (55% by 54.5%) and
-  are left alone, as are ª and º (80% by 75%). `--check` prints each master against its
-  targets; running it again changes nothing. `to_ufo.py` runs it once for all three
-  masters before the per-master chain (nothing before spacing.py touches the
-  superscripts); run on its own, it runs spacing.py after.
+- The superscripts are built from our own glyphs, as RMX Scaler built Inter's from
+  Inter's: `tools/superiors.py` draws each superscript (the figures and their alternates,
+  the signs, the letters with a.1 and a.2, and ª º) as its default glyph, decomposed, with
+  its x and y coordinates mixed with the next heavier master's (fx, fy; past Black away
+  from Regular when that master needs more weight) and scaled (sx, sy), on the
+  superscript's baseline, keeping the glyph's left edge and right sidebearing (anchors
+  keep their place across the ink). One (fx, sx, fy, sy) per master and group, solved on
+  our glyphs: figures from `FIGURE_Y` (the 7's baseline and top), `FIGURE_STROKE` (the 0's
+  top and bottom, Inter's) with the side at `CONTRAST` times the 0's contrast, and `RATIO`
+  (1.10, the mean width ratio of 0–9); letters from `LETTER_Y` (x's), the figures' strokes
+  times n's stem and o's top and bottom over the 0's, and `RATIO` over the letters not
+  mostly stem (not i, j, l); ª and º from `ORDINAL_Y` (º's box), `ORDINAL_STROKE` at o's
+  contrast and `ORDINAL_RATIO` (Inter's, as they weren't stretched). The signs sit with
+  the figures, their middles at `SIGN_MIDDLE` (Inter's heights). Black's figures mix 57%
+  past the master in x and 55% in y (its letters 29% and 38%), Regular's 48% and 67%
+  toward Black, Thin's 25% and 28% toward Regular. The targets are numbers, not the
+  current superscripts, so the result depends only on the defaults: running it again
+  changes nothing, and the superscripts get the defaults' points, the same in every
+  master. The .subs are the .sups moved down, and ℀ ℁ ℅ ℆ ⅍ and equalbelowcomb are built on
+  them, so they follow through accents.py. spacing.py's `SIDES` for the .sups are Inter's
+  sides scaled, not fitted to the outline. Inter's fractions are scaled evenly (55% by
+  54.5%) and are left alone. It narrowed Inter's superscripts in x at first; the user then
+  chose our own shapes. `--check` prints each master against its targets. `to_ufo.py` runs
+  it once for all three masters after the tools that change the defaults (straighten.py
+  … quotes.py) and before spacing.py; run on its own, it runs spacing.py after. Rerun it
+  after redrawing a lowercase letter, figure or sign (g and y included).
 - t's and f's crossbars stay apart through kerning, not shorter bars (the bars' reach
   is the mockups'): `tools/kern.py` sets glyph-to-glyph pairs tt, tf, ft and ff to leave
   `BAR_GAP` (60) between the bars in every master, on top of Inter's group kerning.
@@ -633,8 +648,7 @@ See README.md for the file layout, setup and commands.
   overlaps and for letter pairs nearer than `LETTERS`.
 - ȸ and ȹ (uni0238/uni0239) are excluded from the eraseOpenCorners filter in every
   master's lib: once stem weights differ between masters, their overlapping contours
-  erase differently and stop interpolating. So is y.sups: narrowed, the 2-unit step at
-  its tail's end crosses its closing line by about a unit in Thin only.
+  erase differently and stop interpolating.
 - x-height is 1076 (Inter 1118), the lowercase overshoot is 25, and ascender, cap height
   and descenders are Inter's. The optical-size axis was dropped.
 - Each master's `public.background` layer holds the 52 mockup letters as tracing guides:

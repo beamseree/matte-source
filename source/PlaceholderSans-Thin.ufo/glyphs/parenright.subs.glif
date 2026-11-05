@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="parenright.subs" format="2">
-  <advance width="441"/>
+  <advance width="435"/>
   <unicode hex="208E"/>
   <outline>
     <component base="parenright.sups" yOffset="-1200"/>
