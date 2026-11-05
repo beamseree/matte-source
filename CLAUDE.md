@@ -251,6 +251,30 @@ See README.md for the file layout, setup and commands.
   weight. Still uneven by the same measure: Regular E's, W's and w's sides and f's right
   (19–24 tight; redrawn or hand-set, so left to the eye), Thin's L right, V, t and A (35–60
   loose), Black's diagonals (Z left −61, V, A, W −27 to −40) and r's right (+54).
+- **Kerning audit of B with the shorter quotes (2026-11-05)**, after merging main: every
+  Latin letter, figure and common punctuation mark against each other in each master, by
+  the same measure and split. No overlaps, no letter pairs under 50; the pair terms are a
+  median 2.1 / 1.5 / 0.9 units (Thin / Regular / Black); the comma and semicolon didn't
+  move; the word gap is 2.36 / 2.69 / 3.00 times n|n's (Inter 2.45 / 2.82 / 3.00); the 61
+  pairs that change sign between masters are the clearance (Τ Γ Ρ before Ά, ơ before y)
+  and kern.py's bars. Open, for the user to decide (findings and live proofs were in the
+  "Placeholder Sans Kerning Audit" artifact):
+  - **y's kerning undoes B's y** (a bug): `kerning.py`'s `SPLIT` gives y v's pairs plus
+    whatever keeps each x|y gap equal to x|v, so when B opened y's left 31 units, every pair
+    Inter kerns against v took it back (Regular ny −34 → −65). ny my hy ay are 30 tight in
+    Regular (Black 32–40, Thin 46–58), ey oy 22. Measuring y's pairs on y itself, as every
+    other pair (`one(left, key, value)` in the SPLIT loop), brings them within 3 units
+    (78 / 68 / 30 pairs change in Thin / Regular / Black; the overlap check passes).
+  - **Apostrophes after lowercase opened up with the shorter quotes**: Regular n’ s’ e’ ’s
+    ’d 34–65 looser than before quotes.py (’s from 31 tight to 34 loose), Black o’ e’ c’
+    about 37, Thin k’ g’ 100–180: Inter's −40 to −157 were for its long tail, and
+    kerning.py keeps Inter's values for punctuation pairs. The heads didn't move, so judge
+    by eye.
+  - **P and F before . and ,** 55–59 loose in Regular, 87–99 in Thin (V, T, 25–30 in
+    Regular): Inter's −69 for a shorter P bowl and the mockups' F arms.
+  - **S before v w x y t f** 46–61 loose in Regular, 34–59 in Black (reshape.py's S curves;
+    Inter has no kerning there). Also by eye: Fa in Regular (−91 by the measure; kerning
+    −7, Inter −50) and Ti, Tj in Thin (+90, probably the lowered i dot).
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
