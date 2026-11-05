@@ -294,11 +294,21 @@ See README.md for the file layout, setup and commands.
   request (`Q_TAIL_START`, every master): its top-left (inner) end is pulled out along the
   tail to halfway from the bowl's centre to the counter's edge, on the tail's centre line,
   so it is 225 / 71 / 104 units shorter (Regular / Thin / Black; the mockups' tails start
-  at the centre, Thin's Inter tail already 40% of the way). The outer end, below the
-  baseline, stays, and so do the width, angle and end cuts. Before/after and ⅓ / ½ / ⅔
-  options in `build/q-tail-compare/` (`?options`); a first try that pulled in the outer
-  end instead was not what the user meant. Q has no kerning of its own (it kerns as D's
-  group), so the kerning didn't change. Thin's lines are its own Inter strokes: each curved joint becomes a
+  at the centre, Thin's Inter tail already 40% of the way); before/after and ⅓ / ½ / ⅔
+  options in `build/q-tail-compare/` (`?options`), and a first try that pulled in the
+  outer end instead was not what the user meant. The outer end then reaches further
+  below the baseline (`Q_TAIL_DEPTH`): its lowest corner is 100 / 140 / 93 below it
+  (Regular / Thin / Black; the mockups' 85 and 87, Thin's Inter tail 140), a quarter of
+  the way to Inter's depths (140 / 140 / 110) with Regular's rounded to 100. The width,
+  angle and the mockups' square-on end cuts stay. The user compared flat (Inter-like) end
+  cuts and depths out to SF Pro's (about 175 / 120, measured from a screenshot) in the
+  artifact https://claude.ai/artifact/NkCNmkHqVyEnNf7CQ29usS and `build/q-tail-compare/`
+  (cuts.html, depth.html): with flat cuts our heavier, shallower tail sticks out past the
+  bowl unless it slides left (161 in Black at today's depth), and deeper angled tails
+  bring QA within 50 units at 900 (44 at ¾ of the way, 36 at Inter's depth). Q has no
+  kerning of its own (it kerns as D's group), and at these depths no pair comes nearer
+  than 50, so the kerning didn't change. `strokes.py --check` leaves Q's tail out, since
+  its ends differ from the mockups' on purpose. Thin's lines are its own Inter strokes: each curved joint becomes a
   5-unit flat notch where its edges meet. Each letter keeps its outer edges, so spacing
   doesn't move. Every master
   is rebuilt with the same points, because a master left with Inter's open corners would

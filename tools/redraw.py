@@ -16,7 +16,8 @@ another. So:
 - A, V, v, W, M and Y (8, 8, 8, 16, 16 and 10 points; A also has its bar), E and F, and
   Q's tail take the mockups' points from POLYGONS, placed in proportion on our frame.
   Thin keeps its own strokes: each curved joint becomes a flat notch where its edges meet.
-  Q's tail then starts nearer the bowl in every master (Q_TAIL_START).
+  Q's tail then starts nearer the bowl (Q_TAIL_START) and reaches further below the
+  baseline (Q_TAIL_DEPTH), in every master.
 - The t crossbar reaches T_BAR's distances past the stem's edges, whatever the stem's
   weight or the fitted ink factor. Black's bar also takes the mockup's thickness.
 - The i and j dots are centred over the stem and take DOTS's size and height, through
@@ -164,6 +165,13 @@ POLYGONS = {
 # Black's 106, about 10% and 25% of the way); Thin's (Inter's) 278 past it, 40%. None
 # keeps the mockups' tail.
 Q_TAIL_START = 0.5
+
+# Q's tail also reaches further below the baseline than the mockups' (85 in Regular, 87 in
+# Black), at the user's request: its outer end is moved along the tail, keeping its cut,
+# until the lowest corner is Q_TAIL_DEPTH below the baseline. The user chose a quarter of
+# the way to Inter's depths (140 / 140 / 110), with Regular's rounded to 100. Thin's
+# (Inter's own tail) stays at 140. None keeps a master's depth as it is.
+Q_TAIL_DEPTH = {"Thin": 140, "Regular": 100, "Black": 93}
 
 # Masters without a POLYGONS entry (Thin) keep their own strokes: these contours' curved
 # joints become flat notches THIN_NOTCH wide where their edges meet.
@@ -401,6 +409,26 @@ def trim_tail(font, glyph, start):
     glyph.width += round(glyph.getBounds(font).xMax - right)   # keep the right sidebearing
 
 
+def set_tail_depth(font, glyph, depth):
+    """Move Q's tail's outer end along the tail until its lowest corner is `depth` below the
+    baseline. Every point slides along its side, away from or toward that side's inner end,
+    by the same fraction, so the tail keeps its width, angle, end cuts, point spacing and
+    inner end."""
+    pts = glyph.contours[0].points
+    if len(pts) != 8:
+        raise ValueError("Q: expected an eight-point tail as the first contour")
+    a, b = (pts[0].x, pts[0].y), (pts[7].x, pts[7].y)          # the inner end
+    low, start = min((pts[3], a), (pts[4], b), key=lambda e: e[0].y)
+    if depth is None or low.y == -depth:
+        return
+    s = (start[1] + depth) / (start[1] - low.y)
+    right = glyph.getBounds(font).xMax
+    for i, p in enumerate(pts):
+        x0, y0 = a if i < 4 else b
+        p.x, p.y = round(x0 + s * (p.x - x0)), round(y0 + s * (p.y - y0))
+    glyph.width += round(glyph.getBounds(font).xMax - right)   # keep the right sidebearing
+
+
 def apply(ufo, master):
     x_height = ufo.info.xHeight
     for name, shapes in POLYGONS.items():
@@ -410,6 +438,7 @@ def apply(ufo, master):
             for index in JOINTED[name]:
                 set_contour(ufo[name], index, collapse(ufo[name].contours[index], THIN_NOTCH))
     trim_tail(ufo, ufo["Q"], Q_TAIL_START)
+    set_tail_depth(ufo, ufo["Q"], Q_TAIL_DEPTH.get(master))
     build_N(ufo, ufo["N"], N_SHAPES[master])
     build_arm(ufo, ufo["K"], ARMS["K"][master], ufo["K"].getBounds(ufo).yMax)
     build_arm(ufo, ufo["k"], ARMS["k"][master], x_height)

@@ -12,12 +12,12 @@
   <outline>
     <contour>
       <point x="866" y="458" type="line"/>
-      <point x="1034" y="276" type="line"/>
-      <point x="1204" y="95" type="line"/>
-      <point x="1373" y="-87" type="line"/>
-      <point x="1613" y="126" type="line"/>
-      <point x="1444" y="308" type="line"/>
-      <point x="1275" y="489" type="line"/>
+      <point x="1036" y="274" type="line"/>
+      <point x="1208" y="91" type="line"/>
+      <point x="1379" y="-93" type="line"/>
+      <point x="1619" y="120" type="line"/>
+      <point x="1448" y="304" type="line"/>
+      <point x="1277" y="487" type="line"/>
       <point x="1106" y="671" type="line"/>
     </contour>
     <component base="O"/>
