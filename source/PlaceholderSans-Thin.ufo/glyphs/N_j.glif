@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Nj" format="2">
-  <advance width="1950"/>
+  <advance width="1953"/>
   <unicode hex="01CB"/>
-  <anchor x="1701" y="-442" name="bottom"/>
+  <anchor x="1703" y="-442" name="bottom"/>
   <anchor x="199" y="0" name="lfthook"/>
   <anchor x="1303" y="0" name="lfthook2"/>
-  <anchor x="1730" y="1434" name="top"/>
-  <anchor x="1729" y="605" name="cross"/>
+  <anchor x="1732" y="1434" name="top"/>
+  <anchor x="1731" y="605" name="cross"/>
   <outline>
     <component base="N"/>
     <component base="j" xOffset="1502"/>

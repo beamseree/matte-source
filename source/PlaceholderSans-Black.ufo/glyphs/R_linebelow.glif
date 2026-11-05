@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rlinebelow" format="2">
-  <advance width="1412"/>
+  <advance width="1418"/>
   <unicode hex="1E5E"/>
   <anchor x="723" y="0" name="bottom"/>
   <anchor x="698" y="1490" name="top"/>

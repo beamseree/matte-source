@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kcaron" format="2">
-  <advance width="1129"/>
+  <advance width="1128"/>
   <unicode hex="01E9"/>
   <anchor x="579" y="0" name="bottom"/>
   <anchor x="249" y="1933" name="top"/>

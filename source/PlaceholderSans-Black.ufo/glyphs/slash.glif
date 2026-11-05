@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="slash" format="2">
-  <advance width="840"/>
+  <advance width="842"/>
   <unicode hex="002F"/>
   <guideline x="12" y="1240" angle="0"/>
   <guideline x="12" y="764" angle="0"/>
   <outline>
     <contour>
-      <point x="819" y="1560" type="line"/>
-      <point x="501" y="1560" type="line"/>
-      <point x="21" y="-224" type="line"/>
-      <point x="339" y="-224" type="line"/>
+      <point x="820" y="1560" type="line"/>
+      <point x="502" y="1560" type="line"/>
+      <point x="22" y="-224" type="line"/>
+      <point x="340" y="-224" type="line"/>
     </contour>
   </outline>
 </glyph>

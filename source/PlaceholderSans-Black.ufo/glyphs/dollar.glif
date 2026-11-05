@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dollar" format="2">
-  <advance width="1404"/>
+  <advance width="1405"/>
   <unicode hex="0024"/>
   <guideline y="2280"/>
   <anchor x="708" y="0" name="bottom"/>

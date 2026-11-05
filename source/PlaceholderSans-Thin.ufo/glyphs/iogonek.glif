@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iogonek" format="2">
-  <advance width="430"/>
+  <advance width="432"/>
   <unicode hex="012F"/>
-  <anchor x="220" y="-472" name="bottom"/>
-  <anchor x="214" y="560" name="cross"/>
-  <anchor x="238" y="0" name="ogonek"/>
-  <anchor x="214" y="1425" name="top"/>
+  <anchor x="221" y="-472" name="bottom"/>
+  <anchor x="215" y="560" name="cross"/>
+  <anchor x="239" y="0" name="ogonek"/>
+  <anchor x="215" y="1425" name="top"/>
   <outline>
     <component base="uni012F.ccmp"/>
-    <component base="dotaccentcomb" xOffset="42" yOffset="-42"/>
+    <component base="dotaccentcomb" xOffset="43" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

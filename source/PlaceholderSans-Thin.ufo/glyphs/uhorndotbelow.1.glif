@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorndotbelow.1" format="2">
-  <advance width="1213"/>
+  <advance width="1214"/>
   <unicode hex="EE39"/>
   <anchor x="581" y="0" name="bottom"/>
   <anchor x="985" y="355" name="ogonek"/>

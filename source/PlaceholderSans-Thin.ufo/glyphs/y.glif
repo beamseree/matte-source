@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y" format="2">
-  <advance width="1063"/>
+  <advance width="1100"/>
   <unicode hex="0079"/>
-  <anchor x="723" y="0" name="bottom"/>
-  <anchor x="552" y="0" name="ogonek"/>
-  <anchor x="522" y="1076" name="top"/>
+  <anchor x="756" y="0" name="bottom"/>
+  <anchor x="585" y="0" name="ogonek"/>
+  <anchor x="555" y="1076" name="top"/>
   <outline>
     <contour>
-      <point x="393" y="-414" type="line"/>
-      <point x="978" y="1076" type="line"/>
-      <point x="929" y="1076" type="line"/>
-      <point x="513" y="16" type="line"/>
-      <point x="529" y="16" type="line"/>
-      <point x="119" y="1076" type="line"/>
-      <point x="69" y="1076" type="line"/>
-      <point x="498" y="-14" type="line"/>
-      <point x="347" y="-414" type="line"/>
+      <point x="426" y="-414" type="line"/>
+      <point x="1011" y="1076" type="line"/>
+      <point x="962" y="1076" type="line"/>
+      <point x="546" y="16" type="line"/>
+      <point x="562" y="16" type="line"/>
+      <point x="152" y="1076" type="line"/>
+      <point x="102" y="1076" type="line"/>
+      <point x="531" y="-14" type="line"/>
+      <point x="380" y="-414" type="line"/>
     </contour>
   </outline>
   <lib>

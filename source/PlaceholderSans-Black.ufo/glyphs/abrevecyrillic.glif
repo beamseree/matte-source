@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevecyrillic" format="2">
-  <advance width="1114"/>
+  <advance width="1153"/>
   <unicode hex="04D1"/>
-  <anchor x="575" y="0" name="bottom"/>
-  <anchor x="1048" y="0" name="ogonek"/>
-  <anchor x="587" y="1540" name="top"/>
+  <anchor x="567" y="0" name="bottom"/>
+  <anchor x="1040" y="0" name="ogonek"/>
+  <anchor x="579" y="1540" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="brevecomb" xOffset="111" yOffset="-42"/>
+    <component base="brevecomb" xOffset="103" yOffset="-42"/>
   </outline>
 </glyph>

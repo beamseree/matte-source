@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kturn" format="2">
-  <advance width="1129"/>
+  <advance width="1128"/>
   <unicode hex="029E"/>
-  <anchor x="566" y="1076" name="top"/>
-  <anchor x="879" y="-372" name="bottom"/>
+  <anchor x="565" y="1076" name="top"/>
+  <anchor x="878" y="-372" name="bottom"/>
   <outline>
-    <component base="k" xScale="-1.0" yScale="-1.0" xOffset="1129.0" yOffset="1076.0"/>
+    <component base="k" xScale="-1.0" yScale="-1.0" xOffset="1128.0" yOffset="1076.0"/>
   </outline>
 </glyph>

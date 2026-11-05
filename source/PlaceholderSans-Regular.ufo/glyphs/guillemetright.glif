@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guillemetright" format="2">
-  <advance width="1175"/>
+  <advance width="1177"/>
   <unicode hex="00BB"/>
   <outline>
     <component base="guilsinglright"/>
-    <component base="guilsinglright" xOffset="397"/>
+    <component base="guilsinglright" xOffset="398"/>
   </outline>
   <lib>
     <dict>

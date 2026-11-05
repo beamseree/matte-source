@@ -14,7 +14,7 @@
       <point x="136" y="722" type="line"/>
       <point x="102" y="690" type="line"/>
     </contour>
-    <component base="a.sups" xOffset="437" yOffset="-186"/>
+    <component base="a.sups" xOffset="447" yOffset="-186"/>
   </outline>
   <lib>
     <dict>

@@ -4,7 +4,7 @@
   <unicode hex="EE4D"/>
   <anchor x="367" y="651" name="cross"/>
   <outline>
-    <component base="bracketright" xOffset="14"/>
+    <component base="bracketright" xOffset="3"/>
   </outline>
   <lib>
     <dict>

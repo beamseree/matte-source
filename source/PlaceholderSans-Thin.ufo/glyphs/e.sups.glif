@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="e.sups" format="2">
-  <advance width="828"/>
+  <advance width="820"/>
   <unicode hex="1D49"/>
   <anchor x="412" y="916" name="bottom"/>
   <anchor x="414" y="916" name="cedilla"/>

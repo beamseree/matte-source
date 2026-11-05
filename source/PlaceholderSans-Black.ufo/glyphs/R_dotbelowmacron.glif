@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rdotbelowmacron" format="2">
-  <advance width="1412"/>
+  <advance width="1418"/>
   <unicode hex="1E5C"/>
   <anchor x="723" y="0" name="bottom"/>
   <anchor x="698" y="1904" name="top"/>

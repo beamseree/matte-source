@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10051" format="2">
-  <advance width="1842"/>
+  <advance width="1833"/>
   <unicode hex="0402"/>
-  <anchor x="737" y="0" name="bottom"/>
-  <anchor x="926" y="0" name="bottomr"/>
-  <anchor x="738" y="0" name="cedilla"/>
-  <anchor x="737" y="665" name="cross"/>
-  <anchor x="926" y="0" name="cyrtic"/>
-  <anchor x="874" y="0" name="right"/>
-  <anchor x="737" y="1490" name="top"/>
+  <anchor x="728" y="0" name="bottom"/>
+  <anchor x="917" y="0" name="bottomr"/>
+  <anchor x="729" y="0" name="cedilla"/>
+  <anchor x="728" y="665" name="cross"/>
+  <anchor x="917" y="0" name="cyrtic"/>
+  <anchor x="865" y="0" name="right"/>
+  <anchor x="728" y="1490" name="top"/>
   <outline>
     <component base="T"/>
-    <component base="largerighthook" xOffset="688"/>
+    <component base="largerighthook" xOffset="679"/>
   </outline>
   <lib>
     <dict>

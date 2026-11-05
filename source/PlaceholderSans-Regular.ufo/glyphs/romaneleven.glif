@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="romaneleven" format="2">
-  <advance width="2052"/>
+  <advance width="2050"/>
   <unicode hex="216A"/>
-  <anchor x="1785" y="0" name="bottom"/>
-  <anchor x="1785" y="772" name="cross"/>
-  <anchor x="1399" y="0" name="cyrtic"/>
-  <anchor x="1785" y="1490" name="top"/>
-  <anchor x="1887" y="0" name="ogonek"/>
-  <anchor x="1904" y="0" name="right"/>
-  <anchor x="1683" y="1490" name="tonos"/>
+  <anchor x="1783" y="0" name="bottom"/>
+  <anchor x="1783" y="772" name="cross"/>
+  <anchor x="1398" y="0" name="cyrtic"/>
+  <anchor x="1783" y="1490" name="top"/>
+  <anchor x="1885" y="0" name="ogonek"/>
+  <anchor x="1902" y="0" name="right"/>
+  <anchor x="1681" y="1490" name="tonos"/>
   <outline>
     <component base="X"/>
-    <component base="I" xOffset="1518"/>
+    <component base="I" xOffset="1516"/>
   </outline>
 </glyph>

@@ -5,7 +5,7 @@ to the user's own mockup, `reference/mockup.svg`. Working family name "Placehold
 the real name is still to be chosen. The folder name "aumo-font" is not the font name.
 See README.md for the file layout, setup and commands.
 
-## Status (2026-10-28)
+## Status (2026-11-05)
 
 - **Regular** is fitted to `reference/mockup.svg` (fit report: ink error mean 1.0 units,
   since the redraws below, the new f, t, P, C/G/S/s terminals and i/j dots, and c's wider
@@ -216,6 +216,26 @@ See README.md for the file layout, setup and commands.
   likes collide at 800–900 until kerning.py was rerun. Still open from the audit: see its
   README (sups and small caps, separately drawn Cyrillic and Greek, hooked letters, a heavier
   Black, Thin's contrast ...).
+- **a, R, s, z, y and e's sides (2026-11-05)**: the user saw capitals before a and e, and
+  pa, as too far apart, and asked whether the kerning was off globally. It wasn't: every
+  Latin letter pair's gap, measured as kerning.py does against Inter's at our spacing,
+  splits into one number per side (a median polish of the 52 × 52 grid) plus a pair term
+  that is about a unit (median absolute 1.2 in Regular), so the kerning follows Inter's and
+  the looseness was a few sidebearings, each set by one mockup pair. In Regular a's left was
+  18 loose and its right 26 tight (the a sat about 20 units right in its advance), R's
+  right 37 loose (69 in Thin), e's right 23 loose, s's left 34 tight, z's 28/33, y's left
+  27. `spacing.py`'s `ASIDE` now also leaves out "la", "az", "RO", "ps", "zy", "er" and the
+  word gap "R T" (the user chose this, "B", from `build/spacing-compare/` and a live proof
+  artifact, over "la", "az", "RO" alone, which left z lopsided). Regular: a 102/123 →
+  83/150, R right 93 → 56, s left 66 → 99, z 90/85 → 117/116, y left 17 → 48, e right 112 →
+  100, T left 75 → 80; all within 2 units of our typical side but e's right (+10). The round
+  letters (o c e d q g left, o b p right, about 10 looser than Inter's proportions) were
+  left alone as the mockups' look. Gap error against the mockups: Regular 25.4 → 26.6,
+  Thin 27.9 → 30.6, Black 17.3 → 21.2 (az and zy 77–105 units looser than the mockups', RO
+  13–55 tighter); ink error unchanged, no overlaps and no letter pairs under 50 at any
+  weight. Still uneven by the same measure: Regular E's, W's and w's sides and f's right
+  (19–24 tight; redrawn or hand-set, so left to the eye), Thin's L right, V, t and A (35–60
+  loose), Black's diagonals (Z left −61, V, A, W −27 to −40) and r's right (+54).
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -508,12 +528,15 @@ See README.md for the file layout, setup and commands.
   white to every side of a case, 8% of its median optical sidebearing, in Thin and Regular
   (n 141 → 152 at 430; Black unchanged): the audit found 100–500 as tight as a display
   face, and the user chose 8% over none and 12% from `build/loose-compare/`, for text.
-  `ASIDE` leaves the pangrams' FO, ZY, OX and ox out of the fit: each alone made F's
-  right, Y's or X/x's sides much tighter than Inter's proportions (Regular F right 41, X
-  −4), and the sets and symmetry carried that to every pair with the letter; the user
-  chose this from `build/structure-compare/`, so those four pairs sit 30–55 units looser
-  than the mockups'. Both act through `--fit`, and cost most of the gap error against the
-  mockups in Thin and Regular.
+  `ASIDE` leaves pangram pairs out of the fit where one pair alone sets a side against
+  Inter's proportions, which the sets and symmetry then carry to every pair with the
+  letter: FO, ZY, OX and ox (F's right, Y's, X's and x's sides much tighter; Regular F
+  right 41, X −4; the user chose this from `build/structure-compare/`, so they sit 30–55
+  units looser than the mockups'), and la, az, RO, ps, zy and er (a's sides, R's right,
+  s's left, z's sides, y's left and e's right; see Status), with the word gap "R T" ("RT"),
+  which alone set T's left once RO was out. An entry is the two letters either side of a
+  pair or a word gap, as `pairs` lists them. Both act through `--fit`, and cost most of the
+  gap error against the mockups in Thin and Regular.
   Applying moves each glyph's outline, components and anchors together; glyphs drawn over
   it (Q's tail, the bars of đ and ŧ) move with it, and so do the anchors of composites
   built on it. `to_ufo.py` runs it after joints.py; run on its own, it runs accents.py,

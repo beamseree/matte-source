@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorntilde" format="2">
-  <advance width="1225"/>
+  <advance width="1226"/>
   <unicode hex="1EEF"/>
   <anchor x="587" y="0" name="bottom"/>
   <anchor x="997" y="0" name="ogonek"/>

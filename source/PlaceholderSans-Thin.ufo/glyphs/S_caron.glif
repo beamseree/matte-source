@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Scaron" format="2">
-  <advance width="1334"/>
+  <advance width="1335"/>
   <unicode hex="0160"/>
   <anchor x="664" y="0" name="bottom"/>
   <anchor x="664" y="0" name="cedilla"/>

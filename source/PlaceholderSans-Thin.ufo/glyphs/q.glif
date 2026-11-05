@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="q" format="2">
-  <advance width="1273"/>
+  <advance width="1274"/>
   <unicode hex="0071"/>
   <anchor x="1056" y="-418" name="bottom"/>
   <anchor x="1056" y="-162" name="cross"/>
   <anchor x="642" y="1076" name="top"/>
   <anchor x="1081" y="1076" name="topr"/>
   <outline>
-    <component base="p" xScale="-1" xOffset="1273"/>
+    <component base="p" xScale="-1" xOffset="1274"/>
   </outline>
   <lib>
     <dict>

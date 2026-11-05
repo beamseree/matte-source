@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two.numr" format="2">
-  <advance width="711"/>
+  <advance width="716"/>
   <unicode hex="E0DE"/>
-  <anchor x="407" y="1059" name="cross"/>
-  <anchor x="352" y="1490" name="top"/>
+  <anchor x="409" y="1059" name="cross"/>
+  <anchor x="354" y="1490" name="top"/>
   <outline>
     <component base="two.dnom" yOffset="723"/>
   </outline>

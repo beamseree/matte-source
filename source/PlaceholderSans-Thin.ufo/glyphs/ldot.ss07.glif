@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldot.ss07" format="2">
-  <advance width="554"/>
+  <advance width="556"/>
   <unicode hex="E247"/>
-  <anchor x="228" y="0" name="bottom"/>
-  <anchor x="250" y="0" name="bottomr"/>
-  <anchor x="250" y="717" name="centerr"/>
-  <anchor x="228" y="739" name="cross"/>
-  <anchor x="390" y="1490" name="raccent"/>
-  <anchor x="227" y="1490" name="top"/>
+  <anchor x="229" y="0" name="bottom"/>
+  <anchor x="251" y="0" name="bottomr"/>
+  <anchor x="251" y="717" name="centerr"/>
+  <anchor x="229" y="739" name="cross"/>
+  <anchor x="391" y="1490" name="raccent"/>
+  <anchor x="228" y="1490" name="top"/>
   <outline>
     <component base="l"/>
-    <component base="periodcentered.ss07" xOffset="177" yOffset="20"/>
+    <component base="periodcentered.ss07" xOffset="178" yOffset="20"/>
   </outline>
   <lib>
     <dict>

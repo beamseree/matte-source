@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fourfifths" format="2">
-  <advance width="1671"/>
+  <advance width="1681"/>
   <unicode hex="2158"/>
   <outline>
     <component base="four.numr"/>
-    <component base="fraction" xOffset="688"/>
-    <component base="five.dnom" xOffset="1004"/>
+    <component base="fraction" xOffset="693"/>
+    <component base="five.dnom" xOffset="1009"/>
   </outline>
   <lib>
     <dict>

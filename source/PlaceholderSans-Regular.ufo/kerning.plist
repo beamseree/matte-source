@@ -146,12 +146,16 @@
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>C</key>
     <dict>
       <key>icircumflex</key>
       <integer>0</integer>
       <key>jcircumflex</key>
+      <integer>0</integer>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>Cacute</key>
@@ -160,12 +164,16 @@
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>Ccaron</key>
     <dict>
       <key>icircumflex</key>
       <integer>0</integer>
       <key>jcircumflex</key>
+      <integer>0</integer>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>Ccedilla</key>
@@ -174,6 +182,8 @@
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>Ccircumflex</key>
     <dict>
@@ -181,12 +191,16 @@
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>Cdotaccent</key>
     <dict>
       <key>icircumflex</key>
       <integer>0</integer>
       <key>jcircumflex</key>
+      <integer>0</integer>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>Chi</key>
@@ -206,8 +220,6 @@
     </dict>
     <key>Dzcaron_</key>
     <dict>
-      <key>icaron</key>
-      <integer>0</integer>
       <key>public.kern2.T</key>
       <integer>-81</integer>
     </dict>
@@ -387,7 +399,7 @@
       <key>j</key>
       <integer>23</integer>
       <key>jcircumflex</key>
-      <integer>21</integer>
+      <integer>22</integer>
     </dict>
     <key>Epsilon</key>
     <dict>
@@ -496,7 +508,7 @@
       <key>icircumflex</key>
       <integer>11</integer>
       <key>jcircumflex</key>
-      <integer>21</integer>
+      <integer>20</integer>
     </dict>
     <key>Hcircumflex</key>
     <dict>
@@ -1075,22 +1087,6 @@
       <integer>0</integer>
       <key>V</key>
       <integer>-69</integer>
-      <key>Y</key>
-      <integer>-69</integer>
-      <key>Yacute</key>
-      <integer>-69</integer>
-      <key>Ycircumflex</key>
-      <integer>-69</integer>
-      <key>Ydieresis</key>
-      <integer>-69</integer>
-      <key>Ydotbelow</key>
-      <integer>-69</integer>
-      <key>Ygrave</key>
-      <integer>-69</integer>
-      <key>Yhookabove</key>
-      <integer>-69</integer>
-      <key>Ytilde</key>
-      <integer>-69</integer>
       <key>hcircumflex</key>
       <integer>0</integer>
       <key>icaron</key>
@@ -1105,22 +1101,6 @@
       <key>Icircumflex</key>
       <integer>0</integer>
       <key>V</key>
-      <integer>-69</integer>
-      <key>Y</key>
-      <integer>-69</integer>
-      <key>Yacute</key>
-      <integer>-69</integer>
-      <key>Ycircumflex</key>
-      <integer>-69</integer>
-      <key>Ydieresis</key>
-      <integer>-69</integer>
-      <key>Ydotbelow</key>
-      <integer>-69</integer>
-      <key>Ygrave</key>
-      <integer>-69</integer>
-      <key>Yhookabove</key>
-      <integer>-69</integer>
-      <key>Ytilde</key>
       <integer>-69</integer>
       <key>hcircumflex</key>
       <integer>0</integer>
@@ -1137,22 +1117,6 @@
       <integer>0</integer>
       <key>V</key>
       <integer>-69</integer>
-      <key>Y</key>
-      <integer>-69</integer>
-      <key>Yacute</key>
-      <integer>-69</integer>
-      <key>Ycircumflex</key>
-      <integer>-69</integer>
-      <key>Ydieresis</key>
-      <integer>-69</integer>
-      <key>Ydotbelow</key>
-      <integer>-69</integer>
-      <key>Ygrave</key>
-      <integer>-69</integer>
-      <key>Yhookabove</key>
-      <integer>-69</integer>
-      <key>Ytilde</key>
-      <integer>-69</integer>
       <key>hcircumflex</key>
       <integer>0</integer>
       <key>icaron</key>
@@ -1168,22 +1132,6 @@
       <integer>0</integer>
       <key>V</key>
       <integer>-69</integer>
-      <key>Y</key>
-      <integer>-69</integer>
-      <key>Yacute</key>
-      <integer>-69</integer>
-      <key>Ycircumflex</key>
-      <integer>-69</integer>
-      <key>Ydieresis</key>
-      <integer>-69</integer>
-      <key>Ydotbelow</key>
-      <integer>-69</integer>
-      <key>Ygrave</key>
-      <integer>-69</integer>
-      <key>Yhookabove</key>
-      <integer>-69</integer>
-      <key>Ytilde</key>
-      <integer>-69</integer>
       <key>hcircumflex</key>
       <integer>0</integer>
       <key>icaron</key>
@@ -1198,22 +1146,6 @@
       <key>Icircumflex</key>
       <integer>0</integer>
       <key>V</key>
-      <integer>-69</integer>
-      <key>Y</key>
-      <integer>-69</integer>
-      <key>Yacute</key>
-      <integer>-69</integer>
-      <key>Ycircumflex</key>
-      <integer>-69</integer>
-      <key>Ydieresis</key>
-      <integer>-69</integer>
-      <key>Ydotbelow</key>
-      <integer>-69</integer>
-      <key>Ygrave</key>
-      <integer>-69</integer>
-      <key>Yhookabove</key>
-      <integer>-69</integer>
-      <key>Ytilde</key>
       <integer>-69</integer>
       <key>hcircumflex</key>
       <integer>0</integer>
@@ -1236,22 +1168,6 @@
       <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
-      <integer>0</integer>
-      <key>y</key>
-      <integer>0</integer>
-      <key>yacute</key>
-      <integer>0</integer>
-      <key>ycircumflex</key>
-      <integer>0</integer>
-      <key>ydieresis</key>
-      <integer>0</integer>
-      <key>ydotbelow</key>
-      <integer>0</integer>
-      <key>ygrave</key>
-      <integer>0</integer>
-      <key>yhookabove</key>
-      <integer>0</integer>
-      <key>ytilde</key>
       <integer>0</integer>
     </dict>
     <key>Phi</key>
@@ -1295,6 +1211,11 @@
       <integer>-192</integer>
       <key>xi</key>
       <integer>-69</integer>
+    </dict>
+    <key>Q</key>
+    <dict>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>Rho</key>
     <dict>
@@ -1395,8 +1316,6 @@
       <integer>30</integer>
       <key>rcaron</key>
       <integer>-129</integer>
-      <key>scaron</key>
-      <integer>-162</integer>
       <key>scircumflex</key>
       <integer>-162</integer>
       <key>seven</key>
@@ -1445,8 +1364,6 @@
       <integer>-138</integer>
       <key>rcaron</key>
       <integer>-129</integer>
-      <key>scaron</key>
-      <integer>-162</integer>
       <key>scircumflex</key>
       <integer>-162</integer>
       <key>seven</key>
@@ -1476,8 +1393,6 @@
       <integer>-69</integer>
       <key>rcaron</key>
       <integer>-129</integer>
-      <key>scaron</key>
-      <integer>-162</integer>
       <key>scircumflex</key>
       <integer>-162</integer>
       <key>seven</key>
@@ -1518,8 +1433,6 @@
       <integer>-85</integer>
       <key>rcaron</key>
       <integer>-129</integer>
-      <key>scaron</key>
-      <integer>-162</integer>
       <key>scircumflex</key>
       <integer>-162</integer>
       <key>seven</key>
@@ -1879,21 +1792,21 @@
       <key>X</key>
       <integer>0</integer>
       <key>Y</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Yacute</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ycircumflex</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ydieresis</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ydotbelow</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ygrave</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Yhookabove</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ytilde</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Z</key>
       <integer>0</integer>
       <key>Zacute</key>
@@ -1960,8 +1873,6 @@
       <integer>63</integer>
       <key>rcaron</key>
       <integer>0</integer>
-      <key>scaron</key>
-      <integer>0</integer>
       <key>seven</key>
       <integer>0</integer>
       <key>thorn</key>
@@ -2005,21 +1916,21 @@
       <key>Alphatonos</key>
       <integer>-151</integer>
       <key>public.kern2.iotadieresisgreek</key>
-      <integer>26</integer>
+      <integer>27</integer>
     </dict>
     <key>Upsilondieresis</key>
     <dict>
       <key>Alphatonos</key>
       <integer>-151</integer>
       <key>public.kern2.iotadieresisgreek</key>
-      <integer>26</integer>
+      <integer>27</integer>
     </dict>
     <key>Upsilontonos</key>
     <dict>
       <key>Alphatonos</key>
       <integer>-151</integer>
       <key>public.kern2.iotadieresisgreek</key>
-      <integer>26</integer>
+      <integer>27</integer>
     </dict>
     <key>Uring</key>
     <dict>
@@ -2073,7 +1984,7 @@
       <key>ibreve</key>
       <integer>0</integer>
       <key>icaron</key>
-      <integer>0</integer>
+      <integer>1</integer>
       <key>idieresis</key>
       <integer>0</integer>
     </dict>
@@ -2113,13 +2024,13 @@
       <key>gcaron</key>
       <integer>-157</integer>
       <key>ibreve</key>
-      <integer>18</integer>
+      <integer>19</integer>
       <key>icaron</key>
-      <integer>47</integer>
+      <integer>48</integer>
       <key>icircumflex</key>
       <integer>-58</integer>
       <key>idieresis</key>
-      <integer>9</integer>
+      <integer>10</integer>
       <key>igrave</key>
       <integer>-18</integer>
       <key>obreve</key>
@@ -2128,8 +2039,6 @@
       <integer>-157</integer>
       <key>odieresis</key>
       <integer>-157</integer>
-      <key>scaron</key>
-      <integer>-139</integer>
     </dict>
     <key>Yacute</key>
     <dict>
@@ -2162,13 +2071,13 @@
       <key>gcaron</key>
       <integer>-157</integer>
       <key>ibreve</key>
-      <integer>18</integer>
+      <integer>19</integer>
       <key>icaron</key>
-      <integer>47</integer>
+      <integer>48</integer>
       <key>icircumflex</key>
       <integer>-58</integer>
       <key>idieresis</key>
-      <integer>9</integer>
+      <integer>10</integer>
       <key>igrave</key>
       <integer>-18</integer>
       <key>obreve</key>
@@ -2177,8 +2086,6 @@
       <integer>-157</integer>
       <key>odieresis</key>
       <integer>-157</integer>
-      <key>scaron</key>
-      <integer>-139</integer>
     </dict>
     <key>Ycircumflex</key>
     <dict>
@@ -2211,13 +2118,13 @@
       <key>gcaron</key>
       <integer>-157</integer>
       <key>ibreve</key>
-      <integer>18</integer>
+      <integer>19</integer>
       <key>icaron</key>
-      <integer>47</integer>
+      <integer>48</integer>
       <key>icircumflex</key>
       <integer>-58</integer>
       <key>idieresis</key>
-      <integer>9</integer>
+      <integer>10</integer>
       <key>igrave</key>
       <integer>-18</integer>
       <key>obreve</key>
@@ -2226,8 +2133,6 @@
       <integer>-157</integer>
       <key>odieresis</key>
       <integer>-157</integer>
-      <key>scaron</key>
-      <integer>-139</integer>
     </dict>
     <key>Ydieresis</key>
     <dict>
@@ -2260,13 +2165,13 @@
       <key>gcaron</key>
       <integer>-157</integer>
       <key>ibreve</key>
-      <integer>18</integer>
+      <integer>19</integer>
       <key>icaron</key>
-      <integer>47</integer>
+      <integer>48</integer>
       <key>icircumflex</key>
       <integer>-58</integer>
       <key>idieresis</key>
-      <integer>9</integer>
+      <integer>10</integer>
       <key>igrave</key>
       <integer>-18</integer>
       <key>obreve</key>
@@ -2275,8 +2180,6 @@
       <integer>-157</integer>
       <key>odieresis</key>
       <integer>-157</integer>
-      <key>scaron</key>
-      <integer>-139</integer>
     </dict>
     <key>Ydotbelow</key>
     <dict>
@@ -2309,13 +2212,13 @@
       <key>gcaron</key>
       <integer>-157</integer>
       <key>ibreve</key>
-      <integer>18</integer>
+      <integer>19</integer>
       <key>icaron</key>
-      <integer>47</integer>
+      <integer>48</integer>
       <key>icircumflex</key>
       <integer>-58</integer>
       <key>idieresis</key>
-      <integer>9</integer>
+      <integer>10</integer>
       <key>igrave</key>
       <integer>-18</integer>
       <key>obreve</key>
@@ -2324,8 +2227,6 @@
       <integer>-157</integer>
       <key>odieresis</key>
       <integer>-157</integer>
-      <key>scaron</key>
-      <integer>-139</integer>
     </dict>
     <key>Ygrave</key>
     <dict>
@@ -2358,13 +2259,13 @@
       <key>gcaron</key>
       <integer>-157</integer>
       <key>ibreve</key>
-      <integer>18</integer>
+      <integer>19</integer>
       <key>icaron</key>
-      <integer>47</integer>
+      <integer>48</integer>
       <key>icircumflex</key>
       <integer>-58</integer>
       <key>idieresis</key>
-      <integer>9</integer>
+      <integer>10</integer>
       <key>igrave</key>
       <integer>-18</integer>
       <key>obreve</key>
@@ -2373,8 +2274,6 @@
       <integer>-157</integer>
       <key>odieresis</key>
       <integer>-157</integer>
-      <key>scaron</key>
-      <integer>-139</integer>
     </dict>
     <key>Yhook</key>
     <dict>
@@ -2414,13 +2313,13 @@
       <key>gcaron</key>
       <integer>-157</integer>
       <key>ibreve</key>
-      <integer>18</integer>
+      <integer>19</integer>
       <key>icaron</key>
-      <integer>47</integer>
+      <integer>48</integer>
       <key>icircumflex</key>
       <integer>-58</integer>
       <key>idieresis</key>
-      <integer>9</integer>
+      <integer>10</integer>
       <key>igrave</key>
       <integer>-18</integer>
       <key>obreve</key>
@@ -2429,8 +2328,6 @@
       <integer>-157</integer>
       <key>odieresis</key>
       <integer>-157</integer>
-      <key>scaron</key>
-      <integer>-139</integer>
     </dict>
     <key>Yi-cy</key>
     <dict>
@@ -2473,13 +2370,13 @@
       <key>gcaron</key>
       <integer>-157</integer>
       <key>ibreve</key>
-      <integer>18</integer>
+      <integer>19</integer>
       <key>icaron</key>
-      <integer>47</integer>
+      <integer>48</integer>
       <key>icircumflex</key>
       <integer>-58</integer>
       <key>idieresis</key>
-      <integer>9</integer>
+      <integer>10</integer>
       <key>igrave</key>
       <integer>-18</integer>
       <key>obreve</key>
@@ -2488,8 +2385,6 @@
       <integer>-157</integer>
       <key>odieresis</key>
       <integer>-157</integer>
-      <key>scaron</key>
-      <integer>-139</integer>
     </dict>
     <key>Z</key>
     <dict>
@@ -2542,36 +2437,8 @@
       <key>public.kern2.fraction</key>
       <integer>-80</integer>
     </dict>
-    <key>a</key>
-    <dict>
-      <key>lslash</key>
-      <integer>0</integer>
-    </dict>
-    <key>aacute</key>
-    <dict>
-      <key>Y</key>
-      <integer>-151</integer>
-      <key>Yacute</key>
-      <integer>-151</integer>
-      <key>Ycircumflex</key>
-      <integer>-151</integer>
-      <key>Ydieresis</key>
-      <integer>-151</integer>
-      <key>Ydotbelow</key>
-      <integer>-151</integer>
-      <key>Ygrave</key>
-      <integer>-151</integer>
-      <key>Yhookabove</key>
-      <integer>-151</integer>
-      <key>Ytilde</key>
-      <integer>-151</integer>
-      <key>lslash</key>
-      <integer>0</integer>
-    </dict>
     <key>abreve</key>
     <dict>
-      <key>V</key>
-      <integer>-130</integer>
       <key>Y</key>
       <integer>-151</integer>
       <key>Yacute</key>
@@ -2588,17 +2455,9 @@
       <integer>-151</integer>
       <key>Ytilde</key>
       <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
-      <key>icaron</key>
-      <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
     </dict>
     <key>abreveacute</key>
     <dict>
-      <key>V</key>
-      <integer>-130</integer>
       <key>Y</key>
       <integer>-151</integer>
       <key>Yacute</key>
@@ -2615,17 +2474,9 @@
       <integer>-151</integer>
       <key>Ytilde</key>
       <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
-      <key>icaron</key>
-      <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
     </dict>
     <key>abrevedotbelow</key>
     <dict>
-      <key>V</key>
-      <integer>-130</integer>
       <key>Y</key>
       <integer>-151</integer>
       <key>Yacute</key>
@@ -2642,17 +2493,9 @@
       <integer>-151</integer>
       <key>Ytilde</key>
       <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
-      <key>icaron</key>
-      <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
     </dict>
     <key>abrevegrave</key>
     <dict>
-      <key>V</key>
-      <integer>-130</integer>
       <key>Y</key>
       <integer>-151</integer>
       <key>Yacute</key>
@@ -2669,17 +2512,9 @@
       <integer>-151</integer>
       <key>Ytilde</key>
       <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
-      <key>icaron</key>
-      <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
     </dict>
     <key>abrevehookabove</key>
     <dict>
-      <key>V</key>
-      <integer>-130</integer>
       <key>Y</key>
       <integer>-151</integer>
       <key>Yacute</key>
@@ -2696,17 +2531,9 @@
       <integer>-151</integer>
       <key>Ytilde</key>
       <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
-      <key>icaron</key>
-      <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
     </dict>
     <key>abrevetilde</key>
     <dict>
-      <key>V</key>
-      <integer>-130</integer>
       <key>Y</key>
       <integer>-151</integer>
       <key>Yacute</key>
@@ -2723,12 +2550,6 @@
       <integer>-151</integer>
       <key>Ytilde</key>
       <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
-      <key>icaron</key>
-      <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
     </dict>
     <key>acaron</key>
     <dict>
@@ -2752,55 +2573,15 @@
       <integer>-151</integer>
       <key>backslash</key>
       <integer>-130</integer>
-      <key>ibreve</key>
-      <integer>0</integer>
       <key>icaron</key>
-      <integer>0</integer>
-      <key>idieresis</key>
-      <integer>0</integer>
-      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>acircumflex</key>
     <dict>
-      <key>T</key>
-      <integer>-152</integer>
-      <key>Tbar</key>
-      <integer>-152</integer>
-      <key>Tcaron</key>
-      <integer>-152</integer>
-      <key>Tcommaaccent</key>
-      <integer>-152</integer>
-      <key>V</key>
-      <integer>-130</integer>
-      <key>Y</key>
-      <integer>-151</integer>
-      <key>Yacute</key>
-      <integer>-151</integer>
-      <key>Ycircumflex</key>
-      <integer>-151</integer>
-      <key>Ydieresis</key>
-      <integer>-151</integer>
-      <key>Ydotbelow</key>
-      <integer>-151</integer>
-      <key>Ygrave</key>
-      <integer>-151</integer>
-      <key>Yhookabove</key>
-      <integer>-151</integer>
-      <key>Ytilde</key>
-      <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
       <key>icircumflex</key>
-      <integer>0</integer>
-      <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
-      <key>uni021A</key>
-      <integer>-152</integer>
     </dict>
     <key>acircumflexacute</key>
     <dict>
@@ -2808,167 +2589,53 @@
       <integer>0</integer>
       <key>Icaron</key>
       <integer>0</integer>
-      <key>Icircumflex</key>
-      <integer>0</integer>
       <key>Idieresis</key>
-      <integer>0</integer>
-      <key>Imacron</key>
       <integer>0</integer>
       <key>Itilde</key>
       <integer>0</integer>
-      <key>T</key>
-      <integer>-152</integer>
-      <key>Tbar</key>
-      <integer>-152</integer>
-      <key>Tcaron</key>
-      <integer>-152</integer>
-      <key>Tcommaaccent</key>
-      <integer>-152</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
       <key>hcircumflex</key>
       <integer>0</integer>
       <key>icircumflex</key>
-      <integer>0</integer>
-      <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
       <key>kcaron</key>
       <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
-      <key>uni021A</key>
-      <integer>-152</integer>
     </dict>
     <key>acircumflexdotbelow</key>
     <dict>
-      <key>T</key>
-      <integer>-152</integer>
-      <key>Tbar</key>
-      <integer>-152</integer>
-      <key>Tcaron</key>
-      <integer>-152</integer>
-      <key>Tcommaaccent</key>
-      <integer>-152</integer>
-      <key>V</key>
-      <integer>-130</integer>
-      <key>Y</key>
-      <integer>-151</integer>
-      <key>Yacute</key>
-      <integer>-151</integer>
-      <key>Ycircumflex</key>
-      <integer>-151</integer>
-      <key>Ydieresis</key>
-      <integer>-151</integer>
-      <key>Ydotbelow</key>
-      <integer>-151</integer>
-      <key>Ygrave</key>
-      <integer>-151</integer>
-      <key>Yhookabove</key>
-      <integer>-151</integer>
-      <key>Ytilde</key>
-      <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
       <key>icircumflex</key>
-      <integer>0</integer>
-      <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
-      <key>uni021A</key>
-      <integer>-152</integer>
     </dict>
     <key>acircumflexgrave</key>
     <dict>
       <key>Icircumflex</key>
       <integer>0</integer>
-      <key>Idieresis</key>
-      <integer>0</integer>
-      <key>Itilde</key>
-      <integer>0</integer>
-      <key>T</key>
-      <integer>-152</integer>
-      <key>Tbar</key>
-      <integer>-152</integer>
-      <key>Tcaron</key>
-      <integer>-152</integer>
-      <key>Tcommaaccent</key>
-      <integer>-152</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
       <key>hcircumflex</key>
       <integer>0</integer>
       <key>icircumflex</key>
       <integer>0</integer>
-      <key>itilde</key>
-      <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
-      <key>uni021A</key>
-      <integer>-152</integer>
     </dict>
     <key>acircumflexhookabove</key>
     <dict>
-      <key>Icircumflex</key>
-      <integer>0</integer>
-      <key>Idieresis</key>
-      <integer>0</integer>
-      <key>T</key>
-      <integer>-152</integer>
-      <key>Tbar</key>
-      <integer>-152</integer>
-      <key>Tcaron</key>
-      <integer>-152</integer>
-      <key>Tcommaaccent</key>
-      <integer>-152</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
-      <key>hcircumflex</key>
-      <integer>0</integer>
       <key>icircumflex</key>
-      <integer>0</integer>
-      <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
-      <key>uni021A</key>
-      <integer>-152</integer>
     </dict>
     <key>acircumflextilde</key>
     <dict>
-      <key>T</key>
-      <integer>-152</integer>
-      <key>Tbar</key>
-      <integer>-152</integer>
-      <key>Tcaron</key>
-      <integer>-152</integer>
-      <key>Tcommaaccent</key>
-      <integer>-152</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
       <key>icircumflex</key>
-      <integer>0</integer>
-      <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
-      <key>uni021A</key>
-      <integer>-152</integer>
     </dict>
     <key>adieresis</key>
     <dict>
-      <key>V</key>
-      <integer>-130</integer>
       <key>Y</key>
       <integer>-151</integer>
       <key>Yacute</key>
@@ -2985,19 +2652,6 @@
       <integer>-151</integer>
       <key>Ytilde</key>
       <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
-      <key>icaron</key>
-      <integer>0</integer>
-      <key>idieresis</key>
-      <integer>0</integer>
-      <key>lslash</key>
-      <integer>0</integer>
-    </dict>
-    <key>adotbelow</key>
-    <dict>
-      <key>lslash</key>
-      <integer>0</integer>
     </dict>
     <key>ae</key>
     <dict>
@@ -3007,13 +2661,6 @@
     <key>afii10017</key>
     <dict>
       <key>iacyrillic</key>
-      <integer>0</integer>
-    </dict>
-    <key>afii10034</key>
-    <dict>
-      <key>ucyrillic</key>
-      <integer>0</integer>
-      <key>ushortcyrillic</key>
       <integer>0</integer>
     </dict>
     <key>afii10038</key>
@@ -3033,7 +2680,9 @@
       <key>afii10017</key>
       <integer>23</integer>
       <key>afii10039</key>
-      <integer>20</integer>
+      <integer>21</integer>
+      <key>afii10049</key>
+      <integer>6</integer>
       <key>iacyrillic</key>
       <integer>22</integer>
       <key>khacyrillic</key>
@@ -3067,20 +2716,8 @@
       <key>yi-cy</key>
       <integer>13</integer>
     </dict>
-    <key>agrave</key>
-    <dict>
-      <key>lslash</key>
-      <integer>0</integer>
-    </dict>
-    <key>ahookabove</key>
-    <dict>
-      <key>lslash</key>
-      <integer>0</integer>
-    </dict>
     <key>amacron</key>
     <dict>
-      <key>lslash</key>
-      <integer>0</integer>
       <key>public.kern2.T</key>
       <integer>-151</integer>
     </dict>
@@ -3111,21 +2748,14 @@
       <key>public.kern2.w</key>
       <integer>-69</integer>
       <key>public.kern2.y</key>
-      <integer>-51</integer>
+      <integer>-82</integer>
     </dict>
     <key>aogonek</key>
     <dict>
       <key>j</key>
-      <integer>34</integer>
+      <integer>7</integer>
       <key>jcircumflex</key>
-      <integer>34</integer>
-      <key>lslash</key>
-      <integer>0</integer>
-    </dict>
-    <key>aring</key>
-    <dict>
-      <key>lslash</key>
-      <integer>0</integer>
+      <integer>7</integer>
     </dict>
     <key>asterisk</key>
     <dict>
@@ -3134,8 +2764,6 @@
     </dict>
     <key>atilde</key>
     <dict>
-      <key>V</key>
-      <integer>-130</integer>
       <key>Y</key>
       <integer>-151</integer>
       <key>Yacute</key>
@@ -3152,10 +2780,9 @@
       <integer>-151</integer>
       <key>Ytilde</key>
       <integer>-151</integer>
-      <key>backslash</key>
-      <integer>-130</integer>
-      <key>icaron</key>
-      <integer>0</integer>
+    </dict>
+    <key>b</key>
+    <dict>
       <key>lslash</key>
       <integer>0</integer>
     </dict>
@@ -3174,7 +2801,7 @@
       <key>public.kern2.v</key>
       <integer>-104</integer>
       <key>public.kern2.y</key>
-      <integer>-80</integer>
+      <integer>-111</integer>
     </dict>
     <key>becyrillic</key>
     <dict>
@@ -3315,8 +2942,6 @@
       <integer>0</integer>
       <key>hbar</key>
       <integer>81</integer>
-      <key>ibreve</key>
-      <integer>81</integer>
       <key>icircumflex</key>
       <integer>81</integer>
       <key>idieresis</key>
@@ -3368,11 +2993,6 @@
     <dict>
       <key>public.kern2.T</key>
       <integer>-108</integer>
-    </dict>
-    <key>dzcaron</key>
-    <dict>
-      <key>icaron</key>
-      <integer>0</integer>
     </dict>
     <key>e</key>
     <dict>
@@ -3439,10 +3059,6 @@
     </dict>
     <key>ecircumflexacute</key>
     <dict>
-      <key>Ibreve</key>
-      <integer>0</integer>
-      <key>Icaron</key>
-      <integer>0</integer>
       <key>Idieresis</key>
       <integer>0</integer>
       <key>icircumflex</key>
@@ -3555,12 +3171,12 @@
     <key>emdash</key>
     <dict>
       <key>lslash</key>
-      <integer>17</integer>
+      <integer>20</integer>
     </dict>
     <key>endash</key>
     <dict>
       <key>lslash</key>
-      <integer>17</integer>
+      <integer>20</integer>
     </dict>
     <key>eng</key>
     <dict>
@@ -3596,6 +3212,8 @@
       <integer>-174</integer>
       <key>Ytilde</key>
       <integer>-174</integer>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>etilde</key>
     <dict>
@@ -3634,9 +3252,9 @@
     <key>f</key>
     <dict>
       <key>f</key>
-      <integer>16</integer>
+      <integer>17</integer>
       <key>hbar</key>
-      <integer>26</integer>
+      <integer>25</integer>
       <key>icaron</key>
       <integer>64</integer>
       <key>icircumflex</key>
@@ -3646,31 +3264,15 @@
       <key>public.kern2.W</key>
       <integer>3</integer>
       <key>t</key>
-      <integer>6</integer>
+      <integer>7</integer>
       <key>tbar</key>
-      <integer>-4</integer>
+      <integer>-3</integer>
       <key>tcaron</key>
-      <integer>-4</integer>
+      <integer>-3</integer>
       <key>tcedilla</key>
-      <integer>-4</integer>
+      <integer>-3</integer>
       <key>tcommaaccent</key>
-      <integer>-4</integer>
-      <key>y</key>
-      <integer>7</integer>
-      <key>yacute</key>
-      <integer>7</integer>
-      <key>ycircumflex</key>
-      <integer>7</integer>
-      <key>ydieresis</key>
-      <integer>7</integer>
-      <key>ydotbelow</key>
-      <integer>7</integer>
-      <key>ygrave</key>
-      <integer>7</integer>
-      <key>yhookabove</key>
-      <integer>7</integer>
-      <key>ytilde</key>
-      <integer>7</integer>
+      <integer>-3</integer>
     </dict>
     <key>feng</key>
     <dict>
@@ -3721,13 +3323,13 @@
     <key>gheupturncyrillic</key>
     <dict>
       <key>Te-cy</key>
-      <integer>-62</integer>
+      <integer>-67</integer>
       <key>Tshe-cy</key>
       <integer>-61</integer>
       <key>afii10044</key>
       <integer>-37</integer>
       <key>afii10051</key>
-      <integer>-62</integer>
+      <integer>-67</integer>
       <key>djecyrillic</key>
       <integer>32</integer>
       <key>tshecyrillic</key>
@@ -3814,21 +3416,21 @@
     <key>ibreve</key>
     <dict>
       <key>Y</key>
-      <integer>19</integer>
+      <integer>20</integer>
       <key>Yacute</key>
-      <integer>19</integer>
+      <integer>20</integer>
       <key>Ycircumflex</key>
-      <integer>19</integer>
+      <integer>20</integer>
       <key>Ydieresis</key>
-      <integer>19</integer>
+      <integer>20</integer>
       <key>Ydotbelow</key>
-      <integer>19</integer>
+      <integer>20</integer>
       <key>Ygrave</key>
-      <integer>19</integer>
+      <integer>20</integer>
       <key>Yhookabove</key>
-      <integer>19</integer>
+      <integer>20</integer>
       <key>Ytilde</key>
-      <integer>19</integer>
+      <integer>20</integer>
       <key>icaron</key>
       <integer>139</integer>
       <key>icircumflex</key>
@@ -3845,8 +3447,6 @@
       <integer>0</integer>
       <key>rcaron</key>
       <integer>69</integer>
-      <key>scaron</key>
-      <integer>0</integer>
     </dict>
     <key>icaron</key>
     <dict>
@@ -3977,13 +3577,13 @@
       <key>Rcommaaccent</key>
       <integer>0</integer>
       <key>T</key>
-      <integer>14</integer>
+      <integer>9</integer>
       <key>Tbar</key>
-      <integer>14</integer>
+      <integer>9</integer>
       <key>Tcaron</key>
-      <integer>14</integer>
+      <integer>9</integer>
       <key>Tcommaaccent</key>
-      <integer>14</integer>
+      <integer>9</integer>
       <key>Thorn</key>
       <integer>0</integer>
       <key>V</key>
@@ -3991,21 +3591,21 @@
       <key>X</key>
       <integer>4</integer>
       <key>Y</key>
-      <integer>50</integer>
+      <integer>51</integer>
       <key>Yacute</key>
-      <integer>50</integer>
+      <integer>51</integer>
       <key>Ycircumflex</key>
-      <integer>50</integer>
+      <integer>51</integer>
       <key>Ydieresis</key>
-      <integer>50</integer>
+      <integer>51</integer>
       <key>Ydotbelow</key>
-      <integer>50</integer>
+      <integer>51</integer>
       <key>Ygrave</key>
-      <integer>50</integer>
+      <integer>51</integer>
       <key>Yhookabove</key>
-      <integer>50</integer>
+      <integer>51</integer>
       <key>Ytilde</key>
-      <integer>50</integer>
+      <integer>51</integer>
       <key>Z</key>
       <integer>0</integer>
       <key>Zacute</key>
@@ -4019,7 +3619,7 @@
       <key>b</key>
       <integer>0</integer>
       <key>backslash</key>
-      <integer>47</integer>
+      <integer>48</integer>
       <key>bracketleft</key>
       <integer>0</integer>
       <key>ecaron</key>
@@ -4097,9 +3697,7 @@
       <key>ucaron</key>
       <integer>0</integer>
       <key>uni021A</key>
-      <integer>14</integer>
-      <key>zcaron</key>
-      <integer>0</integer>
+      <integer>9</integer>
     </dict>
     <key>icircumflex</key>
     <dict>
@@ -4246,13 +3844,13 @@
       <key>Scommaaccent</key>
       <integer>0</integer>
       <key>T</key>
-      <integer>18</integer>
+      <integer>14</integer>
       <key>Tbar</key>
-      <integer>18</integer>
+      <integer>14</integer>
       <key>Tcaron</key>
-      <integer>18</integer>
+      <integer>14</integer>
       <key>Tcommaaccent</key>
-      <integer>18</integer>
+      <integer>14</integer>
       <key>Thorn</key>
       <integer>0</integer>
       <key>V</key>
@@ -4402,9 +4000,7 @@
       <key>ucircumflex</key>
       <integer>0</integer>
       <key>uni021A</key>
-      <integer>18</integer>
-      <key>ycircumflex</key>
-      <integer>0</integer>
+      <integer>14</integer>
     </dict>
     <key>idblgrave</key>
     <dict>
@@ -4424,21 +4020,21 @@
       <key>X</key>
       <integer>0</integer>
       <key>Y</key>
-      <integer>11</integer>
+      <integer>12</integer>
       <key>Yacute</key>
-      <integer>11</integer>
+      <integer>12</integer>
       <key>Ycircumflex</key>
-      <integer>11</integer>
+      <integer>12</integer>
       <key>Ydieresis</key>
-      <integer>11</integer>
+      <integer>12</integer>
       <key>Ydotbelow</key>
-      <integer>11</integer>
+      <integer>12</integer>
       <key>Ygrave</key>
-      <integer>11</integer>
+      <integer>12</integer>
       <key>Yhookabove</key>
-      <integer>11</integer>
+      <integer>12</integer>
       <key>Ytilde</key>
-      <integer>11</integer>
+      <integer>12</integer>
       <key>hbar</key>
       <integer>120</integer>
       <key>icaron</key>
@@ -4448,7 +4044,7 @@
       <key>igrave</key>
       <integer>69</integer>
       <key>jcircumflex</key>
-      <integer>126</integer>
+      <integer>127</integer>
       <key>public.kern2.U</key>
       <integer>0</integer>
       <key>public.kern2.W</key>
@@ -4457,8 +4053,6 @@
       <integer>0</integer>
       <key>rcaron</key>
       <integer>69</integer>
-      <key>scaron</key>
-      <integer>0</integer>
     </dict>
     <key>idieresisacute</key>
     <dict>
@@ -4549,29 +4143,27 @@
     <dict>
       <key>Tau</key>
       <integer>0</integer>
-      <key>Upsilontonos</key>
-      <integer>0</integer>
     </dict>
     <key>itilde</key>
     <dict>
       <key>X</key>
       <integer>0</integer>
       <key>Y</key>
-      <integer>22</integer>
+      <integer>23</integer>
       <key>Yacute</key>
-      <integer>22</integer>
+      <integer>23</integer>
       <key>Ycircumflex</key>
-      <integer>22</integer>
+      <integer>23</integer>
       <key>Ydieresis</key>
-      <integer>22</integer>
+      <integer>23</integer>
       <key>Ydotbelow</key>
-      <integer>22</integer>
+      <integer>23</integer>
       <key>Ygrave</key>
-      <integer>22</integer>
+      <integer>23</integer>
       <key>Yhookabove</key>
-      <integer>22</integer>
+      <integer>23</integer>
       <key>Ytilde</key>
-      <integer>22</integer>
+      <integer>23</integer>
       <key>icaron</key>
       <integer>140</integer>
       <key>icircumflex</key>
@@ -4754,13 +4346,13 @@
       <key>Scommaaccent</key>
       <integer>0</integer>
       <key>T</key>
-      <integer>20</integer>
+      <integer>15</integer>
       <key>Tbar</key>
-      <integer>20</integer>
+      <integer>15</integer>
       <key>Tcaron</key>
-      <integer>20</integer>
+      <integer>15</integer>
       <key>Tcommaaccent</key>
-      <integer>20</integer>
+      <integer>15</integer>
       <key>Thorn</key>
       <integer>0</integer>
       <key>V</key>
@@ -4852,7 +4444,7 @@
       <key>j</key>
       <integer>0</integer>
       <key>jcircumflex</key>
-      <integer>185</integer>
+      <integer>184</integer>
       <key>k</key>
       <integer>0</integer>
       <key>kcaron</key>
@@ -4903,16 +4495,6 @@
       <integer>0</integer>
       <key>seven</key>
       <integer>10</integer>
-      <key>t</key>
-      <integer>0</integer>
-      <key>tbar</key>
-      <integer>0</integer>
-      <key>tcaron</key>
-      <integer>0</integer>
-      <key>tcedilla</key>
-      <integer>0</integer>
-      <key>tcommaaccent</key>
-      <integer>0</integer>
       <key>thorn</key>
       <integer>0</integer>
       <key>three</key>
@@ -4922,9 +4504,7 @@
       <key>ucircumflex</key>
       <integer>0</integer>
       <key>uni021A</key>
-      <integer>20</integer>
-      <key>ycircumflex</key>
-      <integer>0</integer>
+      <integer>15</integer>
     </dict>
     <key>jecyrillic</key>
     <dict>
@@ -4979,8 +4559,6 @@
       <integer>0</integer>
       <key>Atilde</key>
       <integer>0</integer>
-      <key>oslash</key>
-      <integer>-46</integer>
       <key>t</key>
       <integer>0</integer>
       <key>tbar</key>
@@ -5013,9 +4591,9 @@
       <key>tecyrillic</key>
       <integer>3</integer>
       <key>ucyrillic</key>
-      <integer>2</integer>
+      <integer>0</integer>
       <key>ushortcyrillic</key>
-      <integer>2</integer>
+      <integer>0</integer>
       <key>zhecyrillic</key>
       <integer>0</integer>
     </dict>
@@ -5086,8 +4664,6 @@
       <integer>0</integer>
       <key>Atilde</key>
       <integer>0</integer>
-      <key>oslash</key>
-      <integer>-46</integer>
       <key>t</key>
       <integer>0</integer>
       <key>tbar</key>
@@ -5149,8 +4725,6 @@
       <integer>0</integer>
       <key>Atilde</key>
       <integer>0</integer>
-      <key>oslash</key>
-      <integer>-46</integer>
       <key>t</key>
       <integer>0</integer>
       <key>tbar</key>
@@ -5213,7 +4787,7 @@
       <key>Atilde</key>
       <integer>0</integer>
       <key>f</key>
-      <integer>7</integer>
+      <integer>8</integer>
       <key>public.kern2.w</key>
       <integer>0</integer>
       <key>t</key>
@@ -5231,21 +4805,21 @@
       <key>x</key>
       <integer>0</integer>
       <key>y</key>
-      <integer>7</integer>
+      <integer>0</integer>
       <key>yacute</key>
-      <integer>7</integer>
+      <integer>0</integer>
       <key>ycircumflex</key>
-      <integer>7</integer>
+      <integer>0</integer>
       <key>ydieresis</key>
-      <integer>7</integer>
+      <integer>0</integer>
       <key>ydotbelow</key>
-      <integer>7</integer>
+      <integer>0</integer>
       <key>ygrave</key>
-      <integer>7</integer>
+      <integer>0</integer>
       <key>yhookabove</key>
-      <integer>7</integer>
+      <integer>0</integer>
       <key>ytilde</key>
-      <integer>7</integer>
+      <integer>0</integer>
     </dict>
     <key>kjecyrillic</key>
     <dict>
@@ -5266,9 +4840,9 @@
       <key>tecyrillic</key>
       <integer>3</integer>
       <key>ucyrillic</key>
-      <integer>2</integer>
+      <integer>0</integer>
       <key>ushortcyrillic</key>
-      <integer>2</integer>
+      <integer>0</integer>
       <key>zhecyrillic</key>
       <integer>0</integer>
     </dict>
@@ -5284,15 +4858,17 @@
     <key>lacute</key>
     <dict>
       <key>Ibreve</key>
-      <integer>48</integer>
+      <integer>52</integer>
       <key>Icaron</key>
-      <integer>82</integer>
+      <integer>85</integer>
+      <key>Icircumflex</key>
+      <integer>0</integer>
       <key>Idieresis</key>
-      <integer>16</integer>
+      <integer>19</integer>
       <key>Igrave</key>
-      <integer>20</integer>
+      <integer>23</integer>
       <key>Imacron</key>
-      <integer>4</integer>
+      <integer>7</integer>
       <key>Itilde</key>
       <integer>0</integer>
       <key>hcircumflex</key>
@@ -5304,7 +4880,7 @@
       <key>jcircumflex</key>
       <integer>0</integer>
       <key>kcaron</key>
-      <integer>100</integer>
+      <integer>103</integer>
       <key>public.kern2.idblgrave</key>
       <integer>81</integer>
     </dict>
@@ -5322,13 +4898,13 @@
       <key>hbar</key>
       <integer>0</integer>
       <key>icaron</key>
-      <integer>55</integer>
+      <integer>58</integer>
       <key>icircumflex</key>
-      <integer>18</integer>
+      <integer>21</integer>
       <key>igrave</key>
       <integer>0</integer>
       <key>jcircumflex</key>
-      <integer>28</integer>
+      <integer>31</integer>
     </dict>
     <key>lcommaaccent</key>
     <dict>
@@ -5353,7 +4929,7 @@
       <key>endash</key>
       <integer>30</integer>
       <key>lslash</key>
-      <integer>80</integer>
+      <integer>82</integer>
     </dict>
     <key>ldotbelowmacron</key>
     <dict>
@@ -5408,6 +4984,8 @@
       <integer>-120</integer>
       <key>acircumflextilde</key>
       <integer>-120</integer>
+      <key>adieresis</key>
+      <integer>-120</integer>
       <key>ecircumflex</key>
       <integer>-140</integer>
       <key>ecircumflexdotbelow</key>
@@ -5444,61 +5022,51 @@
       <integer>-120</integer>
       <key>ucircumflex</key>
       <integer>-120</integer>
-      <key>zcaron</key>
-      <integer>-120</integer>
     </dict>
     <key>lslash</key>
     <dict>
       <key>f</key>
-      <integer>38</integer>
+      <integer>42</integer>
       <key>icaron</key>
       <integer>0</integer>
       <key>icircumflex</key>
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>public.kern2.w</key>
-      <integer>12</integer>
-      <key>s</key>
-      <integer>0</integer>
-      <key>sacute</key>
-      <integer>0</integer>
-      <key>scaron</key>
-      <integer>0</integer>
-      <key>scedilla</key>
-      <integer>0</integer>
-      <key>scircumflex</key>
-      <integer>0</integer>
-      <key>scommaaccent</key>
-      <integer>0</integer>
+      <integer>15</integer>
       <key>t</key>
-      <integer>30</integer>
+      <integer>32</integer>
       <key>tbar</key>
-      <integer>30</integer>
+      <integer>32</integer>
       <key>tcaron</key>
-      <integer>30</integer>
+      <integer>32</integer>
       <key>tcedilla</key>
-      <integer>30</integer>
+      <integer>32</integer>
       <key>tcommaaccent</key>
-      <integer>30</integer>
+      <integer>32</integer>
       <key>v</key>
-      <integer>13</integer>
+      <integer>16</integer>
+      <key>x</key>
+      <integer>0</integer>
       <key>y</key>
-      <integer>38</integer>
+      <integer>10</integer>
       <key>yacute</key>
-      <integer>38</integer>
+      <integer>10</integer>
       <key>ycircumflex</key>
-      <integer>38</integer>
+      <integer>10</integer>
       <key>ydieresis</key>
-      <integer>38</integer>
+      <integer>10</integer>
       <key>ydotbelow</key>
-      <integer>38</integer>
+      <integer>10</integer>
       <key>ygrave</key>
-      <integer>38</integer>
+      <integer>10</integer>
       <key>yhookabove</key>
-      <integer>38</integer>
+      <integer>10</integer>
       <key>ytilde</key>
-      <integer>38</integer>
+      <integer>10</integer>
     </dict>
     <key>micro</key>
     <dict>
@@ -5584,7 +5152,15 @@
     <dict>
       <key>Alphatonos</key>
       <integer>0</integer>
-      <key>public.kern2.y</key>
+    </dict>
+    <key>o</key>
+    <dict>
+      <key>lslash</key>
+      <integer>0</integer>
+    </dict>
+    <key>oacute</key>
+    <dict>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>obreve</key>
@@ -5605,6 +5181,8 @@
       <integer>-174</integer>
       <key>Ytilde</key>
       <integer>-174</integer>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>ocaron</key>
     <dict>
@@ -5624,22 +5202,28 @@
       <integer>-174</integer>
       <key>Ytilde</key>
       <integer>-174</integer>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>ocircumflex</key>
     <dict>
       <key>jcircumflex</key>
+      <integer>0</integer>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>ocircumflexacute</key>
     <dict>
       <key>Idieresis</key>
       <integer>0</integer>
-      <key>jcircumflex</key>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>ocircumflexdotbelow</key>
     <dict>
       <key>jcircumflex</key>
+      <integer>0</integer>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>ocircumflexgrave</key>
@@ -5648,17 +5232,17 @@
       <integer>0</integer>
       <key>hcircumflex</key>
       <integer>0</integer>
-      <key>jcircumflex</key>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>ocircumflexhookabove</key>
     <dict>
-      <key>jcircumflex</key>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>ocircumflextilde</key>
     <dict>
-      <key>jcircumflex</key>
+      <key>lslash</key>
       <integer>0</integer>
     </dict>
     <key>odieresis</key>
@@ -5679,10 +5263,27 @@
       <integer>-174</integer>
       <key>Ytilde</key>
       <integer>-174</integer>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>public.kern2.T</key>
       <integer>-104</integer>
     </dict>
+    <key>odotbelow</key>
+    <dict>
+      <key>lslash</key>
+      <integer>0</integer>
+    </dict>
     <key>oe</key>
+    <dict>
+      <key>lslash</key>
+      <integer>0</integer>
+    </dict>
+    <key>ograve</key>
+    <dict>
+      <key>lslash</key>
+      <integer>0</integer>
+    </dict>
+    <key>ohookabove</key>
     <dict>
       <key>lslash</key>
       <integer>0</integer>
@@ -5706,7 +5307,9 @@
       <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
-      <integer>33</integer>
+      <integer>32</integer>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>public.kern2.w</key>
       <integer>0</integer>
       <key>t</key>
@@ -5741,31 +5344,31 @@
     <key>ohornacute</key>
     <dict>
       <key>T</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tbar</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcaron</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcommaaccent</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>V</key>
       <integer>-100</integer>
       <key>Y</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yacute</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ycircumflex</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydieresis</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydotbelow</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ygrave</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yhookabove</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ytilde</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>backslash</key>
       <integer>-100</integer>
       <key>f</key>
@@ -5785,7 +5388,9 @@
       <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
-      <integer>33</integer>
+      <integer>32</integer>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>public.kern2.W</key>
       <integer>-73</integer>
       <key>public.kern2.w</key>
@@ -5801,56 +5406,56 @@
       <key>tcommaaccent</key>
       <integer>0</integer>
       <key>uni021A</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>v</key>
       <integer>-40</integer>
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yacute</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ycircumflex</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydieresis</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydotbelow</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ygrave</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yhookabove</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ytilde</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
     </dict>
     <key>ohorndotbelow</key>
     <dict>
       <key>T</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tbar</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcaron</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcommaaccent</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>V</key>
       <integer>-100</integer>
       <key>Y</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yacute</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ycircumflex</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydieresis</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydotbelow</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ygrave</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yhookabove</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ytilde</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>backslash</key>
       <integer>-100</integer>
       <key>f</key>
@@ -5870,7 +5475,9 @@
       <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
-      <integer>33</integer>
+      <integer>32</integer>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>public.kern2.W</key>
       <integer>-73</integer>
       <key>public.kern2.w</key>
@@ -5886,56 +5493,56 @@
       <key>tcommaaccent</key>
       <integer>0</integer>
       <key>uni021A</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>v</key>
       <integer>-40</integer>
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yacute</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ycircumflex</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydieresis</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydotbelow</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ygrave</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yhookabove</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ytilde</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
     </dict>
     <key>ohorngrave</key>
     <dict>
       <key>T</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tbar</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcaron</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcommaaccent</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>V</key>
       <integer>-100</integer>
       <key>Y</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yacute</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ycircumflex</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydieresis</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydotbelow</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ygrave</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yhookabove</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ytilde</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>backslash</key>
       <integer>-100</integer>
       <key>f</key>
@@ -5955,7 +5562,9 @@
       <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
-      <integer>33</integer>
+      <integer>32</integer>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>public.kern2.W</key>
       <integer>-73</integer>
       <key>public.kern2.w</key>
@@ -5971,56 +5580,56 @@
       <key>tcommaaccent</key>
       <integer>0</integer>
       <key>uni021A</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>v</key>
       <integer>-40</integer>
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yacute</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ycircumflex</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydieresis</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydotbelow</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ygrave</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yhookabove</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ytilde</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
     </dict>
     <key>ohornhookabove</key>
     <dict>
       <key>T</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tbar</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcaron</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcommaaccent</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>V</key>
       <integer>-100</integer>
       <key>Y</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yacute</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ycircumflex</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydieresis</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydotbelow</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ygrave</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yhookabove</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ytilde</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>backslash</key>
       <integer>-100</integer>
       <key>f</key>
@@ -6040,7 +5649,9 @@
       <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
-      <integer>33</integer>
+      <integer>32</integer>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>public.kern2.W</key>
       <integer>-73</integer>
       <key>public.kern2.w</key>
@@ -6056,56 +5667,56 @@
       <key>tcommaaccent</key>
       <integer>0</integer>
       <key>uni021A</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>v</key>
       <integer>-40</integer>
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yacute</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ycircumflex</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydieresis</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydotbelow</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ygrave</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yhookabove</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ytilde</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
     </dict>
     <key>ohorntilde</key>
     <dict>
       <key>T</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tbar</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcaron</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>Tcommaaccent</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>V</key>
       <integer>-100</integer>
       <key>Y</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yacute</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ycircumflex</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydieresis</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ydotbelow</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ygrave</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Yhookabove</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>Ytilde</key>
-      <integer>-132</integer>
+      <integer>-130</integer>
       <key>backslash</key>
       <integer>-100</integer>
       <key>f</key>
@@ -6125,7 +5736,9 @@
       <key>itilde</key>
       <integer>0</integer>
       <key>jcircumflex</key>
-      <integer>33</integer>
+      <integer>32</integer>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>public.kern2.W</key>
       <integer>-73</integer>
       <key>public.kern2.w</key>
@@ -6141,27 +5754,27 @@
       <key>tcommaaccent</key>
       <integer>0</integer>
       <key>uni021A</key>
-      <integer>-92</integer>
+      <integer>-97</integer>
       <key>v</key>
       <integer>-40</integer>
       <key>x</key>
       <integer>-46</integer>
       <key>y</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yacute</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ycircumflex</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydieresis</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydotbelow</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ygrave</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yhookabove</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ytilde</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
     </dict>
     <key>ohungarumlaut</key>
     <dict>
@@ -6183,6 +5796,13 @@
       <integer>-174</integer>
       <key>icaron</key>
       <integer>0</integer>
+      <key>lslash</key>
+      <integer>0</integer>
+    </dict>
+    <key>omacron</key>
+    <dict>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>one</key>
     <dict>
@@ -6195,22 +5815,24 @@
     </dict>
     <key>oslash</key>
     <dict>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>y</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yacute</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ycircumflex</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydieresis</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ydotbelow</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ygrave</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>yhookabove</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>ytilde</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
     </dict>
     <key>otilde</key>
     <dict>
@@ -6230,8 +5852,15 @@
       <integer>-174</integer>
       <key>Ytilde</key>
       <integer>-174</integer>
+      <key>lslash</key>
+      <integer>0</integer>
       <key>public.kern2.T</key>
       <integer>-104</integer>
+    </dict>
+    <key>p</key>
+    <dict>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>paragraph</key>
     <dict>
@@ -6360,7 +5989,7 @@
       <key>public.kern2.w</key>
       <integer>-139</integer>
       <key>public.kern2.y</key>
-      <integer>-126</integer>
+      <integer>-157</integer>
       <key>tau</key>
       <integer>-197</integer>
       <key>tenge</key>
@@ -6482,7 +6111,7 @@
       <key>public.kern2.v</key>
       <integer>-69</integer>
       <key>public.kern2.y</key>
-      <integer>-45</integer>
+      <integer>-76</integer>
       <key>public.kern2.z</key>
       <integer>-104</integer>
       <key>underscore</key>
@@ -6528,7 +6157,7 @@
       <key>public.kern2.v</key>
       <integer>10</integer>
       <key>public.kern2.y</key>
-      <integer>11</integer>
+      <integer>-20</integer>
     </dict>
     <key>public.kern1.H.sups</key>
     <dict>
@@ -6604,7 +6233,7 @@
       <key>public.kern2.w</key>
       <integer>-117</integer>
       <key>public.kern2.y</key>
-      <integer>-86</integer>
+      <integer>-117</integer>
     </dict>
     <key>public.kern1.L</key>
     <dict>
@@ -6661,7 +6290,7 @@
       <key>public.kern2.v</key>
       <integer>-128</integer>
       <key>public.kern2.y</key>
-      <integer>-117</integer>
+      <integer>-148</integer>
       <key>quotedblreversed</key>
       <integer>-93</integer>
       <key>quotereversed</key>
@@ -6830,7 +6459,7 @@
       <key>public.kern2.x</key>
       <integer>-141</integer>
       <key>public.kern2.y</key>
-      <integer>-123</integer>
+      <integer>-154</integer>
       <key>public.kern2.z</key>
       <integer>-108</integer>
       <key>rho</key>
@@ -6989,13 +6618,13 @@
       <key>Rcommaaccent</key>
       <integer>0</integer>
       <key>T</key>
-      <integer>7</integer>
+      <integer>2</integer>
       <key>Tbar</key>
-      <integer>7</integer>
+      <integer>2</integer>
       <key>Tcaron</key>
-      <integer>7</integer>
+      <integer>2</integer>
       <key>Tcommaaccent</key>
-      <integer>7</integer>
+      <integer>2</integer>
       <key>Thorn</key>
       <integer>0</integer>
       <key>V</key>
@@ -7003,21 +6632,21 @@
       <key>X</key>
       <integer>0</integer>
       <key>Y</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Yacute</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ycircumflex</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ydieresis</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ydotbelow</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ygrave</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Yhookabove</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Ytilde</key>
-      <integer>43</integer>
+      <integer>44</integer>
       <key>Z</key>
       <integer>0</integer>
       <key>Zacute</key>
@@ -7088,14 +6717,12 @@
       <integer>81</integer>
       <key>rcaron</key>
       <integer>0</integer>
-      <key>scaron</key>
-      <integer>0</integer>
       <key>seven</key>
       <integer>0</integer>
       <key>thorn</key>
       <integer>0</integer>
       <key>uni021A</key>
-      <integer>7</integer>
+      <integer>2</integer>
     </dict>
     <key>public.kern1.Uhorn</key>
     <dict>
@@ -7430,7 +7057,7 @@
       <key>public.kern2.w</key>
       <integer>-20</integer>
       <key>public.kern2.y</key>
-      <integer>-34</integer>
+      <integer>-65</integer>
       <key>uni023E</key>
       <integer>-151</integer>
     </dict>
@@ -7468,7 +7095,7 @@
       <key>public.kern2.x</key>
       <integer>-69</integer>
       <key>public.kern2.y</key>
-      <integer>-71</integer>
+      <integer>-102</integer>
       <key>tenge</key>
       <integer>-81</integer>
     </dict>
@@ -7545,7 +7172,7 @@
       <key>public.kern2.w</key>
       <integer>-41</integer>
       <key>public.kern2.y</key>
-      <integer>-42</integer>
+      <integer>-73</integer>
     </dict>
     <key>public.kern1.bsmcyrillic</key>
     <dict>
@@ -7574,7 +7201,7 @@
       <key>public.kern2.x</key>
       <integer>-46</integer>
       <key>public.kern2.y</key>
-      <integer>-52</integer>
+      <integer>-83</integer>
     </dict>
     <key>public.kern1.bullet</key>
     <dict>
@@ -7947,7 +7574,7 @@
       <key>public.kern2.x</key>
       <integer>-69</integer>
       <key>public.kern2.y</key>
-      <integer>-57</integer>
+      <integer>-88</integer>
     </dict>
     <key>public.kern1.hyphen</key>
     <dict>
@@ -8169,7 +7796,7 @@
       <key>public.kern2.x</key>
       <integer>-120</integer>
       <key>public.kern2.y</key>
-      <integer>-94</integer>
+      <integer>-125</integer>
       <key>public.kern2.z</key>
       <integer>-120</integer>
     </dict>
@@ -8210,7 +7837,7 @@
       <key>public.kern2.w</key>
       <integer>-50</integer>
       <key>public.kern2.y</key>
-      <integer>-32</integer>
+      <integer>-63</integer>
     </dict>
     <key>public.kern1.nine</key>
     <dict>
@@ -8318,7 +7945,7 @@
       <key>public.kern2.x</key>
       <integer>-46</integer>
       <key>public.kern2.y</key>
-      <integer>-37</integer>
+      <integer>-68</integer>
       <key>public.kern2.z</key>
       <integer>-20</integer>
     </dict>
@@ -8488,7 +8115,7 @@
       <key>public.kern2.v</key>
       <integer>-104</integer>
       <key>public.kern2.y</key>
-      <integer>-83</integer>
+      <integer>-114</integer>
       <key>tecyrillic</key>
       <integer>-104</integer>
     </dict>
@@ -8505,7 +8132,7 @@
       <key>ibreve</key>
       <integer>0</integer>
       <key>icaron</key>
-      <integer>8</integer>
+      <integer>7</integer>
       <key>icircumflex</key>
       <integer>0</integer>
       <key>idieresis</key>
@@ -8525,7 +8152,7 @@
       <key>public.kern2.four</key>
       <integer>-128</integer>
       <key>public.kern2.iotadieresisgreek</key>
-      <integer>12</integer>
+      <integer>11</integer>
       <key>public.kern2.o</key>
       <integer>-80</integer>
       <key>public.kern2.questiondown</key>
@@ -8624,7 +8251,7 @@
       <key>public.kern2.v</key>
       <integer>29</integer>
       <key>public.kern2.y</key>
-      <integer>46</integer>
+      <integer>15</integer>
       <key>rho</key>
       <integer>-128</integer>
       <key>theta</key>
@@ -8721,7 +8348,7 @@
       <key>public.kern2.x</key>
       <integer>32</integer>
       <key>public.kern2.y</key>
-      <integer>45</integer>
+      <integer>14</integer>
       <key>t.1</key>
       <integer>0</integer>
     </dict>
@@ -9009,7 +8636,7 @@
       <key>public.kern2.w</key>
       <integer>30</integer>
       <key>public.kern2.y</key>
-      <integer>57</integer>
+      <integer>26</integer>
     </dict>
     <key>public.kern1.t.sups</key>
     <dict>
@@ -9108,7 +8735,7 @@
       <key>public.kern2.v</key>
       <integer>30</integer>
       <key>public.kern2.y</key>
-      <integer>45</integer>
+      <integer>14</integer>
     </dict>
     <key>public.kern1.v</key>
     <dict>
@@ -9324,7 +8951,7 @@
       <key>public.kern2.v</key>
       <integer>-104</integer>
       <key>public.kern2.y</key>
-      <integer>-84</integer>
+      <integer>-115</integer>
     </dict>
     <key>qhook</key>
     <dict>
@@ -9348,13 +8975,13 @@
     <key>rcaron</key>
     <dict>
       <key>T</key>
-      <integer>-102</integer>
+      <integer>-106</integer>
       <key>Tbar</key>
-      <integer>-102</integer>
+      <integer>-106</integer>
       <key>Tcaron</key>
-      <integer>-102</integer>
+      <integer>-106</integer>
       <key>Tcommaaccent</key>
-      <integer>-102</integer>
+      <integer>-106</integer>
       <key>ibreve</key>
       <integer>69</integer>
       <key>icaron</key>
@@ -9364,7 +8991,7 @@
       <key>igrave</key>
       <integer>20</integer>
       <key>uni021A</key>
-      <integer>-102</integer>
+      <integer>-106</integer>
     </dict>
     <key>s</key>
     <dict>
@@ -9390,12 +9017,22 @@
     </dict>
     <key>scircumflex</key>
     <dict>
+      <key>T</key>
+      <integer>-162</integer>
+      <key>Tbar</key>
+      <integer>-162</integer>
+      <key>Tcaron</key>
+      <integer>-162</integer>
+      <key>Tcommaaccent</key>
+      <integer>-162</integer>
       <key>icircumflex</key>
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
       <key>lslash</key>
       <integer>0</integer>
+      <key>uni021A</key>
+      <integer>-162</integer>
     </dict>
     <key>scommaaccent</key>
     <dict>
@@ -9418,7 +9055,7 @@
       <key>icircumflex</key>
       <integer>5</integer>
       <key>jcircumflex</key>
-      <integer>16</integer>
+      <integer>15</integer>
       <key>public.kern2.iotadieresisgreek</key>
       <integer>18</integer>
     </dict>
@@ -9488,9 +9125,9 @@
     <key>t</key>
     <dict>
       <key>f</key>
-      <integer>-35</integer>
+      <integer>-34</integer>
       <key>t</key>
-      <integer>-45</integer>
+      <integer>-44</integer>
       <key>tbar</key>
       <integer>0</integer>
       <key>tcaron</key>
@@ -9510,7 +9147,7 @@
     <key>tbar</key>
     <dict>
       <key>f</key>
-      <integer>-44</integer>
+      <integer>-43</integer>
       <key>t</key>
       <integer>0</integer>
       <key>tbar</key>
@@ -9544,7 +9181,7 @@
     <key>tcedilla</key>
     <dict>
       <key>f</key>
-      <integer>-44</integer>
+      <integer>-43</integer>
       <key>t</key>
       <integer>0</integer>
       <key>tbar</key>
@@ -9559,7 +9196,7 @@
     <key>tcommaaccent</key>
     <dict>
       <key>f</key>
-      <integer>-44</integer>
+      <integer>-43</integer>
       <key>t</key>
       <integer>0</integer>
       <key>tbar</key>
@@ -9584,6 +9221,11 @@
     <dict>
       <key>public.kern2.quotedblleft</key>
       <integer>-128</integer>
+    </dict>
+    <key>thorn</key>
+    <dict>
+      <key>lslash</key>
+      <integer>0</integer>
     </dict>
     <key>three</key>
     <dict>
@@ -9642,13 +9284,13 @@
     <key>uhornacute</key>
     <dict>
       <key>T</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Tbar</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Tcaron</key>
-      <integer>-60</integer>
+      <integer>-65</integer>
       <key>Tcommaaccent</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Y</key>
       <integer>-105</integer>
       <key>Yacute</key>
@@ -9676,34 +9318,18 @@
       <key>jcircumflex</key>
       <integer>59</integer>
       <key>uni021A</key>
-      <integer>-60</integer>
-      <key>y</key>
-      <integer>0</integer>
-      <key>yacute</key>
-      <integer>0</integer>
-      <key>ycircumflex</key>
-      <integer>0</integer>
-      <key>ydieresis</key>
-      <integer>0</integer>
-      <key>ydotbelow</key>
-      <integer>0</integer>
-      <key>ygrave</key>
-      <integer>0</integer>
-      <key>yhookabove</key>
-      <integer>0</integer>
-      <key>ytilde</key>
-      <integer>0</integer>
+      <integer>-67</integer>
     </dict>
     <key>uhorndotbelow</key>
     <dict>
       <key>T</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Tbar</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Tcaron</key>
-      <integer>-60</integer>
+      <integer>-65</integer>
       <key>Tcommaaccent</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Y</key>
       <integer>-105</integer>
       <key>Yacute</key>
@@ -9731,34 +9357,18 @@
       <key>jcircumflex</key>
       <integer>59</integer>
       <key>uni021A</key>
-      <integer>-60</integer>
-      <key>y</key>
-      <integer>0</integer>
-      <key>yacute</key>
-      <integer>0</integer>
-      <key>ycircumflex</key>
-      <integer>0</integer>
-      <key>ydieresis</key>
-      <integer>0</integer>
-      <key>ydotbelow</key>
-      <integer>0</integer>
-      <key>ygrave</key>
-      <integer>0</integer>
-      <key>yhookabove</key>
-      <integer>0</integer>
-      <key>ytilde</key>
-      <integer>0</integer>
+      <integer>-67</integer>
     </dict>
     <key>uhorngrave</key>
     <dict>
       <key>T</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Tbar</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Tcaron</key>
-      <integer>-60</integer>
+      <integer>-65</integer>
       <key>Tcommaaccent</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Y</key>
       <integer>-105</integer>
       <key>Yacute</key>
@@ -9786,34 +9396,18 @@
       <key>jcircumflex</key>
       <integer>59</integer>
       <key>uni021A</key>
-      <integer>-60</integer>
-      <key>y</key>
-      <integer>0</integer>
-      <key>yacute</key>
-      <integer>0</integer>
-      <key>ycircumflex</key>
-      <integer>0</integer>
-      <key>ydieresis</key>
-      <integer>0</integer>
-      <key>ydotbelow</key>
-      <integer>0</integer>
-      <key>ygrave</key>
-      <integer>0</integer>
-      <key>yhookabove</key>
-      <integer>0</integer>
-      <key>ytilde</key>
-      <integer>0</integer>
+      <integer>-67</integer>
     </dict>
     <key>uhorntilde</key>
     <dict>
       <key>T</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Tbar</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Tcaron</key>
-      <integer>-60</integer>
+      <integer>-65</integer>
       <key>Tcommaaccent</key>
-      <integer>-60</integer>
+      <integer>-67</integer>
       <key>Y</key>
       <integer>-105</integer>
       <key>Yacute</key>
@@ -9841,23 +9435,7 @@
       <key>jcircumflex</key>
       <integer>59</integer>
       <key>uni021A</key>
-      <integer>-60</integer>
-      <key>y</key>
-      <integer>0</integer>
-      <key>yacute</key>
-      <integer>0</integer>
-      <key>ycircumflex</key>
-      <integer>0</integer>
-      <key>ydieresis</key>
-      <integer>0</integer>
-      <key>ydotbelow</key>
-      <integer>0</integer>
-      <key>ygrave</key>
-      <integer>0</integer>
-      <key>yhookabove</key>
-      <integer>0</integer>
-      <key>ytilde</key>
-      <integer>0</integer>
+      <integer>-67</integer>
     </dict>
     <key>uhungarumlaut</key>
     <dict>
@@ -9938,8 +9516,6 @@
       <integer>30</integer>
       <key>rcaron</key>
       <integer>-129</integer>
-      <key>scaron</key>
-      <integer>-162</integer>
       <key>scircumflex</key>
       <integer>-162</integer>
       <key>seven</key>
@@ -10249,11 +9825,6 @@
     <dict>
       <key>public.kern2.T</key>
       <integer>-97</integer>
-    </dict>
-    <key>zcaron</key>
-    <dict>
-      <key>icaron</key>
-      <integer>0</integer>
     </dict>
     <key>zero.numr</key>
     <dict>

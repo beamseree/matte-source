@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="mturndescend" format="2">
-  <advance width="1789"/>
+  <advance width="1791"/>
   <unicode hex="0270"/>
-  <anchor x="893" y="1076" name="top"/>
-  <anchor x="238" y="1076" name="lfthook"/>
-  <anchor x="893" y="0" name="bottom"/>
-  <anchor x="1555" y="0" name="bottomr"/>
+  <anchor x="894" y="1076" name="top"/>
+  <anchor x="239" y="1076" name="lfthook"/>
+  <anchor x="894" y="0" name="bottom"/>
+  <anchor x="1556" y="0" name="bottomr"/>
   <outline>
     <component base="mturn"/>
-    <component base="_part.bottomr_descend" xOffset="1331"/>
+    <component base="_part.bottomr_descend" xOffset="1332"/>
   </outline>
   <lib>
     <dict>

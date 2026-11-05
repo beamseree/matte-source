@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="qhook" format="2">
-  <advance width="1273"/>
+  <advance width="1274"/>
   <unicode hex="02A0"/>
   <note>
 decomposed q + custom tail

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onehalf" format="2">
-  <advance width="1475"/>
+  <advance width="1484"/>
   <unicode hex="00BD"/>
-  <anchor x="1171" y="336" name="cross"/>
-  <anchor x="1116" y="767" name="top"/>
+  <anchor x="1177" y="336" name="cross"/>
+  <anchor x="1122" y="767" name="top"/>
   <outline>
     <component base="one.numr"/>
-    <component base="fraction" xOffset="488"/>
-    <component base="two.dnom" xOffset="764"/>
+    <component base="fraction" xOffset="492"/>
+    <component base="two.dnom" xOffset="768"/>
   </outline>
   <lib>
     <dict>

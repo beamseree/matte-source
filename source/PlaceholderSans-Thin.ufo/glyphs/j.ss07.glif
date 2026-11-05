@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="j.ss07" format="2">
-  <advance width="448"/>
+  <advance width="451"/>
   <unicode hex="E244"/>
-  <anchor x="514" y="0" name="_right"/>
-  <anchor x="199" y="-442" name="bottom"/>
-  <anchor x="227" y="605" name="cross"/>
-  <anchor x="228" y="1392" name="top"/>
+  <anchor x="516" y="0" name="_right"/>
+  <anchor x="201" y="-442" name="bottom"/>
+  <anchor x="229" y="605" name="cross"/>
+  <anchor x="230" y="1392" name="top"/>
   <outline>
     <component base="jdotless"/>
-    <component base="dotaccentcomb.ss07" xOffset="57" yOffset="-42"/>
+    <component base="dotaccentcomb.ss07" xOffset="59" yOffset="-42"/>
   </outline>
   <lib>
     <dict>

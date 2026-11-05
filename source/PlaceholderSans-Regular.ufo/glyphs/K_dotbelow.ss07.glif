@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kdotbelow.ss07" format="2">
-  <advance width="1429"/>
+  <advance width="1428"/>
   <unicode hex="E1FA"/>
   <anchor x="730" y="0" name="bottom"/>
   <anchor x="730" y="1490" name="top"/>

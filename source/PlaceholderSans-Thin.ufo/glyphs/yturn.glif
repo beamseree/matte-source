@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yturn" format="2">
-  <advance width="1063"/>
+  <advance width="1100"/>
   <unicode hex="028E"/>
-  <anchor x="774" y="1578" name="top"/>
-  <anchor x="511" y="1076" name="ogonek"/>
-  <anchor x="544" y="0" name="bottom"/>
+  <anchor x="778" y="1578" name="top"/>
+  <anchor x="515" y="1076" name="ogonek"/>
+  <anchor x="548" y="0" name="bottom"/>
   <outline>
-    <component base="y" xScale="-1.0" yScale="-1.0" xOffset="1063.0" yOffset="1076.0"/>
+    <component base="y" xScale="-1.0" yScale="-1.0" xOffset="1100.0" yOffset="1076.0"/>
   </outline>
 </glyph>

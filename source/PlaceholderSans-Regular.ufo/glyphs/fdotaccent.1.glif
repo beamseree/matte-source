@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fdotaccent.1" format="2">
-  <advance width="671"/>
+  <advance width="672"/>
   <unicode hex="EE10"/>
   <anchor x="249" y="0" name="bottom"/>
   <anchor x="249" y="768" name="cross"/>

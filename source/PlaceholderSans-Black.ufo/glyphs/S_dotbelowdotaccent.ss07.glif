@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sdotbelowdotaccent.ss07" format="2">
-  <advance width="1404"/>
+  <advance width="1405"/>
   <unicode hex="E20F"/>
   <anchor x="708" y="0" name="bottom"/>
   <anchor x="705" y="0" name="cedilla"/>

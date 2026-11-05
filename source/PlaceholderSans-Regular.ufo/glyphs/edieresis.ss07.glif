@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="edieresis.ss07" format="2">
-  <advance width="1232"/>
+  <advance width="1220"/>
   <unicode hex="E237"/>
   <guideline x="812" y="1180" angle="90"/>
   <anchor x="617" y="0" name="bottom"/>

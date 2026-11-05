@@ -2,14 +2,14 @@
 <glyph name="Y.circled" format="2">
   <advance width="2846"/>
   <unicode hex="24CE"/>
-  <anchor x="1429" y="0" name="bottom"/>
-  <anchor x="1430" y="323" name="cross"/>
-  <anchor x="1619" y="0" name="ogonek"/>
-  <anchor x="692" y="1490" name="tonos"/>
-  <anchor x="1425" y="1490" name="top"/>
+  <anchor x="1427" y="0" name="bottom"/>
+  <anchor x="1428" y="323" name="cross"/>
+  <anchor x="1617" y="0" name="ogonek"/>
+  <anchor x="690" y="1490" name="tonos"/>
+  <anchor x="1423" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="Y" xOffset="644"/>
+    <component base="Y" xOffset="642"/>
   </outline>
   <lib>
     <dict>

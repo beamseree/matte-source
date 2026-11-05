@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="mdotbelow" format="2">
-  <advance width="1789"/>
+  <advance width="1791"/>
   <unicode hex="1E43"/>
-  <anchor x="895" y="0" name="bottom"/>
-  <anchor x="1551" y="0" name="lfthook"/>
-  <anchor x="895" y="1076" name="top"/>
+  <anchor x="896" y="0" name="bottom"/>
+  <anchor x="1552" y="0" name="lfthook"/>
+  <anchor x="896" y="1076" name="top"/>
   <outline>
     <component base="m"/>
-    <component base="dotbelow" xOffset="723"/>
+    <component base="dotbelow" xOffset="724"/>
   </outline>
 </glyph>

@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tbar" format="2">
-  <advance width="762"/>
+  <advance width="761"/>
   <unicode hex="0167"/>
-  <anchor x="425" y="0" name="bottom"/>
-  <anchor x="478" y="0" name="cedilla"/>
-  <anchor x="682" y="7" name="lfthook"/>
-  <anchor x="326" y="1384" name="top"/>
-  <anchor x="525" y="1562" name="raccent"/>
+  <anchor x="424" y="0" name="bottom"/>
+  <anchor x="477" y="0" name="cedilla"/>
+  <anchor x="681" y="7" name="lfthook"/>
+  <anchor x="325" y="1384" name="top"/>
+  <anchor x="524" y="1562" name="raccent"/>
   <outline>
     <contour>
-      <point x="649" y="716" type="line"/>
-      <point x="61" y="716" type="line"/>
-      <point x="61" y="555" type="line"/>
-      <point x="649" y="555" type="line"/>
+      <point x="648" y="716" type="line"/>
+      <point x="60" y="716" type="line"/>
+      <point x="60" y="555" type="line"/>
+      <point x="648" y="555" type="line"/>
     </contour>
     <component base="t"/>
   </outline>

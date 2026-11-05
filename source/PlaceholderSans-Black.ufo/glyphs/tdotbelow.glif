@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdotbelow" format="2">
-  <advance width="836"/>
+  <advance width="837"/>
   <unicode hex="1E6D"/>
-  <anchor x="453" y="0" name="bottom"/>
-  <anchor x="497" y="0" name="cedilla"/>
-  <anchor x="776" y="15" name="lfthook"/>
-  <anchor x="362" y="1384" name="top"/>
-  <anchor x="707" y="1562" name="raccent"/>
+  <anchor x="454" y="0" name="bottom"/>
+  <anchor x="498" y="0" name="cedilla"/>
+  <anchor x="777" y="15" name="lfthook"/>
+  <anchor x="363" y="1384" name="top"/>
+  <anchor x="708" y="1562" name="raccent"/>
   <outline>
     <component base="t"/>
-    <component base="dotbelow" xOffset="105"/>
+    <component base="dotbelow" xOffset="106"/>
   </outline>
 </glyph>

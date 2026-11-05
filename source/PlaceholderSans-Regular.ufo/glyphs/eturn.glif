@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eturn" format="2">
-  <advance width="1232"/>
+  <advance width="1220"/>
   <unicode hex="01DD"/>
-  <anchor x="624" y="1076" name="top"/>
-  <anchor x="626" y="0" name="cedilla"/>
-  <anchor x="780" y="1" name="ogonek"/>
-  <anchor x="624" y="0" name="bottom"/>
+  <anchor x="612" y="1076" name="top"/>
+  <anchor x="614" y="0" name="cedilla"/>
+  <anchor x="768" y="1" name="ogonek"/>
+  <anchor x="612" y="0" name="bottom"/>
   <outline>
-    <component base="e" xScale="-1.0" yScale="-1.0" xOffset="1232.0" yOffset="1076.0"/>
+    <component base="e" xScale="-1.0" yScale="-1.0" xOffset="1220.0" yOffset="1076.0"/>
   </outline>
 </glyph>

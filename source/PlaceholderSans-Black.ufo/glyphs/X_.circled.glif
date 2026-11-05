@@ -2,13 +2,13 @@
 <glyph name="X.circled" format="2">
   <advance width="2846"/>
   <unicode hex="24CD"/>
-  <anchor x="1423" y="-6" name="bottom"/>
-  <anchor x="1423" y="744" name="cross"/>
-  <anchor x="2129" y="0" name="cyrtic"/>
-  <anchor x="1423" y="1490" name="top"/>
+  <anchor x="1421" y="-6" name="bottom"/>
+  <anchor x="1421" y="744" name="cross"/>
+  <anchor x="2127" y="0" name="cyrtic"/>
+  <anchor x="1421" y="1490" name="top"/>
   <outline>
     <component base="largeCircle"/>
-    <component base="X" xOffset="583"/>
+    <component base="X" xOffset="581"/>
   </outline>
   <lib>
     <dict>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="g.sups" format="2">
-  <advance width="825"/>
+  <advance width="829"/>
   <unicode hex="1D4D"/>
   <anchor x="393" y="690" name="bottom"/>
   <anchor x="659" y="1207" name="cross"/>

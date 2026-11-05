@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcedilla" format="2">
-  <advance width="762"/>
+  <advance width="761"/>
   <unicode hex="0163"/>
-  <anchor x="425" y="0" name="bottom"/>
-  <anchor x="478" y="0" name="cedilla"/>
-  <anchor x="682" y="7" name="lfthook"/>
-  <anchor x="326" y="1384" name="top"/>
-  <anchor x="525" y="1562" name="raccent"/>
+  <anchor x="424" y="0" name="bottom"/>
+  <anchor x="477" y="0" name="cedilla"/>
+  <anchor x="681" y="7" name="lfthook"/>
+  <anchor x="325" y="1384" name="top"/>
+  <anchor x="524" y="1562" name="raccent"/>
   <outline>
     <component base="t"/>
-    <component base="cedillacomb" xOffset="232"/>
+    <component base="cedillacomb" xOffset="231"/>
   </outline>
   <lib>
     <dict>
