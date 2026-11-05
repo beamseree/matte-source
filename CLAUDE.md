@@ -5,7 +5,7 @@ to the user's own mockup, `reference/mockup.svg`. Working family name "Placehold
 the real name is still to be chosen. The folder name "aumo-font" is not the font name.
 See README.md for the file layout, setup and commands.
 
-## Status (2026-10-28)
+## Status (2026-11-04)
 
 - **Regular** is fitted to `reference/mockup.svg` (fit report: ink error mean 1.0 units,
   since the redraws below, the new f, t, P, C/G/S/s terminals and i/j dots, and c's wider
@@ -216,6 +216,21 @@ See README.md for the file layout, setup and commands.
   likes collide at 800–900 until kerning.py was rerun. Still open from the audit: see its
   README (sups and small caps, separately drawn Cyrillic and Greek, hooked letters, a heavier
   Black, Thin's contrast ...).
+- **The quotes and comma are 15% shorter (Thin 8%)** (`tools/quotes.py`, see Decisions).
+  They were Inter's long wedges: at 400, scaled to our cap height, ’ was 569 units long
+  against 20 sans-serifs' median 506 (longer than 15 of them) and ended 155 below the
+  x-height (the median 65), and the comma reached 88% of the way down to p's descender (the
+  median 70%; only Source Sans 3's hung lower), at 900 102%, 9 units below p. Now ’ is 487
+  and ends 73 below the x-height, and the comma reaches 68% (78% at 900; median 86%). In
+  the masters ’ ends at 1076 / 996 / 923 (was 1040 / 909 / 823) and the comma at −262 /
+  −286 / −327 (was −298 / −373 / −427); heads, tails and lean are unchanged. The quotes'
+  sides were refitted, so their tops sit 4 / 9–11 / 11–18 units further left (Thin /
+  Regular / Black; ’ and the comma's head 4 / 9 / 11), and ’ ‘ and the comma are 0–2
+  units narrower in Thin and Regular and 7–8 in Black (“ ” „ 14–16); the semicolon's dot
+  followed the comma's head (stacked.py's `HEADS`), and only quote pairs' kerning changed
+  (7 / 9 / 16 pairs).
+  The comma still has 2.07 times the period's ink at 400 (the others 1.49–2.06), since our
+  period is the i dot's size; its head is 0.86 of the period's width, as in the others.
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -415,6 +430,24 @@ See README.md for the file layout, setup and commands.
   accents.py. `to_ufo.py` runs it after joints.py, with Regular before Black. ʃ and ʄ are built
   on ∫ and keep its heavier Black stem; k.base (inside ƙ) and the descender ticks shared with
   the capitals (`_part.cyrtic` ...) were left as they are.
+- The quotes are shorter than Inter's, at other text faces' median length: `tools/quotes.py`
+  moves the bottom edge of each of ’ ‘ ' (one 4-point wedge from the cap height down) to
+  `BOTTOM` (1076 / 996 / 923, Thin / Regular / Black; Inter's were 1040 / 909 / 823),
+  keeping the edge's width, with its middle sliding along the line from the top edge's
+  middle, so each wedge keeps its head, tail and lean. The comma, ‚ „ “ ” " ‛ ‟, the
+  semicolon's comma and comma.tf, .numr and .dnom are built on these and follow; the comma's
+  head stays at its height. The foot's outer corner moves right (19 units in Regular),
+  so spacing.py's `SIDES` for the quotes were refitted (`--fit`; nothing else moved).
+  Measured against 20 sans-serifs at one cap height (Inter, Nimbus Sans for Helvetica, Plus
+  Jakarta Sans, Geist, Public Sans, Work Sans, Roboto, IBM Plex Sans, DM Sans, Manrope,
+  Figtree, Instrument Sans, Hanken Grotesk, Source Sans 3, Open Sans, Onest, Schibsted
+  Grotesk, Albert Sans, Outfit, Geologica; SF Pro, Helvetica Neue and Graphik weren't to
+  hand), our heads were ordinary (1.08 times the stem at 400, the median 1.17) but the
+  lengths long, so only the length changed. The user chose "−15%" (Thin 8%, since Thin was
+  nearer the others' Thin) over −10% and −20%, set in text on a comparison page. The
+  alternates (quoteright.ss03 and the round set, the .ss08 square set, comma.ss07) are
+  drawn apart and keep Inter's lengths. `to_ufo.py` runs it after xheight.py and before
+  spacing.py; run on its own, it runs spacing.py after.
 - t's and f's crossbars stay apart through kerning, not shorter bars (the bars' reach
   is the mockups'): `tools/kern.py` sets glyph-to-glyph pairs tt, tf, ft and ff to leave
   `BAR_GAP` (60) between the bars in every master, on top of Inter's group kerning.
@@ -448,8 +481,10 @@ See README.md for the file layout, setup and commands.
   circled and squared forms' letters, figures and signs off centre by up to 124 units,
   and changed those glyphs' widths by up to 262. `tools/stacked.py` moves each later
   part of the semicolons, colon.ss07, ⁑, ʘ, Ͼ, Ͽ and every .circled and .squared glyph
-  so that its ink centre sits as far from the first part's as in Inter, and makes the
-  width the first part's plus Inter's difference (the semicolon is the comma's plus 8 /
+  so that its ink centre sits as far from the first part's as in Inter (the comma's
+  centre is its head's, `HEADS`: since quotes.py shortened it, its ink's centre has moved
+  against its head, and the dot had stayed 4 / 9 / 11 units right of where it sat), and
+  makes the width the first part's plus Inter's difference (the semicolon is the comma's plus 8 /
   28 / 10, so it got 44 / 47 units wider in Thin / Regular, 25 narrower in Black; each
   circled form is its circle's width). Glyphs built on one of these alone follow its
   width. The colon is dots.py's; accented letters follow their anchors and are left
