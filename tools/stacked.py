@@ -12,7 +12,8 @@ For each glyph in STACKED (ǂ's crossbars had moved 52 and 83 units apart) and e
 .circled and .squared glyph, the first component
 stays, and each other part (a component, or the glyph's own contours together) moves so
 that its ink centre sits as far from the first component's as in Inter's text-size
-masters. The width becomes the first component's plus Inter's difference. Anchors that
+masters. The comma (HEADS) is measured by its head, the middle of its top edge: it is
+shorter than Inter's (tools/quotes.py), so its ink's centre has moved against its head. The width becomes the first component's plus Inter's difference. Anchors that
 came from a moved component move with it. Glyphs built on one of these from that glyph
 alone follow its width, and a mirrored one moves with it. Parts only move, so the masters
 stay compatible. tools/dots.py centres the colon's dots, and letters with accents follow
@@ -41,6 +42,10 @@ import tabular  # noqa: E402
 
 STACKED = ["semicolon", "semicolon.ss03", "semicolon.ss07", "colon.ss07", "uni2051",
            "bullseye", "uni03FE", "uni03FF", "pipedblbar"]
+# Parts placed by their head, the middle of their top edge, rather than their ink's centre:
+# our comma is shorter than Inter's (tools/quotes.py), so its ink's centre sits further
+# right of its head than Inter's does, and the semicolon's dot would sit right of the head.
+HEADS = {"comma"}
 
 _inter = {}
 
@@ -57,9 +62,20 @@ def centre(glyph_set, draw):
     return (bp.bounds[0] + bp.bounds[2]) / 2
 
 
+def head(glyph_set, draw):
+    """The middle of the top edge (the points at the greatest height)."""
+    rec = DecomposingRecordingPen(glyph_set)
+    draw(rec)
+    points = [p for _, args in rec.value for p in args if p is not None]
+    top = max(y for _, y in points)
+    xs = [x for x, y in points if y == top]
+    return (min(xs) + max(xs)) / 2
+
+
 def parts(glyph_set, components, contours):
-    """Ink centre of each component, then of the contours (all together), if any."""
-    out = [centre(glyph_set, lambda pen, c=c: pen.addComponent(*c)) for c in components]
+    """Ink centre of each component (HEADS: its head), then of the contours together, if any."""
+    out = [(head if c[0] in HEADS else centre)(glyph_set, lambda pen, c=c: pen.addComponent(*c))
+           for c in components]
     if contours:
         out.append(centre(glyph_set, lambda pen: [c.draw(pen) for c in contours]))
     return out

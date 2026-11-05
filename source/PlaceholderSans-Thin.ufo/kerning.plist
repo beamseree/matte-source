@@ -8039,7 +8039,7 @@
       <key>public.kern2.v</key>
       <integer>-104</integer>
       <key>public.kern2.y</key>
-      <integer>-114</integer>
+      <integer>-117</integer>
       <key>tecyrillic</key>
       <integer>-104</integer>
     </dict>
@@ -8053,13 +8053,13 @@
       <integer>-128</integer>
       <key>decyrillic</key>
       <integer>-116</integer>
-      <key>ibreve</key>
-      <integer>0</integer>
       <key>icaron</key>
       <integer>0</integer>
       <key>icircumflex</key>
       <integer>0</integer>
       <key>idieresis</key>
+      <integer>0</integer>
+      <key>iotadieresis</key>
       <integer>0</integer>
       <key>jcircumflex</key>
       <integer>0</integer>
@@ -8075,8 +8075,6 @@
       <integer>-174</integer>
       <key>public.kern2.four</key>
       <integer>-128</integer>
-      <key>public.kern2.iotadieresisgreek</key>
-      <integer>0</integer>
       <key>public.kern2.o</key>
       <integer>-90</integer>
       <key>public.kern2.questiondown</key>
@@ -8107,8 +8105,6 @@
       <key>icaron</key>
       <integer>0</integer>
       <key>idieresis</key>
-      <integer>0</integer>
-      <key>jcircumflex</key>
       <integer>0</integer>
       <key>less</key>
       <integer>-197</integer>
@@ -8147,7 +8143,7 @@
       <key>public.kern2.hyphen</key>
       <integer>-128</integer>
       <key>public.kern2.iotadieresisgreek</key>
-      <integer>-59</integer>
+      <integer>-63</integer>
       <key>public.kern2.m</key>
       <integer>-43</integer>
       <key>public.kern2.nine.1</key>
@@ -8175,7 +8171,7 @@
       <key>public.kern2.v</key>
       <integer>29</integer>
       <key>public.kern2.y</key>
-      <integer>5</integer>
+      <integer>29</integer>
       <key>rho</key>
       <integer>-128</integer>
       <key>theta</key>
