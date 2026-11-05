@@ -298,10 +298,13 @@ See README.md for the file layout, setup and commands.
   at the centre, Thin's Inter tail already 40% of the way); before/after and ⅓ / ½ / ⅔
   options in `build/q-tail-compare/` (`?options`), and a first try that pulled in the
   outer end instead was not what the user meant. The outer end then reaches further
-  below the baseline (`Q_TAIL_DEPTH`): its lowest corner is 100 / 140 / 93 below it
-  (Regular / Thin / Black; the mockups' 85 and 87, Thin's Inter tail 140), a quarter of
-  the way to Inter's depths (140 / 140 / 110) with Regular's rounded to 100. The width,
-  angle and the mockups' square-on end cuts stay. The user compared flat (Inter-like) end
+  below the baseline (`Q_TAIL_DEPTH`): its lowest corner is 100 below it in Regular and
+  Thin and 93 in Black (the mockups' 85 and 87, Thin's Inter tail 140), a quarter of the
+  way to Inter's depths (140 / 140 / 110) with Regular's rounded to 100, and Thin brought
+  up to Regular's at the user's request, so the tail keeps one depth from 100 to 430
+  (`build/q-tail-compare/thin.html`). The width, angle and end cuts stay: the mockups'
+  square-on cuts in Regular and Black, Inter's flat ones in Thin (at 46 units the two
+  differ by about 30 units at the corners). The user compared flat (Inter-like) end
   cuts and depths out to SF Pro's (about 175 / 120, measured from a screenshot) in the
   artifact https://claude.ai/artifact/NkCNmkHqVyEnNf7CQ29usS and `build/q-tail-compare/`
   (cuts.html, depth.html): with flat cuts our heavier, shallower tail sticks out past the

@@ -169,9 +169,10 @@ Q_TAIL_START = 0.5
 # Q's tail also reaches further below the baseline than the mockups' (85 in Regular, 87 in
 # Black), at the user's request: its outer end is moved along the tail, keeping its cut,
 # until the lowest corner is Q_TAIL_DEPTH below the baseline. The user chose a quarter of
-# the way to Inter's depths (140 / 140 / 110), with Regular's rounded to 100. Thin's
-# (Inter's own tail) stays at 140. None keeps a master's depth as it is.
-Q_TAIL_DEPTH = {"Thin": 140, "Regular": 100, "Black": 93}
+# the way to Inter's depths (140 / 140 / 110), with Regular's rounded to 100, and Thin's
+# (Inter's own tail, 140 deep) brought up to Regular's so the tail doesn't shorten from 100
+# to 430. None keeps a master's depth as it is.
+Q_TAIL_DEPTH = {"Thin": 100, "Regular": 100, "Black": 93}
 
 # Masters without a POLYGONS entry (Thin) keep their own strokes: these contours' curved
 # joints become flat notches THIN_NOTCH wide where their edges meet.
