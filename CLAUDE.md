@@ -266,18 +266,29 @@ See README.md for the file layout, setup and commands.
     every other pair (see Decisions), which brings them within 3 units: 68 / 78 / 30 pairs
     changed (Thin / Regular / Black), Regular ny −65 → −29 (nv −30), Ay −157 → −137; no
     overlaps, spacing unchanged. The user chose to fix this first.
+  - **Fixed: P and F before . and ,** (55–59 loose in Regular, 87–99 in Thin; T and V 23–33
+    in Regular): Inter's values for a shorter P bowl and the mockups' F arms, which
+    kerning.py kept since it didn't refit punctuation pairs to shapes. Letters before the
+    period/comma group (`BASELINE`, see Decisions) now take the shape change less the
+    group's median. Regular P. P, F. F, T. T, V. V, now 16 / 8 / 15 / 9 / 6 / 9 / 14 / 13 by
+    the audit's measure (P|, −81 → −132, P|. −69 → −111); v, w, and Black's W, r, f, came
+    within 6. "f," went from 0 to 10 loose in Regular (14 in Thin), the one pair that moved
+    the wrong way. Thin's capitals before . , stay 37–58 loose, D. and Y. as much as P. now:
+    Thin's punctuation against capitals, not one letter's shape. Black's were already right
+    and kept their values.
+  - **Fixed: S before v w x y t f** (46–56 loose in Regular, 34–57 in Black, from
+    reshape.py's S curves; Inter has no kerning there): new pairs (`ADD`) from 0 with the
+    shape change, Regular −44 to −55, Black −35 to −61, Thin 0; all within 3 units now.
+    These two fixes changed 36 / 31 / 14 entries (Thin / Regular / Black); no overlaps,
+    and the spacing and the gap error against the mockups are unchanged.
 
   Open, for the user to decide:
   - **Apostrophes after lowercase opened up with the shorter quotes**: Regular n’ s’ e’ ’s
     ’d 34–65 looser than before quotes.py (’s from 31 tight to 34 loose), Black o’ e’ c’
     about 37, Thin k’ g’ 100–180: Inter's −40 to −157 were for its long tail, and
-    kerning.py keeps Inter's values for punctuation pairs. The heads didn't move, so judge
-    by eye.
-  - **P and F before . and ,** 55–59 loose in Regular, 87–99 in Thin (V, T, 25–30 in
-    Regular): Inter's −69 for a shorter P bowl and the mockups' F arms.
-  - **S before v w x y t f** 46–61 loose in Regular, 34–59 in Black (reshape.py's S curves;
-    Inter has no kerning there). Also by eye: Fa in Regular (−91 by the measure; kerning
-    −7, Inter −50) and Ti, Tj in Thin (+90, probably the lowered i dot).
+    kerning.py keeps Inter's values for quote pairs. The heads didn't move, so judge by
+    eye. Also by eye: Fa in Regular (−91 by the measure; kerning −7, Inter −50) and Ti, Tj
+    in Thin (+90, probably the lowered i dot).
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
@@ -627,8 +638,21 @@ See README.md for the file layout, setup and commands.
   is fuller, so it takes v's pairs, each refitted on y itself like any other pair (Inter
   kerns y in v's group, so Inter's x|y is its x|v): Regular A–y −137, A–v −139, n–y −29,
   n–v −30. It had taken v's refitted value plus whatever kept x|y's gap equal to x|v's,
-  which undid y's own left side once spacing.py opened it (ny −65, 30 units tight). With
-  each glyph's own spacing factored out, the
+  which undid y's own left side once spacing.py opened it (ny −65, 30 units tight).
+  Letters before the period/comma group (`BASELINE`) take the shape change too, less the
+  group's median change over the same letters, added to the pair's value where it comes to
+  `THRESHOLD`: every pair shares what the punctuation's own redesign did to the measure
+  (quotes.py's shorter comma moved every Black comma pair about +12, which would have
+  loosened D, F, J, P and T there), and what is left is the letter's. Inter's exceptions
+  against one glyph of the group (P and F against the period, P, F and v against the
+  ellipsis) are measured on that glyph, less its own median over the same letters. `ADD`
+  adds pairs Inter doesn't kern that our reshaped letters need (S's group against v, w, x,
+  y, t and f), from 0 with the shape change. Neither is clipped (`CLIP` guards the
+  automatic refit against one close point; here the audit's pair terms agree pair by pair,
+  and at 40 P. would have stayed 19 loose). The median over Inter's comma pairs suits the
+  lowercase better than one over all 52 letters (which tightens r, by 14 where the audit
+  has it right); the capitals come out the same either way. With each glyph's own spacing
+  factored out, the
   model's kerning matches Inter's within about 15 units for F's, Y's and the diagonals'
   pairs, so the audit's tight F and Black-Y pairs are spacing (see `ASIDE`), not kerning.
   Then `clear` sets every text glyph (`SCRIPTS`, `MARKS`) against its own script's

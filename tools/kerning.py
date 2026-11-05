@@ -17,7 +17,11 @@ measure has too little to go on). That change is held to CLIP: one close point (
 top terminal at F's middle arm, where Inter's sits above it) moves it a lot. A change under
 THRESHOLD keeps Inter's value. Greek and Cyrillic pairs are refitted the same way (Inter's
 values for ТЛ, ГЛ and ТД had stayed unscaled). y's kerning group is split from v's (SPLIT):
-its left side is fuller, so it takes v's pairs, each refitted on y itself.
+its left side is fuller, so it takes v's pairs, each refitted on y itself. Letters before the
+period and comma (BASELINE) take the shape change too, less their group's median change
+(which is the comma's own redesign, shared by every pair), and ADD adds pairs Inter doesn't
+kern but our reshaped letters need (S before v w x y t f), both without CLIP: the audit's
+pair terms agree with them pair by pair.
 
 Then every letter text uses (accented, Vietnamese, Greek and Cyrillic too) is set against
 every other of its script, and against the figures and punctuation (and the punctuation's
@@ -74,6 +78,19 @@ DEFAULT = 430                    # the Regular master's weight
 # whatever kept x|y's gap equal to x|v's undid y's own sidebearing: when spacing.py opened
 # y's left 31 units (ASIDE's "zy"), ny went from -34 to -65 and stayed 30 units tight.
 SPLIT = {"public.kern2.y": ("public.kern2.v", "y")}
+
+# Punctuation groups whose pairs with letters take the shape change too, measured against the
+# group's own median change: the pairs share whatever the punctuation's own redesign did to
+# the measure (quotes.py shortened the comma, so every Black comma pair moved about +12), and
+# what is left is the letter's. P's shorter bowl (reshape.py) and F's mockup arms made P. P,
+# F. F, 55-59 units loose in Regular (87-99 in Thin) under Inter's -69, T, and V, 25-30.
+BASELINE = ("public.kern2.comma",)          # . , and the ellipsis
+
+# Pairs Inter doesn't kern that our reshaped letters need, {left group: right groups}: each
+# starts from Inter's 0 and takes the shape change, like any letter pair. reshape.py gave S
+# the mockups' curves in Regular and Black, and Sv Sw Sx Sy St Sf came out 34-61 units loose.
+ADD = {"public.kern1.S": ("public.kern2.v", "public.kern2.w", "public.kern2.x", "public.kern2.y",
+                          "public.kern2.t", "public.kern2.f")}
 
 # Glyphs drawn to join their neighbours, which the clearance leaves touching each other.
 DASHES = ("hyphen", "endash", "emdash", "hyphen.case", "endash.case", "emdash.case")
@@ -288,21 +305,31 @@ def refit(ufo, master, ours):
     depth, lam = CAL[master]
     k = scales(ufo, master)
 
-    def one(left, right, value):
+    def parts(left, right, value):
+        """(Inter's value scaled to our spacing, LAMBDA times the change in how the shapes meet
+        or None, whether both are letters sharing OVERLAP of their height), measured on the
+        key glyphs; None where either is missing here or in Inter."""
         if not all(n in ufo or n in ufo.groups for n in (left, right)):
-            return value
+            return None
         a, b = key_glyph(ufo, left), key_glyph(ufo, right)
         ca, cb = char(ufo, a), char(ufo, b)
         if a not in theirs.glyphs or b not in theirs.glyphs:
-            return value
+            return None
         o, t = measures(ours, a, b, depth), measures(theirs, a, b, depth)
         cases = [k[c] for c in (case(ca), case(cb)) if c]
         s = sum(cases) / len(cases) if cases else k["lower"]
-        new = s * value
-        if o and t:
-            if all(case(c) in ("upper", "lower") for c in (ca, cb)) and shared(ours, a, b) >= OVERLAP:
-                change = lam * (s * (t[1] - t[0]) - (o[1] - o[0]))
-                new += max(-CLIP, min(CLIP, change))
+        change = lam * (s * (t[1] - t[0]) - (o[1] - o[0])) if o and t else None
+        letters = (change is not None and all(case(c) in ("upper", "lower") for c in (ca, cb))
+                   and shared(ours, a, b) >= OVERLAP)
+        return s * value, change, letters
+
+    def one(left, right, value):
+        p = parts(left, right, value)
+        if p is None:
+            return value
+        new, change, letters = p
+        if letters:
+            new += max(-CLIP, min(CLIP, change))
         return new
 
     out = {}
@@ -322,6 +349,44 @@ def refit(ufo, master, ours):
                 continue
             pair = (split_group, right) if side == 0 else (left, split_group)
             out[pair] = round(one(key, right, value) if side == 0 else one(left, key, value))
+    # Letters before BASELINE's groups: the shape change less the group's median change, added
+    # to the pair's value where it comes to THRESHOLD, with no CLIP (the audit's own pair terms
+    # agree with it pair by pair). Pairs with nothing of their own keep their value exactly.
+    # Inter's exceptions against one glyph of the group (P and F against the period) are
+    # measured on that glyph, less its own median over the same letters.
+    def letter(name):
+        return case(char(ufo, key_glyph(ufo, name))) in ("upper", "lower")
+
+    for group in BASELINE:
+        members = set(ufo.groups.get(group, ()))
+        lefts = {}
+        for (left, right), value in pairs.items():
+            if right == group and (left, right) not in kern.PAIRS and letter(left):
+                p = parts(left, right, value)
+                if p and p[1] is not None:
+                    lefts[left] = p[1]
+        if not lefts:
+            continue
+        found = {(left, group): change for left, change in lefts.items()}
+        middle = {group: float(np.median(list(lefts.values())))}
+        for (left, right), value in pairs.items():
+            if right in members and (left, right) not in kern.PAIRS and letter(left):
+                p = parts(left, right, value)
+                if p and p[1] is not None:
+                    if right not in middle:
+                        own = [q[1] for q in (parts(l, right, 0) for l in lefts) if q and q[1] is not None]
+                        middle[right] = float(np.median(own))
+                    found[(left, right)] = p[1]
+        for (left, right), change in found.items():
+            if abs(change - middle[right]) >= THRESHOLD:
+                out[(left, right)] = round(out[(left, right)] + change - middle[right])
+    # ADD's pairs, from Inter's 0, with no CLIP for the same reason.
+    for left, rights in ADD.items():
+        for right in rights:
+            p = parts(left, right, 0)
+            if p and p[2]:
+                new = round(p[1])
+                out[(left, right)] = new if abs(new) >= THRESHOLD else 0
     return out
 
 

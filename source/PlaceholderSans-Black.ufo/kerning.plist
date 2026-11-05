@@ -1482,7 +1482,7 @@
       <key>public.kern2.Z</key>
       <integer>-81</integer>
       <key>public.kern2.comma</key>
-      <integer>-231</integer>
+      <integer>-220</integer>
       <key>public.kern2.quotedblbase</key>
       <integer>-283</integer>
       <key>public.kern2.quotedblleft</key>
@@ -1500,7 +1500,7 @@
       <key>public.kern2.colon</key>
       <integer>-81</integer>
       <key>public.kern2.comma</key>
-      <integer>-192</integer>
+      <integer>-214</integer>
       <key>public.kern2.x</key>
       <integer>-139</integer>
       <key>public.kern2.z</key>
@@ -2230,7 +2230,7 @@
       <key>odieresis</key>
       <integer>-284</integer>
       <key>public.kern2.comma</key>
-      <integer>-69</integer>
+      <integer>-59</integer>
     </dict>
     <key>Ygrave</key>
     <dict>
@@ -3315,7 +3315,7 @@
     <key>gamma1</key>
     <dict>
       <key>public.kern2.comma</key>
-      <integer>-165</integer>
+      <integer>-178</integer>
     </dict>
     <key>germandbls</key>
     <dict>
@@ -6350,10 +6350,22 @@
       <integer>-31</integer>
       <key>public.kern2.X</key>
       <integer>-30</integer>
+      <key>public.kern2.f</key>
+      <integer>-42</integer>
       <key>public.kern2.four.subs</key>
       <integer>-121</integer>
       <key>public.kern2.idieresis</key>
       <integer>93</integer>
+      <key>public.kern2.t</key>
+      <integer>-41</integer>
+      <key>public.kern2.v</key>
+      <integer>-54</integer>
+      <key>public.kern2.w</key>
+      <integer>-35</integer>
+      <key>public.kern2.x</key>
+      <integer>-44</integer>
+      <key>public.kern2.y</key>
+      <integer>-61</integer>
     </dict>
     <key>public.kern1.T</key>
     <dict>
@@ -6838,7 +6850,7 @@
       <key>public.kern2.colon</key>
       <integer>-115</integer>
       <key>public.kern2.comma</key>
-      <integer>-217</integer>
+      <integer>-202</integer>
       <key>public.kern2.four</key>
       <integer>-69</integer>
       <key>public.kern2.four.subs</key>
@@ -6936,7 +6948,7 @@
       <key>dz</key>
       <integer>-129</integer>
       <key>ellipsis</key>
-      <integer>-217</integer>
+      <integer>-205</integer>
       <key>eturn</key>
       <integer>-132</integer>
       <key>iacute</key>
@@ -7409,7 +7421,7 @@
       <key>public.kern2.bullet</key>
       <integer>-29</integer>
       <key>public.kern2.comma</key>
-      <integer>-127</integer>
+      <integer>-142</integer>
       <key>public.kern2.f</key>
       <integer>-90</integer>
       <key>public.kern2.four</key>
@@ -8326,7 +8338,7 @@
       <key>public.kern2.a</key>
       <integer>-52</integer>
       <key>public.kern2.comma</key>
-      <integer>-140</integer>
+      <integer>-164</integer>
       <key>public.kern2.deltagreek</key>
       <integer>-81</integer>
       <key>public.kern2.eight.sups</key>
