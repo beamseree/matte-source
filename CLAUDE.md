@@ -264,7 +264,7 @@ See README.md for the file layout, setup and commands.
     Inter kerns against v took it back (Regular ny −34 → −65). ny my hy ay are 30 tight in
     Regular (Black 32–40, Thin 46–58), ey oy 22. Measuring y's pairs on y itself, as every
     other pair (`one(left, key, value)` in the SPLIT loop), brings them within 3 units
-    (78 / 68 / 30 pairs change in Thin / Regular / Black; the overlap check passes).
+    (68 / 78 / 30 pairs change in Thin / Regular / Black; the overlap check passes).
   - **Apostrophes after lowercase opened up with the shorter quotes**: Regular n’ s’ e’ ’s
     ’d 34–65 looser than before quotes.py (’s from 31 tight to 34 loose), Black o’ e’ c’
     about 37, Thin k’ g’ 100–180: Inter's −40 to −157 were for its long tail, and
