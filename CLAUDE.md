@@ -255,6 +255,22 @@ See README.md for the file layout, setup and commands.
   Inter's heights (+ now on − and ='s line: it had sat 5–12 units above in Regular and
   Black). Still Inter's: the fractions' contrast (.numr/.dnom are evenly scaled, so only
   their horizontals are a little thin in Regular: 0.83 of the 0's).
+- **A small-glyphs audit (2026-11-05)**, against our own glyphs and 16–30 other sans serifs
+  at 400 and 900, found three things to fix, ranked: (1) the fraction figures (.numr,
+  .dnom, so ½ ¼ ¾ … and `frac`) are Inter's, a second design beside the superscripts: their
+  uprights heavy against their horizontals at 100–500 (0.86 / 0.76 of the 0's at 400), and
+  from 600 lighter and narrower than the superscripts (0.64 / 0.59 and width 0.99 at 900,
+  the superscripts 0.74 / 0.70 and 1.11); 15 of 16 other faces use one set of small figures
+  for both. Build them with superiors.py too. (2) The .sups/.subs keep Inter's loose
+  sidebearings (spacing.py's `SMALL`): against our defaults' sides scaled, figures 1.38–1.57
+  in Thin and Regular and 1.93–2.21 in Black, letters up to 1.79 and, in Black, s 3.05 and
+  t 4.02; the others' superscript figures are a median 1.19 at 400 and 1.23 at 900. (3) The
+  small capitals (a.sc … y.sc, so IPA ᴀ ɢ ʜ ɪ ʟ ᴍ ɴ ʀ ᴛ ʏ and Cyrillic н м ӎ я т) are Inter's
+  shapes at our x-height and stems, not our capitals'. Minor: № is Inter's drawing;
+  superscript capitals (ᴬ …), circled lowercase and ⑩–⑳, and ∕ are missing, as in Inter;
+  i.numr and n.numr (PUA, `numr`) are unused Inter drawings. Fine: the superscripts and
+  subscripts, their positions, the fraction layout, `frac`, `ordn`, ª º, the circled and
+  squared forms, coverage of the Unicode superscripts, subscripts and fractions.
 - **Hand-drawing has started**: the user lengthened the g hook in Regular and is drawing
   g and y (straight tail) in every master; keep those edits. f's top is now flat like
   the mockups' (`_part.f_base`, 12 points: flat top at 1515, the terminal cut upright at
